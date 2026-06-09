@@ -1,0 +1,4 @@
+{"file": ".trellis/spec/backend/index.md", "reason": "Backend spec index for final verification."}
+{"file": ".trellis/spec/backend/directory-structure.md", "reason": "Verify package boundary and directory cleanup against project conventions."}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "Verify required commands, stale references, and generated-cache cleanup."}
+{"file": ".trellis/spec/guides/index.md", "reason": "Shared checklist for consistency before completion."}

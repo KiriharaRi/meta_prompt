@@ -1,0 +1,5 @@
+{"file": ".trellis/spec/backend/index.md", "reason": "Backend guideline index for checking implementation against project conventions."}
+{"file": ".trellis/spec/backend/directory-structure.md", "reason": "Check package boundaries, module responsibilities, and CLI-stage placement."}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "Check tests, docs, serialized-contract compatibility, and required uv validation."}
+{"file": ".trellis/spec/guides/cross-layer-thinking-guide.md", "reason": "Check cross-layer data-flow consistency for domain-pool JSON, module-prompt JSON, CLI, scorer, and docs."}
+{"file": ".trellis/spec/guides/code-reuse-thinking-guide.md", "reason": "Check that related model/prompt/helper logic follows existing patterns without duplication."}

@@ -1,0 +1,4 @@
+{"file": ".trellis/spec/backend/index.md", "reason": "Backend spec index for cleanup task context."}
+{"file": ".trellis/spec/backend/directory-structure.md", "reason": "Defines maintained brain_region_pipeline boundary and legacy test_pipeline separation."}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "Defines cleanup validation commands, uv usage, and cache cleanup expectations."}
+{"file": ".trellis/spec/guides/index.md", "reason": "Shared pre-modification checklist and thinking triggers."}

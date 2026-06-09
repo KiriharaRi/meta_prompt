@@ -1,0 +1,541 @@
+"""Stage orchestration for the Friends multi-ROI pilot workflow."""
+
+from __future__ import annotations
+
+import os
+from argparse import Namespace
+from dataclasses import dataclass, replace
+from pathlib import Path
+from typing import Any, Sequence
+
+import h5py
+
+from ..atlas.roi_config import (
+    RoiDefinition,
+    load_roi_definitions,
+    select_roi_definitions,
+    validate_roi_definitions_against_atlas,
+)
+from ..core.config import (
+    DEFAULT_GENERATION_MODEL,
+    DEFAULT_GENERATION_PROVIDER,
+    DomainPoolConfig,
+    RegionSchemaConfig,
+    RidgeEncodingConfig,
+    ScoreDescriptionsConfig,
+    SummaryDescriptionsConfig,
+    normalize_generation_provider,
+)
+from ..core.dependencies import (
+    PipelineDependencies,
+    default_dependencies,
+)
+from ..core.io_utils import read_json, write_json, write_jsonl
+from ..encoding.runner import fit_roi_encoding_from_manifest
+from ..schema_design.domain_pool import load_domain_pool, save_domain_pool
+from ..schema_design.runner import (
+    make_domain_pool,
+    make_region_schema,
+)
+from ..scoring.runner import (
+    score_descriptions_from_file,
+)
+from ..scoring.summary_generator import summarize_descriptions_from_file
+
+
+PILOT_STAGES = (
+    "summaries",
+    "domain-pools",
+    "schemas",
+    "scoring",
+    "manifest",
+    "encoding",
+    "all",
+)
+
+
+@dataclass(frozen=True)
+class PilotEpisode:
+    """One episode sample used by the multi-ROI pilot."""
+
+    episode_id: str
+    split: str
+    descriptions: Path
+    h5_dataset: str
+
+
+@dataclass(frozen=True)
+class PilotConfig:
+    """Validated run configuration for the multi-ROI pilot."""
+
+    config_path: Path
+    roi_definitions: Path
+    atlas_labels: Path
+    h5_file: Path
+    output_root: Path
+    subject_id: str
+    rois: tuple[str, ...]
+    episodes: tuple[PilotEpisode, ...]
+    generation_provider: str
+    generation_model: str
+    proposal_runs: int
+    tr_s: float
+    scoring_batch_size: int
+    local_buffer_size: int
+    lags: tuple[int, ...]
+    alphas: tuple[float, ...]
+
+
+def _log(message: str) -> None:
+    print(f"[brain_region_pipeline] {message}", flush=True)
+
+
+def _resolve_path(raw_path: str, config_dir: Path) -> Path:
+    """Resolve paths relative to the pilot config file."""
+
+    path = Path(raw_path)
+    if path.is_absolute():
+        return path
+    return (config_dir / path).resolve()
+
+
+def _tuple_ints(values: Sequence[Any], field: str) -> tuple[int, ...]:
+    """Normalize integer lists from run config."""
+
+    parsed = tuple(int(value) for value in values)
+    if not parsed:
+        raise ValueError(f"Pilot config field {field!r} cannot be empty.")
+    if any(value < 0 for value in parsed):
+        raise ValueError(f"Pilot config field {field!r} cannot contain negative values.")
+    return parsed
+
+
+def _tuple_floats(values: Sequence[Any], field: str) -> tuple[float, ...]:
+    """Normalize positive float lists from run config."""
+
+    parsed = tuple(float(value) for value in values)
+    if not parsed:
+        raise ValueError(f"Pilot config field {field!r} cannot be empty.")
+    if any(value <= 0 for value in parsed):
+        raise ValueError(f"Pilot config field {field!r} must contain positive values.")
+    return parsed
+
+
+def load_pilot_config(path: str | Path) -> PilotConfig:
+    """Load and validate a multi-ROI pilot JSON config."""
+
+    config_path = Path(path)
+    config_dir = config_path.parent
+    payload = read_json(config_path)
+    episodes_payload = payload.get("episodes")
+    if not isinstance(episodes_payload, list) or not episodes_payload:
+        raise ValueError("Pilot config must include a non-empty episodes list.")
+    rois = tuple(str(roi_id).strip() for roi_id in payload.get("rois", []) if str(roi_id).strip())
+    if not rois:
+        raise ValueError("Pilot config must include a non-empty rois list.")
+    episodes = tuple(
+        PilotEpisode(
+            episode_id=str(item["episode_id"]).strip(),
+            split=str(item["split"]).strip(),
+            descriptions=_resolve_path(str(item["descriptions"]), config_dir),
+            h5_dataset=str(item["h5_dataset"]).strip(),
+        )
+        for item in episodes_payload
+    )
+    splits = {episode.split for episode in episodes}
+    missing = {"train", "val", "test"} - splits
+    if missing:
+        raise ValueError("Pilot config episodes are missing split(s): " + ", ".join(sorted(missing)))
+    return PilotConfig(
+        config_path=config_path,
+        roi_definitions=_resolve_path(str(payload["roi_definitions"]), config_dir),
+        atlas_labels=_resolve_path(str(payload["atlas_labels"]), config_dir),
+        h5_file=_resolve_path(str(payload["h5_file"]), config_dir),
+        output_root=_resolve_path(str(payload["output_root"]), config_dir),
+        subject_id=str(payload.get("subject_id", "sub-01")).strip(),
+        rois=rois,
+        episodes=episodes,
+        generation_provider=normalize_generation_provider(
+            str(payload.get("generation_provider", DEFAULT_GENERATION_PROVIDER)),
+        ),
+        generation_model=str(payload.get("generation_model", DEFAULT_GENERATION_MODEL)).strip(),
+        proposal_runs=int(payload.get("proposal_runs", 5)),
+        tr_s=float(payload.get("tr_s", 1.49)),
+        scoring_batch_size=int(payload.get("scoring_batch_size", 40)),
+        local_buffer_size=int(payload.get("local_buffer_size", 10)),
+        lags=_tuple_ints(payload.get("lags", [2, 3, 4, 5, 6]), "lags"),
+        alphas=_tuple_floats(
+            payload.get(
+                "alphas",
+                [0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30, 100, 300, 1000, 3000, 10000],
+            ),
+            "alphas",
+        ),
+    )
+
+
+def _episode_ids(config: PilotConfig) -> list[str]:
+    """Return configured episode ids in run order."""
+
+    return [episode.episode_id for episode in config.episodes]
+
+
+def _summary_path(config: PilotConfig, episode: PilotEpisode) -> Path:
+    return config.output_root / "summaries" / episode.episode_id / "summary.json"
+
+
+def _roi_dir(config: PilotConfig, roi_id: str) -> Path:
+    return config.output_root / "rois" / roi_id
+
+
+def _domain_pool_draft_path(config: PilotConfig, roi_id: str) -> Path:
+    return _roi_dir(config, roi_id) / "domain_pool_draft.json"
+
+
+def _domain_pool_auto_confirmed_path(config: PilotConfig, roi_id: str) -> Path:
+    return _roi_dir(config, roi_id) / "domain_pool_auto_confirmed.json"
+
+
+def _domain_pool_confirmed_path(config: PilotConfig, roi_id: str) -> Path:
+    return _roi_dir(config, roi_id) / "domain_pool_confirmed.json"
+
+
+def _region_schema_path(config: PilotConfig, roi_id: str) -> Path:
+    return _roi_dir(config, roi_id) / "region_schema.json"
+
+
+def _scoring_dir(config: PilotConfig, roi_id: str, episode: PilotEpisode) -> Path:
+    return _roi_dir(config, roi_id) / "scores" / episode.episode_id
+
+
+def _encoding_dir(config: PilotConfig) -> Path:
+    return config.output_root / "encoding"
+
+
+def _manifest_path(config: PilotConfig) -> Path:
+    return _encoding_dir(config) / "roi_encoding_manifest.jsonl"
+
+
+def _roi_schema_mapping_path(config: PilotConfig) -> Path:
+    return _encoding_dir(config) / "roi_schemas.json"
+
+
+def _relative_to(path: Path, base_dir: Path) -> str:
+    """Return a portable relative path when possible."""
+
+    return os.path.relpath(path, base_dir)
+
+
+def _confirm_domain_pool_for_pilot(draft_path: Path, confirmed_path: Path) -> None:
+    """Write an auto-confirmed copy of a draft domain pool for pilot use."""
+
+    pool = load_domain_pool(draft_path)
+    confirmed = replace(
+        pool,
+        curation_status="confirmed",
+        metadata={
+            **dict(pool.metadata),
+            "confirmation_mode": "auto_pilot",
+            "confirmed_by": "run-multi-roi-pilot",
+            "manual_review_required_before_final_claims": True,
+            "draft_source_path": str(draft_path),
+        },
+    )
+    save_domain_pool(confirmed, confirmed_path)
+
+
+def _domain_pool_for_schema(config: PilotConfig, roi_id: str) -> Path:
+    """Return the confirmed pool path used for schema generation."""
+
+    auto_confirmed = _domain_pool_auto_confirmed_path(config, roi_id)
+    if auto_confirmed.exists():
+        return auto_confirmed
+    confirmed = _domain_pool_confirmed_path(config, roi_id)
+    if confirmed.exists():
+        return confirmed
+    raise ValueError(
+        f"ROI {roi_id!r} has no confirmed domain pool. Expected "
+        f"{auto_confirmed} or {confirmed}.",
+    )
+
+
+def _dry_run(config: PilotConfig, rois: Sequence[RoiDefinition], stage: str) -> None:
+    """Print the planned pilot run without calling the configured LLM."""
+
+    _log("Dry-run multi-ROI pilot plan")
+    _log(f"  Config: {config.config_path}")
+    _log(f"  Stage: {stage}")
+    _log(f"  Output root: {config.output_root}")
+    _log(f"  Generation: {config.generation_provider} / {config.generation_model}")
+    _log(f"  ROI count: {len(rois)} -> {', '.join(roi.roi_id for roi in rois)}")
+    _log(f"  Episodes: {', '.join(_episode_ids(config))}")
+    _log(f"  Scoring jobs: {len(rois) * len(config.episodes)} ROI x episode runs")
+    for episode in config.episodes:
+        _log(
+            "  "
+            f"{episode.split}: {episode.episode_id} descriptions={episode.descriptions} "
+            f"h5_dataset={episode.h5_dataset}",
+        )
+
+
+def _validate_episode_inputs(config: PilotConfig) -> None:
+    """Validate episode description paths and H5 dataset bindings."""
+
+    for episode in config.episodes:
+        if not episode.descriptions.exists():
+            raise ValueError(
+                f"Episode {episode.episode_id!r} description file does not exist: "
+                f"{episode.descriptions}",
+            )
+    if not config.h5_file.exists():
+        raise ValueError(f"Pilot H5 file does not exist: {config.h5_file}")
+    with h5py.File(config.h5_file, "r") as handle:
+        missing = [
+            episode.h5_dataset
+            for episode in config.episodes
+            if episode.h5_dataset not in handle
+        ]
+    if missing:
+        raise ValueError("Pilot H5 file is missing dataset(s): " + ", ".join(missing))
+
+
+def _run_summaries(config: PilotConfig) -> None:
+    """Generate shared summaries for every configured episode."""
+
+    cfg = SummaryDescriptionsConfig(
+        generation_provider=config.generation_provider,
+        generation_model=config.generation_model,
+    )
+    for episode in config.episodes:
+        _log(f"Summary stage: {episode.episode_id}")
+        summarize_descriptions_from_file(
+            Namespace(
+                descriptions=str(episode.descriptions),
+                output_file=str(_summary_path(config, episode)),
+            ),
+            cfg,
+        )
+
+
+def _run_domain_pools(
+    config: PilotConfig,
+    rois: Sequence[RoiDefinition],
+    *,
+    deps: PipelineDependencies,
+    auto_confirm: bool,
+) -> None:
+    """Generate domain-pool drafts and optionally auto-confirm pilot copies."""
+
+    for roi in rois:
+        _log(f"Domain-pool stage: {roi.roi_id}")
+        make_domain_pool(
+            Namespace(
+                atlas_labels=str(config.atlas_labels),
+                target_region=roi.roi_id,
+                output_file=str(_domain_pool_draft_path(config, roi.roi_id)),
+                model=config.generation_model,
+                provider=config.generation_provider,
+                proposal_runs=config.proposal_runs,
+            ),
+            DomainPoolConfig(
+                generation_provider=config.generation_provider,
+                generation_model=config.generation_model,
+                target_region=roi.roi_id,
+                proposal_runs=config.proposal_runs,
+            ),
+            deps=deps,
+        )
+        if auto_confirm:
+            _confirm_domain_pool_for_pilot(
+                _domain_pool_draft_path(config, roi.roi_id),
+                _domain_pool_auto_confirmed_path(config, roi.roi_id),
+            )
+            _log(f"  Wrote auto-confirmed domain pool for {roi.roi_id}")
+
+
+def _run_schemas(
+    config: PilotConfig,
+    rois: Sequence[RoiDefinition],
+    *,
+    deps: PipelineDependencies,
+) -> None:
+    """Generate active-dimension schemas using fixed ROI selection rules."""
+
+    for roi in rois:
+        _log(f"Schema stage: {roi.roi_id}")
+        make_region_schema(
+            Namespace(
+                atlas_labels=str(config.atlas_labels),
+                target_region=roi.roi_id,
+                output_file=str(_region_schema_path(config, roi.roi_id)),
+                model=config.generation_model,
+                provider=config.generation_provider,
+                domain_pool=str(_domain_pool_for_schema(config, roi.roi_id)),
+                roi_definitions=str(config.roi_definitions),
+                roi_id=roi.roi_id,
+            ),
+            RegionSchemaConfig(
+                generation_provider=config.generation_provider,
+                generation_model=config.generation_model,
+                target_region=roi.roi_id,
+            ),
+            deps=deps,
+        )
+
+
+def _run_scoring(
+    config: PilotConfig,
+    rois: Sequence[RoiDefinition],
+    *,
+    deps: PipelineDependencies,
+    resume: bool,
+    overwrite: bool,
+) -> None:
+    """Score every ROI and episode against the generated ROI schemas."""
+
+    cfg = ScoreDescriptionsConfig(
+        generation_provider=config.generation_provider,
+        generation_model=config.generation_model,
+        tr_s=config.tr_s,
+        scoring_batch_size=config.scoring_batch_size,
+        local_buffer_size=config.local_buffer_size,
+    )
+    for roi in rois:
+        for episode in config.episodes:
+            _log(f"Scoring stage: {roi.roi_id} / {episode.episode_id}")
+            score_descriptions_from_file(
+                Namespace(
+                    descriptions=str(episode.descriptions),
+                    region_schema=str(_region_schema_path(config, roi.roi_id)),
+                    output_dir=str(_scoring_dir(config, roi.roi_id, episode)),
+                    model=config.generation_model,
+                    tr_s=config.tr_s,
+                    total_trs=None,
+                    resume=resume,
+                    overwrite=overwrite,
+                    summary_file=str(_summary_path(config, episode)),
+                    provider=config.generation_provider,
+                    scoring_batch_size=config.scoring_batch_size,
+                    local_buffer_size=config.local_buffer_size,
+                    gt_dir=None,
+                    gt_file_pattern="*.csv",
+                    gt_time_column="视频时间(s)",
+                    gt_emotion_column="情绪值",
+                    alignment="overlap_weighted",
+                ),
+                cfg,
+                deps=deps,
+            )
+
+
+def _write_manifest(config: PilotConfig, rois: Sequence[RoiDefinition]) -> None:
+    """Write unified ROI encoding manifest and ROI schema mapping."""
+
+    encoding_dir = _encoding_dir(config)
+    manifest_path = _manifest_path(config)
+    rows: list[dict[str, Any]] = []
+    for episode in config.episodes:
+        roi_features: dict[str, str] = {}
+        for roi in rois:
+            feature_path = _scoring_dir(config, roi.roi_id, episode) / "tr_features.jsonl"
+            if not feature_path.exists():
+                raise ValueError(
+                    f"Cannot write manifest: missing TR features for {roi.roi_id} "
+                    f"/ {episode.episode_id}: {feature_path}",
+                )
+            roi_features[roi.roi_id] = _relative_to(feature_path, encoding_dir)
+        rows.append(
+            {
+                "sample_id": f"{config.subject_id}_{episode.episode_id}",
+                "subject_id": config.subject_id,
+                "feature_set_name": "roi_scores",
+                "split": episode.split,
+                "roi_features": roi_features,
+                "h5_file": _relative_to(config.h5_file, encoding_dir),
+                "h5_dataset": episode.h5_dataset,
+            },
+        )
+    write_jsonl(manifest_path, rows)
+    write_json(
+        _roi_schema_mapping_path(config),
+        {
+            "roi_schemas": {
+                roi.roi_id: _relative_to(_region_schema_path(config, roi.roi_id), encoding_dir)
+                for roi in rois
+            },
+        },
+    )
+    _log(f"Manifest stage complete: {manifest_path}")
+
+
+def _run_encoding(config: PilotConfig) -> None:
+    """Run the joint ROI Ridge encoding stage."""
+
+    fit_roi_encoding_from_manifest(
+        Namespace(
+            manifest=str(_manifest_path(config)),
+            roi_schemas=str(_roi_schema_mapping_path(config)),
+            atlas_labels=str(config.atlas_labels),
+            output_dir=str(_encoding_dir(config)),
+            lags=",".join(str(lag) for lag in config.lags),
+            alphas=",".join(f"{alpha:g}" for alpha in config.alphas),
+        ),
+        RidgeEncodingConfig(
+            lags=config.lags,
+            alphas=config.alphas,
+        ),
+    )
+
+
+def run_multi_roi_pilot(
+    args,
+    deps: PipelineDependencies | None = None,
+) -> None:
+    """Run or dry-run the configured multi-ROI pilot workflow."""
+
+    deps = deps or default_dependencies()
+    config = load_pilot_config(args.config)
+    roi_definitions = load_roi_definitions(config.roi_definitions)
+    rois = select_roi_definitions(roi_definitions, config.rois)
+    counts = validate_roi_definitions_against_atlas(rois, config.atlas_labels)
+    _validate_episode_inputs(config)
+    if args.dry_run:
+        _dry_run(config, rois, args.stage)
+        _log(
+            "  Parcel counts: "
+            + ", ".join(f"{roi_id}={count}" for roi_id, count in counts.items()),
+        )
+        return
+
+    config.output_root.mkdir(parents=True, exist_ok=True)
+    stages = (
+        ("summaries", "domain-pools", "schemas", "scoring", "manifest", "encoding")
+        if args.stage == "all"
+        else (args.stage,)
+    )
+    for stage in stages:
+        if stage == "summaries":
+            _run_summaries(config)
+        elif stage == "domain-pools":
+            _run_domain_pools(
+                config,
+                rois,
+                deps=deps,
+                auto_confirm=args.stage == "all" and not args.no_auto_confirm_domain_pools,
+            )
+        elif stage == "schemas":
+            _run_schemas(config, rois, deps=deps)
+        elif stage == "scoring":
+            _run_scoring(
+                config,
+                rois,
+                deps=deps,
+                resume=args.resume_scoring,
+                overwrite=args.overwrite_scoring,
+            )
+        elif stage == "manifest":
+            _write_manifest(config, rois)
+        elif stage == "encoding":
+            _run_encoding(config)
+        else:
+            raise ValueError(f"Unsupported pilot stage: {stage!r}")

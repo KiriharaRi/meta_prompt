@@ -1,0 +1,188 @@
+{
+  "version": "roi_definitions_v1",
+  "atlas": "Brainnetome246_subregion_func_network_Yeo_updated",
+  "rois": [
+    {
+      "roi_id": "DLPFC",
+      "display_name": "dorsolateral prefrontal cortex",
+      "theoretical_role": "Working memory, cognitive control, and goal-directed behavior during naturalistic movie viewing.",
+      "selection_rules": [
+        {
+          "label_ids": [3, 4, 5, 6, 15, 16, 19, 20, 21, 22],
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": []
+        }
+      ]
+    },
+    {
+      "roi_id": "VMPFC",
+      "display_name": "ventromedial prefrontal cortex",
+      "theoretical_role": "Subjective valuation, emotion regulation, and self-referential meaning.",
+      "selection_rules": [
+        {
+          "label_ids": [13, 14, 41, 42, 47, 48, 187, 188],
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": []
+        }
+      ]
+    },
+    {
+      "roi_id": "OFC",
+      "display_name": "orbitofrontal cortex",
+      "theoretical_role": "Reward learning, expected outcomes, and stimulus-value representation.",
+      "selection_rules": [
+        {
+          "label_ids": [41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52],
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": []
+        }
+      ]
+    },
+    {
+      "roi_id": "ACC",
+      "display_name": "anterior cingulate cortex",
+      "theoretical_role": "Conflict monitoring, error detection, motivation, and emotion integration.",
+      "selection_rules": [
+        {
+          "label_ids": [177, 178, 179, 180, 183, 184, 187, 188],
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": []
+        }
+      ]
+    },
+    {
+      "roi_id": "PCC",
+      "display_name": "posterior cingulate cortex",
+      "theoretical_role": "Default-network integration, episodic context, and self-relevant processing.",
+      "selection_rules": [
+        {
+          "label_ids": [175, 176, 181, 182, 185, 186],
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": []
+        }
+      ]
+    },
+    {
+      "roi_id": "Precuneus",
+      "display_name": "precuneus",
+      "theoretical_role": "Self-awareness, episodic retrieval, and visuospatial imagery.",
+      "selection_rules": [
+        {
+          "label_ids": [147, 148, 149, 150, 151, 152, 153, 154],
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": []
+        }
+      ]
+    },
+    {
+      "roi_id": "IPL",
+      "display_name": "inferior parietal lobule",
+      "theoretical_role": "Multisensory integration, attentional reorienting, and spatial or symbolic cognition.",
+      "selection_rules": [
+        {
+          "label_ids": [135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146],
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": []
+        }
+      ]
+    },
+    {
+      "roi_id": "SMG",
+      "display_name": "supramarginal gyrus",
+      "theoretical_role": "Phonological working memory, action observation, and somatosensory integration.",
+      "selection_rules": [
+        {
+          "label_ids": [139, 140, 141, 142, 145, 146],
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": []
+        }
+      ]
+    },
+    {
+      "roi_id": "AG",
+      "display_name": "angular gyrus",
+      "theoretical_role": "Semantic integration, reading, numerical cognition, and theory-of-mind support.",
+      "selection_rules": [
+        {
+          "label_ids": [135, 136, 137, 138, 143, 144],
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": []
+        }
+      ]
+    },
+    {
+      "roi_id": "TPJ",
+      "display_name": "temporoparietal junction",
+      "theoretical_role": "Theory of mind, attentional switching, and social prediction-error monitoring.",
+      "selection_rules": [
+        {
+          "label_ids": [75, 76, 79, 80, 121, 122, 123, 124, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146],
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": []
+        }
+      ]
+    },
+    {
+      "roi_id": "pSTS",
+      "display_name": "posterior superior temporal sulcus",
+      "theoretical_role": "Biological motion perception, intention inference, and gaze or action interpretation.",
+      "selection_rules": [
+        {
+          "label_ids": [121, 122, 123, 124],
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": []
+        }
+      ]
+    },
+    {
+      "roi_id": "FFA",
+      "display_name": "fusiform face area",
+      "theoretical_role": "Face recognition and expertise-like visual identity processing.",
+      "selection_rules": [
+        {
+          "label_ids": [105, 106, 107, 108],
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": []
+        }
+      ]
+    },
+    {
+      "roi_id": "Insula",
+      "display_name": "insula",
+      "theoretical_role": "Interoception, emotion awareness, risk decision-making, and pain empathy.",
+      "selection_rules": [
+        {
+          "label_ids": [163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174],
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": []
+        }
+      ]
+    },
+    {
+      "roi_id": "Temporal_Pole",
+      "display_name": "temporal pole",
+      "theoretical_role": "Semantic memory, social concepts, and autobiographical meaning.",
+      "selection_rules": [
+        {
+          "label_ids": [69, 70, 77, 78],
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": []
+        }
+      ]
+    }
+  ]
+}

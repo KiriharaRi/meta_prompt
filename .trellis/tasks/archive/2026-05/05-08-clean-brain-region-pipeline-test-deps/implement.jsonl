@@ -1,0 +1,6 @@
+{"file": ".trellis/spec/backend/index.md", "reason": "Backend guideline index for Python package cleanup and test updates."}
+{"file": ".trellis/spec/backend/directory-structure.md", "reason": "Directory/module organization guidance for keeping brain_region_pipeline responsibilities clear."}
+{"file": ".trellis/spec/backend/quality-guidelines.md", "reason": "Quality and testing expectations for removing stale dependencies without broad refactors."}
+{"file": ".trellis/spec/guides/index.md", "reason": "Thinking guide index for code reuse and cross-layer checks."}
+{"file": ".trellis/spec/guides/code-reuse-thinking-guide.md", "reason": "Search-first guidance for removing all stale test_pipeline references consistently."}
+{"file": ".trellis/spec/guides/cross-layer-thinking-guide.md", "reason": "Boundary guidance for coordinating CLI, runner, tests, and docs changes."}
