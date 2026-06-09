@@ -350,7 +350,34 @@ uv run python scripts/run_friends_14roi_concurrent_pilot.py \
 --overwrite-scoring
 ```
 
-### 2.5 14 ROI 非并发 full run
+### 2.5 14 ROI 并发脚本：单阶段运行
+
+并发脚本支持与串行标准接口相同的 `--stage` 取值：`summaries`、`domain-pools`、`schemas`、`scoring`、`manifest`、`encoding` 和 `all`。默认是 `all`，单阶段只运行指定阶段，不会自动串联下游阶段。
+
+只并发补 scoring：
+
+```bash
+uv run python scripts/run_friends_14roi_concurrent_pilot.py \
+  --config configs/friends_multi_roi_pilot.json \
+  --stage scoring \
+  --scoring-workers 4
+```
+
+如果 scoring 更新后需要刷新下游结果，继续显式运行：
+
+```bash
+uv run python scripts/run_friends_14roi_concurrent_pilot.py \
+  --config configs/friends_multi_roi_pilot.json \
+  --stage manifest
+
+uv run python scripts/run_friends_14roi_concurrent_pilot.py \
+  --config configs/friends_multi_roi_pilot.json \
+  --stage encoding
+```
+
+`--retry-failed-batches` 仍是独立恢复模式，不和非 `all` 的 `--stage` 混用。
+
+### 2.6 14 ROI 非并发 full run
 
 把所有 workers 设为 1：
 
@@ -364,7 +391,7 @@ uv run python scripts/run_friends_14roi_concurrent_pilot.py \
   --scoring-workers 1
 ```
 
-### 2.6 重试 failed scoring batches
+### 2.7 重试 failed scoring batches
 
 如果 `scoring_warnings.jsonl` 中存在 `batch_generation_failed_zero_filled`，可以只重试失败 batch。重试成功后脚本会刷新 manifest 和 encoding：
 
@@ -375,7 +402,7 @@ uv run python scripts/run_friends_14roi_concurrent_pilot.py \
   --scoring-workers 4
 ```
 
-### 2.7 Friends 输出检查
+### 2.8 Friends 输出检查
 
 输出根目录来自 config 的 `output_root`。典型结构：
 

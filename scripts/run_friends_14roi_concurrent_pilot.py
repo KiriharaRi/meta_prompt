@@ -32,6 +32,7 @@ from brain_region_pipeline.core.dependencies import (  # noqa: E402
     default_dependencies,
 )
 from brain_region_pipeline.pilot.runner import (  # noqa: E402
+    PILOT_STAGES,
     PilotConfig,
     PilotEpisode,
     _dry_run,
@@ -67,6 +68,7 @@ class RunOptions:
     domain_workers: int
     schema_workers: int
     scoring_workers: int
+    stage: str
     dry_run: bool
     retry_failed_batches: bool
     skip_existing_summaries: bool
@@ -93,6 +95,12 @@ def parse_args(argv: Sequence[str] | None = None) -> RunOptions:
     parser.add_argument("--domain-workers", type=int, default=DEFAULT_WORKERS)
     parser.add_argument("--schema-workers", type=int, default=DEFAULT_WORKERS)
     parser.add_argument("--scoring-workers", type=int, default=DEFAULT_WORKERS)
+    parser.add_argument(
+        "--stage",
+        choices=PILOT_STAGES,
+        default="all",
+        help="Pipeline stage to run. 'all' runs every stage in order.",
+    )
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument(
         "--retry-failed-batches",
@@ -110,6 +118,8 @@ def parse_args(argv: Sequence[str] | None = None) -> RunOptions:
         help="Clear generated scoring outputs before scoring. Default is resume-only.",
     )
     args = parser.parse_args(argv)
+    if args.retry_failed_batches and args.stage != "all":
+        raise ValueError("--retry-failed-batches cannot be combined with non-all --stage.")
     for flag in ("summary_workers", "domain_workers", "schema_workers", "scoring_workers"):
         if getattr(args, flag) < 1:
             raise ValueError(f"--{flag.replace('_', '-')} must be at least 1.")
@@ -119,6 +129,7 @@ def parse_args(argv: Sequence[str] | None = None) -> RunOptions:
         domain_workers=args.domain_workers,
         schema_workers=args.schema_workers,
         scoring_workers=args.scoring_workers,
+        stage=args.stage,
         dry_run=args.dry_run,
         retry_failed_batches=args.retry_failed_batches,
         skip_existing_summaries=args.skip_existing_summaries,
@@ -205,9 +216,9 @@ def _print_dry_run(
     counts: dict[str, int],
     options: RunOptions,
 ) -> None:
-    """Validate static inputs and print the planned concurrent full run."""
+    """Validate static inputs and print the planned concurrent stage run."""
 
-    _dry_run(config, rois, "all")
+    _dry_run(config, rois, options.stage)
     _log(
         "Workers: "
         f"summary={options.summary_workers}, domain={options.domain_workers}, "
@@ -258,6 +269,56 @@ def _run_full(
     _log("Concurrent pilot run complete.")
 
 
+def _run_stage(
+    *,
+    config: PilotConfig,
+    rois: Sequence[RoiDefinition],
+    options: RunOptions,
+    deps: PipelineDependencies,
+) -> None:
+    """Run one configured stage while preserving full-run behavior for ``all``."""
+
+    if options.stage == "all":
+        _run_full(config=config, rois=rois, options=options, deps=deps)
+    elif options.stage == "summaries":
+        config.output_root.mkdir(parents=True, exist_ok=True)
+        _log("Stage summaries: Generate summaries")
+        _run_summary_jobs(
+            config=config,
+            workers=options.summary_workers,
+            skip_existing=options.skip_existing_summaries,
+        )
+    elif options.stage == "domain-pools":
+        config.output_root.mkdir(parents=True, exist_ok=True)
+        _log("Stage domain-pools: Generate domain pools")
+        _run_domain_pool_jobs(config, rois, deps=deps, workers=options.domain_workers)
+    elif options.stage == "schemas":
+        config.output_root.mkdir(parents=True, exist_ok=True)
+        _log("Stage schemas: Generate schemas")
+        _run_schema_jobs(config, rois, deps=deps, workers=options.schema_workers)
+    elif options.stage == "scoring":
+        config.output_root.mkdir(parents=True, exist_ok=True)
+        _log("Stage scoring: Score ROI/episode pairs")
+        _run_scoring_jobs(
+            config,
+            rois,
+            config.episodes,
+            deps=deps,
+            workers=options.scoring_workers,
+            overwrite_scoring=options.overwrite_scoring,
+        )
+    elif options.stage == "manifest":
+        config.output_root.mkdir(parents=True, exist_ok=True)
+        _log("Stage manifest: Write manifest")
+        _write_manifest(config, rois)
+    elif options.stage == "encoding":
+        config.output_root.mkdir(parents=True, exist_ok=True)
+        _log("Stage encoding: Fit encoding")
+        _run_encoding(config)
+    else:
+        raise ValueError(f"Unsupported pilot stage: {options.stage!r}")
+
+
 def main(argv: Sequence[str] | None = None) -> None:
     """Run dry-run, full, or failed-batch retry modes."""
 
@@ -270,7 +331,7 @@ def main(argv: Sequence[str] | None = None) -> None:
     if options.retry_failed_batches:
         _retry_failed_batches(config=config, rois=rois, options=options, deps=deps)
         return
-    _run_full(config=config, rois=rois, options=options, deps=deps)
+    _run_stage(config=config, rois=rois, options=options, deps=deps)
 
 
 if __name__ == "__main__":

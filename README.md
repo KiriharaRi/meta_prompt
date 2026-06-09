@@ -106,6 +106,15 @@ uv run python scripts/run_friends_14roi_concurrent_pilot.py \
   --scoring-workers 4
 ```
 
+并发脚本也支持单独运行某个阶段，例如只并发补 scoring：
+
+```bash
+uv run python scripts/run_friends_14roi_concurrent_pilot.py \
+  --config configs/friends_multi_roi_pilot.json \
+  --stage scoring \
+  --scoring-workers 4
+```
+
 非并发 full run 可以把所有 workers 设为 1：
 
 ```bash

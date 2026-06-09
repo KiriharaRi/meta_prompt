@@ -167,6 +167,7 @@ Concurrent full-run script pattern:
 uv run python scripts/run_friends_14roi_concurrent_pilot.py \
   --config <pilot-config.json> \
   [--dry-run] \
+  [--stage summaries|domain-pools|schemas|scoring|manifest|encoding|all] \
   [--summary-workers N] [--domain-workers N] \
   [--schema-workers N] [--scoring-workers N] \
   [--skip-existing-summaries] [--retry-failed-batches] \
@@ -182,8 +183,12 @@ uv run python scripts/run_friends_14roi_concurrent_pilot.py \
   `configs/`, a value such as `../friends/...` resolves to the repository
   root's ignored `friends/...` data/output tree.
 - Concurrent scripts may provide dry-run, full-run, and failed-batch retry
-  modes. They should not duplicate the full `--stage` matrix; staged execution
-  remains owned by `run-multi-roi-pilot`.
+  modes. They may expose the same single-value `--stage` choices as
+  `run-multi-roi-pilot` only as a thin concurrent dispatch layer; stage
+  internals remain owned by maintained runners.
+- For concurrent script stage dispatch, `--stage all` remains the default full
+  run, single-stage runs execute only the named stage, and failed-batch retry
+  remains an independent recovery mode rather than a non-`all` stage variant.
 - Workers control only independent jobs. Setting all workers to `1` must be a
   valid non-concurrent execution mode.
 - Cross-output-root artifact copying is a run-specific behavior. Do not include
@@ -218,6 +223,8 @@ uv run python scripts/run_friends_14roi_concurrent_pilot.py \
 - `--help` or parser smoke coverage for every new script-level flag.
 - Dry-run coverage using a temporary config that proves episode ids come from
   config and no LLM calls are made.
+- Single-stage dispatch coverage should prove a selected stage does not fall
+  through to full-run or downstream stages.
 - Project CLI regression tests should continue to show `run-multi-roi-pilot` as
   the staged standard interface.
 
