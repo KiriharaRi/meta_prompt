@@ -139,10 +139,17 @@ def create_packyapi_client():
     )
 
 
-def _contents_to_openai_user_text(contents: list[Any], response_schema: dict[str, Any]) -> str:
-    """Flatten prompt contents and expose the expected JSON schema to chat providers."""
+def _contents_to_openai_user_text(
+    contents: list[Any],
+    response_schema: dict[str, Any],
+    *,
+    include_response_schema: bool = True,
+) -> str:
+    """Flatten prompt contents and optionally expose the schema in user text."""
 
     prompt_body = "\n\n".join(str(item) for item in contents)
+    if not include_response_schema:
+        return prompt_body
     schema_text = json.dumps(response_schema, ensure_ascii=False, sort_keys=True)
     return "\n\n".join(
         [
@@ -252,6 +259,7 @@ def _generate_structured_json_openai_chat(
     response_schema: dict[str, Any],
     cfg: GenerationConfig,
     response_format: dict[str, Any] | None = None,
+    include_response_schema_in_user_message: bool = True,
 ) -> dict[str, Any]:
     """Generate JSON through an OpenAI-compatible chat completion."""
 
@@ -259,7 +267,14 @@ def _generate_structured_json_openai_chat(
         model=model,
         messages=[
             {"role": "system", "content": system_instruction},
-            {"role": "user", "content": _contents_to_openai_user_text(contents, response_schema)},
+            {
+                "role": "user",
+                "content": _contents_to_openai_user_text(
+                    contents,
+                    response_schema,
+                    include_response_schema=include_response_schema_in_user_message,
+                ),
+            },
         ],
         temperature=cfg.temperature,
         response_format=response_format or _openai_response_format(model, response_schema),
@@ -286,6 +301,7 @@ def _generate_structured_json_aihubmix_chat(
         response_schema=response_schema,
         cfg=cfg,
         response_format=_aihubmix_response_format(response_schema),
+        include_response_schema_in_user_message=False,
     )
 
 

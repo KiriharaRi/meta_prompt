@@ -733,6 +733,9 @@ class DescriptionWorkflowTests(unittest.TestCase):
         request = completions.kwargs or {}
         response_format = request["response_format"]
         strict_schema = response_format["json_schema"]["schema"]
+        self.assertEqual(request["messages"][1]["content"], "Prompt body.")
+        self.assertNotIn("Response JSON schema:", request["messages"][1]["content"])
+        self.assertNotIn('"nested"', request["messages"][1]["content"])
         self.assertEqual(response_format["type"], "json_schema")
         self.assertTrue(response_format["json_schema"]["strict"])
         self.assertFalse(strict_schema["additionalProperties"])
