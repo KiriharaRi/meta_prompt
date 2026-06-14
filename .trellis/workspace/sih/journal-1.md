@@ -1050,3 +1050,36 @@ Removed duplicate rendered JSON schema from AIHubMix prompts while keeping stric
 ### Next Steps
 
 - None - task complete
+
+
+## Session 31: AIHubMix Gemini SDK migration
+
+**Date**: 2026-06-14
+**Task**: AIHubMix Gemini SDK migration
+**Branch**: `main`
+
+### Summary
+
+Switched AIHubMix provider from the OpenAI-compatible path to Google GenAI SDK while keeping provider name and AIHUBMIX_API_KEY, moved the default endpoint to https://aihubmix.com/gemini, added legacy /v1 rejection tests, and synchronized docs plus backend provider spec.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `4914e9d` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
