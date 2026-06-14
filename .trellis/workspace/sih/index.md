@@ -8,8 +8,8 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-1.md`
-- **Total Sessions**: 29
-- **Last Active**: 2026-06-08
+- **Total Sessions**: 30
+- **Last Active**: 2026-06-14
 <!-- @@@/auto:current-status -->
 
 ---
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-1.md` | ~1012 | Active |
+| `journal-1.md` | ~1052 | Active |
 <!-- @@@/auto:active-documents -->
 
 ---
@@ -29,6 +29,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 30 | 2026-06-14 | AIHubMix schema prompt deduplication | `73ab63b` | `main` |
 | 29 | 2026-06-08 | Friends 14 ROI concurrent pilot docs | `0bd7d33` | `main` |
 | 28 | 2026-06-08 | Friends 14 ROI s01/s02 Vertex expansion | `80c182f` | `main` |
 | 27 | 2026-06-07 | Tribe expanded train s02e05a encoding comparison | `97bfaa2` | `main` |

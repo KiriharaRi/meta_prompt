@@ -1017,3 +1017,36 @@ Added a config-driven Friends 14 ROI concurrent pilot runner, documented Fallen/
 ### Next Steps
 
 - None - task complete
+
+
+## Session 30: AIHubMix schema prompt deduplication
+
+**Date**: 2026-06-14
+**Task**: AIHubMix schema prompt deduplication
+**Branch**: `main`
+
+### Summary
+
+Removed duplicate rendered JSON schema from AIHubMix prompts while keeping strict response_format enforcement; added regression coverage and synchronized the backend provider spec.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `73ab63b` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
