@@ -8,7 +8,7 @@ Pilot runner 会把相对路径按 config 文件所在目录解析。因此 `con
 
 ### `friends_multi_roi_pilot.json`
 
-默认 14 ROI Friends pilot，provider 为 AIHubMix，模型为 `gemini-3.5-flash`。这是推荐的通用 config，也是 `scripts/run_friends_14roi_concurrent_pilot.py` 的默认配置。
+默认 14 ROI Friends pilot，provider 为 AIHubMix，模型为 `gemini-3.5-flash`。AIHubMix provider 使用 Gemini SDK endpoint。这是推荐的通用 config，也是 `scripts/run_friends_14roi_concurrent_pilot.py` 的默认配置。
 
 包含的 ROI：
 

@@ -209,19 +209,18 @@ Pilot configs may include:
 
 - `GenerationConfig.generation_provider` is the single provider selector.
 - Default provider/model are `aihubmix` and `gemini-3.5-flash`.
-- AIHubMix uses the OpenAI SDK with `AIHUBMIX_API_KEY` and default
-  `AIHUBMIX_BASE_URL=https://aihubmix.com/v1`.
-- The AIHubMix OpenAI-compatible chat path always uses
-  `response_format={"type": "json_schema", "json_schema": {"strict": true,
-  ...}}`. It must not silently fall back to JSON-object mode; unsupported
-  AIHubMix models should fail through the provider error.
-- AIHubMix strict JSON schemas are normalized in `core/genai.py` before the
-  provider request, including recursive object-level
-  `additionalProperties: false` where omitted by business schemas.
-- AIHubMix strict JSON schemas belong only in the OpenAI-compatible
-  `response_format` payload. Do not append a `Response JSON schema:` block to
-  the user message on this path; the user message should contain only the task
-  prompt content so high-volume scoring does not pay for duplicate schema text.
+- AIHubMix uses the Google GenAI SDK with `AIHUBMIX_API_KEY` and default
+  `AIHUBMIX_BASE_URL=https://aihubmix.com/gemini`.
+- `provider="aihubmix"` remains a distinct selector from direct
+  `provider="gemini"` so AIHubMix key/base-url handling does not mix with
+  `GEMINI_API_KEY`, `GOOGLE_API_KEY`, `GEMINI_BASE_URL`, or Vertex mode.
+- AIHubMix generation should reuse the Gemini SDK structured-output path:
+  prompt content stays in `contents`, `system_instruction` and JSON constraints
+  go in SDK `config`, and schemas use `response_mime_type="application/json"`
+  plus `response_json_schema=<schema>`.
+- The legacy AIHubMix OpenAI-compatible default
+  `AIHUBMIX_BASE_URL=https://aihubmix.com/v1` must fail fast with an actionable
+  error telling the user to use the Gemini endpoint.
 - PackyAPI uses the OpenAI SDK with `PACKYAPI_API_KEY` and default
   `PACKYAPI_BASE_URL=https://www.packyapi.com/v1`. The optimized
   `https://api-slb.packyapi.com/v1` route may be used only via explicit
@@ -259,10 +258,11 @@ Pilot configs may include:
 
 - Unknown provider from config or CLI -> `ValueError` naming allowed providers.
 - Missing `AIHUBMIX_API_KEY` for AIHubMix -> `RuntimeError` naming the env key.
-- AIHubMix structured output request -> must send strict `json_schema` with a
-  normalized schema and no JSON-object fallback.
-- AIHubMix structured output request -> user message must not include the
-  rendered response schema when strict `response_format` already carries it.
+- AIHubMix base URL omitted -> use `https://aihubmix.com/gemini`.
+- AIHubMix base URL set to `https://aihubmix.com/v1` -> `RuntimeError` naming
+  the Gemini endpoint replacement.
+- AIHubMix structured output request -> must dispatch through the Gemini SDK
+  helper and pass the schema in SDK config, not an OpenAI `response_format`.
 - Missing `PACKYAPI_API_KEY` for PackyAPI -> `RuntimeError` naming the env key.
 - `AIHUBMIX_API_KEY` without `PACKYAPI_API_KEY` still must not satisfy PackyAPI
   config.
@@ -282,8 +282,9 @@ Pilot configs may include:
 ### 5. Good/Base/Bad Cases
 
 - Good: default run uses AIHubMix/Gemini 3.5 Flash, writes provider/model
-  metadata, can resume only with the same provider/model, and sends strict
-  schema once via `response_format` rather than duplicating it in the prompt.
+  metadata, can resume only with the same provider/model, and sends structured
+  output constraints once via the Gemini SDK config rather than duplicating the
+  schema in the prompt.
 - Base: a PackyAPI run passes `--provider packyapi --model mimo-v2.5-pro` and
   uses JSON-object mode plus Python validators.
 - Base: a legacy run passes `--provider gemini --model gemini-3-flash-preview`
@@ -295,10 +296,9 @@ Pilot configs may include:
 
 - Unit tests for provider defaults, API key resolution, base URL default, and
   provider dispatch.
-- Unit tests for AIHubMix strict schema request payload and schema normalization.
-- Unit tests for AIHubMix strict schema request payload should assert that the
-  user message omits rendered schema text while `response_format` keeps the
-  normalized strict schema.
+- Unit tests for AIHubMix Gemini SDK client creation, SDK retry options, default
+  base URL, legacy `/v1` rejection, and dispatch through the Gemini structured
+  output helper.
 - CLI help tests for `--provider` and `--model` on each LLM-backed command.
 - Pilot config tests for default provider/model and explicit provider parsing.
 - Regression tests that Gemini dispatch remains available.

@@ -12,7 +12,7 @@ GENERATION_PROVIDERS = (
     PACKYAPI_GENERATION_PROVIDER,
     GEMINI_GENERATION_PROVIDER,
 )
-DEFAULT_AIHUBMIX_BASE_URL = "https://aihubmix.com/v1"
+DEFAULT_AIHUBMIX_BASE_URL = "https://aihubmix.com/gemini"
 DEFAULT_PACKYAPI_BASE_URL = "https://www.packyapi.com/v1"
 DEFAULT_AIHUBMIX_MODEL = "gemini-3.5-flash"
 DEFAULT_PACKYAPI_MODEL = "mimo-v2.5-pro"

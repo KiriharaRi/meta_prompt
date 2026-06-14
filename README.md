@@ -25,11 +25,12 @@ uv sync
 
 ## 2. LLM Provider
 
-默认 provider 是 AIHubMix，模型为 `gemini-3.5-flash`：
+默认 provider 是 AIHubMix，模型为 `gemini-3.5-flash`。AIHubMix 通过 Gemini SDK endpoint 调用：
 
 ```bash
 export AIHUBMIX_API_KEY="..."
-export AIHUBMIX_BASE_URL="https://aihubmix.com/v1"
+# 可选，默认就是 https://aihubmix.com/gemini
+export AIHUBMIX_BASE_URL="https://aihubmix.com/gemini"
 ```
 
 也可以显式使用 Gemini：

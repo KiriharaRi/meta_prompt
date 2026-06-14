@@ -20,6 +20,7 @@ from .config import (
 PACKYAPI_STRICT_JSON_SCHEMA_MODEL_PREFIXES = ("gemini-",)
 GEMINI_MAX_RETRIES = 3
 GEMINI_RETRY_ATTEMPTS = GEMINI_MAX_RETRIES + 1
+AIHUBMIX_LEGACY_OPENAI_BASE_URL = "https://aihubmix.com/v1"
 
 
 def _env_flag(name: str) -> bool:
@@ -78,24 +79,47 @@ def resolve_aihubmix_api_key() -> str:
     return key
 
 
+def resolve_aihubmix_base_url() -> str:
+    """Resolve the AIHubMix Gemini SDK endpoint and reject legacy OpenAI paths."""
+
+    _load_project_env()
+    base_url = (os.environ.get("AIHUBMIX_BASE_URL") or DEFAULT_AIHUBMIX_BASE_URL).strip()
+    if base_url.rstrip("/") == AIHUBMIX_LEGACY_OPENAI_BASE_URL:
+        raise RuntimeError(
+            "AIHUBMIX_BASE_URL now targets the Gemini SDK endpoint. "
+            f"Use {DEFAULT_AIHUBMIX_BASE_URL} instead of {AIHUBMIX_LEGACY_OPENAI_BASE_URL}.",
+        )
+    return base_url
+
+
 def resolve_api_key() -> str:
     """Resolve the legacy Gemini API key used by older callers."""
 
     return resolve_gemini_api_key()
 
 
-def create_genai_client():
-    """Create a Google GenAI client for Developer API or Vertex API key mode."""
+def _build_genai_http_options(*, base_url: str | None = None):
+    """Build shared Google GenAI HTTP options with project retry settings."""
 
-    from google import genai
     from google.genai import types as genai_types
 
-    _load_project_env()
     http_options = genai_types.HttpOptions(
         # The SDK counts the original request as one attempt; keep the public
         # project setting at three retries while passing four total attempts.
         retry_options=genai_types.HttpRetryOptions(attempts=GEMINI_RETRY_ATTEMPTS),
     )
+    if base_url:
+        http_options.base_url = base_url
+    return http_options
+
+
+def create_genai_client():
+    """Create a Google GenAI client for Developer API or Vertex API key mode."""
+
+    from google import genai
+
+    _load_project_env()
+    http_options = _build_genai_http_options()
     if _env_flag("GEMINI_USE_VERTEXAI") or _env_flag("GOOGLE_GENAI_USE_VERTEXAI"):
         return genai.Client(
             vertexai=True,
@@ -105,24 +129,22 @@ def create_genai_client():
 
     base_url = os.environ.get("GEMINI_BASE_URL")
     if base_url:
-        http_options.base_url = base_url
         return genai.Client(
             api_key=resolve_gemini_api_key(),
-            http_options=http_options,
+            http_options=_build_genai_http_options(base_url=base_url),
         )
     return genai.Client(api_key=resolve_gemini_api_key(), http_options=http_options)
 
 
 def create_aihubmix_client():
-    """Create an OpenAI SDK client for the AIHubMix-compatible endpoint."""
+    """Create a Google GenAI client for the AIHubMix Gemini endpoint."""
 
-    from openai import OpenAI
+    from google import genai
 
     _load_project_env()
-    return OpenAI(
+    return genai.Client(
         api_key=resolve_aihubmix_api_key(),
-        base_url=os.environ.get("AIHUBMIX_BASE_URL", DEFAULT_AIHUBMIX_BASE_URL),
-        max_retries=0,
+        http_options=_build_genai_http_options(base_url=resolve_aihubmix_base_url()),
     )
 
 
@@ -197,32 +219,6 @@ def _openai_response_format(model: str, response_schema: dict[str, Any]) -> dict
     return _json_object_response_format()
 
 
-def _normalize_strict_json_schema(schema: dict[str, Any]) -> dict[str, Any]:
-    """Return a strict-mode schema copy suitable for OpenAI-compatible providers."""
-
-    def normalize_node(node: Any) -> Any:
-        if isinstance(node, list):
-            return [normalize_node(item) for item in node]
-        if not isinstance(node, dict):
-            return node
-        normalized = {key: normalize_node(value) for key, value in node.items()}
-        schema_type = normalized.get("type")
-        is_object = schema_type == "object" or (
-            isinstance(schema_type, list) and "object" in schema_type
-        )
-        if is_object and "additionalProperties" not in normalized:
-            normalized["additionalProperties"] = False
-        return normalized
-
-    return normalize_node(schema)
-
-
-def _aihubmix_response_format(response_schema: dict[str, Any]) -> dict[str, Any]:
-    """Build the AIHubMix strict JSON-schema response_format payload."""
-
-    return _json_schema_response_format(_normalize_strict_json_schema(response_schema))
-
-
 def _extract_openai_text(response: Any) -> str:
     """Extract assistant text from an OpenAI SDK chat completion response."""
 
@@ -244,7 +240,7 @@ def _loads_json_object(text: str) -> dict[str, Any]:
     payload = json.loads(text)
     if not isinstance(payload, dict):
         raise RuntimeError(
-            "OpenAI-compatible provider returned "
+            "Provider returned "
             f"{type(payload).__name__}; expected a JSON object matching the schema.",
         )
     return payload
@@ -280,29 +276,6 @@ def _generate_structured_json_openai_chat(
         response_format=response_format or _openai_response_format(model, response_schema),
     )
     return _loads_json_object(_extract_openai_text(response))
-
-
-def _generate_structured_json_aihubmix_chat(
-    *,
-    client: Any,
-    model: str,
-    system_instruction: str,
-    contents: list[Any],
-    response_schema: dict[str, Any],
-    cfg: GenerationConfig,
-) -> dict[str, Any]:
-    """Generate JSON through AIHubMix with strict OpenAI-compatible schemas."""
-
-    return _generate_structured_json_openai_chat(
-        client=client,
-        model=model,
-        system_instruction=system_instruction,
-        contents=contents,
-        response_schema=response_schema,
-        cfg=cfg,
-        response_format=_aihubmix_response_format(response_schema),
-        include_response_schema_in_user_message=False,
-    )
 
 
 def _generate_structured_json_gemini(
@@ -360,7 +333,7 @@ def generate_structured_json(
     provider = normalize_generation_provider(cfg.generation_provider)
     if provider == AIHUBMIX_GENERATION_PROVIDER:
         client = create_aihubmix_client()
-        generate_once = _generate_structured_json_aihubmix_chat
+        generate_once = _generate_structured_json_gemini
     elif provider == PACKYAPI_GENERATION_PROVIDER:
         client = create_packyapi_client()
         generate_once = _generate_structured_json_openai_chat

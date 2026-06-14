@@ -10,12 +10,12 @@
 
 ## 0. 环境与 LLM Provider
 
-默认 LLM provider 是 AIHubMix：
+默认 LLM provider 是 AIHubMix，通过 Gemini SDK endpoint 调用：
 
 ```bash
 export AIHUBMIX_API_KEY="..."
-# 可选，默认就是 https://aihubmix.com/v1
-export AIHUBMIX_BASE_URL="https://aihubmix.com/v1"
+# 可选，默认就是 https://aihubmix.com/gemini
+export AIHUBMIX_BASE_URL="https://aihubmix.com/gemini"
 ```
 
 如果 config 或命令显式使用 Gemini：

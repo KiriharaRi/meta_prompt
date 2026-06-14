@@ -46,17 +46,17 @@ from brain_region_pipeline.schema_design.domain_pool import (
     validate_required_domains,
 )
 from brain_region_pipeline.core.genai import (
+    AIHUBMIX_LEGACY_OPENAI_BASE_URL,
     GEMINI_RETRY_ATTEMPTS,
     _generate_structured_json_gemini,
-    _generate_structured_json_aihubmix_chat,
     _generate_structured_json_openai_chat,
     _load_project_env,
-    _normalize_strict_json_schema,
     create_aihubmix_client,
     create_genai_client,
     create_packyapi_client,
     generate_structured_json,
     resolve_aihubmix_api_key,
+    resolve_aihubmix_base_url,
     resolve_packyapi_api_key,
 )
 from brain_region_pipeline.scoring.gt_aligner import average_gt_to_segments, load_averaged_gt_csvs
@@ -433,17 +433,42 @@ class DescriptionWorkflowTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, "PACKYAPI_API_KEY"):
                 resolve_packyapi_api_key()
 
-    def test_aihubmix_client_uses_default_base_url(self) -> None:
+    def test_aihubmix_base_url_defaults_to_gemini_endpoint(self) -> None:
+        with patch.dict(os.environ, {}, clear=True), patch("brain_region_pipeline.core.genai._load_project_env"):
+            self.assertEqual(resolve_aihubmix_base_url(), DEFAULT_AIHUBMIX_BASE_URL)
+
+    def test_aihubmix_base_url_rejects_legacy_openai_endpoint(self) -> None:
+        with patch.dict(
+            os.environ,
+            {"AIHUBMIX_BASE_URL": AIHUBMIX_LEGACY_OPENAI_BASE_URL},
+            clear=True,
+        ), patch("brain_region_pipeline.core.genai._load_project_env"):
+            with self.assertRaisesRegex(RuntimeError, DEFAULT_AIHUBMIX_BASE_URL):
+                resolve_aihubmix_base_url()
+
+    def test_aihubmix_client_uses_gemini_sdk_default_base_url(self) -> None:
         created: list[dict] = []
 
-        class FakeOpenAI:
+        class FakeGenaiClient:
             def __init__(self, **kwargs):
                 created.append(kwargs)
 
-        fake_openai = types.ModuleType("openai")
-        fake_openai.OpenAI = FakeOpenAI
+        fake_google = types.ModuleType("google")
+        fake_genai = types.ModuleType("google.genai")
+        fake_genai.Client = FakeGenaiClient
+        fake_genai_types = types.ModuleType("google.genai.types")
+        fake_genai_types.HttpOptions = lambda **kwargs: types.SimpleNamespace(**kwargs)
+        fake_genai_types.HttpRetryOptions = lambda **kwargs: types.SimpleNamespace(**kwargs)
+        fake_google.genai = fake_genai
 
-        with patch.dict(sys.modules, {"openai": fake_openai}), patch.dict(
+        with patch.dict(
+            sys.modules,
+            {
+                "google": fake_google,
+                "google.genai": fake_genai,
+                "google.genai.types": fake_genai_types,
+            },
+        ), patch.dict(
             os.environ,
             {"AIHUBMIX_API_KEY": "test-key"},
             clear=True,
@@ -451,8 +476,9 @@ class DescriptionWorkflowTests(unittest.TestCase):
             create_aihubmix_client()
 
         self.assertEqual(created[0]["api_key"], "test-key")
-        self.assertEqual(created[0]["base_url"], DEFAULT_AIHUBMIX_BASE_URL)
-        self.assertEqual(created[0]["max_retries"], 0)
+        http_options = created[0]["http_options"]
+        self.assertEqual(http_options.base_url, DEFAULT_AIHUBMIX_BASE_URL)
+        self.assertEqual(http_options.retry_options.attempts, GEMINI_RETRY_ATTEMPTS)
 
     def test_gemini_client_can_use_vertex_api_key_mode(self) -> None:
         created: list[dict] = []
@@ -653,94 +679,6 @@ class DescriptionWorkflowTests(unittest.TestCase):
             },
         )
 
-    def test_strict_schema_normalization_adds_object_additional_properties(self) -> None:
-        schema = {
-            "type": "object",
-            "properties": {
-                "outer": {
-                    "type": "object",
-                    "properties": {
-                        "items": {
-                            "type": "array",
-                            "items": {
-                                "type": "object",
-                                "properties": {"label": {"type": "string"}},
-                                "required": ["label"],
-                            },
-                        },
-                    },
-                    "required": ["items"],
-                },
-            },
-            "required": ["outer"],
-        }
-
-        normalized = _normalize_strict_json_schema(schema)
-
-        self.assertNotIn("additionalProperties", schema)
-        self.assertFalse(normalized["additionalProperties"])
-        outer_schema = normalized["properties"]["outer"]
-        item_schema = outer_schema["properties"]["items"]["items"]
-        self.assertFalse(outer_schema["additionalProperties"])
-        self.assertFalse(item_schema["additionalProperties"])
-
-    def test_aihubmix_structured_generation_always_uses_normalized_strict_json_schema(self) -> None:
-        class FakeCompletions:
-            def __init__(self):
-                self.kwargs: dict | None = None
-
-            def create(self, **kwargs):
-                self.kwargs = kwargs
-                message = types.SimpleNamespace(content='{"ok": true}')
-                choice = types.SimpleNamespace(message=message)
-                return types.SimpleNamespace(choices=[choice])
-
-        completions = FakeCompletions()
-        client = types.SimpleNamespace(
-            chat=types.SimpleNamespace(
-                completions=completions,
-            ),
-        )
-        schema = {
-            "type": "object",
-            "properties": {
-                "ok": {"type": "boolean"},
-                "nested": {
-                    "type": "object",
-                    "properties": {"label": {"type": "string"}},
-                    "required": ["label"],
-                },
-            },
-            "required": ["ok"],
-        }
-        cfg = SummaryDescriptionsConfig(
-            generation_provider=AIHUBMIX_GENERATION_PROVIDER,
-            generation_model="non_gemini_test_model",
-            temperature=0.1,
-        )
-
-        payload = _generate_structured_json_aihubmix_chat(
-            client=client,
-            model=cfg.generation_model,
-            system_instruction="Return JSON.",
-            contents=["Prompt body."],
-            response_schema=schema,
-            cfg=cfg,
-        )
-
-        self.assertEqual(payload, {"ok": True})
-        self.assertIsNotNone(completions.kwargs)
-        request = completions.kwargs or {}
-        response_format = request["response_format"]
-        strict_schema = response_format["json_schema"]["schema"]
-        self.assertEqual(request["messages"][1]["content"], "Prompt body.")
-        self.assertNotIn("Response JSON schema:", request["messages"][1]["content"])
-        self.assertNotIn('"nested"', request["messages"][1]["content"])
-        self.assertEqual(response_format["type"], "json_schema")
-        self.assertTrue(response_format["json_schema"]["strict"])
-        self.assertFalse(strict_schema["additionalProperties"])
-        self.assertFalse(strict_schema["properties"]["nested"]["additionalProperties"])
-
     def test_openai_chat_structured_generation_rejects_non_object_json(self) -> None:
         class FakeCompletions:
             def create(self, **kwargs):
@@ -820,7 +758,7 @@ class DescriptionWorkflowTests(unittest.TestCase):
         }
 
         with patch("brain_region_pipeline.core.genai.create_aihubmix_client") as create_client, patch(
-            "brain_region_pipeline.core.genai._generate_structured_json_aihubmix_chat",
+            "brain_region_pipeline.core.genai._generate_structured_json_gemini",
             return_value={"ok": True},
         ) as generate:
             payload = generate_structured_json(
@@ -848,7 +786,7 @@ class DescriptionWorkflowTests(unittest.TestCase):
         }
 
         with patch("brain_region_pipeline.core.genai.create_aihubmix_client") as create_client, patch(
-            "brain_region_pipeline.core.genai._generate_structured_json_aihubmix_chat",
+            "brain_region_pipeline.core.genai._generate_structured_json_gemini",
             side_effect=RuntimeError("provider failed"),
         ) as generate:
             with self.assertRaisesRegex(RuntimeError, "provider failed"):
@@ -902,7 +840,7 @@ class DescriptionWorkflowTests(unittest.TestCase):
         }
 
         with patch("brain_region_pipeline.core.genai.create_aihubmix_client") as create_client, patch(
-            "brain_region_pipeline.core.genai._generate_structured_json_aihubmix_chat",
+            "brain_region_pipeline.core.genai._generate_structured_json_gemini",
             return_value={"ok": True},
         ) as generate:
             payload = generate_structured_json(
