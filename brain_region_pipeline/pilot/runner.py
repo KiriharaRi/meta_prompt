@@ -65,6 +65,14 @@ class PilotEpisode:
 
 
 @dataclass(frozen=True)
+class PilotEncodingTrim:
+    """Encoding-time trim settings written into generated manifest rows."""
+
+    fmri_trim_start_tr: int = 5
+    fmri_trim_end_tr: int = 5
+
+
+@dataclass(frozen=True)
 class PilotConfig:
     """Validated run configuration for the multi-ROI pilot."""
 
@@ -84,6 +92,7 @@ class PilotConfig:
     local_buffer_size: int
     lags: tuple[int, ...]
     alphas: tuple[float, ...]
+    encoding_trim: PilotEncodingTrim
 
 
 def _log(message: str) -> None:
@@ -119,6 +128,38 @@ def _tuple_floats(values: Sequence[Any], field: str) -> tuple[float, ...]:
     if any(value <= 0 for value in parsed):
         raise ValueError(f"Pilot config field {field!r} must contain positive values.")
     return parsed
+
+
+def _nonnegative_int(value: Any, field: str) -> int:
+    """Parse a non-negative integer from the pilot config."""
+
+    try:
+        parsed = int(value)
+    except (TypeError, ValueError) as exc:
+        raise ValueError(f"Pilot config field {field!r} must be an integer.") from exc
+    if parsed < 0:
+        raise ValueError(f"Pilot config field {field!r} cannot be negative.")
+    return parsed
+
+
+def _load_encoding_trim(payload: dict[str, Any]) -> PilotEncodingTrim:
+    """Load encoding trim config, defaulting to notebook-compatible 5/5 fMRI trim."""
+
+    raw_trim = payload.get("encoding_trim", {})
+    if raw_trim is None:
+        raw_trim = {}
+    if not isinstance(raw_trim, dict):
+        raise ValueError("Pilot config field 'encoding_trim' must be an object.")
+    return PilotEncodingTrim(
+        fmri_trim_start_tr=_nonnegative_int(
+            raw_trim.get("fmri_trim_start_tr", 5),
+            "encoding_trim.fmri_trim_start_tr",
+        ),
+        fmri_trim_end_tr=_nonnegative_int(
+            raw_trim.get("fmri_trim_end_tr", 5),
+            "encoding_trim.fmri_trim_end_tr",
+        ),
+    )
 
 
 def load_pilot_config(path: str | Path) -> PilotConfig:
@@ -171,6 +212,7 @@ def load_pilot_config(path: str | Path) -> PilotConfig:
             ),
             "alphas",
         ),
+        encoding_trim=_load_encoding_trim(payload),
     )
 
 
@@ -269,6 +311,11 @@ def _dry_run(config: PilotConfig, rois: Sequence[RoiDefinition], stage: str) -> 
     _log(f"  Generation: {config.generation_provider} / {config.generation_model}")
     _log(f"  ROI count: {len(rois)} -> {', '.join(roi.roi_id for roi in rois)}")
     _log(f"  Episodes: {', '.join(_episode_ids(config))}")
+    _log(
+        "  Encoding trim: "
+        f"fMRI start={config.encoding_trim.fmri_trim_start_tr}, "
+        f"fMRI end={config.encoding_trim.fmri_trim_end_tr}",
+    )
     _log(f"  Scoring jobs: {len(rois) * len(config.episodes)} ROI x episode runs")
     for episode in config.episodes:
         _log(
@@ -453,6 +500,10 @@ def _write_manifest(config: PilotConfig, rois: Sequence[RoiDefinition]) -> None:
                 "roi_features": roi_features,
                 "h5_file": _relative_to(config.h5_file, encoding_dir),
                 "h5_dataset": episode.h5_dataset,
+                "feature_trim_start_tr": 0,
+                "feature_trim_end_tr": 0,
+                "fmri_trim_start_tr": config.encoding_trim.fmri_trim_start_tr,
+                "fmri_trim_end_tr": config.encoding_trim.fmri_trim_end_tr,
             },
         )
     write_jsonl(manifest_path, rows)

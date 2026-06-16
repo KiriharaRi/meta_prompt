@@ -166,6 +166,8 @@ class MultiRoiEncodingTests(unittest.TestCase):
         self.assertEqual(config.generation_model, DEFAULT_GENERATION_MODEL)
         self.assertEqual(config.generation_provider, AIHUBMIX_GENERATION_PROVIDER)
         self.assertEqual(config.generation_model, DEFAULT_AIHUBMIX_MODEL)
+        self.assertEqual(config.encoding_trim.fmri_trim_start_tr, 5)
+        self.assertEqual(config.encoding_trim.fmri_trim_end_tr, 5)
 
     def test_multi_roi_pilot_dry_run_validates_roi_config_without_writes(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -336,6 +338,117 @@ class MultiRoiEncodingTests(unittest.TestCase):
 
         self.assertIn("Dry-run multi-ROI pilot plan", stdout.getvalue())
         self.assertIn("DLPFC=2", stdout.getvalue())
+
+    def test_multi_roi_pilot_manifest_writes_encoding_trim_fields(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            labels = root / "brainnetome.csv"
+            roi_file = root / "roi_defs.json"
+            config_file = root / "pilot.json"
+            h5_file = root / "bold.h5"
+            output_root = root / "pilot_out"
+            _write_labels(labels)
+            for name in ("train.md", "val.md", "test.md"):
+                (root / name).write_text("00:00 - 00:01  Test segment.", encoding="utf-8")
+            with h5py.File(h5_file, "w") as handle:
+                handle.create_dataset("train", data=np.zeros((12, 4), dtype=np.float32))
+                handle.create_dataset("val", data=np.zeros((12, 4), dtype=np.float32))
+                handle.create_dataset("test", data=np.zeros((12, 4), dtype=np.float32))
+            roi_file.write_text(
+                json.dumps(
+                    {
+                        "rois": [
+                            {
+                                "roi_id": "ROI_A",
+                                "display_name": "ROI A",
+                                "selection_rules": [
+                                    {
+                                        "label_ids": [1, 2],
+                                        "networks": [],
+                                        "sub_regions": [],
+                                        "hemispheres": [],
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                ),
+                encoding="utf-8",
+            )
+            episodes = [
+                {
+                    "episode_id": "train_ep",
+                    "split": "train",
+                    "descriptions": "train.md",
+                    "h5_dataset": "train",
+                },
+                {
+                    "episode_id": "val_ep",
+                    "split": "val",
+                    "descriptions": "val.md",
+                    "h5_dataset": "val",
+                },
+                {
+                    "episode_id": "test_ep",
+                    "split": "test",
+                    "descriptions": "test.md",
+                    "h5_dataset": "test",
+                },
+            ]
+            config_file.write_text(
+                json.dumps(
+                    {
+                        "roi_definitions": roi_file.name,
+                        "atlas_labels": labels.name,
+                        "h5_file": h5_file.name,
+                        "output_root": output_root.name,
+                        "subject_id": "sub-01",
+                        "rois": ["ROI_A"],
+                        "episodes": episodes,
+                        "encoding_trim": {
+                            "fmri_trim_start_tr": 5,
+                            "fmri_trim_end_tr": 5,
+                        },
+                    },
+                ),
+                encoding="utf-8",
+            )
+            for episode in episodes:
+                feature_path = (
+                    output_root
+                    / "rois"
+                    / "ROI_A"
+                    / "scores"
+                    / episode["episode_id"]
+                    / "tr_features.jsonl"
+                )
+                feature_path.parent.mkdir(parents=True, exist_ok=True)
+                _write_features(feature_path, _features(12, 0.0, 1.0))
+
+            with redirect_stdout(io.StringIO()):
+                main(
+                    [
+                        "run-multi-roi-pilot",
+                        "--config",
+                        str(config_file),
+                        "--stage",
+                        "manifest",
+                    ],
+                )
+
+            manifest = output_root / "encoding" / "roi_encoding_manifest.jsonl"
+            rows = [
+                json.loads(line)
+                for line in manifest.read_text(encoding="utf-8").splitlines()
+                if line
+            ]
+
+        self.assertEqual(len(rows), 3)
+        for row in rows:
+            self.assertEqual(row["feature_trim_start_tr"], 0)
+            self.assertEqual(row["feature_trim_end_tr"], 0)
+            self.assertEqual(row["fmri_trim_start_tr"], 5)
+            self.assertEqual(row["fmri_trim_end_tr"], 5)
 
     def test_manifest_requires_consistent_roi_sets(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:

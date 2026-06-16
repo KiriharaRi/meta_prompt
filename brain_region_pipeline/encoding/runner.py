@@ -17,9 +17,9 @@ from ..schema_design.region_schema import load_region_schema
 from ..schema_design.schema_models import RegionFeatureSchema
 from .features import (
     LaggedSample,
+    align_feature_matrix_to_trimmed_fmri,
     build_lagged_sample,
     expanded_feature_names,
-    trim_matrix,
 )
 from .fmri import load_selected_parcel_timeseries
 from .manifest import RoiEncodingManifestEntry, load_roi_encoding_manifest
@@ -97,19 +97,32 @@ def _feature_axis(rows: Sequence[dict[str, Any]], path: Path) -> list[tuple[int,
     """Return comparable TR provenance tuples for one feature file."""
 
     axis: list[tuple[int, float, float]] = []
-    for row_idx, row in enumerate(rows, start=1):
+    for zero_based_idx, row in enumerate(rows):
+        row_number = zero_based_idx + 1
         try:
-            axis.append(
-                (
-                    int(row["tr_index"]),
-                    float(row["tr_start_s"]),
-                    float(row["tr_end_s"]),
-                ),
-            )
+            tr_index = int(row["tr_index"])
+            tr_start_s = float(row["tr_start_s"])
+            tr_end_s = float(row["tr_end_s"])
         except KeyError as exc:
             raise ValueError(
-                f"{path}: row {row_idx} missing TR provenance field {exc.args[0]!r}.",
+                f"{path}: row {row_number} missing TR provenance field {exc.args[0]!r}.",
             ) from exc
+        except (TypeError, ValueError) as exc:
+            raise ValueError(
+                f"{path}: row {row_number} has invalid TR provenance values.",
+            ) from exc
+        if tr_index != zero_based_idx:
+            raise ValueError(
+                f"{path}: row {row_number} tr_index must be {zero_based_idx}, "
+                f"got {tr_index}. tr_features.jsonl must be continuous from 0.",
+            )
+        axis.append(
+            (
+                tr_index,
+                tr_start_s,
+                tr_end_s,
+            ),
+        )
     return axis
 
 
@@ -228,33 +241,24 @@ def _load_lagged_sample(
         selected_parcel_indices=selected_indices,
         atlas_parcel_count=atlas_parcel_count,
     )
-    x_trimmed = trim_matrix(
-        x_raw,
-        start_tr=entry.feature_trim_start_tr,
-        end_tr=entry.feature_trim_end_tr,
-        label=f"{entry.sample_id} ROI features",
+    aligned = align_feature_matrix_to_trimmed_fmri(
+        sample_id=entry.sample_id,
+        x_raw=x_raw,
+        y_raw=y_raw,
+        feature_trim_start_tr=entry.feature_trim_start_tr,
+        feature_trim_end_tr=entry.feature_trim_end_tr,
+        fmri_trim_start_tr=entry.fmri_trim_start_tr,
+        fmri_trim_end_tr=entry.fmri_trim_end_tr,
     )
-    y_trimmed = trim_matrix(
-        y_raw,
-        start_tr=entry.fmri_trim_start_tr,
-        end_tr=entry.fmri_trim_end_tr,
-        label=f"{entry.sample_id} fMRI",
-    )
-    if x_trimmed.shape[0] != y_trimmed.shape[0]:
-        raise ValueError(
-            f"Sample {entry.sample_id!r}: feature and fMRI lengths differ after "
-            "explicit manifest trimming "
-            f"({x_trimmed.shape[0]} != {y_trimmed.shape[0]}).",
-        )
     sample = build_lagged_sample(
         sample_id=entry.sample_id,
         subject_id=entry.subject_id,
         split=entry.split,
-        x_raw=x_trimmed,
-        y_raw=y_trimmed,
+        x_raw=aligned.x,
+        y_raw=aligned.y,
         lags=cfg.lags,
-        feature_start_tr=entry.feature_trim_start_tr,
-        fmri_start_tr=entry.fmri_trim_start_tr,
+        feature_start_tr=aligned.feature_start_tr,
+        fmri_start_tr=aligned.fmri_start_tr,
     )
     return sample, feature_names
 

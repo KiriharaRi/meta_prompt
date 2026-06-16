@@ -477,11 +477,34 @@ uv run python -m brain_region_pipeline run-multi-roi-pilot \
   [--dry-run]
 ```
 
+Pilot configs may include encoding-time fMRI trim settings:
+
+```json
+{
+  "encoding_trim": {
+    "fmri_trim_start_tr": 5,
+    "fmri_trim_end_tr": 5
+  }
+}
+```
+
 ### 3. Contracts
 
 - ROI encoding manifest is JSONL, one sample per line. Each row must include
   `sample_id`, `subject_id`, `feature_set_name`, `split`, `roi_features`,
-  `h5_file`, and `h5_dataset`.
+  `h5_file`, `h5_dataset`, and explicit trim fields
+  `feature_trim_start_tr`, `feature_trim_end_tr`, `fmri_trim_start_tr`, and
+  `fmri_trim_end_tr`.
+- `run-multi-roi-pilot --stage manifest` writes `feature_trim_start_tr=0` and
+  `feature_trim_end_tr=0`; fMRI trim values come from
+  `pilot_config.encoding_trim`, defaulting to notebook-compatible 5/5.
+- Encoding alignment is fMRI-driven on raw TR indices. For an H5 dataset with
+  `h5_trs` rows, the required half-open range is
+  `[fmri_trim_start_tr, h5_trs - fmri_trim_end_tr)`. Features and fMRI are both
+  sliced on that raw interval before lag expansion.
+- Scoring must not be shortened to match fMRI. It still scores every TR covered
+  by the description-derived `tr_features.jsonl`; alignment happens only in
+  encoding.
 - `roi_features` is an object mapping ROI id to that ROI's `tr_features.jsonl`
   for the same sample. Single-ROI runs use exactly one mapping entry. Every
   manifest row must contain the same ROI ids.
@@ -492,6 +515,8 @@ uv run python -m brain_region_pipeline run-multi-roi-pilot \
   feature names as `<roi_id>::<dimension_id>`.
 - Before concatenation, all ROI feature files for one sample must have identical
   `tr_index`, `tr_start_s`, and `tr_end_s` sequences.
+- `tr_features.jsonl` provenance is part of the raw TR contract:
+  `tr_index` must start at 0, be continuous, and equal the feature row position.
 - Target parcels are the union of all ROI schema selection rules. Duplicate
   parcel indices are predicted once, and parcel metadata records
   `roi_memberships`.
@@ -519,7 +544,13 @@ uv run python -m brain_region_pipeline run-multi-roi-pilot \
 - ROI schema selection rules select no parcels -> `ValueError`.
 - Feature vector length differs from the corresponding ROI schema dimensions ->
   `ValueError`.
-- Feature/fMRI lengths differ after explicit trimming -> `ValueError`.
+- Feature coverage does not include the fMRI-required raw TR interval ->
+  `ValueError` naming the sample id, feature coverage range, required trimmed
+  fMRI range, and suggested minimum `fmri_trim_end_tr`.
+- Feature rows are longer than the fMRI-required raw TR interval -> allowed; trim
+  extra rows in encoding.
+- `tr_index` missing, non-numeric, non-continuous, or not equal to row position
+  -> `ValueError` before model fitting.
 - A sample has no rows left after trimming or too few rows for `max(lags)` ->
   `ValueError`.
 - All train X columns or all train Y parcels are constant -> `ValueError`.
@@ -537,16 +568,26 @@ uv run python -m brain_region_pipeline run-multi-roi-pilot \
   command and output contract as multi-ROI runs.
 - Base: two ROI schemas select one overlapping parcel; target Y keeps that
   parcel once and records both ROI ids in `roi_memberships`.
+- Base: scored feature rows are longer than the trimmed fMRI interval; encoding
+  truncates features to the fMRI raw TR interval and proceeds.
 - Bad: silently concatenating ROI feature files with different TR axes. This can
   mix episodes or shift time and is forbidden.
+- Bad: reusing the final feature row when the description-derived
+  `tr_features.jsonl` is shorter than the trimmed fMRI interval. This fabricates
+  feature evidence and must fail the encoding run.
 
 ### 6. Tests Required
 
 - Manifest validation rejects inconsistent ROI sets.
+- Manifest-stage coverage asserts `encoding_trim` is written into every manifest
+  row as `fmri_trim_start_tr` / `fmri_trim_end_tr` with feature trim 0/0.
 - Tiny H5 fixture verifies duplicate target parcels are de-duplicated and
   `roi_memberships` are reported.
 - Tiny H5 fixture verifies the one-ROI manifest case goes through the unified
   runner and writes `roi_summaries.json`.
+- Raw TR alignment tests must cover longer feature files accepted/truncated,
+  shorter feature files rejected with actionable coverage ranges, and
+  non-contiguous `tr_index` rejected before model fitting.
 - CLI help exposes `fit-roi-encoding` and `run-multi-roi-pilot`.
 - Pilot dry-run validates ROI definitions, episode paths, H5 datasets, and
   prints scoring job scale without calling Gemini.
@@ -570,6 +611,25 @@ fit-roi-encoding
 fit-roi-encoding
 # code checks tr_index/tr_start_s/tr_end_s for every ROI feature file in the
 # sample before hstacking, then fails if the axes differ.
+```
+
+#### Wrong
+
+```text
+score-descriptions --total-trs <h5_trs - 10>
+# scoring is forced to fMRI length, hiding whether descriptions actually cover
+# the required raw TR range.
+```
+
+#### Correct
+
+```text
+score-descriptions
+run-multi-roi-pilot --stage manifest
+fit-roi-encoding
+# manifest records fmri_trim_start_tr=5 and fmri_trim_end_tr=5; encoding slices
+# feature[5:h5_trs-5] and fmri[5:h5_trs-5], failing if features do not cover
+# that raw TR interval.
 ```
 
 ---

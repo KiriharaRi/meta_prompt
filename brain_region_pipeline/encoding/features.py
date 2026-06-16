@@ -25,6 +25,16 @@ class LaggedSample:
     fmri_tr_indices: NDArray[np.int64]
 
 
+@dataclass(frozen=True)
+class RawTrAlignedMatrices:
+    """Feature and fMRI matrices aligned on the same raw TR interval."""
+
+    x: NDArray[np.float64]
+    y: NDArray[np.float64]
+    feature_start_tr: int
+    fmri_start_tr: int
+
+
 def load_tr_feature_matrix(
     path: str | Path,
     feature_names: Sequence[str],
@@ -49,6 +59,26 @@ def load_tr_feature_matrix(
     return np.asarray(vectors, dtype=np.float64)
 
 
+def _trim_interval(
+    n_rows: int,
+    *,
+    start_tr: int,
+    end_tr: int,
+    label: str,
+) -> tuple[int, int]:
+    """Return the half-open raw TR interval left after explicit trimming."""
+
+    if start_tr < 0 or end_tr < 0:
+        raise ValueError(f"{label}: trim counts must be non-negative.")
+    end_index = n_rows - end_tr if end_tr else n_rows
+    if start_tr >= end_index:
+        raise ValueError(
+            f"{label}: trimming removes all rows "
+            f"(n={n_rows}, start={start_tr}, end={end_tr}).",
+        )
+    return start_tr, end_index
+
+
 def trim_matrix(
     matrix: NDArray[np.float64],
     *,
@@ -58,15 +88,69 @@ def trim_matrix(
 ) -> NDArray[np.float64]:
     """Apply explicit manifest trimming to a TR x column matrix."""
 
-    if start_tr < 0 or end_tr < 0:
-        raise ValueError(f"{label}: trim counts must be non-negative.")
-    end_index = matrix.shape[0] - end_tr if end_tr else matrix.shape[0]
-    if start_tr >= end_index:
+    start_index, end_index = _trim_interval(
+        matrix.shape[0],
+        start_tr=start_tr,
+        end_tr=end_tr,
+        label=label,
+    )
+    return matrix[start_index:end_index, :]
+
+
+def align_feature_matrix_to_trimmed_fmri(
+    *,
+    sample_id: str,
+    x_raw: NDArray[np.float64],
+    y_raw: NDArray[np.float64],
+    feature_trim_start_tr: int,
+    feature_trim_end_tr: int,
+    fmri_trim_start_tr: int,
+    fmri_trim_end_tr: int,
+) -> RawTrAlignedMatrices:
+    """Align features to the raw TR interval retained after fMRI trimming.
+
+    Scoring can produce fewer feature rows than the corresponding H5 dataset
+    when descriptions stop before the episode tail. Encoding therefore treats
+    the fMRI trim interval as authoritative and slices features by the same raw
+    TR indices. Longer feature files are truncated; shorter feature coverage is
+    a hard error so callers do not silently reuse stale scores.
+    """
+
+    feature_start, feature_end = _trim_interval(
+        x_raw.shape[0],
+        start_tr=feature_trim_start_tr,
+        end_tr=feature_trim_end_tr,
+        label=f"{sample_id} ROI features",
+    )
+    fmri_start, fmri_end = _trim_interval(
+        y_raw.shape[0],
+        start_tr=fmri_trim_start_tr,
+        end_tr=fmri_trim_end_tr,
+        label=f"{sample_id} fMRI",
+    )
+
+    if feature_start > fmri_start:
         raise ValueError(
-            f"{label}: trimming removes all rows "
-            f"(n={matrix.shape[0]}, start={start_tr}, end={end_tr}).",
+            f"Sample {sample_id!r}: feature rows cover raw TR "
+            f"[{feature_start}, {feature_end}), but trimmed fMRI requires "
+            f"[{fmri_start}, {fmri_end}). Set fmri_trim_start_tr to at least "
+            f"{feature_start}, or decrease feature_trim_start_tr.",
         )
-    return matrix[start_tr:end_index, :]
+    if feature_end < fmri_end:
+        suggested_end_trim = max(y_raw.shape[0] - feature_end, 0)
+        raise ValueError(
+            f"Sample {sample_id!r}: feature rows cover raw TR "
+            f"[{feature_start}, {feature_end}), but trimmed fMRI requires "
+            f"[{fmri_start}, {fmri_end}). Set fmri_trim_end_tr to at least "
+            f"{suggested_end_trim}, or regenerate/fix the feature file.",
+        )
+
+    return RawTrAlignedMatrices(
+        x=x_raw[fmri_start:fmri_end, :].astype(np.float64),
+        y=y_raw[fmri_start:fmri_end, :].astype(np.float64),
+        feature_start_tr=fmri_start,
+        fmri_start_tr=fmri_start,
+    )
 
 
 def expanded_feature_names(

@@ -12,7 +12,9 @@ import numpy as np
 
 from brain_region_pipeline.cli import main
 from brain_region_pipeline.atlas.models import SelectionRule
+from brain_region_pipeline.encoding.features import align_feature_matrix_to_trimmed_fmri
 from brain_region_pipeline.encoding.manifest import load_roi_encoding_manifest
+from brain_region_pipeline.encoding.runner import _load_one_roi_feature_matrix
 from brain_region_pipeline.schema_design.domain_models import CuratedDomain
 from brain_region_pipeline.schema_design.schema_models import DimensionSpec, RegionFeatureSchema
 
@@ -125,6 +127,69 @@ def _target_values(features: np.ndarray) -> np.ndarray:
 class BrainRegionEncodingTests(unittest.TestCase):
     """Validate the H5 Ridge encoding stage contract."""
 
+    def test_raw_tr_alignment_allows_longer_features(self) -> None:
+        x_raw = np.arange(24, dtype=np.float64).reshape(12, 2)
+        y_raw = np.arange(50, dtype=np.float64).reshape(10, 5)
+
+        aligned = align_feature_matrix_to_trimmed_fmri(
+            sample_id="sample_long",
+            x_raw=x_raw,
+            y_raw=y_raw,
+            feature_trim_start_tr=0,
+            feature_trim_end_tr=0,
+            fmri_trim_start_tr=2,
+            fmri_trim_end_tr=3,
+        )
+
+        np.testing.assert_array_equal(aligned.x, x_raw[2:7])
+        np.testing.assert_array_equal(aligned.y, y_raw[2:7])
+        self.assertEqual(aligned.feature_start_tr, 2)
+        self.assertEqual(aligned.fmri_start_tr, 2)
+
+    def test_raw_tr_alignment_rejects_short_feature_tail(self) -> None:
+        x_raw = np.zeros((6, 2), dtype=np.float64)
+        y_raw = np.zeros((10, 3), dtype=np.float64)
+
+        with self.assertRaisesRegex(
+            ValueError,
+            r"sample_short.*feature rows cover raw TR \[0, 6\).*"
+            r"trimmed fMRI requires \[2, 8\).*fmri_trim_end_tr to at least 4",
+        ):
+            align_feature_matrix_to_trimmed_fmri(
+                sample_id="sample_short",
+                x_raw=x_raw,
+                y_raw=y_raw,
+                feature_trim_start_tr=0,
+                feature_trim_end_tr=0,
+                fmri_trim_start_tr=2,
+                fmri_trim_end_tr=2,
+            )
+
+    def test_tr_feature_loader_requires_continuous_raw_tr_indices(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            feature_file = Path(tmpdir) / "features.jsonl"
+            rows = [
+                {
+                    "tr_index": 0,
+                    "tr_start_s": 0.0,
+                    "tr_end_s": 1.0,
+                    "feature_vector": [1.0, 2.0],
+                },
+                {
+                    "tr_index": 2,
+                    "tr_start_s": 1.0,
+                    "tr_end_s": 2.0,
+                    "feature_vector": [3.0, 4.0],
+                },
+            ]
+            feature_file.write_text(
+                "\n".join(json.dumps(row) for row in rows) + "\n",
+                encoding="utf-8",
+            )
+
+            with self.assertRaisesRegex(ValueError, "tr_index must be 1"):
+                _load_one_roi_feature_matrix(feature_file, ["a", "b"])
+
     def test_manifest_loader_reports_line_numbers(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             manifest = Path(tmpdir) / "manifest.jsonl"
@@ -159,9 +224,9 @@ class BrainRegionEncodingTests(unittest.TestCase):
             with h5py.File(h5_file, "w") as handle:
                 manifest_rows = []
                 for sample_id, split, feature_name, h5_dataset, offset in samples:
-                    features = _feature_values(12, offset)
+                    features = _feature_values(14, offset)
                     _write_features(root / feature_name, features)
-                    handle.create_dataset(h5_dataset, data=_target_values(features))
+                    handle.create_dataset(h5_dataset, data=_target_values(features[:12]))
                     manifest_rows.append(
                         {
                             "sample_id": sample_id,
@@ -173,8 +238,8 @@ class BrainRegionEncodingTests(unittest.TestCase):
                             "h5_dataset": h5_dataset,
                             "feature_trim_start_tr": 0,
                             "feature_trim_end_tr": 0,
-                            "fmri_trim_start_tr": 0,
-                            "fmri_trim_end_tr": 0,
+                            "fmri_trim_start_tr": 2,
+                            "fmri_trim_end_tr": 2,
                         },
                     )
             manifest.write_text(
@@ -223,6 +288,8 @@ class BrainRegionEncodingTests(unittest.TestCase):
         self.assertEqual([row["parcel_index"] for row in parcel_rows], [0, 1])
         self.assertEqual([row["roi_memberships"] for row in parcel_rows], [["vmPFC"], ["vmPFC"]])
         self.assertEqual(predictions["y_true"].shape, predictions["y_pred"].shape)
+        np.testing.assert_array_equal(predictions["feature_tr_indices"], np.arange(3, 10))
+        np.testing.assert_array_equal(predictions["fmri_tr_indices"], np.arange(3, 10))
         self.assertEqual(coefficients["coef"].shape[0], 2)
         self.assertEqual(
             coefficients["expanded_feature_names"].tolist(),

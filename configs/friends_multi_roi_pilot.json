@@ -11,6 +11,10 @@
   "tr_s": 1.49,
   "scoring_batch_size": 40,
   "local_buffer_size": 10,
+  "encoding_trim": {
+    "fmri_trim_start_tr": 5,
+    "fmri_trim_end_tr": 5
+  },
   "lags": [2, 3, 4, 5, 6],
   "alphas": [0.01, 0.03, 0.1, 0.3, 1, 3, 10, 30, 100, 300, 1000, 3000, 10000],
   "rois": [

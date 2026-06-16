@@ -59,6 +59,10 @@ export GEMINI_USE_VERTEXAI=true
   "atlas_labels": "../atlas/subregion_func_network_Yeo_updated.csv",
   "h5_file": "../friends/BN/sub-01/BN_246.h5",
   "output_root": "../friends/demo/multi_roi_pilot",
+  "encoding_trim": {
+    "fmri_trim_start_tr": 5,
+    "fmri_trim_end_tr": 5
+  },
   "episodes": [
     {
       "episode_id": "s01e01a",
@@ -77,6 +81,7 @@ export GEMINI_USE_VERTEXAI=true
 - `episodes[].descriptions` 指向本地 refined description Markdown 文件。
 - `episodes[].h5_dataset` 存在于 `h5_file` 中。
 - `output_root` 指向你希望生成 summaries、scores 和 encoding 结果的位置。
+- `encoding_trim` 只影响 encoding manifest 和 fMRI/feature 对齐；scoring 阶段仍会对 description 覆盖到的所有 TR 打分。默认首尾各 trim 5 个 fMRI TR。
 
 ## 运行前检查
 
