@@ -231,7 +231,14 @@ Migrated the brain-region pipeline from module prompts to domain_pool_v2 -> regi
 
 ### Main Changes
 
-(Add details)
+- Added encoding-stage raw TR alignment that slices features and fMRI by the
+  same trimmed fMRI interval, allowing longer feature files and failing on
+  insufficient feature coverage.
+- Added pilot `encoding_trim` config defaults and manifest trim field emission
+  while keeping scoring unchanged.
+- Added regression tests for manifest trim writing, raw TR truncation, short
+  feature failure, and `tr_index` continuity.
+- Updated backend spec and config docs for the new encoding alignment contract.
 
 ### Git Commits
 
@@ -241,7 +248,9 @@ Migrated the brain-region pipeline from module prompts to domain_pool_v2 -> regi
 
 ### Testing
 
-- [OK] (Add test results)
+- [OK] `uv run python -m unittest discover -s tests -p 'test_*.py'`
+- [OK] `uv run python -m compileall brain_region_pipeline tests scripts`
+- [OK] `git diff --check`
 
 ### Status
 
@@ -1071,6 +1080,39 @@ Switched AIHubMix provider from the OpenAI-compatible path to Google GenAI SDK w
 | Hash | Message |
 |------|---------|
 | `4914e9d` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
+
+
+## Session 32: Encoding raw TR alignment
+
+**Date**: 2026-06-16
+**Task**: Encoding raw TR alignment
+**Branch**: `main`
+
+### Summary
+
+Aligned ROI encoding features to fMRI raw TR trim, kept scoring unchanged, added pilot encoding_trim and regression tests.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `abeac4d` | (see git log) |
 
 ### Testing
 
