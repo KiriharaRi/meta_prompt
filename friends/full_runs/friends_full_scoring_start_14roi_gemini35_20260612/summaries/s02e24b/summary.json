@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:10",
+    "batch_summary": "At a wedding, Rachel and Ross encounter the newlyweds, Mindy and Barry. Rachel learns a shocking rumor: to cover up her running out on their wedding, Barry's parents told everyone she went insane from syphilis. Meanwhile, back at the apartment, Joey unsuccessfully tries to arrange a double date with his ex, and Chandler struggles with receiving messages from a married woman, expressing his frustration to Phoebe.",
+    "cumulative_summary": "At a formal wedding venue, Rachel, wearing a prominent pink dress, expresses her anxiety to Ross. After receiving several cryptic remarks from guests about being \"up and about,\" Rachel confronts the newlyweds, her ex-fiancé Barry and his new wife Mindy. She is shocked to discover that after she ran out on her own wedding to Barry, his parents covered up the embarrassment by telling everyone Rachel had gone insane from syphilis. Ross tries to humorously defuse her embarrassment. Meanwhile, the scene shifts back to the apartment, where Joey unsuccessfully tries to coordinate a double date with his ex-girlfriend Angela and her new partner. In the kitchen, Phoebe confronts Chandler about ignoring a barrage of messages on his laptop. A frustrated Chandler finally reveals the source of his distress: the woman messaging him is married."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:10 - 00:04:02",
+    "batch_summary": "Back at the apartment, Phoebe enthusiastically convinces a hesitant Chandler to meet his married online love interest in person. Meanwhile, at the wedding reception, Monica tries to convince herself she doesn't need children to appease Richard, but seeing young girls nearby makes her realize she absolutely wants them. Finally, the best man, Joel, stands up to deliver a toast, beginning with a story about Barry's first date with Rachel.",
+    "cumulative_summary": "At a formal wedding, Rachel is mortified to learn Barry's parents told guests she ran out on their wedding because she went insane from syphilis. While Ross tries to comfort her, the scene shifts to the apartment where Joey struggles to coordinate a double date. Meanwhile, Phoebe enthusiastically convinces a hesitant Chandler to meet his married online love interest in person. Back at the wedding reception, Monica tries to convince herself she doesn't need children to appease Richard, but seeing young girls nearby makes her realize she absolutely wants them. Finally, the best man, Joel, stands up to deliver a toast, beginning with a story about Barry's first date with Rachel."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:04:02 - 00:05:48",
+    "batch_summary": "During the wedding toast, the best man Joel publicly embarrasses Rachel by joking about her revealing dress. To defend her, Ross stands up and delivers an awkward speech to the guests. He proudly declares himself as Rachel's boyfriend, loudly refutes the syphilis rumor, and explains she left Barry simply because she didn't love him. Despite Ross's well-meaning intentions, his embarrassing defense mortifies Rachel further, prompting her to abruptly leave the reception and tell him she will meet him in the parking lot.",
+    "cumulative_summary": "At a formal wedding, Rachel is mortified to learn Barry's parents told guests she ran out on their wedding because she went insane from syphilis. While Ross tries to comfort her, Joey struggles to coordinate a double date, and Phoebe convinces Chandler to meet his online love interest. Back at the reception, Monica realizes she definitely wants children despite Richard's hesitation. Meanwhile, the best man, Joel, delivers a toast that publicly embarrasses Rachel by joking about her revealing dress. To defend her, Ross stands up and delivers an awkward speech. He proudly declares himself as Rachel's boyfriend, loudly refutes the syphilis rumor, and explains she left Barry simply because she didn't love him. Despite Ross's well-meaning intentions, his embarrassing defense mortifies Rachel further, prompting her to abruptly flee the reception for the parking lot."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:48 - 00:07:55",
+    "batch_summary": "Instead of fleeing, Rachel bravely stops and takes the stage microphone. She humorously acknowledges her lack of dignity tonight and decides to stay, launching into a performance of \"Copacabana.\" Ross supports her by feeding her lyrics and joining her on stage, turning her embarrassment into a triumphant moment as they sway together. Meanwhile, on the dance floor, Richard makes a major concession to Monica, telling her he is willing to have children if it means they can be together.",
+    "cumulative_summary": "At Barry and Mindy's wedding, Rachel faces intense embarrassment from rumors about her past and a humiliating toast by the best man. Though Ross tries to defend her with an awkward speech, his defense initially mortifies her further. However, instead of fleeing the reception, Rachel bravely takes the stage microphone. She humorously accepts her lack of dignity and begins singing \"Copacabana.\" Ross quickly joins her on stage to support her, turning her embarrassment into a triumphant, sweet moment as they sway together. Meanwhile, on the dance floor, Richard makes a major romantic gesture to Monica, agreeing to have children if that is what it takes to keep them together."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:55 - 00:09:27",
+    "batch_summary": "Richard promises Monica he will raise a child with her, offering to do early feedings and coach soccer just to keep her. While touched, Monica realizes that his repeated use of \"if I have to\" means he does not truly want another child. Heartbroken, she decides she cannot have a baby with someone who is only doing it out of obligation. They tearfully confess their love for one another and share a final, bittersweet slow dance, signaling the end of their relationship.",
+    "cumulative_summary": "At Barry and Mindy's wedding, Rachel overcomes intense embarrassment from rumors and a humiliating toast by bravely singing \"Copacabana\" on stage, supported by Ross in a sweet, triumphant moment. Meanwhile, Richard makes a major romantic gesture to Monica on the dance floor, promising to raise a child with her so they can stay together. However, Monica notices that Richard repeatedly says he will do it \"if he has to.\" Realizing she cannot build a family with someone who only wants a baby out of obligation, Monica makes the heartbreaking decision to end their relationship. Despite their deep love for one another, they share a final, tearful slow dance, accepting that their different desires for the future have driven them apart."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:27 - 00:11:03",
+    "batch_summary": "Monica and Richard share a poignant final dance, deciding to simply \"keep dancing\" in their final moments together. Later at Central Perk, Chandler anxiously awaits a mystery date. Despite his friends' attempts to calm him, his anxiety peaks until the door opens to reveal Janice. She utters her iconic \"Oh, my God\" catchphrase before Chandler rushes to embrace and passionately kiss her, leaving the rest of the shocked group to echo her famous exclamation in unison.",
+    "cumulative_summary": "At Barry and Mindy's wedding, Rachel overcomes intense embarrassment by bravely singing \"Copacabana\" on stage, supported by Ross. Meanwhile, Monica makes the heartbreaking decision to end her relationship with Richard after realizing he only agrees to have a child out of obligation. The two share a poignant, bittersweet final slow dance, accepting that their different paths must separate them. Later, the scene shifts to Central Perk, where Chandler is a nervous wreck waiting for his mystery blind date. His anxiety turns to shock and excitement when the door opens to reveal his ex-girlfriend, Janice. Uttering her famous catchphrase, Janice is met by Chandler, who rushes to passionately kiss her. The unexpected reunion leaves Joey, Ross, Rachel, and Phoebe completely stunned, echoing her exclamation in unison."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 251,
+    "timestamp_range": "00:11:03 - 00:11:37",
+    "batch_summary": "In a humorous turn of events, Ross decides to prove he is a good friend by kissing Joey on the lips to help him prepare for an audition. Joey is impressed by the kiss but casually reveals that the audition already took place that morning and he didn't get the part. Joey compliments Ross's kissing skills, leaving a stunned Ross standing in silence as the episode ends.",
+    "cumulative_summary": "At Barry and Mindy's wedding, Rachel bravely sings \"Copacabana\" on stage, supported by Ross. Meanwhile, Monica makes the heartbreaking decision to end her relationship with Richard after realizing he only agrees to have a child out of obligation. Later, at Central Perk, Chandler is shocked and excited when his mystery blind date turns out to be his ex-girlfriend, Janice, leading to a passionate reunion that stuns their friends. Finally, in a humorous display of dedication, Ross kisses Joey on the lips to help him prepare for an acting audition. Although Joey is highly impressed by Ross's kissing skills, he casually reveals that the audition already happened earlier that morning and he didn't get the part, leaving Ross completely speechless."
+  }
+]

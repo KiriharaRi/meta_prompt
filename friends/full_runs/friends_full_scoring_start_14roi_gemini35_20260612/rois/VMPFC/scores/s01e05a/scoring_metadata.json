@@ -1,0 +1,93 @@
+{
+  "n_segments": 277,
+  "n_trs": 468,
+  "tr_s": 1.49,
+  "alignment": "overlap_weighted",
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/summaries/s01e05a/summary.json",
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  },
+  "gt": null,
+  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/VMPFC/region_schema.json",
+  "feature_names": [
+    "emotion_admiration",
+    "emotion_amusement",
+    "emotion_joy",
+    "emotion_tenderness",
+    "emotion_confusion",
+    "emotion_surprise",
+    "emotion_agitation",
+    "emotion_sadness",
+    "moral_violation_indignation",
+    "prosocial_altruism",
+    "social_conflict_tension",
+    "goal_progress_reward",
+    "threat_loss_stakes",
+    "motivational_relevance"
+  ],
+  "feature_metadata": [
+    {
+      "dimension_id": "emotion_admiration",
+      "domain": "emotion_experience"
+    },
+    {
+      "dimension_id": "emotion_amusement",
+      "domain": "emotion_experience"
+    },
+    {
+      "dimension_id": "emotion_joy",
+      "domain": "emotion_experience"
+    },
+    {
+      "dimension_id": "emotion_tenderness",
+      "domain": "emotion_experience"
+    },
+    {
+      "dimension_id": "emotion_confusion",
+      "domain": "emotion_experience"
+    },
+    {
+      "dimension_id": "emotion_surprise",
+      "domain": "emotion_experience"
+    },
+    {
+      "dimension_id": "emotion_agitation",
+      "domain": "emotion_experience"
+    },
+    {
+      "dimension_id": "emotion_sadness",
+      "domain": "emotion_experience"
+    },
+    {
+      "dimension_id": "moral_violation_indignation",
+      "domain": "social_moral_appraisal"
+    },
+    {
+      "dimension_id": "prosocial_altruism",
+      "domain": "social_moral_appraisal"
+    },
+    {
+      "dimension_id": "social_conflict_tension",
+      "domain": "social_moral_appraisal"
+    },
+    {
+      "dimension_id": "goal_progress_reward",
+      "domain": "subjective_valuation"
+    },
+    {
+      "dimension_id": "threat_loss_stakes",
+      "domain": "subjective_valuation"
+    },
+    {
+      "dimension_id": "motivational_relevance",
+      "domain": "subjective_valuation"
+    }
+  ]
+}

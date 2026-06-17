@@ -1,0 +1,485 @@
+{
+  "version": "domain_pool_v2",
+  "target_region": "SMG",
+  "curation_status": "confirmed",
+  "source_model": "gemini-3.5-flash",
+  "proposal_runs": 5,
+  "metadata": {
+    "generation_parameters": {
+      "provider": "gemini",
+      "temperature": 0.2,
+      "proposal_runs": 5
+    },
+    "required_domain_ids": [],
+    "confirmation_instructions": "Review curated_domains and rejected_or_merged_domains, then set curation_status to 'confirmed' before passing this pool to make-region-schema --domain-pool.",
+    "confirmation_mode": "auto_pilot",
+    "confirmed_by": "run-multi-roi-pilot",
+    "manual_review_required_before_final_claims": true,
+    "draft_source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/SMG/domain_pool_draft.json"
+  },
+  "candidate_domains": [
+    {
+      "domain_id": "run_1_action_kinematics_tracking",
+      "definition": "The viewer's tracking and mental simulation of physical actions, manual manipulations, tool use, and bodily movements performed by characters on screen. This involves parsing the mechanics, effort, and spatial trajectory of physical interactions with objects or other characters.",
+      "region_relevance": "The supramarginal gyrus (SMG, particularly A40rd and A40rv) is a core node of the action observation network and somatosensory-motor integration, heavily involved in representing motor schemas, tool use, and manual praxis.",
+      "scoreability_note": "Can be reliably scored by identifying descriptions of manual actions, tool manipulation, physical struggles, or precise bodily movements in the movie segment text.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_attentional_reorienting_events",
+      "definition": "The viewer's experience of sudden shifts in attention triggered by unexpected narrative events, abrupt visual or auditory changes, or the sudden introduction of highly salient, behaviorally relevant stimuli that disrupt the ongoing flow of the scene.",
+      "region_relevance": "SMG (specifically A40c, associated with the ventral attention network) plays a critical role in bottom-up, stimulus-driven attentional reorienting and detecting unexpected but behaviorally relevant changes in the environment.",
+      "scoreability_note": "Can be scored by tracking sudden plot twists, unexpected interruptions, abrupt entrances of characters, or sudden sensory shocks described in the text.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_verbal_phonological_tracking",
+      "definition": "The viewer's cognitive tracking and parsing of spoken language, dialogue complexity, speech rhythms, and phonological patterns during verbal interactions or voiceover narration.",
+      "region_relevance": "The left SMG (A40rv/A40rd) is a key anatomical substrate for phonological processing, verbal working memory, and mapping auditory speech sounds to motor-articulatory representations.",
+      "scoreability_note": "Can be scored based on the density, speed, complexity, and phonetic emphasis of dialogue or spoken narration described in the movie text.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_perspective_discrepancy_resolution",
+      "definition": "The viewer's cognitive effort in distinguishing and resolving discrepancies between their own knowledge state and a character's mistaken beliefs, or between the conflicting perspectives of different characters (e.g., processing dramatic irony or overcoming egocentric bias).",
+      "region_relevance": "The right SMG is established in social neuroscience as crucial for overcoming egocentric bias, allowing the distinction between self and other perspectives, and managing conflicting cognitive representations of a situation.",
+      "scoreability_note": "Can be scored by identifying narrative instances of dramatic irony, hidden information, misunderstandings, or starkly contrasting viewpoints between characters in the scene description.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_2_action_kinesthetic_resonance",
+      "definition": "The viewer's cognitive tracking and implicit motor simulation of physical actions, manual tool manipulation, and bodily movements executed by characters. This represents the viewer's appraisal of the physical mechanics, effort, and spatial coordination of observed actions.",
+      "region_relevance": "The supramarginal gyrus (SMG, particularly A40rd in the somato-motor network) is heavily implicated in action observation, tool-use representation, and the mirror neuron system, supporting the simulation of motor acts.",
+      "scoreability_note": "Highly scoreable from text descriptions that detail characters' physical tasks, manual interactions with objects, gestures, and physical struggles.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_attentional_reorienting_events",
+      "definition": "The viewer's experience of sudden, unexpected narrative or sensory shifts that disrupt ongoing expectations and demand rapid reorienting of attention. This includes tracking abrupt interruptions, sudden entries, startling events, or unexpected changes in the environment.",
+      "region_relevance": "SMG (A40c) is a key node in the ventral attention network, which mediates bottom-up, stimulus-driven attentional reorienting to salient, behaviorally relevant, or unexpected environmental changes.",
+      "scoreability_note": "Easily scoreable by identifying sudden transitions, unexpected character actions, startling noises, or abrupt narrative pivots in the text descriptions.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_verbal_phonological_tracking",
+      "definition": "The viewer's auditory-cognitive tracking of spoken language, dialogue pacing, and vocal-phonetic characteristics. This captures the viewer's processing of the verbal stream, including the density of dialogue, vocal intensity (e.g., whispering vs. shouting), and conversational turn-taking.",
+      "region_relevance": "Left SMG (A40rv/A40rd) is a classic hub for phonological processing, phonological working memory, and the integration of auditory speech inputs with motor-articulatory representations.",
+      "scoreability_note": "Highly scoreable based on the presence, density, and described delivery style of dialogue within the movie scene text.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_3_action_kinematics_and_tool_use",
+      "definition": "The viewer's mental simulation and tracking of physical actions, manual manipulation of objects, and tool-use dynamics performed by characters. This involves the viewer's implicit mapping of the kinematics, physical effort, and spatial coordination required for the observed body-object interactions.",
+      "region_relevance": "The rostral supramarginal gyrus (A40rd/A40rv) is a key node in somatomotor and action-observation networks, crucial for planning, executing, and mirror-simulating complex manual gestures, tool manipulation, and body-object interactions.",
+      "scoreability_note": "Highly scoreable from descriptions detailing physical actions, manual tasks, tool usage, or complex physical maneuvers, allowing the viewer to simulate the motoric effort and spatial manipulation.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_social_perspective_alignment",
+      "definition": "The viewer's cognitive effort to distinguish their own emotional or informational state from a character's state, or to resolve conflicting perspectives between characters. This represents the viewer's appraisal of situations where a character operates under a different set of beliefs, feelings, or sensory constraints than the viewer or other characters.",
+      "region_relevance": "The right supramarginal gyrus is specifically implicated in overcoming egocentric bias, enabling the viewer to distinguish self-perspective from other-perspective and accurately appraise another's distinct emotional or cognitive state.",
+      "scoreability_note": "Scoreable by identifying narrative moments of dramatic irony, miscommunication, or intense emotional divergence where the viewer must actively track who knows or feels what, separating their own knowledge from the character's.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_phonological_and_conversational_flow",
+      "definition": "The viewer's tracking of spoken language, phonetic patterns, vocal inflections, and conversational pacing. This captures the viewer's processing of the auditory-verbal stream, including rapid dialogue exchanges, voiceovers, and the acoustic-linguistic structure of speech.",
+      "region_relevance": "The supramarginal gyrus (particularly left SMG, A40rv) is a core component of the phonological loop and auditory-to-motor mapping, heavily engaged during phonological processing, speech perception, and verbal working memory.",
+      "scoreability_note": "Easily scoreable from dense descriptions of dialogue density, speech rate, verbal arguments, whispering, or distinct vocal delivery styles that demand auditory-linguistic tracking.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_spatial_salience_and_orienting",
+      "definition": "The viewer's shifting of attention toward unexpected, highly salient, or behaviorally relevant visual and auditory events in the scene. This captures the viewer's automatic or voluntary orienting to sudden movements, abrupt entries, or critical environmental changes that disrupt the ongoing narrative flow.",
+      "region_relevance": "The supramarginal gyrus is a key hub of the ventral attention network (associated with the temporoparietal junction), which mediates stimulus-driven attentional reorienting to salient or unexpected environmental events.",
+      "scoreability_note": "Scoreable by identifying sudden visual cuts, unexpected actions, loud noises, or sudden changes in the scene layout that force the viewer to reorient their spatial and narrative focus.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_4_manual_action_simulation",
+      "definition": "The viewer's tracking and mental simulation of manual actions, physical tool use, or complex bodily movements performed by characters, involving an implicit appraisal of the physical mechanics and spatial coordination required.",
+      "region_relevance": "The supramarginal gyrus (SMG), particularly within somatomotor-associated subregions like A40rd, is heavily implicated in action observation, motor resonance, and the cognitive representation of tool-use gestures.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing manual interactions with objects, physical tasks, tool usage, or precise bodily coordination.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_attentional_reorienting_events",
+      "definition": "The viewer's experience of sudden shifts in attention or narrative focus driven by unexpected events, abrupt visual/auditory changes, or surprising character actions that disrupt the ongoing flow.",
+      "region_relevance": "SMG within the ventral attention network (e.g., A40c) is a key node for stimulus-driven attentional reorienting and processing salient, unexpected environmental changes.",
+      "scoreability_note": "Scoreable by identifying moments in the text where sudden, unexpected events, interruptions, or rapid shifts in the scene's focus occur.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_verbal_communication_tracking",
+      "definition": "The viewer's tracking of spoken language, phonological patterns, and conversational dynamics, including the pacing, tone, and verbal exchanges between characters.",
+      "region_relevance": "SMG (particularly A40rv) is critical for phonological processing, auditory-motor integration for speech, and decoding verbal communication.",
+      "scoreability_note": "Easily scoreable based on the presence, density, and complexity of dialogue or verbal exchanges described in the text.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_visceral_empathy_appraisal",
+      "definition": "The viewer's appraisal of a character's physical or emotional distress, requiring the viewer to simulate or resonate with the character's immediate visceral state (such as pain, physical threat, or intense discomfort).",
+      "region_relevance": "SMG is key for the supramodal representation of shared bodily states, empathy for pain, and distinguishing self-other affective states.",
+      "scoreability_note": "Scoreable by identifying descriptions of characters experiencing physical pain, intense sensory discomfort, or high-stakes visceral distress.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_5_action_and_tool_manipulation",
+      "definition": "The viewer's tracking and mental simulation of goal-directed physical actions, manual manipulation of tools or objects, and bodily kinematics performed by characters in the scene.",
+      "region_relevance": "The supramarginal gyrus (SMG), particularly dorsal parts like A40rd within the somatomotor network, is heavily implicated in action observation, motor planning, praxis, and tool-use representation.",
+      "scoreability_note": "Highly scoreable from dense descriptions detailing characters handling objects, performing physical tasks, gesturing, or executing complex manual movements.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_vocal_and_phonological_tracking",
+      "definition": "The viewer's processing of spoken language, vocal delivery, phonological patterns, and auditory-verbal cues, including dialogue pacing, whispering, shouting, or distinct accents.",
+      "region_relevance": "The rostroventral SMG (A40rv) is a critical node in the phonological loop, mapping auditory speech inputs to articulatory motor representations during language comprehension.",
+      "scoreability_note": "Scoreable from text descriptions detailing dialogue delivery style, vocal intensity, verbal exchanges, and explicit auditory descriptions of speech.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_egocentric_spatial_attention",
+      "definition": "The viewer's tracking of immediate spatial layouts, egocentric orientation, and sudden shifts in the physical proximity or positioning of characters and objects relative to the camera or viewer perspective.",
+      "region_relevance": "The SMG (associated with dorsal and ventral attention networks, e.g., A40c) plays a key role in spatial attention, egocentric coordinate mapping, and detecting salient environmental changes.",
+      "scoreability_note": "Scoreable from descriptions of spatial layouts, camera perspective shifts, characters moving within close proximity, or sudden physical intrusions into the frame.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_tactile_and_somatic_resonance",
+      "definition": "The viewer's vicarious appraisal of physical touch, somatic sensations, pain, or bodily discomfort experienced by characters.",
+      "region_relevance": "The SMG is part of the somatosensory association cortex and is implicated in the mirror system for touch, pain empathy, and processing somatic resonance.",
+      "scoreability_note": "Scoreable from descriptions of physical contact, injuries, tactile interactions, or intense somatic experiences depicted on screen.",
+      "source_run": 5
+    }
+  ],
+  "curated_domains": [
+    {
+      "domain_id": "action_and_tool_simulation",
+      "definition": "The viewer's tracking and mental simulation of physical actions, manual manipulations, tool use, and bodily movements performed by characters. This involves parsing the mechanics, effort, and spatial trajectory of physical interactions with objects or other characters.",
+      "region_relevance": "The supramarginal gyrus (SMG, particularly dorsal subregions like A40rd and A40rv) is a core node of the action observation network and somatosensory-motor integration, heavily involved in representing motor schemas, tool use, and manual praxis.",
+      "scoreability_note": "Can be reliably scored by identifying descriptions of manual actions, tool manipulation, physical struggles, or precise bodily movements in the movie segment text.",
+      "source_domain_ids": [
+        "run_1_action_kinematics_tracking",
+        "run_2_action_kinesthetic_resonance",
+        "run_3_action_kinematics_and_tool_use",
+        "run_4_manual_action_simulation",
+        "run_5_action_and_tool_manipulation"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Highly recurrent across all five runs. Merged to form a single robust domain representing the viewer's motor simulation of manual actions and tool use, which is a primary function of the rostral SMG."
+    },
+    {
+      "domain_id": "attentional_reorienting_and_spatial_salience",
+      "definition": "The viewer's experience of sudden shifts in attention or spatial orientation triggered by unexpected narrative events, abrupt visual or auditory changes, or the sudden introduction of highly salient, behaviorally relevant stimuli that disrupt the ongoing flow of the scene.",
+      "region_relevance": "SMG (specifically caudal subregions like A40c, associated with the ventral attention network) plays a critical role in bottom-up, stimulus-driven attentional reorienting, egocentric coordinate mapping, and detecting unexpected but behaviorally relevant changes in the environment.",
+      "scoreability_note": "Can be scored by tracking sudden plot twists, unexpected interruptions, abrupt entrances of characters, sudden sensory shocks, or rapid shifts in camera perspective described in the text.",
+      "source_domain_ids": [
+        "run_1_attentional_reorienting_events",
+        "run_2_attentional_reorienting_events",
+        "run_3_spatial_salience_and_orienting",
+        "run_4_attentional_reorienting_events",
+        "run_5_egocentric_spatial_attention"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merges recurring domains focusing on bottom-up attentional capture, spatial orienting, and egocentric attention, aligning with the caudal SMG's role in the ventral attention network."
+    },
+    {
+      "domain_id": "verbal_phonological_tracking",
+      "definition": "The viewer's cognitive tracking and parsing of spoken language, dialogue complexity, speech rhythms, and phonological patterns during verbal interactions or voiceover narration.",
+      "region_relevance": "The left SMG (A40rv/A40rd) is a key anatomical substrate for phonological processing, verbal working memory, and mapping auditory speech sounds to motor-articulatory representations.",
+      "scoreability_note": "Can be scored based on the density, speed, complexity, and phonetic emphasis of dialogue or spoken narration described in the movie text.",
+      "source_domain_ids": [
+        "run_1_verbal_phonological_tracking",
+        "run_2_verbal_phonological_tracking",
+        "run_3_phonological_and_conversational_flow",
+        "run_4_verbal_communication_tracking",
+        "run_5_vocal_and_phonological_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Highly recurrent across all runs. Merged into a single domain capturing the auditory-verbal and phonological tracking functions of the left SMG."
+    },
+    {
+      "domain_id": "perspective_discrepancy_resolution",
+      "definition": "The viewer's cognitive effort in distinguishing and resolving discrepancies between their own knowledge state and a character's mistaken beliefs, or between the conflicting perspectives of different characters (e.g., processing dramatic irony or overcoming egocentric bias).",
+      "region_relevance": "The right SMG is established in social neuroscience as crucial for overcoming egocentric bias, allowing the distinction between self and other perspectives, and managing conflicting cognitive representations of a situation.",
+      "scoreability_note": "Can be scored by identifying narrative instances of dramatic irony, hidden information, misunderstandings, or starkly contrasting viewpoints between characters in the scene description.",
+      "source_domain_ids": [
+        "run_1_perspective_discrepancy_resolution",
+        "run_3_social_perspective_alignment"
+      ],
+      "source_runs": [
+        1,
+        3
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Merges two highly overlapping domains from runs 1 and 3 that focus on the right SMG's role in overcoming egocentric bias and aligning social perspectives."
+    },
+    {
+      "domain_id": "somatic_and_pain_resonance",
+      "definition": "The viewer's vicarious appraisal and somatic resonance with physical touch, pain, bodily discomfort, or immediate visceral distress experienced by characters on screen.",
+      "region_relevance": "The SMG is part of the somatosensory association cortex and is implicated in the mirror system for touch, empathy for pain, and distinguishing self-other affective and bodily states.",
+      "scoreability_note": "Scoreable from descriptions of physical contact, injuries, tactile interactions, or intense somatic experiences depicted on screen.",
+      "source_domain_ids": [
+        "run_4_visceral_empathy_appraisal",
+        "run_5_tactile_and_somatic_resonance"
+      ],
+      "source_runs": [
+        4,
+        5
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Merges run 4's visceral empathy and run 5's tactile/somatic resonance into a single domain representing the SMG's role in processing shared bodily and somatic states."
+    }
+  ],
+  "rejected_or_merged_domains": [
+    {
+      "domain_id": "run_1_action_kinematics_tracking",
+      "decision": "merged",
+      "reason": "Merged into action_and_tool_simulation to form a unified domain for motor simulation and action observation.",
+      "source_domain_ids": [
+        "run_1_action_kinematics_tracking"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "action_and_tool_simulation"
+    },
+    {
+      "domain_id": "run_2_action_kinesthetic_resonance",
+      "decision": "merged",
+      "reason": "Merged into action_and_tool_simulation to form a unified domain for motor simulation and action observation.",
+      "source_domain_ids": [
+        "run_2_action_kinesthetic_resonance"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "action_and_tool_simulation"
+    },
+    {
+      "domain_id": "run_3_action_kinematics_and_tool_use",
+      "decision": "merged",
+      "reason": "Merged into action_and_tool_simulation to form a unified domain for motor simulation and action observation.",
+      "source_domain_ids": [
+        "run_3_action_kinematics_and_tool_use"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "action_and_tool_simulation"
+    },
+    {
+      "domain_id": "run_4_manual_action_simulation",
+      "decision": "merged",
+      "reason": "Merged into action_and_tool_simulation to form a unified domain for motor simulation and action observation.",
+      "source_domain_ids": [
+        "run_4_manual_action_simulation"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "action_and_tool_simulation"
+    },
+    {
+      "domain_id": "run_5_action_and_tool_manipulation",
+      "decision": "merged",
+      "reason": "Merged into action_and_tool_simulation to form a unified domain for motor simulation and action observation.",
+      "source_domain_ids": [
+        "run_5_action_and_tool_manipulation"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "action_and_tool_simulation"
+    },
+    {
+      "domain_id": "run_1_attentional_reorienting_events",
+      "decision": "merged",
+      "reason": "Merged into attentional_reorienting_and_spatial_salience to capture bottom-up attention and spatial orienting.",
+      "source_domain_ids": [
+        "run_1_attentional_reorienting_events"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "attentional_reorienting_and_spatial_salience"
+    },
+    {
+      "domain_id": "run_2_attentional_reorienting_events",
+      "decision": "merged",
+      "reason": "Merged into attentional_reorienting_and_spatial_salience to capture bottom-up attention and spatial orienting.",
+      "source_domain_ids": [
+        "run_2_attentional_reorienting_events"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "attentional_reorienting_and_spatial_salience"
+    },
+    {
+      "domain_id": "run_3_spatial_salience_and_orienting",
+      "decision": "merged",
+      "reason": "Merged into attentional_reorienting_and_spatial_salience to capture bottom-up attention and spatial orienting.",
+      "source_domain_ids": [
+        "run_3_spatial_salience_and_orienting"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "attentional_reorienting_and_spatial_salience"
+    },
+    {
+      "domain_id": "run_4_attentional_reorienting_events",
+      "decision": "merged",
+      "reason": "Merged into attentional_reorienting_and_spatial_salience to capture bottom-up attention and spatial orienting.",
+      "source_domain_ids": [
+        "run_4_attentional_reorienting_events"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "attentional_reorienting_and_spatial_salience"
+    },
+    {
+      "domain_id": "run_5_egocentric_spatial_attention",
+      "decision": "merged",
+      "reason": "Merged into attentional_reorienting_and_spatial_salience to capture bottom-up attention and spatial orienting.",
+      "source_domain_ids": [
+        "run_5_egocentric_spatial_attention"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "attentional_reorienting_and_spatial_salience"
+    },
+    {
+      "domain_id": "run_1_verbal_phonological_tracking",
+      "decision": "merged",
+      "reason": "Merged into verbal_phonological_tracking to represent auditory-verbal processing in left SMG.",
+      "source_domain_ids": [
+        "run_1_verbal_phonological_tracking"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "verbal_phonological_tracking"
+    },
+    {
+      "domain_id": "run_2_verbal_phonological_tracking",
+      "decision": "merged",
+      "reason": "Merged into verbal_phonological_tracking to represent auditory-verbal processing in left SMG.",
+      "source_domain_ids": [
+        "run_2_verbal_phonological_tracking"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "verbal_phonological_tracking"
+    },
+    {
+      "domain_id": "run_3_phonological_and_conversational_flow",
+      "decision": "merged",
+      "reason": "Merged into verbal_phonological_tracking to represent auditory-verbal processing in left SMG.",
+      "source_domain_ids": [
+        "run_3_phonological_and_conversational_flow"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "verbal_phonological_tracking"
+    },
+    {
+      "domain_id": "run_4_verbal_communication_tracking",
+      "decision": "merged",
+      "reason": "Merged into verbal_phonological_tracking to represent auditory-verbal processing in left SMG.",
+      "source_domain_ids": [
+        "run_4_verbal_communication_tracking"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "verbal_phonological_tracking"
+    },
+    {
+      "domain_id": "run_5_vocal_and_phonological_tracking",
+      "decision": "merged",
+      "reason": "Merged into verbal_phonological_tracking to represent auditory-verbal processing in left SMG.",
+      "source_domain_ids": [
+        "run_5_vocal_and_phonological_tracking"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "verbal_phonological_tracking"
+    },
+    {
+      "domain_id": "run_1_perspective_discrepancy_resolution",
+      "decision": "merged",
+      "reason": "Merged into perspective_discrepancy_resolution to capture right SMG's role in overcoming egocentric bias.",
+      "source_domain_ids": [
+        "run_1_perspective_discrepancy_resolution"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "perspective_discrepancy_resolution"
+    },
+    {
+      "domain_id": "run_3_social_perspective_alignment",
+      "decision": "merged",
+      "reason": "Merged into perspective_discrepancy_resolution to capture right SMG's role in overcoming egocentric bias.",
+      "source_domain_ids": [
+        "run_3_social_perspective_alignment"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "perspective_discrepancy_resolution"
+    },
+    {
+      "domain_id": "run_4_visceral_empathy_appraisal",
+      "decision": "merged",
+      "reason": "Merged into somatic_and_pain_resonance to capture somatic and pain-related empathy.",
+      "source_domain_ids": [
+        "run_4_visceral_empathy_appraisal"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "somatic_and_pain_resonance"
+    },
+    {
+      "domain_id": "run_5_tactile_and_somatic_resonance",
+      "decision": "merged",
+      "reason": "Merged into somatic_and_pain_resonance to capture somatic and pain-related empathy.",
+      "source_domain_ids": [
+        "run_5_tactile_and_somatic_resonance"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "somatic_and_pain_resonance"
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "version": "domain_pool_v2",
+  "target_region": "FFA",
+  "curation_status": "draft",
+  "source_model": "gemini-3.5-flash",
+  "proposal_runs": 5,
+  "metadata": {
+    "generation_parameters": {
+      "provider": "gemini",
+      "temperature": 0.2,
+      "proposal_runs": 5
+    },
+    "required_domain_ids": [],
+    "confirmation_instructions": "Review curated_domains and rejected_or_merged_domains, then set curation_status to 'confirmed' before passing this pool to make-region-schema --domain-pool."
+  },
+  "candidate_domains": [
+    {
+      "domain_id": "run_1_face_salience_and_tracking",
+      "definition": "The viewer's visual tracking and cognitive focus on the presence, physical prominence, and structural details of human faces, particularly during close-ups or when faces dominate the visual field.",
+      "region_relevance": "The Fusiform Face Area (FFA), located in the lateral fusiform gyrus (overlapping with ventral temporal atlas regions like A37lv/A37mv), is the primary cortical region specialized for the visual detection and structural processing of human faces.",
+      "scoreability_note": "Easily scoreable from text descriptions that specify shot framing (e.g., close-up, extreme close-up), direct visual focus on a character's face, or detailed descriptions of facial features.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_facial_expression_appraisal",
+      "definition": "The viewer's active appraisal and interpretation of social signals, emotional states, and communicative intents conveyed specifically through characters' facial expressions and micro-expressions.",
+      "region_relevance": "The FFA is highly sensitive to dynamic facial movements and works in concert with broader temporal and subcortical networks to decode social and emotional information from facial expressions.",
+      "scoreability_note": "Scoreable from text descriptions that explicitly detail characters' facial expressions, grimaces, smiles, or subtle changes in eye contact and facial tension.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_character_identity_recognition",
+      "definition": "The viewer's cognitive tracking and recognition of individual character identities, distinguishing between familiar faces, identifying newly introduced characters, or resolving ambiguous identities.",
+      "region_relevance": "The FFA plays a critical role in exemplar-level face categorization and identity recognition, allowing the viewer to map visual facial features to specific known individuals.",
+      "scoreability_note": "Scoreable by analyzing the introduction of new characters, the re-entry of established characters, or narrative moments where a character's identity is hidden, revealed, or mistaken in the text.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_2_facial_presence_and_detail",
+      "definition": "The viewer's visual tracking of human faces, including their prominence, proximity, and the level of structural facial detail visible on screen.",
+      "region_relevance": "The Fusiform Face Area (FFA), situated within the ventral temporal cortex (represented by atlas regions like A37lv and A37mv), is specialized for face detection and exhibits increased activation when faces are prominent, clear, and central to the visual field.",
+      "scoreability_note": "Can be reliably scored from text descriptions that detail camera framing (e.g., close-ups, medium shots), character focus, and explicit mentions of facial features or expressions.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_character_identity_tracking",
+      "definition": "The viewer's cognitive and visual identification of specific characters on screen, distinguishing between familiar individuals, newly introduced figures, or background crowds.",
+      "region_relevance": "The fusiform gyrus is critical for face individualization and identity processing, enabling the viewer to map visual facial configurations to specific semantic identities in the narrative.",
+      "scoreability_note": "Scoreable by analyzing the introduction of characters, the presence of recurring cast members, and narrative moments requiring the viewer to recognize or distinguish who is on screen.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_social_gaze_and_expression_decoding",
+      "definition": "The viewer's active monitoring and decoding of characters' eye gaze directions, head orientations, and subtle facial movements used to convey social signals or internal states.",
+      "region_relevance": "FFA works in tandem with adjacent temporal regions (such as the STS) to process dynamic facial aspects, particularly those conveying social intent, gaze direction, and communicative expressions.",
+      "scoreability_note": "Scoreable from descriptions of non-verbal interactions, such as 'he glares at her,' 'she avoids eye contact,' or 'they exchange a knowing look.'",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_animate_versus_inanimate_focus",
+      "definition": "The viewer's attentional bias toward animate human agents versus inanimate objects, landscapes, or abstract visual scenes.",
+      "region_relevance": "The ventral temporal cortex exhibits a strong category-selective organization (animate vs. inanimate). FFA specifically marks the peak of the animacy/face-selective pathway.",
+      "scoreability_note": "Scoreable by contrasting segments dominated by human action and interaction with segments focusing on landscapes, vehicles, objects, or environmental details.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_3_facial_expression_and_identity_tracking",
+      "definition": "The viewer's cognitive tracking and decoding of characters' facial features, expressions, and gaze directions to identify individuals, detect changes in their emotional states, and follow their focus of attention.",
+      "region_relevance": "The Fusiform Face Area (FFA), located within the lateral fusiform gyrus (corresponding to visual areas like A37lv/A37mv), is the primary cortical node specialized for face detection, identity recognition, and processing facial configurations.",
+      "scoreability_note": "Highly scoreable from movie descriptions that detail close-ups on characters' faces, explicit emotional expressions, eye contact, and moments where a character's identity is revealed or hidden.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_animacy_and_social_presence_appraisal",
+      "definition": "The viewer's perceptual appraisal of the presence of animate, human, or human-like agents within the scene, distinguishing them from inanimate objects, landscapes, or abstract visual elements.",
+      "region_relevance": "FFA is sensitive to animacy and social stimuli, showing elevated activation when the viewer distinguishes social agents and human bodies from the physical background.",
+      "scoreability_note": "Scoreable by analyzing the density, prominence, and narrative focus on human characters, crowds, or anthropomorphic figures versus purely environmental or object-focused scenes in the text.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_subordinate_visual_expertise_analysis",
+      "definition": "The viewer's detailed visual inspection and fine-grained categorization of specific, highly familiar or narratively critical object classes requiring subordinate-level visual discrimination.",
+      "region_relevance": "FFA is implicated in visual expertise and the fine-grained, subordinate-level categorization of non-face objects (such as cars, birds, or specialized tools) when the viewer engages in detailed visual analysis.",
+      "scoreability_note": "Scoreable from text descriptions that depict the camera or characters focusing on specific, detailed physical objects, requiring the viewer to recognize precise models, brands, or intricate visual features.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_4_face_identity_tracking",
+      "definition": "The viewer's active tracking and identification of individual characters based on their facial features, including distinguishing between different people on screen and recognizing recurring faces.",
+      "region_relevance": "The Fusiform Face Area (FFA) is the primary cortical region specialized for face detection and the processing of individual facial identity.",
+      "scoreability_note": "Easily scored from text descriptions that specify which characters are visually present, when close-ups of faces occur, and when new or familiar faces are introduced.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_facial_expression_appraisal",
+      "definition": "The viewer's decoding of social cues, emotional states, and interpersonal reactions by analyzing characters' facial expressions, micro-expressions, and eye gaze.",
+      "region_relevance": "FFA works in concert with the superior temporal sulcus and amygdala to process dynamic facial movements and extract social-emotional meaning from expressions.",
+      "scoreability_note": "Scoreable based on narrative descriptions of characters' facial reactions, silent exchanges of looks, or explicit mentions of emotional expressions.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_fine_grained_visual_expertise",
+      "definition": "The viewer's detailed visual inspection and subordinate-level categorization of highly specific, non-face objects or symbols that require fine-grained feature discrimination.",
+      "region_relevance": "FFA is recruited during tasks requiring expert visual categorization of non-face stimuli (e.g., identifying specific models of cars, reading text, or recognizing intricate symbols).",
+      "scoreability_note": "Scoreable when descriptions highlight close-up shots of complex objects, reading written words, or identifying highly detailed visual artifacts.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_social_presence_detection",
+      "definition": "The viewer's immediate perceptual awareness of the physical presence, orientation, and spatial configuration of human heads and faces within the visual field.",
+      "region_relevance": "FFA responds robustly to the mere presence of human faces and heads, modulated by their size, orientation, and clutter in the visual scene.",
+      "scoreability_note": "Scoreable from descriptions of scene composition, noting the number of characters present, whether they are facing the camera, or if their heads/faces are partially obscured.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_5_social_agent_detection",
+      "definition": "The viewer's visual detection and tracking of human or human-like faces, heads, and distinct social agents within the scene.",
+      "region_relevance": "The Fusiform Face Area (FFA) is classically defined by its selective response to faces and face-like configurations in the visual field.",
+      "scoreability_note": "Scoreable by noting the presence, density, and visual prominence of characters' faces or heads in the described scene.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_facial_expression_appraisal",
+      "definition": "The viewer's appraisal and decoding of characters' internal emotional states, reactions, or social signals through close-up visual details of their facial expressions.",
+      "region_relevance": "FFA is heavily involved in processing dynamic facial features and extracting social-emotional cues from facial configurations.",
+      "scoreability_note": "Scoreable by identifying when the narrative description highlights a character's facial expressions, micro-expressions, or non-verbal facial reactions.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_character_identity_tracking",
+      "definition": "The viewer's cognitive tracking and recognition of specific, individual characters' identities based on their unique facial features and visual appearance.",
+      "region_relevance": "FFA plays a critical role in individual face recognition, distinguishing familiar from unfamiliar faces, and maintaining identity constancy.",
+      "scoreability_note": "Scoreable by tracking when specific named characters are visually introduced, re-enter a scene, or are the focus of visual identification.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_gaze_and_social_directedness",
+      "definition": "The viewer's tracking of where characters are looking, including mutual eye contact, shared gaze, or directed facial orientation toward other people or objects.",
+      "region_relevance": "FFA, in conjunction with the superior temporal sulcus (STS), processes the orientation of faces and gaze direction to construct social attention.",
+      "scoreability_note": "Scoreable by analyzing descriptions of eye contact, characters looking at each other, or looking directly at the camera/viewer.",
+      "source_run": 5
+    }
+  ],
+  "curated_domains": [
+    {
+      "domain_id": "face_presence_and_salience",
+      "definition": "The viewer's visual tracking and perceptual awareness of the physical presence, prominence, proximity, and structural details of human faces and heads on screen.",
+      "region_relevance": "The Fusiform Face Area (FFA) is the primary cortical region specialized for face detection and structural processing of human faces, showing increased activation when faces are prominent, clear, and central to the visual field.",
+      "scoreability_note": "Scoreable from text descriptions detailing camera framing (e.g., close-ups, medium shots), direct visual focus on a character's face, or the density of faces in the scene.",
+      "source_domain_ids": [
+        "run_1_face_salience_and_tracking",
+        "run_2_facial_presence_and_detail",
+        "run_4_social_presence_detection",
+        "run_5_social_agent_detection"
+      ],
+      "source_runs": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Consolidates multiple runs focusing on the basic visual detection, presence, and physical prominence of faces on screen into a single, robust visual-perceptual domain."
+    },
+    {
+      "domain_id": "character_identity_tracking",
+      "definition": "The viewer's cognitive tracking and recognition of individual character identities, distinguishing between familiar faces, identifying newly introduced characters, or maintaining identity constancy across scenes.",
+      "region_relevance": "The FFA plays a critical role in exemplar-level face categorization, individual face recognition, and mapping visual facial features to specific known individuals.",
+      "scoreability_note": "Scoreable by analyzing the introduction of new characters, the re-entry of established characters, or narrative moments requiring the viewer to recognize or distinguish who is on screen.",
+      "source_domain_ids": [
+        "run_1_character_identity_recognition",
+        "run_2_character_identity_tracking",
+        "run_4_face_identity_tracking",
+        "run_5_character_identity_tracking",
+        "run_3_facial_expression_and_identity_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merges redundant identity-tracking domains across all runs into a single cognitive-perceptual domain focused on individual face recognition and character tracking."
+    },
+    {
+      "domain_id": "facial_expression_and_gaze_decoding",
+      "definition": "The viewer's active appraisal and decoding of characters' social signals, emotional states, communicative intents, and focus of attention conveyed through facial expressions, micro-expressions, eye gaze direction, and mutual eye contact.",
+      "region_relevance": "The FFA works in concert with broader temporal and subcortical networks (such as the STS and amygdala) to process dynamic facial movements, gaze direction, and extract social-emotional meaning from facial configurations.",
+      "scoreability_note": "Scoreable from descriptions of characters' facial reactions, silent exchanges of looks, eye contact, or explicit mentions of emotional expressions and non-verbal facial cues.",
+      "source_domain_ids": [
+        "run_1_facial_expression_appraisal",
+        "run_2_social_gaze_and_expression_decoding",
+        "run_4_facial_expression_appraisal",
+        "run_5_facial_expression_appraisal",
+        "run_5_gaze_and_social_directedness",
+        "run_3_facial_expression_and_identity_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Combines facial expression appraisal and social gaze tracking into a single domain, as both rely on decoding dynamic facial configurations and social signals processed by the FFA and its network."
+    },
+    {
+      "domain_id": "animacy_and_social_presence",
+      "definition": "The viewer's perceptual appraisal and attentional bias toward animate human or human-like agents within the scene, distinguishing them from inanimate objects, landscapes, or abstract visual elements.",
+      "region_relevance": "The ventral temporal cortex exhibits a strong category-selective organization (animate vs. inanimate), with FFA marking a key node in the animacy and social agent processing pathway.",
+      "scoreability_note": "Scoreable by contrasting segments dominated by human action, interaction, or crowds with segments focusing on landscapes, vehicles, objects, or environmental details.",
+      "source_domain_ids": [
+        "run_2_animate_versus_inanimate_focus",
+        "run_3_animacy_and_social_presence_appraisal"
+      ],
+      "source_runs": [
+        2,
+        3
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Merges animacy and social presence detection into a single domain representing the broad category-selective distinction between animate agents and inanimate environments."
+    },
+    {
+      "domain_id": "subordinate_visual_expertise",
+      "definition": "The viewer's detailed visual inspection and fine-grained, subordinate-level categorization of specific, highly familiar or narratively critical non-face object classes or symbols requiring expert visual discrimination.",
+      "region_relevance": "FFA is implicated in visual expertise and the fine-grained, subordinate-level categorization of non-face objects (such as cars, birds, or written text) when the viewer engages in detailed visual analysis.",
+      "scoreability_note": "Scoreable from text descriptions that depict close-up shots of complex objects, reading written words, or identifying highly detailed visual artifacts requiring precise discrimination.",
+      "source_domain_ids": [
+        "run_3_subordinate_visual_expertise_analysis",
+        "run_4_fine_grained_visual_expertise"
+      ],
+      "source_runs": [
+        3,
+        4
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Consolidates the non-face visual expertise domains from runs 3 and 4 into a single domain representing FFA's recruitment during fine-grained subordinate categorization."
+    }
+  ],
+  "rejected_or_merged_domains": [
+    {
+      "domain_id": "run_1_face_salience_and_tracking",
+      "decision": "merged",
+      "reason": "Merged into face_presence_and_salience to consolidate basic face detection and visual tracking.",
+      "source_domain_ids": [
+        "run_1_face_salience_and_tracking"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "face_presence_and_salience"
+    },
+    {
+      "domain_id": "run_1_facial_expression_appraisal",
+      "decision": "merged",
+      "reason": "Merged into facial_expression_and_gaze_decoding to combine facial expression and social gaze processing.",
+      "source_domain_ids": [
+        "run_1_facial_expression_appraisal"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "facial_expression_and_gaze_decoding"
+    },
+    {
+      "domain_id": "run_1_character_identity_recognition",
+      "decision": "merged",
+      "reason": "Merged into character_identity_tracking to unify identity recognition across runs.",
+      "source_domain_ids": [
+        "run_1_character_identity_recognition"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "character_identity_tracking"
+    },
+    {
+      "domain_id": "run_2_facial_presence_and_detail",
+      "decision": "merged",
+      "reason": "Merged into face_presence_and_salience to consolidate basic face detection and visual tracking.",
+      "source_domain_ids": [
+        "run_2_facial_presence_and_detail"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "face_presence_and_salience"
+    },
+    {
+      "domain_id": "run_2_character_identity_tracking",
+      "decision": "merged",
+      "reason": "Merged into character_identity_tracking to unify identity recognition across runs.",
+      "source_domain_ids": [
+        "run_2_character_identity_tracking"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "character_identity_tracking"
+    },
+    {
+      "domain_id": "run_2_social_gaze_and_expression_decoding",
+      "decision": "merged",
+      "reason": "Merged into facial_expression_and_gaze_decoding to combine facial expression and social gaze processing.",
+      "source_domain_ids": [
+        "run_2_social_gaze_and_expression_decoding"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "facial_expression_and_gaze_decoding"
+    },
+    {
+      "domain_id": "run_2_animate_versus_inanimate_focus",
+      "decision": "merged",
+      "reason": "Merged into animacy_and_social_presence to capture the broad animate vs. inanimate distinction.",
+      "source_domain_ids": [
+        "run_2_animate_versus_inanimate_focus"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "animacy_and_social_presence"
+    },
+    {
+      "domain_id": "run_3_facial_expression_and_identity_tracking",
+      "decision": "merged",
+      "reason": "Split and merged into character_identity_tracking and facial_expression_and_gaze_decoding to separate identity and expression.",
+      "source_domain_ids": [
+        "run_3_facial_expression_and_identity_tracking"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "character_identity_tracking"
+    },
+    {
+      "domain_id": "run_3_animacy_and_social_presence_appraisal",
+      "decision": "merged",
+      "reason": "Merged into animacy_and_social_presence to capture the broad animate vs. inanimate distinction.",
+      "source_domain_ids": [
+        "run_3_animacy_and_social_presence_appraisal"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "animacy_and_social_presence"
+    },
+    {
+      "domain_id": "run_3_subordinate_visual_expertise_analysis",
+      "decision": "merged",
+      "reason": "Merged into subordinate_visual_expertise to capture non-face fine-grained categorization.",
+      "source_domain_ids": [
+        "run_3_subordinate_visual_expertise_analysis"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "subordinate_visual_expertise"
+    },
+    {
+      "domain_id": "run_4_face_identity_tracking",
+      "decision": "merged",
+      "reason": "Merged into character_identity_tracking to unify identity recognition across runs.",
+      "source_domain_ids": [
+        "run_4_face_identity_tracking"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "character_identity_tracking"
+    },
+    {
+      "domain_id": "run_4_facial_expression_appraisal",
+      "decision": "merged",
+      "reason": "Merged into facial_expression_and_gaze_decoding to combine facial expression and social gaze processing.",
+      "source_domain_ids": [
+        "run_4_facial_expression_appraisal"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "facial_expression_and_gaze_decoding"
+    },
+    {
+      "domain_id": "run_4_fine_grained_visual_expertise",
+      "decision": "merged",
+      "reason": "Merged into subordinate_visual_expertise to capture non-face fine-grained categorization.",
+      "source_domain_ids": [
+        "run_4_fine_grained_visual_expertise"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "subordinate_visual_expertise"
+    },
+    {
+      "domain_id": "run_4_social_presence_detection",
+      "decision": "merged",
+      "reason": "Merged into face_presence_and_salience to consolidate basic face detection and visual tracking.",
+      "source_domain_ids": [
+        "run_4_social_presence_detection"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "face_presence_and_salience"
+    },
+    {
+      "domain_id": "run_5_social_agent_detection",
+      "decision": "merged",
+      "reason": "Merged into face_presence_and_salience to consolidate basic face detection and visual tracking.",
+      "source_domain_ids": [
+        "run_5_social_agent_detection"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "face_presence_and_salience"
+    },
+    {
+      "domain_id": "run_5_facial_expression_appraisal",
+      "decision": "merged",
+      "reason": "Merged into facial_expression_and_gaze_decoding to combine facial expression and social gaze processing.",
+      "source_domain_ids": [
+        "run_5_facial_expression_appraisal"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "facial_expression_and_gaze_decoding"
+    },
+    {
+      "domain_id": "run_5_character_identity_tracking",
+      "decision": "merged",
+      "reason": "Merged into character_identity_tracking to unify identity recognition across runs.",
+      "source_domain_ids": [
+        "run_5_character_identity_tracking"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "character_identity_tracking"
+    },
+    {
+      "domain_id": "run_5_gaze_and_social_directedness",
+      "decision": "merged",
+      "reason": "Merged into facial_expression_and_gaze_decoding to combine facial expression and social gaze processing.",
+      "source_domain_ids": [
+        "run_5_gaze_and_social_directedness"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "facial_expression_and_gaze_decoding"
+    }
+  ]
+}

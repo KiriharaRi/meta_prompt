@@ -1,0 +1,659 @@
+{
+  "version": "region_schema_v1",
+  "target_region": "PCC",
+  "functional_hypothesis": "The Posterior Cingulate Cortex (PCC) is a central hub of the Default Mode Network (DMN) and is heavily implicated in high-level cognitive processes during continuous narrative comprehension. Specifically, the PCC is crucial for: (1) constructing, maintaining, and updating situation models as narrative boundaries shift or past episodic memories are retrieved and integrated; (2) social cognition and mentalizing, including tracking interpersonal relationships, inferring characters' internal states, and appraising social subtext; (3) spatial and environmental anchoring, particularly in mapping physical layouts and tracking egocentric navigation or environmental transitions; and (4) moral, thematic, and affective appraisal, translating narrative events into personally relevant, value-laden, and emotionally resonant representations. Predicting PCC activity from dense movie descriptions therefore requires a multi-dimensional schema that captures these narrative, social, spatial, and moral-thematic dimensions.",
+  "scoring_instruction": "Score each dimension on a continuous scale from 0 to 10 based on the evidence present in the dense movie description. A score of 0 indicates that the dimension is completely absent or irrelevant to the scene. A score of 10 indicates that the dimension is extremely prominent, intense, or central to the scene. Rely strictly on the textual evidence provided in the description, calibrating the intensity from the perspective of a typical viewer experiencing the scene in real-time.",
+  "selection_rules": [
+    {
+      "networks": [],
+      "sub_regions": [],
+      "hemispheres": [],
+      "label_ids": [
+        175,
+        176,
+        181,
+        182,
+        185,
+        186
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": "narrative_situation_updating_and_integration",
+      "definition": "The viewer's cognitive tracking, updating, and integration of the ongoing situation model, including detecting shifts in time, location, or plot direction, and linking current events with retrieved past narrative context.",
+      "region_relevance": "The posterior cingulate cortex (PCC), including areas A23 and A31, is a key node of the default mode network and is heavily involved in event segmentation, tracking narrative continuity, episodic memory retrieval, and updating situation models during continuous movie viewing.",
+      "scoreability_note": "Can be scored by identifying narrative boundaries, scene transitions, temporal jumps, or explicit callbacks to prior events in the text description that require the viewer to update or retrieve narrative context.",
+      "source_domain_ids": [
+        "run_1_narrative_situation_updating",
+        "run_2_narrative_situation_tracking",
+        "run_3_narrative_situation_model",
+        "run_4_narrative_situation_integration",
+        "run_5_situational_boundary_tracking",
+        "run_1_narrative_memory_retrieval",
+        "run_5_narrative_context_integration"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all narrative situation tracking, event segmentation, and memory retrieval/integration domains into a single coarse domain, as they all represent the viewer's unified cognitive process of maintaining and updating a coherent narrative model in the PCC."
+    },
+    {
+      "domain_id": "social_relationship_and_mentalizing_appraisal",
+      "definition": "The viewer's tracking, appraisal, and inference of interpersonal dynamics, social relationships, and characters' internal mental states, beliefs, or unexpressed intentions.",
+      "region_relevance": "The PCC and adjacent precuneus are core components of the default mode and theory-of-mind networks, consistently implicated in social cognition, perspective-taking, and tracking long-term relational dynamics.",
+      "scoreability_note": "Scoreable by identifying scenes rich in dialogue, non-verbal communication, conflicting motivations, or social tension where the viewer must actively infer what characters are thinking, feeling, or how their relationships are changing.",
+      "source_domain_ids": [
+        "run_1_interpersonal_dynamic_appraisal",
+        "run_2_social_perspective_coherence",
+        "run_3_social_relationship_tracking",
+        "run_4_social_mentalizing_inference",
+        "run_5_interpersonal_dynamic_appraisal"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Consolidated all social cognition, theory of mind, and interpersonal tracking domains into a single domain, reflecting the PCC's role in processing social relationships and character perspectives."
+    },
+    {
+      "domain_id": "spatial_environmental_anchoring",
+      "definition": "The viewer's mental mapping, orientation, and tracking of the physical layout, environmental context, and spatial transitions of the scene.",
+      "region_relevance": "The ventral PCC and adjacent retrosplenial cortex are key components of the brain's spatial processing and scene-construction networks, active during the retrieval and maintenance of environmental layouts.",
+      "scoreability_note": "Scoreable based on textual descriptions of physical settings, camera movements revealing spatial layouts, transitions between locations, and characters' movements or orientation within the environment.",
+      "source_domain_ids": [
+        "run_2_spatial_environmental_anchoring",
+        "run_3_spatial_environmental_context",
+        "run_4_spatial_environmental_anchoring",
+        "run_5_spatial_context_reconstruction"
+      ],
+      "source_runs": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Merged all spatial and environmental tracking domains into a single coarse domain representing the viewer's spatial anchoring within the scene, supported by the ventral PCC and retrosplenial cortex."
+    },
+    {
+      "domain_id": "moral_thematic_and_affective_appraisal",
+      "definition": "The viewer's evaluative appraisal of the moral, ethical, thematic, or emotional significance of the narrative events, including the gravity of consequences and the value-laden weight of characters' actions.",
+      "region_relevance": "The PCC plays a key role in self-referential processing, value representation, and personal relevance, translating to the cognitive appraisal of moral weight, thematic significance, and narrative-driven emotional stakes.",
+      "scoreability_note": "Scoreable by identifying narrative events involving ethical choices, transgressions, high-stakes decisions, or emotionally pivotal moments that prompt the viewer to evaluate the deeper significance of the scene.",
+      "source_domain_ids": [
+        "run_1_thematic_moral_evaluation",
+        "run_2_affective_narrative_resonance",
+        "run_3_moral_and_value_appraisal",
+        "run_4_affective_significance_appraisal"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Combined moral, thematic, and affective significance appraisal domains into a single coarse domain, as they all involve the viewer's evaluative processing of narrative stakes and values, which recruits the PCC's self-referential and evaluative networks."
+    }
+  ],
+  "active_domain_ids": [
+    "narrative_situation_updating_and_integration",
+    "social_relationship_and_mentalizing_appraisal",
+    "spatial_environmental_anchoring",
+    "moral_thematic_and_affective_appraisal"
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "narrative_boundary_shift",
+      "definition": "The degree to which the text describes a clear shift in the narrative situation, such as a change in time, location, or a major plot transition, requiring the viewer to establish a new situation model.",
+      "domain": "narrative_situation_updating_and_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A sudden jump forward or backward in time",
+        "A transition to a completely new location",
+        "A major shift in the focus of the plot",
+        "An abrupt interruption of the current scene by a new event"
+      ],
+      "graded_anchors": {
+        "0": "No shift; the narrative continues seamlessly in the same micro-moment and location.",
+        "1": "Extremely minor transition, such as a character walking into an adjacent room within the same continuous scene.",
+        "2": "A slight shift in focus, but the temporal and spatial context remains entirely unchanged.",
+        "3": "A minor temporal gap (e.g., a few minutes later) within the same general location.",
+        "4": "A moderate transition, such as moving to a different room in the same building with a brief passage of time.",
+        "5": "A clear transition to a new scene in a nearby location, occurring shortly after the previous scene.",
+        "6": "A significant shift in location or a noticeable time jump (e.g., the next morning) that requires updating the situation model.",
+        "7": "A major transition involving both a new location and a distinct shift in the narrative thread.",
+        "8": "A highly disruptive shift, such as a flashback or a sudden jump to a completely different subplot.",
+        "9": "An extreme narrative boundary, transitioning across vast distances or long periods of time (e.g., years) to start a new chapter.",
+        "10": "A total narrative reset, such as a massive temporal/spatial jump combined with a complete shift in characters and plot direction."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The camera lingers on a still life of a bowl of fruit on the dining table as the afternoon sun slowly shifts.",
+          "score": 1
+        },
+        {
+          "scene": "After a tense argument in the kitchen, the scene cuts abruptly to the next morning, showing John sitting alone in a diner across town.",
+          "score": 6
+        },
+        {
+          "scene": "The screen fades to black. A title card reads 'Ten Years Later'. We open on a bustling futuristic cityscape, completely different from the rural farm of the previous scene, with an older version of the protagonist.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Look for explicit indicators of time jumps, location changes, or sudden plot twists in the text.",
+      "exclusion_note": "Do not score gradual, continuous movements within the same scene or minor actions that do not disrupt the overall situation model."
+    },
+    {
+      "dimension_id": "episodic_callback_integration",
+      "definition": "The extent to which the current scene contains explicit references, callbacks, or recurring motifs that require the viewer to retrieve and integrate past narrative context from earlier in the movie.",
+      "domain": "narrative_situation_updating_and_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character referencing a specific past event or conversation",
+        "The reappearance of a significant symbolic object from earlier",
+        "A visual or auditory callback to a previous scene",
+        "A character acting on information revealed much earlier in the story"
+      ],
+      "graded_anchors": {
+        "0": "No callbacks; the scene is entirely self-contained and requires no retrieval of prior movie events.",
+        "1": "A very subtle, non-essential callback, such as a character wearing a piece of clothing seen briefly before.",
+        "2": "A minor reference to a recent event from the immediately preceding scene.",
+        "3": "A passing mention of a character or event from earlier in the film that does not drive the current action.",
+        "4": "A clear reference to a past event that helps explain a character's current mood or reaction.",
+        "5": "The reappearance of a key prop or character that was introduced earlier, prompting active retrieval of their backstory.",
+        "6": "A dialogue exchange centered around resolving a specific conflict or agreement made earlier in the narrative.",
+        "7": "A pivotal callback where a character acts on a secret or piece of information revealed in a much earlier scene.",
+        "8": "A major narrative revelation that directly recontextualizes a series of past events, forcing the viewer to integrate them.",
+        "9": "A profound episodic integration, such as a character recreating a past scene or confronting a long-standing mystery from the beginning of the film.",
+        "10": "An overwhelming convergence of multiple narrative threads and past callbacks, resolving the central mystery or arc of the entire movie."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Sarah pours herself a cup of coffee and looks out the window at the rain, thinking about nothing in particular.",
+          "score": 0
+        },
+        {
+          "scene": "David pulls out the silver locket his mother gave him before she disappeared in the opening scene, staring at the engraved initials.",
+          "score": 6
+        },
+        {
+          "scene": "In a climactic confrontation, Arthur utters the exact phrase his mentor whispered to him on his deathbed in Act 1, revealing he finally understands the secret code.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for dialogue or descriptions that mention past events, the return of characters or items of historical significance to the plot, or thematic echoes that only make sense given prior knowledge.",
+      "exclusion_note": "Do not score immediate repetitions of actions within the same scene, or general background knowledge not specific to the movie's unique narrative."
+    },
+    {
+      "dimension_id": "situation_model_complexity",
+      "definition": "The cognitive demand required to track and integrate multiple concurrent narrative threads, character perspectives, or layers of reality within the current scene.",
+      "domain": "narrative_situation_updating_and_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Multiple characters pursuing conflicting subplots simultaneously",
+        "A story-within-a-story or dream-within-a-dream structure",
+        "Parallel editing showing events happening in different places",
+        "A complex web of lies or secrets being managed in real-time"
+      ],
+      "graded_anchors": {
+        "0": "Extremely simple; a single character performing a basic, unambiguous action with no narrative complexity.",
+        "1": "A straightforward interaction between two characters with a single, clear objective.",
+        "2": "A simple group scene where everyone is focused on the same topic or event.",
+        "3": "A scene introducing a minor secondary thread or a slight complication to the main task.",
+        "4": "Tracking two parallel actions or a character managing a simple secret from another person in the room.",
+        "5": "A moderately complex scene with multiple characters, where the viewer must track different motivations and a subplot.",
+        "6": "A scene involving parallel editing between two distinct locations, requiring the viewer to integrate both events.",
+        "7": "A complex narrative structure, such as a character explaining a flashback while the present action continues.",
+        "8": "High complexity, with multiple layers of deception, nested narratives, or three parallel action sequences occurring at once.",
+        "9": "An extremely intricate web of overlapping subplots, hidden agendas, and shifting perspectives that must be tracked simultaneously.",
+        "10": "Maximum complexity; a highly non-linear, multi-layered sequence (e.g., dream levels, parallel timelines) requiring intense cognitive integration."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man sits alone in a quiet room, reading a book under a single lamp.",
+          "score": 0
+        },
+        {
+          "scene": "While the heist team drills into the vault downstairs, the mastermind chats nervously with the bank manager upstairs, trying to hide the noise.",
+          "score": 6
+        },
+        {
+          "scene": "The scene intercuts rapidly between a character dreaming of a past betrayal, the real-time rescue attempt in a sinking van, and a secondary character decoding a message that explains both events.",
+          "score": 9.5
+        }
+      ],
+      "scoreability_note": "Look for descriptions of parallel actions, complex multi-character interactions, nested narratives, or scenes where characters are operating under different levels of information.",
+      "exclusion_note": "Do not score simple, linear scenes with only one or two characters focused on a single, straightforward task."
+    },
+    {
+      "dimension_id": "mentalizing_and_theory_of_mind",
+      "definition": "The degree to which the viewer must infer a character's internal mental states, beliefs, hidden motives, or unexpressed emotions from their behavior, expressions, or dialogue.",
+      "domain": "social_relationship_and_mentalizing_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character hiding their true feelings behind a polite smile",
+        "An ambiguous expression that suggests hidden calculations",
+        "A character trying to deceive or manipulate another",
+        "A moment of silent realization or internal conflict"
+      ],
+      "graded_anchors": {
+        "0": "No mentalizing required; no characters are present, or their actions are purely mechanical.",
+        "1": "A character performs a simple, transparent action with no hidden emotional or cognitive depth.",
+        "2": "A character expresses a straightforward emotion that matches their words and actions perfectly.",
+        "3": "A minor moment of hesitation or a slightly ambiguous reaction that hints at a simple preference.",
+        "4": "A character hides a minor feeling, such as pretending to like a gift they actually dislike.",
+        "5": "A moderate level of mentalizing, where a character's true motives are slightly at odds with their polite behavior.",
+        "6": "A scene where a character is actively trying to deceive someone, requiring the viewer to track what each person knows.",
+        "7": "High mentalizing demand; a character experiences complex, conflicting emotions that they try to suppress or mask.",
+        "8": "A tense social interaction where multiple characters are hiding secrets, requiring the viewer to infer multiple layers of belief.",
+        "9": "An extremely subtle psychological moment where a character's micro-expressions reveal a profound shift in their internal worldview or loyalty.",
+        "10": "Maximum mentalizing complexity; a highly strategic, multi-layered deception or psychological game where every look and word has deep, hidden meaning."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A worker stamps envelopes at a desk, working steadily without looking up.",
+          "score": 0
+        },
+        {
+          "scene": "Tom smiles and congratulates his rival on winning the promotion, but his jaw tightens and his eyes wander to the floor for a brief second.",
+          "score": 6
+        },
+        {
+          "scene": "In a silent standoff, Elena looks at her captor, subtly shifting her gaze to a loose key on the table, trying to gauge if he has noticed her plan while maintaining a look of total submission.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for descriptions of subtle facial expressions, body language, subtextual dialogue, or situations where a character's actions contradict their known knowledge or desires.",
+      "exclusion_note": "Do not score explicit, overt emotional outbursts (like screaming in anger) where no inference of the internal state is required."
+    },
+    {
+      "dimension_id": "interpersonal_relationship_tracking",
+      "definition": "The appraisal of long-term relational dynamics, alliances, trust, or evolving social bonds between characters in the scene.",
+      "domain": "social_relationship_and_mentalizing_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A shift in trust or loyalty between two characters",
+        "The formation of a new alliance or partnership",
+        "A confrontation that damages a long-standing friendship",
+        "A moment of shared intimacy or reconciliation"
+      ],
+      "graded_anchors": {
+        "0": "No social relationships present; characters are isolated or do not interact.",
+        "1": "A brief, polite interaction between strangers with no relationship history or future.",
+        "2": "A routine interaction between acquaintances that reinforces a stable, low-stakes relationship.",
+        "3": "A minor moment of bonding or slight friction between established characters.",
+        "4": "A clear demonstration of an existing relationship dynamic, such as a parent comforting a child.",
+        "5": "A moderate shift in a relationship, such as a new colleague earning a character's respect.",
+        "6": "A significant moment of tension or bonding that tests the strength of an alliance or friendship.",
+        "7": "A major turning point in a relationship, such as a confession of love or a serious breach of trust.",
+        "8": "A profound betrayal or reconciliation that permanently alters the social dynamic between key characters.",
+        "9": "An intense emotional climax centered entirely on the collapse or salvation of a core relationship.",
+        "10": "A monumental shift in the entire social landscape of the narrative, involving multiple alliances breaking and forming simultaneously."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A customer pays a cashier for groceries, exchanges a quick 'thank you', and walks out.",
+          "score": 1
+        },
+        {
+          "scene": "Mark and Lisa sit in silence, but Mark gently places his hand over hers, and she squeezes it back, silently resolving their weeks of distance.",
+          "score": 6.5
+        },
+        {
+          "scene": "After discovering his brother's secret deal with their enemy, Michael confronts him, declaring their bond officially dead and banishing him from the family.",
+          "score": 9.5
+        }
+      ],
+      "scoreability_note": "Look for dialogue or actions that redefine how characters relate to one another, references to their shared history, or expressions of loyalty, betrayal, or affection.",
+      "exclusion_note": "Do not score brief, superficial interactions with strangers that have no bearing on long-term social relationships."
+    },
+    {
+      "dimension_id": "social_tension_and_subtext",
+      "definition": "The presence of unexpressed social friction, power struggles, or underlying tension in dialogue and non-verbal communication.",
+      "domain": "social_relationship_and_mentalizing_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Awkward silences during a conversation",
+        "Passive-aggressive remarks or double entendres",
+        "Power dynamics being asserted through body language",
+        "A polite conversation masking deep hostility"
+      ],
+      "graded_anchors": {
+        "0": "No social tension; characters are in complete harmony or there are no social interactions.",
+        "1": "A slightly formal or polite conversation with no noticeable underlying tension.",
+        "2": "A minor awkward moment or a brief pause in a conversation.",
+        "3": "A subtle power dynamic, such as a boss giving a routine instruction to an employee.",
+        "4": "A conversation with a hint of passive-aggressiveness or mild disagreement.",
+        "5": "Moderate social tension; characters are polite but clearly uncomfortable or guarded around each other.",
+        "6": "A tense meeting where characters use double meanings and coded language to challenge each other.",
+        "7": "High social friction; a passive-aggressive dinner party or meeting where hostility is palpable but kept under wraps.",
+        "8": "An intense psychological power struggle where characters trade veiled threats and assert dominance.",
+        "9": "Extreme subtextual tension; a conversation where a single wrong word could ruin a relationship or reveal a deadly secret.",
+        "10": "An overwhelming, suffocating atmosphere of social tension where every gesture, silence, and word is loaded with threat and conflict."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Two friends laugh together while watching a comedy show on television.",
+          "score": 0
+        },
+        {
+          "scene": "At the family dinner, the father asks his son's new partner about his career prospects with a polite smile, while the son clenches his glass tightly.",
+          "score": 6
+        },
+        {
+          "scene": "The detective sits across from the prime suspect, sharing a polite cup of tea. They exchange pleasantries about the weather, but their eyes are locked in a deadly, silent battle of wits.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for scenes where what is not said is more important than what is said, where characters compete for dominance, or where social norms prevent open conflict.",
+      "exclusion_note": "Do not score physical fights, loud shouting matches, or scenes of harmonious, straightforward cooperation."
+    },
+    {
+      "dimension_id": "spatial_layout_reconstruction",
+      "definition": "The degree to which the text describes the physical layout, boundaries, and structural features of an indoor or outdoor environment, allowing the viewer to construct a mental map of the space.",
+      "domain": "spatial_environmental_anchoring",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Detailed descriptions of room dimensions and furniture placement",
+        "A camera pan revealing the layout of a building or landscape",
+        "Descriptions of walls, doors, windows, and structural boundaries",
+        "Establishing shots that map out a complex physical setting"
+      ],
+      "graded_anchors": {
+        "0": "No spatial context; a completely blank, dark, or abstract background with no physical features.",
+        "1": "A very vague setting, such as a character standing in an unspecified 'room' with no details.",
+        "2": "A simple environment with one or two mentioned objects (e.g., a chair, a table) but no layout details.",
+        "3": "A basic description of a standard room, noting the presence of a door or window.",
+        "4": "A clear description of a specific setting, outlining the general arrangement of furniture or key features.",
+        "5": "A detailed layout of an indoor space, describing the relative positions of multiple objects and walls.",
+        "6": "A comprehensive description of a complex environment, such as a multi-level house or a structured outdoor camp.",
+        "7": "An active mapping of a space, where the text describes how different rooms or areas connect to one another.",
+        "8": "A highly detailed architectural or environmental description, mapping out a complex maze, factory, or street layout.",
+        "9": "An intricate, multi-layered spatial environment where the physical layout is crucial to understanding the scene's action.",
+        "10": "A masterclass in spatial mapping; a highly detailed, continuous exploration of a complex physical structure or landscape."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character's face is shown in a tight close-up against a blurry, out-of-focus background.",
+          "score": 0.5
+        },
+        {
+          "scene": "The office is rectangular, with a large mahogany desk in the center, bookshelves lining the left wall, and a floor-to-ceiling window behind the desk overlooking the street.",
+          "score": 6
+        },
+        {
+          "scene": "The camera sweeps through the multi-tiered library, mapping the circular balconies, the spiral staircases connecting the three floors, the rows of arched alcoves, and the central skylight casting light down to the basement level.",
+          "score": 9.5
+        }
+      ],
+      "scoreability_note": "Look for nouns and adjectives describing spatial geometry, architectural features, the relative positions of objects, and the boundaries of the scene.",
+      "exclusion_note": "Do not score abstract or featureless backgrounds, or scenes where the physical environment is completely ignored in favor of close-up character shots."
+    },
+    {
+      "dimension_id": "egocentric_spatial_navigation",
+      "definition": "The tracking of characters' physical movements, orientation, and navigation relative to their immediate environment.",
+      "domain": "spatial_environmental_anchoring",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character walking through a doorway or hallway",
+        "A character turning, climbing, or ducking to avoid obstacles",
+        "Descriptions of a character's physical path through a space",
+        "A character orienting themselves towards a specific landmark"
+      ],
+      "graded_anchors": {
+        "0": "No movement; characters are completely stationary or no characters are present.",
+        "1": "A character makes a minor, non-locomotive movement, like raising a hand or turning their head.",
+        "2": "A character takes a single step or moves slightly within a very confined space.",
+        "3": "A character walks across a small room in a straight, unobstructed line.",
+        "4": "A character navigates around a piece of furniture or through a doorway.",
+        "5": "A character moves through a moderately complex space, turning corners or climbing a short flight of stairs.",
+        "6": "A character actively navigates a crowded or cluttered environment, adjusting their path to avoid obstacles.",
+        "7": "A continuous sequence of navigation, such as a character running through a series of connected rooms or corridors.",
+        "8": "A complex physical pursuit or escape, requiring precise tracking of turns, climbs, and spatial orientation.",
+        "9": "An intense navigational challenge, such as a character crawling through a tight ventilation shaft or navigating a dark maze.",
+        "10": "An extraordinary sequence of complex, high-speed spatial navigation (e.g., parkour through a dense urban environment or dodging obstacles in a collapsing structure)."
+      },
+      "calibration_examples": [
+        {
+          "scene": "She sits quietly in her armchair, sipping tea and staring into the fireplace.",
+          "score": 0
+        },
+        {
+          "scene": "He walks down the narrow hallway, turns left at the end, opens the third door on the right, and steps into the dark study.",
+          "score": 5.5
+        },
+        {
+          "scene": "The protagonist sprints through the crowded bazaar, weaving between stalls, leaping over a low wooden cart, sliding under a canvas awning, and scaling a stone wall to reach the rooftop.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for action verbs of motion and direction (e.g., 'walked past', 'turned left', 'climbed up', 'navigated through') and spatial prepositions.",
+      "exclusion_note": "Do not score stationary characters or general travel over long distances (like driving a car on a highway) where local navigation is not described."
+    },
+    {
+      "dimension_id": "environmental_transition_and_reorientation",
+      "definition": "The cognitive demand of reorienting to a completely new physical environment or experiencing a major shift in spatial scale.",
+      "domain": "spatial_environmental_anchoring",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character stepping from indoors to outdoors",
+        "A sudden cut to a completely different geographic setting",
+        "A dramatic change in scale, such as zooming from a room to a planet",
+        "Emerging from a dark tunnel into a bright, open landscape"
+      ],
+      "graded_anchors": {
+        "0": "No transition; the scene remains in the exact same physical environment throughout.",
+        "1": "A very minor spatial transition, such as moving from one side of a room to the other.",
+        "2": "A transition to an adjacent, highly similar space (e.g., moving from the kitchen to the dining room).",
+        "3": "Stepping through a door into a slightly different environment, like moving from an office to a hallway.",
+        "4": "A clear indoor-to-outdoor transition, such as walking out of a house onto the front porch.",
+        "5": "A moderate environmental shift, such as exiting a quiet building into a busy, noisy city street.",
+        "6": "A significant spatial cut, transitioning from an indoor office to an outdoor forest scene.",
+        "7": "A dramatic transition, such as emerging from a cramped, dark cave into a vast, sunlit mountain valley.",
+        "8": "A major shift in spatial scale, such as a camera pulling back from a character's face to reveal the entire city skyline.",
+        "9": "An extreme environmental transition, such as a character waking up in a completely unfamiliar, alien landscape after a cut.",
+        "10": "A mind-bending spatial reorientation, involving rapid cuts across vastly different global locations or dimensions."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The characters continue their conversation as they walk slowly down the endless, straight dirt road.",
+          "score": 0
+        },
+        {
+          "scene": "She pushes open the heavy wooden door of the dark tavern and steps out into the blinding midday sun of the bustling marketplace.",
+          "score": 5
+        },
+        {
+          "scene": "The scene cuts instantly from the claustrophobic, metallic interior of the submarine to a breathtaking, wide-angle aerial shot of the vast, icy peaks of the Antarctic continent.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Look for descriptions of entering or exiting distinct spaces, sudden changes in environmental conditions (light, weather, scale), or cuts between highly contrasting locations.",
+      "exclusion_note": "Do not score continuous movement within a single, uniform environment (e.g., walking down a long, unchanging street)."
+    },
+    {
+      "dimension_id": "moral_evaluation_and_judgment",
+      "definition": "The degree to which the scene prompts the viewer to evaluate the ethical, moral, or value-laden weight of a character's actions, decisions, or transgressions.",
+      "domain": "moral_thematic_and_affective_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character making a difficult ethical choice",
+        "An act of betrayal, cruelty, or self-sacrifice",
+        "A debate about right and wrong or justice",
+        "A character confronting the consequences of a moral transgression"
+      ],
+      "graded_anchors": {
+        "0": "No moral or ethical dimensions; actions are completely neutral or mechanical.",
+        "1": "A minor, low-stakes social transgression, such as telling a harmless white lie.",
+        "2": "A character shows a small act of kindness or minor selfishness.",
+        "3": "A minor ethical dilemma, such as deciding whether to report a coworker's minor mistake.",
+        "4": "A clear moral choice, such as returning a lost wallet full of cash or keeping it.",
+        "5": "A moderate moral conflict, such as a character breaking a minor law to help a friend in need.",
+        "6": "A significant ethical transgression, such as a character stealing or lying to protect their own interests at another's expense.",
+        "7": "A high-stakes moral decision, such as a whistleblower deciding to expose a corrupt corporation despite personal risk.",
+        "8": "A profound act of self-sacrifice or a severe moral violation, such as betraying a close friend for personal gain.",
+        "9": "An extreme ethical crisis, such as a character deciding whether to take a life to save others.",
+        "10": "A monumental moral tragedy or triumph, involving systemic ethical choices, massive consequences, or ultimate self-sacrifice."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man buys a newspaper, pays the exact change, and walks away.",
+          "score": 0
+        },
+        {
+          "scene": "To save her family from starvation, Maria agrees to testify falsely against an innocent man, weeping as she signs the perjury document.",
+          "score": 7.5
+        },
+        {
+          "scene": "The soldier looks at the civilian suspect, knowing his orders are to execute him, but hesitates as he looks into the man's terrified eyes, torn between duty and humanity.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Look for descriptions of actions that violate or uphold moral codes, discussions of duty, justice, or guilt, and high-stakes decisions where lives or well-being are on the line.",
+      "exclusion_note": "Do not score routine, non-moral decisions (like choosing what to eat) or actions with no ethical implications."
+    },
+    {
+      "dimension_id": "thematic_significance_appraisal",
+      "definition": "The presence of deeper symbolic, thematic, or narrative-driven significance in the scene, prompting the viewer to reflect on broader life themes (e.g., mortality, fate, love, corruption).",
+      "domain": "moral_thematic_and_affective_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Visual metaphors or symbolic objects",
+        "A character reflecting on the meaning of life, death, or time",
+        "A scene that mirrors or echoes a universal human struggle",
+        "A poetic or highly stylized sequence representing an abstract concept"
+      ],
+      "graded_anchors": {
+        "0": "Completely literal; actions and objects have no symbolic or thematic weight beyond their immediate function.",
+        "1": "A very minor, common metaphor, such as rain representing a slightly sad mood.",
+        "2": "A brief, passing reflection by a character on a general life topic.",
+        "3": "A scene with a simple thematic motif, such as a character looking at an old photograph of happier times.",
+        "4": "A clear symbolic element, such as a character discarding a wedding ring to symbolize the end of a marriage.",
+        "5": "A moderate thematic focus, where a conversation touches on deeper issues like aging, ambition, or regret.",
+        "6": "A scene structured around a clear metaphor, such as a chess game representing a larger political struggle.",
+        "7": "High thematic resonance; a character's personal struggle is framed as a universal commentary on human nature or society.",
+        "8": "A deeply poetic or philosophical sequence, rich in symbolism, exploring themes of mortality, redemption, or fate.",
+        "9": "An intense, highly symbolic climax where the literal events merge completely with a profound thematic revelation.",
+        "10": "An overwhelming, transcendent thematic statement that encapsulates the core philosophical message of the entire work."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A mechanic changes a car tire, wipes his hands on a rag, and moves to the next vehicle.",
+          "score": 0
+        },
+        {
+          "scene": "As the old man takes his final breath, the camera slowly pans to an hourglass on the windowsill where the very last grain of sand falls.",
+          "score": 7
+        },
+        {
+          "scene": "The protagonist stands at the edge of a ruined city, holding a single green sprout growing from the ash, staring into the sunrise as a voiceover speaks of the cyclical nature of civilization and hope.",
+          "score": 9.5
+        }
+      ],
+      "scoreability_note": "Look for philosophical dialogue, symbolic imagery (e.g., a dying flower, a ticking clock), or narrative events that clearly represent larger thematic concepts rather than just literal actions.",
+      "exclusion_note": "Do not score purely literal, action-oriented scenes with no deeper symbolic or philosophical undertones."
+    },
+    {
+      "dimension_id": "character_empathy_and_affective_resonance",
+      "definition": "The emotional gravity, stakes, and personal relevance of the characters' situations, prompting a strong empathetic response from the viewer.",
+      "domain": "moral_thematic_and_affective_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character experiencing profound grief, joy, or terror",
+        "A high-stakes situation where a character's life or happiness is threatened",
+        "A moment of deep vulnerability or emotional exposure",
+        "An event that evokes strong personal relevance or shared human experience"
+      ],
+      "graded_anchors": {
+        "0": "No emotional resonance; completely detached, clinical, or non-human elements.",
+        "1": "A character experiences a very minor, fleeting annoyance or mild satisfaction.",
+        "2": "A standard, low-stakes emotional expression, such as a character smiling at a pleasant greeting.",
+        "3": "A minor moment of worry or disappointment that is easily resolved.",
+        "4": "A clear emotional situation, such as a character feeling nervous before a job interview.",
+        "5": "Moderate emotional stakes; a character dealing with a stressful but common life event, like a minor argument.",
+        "6": "A significant emotional moment, such as a character expressing genuine fear or deep sadness over a setback.",
+        "7": "High emotional gravity; a character facing a major life crisis, showing intense vulnerability or distress.",
+        "8": "A profound emotional experience, such as a character weeping over the loss of a loved one or celebrating a life-changing victory.",
+        "9": "An extremely intense, raw emotional climax that demands deep empathy and resonance from the viewer.",
+        "10": "An overwhelming, devastating, or transcendent emotional peak that completely absorbs the viewer's empathy and feelings."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A computer screen displays a list of names and numbers updating in real-time.",
+          "score": 0
+        },
+        {
+          "scene": "He receives a letter in the mail, reads it, sighs with mild disappointment, and puts it in a drawer.",
+          "score": 3
+        },
+        {
+          "scene": "Clara sits on the kitchen floor, clutching her child's old toy to her chest, sobbing uncontrollably as she realizes he is never coming home.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for descriptions of intense emotional states, high-stakes personal crises, vulnerability, and moments designed to make the viewer feel deeply for the character.",
+      "exclusion_note": "Do not score cold, clinical, or highly detached descriptions of events where characters show no emotion and the stakes are low."
+    }
+  ],
+  "metadata": {
+    "domain_pool": {
+      "source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/PCC/domain_pool_auto_confirmed.json",
+      "content_sha256": "1e4e7bd4782463aa40df9c7f41160811f9bac43962b9c00669400a3c0762227e",
+      "version": "domain_pool_v2",
+      "target_region": "PCC",
+      "curation_status": "confirmed",
+      "proposal_runs": 5,
+      "curated_domain_ids": [
+        "narrative_situation_updating_and_integration",
+        "social_relationship_and_mentalizing_appraisal",
+        "spatial_environmental_anchoring",
+        "moral_thematic_and_affective_appraisal"
+      ]
+    },
+    "source_provider": "gemini",
+    "source_model": "gemini-3.5-flash",
+    "fixed_roi_definition": {
+      "roi_id": "PCC",
+      "display_name": "posterior cingulate cortex",
+      "theoretical_role": "Default-network integration, episodic context, and self-relevant processing.",
+      "selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            175,
+            176,
+            181,
+            182,
+            185,
+            186
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:05",
+    "batch_summary": "In the apartment, Ross decides to follow advice that will allow him to have sex tonight, much to Rachel's amusement. Meanwhile, Chandler finds Joey's adult film on VHS, and the group gathers to watch it despite Rachel's objections. The friends humorously critique the film, which features Joey in a minor, awkward role as a copier repairman who merely watches the action and delivers a single, ridiculous line about the paper tray.",
+    "cumulative_summary": "In the apartment, Ross discusses his relationship plans with Rachel, deciding to follow advice that will lead to him having sex tonight. The mood shifts when Chandler discovers a VHS tape of Joey's adult film in his pocket. Despite Rachel's objections about the degrading nature of such films, the rest of the group—including Monica, Ross, and his girlfriend Julie—is eager to watch. As they play the tape, they humorously critique the bizarre plot. Joey proudly points out his brief appearance as a copier repairman who awkwardly stands by, watches the main actors, and delivers a single, ridiculous line about the paper tray. Chandler jokingly praises Joey's performance, wrapping up a lighthearted and comedic gathering among the friends."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:05 - 00:03:38",
+    "batch_summary": "After Joey finishes pointing out his cameo, the scene shifts to Phoebe meeting with Duncan. Duncan shocks Phoebe by asking for a divorce because he is getting remarried. In a humorous twist, Duncan reveals that he is actually straight, explaining that as a professional ice dancer, he only pretended to be gay to fit in with his peers. Phoebe is left stunned and bewildered by the revelation as Duncan introduces his new fiancée, Deborah.",
+    "cumulative_summary": "In the apartment, Ross discusses his relationship plans with Rachel, while Chandler discovers a VHS tape of Joey's adult film. Despite Rachel's objections, the group humorously watches and critiques Joey's brief, awkward cameo as a copier repairman. Following this, the focus shifts to Phoebe, who meets with her husband, Duncan. Duncan delivers a double shock by asking for a divorce so he can remarry, and confessing that he is actually straight. He explains that as an ice dancer, he had only pretended to be gay to fit in with his peers. A bewildered Phoebe struggles to process this bizarre revelation about her husband's true sexuality and his new fiancée, Deborah, adding a hilarious and unexpected twist to her life."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:38 - 00:05:29",
+    "batch_summary": "Duncan explains his realization of being straight to a bewildered Phoebe, who is left frustrated that he did not figure this out six years ago before they married. Meanwhile, back at the apartment, Ross and Julie prepare to leave for the night. Desperate to stall them, Rachel insists that the group needs to stay up and get to know Julie better, despite Monica's protests that hanging out and talking is already all they ever do.",
+    "cumulative_summary": "In the apartment, Chandler discovers a VHS tape of Joey's adult film, which the group humorously watches despite Rachel's objections. Meanwhile, Phoebe meets with her husband, Duncan, who delivers a double shock: he wants a divorce to remarry and confesses he is actually straight. Duncan explains his straight awakening, leaving a frustrated Phoebe wishing he had figured this out six years ago before they married. Back at the apartment, as Ross and Julie prepare to head home for the night, a desperate Rachel tries to stall them. She insists that the group must stay up late to finally get to know Julie, ignoring Monica's logical protests that hanging out is all they ever do."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:29 - 00:07:17",
+    "batch_summary": "Rachel's desperate attempt to stall Ross and Julie backfires as she forces the exhausted group to listen to Julie's mundane childhood stories. Chandler, Monica, and Joey eventually escape the boring conversation. Meanwhile, Phoebe and Duncan share a bittersweet farewell. After Phoebe signs the divorce papers, they share an emotional embrace and a kiss, finding closure as Duncan departs, leaving Phoebe to jokingly inquire about his straight brother.",
+    "cumulative_summary": "After discovering Joey's adult film on VHS, the group's night takes a dramatic turn. Phoebe meets with her husband, Duncan, who reveals he is actually straight and wants a divorce to remarry. Despite her initial frustration, Phoebe signs the papers, and the two share a bittersweet, tender farewell with an embrace and a kiss, parting on amicable terms. Meanwhile, a desperate Rachel tries to stall Ross and Julie from leaving by forcing the group to stay up and get to know Julie. This backfires into a painfully dull interrogation about Julie's childhood and schoolteachers. As Rachel desperately asks mundane questions about Cobb salads to prolong the night, an exhausted Chandler, Monica, and Joey finally snap and head home, leaving Ross to say his goodnights."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:17 - 00:08:50",
+    "batch_summary": "As Ross prepares to leave, Rachel confronts him in the hallway, subtly trying to sabotage his night with Julie. She plants doubts in his mind about the pressure of their first intimate night together, making him nervous. When Rachel suggests postponing it, Ross refuses, opening up about how miserable he was last year and how genuinely happy he is now. Feeling a wave of guilt and sadness, Rachel softly apologizes as Ross remains unaware of her true feelings.",
+    "cumulative_summary": "After discovering Joey's adult film, the group's night takes a dramatic turn. Phoebe signs divorce papers for her husband, Duncan, after he reveals he is straight and wants to remarry, leading to a bittersweet farewell. Meanwhile, a desperate Rachel tries to stall Ross and Julie's departure by forcing the group into a painfully dull interrogation of Julie. Once the exhausted friends head home, Rachel corners Ross in the hallway as he prepares to spend his first intimate night with Julie. She subtly plants doubts about the high stakes of a first sexual encounter, successfully making him nervous. However, when she suggests postponing it, Ross refuses, vulnerably explaining how miserable he was last year and how genuinely happy he is now. Overcome with guilt and sadness at his confession, Rachel softly apologizes, leaving Ross unaware of her true feelings as they share a quiet, bittersweet moment."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:50 - 00:10:13",
+    "batch_summary": "In a highly charged moment, Rachel shifts tactics and advises Ross to be spontaneous, describing her own fantasy of a perfect, passionate encounter. She vividly details how she would want to be kissed, touched, and held close. Ross listens, completely captivated and visibly affected by the intense romantic tension. Rachel's thinly veiled confession of her own desires leaves Ross spellbound, heightening the emotional stakes between them.",
+    "cumulative_summary": "After Phoebe signs divorce papers for her husband Duncan, the group heads home, leaving Rachel desperate to stall Ross's first intimate night with Julie. After initially planting doubts about the encounter, Rachel shifts tactics during a quiet moment with Ross in the hallway. She advises him to be spontaneous, describing in vivid, intimate detail exactly how she would want to be kissed, touched, and held close. The atmosphere becomes charged with intense romantic tension as Ross listens, completely spellbound and visibly affected by her words. Rachel's thinly veiled description of her own desires leaves them sharing a deeply loaded, breathless moment, bringing their unspoken feelings to a boiling point just as Ross is supposed to join Julie."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 258,
+    "timestamp_range": "00:10:13 - 00:11:15",
+    "batch_summary": "Following their intense hallway moment, Ross resists the temptation and bids Rachel a polite goodnight, leaving her devastated and sliding down the wall in despair. The next day, a jubilant Ross joyfully struts down the street singing \"Singing in the Rain\" and swinging from a lamppost. When two onlookers remark on his cheerful mood, Ross proudly boasts that he \"got some\" twice, confirming Rachel's worst fears about his night with Julie.",
+    "cumulative_summary": "After Phoebe signs divorce papers, Rachel desperately tries to stall Ross's first intimate night with Julie. In a charged hallway encounter, Rachel describes her ideal romantic encounter in vivid detail, creating intense sexual tension that leaves Ross spellbound. However, Ross ultimately resists the temptation, bids Rachel a polite goodnight, and enters the apartment. Rachel is left devastated, sliding down the wall in despair. The next day, a jubilant Ross struts down the street singing \"Singing in the Rain\" and swinging from a lamppost. When two onlookers comment on his cheerful demeanor, Ross proudly boasts that he \"got some\" twice, confirming that Rachel's desperate attempts to stall his intimacy with Julie ultimately failed."
+  }
+]

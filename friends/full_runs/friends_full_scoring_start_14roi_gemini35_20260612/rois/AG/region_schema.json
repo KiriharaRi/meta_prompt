@@ -1,0 +1,647 @@
+{
+  "version": "region_schema_v1",
+  "target_region": "AG",
+  "functional_hypothesis": "The angular gyrus (AG), particularly area A39, is a major heteromodal association hub situated at the junction of visual, auditory, and somatosensory cortices. It is a core node of the default mode network (DMN) and is heavily implicated in high-level cognitive processes including Theory of Mind (mentalizing), semantic integration, narrative comprehension, and spatial-temporal tracking. By decomposing movie descriptions into dimensions tracking social mentalizing, narrative coherence, semantic schema resolution, and spatial-temporal tracking, we can model how AG integrates multi-modal, context-rich narrative information over time.",
+  "scoring_instruction": "Score each dimension on a scale from 0 to 10 based on the evidence present in the dense movie description. A score of 0 indicates that the dimension is completely absent or cannot be inferred from the text. A score of 10 indicates that the dimension is extremely prominent and central to the scene. Focus on the cognitive demands placed on a typical viewer to process, infer, or track these elements as they unfold in the narrative. Do not let emotional intensity or visual action alone inflate scores unless they directly serve the specific cognitive dimension being evaluated.",
+  "selection_rules": [
+    {
+      "networks": [],
+      "sub_regions": [],
+      "hemispheres": [],
+      "label_ids": [
+        135,
+        136,
+        137,
+        138,
+        143,
+        144
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": "social_mentalizing",
+      "definition": "The viewer's active inference of characters' unstated mental states, beliefs, hidden motives, intentions, or interpersonal dynamics based on dialogue, body language, and situational context.",
+      "region_relevance": "The angular gyrus (specifically A39) is a core node of the Theory of Mind (ToM) / mentalizing network, heavily involved in representing others' beliefs, intentions, and social relationships.",
+      "scoreability_note": "Can be scored by identifying segments where characters interact with hidden agendas, unspoken tension, or where the viewer must infer what a character knows or believes versus what is actually happening.",
+      "source_domain_ids": [
+        "run_1_social_mentalizing",
+        "run_2_social_intent_attribution",
+        "run_3_social_intent_attribution",
+        "run_4_social_intent_attribution",
+        "run_5_social_mentalizing_inference"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all social cognition, mentalizing, and intent attribution domains across all five runs into a single robust domain. This represents a core function of the AG (especially at the TPJ boundary)."
+    },
+    {
+      "domain_id": "narrative_coherence_integration",
+      "definition": "The viewer's cognitive integration of ongoing events with prior plot points, tracking causal connections, and updating their overall mental model of the story's situation.",
+      "region_relevance": "AG acts as a high-level semantic integration hub and key node of the default mode network (DMN), crucial for narrative comprehension, linking incoming information with long-term episodic context, and maintaining a coherent situation model.",
+      "scoreability_note": "High when scenes reveal crucial plot connections, resolve mysteries, or require the viewer to synthesize multiple threads of information; low during simple, isolated sensory or action sequences.",
+      "source_domain_ids": [
+        "run_1_narrative_situation_model_updating",
+        "run_2_narrative_event_integration",
+        "run_3_narrative_coherence_tracking",
+        "run_4_narrative_coherence_tracking",
+        "run_5_narrative_event_integration"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged narrative integration, coherence tracking, and situation model updating domains across all five runs. These represent the high-level semantic and episodic integration functions of the AG during continuous narrative processing."
+    },
+    {
+      "domain_id": "semantic_schema_and_anomaly_resolution",
+      "definition": "The viewer's appraisal of how well events, dialogue, or visual elements conform to real-world schemas or established narrative rules, including the detection and cognitive resolution of unexpected, incongruous, or metaphorical elements.",
+      "region_relevance": "The angular gyrus is heavily involved in semantic integration, processing metaphorical language, and resolving conceptual violations or unexpected context shifts (semantic expectancy violations).",
+      "scoreability_note": "Can be scored by identifying moments of surrealism, unexpected plot twists, metaphorical dialogue, or actions that break conventional social/physical norms, requiring the viewer to re-interpret the context.",
+      "source_domain_ids": [
+        "run_1_semantic_expectancy_violation",
+        "run_2_semantic_concept_association",
+        "run_3_semantic_anomaly_resolution",
+        "run_4_semantic_anomaly_resolution",
+        "run_5_semantic_schema_evaluation"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Combined semantic expectancy violation, concept association, anomaly resolution, and schema evaluation into a single domain focused on semantic schema processing and resolving violations, which is a well-established function of the AG."
+    },
+    {
+      "domain_id": "spatial_temporal_situation_tracking",
+      "definition": "The viewer's mental construction, tracking, and updating of the physical layout, spatial relationships, and temporal sequence of the depicted environment, especially during transitions, scene cuts, or shifts in setting.",
+      "region_relevance": "AG is situated at the junction of visual, auditory, and somatosensory cortices, playing a critical role in egocentric and allocentric spatial mapping, spatial attention, temporal sequencing, and updating situational schemas during transitions.",
+      "scoreability_note": "Scoreable based on the complexity of the physical setting, movement of characters through space, and the presence of scene cuts, jumps in time, or shifts in setting that require the viewer to update their spatial-temporal frame of reference.",
+      "source_domain_ids": [
+        "run_2_spatial_temporal_tracking",
+        "run_3_spatial_perspective_mapping",
+        "run_4_spatial_temporal_reorientation",
+        "run_5_situation_boundary_updating"
+      ],
+      "source_runs": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Merged spatial-temporal tracking, perspective mapping, reorientation, and situation boundary updating. This captures the AG's role in spatial-temporal frame-of-reference processing and event boundary detection."
+    }
+  ],
+  "active_domain_ids": [
+    "social_mentalizing",
+    "narrative_coherence_integration",
+    "semantic_schema_and_anomaly_resolution",
+    "spatial_temporal_situation_tracking"
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "mental_state_attribution",
+      "definition": "The degree to which the viewer must infer a character's internal mental states, beliefs, desires, or knowledge, especially when they differ from reality or other characters' beliefs.",
+      "domain": "social_mentalizing",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character holding a false belief about a situation.",
+        "A character hiding their true feelings or knowledge from others.",
+        "The viewer needing to infer what a character is thinking based on subtle cues."
+      ],
+      "graded_anchors": {
+        "0": "No characters present, or characters are engaged in purely physical, non-social actions with no mental states to infer.",
+        "1": "Characters are present but their actions are completely straightforward and require no inference of internal states.",
+        "2": "Minor social interaction where basic emotions or obvious intentions are visible but require minimal cognitive effort to understand.",
+        "3": "A character expresses a simple preference or reaction that requires a brief moment of perspective-taking.",
+        "4": "Characters engage in a conversation where their basic motivations are clear, but the viewer must track their ongoing focus.",
+        "5": "Moderate mentalizing required; a character's actions are guided by a specific, unstated personal goal or preference.",
+        "6": "The viewer must track what one character knows versus what another character knows (asymmetric information).",
+        "7": "Significant mentalizing; a character acts based on a clear false belief, or tries to influence another's beliefs.",
+        "8": "Complex social scenario where multiple characters have conflicting beliefs, and the viewer must track these nested mental states.",
+        "9": "Deep mentalizing required; characters engage in subtle psychological maneuvering where every line of dialogue carries hidden mental subtext.",
+        "10": "Extreme mentalizing; a highly complex web of nested beliefs (e.g., A knows that B thinks C is lying), central to understanding the scene."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man sits alone in an empty room, staring at a blank wall while drinking a glass of water.",
+          "score": 0
+        },
+        {
+          "scene": "John tells Mary that he is going to the store, but Mary knows that the store is closed and wonders if John is actually meeting someone else.",
+          "score": 7
+        },
+        {
+          "scene": "In a tense negotiation, the detective pretends to believe the suspect's alibi to make him let his guard down, while the suspect secretly suspects the detective is playing a game but tries to act natural.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Look for explicit or implicit indicators of characters' thoughts, beliefs, knowledge, or hidden feelings that are not directly stated in dialogue but must be inferred by the viewer.",
+      "exclusion_note": "Do not score simple emotional reactions (e.g., crying because of sadness) or physical actions unless they require the viewer to infer a complex underlying mental state."
+    },
+    {
+      "dimension_id": "interpersonal_deception_intent",
+      "definition": "The tracking of a character's active deception, manipulation, or hidden motives directed at another character.",
+      "domain": "social_mentalizing",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character telling a deliberate lie to another.",
+        "A character manipulating a situation to mislead others.",
+        "A character concealing their true identity or intentions."
+      ],
+      "graded_anchors": {
+        "0": "No deception or manipulation is present; all interactions are completely honest and transparent.",
+        "1": "A very minor, harmless white lie is told with no real consequence or narrative weight.",
+        "2": "A character slightly exaggerates a detail, but there is no deeper manipulative intent.",
+        "3": "A character hides a small piece of information, but it does not significantly affect the interaction.",
+        "4": "A character actively conceals a minor secret, requiring the viewer to track their effort to keep it hidden.",
+        "5": "Moderate deception; a character tells a clear lie to protect themselves or someone else, creating a discrepancy in the narrative.",
+        "6": "A character actively manipulates a conversation to steer another character away from the truth.",
+        "7": "Significant deception; a character is living a double life or executing a planned lie, requiring constant tracking of their dual motives.",
+        "8": "High-stakes manipulation where a character is actively conning or gaslighting another, with major narrative consequences.",
+        "9": "Extremely complex deception where multiple layers of lies are maintained, and the viewer must track the deceiver's strategic calculations.",
+        "10": "Masterful, multi-layered deception or betrayal where a character completely manipulates an entire group's perception of reality."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Alice and Bob discuss their weekend plans and agree to go to the park together.",
+          "score": 0
+        },
+        {
+          "scene": "Tom tells his boss he was late because of traffic, but the viewer saw him oversleeping earlier.",
+          "score": 5
+        },
+        {
+          "scene": "The spy sits across from the target, pretending to be a naive tourist while subtly extracting classified codes through seemingly innocent small talk.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Driven by text describing lies, hidden agendas, strategic omissions, or manipulative behavior where the viewer must track the discrepancy between a character's true intent and their outward behavior.",
+      "exclusion_note": "Exclude general suspense or danger that does not involve interpersonal deception or strategic manipulation."
+    },
+    {
+      "dimension_id": "social_relationship_dynamics",
+      "definition": "Tracking the unstated tension, power struggles, alliances, or shifting emotional bonds between characters.",
+      "domain": "social_mentalizing",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A subtle shift in power or dominance during a conversation.",
+        "Unspoken romantic or hostile tension between characters.",
+        "The formation or breaking of a social alliance or trust."
+      ],
+      "graded_anchors": {
+        "0": "No social interaction or relationships are depicted (e.g., a single character or empty landscape).",
+        "1": "Characters are present but interact in a purely transactional, neutral manner (e.g., buying a ticket).",
+        "2": "Basic social familiarity is shown, but the relationship dynamics are static and uncomplicated.",
+        "3": "A minor moment of social tension or warmth is expressed, slightly coloring the interaction.",
+        "4": "Shifting dynamics are introduced; a character tries to assert minor authority or show subtle affection.",
+        "5": "Moderate relationship tracking; the viewer must track a clear underlying tension or bond that influences how characters speak to each other.",
+        "6": "A noticeable shift in power or trust occurs during the scene, altering the characters' relationship.",
+        "7": "High social tension or complex dynamics; characters navigate a delicate social minefield where their relationship status is at stake.",
+        "8": "A major confrontation or reconciliation that redefines the core relationship between key characters.",
+        "9": "Extremely nuanced social dynamics where power, loyalty, and emotional subtext shift continuously with every gesture and word.",
+        "10": "A masterclass in social tension; a highly charged scene where the entire social hierarchy or core alliance of the narrative is dramatically upended through unspoken dynamics."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A cashier rings up a customer's groceries in silence, hands over the receipt, and nods.",
+          "score": 1
+        },
+        {
+          "scene": "During dinner, a husband and wife exchange polite words, but their stiff posture and avoided eye contact reveal a deep, unspoken resentment.",
+          "score": 6
+        },
+        {
+          "scene": "The king's advisors exchange quick, calculating glances as the young prince unexpectedly takes charge of the meeting, shifting the balance of power in the room.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for descriptions of body language, tone, subtext, and social positioning that indicate the state of relationships, power balances, or social alliances.",
+      "exclusion_note": "Do not score overt physical fights or simple, explicit statements of relationship status (e.g., 'They are enemies') unless the scene actively depicts the dynamic playing out."
+    },
+    {
+      "dimension_id": "causal_plot_linking",
+      "definition": "The degree to which the current scene requires the viewer to connect ongoing events to prior plot points, tracking causal chains across the narrative.",
+      "domain": "narrative_coherence_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character referencing a past event that explains their current action.",
+        "The reveal of a connection between two previously unrelated plot threads.",
+        "An event occurring as a direct, long-awaited consequence of an earlier scene."
+      ],
+      "graded_anchors": {
+        "0": "The scene is completely self-contained with no connection to any prior narrative events (e.g., an isolated vignette).",
+        "1": "Extremely weak link; a minor, superficial reference to a past event that is not necessary for understanding the scene.",
+        "2": "A basic continuation of the immediate previous scene, requiring minimal long-term memory integration.",
+        "3": "The scene references a familiar character or setting from earlier, establishing basic continuity.",
+        "4": "A past plot point is brought up, helping to explain a character's current motivation or situation.",
+        "5": "Moderate causal linking; the scene's events only make sense if the viewer remembers a specific event from earlier in the story.",
+        "6": "The scene actively connects two distinct narrative threads, showing how they influence each other.",
+        "7": "Significant integration; a major plot point is resolved or explained by linking back to multiple prior events.",
+        "8": "High causal complexity; the scene reveals a hidden connection that recontextualizes several past events.",
+        "9": "The climax of a complex causal chain, where numerous narrative threads converge and resolve simultaneously.",
+        "10": "Extreme causal integration; a massive plot revelation that perfectly links a complex web of past events, completely reshaping the viewer's understanding of the entire story."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A generic commercial showing a car driving down a scenic highway.",
+          "score": 0
+        },
+        {
+          "scene": "Detective Miller finds a key in the suspect's drawer, which he immediately recognizes as the key to the locker he discovered three chapters ago.",
+          "score": 7
+        },
+        {
+          "scene": "In a dramatic confrontation, the protagonist realizes that every minor setback they experienced was orchestrated by their closest ally, linking dozens of past clues together.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Look for text describing clues, revelations, callbacks, or consequences that require the viewer to retrieve and integrate information from earlier in the movie.",
+      "exclusion_note": "Do not score simple chronological progression (e.g., 'then he walked to the next room') unless it involves integrating non-adjacent narrative information."
+    },
+    {
+      "dimension_id": "mental_model_updating",
+      "definition": "The cognitive demand of updating the overall mental model of the story's situation, characters, or rules based on new, significant information.",
+      "domain": "narrative_coherence_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A sudden plot twist that changes the understanding of a character's identity.",
+        "The introduction of a major new rule or condition in the narrative world.",
+        "A revelation that a previously assumed fact was false."
+      ],
+      "graded_anchors": {
+        "0": "No new information is presented; the scene confirms existing expectations and requires no model updating.",
+        "1": "A very minor detail is added that slightly enriches the background but does not change the narrative model.",
+        "2": "A new minor character or object is introduced, requiring a simple addition to the mental model.",
+        "3": "A small shift in the situation occurs (e.g., a character changes their immediate plan), requiring a minor update.",
+        "4": "A new piece of information clarifies a character's background, slightly adjusting how the viewer perceives them.",
+        "5": "Moderate updating; a significant new development forces the viewer to adjust their expectations about where the story is going.",
+        "6": "A major revelation about a character's true allegiance or a hidden aspect of the situation requires a substantial update.",
+        "7": "High cognitive demand; a key assumption about the plot is proven wrong, forcing the viewer to re-evaluate recent events.",
+        "8": "A major plot twist occurs, requiring a comprehensive overhaul of the viewer's mental model of the characters and their motives.",
+        "9": "The entire premise of the situation is revealed to be an illusion or a setup, demanding a massive cognitive restructuring of the narrative.",
+        "10": "Extreme mental model updating; a mind-bending twist that completely flips the narrative reality, requiring the viewer to reconstruct the entire story from a new perspective."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The protagonist continues walking down the same street, thinking about their day.",
+          "score": 0
+        },
+        {
+          "scene": "The doctor reveals that the patient's illness is not a natural disease, but the result of a slow-acting poison.",
+          "score": 6
+        },
+        {
+          "scene": "The main character wakes up in a high-tech facility and realizes their entire life, family, and memories were a simulated program.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Driven by text describing revelations, twists, unexpected discoveries, or paradigm shifts that force the viewer to change their understanding of the story's reality.",
+      "exclusion_note": "Do not score simple visual surprises or jump scares that do not alter the conceptual understanding of the narrative."
+    },
+    {
+      "dimension_id": "thematic_synthesis",
+      "definition": "The integration of concrete scene events with abstract themes, metaphors, or parallel narrative threads to construct a deeper, coherent meaning.",
+      "domain": "narrative_coherence_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A scene that mirrors another character's parallel struggle.",
+        "The use of symbolic imagery or dialogue that represents a larger thematic conflict.",
+        "A montage or sequence that juxtaposes different storylines to highlight a common theme."
+      ],
+      "graded_anchors": {
+        "0": "The scene is purely literal and transactional, with no thematic depth or parallel threads.",
+        "1": "A very basic, common trope is used, requiring minimal abstract interpretation.",
+        "2": "A simple metaphor is spoken by a character, but it remains isolated and does not connect to a larger theme.",
+        "3": "The scene has a clear mood or tone that aligns with the movie's general theme, but remains literal.",
+        "4": "A parallel is briefly drawn between two characters' situations, suggesting a shared struggle.",
+        "5": "Moderate thematic synthesis; the scene uses symbolic elements (e.g., weather, recurring objects) to reinforce a central theme.",
+        "6": "The narrative actively cuts between two parallel storylines, requiring the viewer to synthesize their thematic connections.",
+        "7": "Significant synthesis; a character's personal conflict serves as a clear, rich allegory for a broader societal or philosophical issue.",
+        "8": "High thematic complexity; multiple symbolic motifs and parallel plotlines converge, demanding deep abstract synthesis to grasp the full meaning.",
+        "9": "A highly artistic or metaphorical sequence where literal events are secondary to the rich web of symbolic and thematic associations.",
+        "10": "Extreme thematic integration; a profound, multi-layered climax where all parallel threads, metaphors, and philosophical themes unite into a single, cohesive conceptual statement."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man fixes a broken pipe in his basement, focusing entirely on the tools and the water.",
+          "score": 0
+        },
+        {
+          "scene": "As the protagonist struggles to rebuild his life, the camera repeatedly cuts to a small plant slowly growing through a crack in the concrete.",
+          "score": 5
+        },
+        {
+          "scene": "A complex montage intercuts a priest delivering a sermon on sacrifice, a soldier preparing for battle, and a mother giving birth, weaving them into a profound meditation on life and duty.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for descriptions of symbolic actions, parallel editing, allegorical dialogue, or recurring motifs that invite the viewer to think beyond the literal plot.",
+      "exclusion_note": "Do not score simple visual beauty or artistic cinematography unless it carries a clear, trackable thematic or symbolic meaning."
+    },
+    {
+      "dimension_id": "semantic_expectancy_violation",
+      "definition": "The detection and cognitive processing of surreal, incongruous, or unexpected elements that violate real-world semantic schemas or established narrative rules.",
+      "domain": "semantic_schema_and_anomaly_resolution",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "An object appearing in a highly inappropriate or impossible context.",
+        "A character behaving in a way that completely violates physical or logical laws.",
+        "A surreal, dream-like sequence that defies normal reality."
+      ],
+      "graded_anchors": {
+        "0": "Everything in the scene perfectly conforms to standard real-world physical and social schemas.",
+        "1": "A very minor, slightly unusual detail is present (e.g., an outdated piece of technology in a modern office).",
+        "2": "A character makes a slightly odd choice or wears unusual clothing, but it is easily explained.",
+        "3": "A mild incongruity occurs, such as an unexpected but possible coincidence.",
+        "4": "An unusual event occurs that challenges normal expectations but remains within the realm of physical possibility.",
+        "5": "Moderate violation; a highly improbable or bizarre event occurs, requiring the viewer to pause and make sense of it.",
+        "6": "A clear violation of normal physical or logical rules (e.g., a dream sequence where gravity is slightly off).",
+        "7": "Significant surrealism; objects or environments behave in impossible ways, forcing the viewer to search for a conceptual explanation.",
+        "8": "A highly incongruous scene where the laws of physics or logic are openly defied, creating a strong sense of absurdity or wonder.",
+        "9": "A deeply surreal, bizarre sequence filled with dream logic, symbolic distortions, and radical schema violations.",
+        "10": "Extreme semantic violation; a completely mind-bending, surreal landscape or event where every rule of reality, space, and logic is shattered, demanding total cognitive re-interpretation."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A woman sits at her desk typing an email on a standard laptop.",
+          "score": 0
+        },
+        {
+          "scene": "A man opens his umbrella indoors, and instead of blocking rain, a small cloud inside the umbrella begins to rain down on him.",
+          "score": 7
+        },
+        {
+          "scene": "The protagonist walks through a door and steps directly into a floating hallway where clocks melt down the walls and people walk backwards while speaking in riddles.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Driven by text describing surrealism, dream sequences, bizarre occurrences, or physical/logical anomalies that break standard real-world expectations.",
+      "exclusion_note": "Do not score standard fantasy or sci-fi elements that are already established as normal rules of the narrative world (e.g., a spaceship in a sci-fi movie), unless they violate those established rules."
+    },
+    {
+      "dimension_id": "metaphorical_conceptual_processing",
+      "definition": "The processing of metaphorical language, highly symbolic dialogue, or abstract concepts that require the viewer to map one domain of knowledge onto another.",
+      "domain": "semantic_schema_and_anomaly_resolution",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character speaking in extended metaphors or allegories.",
+        "A visual element or action that serves as a direct metaphor for an abstract concept.",
+        "Dialogue discussing complex, abstract philosophical ideas."
+      ],
+      "graded_anchors": {
+        "0": "Dialogue and actions are entirely literal, straightforward, and concrete.",
+        "1": "A common, everyday idiom is used (e.g., 'it's raining cats and dogs') requiring no active cognitive processing.",
+        "2": "A character uses a simple, clear metaphor to describe their feelings (e.g., 'I feel like a trapped bird').",
+        "3": "A brief metaphorical comparison is made that adds a layer of meaning to the conversation.",
+        "4": "A character tells a short story or analogy to make a point, requiring the viewer to map the analogy to the current situation.",
+        "5": "Moderate metaphorical processing; a central conversation revolves around a symbolic concept or extended metaphor.",
+        "6": "The scene features a prominent visual metaphor that runs parallel to the dialogue, reinforcing an abstract concept.",
+        "7": "Significant conceptual processing; characters engage in a deep, highly metaphorical debate about abstract ideas (e.g., justice, time, mortality).",
+        "8": "The entire scene is structured around a complex conceptual metaphor, where every action and word has a secondary, abstract meaning.",
+        "9": "A highly abstract, philosophical sequence where characters speak almost entirely in dense, poetic metaphors and allegories.",
+        "10": "Extreme metaphorical complexity; a deeply philosophical, abstract narrative segment where literal meaning is entirely superseded by a complex web of conceptual metaphors."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The mechanic explains exactly how the engine works, pointing to the pistons and valves.",
+          "score": 0
+        },
+        {
+          "scene": "An old man tells his grandson a story about two wolves fighting inside every person, representing good and evil.",
+          "score": 5
+        },
+        {
+          "scene": "A character stands in a barren desert, debating with a personified version of Death about the chess-like nature of fate and human choice.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for text describing poetic dialogue, philosophical discussions, allegorical stories, or visual symbols that represent abstract ideas.",
+      "exclusion_note": "Do not score simple emotional expressions or literal descriptions of events, even if they are dramatic."
+    },
+    {
+      "dimension_id": "norm_violation_resolution",
+      "definition": "The cognitive resolution of actions or events that violate conventional social, moral, or cultural norms, requiring the viewer to interpret the context or justification.",
+      "domain": "semantic_schema_and_anomaly_resolution",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character behaving in a highly inappropriate or shocking social manner.",
+        "An act that violates deep-seated moral or cultural taboos.",
+        "A character breaking an established social contract or etiquette in a public setting."
+      ],
+      "graded_anchors": {
+        "0": "All characters behave in perfect accordance with standard social, moral, and cultural norms.",
+        "1": "A character commits a very minor social gaffe, like forgetting to say thank you.",
+        "2": "A character is slightly rude or impolite, causing mild discomfort.",
+        "3": "A minor breach of etiquette occurs, such as raising one's voice in a quiet library.",
+        "4": "A character behaves in an eccentric or socially unconventional way, drawing curious looks.",
+        "5": "Moderate norm violation; a character openly defies a common social expectation (e.g., showing up to a formal wedding in casual beachwear).",
+        "6": "A character commits a shocking social transgression, causing active distress or confusion among other characters.",
+        "7": "Significant moral or social violation; a character acts in a highly taboo or offensive manner, forcing the viewer to struggle to understand their motive.",
+        "8": "A severe violation of ethical or cultural norms (e.g., desecrating a sacred space or betraying a sacred trust) that demands cognitive resolution.",
+        "9": "A highly transgressive scene where multiple core social and moral boundaries are crossed, creating intense cognitive dissonance for the viewer.",
+        "10": "Extreme norm violation; a deeply shocking, transgressive act that completely shatters all social, moral, and cultural expectations, forcing a radical re-evaluation of the character's humanity and the narrative context."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A group of people sit quietly in a church, listening to the sermon.",
+          "score": 0
+        },
+        {
+          "scene": "During a solemn funeral service, a man suddenly stands up, starts laughing loudly, and begins throwing confetti over the coffin.",
+          "score": 7
+        },
+        {
+          "scene": "A character calmly and systematically betrays their lifelong friends to their enemies while explaining with cold, twisted logic that friendship is a biological weakness.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Driven by text describing socially inappropriate, shocking, taboo, or highly unconventional behavior that requires the viewer to process the social fallout or search for a motive.",
+      "exclusion_note": "Do not score standard physical violence or action sequences (like a bank robbery) unless the focus is on the violation of social/moral norms and the cognitive effort to make sense of it."
+    },
+    {
+      "dimension_id": "spatial_layout_mapping",
+      "definition": "The mental construction and tracking of the physical layout, spatial relationships, and relative positions of characters and objects in the depicted environment.",
+      "domain": "spatial_temporal_situation_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character navigating a complex, multi-level physical space.",
+        "Tracking the relative positions of multiple characters in a room during a tense standoff.",
+        "A description emphasizing the physical distance or spatial layout of a setting."
+      ],
+      "graded_anchors": {
+        "0": "No physical space is described, or the setting is completely abstract, dark, or featureless.",
+        "1": "A very simple, flat setting with no spatial complexity (e.g., a character sitting in a chair against a plain wall).",
+        "2": "A basic indoor setting where the general location of a few objects is clear, but spatial tracking is trivial.",
+        "3": "A standard room layout is described, with characters moving between a few clearly defined spots.",
+        "4": "The viewer must track a character moving through a simple multi-room environment (e.g., walking from the kitchen to the living room).",
+        "5": "Moderate spatial tracking; navigating a moderately complex layout, like a busy restaurant or a winding outdoor path.",
+        "6": "A scene where the relative positions of several characters are crucial to the action (e.g., a dinner table conversation with specific seating arrangements).",
+        "7": "Significant spatial complexity; tracking movement through a maze-like building, a multi-level structure, or a complex outdoor terrain.",
+        "8": "A highly dynamic scene (e.g., a tactical stealth sequence or a complex chase) where the exact spatial relationships and lines of sight are critical.",
+        "9": "An extremely intricate spatial layout (e.g., a multi-layered heist or a complex architectural puzzle) that the viewer must mentally map in detail.",
+        "10": "Extreme spatial tracking; a highly complex, multi-dimensional, or rapidly shifting environment where tracking precise spatial coordinates and layouts is central to understanding the scene."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A close-up of a character's face as they speak, with a completely blurred, unrecognizable background.",
+          "score": 1
+        },
+        {
+          "scene": "The thief sneaks through the museum, tracking the guard's position on the floor above, avoiding the security cameras' sweep zones, and aligning himself with the blind spots.",
+          "score": 8
+        },
+        {
+          "scene": "In a complex sci-fi labyrinth, characters navigate shifting gravity wells, rotating corridors, and interlocking spatial portals, requiring constant mental mapping of three-dimensional space.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Look for text describing physical layouts, directions, distances, relative positions, movement through structures, and spatial obstacles.",
+      "exclusion_note": "Do not score fast-paced action or movement that does not require the viewer to construct a coherent mental map of the physical space."
+    },
+    {
+      "dimension_id": "temporal_sequence_tracking",
+      "definition": "Tracking the temporal sequence, chronological order, duration, or temporal jumps (flashbacks, flashforwards) of the depicted events.",
+      "domain": "spatial_temporal_situation_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A sudden flashback revealing a past event.",
+        "A flashforward showing a future consequence.",
+        "A scene depicting parallel events happening at different speeds or times."
+      ],
+      "graded_anchors": {
+        "0": "The scene occurs in a single, continuous moment with no temporal complexity or awareness of time passing.",
+        "1": "A very minor, natural progression of time (e.g., a character finishes a cup of coffee).",
+        "2": "A simple, linear jump forward in time, clearly indicated (e.g., 'the next morning').",
+        "3": "A brief mention of a past time or a short, straightforward memory sequence.",
+        "4": "A clear transition showing a montage of time passing over several days or weeks in a linear fashion.",
+        "5": "Moderate temporal tracking; a scene that intercuts between the present and a recent past event, requiring the viewer to keep the timeline straight.",
+        "6": "A narrative sequence featuring multiple distinct flashbacks that explain the current moment.",
+        "7": "Significant temporal complexity; tracking parallel events occurring at different times or speeds (e.g., slow-motion vs. real-time).",
+        "8": "A non-linear narrative structure where the scene jumps back and forth across multiple timelines, requiring active chronological reconstruction.",
+        "9": "A highly complex temporal puzzle where time is distorted, looped, or presented in a deeply fragmented, non-chronological order.",
+        "10": "Extreme temporal tracking; a mind-bending sequence involving time travel, nested timelines, or simultaneous multi-era events that requires constant, intense tracking of temporal sequences."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man sits on a bench and watches the clouds drift by for a few minutes.",
+          "score": 1
+        },
+        {
+          "scene": "The scene cuts between the protagonist trying to defuse a bomb in the present and his training session three years ago where he learned the wire-cutting sequence.",
+          "score": 6
+        },
+        {
+          "scene": "A character experiences a temporal loop, interacting with past and future versions of themselves across five overlapping timelines in the same room.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Driven by text describing flashbacks, flashforwards, time distortion, montages, parallel timelines, or explicit references to the passage or manipulation of time.",
+      "exclusion_note": "Do not score simple, continuous real-time progression unless there is a specific cognitive demand to track temporal relationships or durations."
+    },
+    {
+      "dimension_id": "situational_schema_updating",
+      "definition": "Updating the situational frame of reference during scene cuts, transitions, or sudden shifts in setting, environment, or context.",
+      "domain": "spatial_temporal_situation_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A sudden cut to a completely new location and set of characters.",
+        "A rapid transition from an indoor to an outdoor setting.",
+        "A sudden shift in the narrative context (e.g., waking up from a dream)."
+      ],
+      "graded_anchors": {
+        "0": "The scene remains in a single, unchanging location and context with no transitions or cuts.",
+        "1": "A very minor camera angle change within the same small room, requiring no situational updating.",
+        "2": "A simple cut to another part of the same room or immediate environment.",
+        "3": "A transition to an adjacent room or a nearby outdoor space, maintaining high situational continuity.",
+        "4": "A clear scene cut to a new but familiar location with the same characters.",
+        "5": "Moderate updating; a cut to a completely new location with different characters, requiring the viewer to quickly establish who and where they are.",
+        "6": "A rapid sequence of cuts across several different locations, requiring continuous, quick updates of the situational frame.",
+        "7": "A sudden, jarring transition that completely changes the context (e.g., cutting from a quiet bedroom to a loud, chaotic battlefield).",
+        "8": "A sequence of rapid, cross-cutting transitions between multiple unrelated settings, demanding high-frequency situational updating.",
+        "9": "A highly disorienting sequence where the setting and context shift continuously and unpredictably, challenging the viewer's ability to maintain a stable frame of reference.",
+        "10": "Extreme situational updating; a rapid-fire, kaleidoscopic montage of dozens of different times, places, and contexts, requiring maximum cognitive effort to track and update the situational schema."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Two characters sit at a kitchen table and talk continuously for five minutes without any cuts.",
+          "score": 0
+        },
+        {
+          "scene": "The movie cuts from a quiet, intimate conversation in a dimly lit apartment to a bright, noisy, crowded street market in a foreign city.",
+          "score": 6
+        },
+        {
+          "scene": "A rapid-fire montage cuts every half-second between a spaceship launch, a medieval battle, a quiet library, a deep-sea dive, and a bustling futuristic city.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Look for text describing scene cuts, transitions, shifts in setting, changes in the cast of characters present, or sudden changes in the environmental context.",
+      "exclusion_note": "Do not score movement within a single, continuous shot or location unless it involves a radical shift in the situational context."
+    }
+  ],
+  "metadata": {
+    "domain_pool": {
+      "source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/AG/domain_pool_auto_confirmed.json",
+      "content_sha256": "6b3f5aad29c13e97315177b39b79548be5e6b5214bd8de797ea3d61722b3eacf",
+      "version": "domain_pool_v2",
+      "target_region": "AG",
+      "curation_status": "confirmed",
+      "proposal_runs": 5,
+      "curated_domain_ids": [
+        "social_mentalizing",
+        "narrative_coherence_integration",
+        "semantic_schema_and_anomaly_resolution",
+        "spatial_temporal_situation_tracking"
+      ]
+    },
+    "source_provider": "gemini",
+    "source_model": "gemini-3.5-flash",
+    "fixed_roi_definition": {
+      "roi_id": "AG",
+      "display_name": "angular gyrus",
+      "theoretical_role": "Semantic integration, reading, numerical cognition, and theory-of-mind support.",
+      "selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            135,
+            136,
+            137,
+            138,
+            143,
+            144
+          ]
+        }
+      ]
+    }
+  }
+}

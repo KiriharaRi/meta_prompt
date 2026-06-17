@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:07",
+    "batch_summary": "The friends start by humming together at Central Perk before the scene shifts to Monica's apartment. Monica is stressed after a phone call with her Aunt Syl, who rejects a dozen meat lasagnas Monica made as a favor. Meanwhile, in the living room, Joey quizzes Ross on baby books, leading to a gross-out moment that ruins Chandler's yogurt. Joey then playfully uses a squeaky voice to show Ross how small his unborn baby currently is, bringing a smile to Ross's face.",
+    "cumulative_summary": "The story begins at the Central Perk coffee shop, where the close-knit group of friends—Ross, Monica, Phoebe, Chandler, Joey, and Rachel—share a lighthearted moment humming along to a tune together. The scene then shifts to Monica's apartment, where she is dealing with a culinary crisis. After preparing a dozen meat lasagnas as a favor for her Aunt Syl, Monica learns her aunt wanted vegetarian ones, leaving her stuck with the food after a tense phone call. Meanwhile, the rest of the group hangs out in the living room. Joey quizzes Ross on the baby books he has been reading in preparation for fatherhood. Ross confidently boasts about his knowledge, but Joey's reading of a gross pregnancy fact quickly ruins Chandler's appetite. Despite the gross-out, the mood remains warm as Joey uses his fingers and a squeaky voice to show Ross just how small his unborn baby is, leaving Ross smiling at the thought of his future child."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:07 - 00:03:53",
+    "batch_summary": "Joey's playful finger-puppet routine turns awkward when he asks Ross sensitive questions about his ex-wife. Soon after, Rachel and Paolo arrive, excitedly planning their first weekend getaway to the Poconos. This sparks intense jealousy in Ross, who vents to Chandler and Joey about his nausea over their relationship, even jokingly contemplating calling immigration. After the group briefly distracts themselves by watching Ugly Naked Guy make shadow puppets, Joey and Chandler head out with one of Monica's lasagnas.",
+    "cumulative_summary": "The story begins at Central Perk, where the friends share a lighthearted moment humming together. At Monica's apartment, Monica faces a culinary crisis with a dozen meat lasagnas her Aunt Syl rejected. Meanwhile, Joey quizzes Ross on baby books, but the warm mood shifts when Joey's finger-puppet routine turns to awkward questions about Ross's ex-wife and her partner. The tension rises for Ross when Rachel and Paolo arrive, excitedly planning their first romantic weekend getaway to the Poconos. Deeply jealous, Ross vents to Chandler and Joey, complaining that Rachel's relationship was supposed to be a temporary fling and jokingly considering calling immigration. The group finds a brief distraction watching Ugly Naked Guy perform shadow puppets through the window. Afterward, Joey and Chandler head out into the hallway, carrying one of Monica's unwanted lasagnas."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:53 - 00:05:58",
+    "batch_summary": "Joey and Chandler's playful antics continue until Joey accidentally knocks over a table. Meanwhile, Ross visits his pregnant ex-wife, Carol, delivering one of Monica's lasagnas. After a brief, awkward misunderstanding about a photo of Carol's friend Tanya, Carol reveals that the baby is healthy and asks if Ross wants to know the baby's sex. After initially misinterpreting her question in a hilarious panic, Ross adamantly decides he wants the baby's gender to remain a surprise.",
+    "cumulative_summary": "The story begins at Central Perk, where the friends share a lighthearted moment humming together. At Monica's apartment, Monica faces a culinary crisis with a dozen meat lasagnas. Meanwhile, Joey quizzes Ross on baby books, but the warm mood shifts when Joey's finger-puppet routine turns to awkward questions about Ross's ex-wife, Carol. The tension rises for Ross when Rachel and Paolo arrive, planning a romantic getaway. Deeply jealous, Ross vents to Chandler and Joey. After a brief distraction watching Ugly Naked Guy, Joey and Chandler head out, carrying one of Monica's unwanted lasagnas. Joey's antics continue until he accidentally knocks over a table. Meanwhile, Ross visits Carol to deliver a lasagna, falsely claiming it is vegetarian. During the visit, Carol shares the wonderful news that their baby is completely healthy. After a humorous misunderstanding regarding Carol's friend Tanya and the \"sex\" of the baby, Carol asks Ross if he wants to know the baby's gender. Ross adamantly declines, choosing to keep it a surprise."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:58 - 00:07:50",
+    "batch_summary": "At Carol's apartment, Susan arrives and celebrates the baby's good health with Carol. Ross awkwardly tries to ignore their hints about the baby's gender, eventually leaving but hilariously buzzing back on the intercom to reiterate he doesn't want to know. Meanwhile, Chandler and Joey argue over who should pay for their broken table. When Chandler suggests splitting the cost of a new one, Joey humorously questions if their friendship is ready for such a commitment.",
+    "cumulative_summary": "At Monica's apartment, she deals with a surplus of meat lasagnas while Joey quizzes Ross on baby books. Tension rises when Rachel and Paolo plan a romantic getaway, sparking Ross's jealousy. Meanwhile, Joey accidentally breaks his and Chandler's table. Ross visits his pregnant ex-wife, Carol, to deliver a lasagna and learns the baby is healthy. Though Carol and her partner, Susan, know the baby's gender, Ross adamantly insists on keeping it a surprise, awkwardly leaving their apartment and even buzzing back on the intercom to reiterate his stance. Back at their apartment, Chandler and Joey bicker over who is responsible for their broken table. When Chandler suggests they split the cost of a new one, Joey humorously questions if their roommate relationship is ready for such a major step."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:50 - 00:09:49",
+    "batch_summary": "Chandler and Joey continue to bicker over roommate commitment, with Joey comparing Chandler to his former roommate, Kip. Meanwhile, Paolo visits Phoebe for a massage and unexpectedly strips completely naked, making her uncomfortable. At Central Perk, Ross is frustrated to discover that Monica knows his baby's gender and has already shared the secret with Joey, leaving Ross as the only one kept in the dark.",
+    "cumulative_summary": "At Monica's apartment, she deals with a surplus of meat lasagnas while Joey quizzes Ross on baby books. Tension rises when Rachel and Paolo plan a romantic getaway, sparking Ross's jealousy. Meanwhile, Joey accidentally breaks his and Chandler's table, leading to a humorous debate about roommate commitment and Joey's past roommate, Kip. Ross visits his pregnant ex-wife, Carol, to deliver a lasagna and learns the baby is healthy. Though Carol and her partner, Susan, know the baby's gender, Ross adamantly insists on keeping it a surprise. However, Ross is later frustrated to discover that Monica found out the gender and told Joey, leaving Ross as the only one in the dark. Meanwhile, Paolo visits Phoebe for a massage and inappropriately strips completely naked, creating an awkward situation."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:49 - 00:11:38",
+    "batch_summary": "At Central Perk, a distressed Phoebe reveals to the group that Paolo made an inappropriate move on her during a massage. She details how he grabbed her thigh and exposed himself, forcing her to professionally cover him up. Joey and Chandler cancel their plans to listen to the gossip, while Ross strongly insists that Phoebe must tell Rachel about Paolo's behavior. The group is left in shock, grappling with how to break the news to an oblivious Rachel.",
+    "cumulative_summary": "At Monica's apartment, she deals with a surplus of meat lasagnas while Joey quizzes Ross on baby books. Tension rises when Rachel and Paolo plan a romantic getaway, sparking Ross's jealousy. Meanwhile, Joey accidentally breaks his and Chandler's table, leading to a debate about roommate commitment. Ross visits his pregnant ex-wife, Carol, and learns the baby is healthy, but is frustrated to find out he is the only one kept in the dark about the baby's gender. The tension peaks when Phoebe reveals to the group that Paolo made an inappropriate move on her during a massage, grabbing her thigh and exposing himself. Joey and Chandler abandon their table-shopping plans to hear the shocking details. While Rachel remains completely oblivious to her boyfriend's betrayal, Ross adamantly insists that Phoebe must tell Rachel the truth about Paolo's behavior."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 240,
+    "timestamp_range": "00:11:38 - 00:11:41",
+    "batch_summary": "A brief narrative pause occurs as the screen fades to black, marking a tense transition in the unfolding drama. The group is left reeling from Phoebe's shocking revelation about Paolo's inappropriate behavior, which sets the stage for an inevitable and difficult confrontation. This quiet moment underscores the mounting anxiety as they prepare to break the devastating news to an oblivious Rachel.",
+    "cumulative_summary": "At Monica's apartment, Monica deals with a surplus of meat lasagnas while Joey quizzes Ross on baby books. Tension rises when Rachel and Paolo plan a romantic getaway, sparking Ross's jealousy. Meanwhile, Joey accidentally breaks his and Chandler's table, leading to a debate about roommate commitment. Ross visits his pregnant ex-wife, Carol, and learns the baby is healthy, but is frustrated to find out he is the only one kept in the dark about the baby's gender. The tension peaks when Phoebe reveals to the group that Paolo made an inappropriate move on her during a massage, grabbing her thigh and exposing himself. Joey and Chandler abandon their table-shopping plans to hear the shocking details. While Rachel remains completely oblivious to her boyfriend's betrayal, Ross adamantly insists that Phoebe must tell Rachel the truth. A brief, tense pause in the narrative leaves the group on the precipice of a major confrontation as they decide how to break the devastating news to Rachel."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:45",
+    "batch_summary": "Ross breaks the news to his shocked parents that his ex-wife and her partner, Susan, are raising his baby. Later at Central Perk, the friends humorously vent about their family dynamics, with Phoebe revealing she has an estranged identical twin sister and Chandler joking about his parents' favoritism. As the coffee shop closes, Ross stays behind to help Rachel clean up. He gently asks her if she is nervous about seeing Barry the next day, hinting at unresolved tension.",
+    "cumulative_summary": "The story begins with Ross breaking the news to his shocked parents that his ex-wife and her partner, Susan, are going to raise his baby. Later, at the Central Perk coffee shop, Ross and Monica commiserate with their friends about their difficult parents. The conversation prompts Phoebe to reveal she has an estranged identical twin sister who is a waitress, while Chandler jokes about his parents preferring his imaginary friend. As the coffee shop closes and the rest of the group leaves, Ross stays behind to help Rachel clean up. Taking over the sweeping, Ross strikes up a quiet conversation with Rachel, asking her if she is nervous about seeing Barry tomorrow. This intimate moment highlights Ross's supportive nature and sets up an upcoming conflict regarding Rachel's past relationship."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:45 - 00:03:33",
+    "batch_summary": "Rachel admits her anxiety about seeing Barry, prompting Ross to offer playful advice and comfort. They reminisce about high school and how complicated life has become, culminating in an intimate moment where Ross gently strokes Rachel's hair as she rests against him. The scene then shifts to the OBGYN clinic, where Ross arrives late to meet his pregnant ex-wife, Carol. The tension rises when Carol's partner, Susan, arrives, leading to a sarcastic exchange between Ross and Susan.",
+    "cumulative_summary": "The story begins with Ross breaking the news to his shocked parents that his ex-wife, Carol, and her partner, Susan, are going to raise his baby. Later, at Central Perk, Ross and Monica commiserate with their friends about their difficult parents, prompting Phoebe to reveal she has an estranged twin sister. After the others leave, Ross stays behind to help Rachel clean up. Rachel admits she is incredibly nervous about seeing her ex-fiancé, Barry, to return her ring. Ross offers playful advice and comfort, leading to a nostalgic conversation about how complicated life has become since high school. In a tender, intimate moment, Rachel rests her head on Ross's arm as he gently strokes her hair. The scene then shifts to the OBGYN clinic, where Ross arrives late to support Carol. The warm atmosphere quickly turns tense when Susan arrives, prompting a sarcastic greeting from Ross and highlighting the ongoing friction in their co-parenting dynamic."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:33 - 00:05:14",
+    "batch_summary": "At the OBGYN clinic, the tension between Ross and Susan remains high during an awkward handshake and a passive-aggressive drink offering. Ross's discomfort peaks when he mindlessly plays with a speculum, only to put it down in horror upon learning its function. Meanwhile, Rachel visits her ex-fiancé, Barry, at his dental practice. Their brief, polite reunion is interrupted by a patient emergency, leaving Rachel alone to awkwardly confess to Barry's young patient that she dumped him.",
+    "cumulative_summary": "After Ross breaks the news to his parents that his ex-wife, Carol, and her partner, Susan, are raising his baby, he and Monica commiserate with friends at Central Perk, where Phoebe reveals she has an estranged twin. Later, Ross comforts a nervous Rachel as she prepares to return her engagement ring to her ex-fiancé, Barry. At the OBGYN clinic, the tension between Ross and Susan escalates through awkward pleasantries and passive-aggressive exchanges, culminating in Ross's comedic horror when he realizes he is playing with a speculum. Meanwhile, Rachel faces her fears and visits Barry at his dental office. Their polite but strained reunion is cut short by a clinic emergency, leaving Rachel alone in the exam room where she awkwardly confides in a young patient that she was the one who dumped Barry."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:14 - 00:06:58",
+    "batch_summary": "At the clinic, Ross, Carol, and Susan clash over co-parenting decisions and baby names, with Ross objecting to \"Minnie\" and Susan pushing his buttons. Meanwhile, Rachel's awkward reunion with Barry takes a surprising turn when she notices his tan. She is shocked to learn that Barry went on their planned Aruba honeymoon anyway, and not alone, leaving her stunned as Barry awkwardly avoids naming his companion.",
+    "cumulative_summary": "After Ross breaks the news to his parents that his ex-wife, Carol, and her partner, Susan, are raising his baby, he and Monica commiserate with friends. Later, Ross comforts Rachel as she prepares to return her engagement ring to her ex-fiancé, Barry. At the OBGYN clinic, the tension between Ross and Susan escalates during a passive-aggressive debate over co-parenting and baby names, with Ross fighting for a say in the decision-making. Meanwhile, Rachel visits Barry at his dental office. After an awkward wait, Barry returns to the exam room. Rachel is shocked to notice his deep tan and discovers that Barry actually went on their planned honeymoon to Aruba—and he did not go alone. This revelation leaves Rachel stunned as Barry awkwardly avoids revealing the identity of his new companion."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:58 - 00:08:24",
+    "batch_summary": "Barry reveals that he went to Aruba with Rachel's maid of honor, Mindy, and that they are now dating. Rachel notices Barry's physical upgrades, including hair plugs and contact lenses, which he got for Mindy. Despite initial awkwardness, Barry thanks Rachel, admitting they weren't happy together and that he is now genuinely happy. After a humorous mishap with a young patient, Rachel returns her engagement ring to Barry, ending their encounter on a surprisingly amicable and lighthearted note.",
+    "cumulative_summary": "After Ross shares his baby news with his parents, he and Monica commiserate with friends. Meanwhile, Ross and Susan clash over co-parenting and baby names at the OBGYN clinic. Rachel, comforted by Ross, visits her ex-fiancé Barry at his dental office to return her engagement ring. She is shocked to discover Barry went on their Aruba honeymoon with her maid of honor, Mindy, and that the two are now dating. Rachel notices Barry's physical self-improvements, which he proudly admits he did for Mindy. Surprisingly, Barry thanks Rachel, confessing that they were never truly happy and that he has found real happiness with Mindy. After a lighthearted exchange, Rachel hands back the engagement ring, bringing an amicable and bittersweet closure to their relationship."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:24 - 00:10:39",
+    "batch_summary": "At the OBGYN clinic, Ross clashes bitterly with Carol and Susan over the baby's surname, feeling excluded to the point of trying to walk out. However, he is stopped in his tracks by the sound of the baby's heartbeat and the sight of the ultrasound. Transfixed, Ross, Carol, and Susan share a rare moment of awe together. Later, Ross proudly shows the ultrasound video to Joey and Chandler, who playfully joke about the blurry image.",
+    "cumulative_summary": "After Ross shares his baby news with his parents, he and Monica commiserate with friends. Meanwhile, Rachel visits her ex-fiancé Barry to return her engagement ring, finding amicable closure after learning he is now happily dating her former maid of honor, Mindy. Back at the OBGYN clinic, the tension between Ross, Carol, and Susan peaks during a heated argument over the baby's surname. Feeling marginalized, Ross threatens to walk out on the co-parenting arrangement. However, he is stopped in his tracks when the doctor starts the ultrasound. Hearing the heartbeat and seeing the image of his unborn child on the monitor, Ross is overcome with emotion, sharing a peaceful, awe-struck moment with Carol and Susan. Later, Ross proudly shares the video of the ultrasound with Chandler and Joey, who react with their signature lighthearted confusion and jokes."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 268,
+    "timestamp_range": "00:10:39 - 00:11:58",
+    "batch_summary": "Ross shares his baby's ultrasound video with Phoebe and Monica. While Phoebe jokes that the image looks like a potato, Monica gets teary-eyed at the prospect of becoming an aunt. Meanwhile, Rachel calls Mindy to offer her congratulations on dating Barry. Though she starts off politely, Rachel cannot resist taking a hilarious parting shot, wishing that their future children inherit Barry's old hairline and Mindy's old nose, which leaves her feeling vindicated and relieved.",
+    "cumulative_summary": "After Ross shares his baby news with his parents, he and Monica commiserate with friends. Meanwhile, Rachel visits her ex-fiancé Barry to return her engagement ring, finding amicable closure after learning he is now happily dating her former maid of honor, Mindy. Back at the OBGYN clinic, the tension between Ross, Carol, and Susan peaks during a heated argument over the baby's surname. Feeling marginalized, Ross threatens to walk out on the co-parenting arrangement. However, he is stopped in his tracks when the doctor starts the ultrasound. Hearing the heartbeat and seeing the image of his unborn child on the monitor, Ross is overcome with emotion, sharing a peaceful, awe-struck moment with Carol and Susan. Later, Ross proudly shares the video of the ultrasound with Chandler and Joey, who react with their signature lighthearted confusion and jokes. Ross then shows the video to Phoebe and Monica, who react with a mix of humor and tears. Finally, Rachel calls Mindy to offer her congratulations, but ends the call with a satisfyingly petty parting shot about Barry's hairline and Mindy's nose."
+  }
+]

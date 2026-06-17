@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:43",
+    "batch_summary": "Ross and Rachel share a romantic embrace in the apartment, prompting Ross to suggest a private walk. While Ross steps out to get her coat, an ecstatic Rachel notices Chandler hiding a document on his laptop that mentions her name. When a printer produces the page, Chandler and Ross quickly cover by claiming it is a short story Chandler is writing. Under pressure, Ross suggests Chandler read it aloud, and a reluctant Chandler agrees as Rachel sits down to listen.",
+    "cumulative_summary": "In an apartment living room, Ross and Rachel share a tender, romantic embrace, watched by their friends Chandler and Joey. Eager for some privacy, Ross suggests they go for a walk, and he steps out to retrieve Rachel's coat. Left alone, a giddy Rachel notices Chandler acting suspiciously and hiding his laptop screen. She spots her name on the screen just as a document begins printing. When Ross returns, Rachel demands to see the paper, but Chandler refuses. To defuse the tension, Ross quickly covers for Chandler, claiming the printout is merely a short story Chandler has been writing. Ross then pressures Chandler to read the story aloud to Rachel. Caught in the lie, Chandler reluctantly agrees to read it, while Rachel sits down in anticipation, unaware of what the document actually contains."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:43 - 00:03:14",
+    "batch_summary": "Chandler attempts to read a fake, nonsensical story to cover up the printed document, but Rachel is not fooled. Demanding the truth, she lunges and snatches the paper from him. To her shock, she finds a list criticizing her, containing phrases like \"ditzy,\" \"spoiled,\" and \"just a waitress.\" As a panicked Ross tries to flee and then desperately explain himself, the romantic mood is shattered by the hurtful revelations.",
+    "cumulative_summary": "In an apartment living room, Ross and Rachel share a romantic embrace, watched by Chandler and Joey. When Ross steps out to get Rachel's coat, Rachel notices Chandler hiding his laptop screen and printing a document with her name on it. To defuse the tension, Ross covers for Chandler by claiming it is a short story, pressuring him to read it aloud. Chandler improvises a terrible story, but Rachel quickly loses patience. Demanding to know what is actually on the paper, she lunges and snatches it from Chandler's hands. To her dismay, she discovers a list criticizing her, describing her as \"ditzy,\" \"spoiled,\" and \"just a waitress.\" A panicked Ross attempts to flee before desperately trying to justify the hurtful comments, leaving Rachel deeply hurt and the romantic atmosphere completely shattered."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:14 - 00:05:06",
+    "batch_summary": "Rachel confronts Ross over specific insults on the list, including \"chubby ankles,\" before storming out in anger. At the coffee shop, Joey accidentally reveals that the list was Chandler's idea, drawing the wrath of Monica and Phoebe. Later, a heartbroken Rachel sits alone in her apartment. Desperate to apologize, Ross climbs her fire escape in the pouring rain, but Rachel angrily refuses to let him in, telling him to go away.",
+    "cumulative_summary": "After Rachel discovers a list comparing her negatively to Julie, she confronts Ross over its hurtful insults—including \"chubby ankles\" and being called \"just a waitress\"—before storming out. At the coffee shop, the fallout continues as Joey accidentally reveals that creating the list was actually Chandler's idea, drawing furious backlash from Monica and Phoebe. Meanwhile, a heartbroken Rachel grieves alone in her apartment. Desperate to make amends, Ross climbs up her fire escape in the pouring rain, pleading with her to let him in. However, Rachel remains deeply hurt and angry, refusing to open the window and telling him to go away."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:06 - 00:07:01",
+    "batch_summary": "Outside in the rain, Ross desperately shouts his \"pro list\" for Rachel through her window, detailing everything he loves about her. After entering the apartment soaking wet, he confronts Rachel at her door. Rachel explains the profound hurt of having her deepest insecurities used as reasons not to be with her. When Ross claims he wants to be with her \"in spite of\" those flaws and argues he would never let a list stop him, Rachel coldly replies that she would never make a list in the first place, shutting the door on him.",
+    "cumulative_summary": "After Rachel discovers a list comparing her negatively to Julie, she confronts Ross over its hurtful insults before storming out. Desperate to make amends, Ross climbs her fire escape in the pouring rain. Through the wet window, he shouts his \"pro list\" of everything he loves about her, but Rachel remains unmoved. After Ross stumbles inside soaking wet, he pleads with her at her door. Rachel explains the profound pain of having the person she trusted most use her deepest insecurities as reasons not to be with her. When Ross clumsily claims he wants to be with her \"in spite of\" her flaws and argues he would never let a list get in the way, Rachel delivers a devastating final blow, stating she would never make a list in the first place, before shutting the door on him."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:01 - 00:08:48",
+    "batch_summary": "Following his rejection, a defeated Ross retreats to the living room, where his friends awkwardly try to comfort him. Meanwhile, Monica's meeting with Mr. Rastatter takes a bizarre turn when he reveals their \"mocklet\" product failed FDA approval due to safety concerns with lab rats. Later, Ross calls Monica's apartment. Rachel remains bitter and sarcastic, refusing to speak to him, but Ross asks Monica for a mysterious favor, which she agrees to write down.",
+    "cumulative_summary": "After Rachel shuts the door on Ross, rejecting his clumsy attempts to apologize for his hurtful list, he retreats to the living room in defeat while his friends awkwardly try to navigate the tense silence. Meanwhile, Monica's culinary venture takes a hit when Mr. Rastatter reveals that her \"mocklet\" recipes cannot go forward because the product failed FDA testing due to issues with laboratory rats. Back at the apartment, Rachel remains deeply hurt and sarcastically refuses to speak to Ross when he calls. Undeterred, Ross asks Monica for a favor over the phone, which she agrees to write down, hinting at his continued efforts to make amends despite Rachel's lingering resentment."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:48 - 00:10:55",
+    "batch_summary": "Ross attempts to apologize to Rachel by dedicating a song to her on the radio. However, a hurt Rachel calls the station to explain his actions, prompting the DJ to cut the song short and publicly shame Ross. Both are left staring out their rainy windows in mutual heartbreak. Later, Monica meets with Mr. Rastatter, who offers her a new culinary project involving pistachios after the Mockolate disaster.",
+    "cumulative_summary": "After Rachel rejects Ross's clumsy apologies for his hurtful list, Ross attempts a grand gesture by dedicating a song to her on the radio. Monica tunes in to hear the DJ play the dedication, but a deeply hurt Rachel retaliates by calling the station to explain Ross's misdeeds. The DJ abruptly cuts the song, publicly shaming Ross and leaving both of them staring out their rainy windows in mutual heartbreak. Meanwhile, Monica's culinary career gets a quick rebound. Following the FDA failure of Mockolate, Mr. Rastatter meets with Monica again to offer her a new recipe-development project, this time using real pistachios, which she eagerly accepts for the cash."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 249,
+    "timestamp_range": "00:10:55 - 00:11:20",
+    "batch_summary": "Monica's excitement about her new recipe-development project quickly sours during her meeting with Mr. Rastatter. He reveals that the \"pistachios\" are actually made of reconstituted fish bits. Just as Monica is about to taste one, Mr. Rastatter asks if she has any allergies. When she mentions cat hair, his apologetic reaction causes her to freeze in horror, realizing the bizarre and unappetizing ingredients she is dealing with once again.",
+    "cumulative_summary": "After Rachel rejects Ross's clumsy apologies for his hurtful list, Ross attempts a grand gesture by dedicating a song to her on the radio. However, a deeply hurt Rachel retaliates by calling the station to explain Ross's misdeeds, resulting in the DJ publicly shaming Ross and leaving both of them heartbroken. Meanwhile, Monica's culinary career takes another bizarre turn. Following the FDA failure of Mockolate, Mr. Rastatter offers her a new recipe-development project supposedly involving pistachios. However, Monica quickly discovers that these \"pistachios\" are actually made of reconstituted fish bits. Just as she is about to taste one, Mr. Rastatter asks about her allergies. When Monica mentions she is allergic to cat hair, his ominous apology causes her to freeze in disgust, realizing this new product is just as unappealing and questionable as Mockolate."
+  }
+]

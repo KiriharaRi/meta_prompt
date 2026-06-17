@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:39",
+    "batch_summary": "Rachel confronts Monica after discovering she went shopping at Bloomingdale's with another woman. Feeling betrayed, Rachel demands space, leaving Monica guilt-ridden and desperately trying to call her at work to apologize. Meanwhile, Carol and Susan return to the apartment, sparking a humorous debate when Carol reveals she tasted her breast milk, causing Ross to freak out and awkwardly defend his disgust to the group.",
+    "cumulative_summary": "In a tense confrontation, Rachel discovers that Monica went shopping at Bloomingdale's with another woman, viewing it as a major betrayal of their friendship. Despite Monica's defensive excuses, Rachel is deeply hurt and declares she needs space from her. A remorseful Monica later attempts to call Rachel at work to apologize, admitting she did a horrible thing. Meanwhile, the rest of the friend group gathers as Carol and Susan return with baby Ben. The atmosphere lightens but turns awkward when Carol mentions she tasted her own breast milk, which caused Ross to freak out. Ross tries to defend his reaction by arguing that breast milk is not meant for adults, leading to a humorous and uncomfortable discussion among Chandler, Joey, Phoebe, Susan, and Carol."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:39 - 00:03:29",
+    "batch_summary": "The debate over breast milk escalates when Joey admits he tasted it, describing it as sweet like cantaloupe juice. Shocked by this revelation, Ross reluctantly agrees to try it himself, dramatically demanding the bottle and a towel. Later, Joey returns home dressed in a flashy white cowboy outfit. He explains to a mocking Chandler that he has been assigned to promote the \"Hombre\" cologne, setting up a rivalry with another salesman.",
+    "cumulative_summary": "After Rachel discovers Monica's shopping \"betrayal\" at Bloomingdale's, she demands space, leaving Monica remorseful. Meanwhile, the rest of the group gathers with baby Ben, where a debate erupts over Carol tasting her own breast milk. The discussion intensifies when Joey admits he tasted it too, comparing the flavor to cantaloupe juice. Shocked by this revelation and feeling pressured, Ross dramatically prepares to taste it himself, demanding a bottle and a towel. Later, Joey returns to his apartment dressed in a flashy white cowboy outfit. He explains to a mocking Chandler that he has been reassigned to promote the \"Hombre\" cologne, setting up a fierce sales rivalry with a successful coworker."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:29 - 00:05:26",
+    "batch_summary": "Chandler gives Joey a dramatic pep talk, convincing him not to quit his cologne-selling job for a cheese-slicing gig and to stand his ground against his rival. Meanwhile, Monica tries to apologize to Rachel, who tearfully admits she feels Julie is stealing both Ross and Monica from her. Reassured by Monica that their friendship is irreplaceable, the two share an emotional hug, which Phoebe warmly joins.",
+    "cumulative_summary": "After Rachel discovers Monica's shopping \"betrayal\" with Julie, she demands space. Meanwhile, a debate erupts among the group over tasting Carol's breast milk, leading to Ross reluctantly preparing to taste it himself. Joey, facing a fierce sales rivalry at his \"Hombre\" cologne job, contemplates quitting for a simpler role in housewares. However, Chandler delivers a dramatic pep talk, inspiring Joey to stand his ground. Later, Monica tries to apologize to Rachel outside Central Perk. Rachel tearfully confesses her deep insecurity, feeling that Julie has not only taken Ross but is now stealing Monica too. Reassured by Monica that their bond is unbreakable, the two share a heartfelt, tearful reconciliation hug, which Phoebe eagerly joins."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:26 - 00:07:30",
+    "batch_summary": "Following their emotional reconciliation, Monica gently asks Rachel to give Julie a chance, explaining that Julie did nothing wrong. Out of love for Monica, Rachel reluctantly agrees. Meanwhile, at the department store, Joey, dressed in a white cowboy outfit, prepares for a dramatic, Western-style showdown against his rival, the \"Hombre Man\" in black. As the doors open and the first customer enters, both men stand ready to draw their cologne bottles in a fierce sales battle.",
+    "cumulative_summary": "After Rachel discovers Monica's shopping \"betrayal\" with Julie, she demands space. Meanwhile, a debate erupts among the group over tasting Carol's breast milk, leading to Ross reluctantly preparing to taste it himself. Joey, facing a fierce sales rivalry at his \"Hombre\" cologne job, contemplates quitting, but Chandler delivers a dramatic pep talk that inspires him to stand his ground. Later, Monica apologizes to Rachel outside Central Perk. Rachel tearfully confesses her deep insecurity about Julie stealing both Ross and Monica, leading to a heartfelt reconciliation. Monica then gently asks Rachel to give Julie a chance, and Rachel reluctantly agrees for Monica's sake. Back at the department store, Joey, dressed as a white cowboy, faces off against his rival, the \"Hombre Man\" in black. As the store doors open, the two engage in a dramatic, Western-style showdown, poised to draw their cologne bottles on the first customer."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:30 - 00:09:03",
+    "batch_summary": "During the department store showdown, the \"Hombre Man\" accidentally sprays a customer in the eyes, leading to his dismissal. Joey seizes the opportunity to charm a blonde coworker and walks off with her for coffee. Meanwhile, Rachel takes Monica's advice and hangs out with Julie at Central Perk. During their awkward chat, Julie surprisingly confesses that she is intimidated by Rachel, knowing how much Ross cares about her, and admits she feels Rachel doesn't like her.",
+    "cumulative_summary": "After Rachel discovers Monica's shopping \"betrayal\" with Julie, she demands space. Meanwhile, a debate erupts among the group over tasting Carol's breast milk, leading to Ross reluctantly preparing to taste it himself. Joey, facing a fierce sales rivalry at his \"Hombre\" cologne job, contemplates quitting, but Chandler's dramatic pep talk inspires him to stand his ground. Later, Monica apologizes to Rachel, who tearfully confesses her insecurity about Julie stealing her friends. After they reconcile, Rachel reluctantly agrees to give Julie a chance. Back at the department store, Joey's showdown with his rival ends abruptly when the \"Hombre Man\" accidentally sprays a customer in the eyes and is dismissed, leaving Joey victorious and walking off with a charming coworker. Meanwhile, Rachel sits down with Julie at Central Perk. To Rachel's surprise, Julie confesses that she is deeply intimidated by Rachel because of Ross's history and admits she feels Rachel dislikes her, opening the door for a vulnerable conversation."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:03 - 00:10:56",
+    "batch_summary": "Rachel has a vulnerable conversation with Julie at Central Perk, admitting her initial hostility was due to her feelings about Ross. She acknowledges Julie's kindness and agrees to go to a movie with her. However, once Julie leaves, Rachel's lingering jealousy resurfaces as she mutters a bitter remark. Meanwhile, back at the apartment, Ross finally takes the plunge and tastes Carol's breast milk from a baby bottle under the watchful eyes of Chandler and Joey, reacting with wide-eyed surprise.",
+    "cumulative_summary": "After Rachel discovers Monica's shopping \"betrayal\" with Julie, she demands space. Meanwhile, a debate erupts among the group over tasting Carol's breast milk. Joey, facing a fierce sales rivalry at his \"Hombre\" cologne job, emerges victorious after his rival is dismissed. Monica apologizes to Rachel, who tearfully confesses her insecurity about Julie stealing her friends. Rachel reluctantly agrees to give Julie a chance, leading to a sit-down at Central Perk. Julie confesses she is intimidated by Rachel, prompting Rachel to admit her own jealousy. Although Rachel graciously agrees to a future movie date, she mutters a bitter remark once Julie leaves, revealing her lingering resentment. Meanwhile, back at the apartment, Ross finally faces his reluctance and tastes Carol's breast milk directly from a baby bottle, leaving him wide-eyed in surprise."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 244,
+    "timestamp_range": "00:10:56 - 00:11:10",
+    "batch_summary": "Immediately after tasting Carol's breast milk, Ross discusses the experience with Joey. Intrigued by Ross's reaction, Joey points at the bottle and asks about it. As Ross explains, Joey's curiosity gets the better of him, and he reaches for the bottle to try it himself just before the scene fades to black.",
+    "cumulative_summary": "After Rachel discovers Monica's shopping \"betrayal\" with Julie, she demands space. Meanwhile, a debate erupts among the group over tasting Carol's breast milk. Joey, facing a fierce sales rivalry at his \"Hombre\" cologne job, emerges victorious. Monica apologizes to Rachel, who tearfully confesses her insecurity about Julie stealing her friends. Rachel reluctantly agrees to give Julie a chance, leading to a sit-down at Central Perk. Although Rachel graciously agrees to a future movie date, she mutters a bitter remark once Julie leaves, revealing her lingering resentment. Back at the apartment, Ross finally faces his reluctance and tastes Carol's breast milk directly from a baby bottle. Surprised by the taste, Ross discusses it with Joey. Intrigued by Ross's reaction, Joey's curiosity gets the better of him, and he reaches for the bottle to try it himself just before the scene fades to black."
+  }
+]

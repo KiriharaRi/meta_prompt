@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:29",
+    "batch_summary": "In Monica's apartment, Monica tries to bond with her baby nephew, Ben, but he bursts into tears whenever she holds him. Ross and Chandler successfully soothe the baby just by holding him, but the moment Ben is handed back to Monica, he starts crying again. This repetitive rejection leaves Monica feeling distressed and insecure, leading her to lament that she is both unemployed and hated by her nephew, while Joey finds the situation amusing and Ross offers a clumsy attempt at comfort.",
+    "cumulative_summary": "In Monica's apartment, a lighthearted yet stressful situation unfolds when Monica tries to bond with her baby nephew, Ben. Every time Monica holds the baby, he bursts into loud crying. Ross attempts to soothe Ben with jingling keys, which prompts a sarcastic remark from Joey, but the crying only stops when Ross takes the baby into his own arms. To test if the baby specifically dislikes Monica, Chandler takes a turn holding Ben, and the baby instantly quiets down, only to scream again the moment he is returned to Monica. This comical but disheartening cycle leaves Monica feeling deeply insecure, leading her to dramatically declare that she is unemployed and her nephew hates her. While Joey finds the situation amusing, Ross tries to reassure her in his own awkward way."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:29 - 00:03:06",
+    "batch_summary": "After Chandler clumsily tries to comfort Monica about her future parenting worries by pointing out she doesn't have a boyfriend, the group gathers for pie. Ross suddenly has an allergic reaction to the kiwi in Monica's pie. As his tongue begins to swell and his speech slurs, Monica insists they go to the hospital for a shot. Terrified of needles, Ross immediately tries to downplay his symptoms to avoid going.",
+    "cumulative_summary": "In Monica's apartment, a lighthearted yet stressful situation unfolds when Monica tries to bond with her baby nephew, Ben. Every time Monica holds the baby, he bursts into loud crying, though he instantly quiets down for Ross and Chandler, leaving Monica deeply insecure. Chandler clumsily tries to comfort her by pointing out she doesn't even have a boyfriend yet. Later, the group gathers for pie, but panic ensues when Ross begins having an allergic reaction. Monica reveals the dessert contains kiwi, a fruit Ross is highly allergic to. As his tongue swells and his speech slurs, Monica insists they go to the hospital for a shot. Terrified of needles, Ross immediately tries to downplay his symptoms to avoid going, shifting the apartment's tension from baby troubles to a medical emergency."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:06 - 00:04:47",
+    "batch_summary": "Monica forces a reluctant Ross to go to the hospital for his allergic reaction. Since they cannot bring baby Ben, Joey and Chandler volunteer to babysit. Despite Ross's heavily slurred instructions, Joey understands him perfectly, drawing on his experience with a large family. After Ross and Monica leave, the scene shifts to Central Perk, where Phoebe performs a quirky new song for Rachel before Rachel is called over by her boss, Terry.",
+    "cumulative_summary": "In Monica's apartment, Monica's attempts to bond with baby Ben fail as he cries in her arms but quiets for Ross and Chandler. The lighthearted tension escalates when Ross suffers a severe allergic reaction to Monica's kiwi pie. As his tongue swells, Monica forces a reluctant, needle-phobic Ross to head to the hospital. To resolve the issue of who will watch baby Ben, Joey and Chandler volunteer to babysit. Despite Ross's heavily slurred, barely intelligible instructions, Joey understands him perfectly and reassures him of his caretaking skills. Once Ross and Monica depart for the clinic, the scene shifts to Central Perk. There, Phoebe plays a quirky, newly written shower song for Rachel, but their lighthearted moment is interrupted when Rachel's boss, Terry, calls her over for an unexpected meeting."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:47 - 00:06:30",
+    "batch_summary": "At Central Perk, Rachel's boss, Terry, decides to hire a professional musician to replace Phoebe, whose singing he detests, forcing a reluctant Rachel to deliver the bad news. Meanwhile, Joey and Chandler take baby Ben for a walk on the city streets. Joey explains his theory that babies are chick magnets. When an attractive woman approaches, the two bicker over who gets to hold Ben, leading to an awkward but successful introduction where Joey bizarrely offers to let her smell the baby.",
+    "cumulative_summary": "In Monica's apartment, Monica's attempts to bond with baby Ben fail, but Joey and Chandler successfully volunteer to babysit after Ross suffers a severe allergic reaction to Monica's kiwi pie and must go to the hospital. Meanwhile, at Central Perk, Rachel's boss, Terry, informs Rachel that he is hiring a professional musician to replace Phoebe, whose quirky songs he cannot stand. A reluctant Rachel is left with the difficult task of breaking the news to her friend. On the city streets, Joey and Chandler test Joey's theory that babies are 'chick magnets' while walking Ben. Their plan goes into action when an attractive woman approaches, prompting the two to bicker over who gets to hold the baby. Joey tries to charm her with an awkward offer to let her smell the baby, setting off a humorous encounter."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:30 - 00:08:30",
+    "batch_summary": "Joey and Chandler's attempt to use baby Ben as a \"chick magnet\" backfires humorously when an attractive woman mistakes them for a gay couple. Meanwhile, at Central Perk, Rachel breaks the news to Phoebe about her replacement. To fix things, Rachel bargains with her boss, Terry, offering to clean the cappuccino machine so Phoebe can play for free after the professional. However, when Rachel shares the news, Phoebe is disappointed to learn she still won't be paid.",
+    "cumulative_summary": "In Monica's apartment, Joey and Chandler volunteer to babysit baby Ben after Ross has an allergic reaction to Monica's kiwi pie and goes to the hospital. On the city streets, Joey and Chandler test Joey's theory that babies are \"chick magnets.\" Their plan backfires humorously when an attractive woman mistakes them for a gay couple who adopted Ben, leaving them speechless. Meanwhile, at Central Perk, Rachel's boss, Terry, hires a professional musician to replace Phoebe. After reluctantly breaking the news to a devastated Phoebe, Rachel tries to fix the situation. She bargains with Terry, promising to clean the cappuccino machine if he lets Phoebe play for free after the professional's set. Terry agrees, but when Rachel excitedly tells Phoebe she can still perform, Phoebe is disappointed to learn that, unlike the professional, she will not be paid for her gig."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:30 - 00:10:07",
+    "batch_summary": "Offended by the unpaid gig offer, Phoebe proudly refuses to be a \"charity band\" and leaves Central Perk to busk on the street instead. Meanwhile, at the hospital, Ross's severe needle phobia is revealed as he desperately tries to negotiate an oral treatment for his allergic reaction. Despite his pleas, the doctor insists on an immediate injection. Monica steps in to comfort her terrified brother, offering her hand for support as Ross reluctantly prepares to face his fear.",
+    "cumulative_summary": "In Monica's apartment, Joey and Chandler volunteer to babysit baby Ben after Ross has an allergic reaction to Monica's kiwi pie and goes to the hospital. While Joey and Chandler's attempt to use Ben as a \"chick magnet\" humorously backfires on the streets, Rachel tries to help Phoebe after she is replaced by a professional musician at Central Perk. However, when Phoebe learns Rachel negotiated an unpaid slot for her, she proudly refuses to be a \"charity band\" and takes her music to the sidewalk to busk instead. Meanwhile, at the hospital, Ross's severe needle phobia is revealed as he desperately tries to negotiate an oral treatment. Despite his pleas, the doctor insists on an immediate injection, forcing Monica to comfort her terrified brother as he prepares to face his fear."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:10:07 - 00:11:55",
+    "batch_summary": "At the hospital, a terrified Ross gets his injection, squeezing Monica's hand so hard she screams in pain. Meanwhile, Joey and Chandler successfully use baby Ben to flirt with two women on a bus. However, their plan hilariously backfires when they get off the bus to grab a drink with the women, only to realize they left Ben behind. Panic-stricken, the duo chases the departing bus down the street in a desperate attempt to retrieve the baby.",
+    "cumulative_summary": "After Ross suffers an allergic reaction to Monica's kiwi pie, he is rushed to the hospital, leaving Joey and Chandler to babysit baby Ben. At the hospital, Ross's severe needle phobia peaks, and he painfully squeezes Monica's hand as he finally receives his injection. Meanwhile, Rachel tries to help Phoebe after she is replaced at Central Perk, but Phoebe proudly chooses to busk on the sidewalk instead of accepting an unpaid charity slot. On the streets, Joey and Chandler's babysitting adventure takes a disastrous turn. After successfully using Ben to flirt with two women on a bus, the distracted duo steps off the bus to grab a drink, completely forgetting the baby. Realizing Ben is still on board, they frantically chase the departing bus down the busy city streets."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 292,
+    "timestamp_range": "00:11:55 - 00:12:24",
+    "batch_summary": "At the hospital, the doctor reveals that Monica's hand is not broken but severely bruised, featuring a puncture wound from Ross's ring when he squeezed her hand. A remorseful Monica repeatedly apologizes to her brother. Meanwhile, Ross's allergic reaction has fully subsided, and he happily celebrates regaining his normal speech as his swollen tongue heals.",
+    "cumulative_summary": "After Ross suffers an allergic reaction to Monica's kiwi pie, he is rushed to the hospital, leaving Joey and Chandler to babysit baby Ben. At the hospital, Ross's severe needle phobia peaks, and he painfully squeezes Monica's hand during his injection. Meanwhile, Rachel tries to help Phoebe after she is replaced at Central Perk, but Phoebe proudly chooses to busk on the sidewalk instead. On the streets, Joey and Chandler's babysitting adventure takes a disastrous turn when they accidentally leave baby Ben on a bus while flirting, forcing them to frantically chase it down. Back at the hospital, the doctor examines Monica's hand, revealing it is not broken but severely bruised with a puncture wound from Ross's ring. As Monica apologizes, Ross joyfully celebrates that his allergic reaction has cleared up and his normal speech has finally returned."
+  }
+]

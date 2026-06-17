@@ -1,0 +1,34 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:40",
+    "batch_summary": "In a coffee shop, Phoebe meets with an elderly man, Mr. Adelman, believing his deceased wife's spirit has possessed her. When she asks about any unfinished business his wife might have had, Mr. Adelman explains she wanted to \"see everything\" before dying, and humorously suggests she also wanted to sleep with him one last time. After Phoebe politely deflects, the scene transitions to an apartment where Rachel and her mother, Sandra, are looking at old photographs together.",
+    "cumulative_summary": "In a coffee shop, Phoebe, Rachel, Monica, Chandler, and Joey are hanging out when Phoebe meets with an elderly man named Mr. Adelman. Phoebe reveals her belief that Mr. Adelman's recently deceased wife's spirit has possessed her and is looking for closure. When Phoebe inquires about any unfinished business the late wife might have left behind, Mr. Adelman explains that she wanted to \"see everything\" before she died. He also humorously attempts to convince Phoebe that his wife wanted to sleep with him one last time, which Phoebe politely deflects. Later, the scene transitions to an apartment living room, where Rachel and her mother, Sandra, share a warm moment looking through old photographs together."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:40 - 00:03:08",
+    "batch_summary": "Rachel and her mother, Sandra, reminisce over old photos before Monica, overwhelmed by kitchen prep, reluctantly asks them for help. Phoebe arrives, exhausted from taking the spirit of Mr. Adelman's late wife to major New York tourist spots, as the spirit still hasn't \"seen everything.\" Meanwhile, Sandra thoroughly enjoys the \"girls' night\" atmosphere and unexpectedly asks the group if anyone has any marijuana.",
+    "cumulative_summary": "In a coffee shop, Phoebe, Rachel, Monica, Chandler, and Joey hang out when Phoebe meets with Mr. Adelman. Phoebe believes his recently deceased wife's spirit has possessed her to find closure. After learning the late wife wanted to \"see everything\" before dying, Phoebe takes the spirit on a whirlwind tour of New York City landmarks, including the Statue of Liberty and the Museum of Modern Art. Meanwhile, at the apartment, Rachel and her mother, Sandra, bond over old photographs, laughing about past Halloweens. Monica, busy in the kitchen, realizes she is overwhelmed with food preparation and reluctantly asks Rachel and Sandra for help. As the women gather to assist, Phoebe returns, exhausted from her spiritual tour. Sandra, thoroughly enjoying the lively \"girls' night\" atmosphere, surprises everyone by asking if anyone has any marijuana."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:08 - 00:04:49",
+    "batch_summary": "Sandra shocks Rachel by asking about marijuana and sex, eventually confessing that she wants more out of life because she married her \"Barry\" (her own unexciting fiancé), unlike Rachel who escaped. This emotional revelation leaves Rachel stunned. Meanwhile, Monica's catering stress reaches a boiling point. She acts like a drill sergeant, barking orders at Chandler, Joey, and Phoebe to speed up their food preparation as their tight deadline looms.",
+    "cumulative_summary": "In a coffee shop, Phoebe, Rachel, Monica, Chandler, and Joey hang out when Phoebe meets with Mr. Adelman. Believing his late wife's spirit has possessed her, Phoebe takes her on a whirlwind tour of New York City. Meanwhile, at the apartment, Rachel and her mother, Sandra, bond over old photos. When Monica gets overwhelmed with food prep, she asks them for help. Sandra surprises everyone by asking for marijuana and then asking about sex. Sandra reveals she wants to leave Rachel's father because she married her \"Barry,\" unlike Rachel who ran away from hers, leaving Rachel stunned by the realization. Back in the kitchen, Monica's stress reaches a fever pitch. She hilariously acts like a drill sergeant, barking orders at Chandler, Joey, and Phoebe to speed up their food prep as their deadline looms."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 126,
+    "timestamp_range": "00:04:49 - 00:05:15",
+    "batch_summary": "Monica's intense kitchen management continues as she targets Ross, who desperately tries to avoid helping. Using a hilarious threat to turn hot dogs into an appetizer called \"Pigs and Ross,\" Monica successfully coerces him into joining the food prep. Ross is assigned to ball melons, sparking jealousy in Chandler, who is stuck dicing. The frantic cooking session is interrupted by a knock at the door.",
+    "cumulative_summary": "In a coffee shop, Phoebe, Rachel, Monica, Chandler, and Joey hang out when Phoebe meets with Mr. Adelman. Believing his late wife's spirit has possessed her, Phoebe takes her on a whirlwind tour of New York City. Meanwhile, at the apartment, Rachel and her mother, Sandra, bond over old photos. When Monica gets overwhelmed with food prep, she asks them for help. Sandra surprises everyone by asking for marijuana and then asking about sex. Sandra reveals she wants to leave Rachel's father because she married her \"Barry,\" unlike Rachel who ran away from hers, leaving Rachel stunned by the realization. Back in the kitchen, Monica's stress reaches a fever pitch. She hilariously acts like a drill sergeant, barking orders at Chandler, Joey, and Phoebe to speed up their food prep as their deadline looms. Monica then targets Ross, coercing him into helping with a bizarre threat involving hot dogs. Ross reluctantly joins the effort to ball melons, prompting jealousy from Chandler, before a knock at the door interrupts the chaotic kitchen scene."
+  }
+]

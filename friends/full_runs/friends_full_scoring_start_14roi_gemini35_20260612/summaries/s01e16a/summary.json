@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:45",
+    "batch_summary": "Chandler and Joey are surprised to find a waitress who looks exactly like Phoebe working at a restaurant. Meanwhile, at the coffee shop, Ross complains to Rachel, Monica, and Phoebe about his pet monkey's increasingly chaotic and destructive behavior. Outside, Chandler tries to convince Joey that the waitress is Phoebe's identical twin, Ursula, but Joey is distracted by how \"hot\" Ursula is, prompting a sarcastic response from Chandler as they head inside to join the group.",
+    "cumulative_summary": "In a dimly lit restaurant, Chandler and Joey are shocked to be served by a waitress who looks identical to their friend Phoebe. They soon discover she is Phoebe's twin sister, Ursula, who casually explains she works there for the cute aprons. Later, the scene shifts to the local coffee shop, where Ross vents to Monica, Rachel, and Phoebe about his pet monkey's increasingly chaotic behavior, which includes erasing phone messages and making a mess with capers. Outside the coffee shop, Chandler and Joey discuss the striking resemblance between the twin sisters. While Chandler focuses on them being identical, Joey is quickly smitten, declaring Ursula to be \"hot.\" Annoyed by Joey's superficial reaction, Chandler sarcastically suggests they stop sharing their thoughts with each other before they walk inside to join the rest of the group."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:45 - 00:03:27",
+    "batch_summary": "Chandler and Joey return to the coffee shop and reveal they saw Phoebe's twin sister, Ursula. Phoebe reacts with sibling rivalry, asking if Ursula is fat and explaining how Ursula was always the favored, prettier twin. Meanwhile, Ross prepares to leave for a Lamaze class with Carol and Susan. Despite claiming he is comfortable with their unconventional parenting dynamic, Ross's anxiety is evident when he accidentally tries to wear Monica's jacket before heading out to the class.",
+    "cumulative_summary": "In a restaurant, Chandler and Joey are shocked to discover their waitress is Phoebe's identical twin sister, Ursula. Back at the coffee shop, Ross vents about his chaotic pet monkey, Marcel, while Chandler and Joey discuss Ursula, with Joey quickly becoming smitten. When they join the group inside, they reveal they ran into Ursula. Phoebe reacts with clear sibling resentment, asking if Ursula is fat and venting about how Ursula was always considered the prettier, more accomplished twin. Meanwhile, Ross prepares to leave for a Lamaze class with his pregnant ex-wife Carol and her partner Susan. Although Ross insists he is completely comfortable with their unconventional parenting trio, his underlying anxiety is hilariously exposed when he accidentally tries to leave wearing Monica's jacket. He quickly corrects his mistake and heads off to the class."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:27 - 00:05:03",
+    "batch_summary": "At the Lamaze class, Ross's anxiety peaks as he awkwardly struggles to explain the unconventional dynamic between himself, his pregnant ex-wife Carol, and her partner Susan to the instructor. Meanwhile, at his office, Chandler panics before a meeting with employee Nina Bookbinder. Attempting to look professional and cool, he confronts her about postdating her Friday numbers, nervously explaining that it throws his 'WENUS' data out of whack.",
+    "cumulative_summary": "After discovering Phoebe's identical twin sister, Ursula, at a restaurant, Joey becomes smitten, much to Phoebe's sibling resentment. Meanwhile, Ross's underlying anxiety about his unconventional parenting dynamic with his pregnant ex-wife, Carol, and her partner, Susan, is fully exposed during their first Lamaze class. Ross awkwardly stumbles through their introductions, struggling to define Susan's role before Carol and Susan clarify their relationship to the confused instructor. Later, at his office, Chandler panics before a meeting with employee Nina Bookbinder. Attempting to appear cool and professional, he confronts her about postdating her Friday numbers, nervously explaining that the error throws his 'WENUS' data completely out of whack."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:03 - 00:06:48",
+    "batch_summary": "Chandler's awkward meeting with Nina turns flirtatious, leaving him smitten despite Ross and Rachel warning him against workplace romance. Back at the apartment, Ross's monkey, Marcel, causes chaos by switching the television audio to Spanish. Meanwhile, Monica and Rachel bicker over forgotten chores when Chandler points out their Christmas lights are still up. Finally, Joey returns with exciting news, revealing he went back to the restaurant and believes Phoebe's twin sister, Ursula, likes him.",
+    "cumulative_summary": "After discovering Phoebe's identical twin sister, Ursula, Joey becomes smitten, much to Phoebe's resentment. Meanwhile, Ross's anxiety over his unconventional parenting dynamic with his pregnant ex-wife, Carol, and her partner, Susan, is exposed during an awkward Lamaze class. At work, Chandler's nervous confrontation with employee Nina Bookbinder over \"WENUS\" data turns flirtatious, leaving him infatuated despite his friends warning him against workplace romance. Back at the apartment, domestic chaos ensues when Ross's monkey, Marcel, accidentally switches the television audio to Spanish, and Monica and Rachel bicker over uncompleted chores. The focus shifts back to Joey when he returns from the restaurant, happily announcing that he thinks Ursula likes him."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:48 - 00:08:30",
+    "batch_summary": "Joey seeks Phoebe's permission to ask her twin sister, Ursula, out on a date. Though visibly hesitant and noting they have grown apart, Phoebe reluctantly gives her blessing. Meanwhile, the friends continue to deal with the Spanish-audio TV. Later, Ross arrives late to his Lamaze class only to find Carol is stuck at school, leaving him to awkwardly attend the session alone with Susan, though he insists on staying for the baby's sake.",
+    "cumulative_summary": "After discovering Phoebe's identical twin sister, Ursula, Joey becomes smitten. Encouraged by Chandler, Joey asks Phoebe for permission to ask Ursula out. Though visibly uncomfortable and noting they have grown apart, Phoebe reluctantly gives her blessing. Meanwhile, the friends continue to deal with their television's Spanish audio, a byproduct of Ross's monkey, Marcel, playing with the remote. At work, Chandler's confrontation with employee Nina Bookbinder over \"WENUS\" data turns flirtatious, leaving him infatuated despite warnings against workplace romance. Finally, Ross arrives late to his Lamaze class only to find his pregnant ex-wife, Carol, is stuck at school. Despite the lingering awkwardness and tension between them, Ross insists on staying to complete the class alongside Carol's partner, Susan, so they can both be prepared for the baby's arrival."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:30 - 00:10:21",
+    "batch_summary": "At the Lamaze class, Ross and Susan bicker over who gets to practice coaching. Susan wins a coin toss, forcing a reluctant Ross to play the role of the pregnant mother on the floor, which leads to an awkward breathing exercise. Meanwhile, at work, Chandler's boss, Mr. Douglas, delivers bad news about company-wide layoffs due to poor \"ANUS\" statistics. Although Chandler's own job is safe, his boss tasks him with firing someone else, presenting a difficult new challenge for him.",
+    "cumulative_summary": "After discovering Phoebe's identical twin sister, Ursula, Joey gets her reluctant blessing to ask Ursula out. Meanwhile, the friends deal with their television's Spanish audio, a byproduct of Ross's monkey, Marcel, playing with the remote. At work, Chandler's flirtation with employee Nina Bookbinder leaves him infatuated despite warnings against workplace romance. However, Chandler's professional life takes a stressful turn when his boss, Mr. Douglas, announces company-wide layoffs and tasks Chandler with firing someone. Meanwhile, Ross arrives late to his Lamaze class only to find his pregnant ex-wife, Carol, is stuck at school. Left alone with Carol's partner, Susan, Ross tries to maintain a truce, but the two quickly end up bickering over who gets to practice coaching. After losing a coin toss, Ross is forced to play the role of the pregnant mother on the floor, resulting in a hilariously awkward breathing exercise for the competitive pair."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 278,
+    "timestamp_range": "00:10:21 - 00:11:59",
+    "batch_summary": "Chandler's attempt to fire Nina goes awry when his nerves get the better of him, leading him to ask her out on a dinner date instead, which she happily accepts. Meanwhile, Rachel asks Phoebe what she wants for her birthday, leading to a bittersweet moment before they settle on bath salts. Later, two customers, Jamie and Fran, enter Central Perk and mistake Phoebe for her identical twin sister, Ursula, wondering why she is there instead of working her usual job at Riff's.",
+    "cumulative_summary": "After Joey gets Phoebe's blessing to ask her twin sister Ursula out, the friends deal with a Spanish-audio TV crisis caused by Ross's monkey, Marcel. Meanwhile, Ross and Susan awkwardly bond during a Lamaze class exercise. At work, Chandler faces the daunting task of firing his crush, Nina Bookbinder, due to company layoffs. However, his nerves get the better of him, and instead of letting her go, he ends up asking her out on a date, which she happily accepts. Later, Rachel tries to find the perfect birthday gift for Phoebe, resulting in a bittersweet conversation. The confusion surrounding Phoebe's twin sister deepens when two newcomers, Jamie and Fran, enter Central Perk and mistake Phoebe for Ursula, wondering why their usual waitress from Riff's is hanging out at the coffee shop."
+  }
+]

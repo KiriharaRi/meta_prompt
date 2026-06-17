@@ -1,0 +1,625 @@
+{
+  "version": "region_schema_v1",
+  "target_region": "OFC",
+  "functional_hypothesis": "The Orbitofrontal Cortex (OFC) is a key hub for representing subjective value, expectation, and social context. Medial subregions (such as A14m, A11m, and A13) are heavily involved in tracking the subjective value of outcomes, hedonic experiences, and reward expectations. Lateral subregions (such as A12/47l and A12/47o) are critical for social cognition, evaluating social norm violations, and assessing risk or uncertainty. By annotating movie descriptions along these dimensions—specifically tracking value/outcome appraisal, social norm violations, hedonic/affective valuation, and risk/uncertainty—we can model the dynamic activation of OFC subregions as viewers process narrative events.",
+  "scoring_instruction": "Score each dimension on a scale from 0 to 10 based on the text description of the movie scene. A score of 0 indicates that the dimension is completely absent or irrelevant to the scene. A score of 10 indicates that the dimension is extremely prominent and central to the scene's narrative or emotional impact. Evaluate the scene from the perspective of a typical viewer. Focus on explicit text evidence and direct implications rather than highly speculative interpretations. Ensure that each dimension is scored independently.",
+  "selection_rules": [
+    {
+      "networks": [],
+      "sub_regions": [],
+      "hemispheres": [],
+      "label_ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": "viewer_value_and_outcome_appraisal",
+      "definition": "The viewer's ongoing appraisal of the subjective value, utility, and consequences of narrative events, tracking what is at stake (gains, losses, rewards, punishments) for the characters and evaluating whether outcomes represent realized success or failure relative to expectations.",
+      "region_relevance": "The orbitofrontal cortex (including medial subregions like A14m, A11, and A13) is heavily implicated in representing subjective value, reward expectation, and updating value representations based on outcomes.",
+      "scoreability_note": "Highly scoreable from text descriptions of characters experiencing major successes, devastating losses, or material/social gains and setbacks.",
+      "source_domain_ids": [
+        "run_1_vicarious_value_appraisal",
+        "run_2_outcome_value_appraisal",
+        "run_3_viewer_outcome_contingency_tracking",
+        "run_4_viewer_value_appraisal",
+        "run_5_outcome_value_appraisal"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Consolidated multiple highly redundant runs focusing on outcome value, utility, and contingency tracking into a single robust domain representing the viewer's appraisal of subjective value and narrative consequences."
+    },
+    {
+      "domain_id": "viewer_social_norm_appraisal",
+      "definition": "The viewer's evaluation of whether a character's behavior, dialogue, or decisions violate or conform to social, moral, or cultural norms and interpersonal expectations within the narrative context.",
+      "region_relevance": "Lateral OFC (specifically A12/47l and A12/47o) is critical for social cognition, tracking social context, and detecting social transgressions or faux pas.",
+      "scoreability_note": "Easily scored from text descriptions of rule-breaking, awkward social interactions, insults, polite compliance, or moral transgressions.",
+      "source_domain_ids": [
+        "run_1_social_norm_violation",
+        "run_2_social_norm_appraisal",
+        "run_3_viewer_social_appropriateness_evaluation",
+        "run_4_viewer_social_norm_evaluation",
+        "run_5_social_appropriateness_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged recurring domains tracking social norms, appropriateness, and violations across all five runs into a single, well-defined social appraisal domain."
+    },
+    {
+      "domain_id": "viewer_affective_and_hedonic_valuation",
+      "definition": "The viewer's appraisal of the overall emotional valence, sensory pleasantness, comfort, luxury, or visceral unpleasantness/harshness of the depicted environment, atmosphere, and physical settings.",
+      "region_relevance": "Medial OFC (A14m, A11m) and its connections to the amygdala and insula are central to representing hedonic experience, subjective pleasantness, and integrating sensory inputs with internal affective states.",
+      "scoreability_note": "Scored by analyzing descriptions of environmental aesthetics, physical comfort, sensory indulgence, or tense, hostile, or safe atmospheres.",
+      "source_domain_ids": [
+        "run_1_affective_valence_appraisal",
+        "run_2_hedonic_aesthetic_appraisal",
+        "run_3_viewer_affective_significance_appraisal",
+        "run_4_viewer_affective_congruence",
+        "run_5_hedonic_sensory_valuation"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Combined affective valence, congruence, and hedonic/sensory valuation domains into a unified domain capturing the viewer's appraisal of environmental and situational pleasantness/unpleasantness."
+    },
+    {
+      "domain_id": "viewer_risk_and_uncertainty_assessment",
+      "definition": "The viewer's estimation of the potential negative consequences, strategic risks, and predictability of upcoming narrative outcomes, tracking the uncertainty of characters' decisions and the mismatch between expected and actual events.",
+      "region_relevance": "Lateral OFC (A12/47o, A12/47l) and its connections to the amygdala are critical for evaluating threat, risk, decision-making under uncertainty, and signaling expectation violations.",
+      "scoreability_note": "Scored based on the presence of physical hazards, high-stakes decisions, uncertain outcomes, or sudden unexpected turns of events.",
+      "source_domain_ids": [
+        "run_1_narrative_expectation_conflict",
+        "run_2_risk_threat_assessment",
+        "run_3_viewer_reward_risk_appraisal",
+        "run_4_viewer_outcome_uncertainty",
+        "run_5_decision_risk_assessment"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged risk, threat, uncertainty, and expectation conflict domains into a single domain focused on the viewer's cognitive tracking of risk and prediction errors."
+    }
+  ],
+  "active_domain_ids": [
+    "viewer_value_and_outcome_appraisal",
+    "viewer_social_norm_appraisal",
+    "viewer_affective_and_hedonic_valuation",
+    "viewer_risk_and_uncertainty_assessment"
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "material_and_social_gain_loss",
+      "definition": "The degree to which characters experience concrete material, financial, or social gains or losses (e.g., winning money, losing a job, gaining a promotion, losing a valuable possession).",
+      "domain": "viewer_value_and_outcome_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Receiving a large sum of money or inheritance",
+        "Losing a job or being demoted",
+        "Gaining a prestigious title or social status",
+        "Having a valuable possession stolen or destroyed"
+      ],
+      "graded_anchors": {
+        "0": "No material or social gains or losses are mentioned or implied.",
+        "1": "Extremely minor change, such as finding a coin or misplacing a cheap pen.",
+        "2": "Minor change, like buying a small treat or receiving a minor compliment.",
+        "3": "Noticeable but low-stakes change, such as winning a small friendly bet or losing a minor item.",
+        "4": "Moderate change, like receiving a small bonus or having a minor argument that temporarily strains a friendship.",
+        "5": "Significant change, such as a moderate financial gain or losing a moderately valuable item.",
+        "6": "Substantial change, like getting a promotion with a decent raise or losing a job with some savings left.",
+        "7": "Major change, such as winning a significant lottery prize or losing a home to foreclosure.",
+        "8": "Very high-stakes change, like inheriting a massive fortune or facing complete bankruptcy.",
+        "9": "Life-altering change, such as gaining absolute power/status or losing everything one owns.",
+        "10": "Extreme, catastrophic or miraculous change, such as gaining ultimate global wealth/influence or losing all material and social standing instantly."
+      },
+      "calibration_examples": [
+        {
+          "scene": "John opens an envelope to find a letter confirming he has been fired from his job, effective immediately, with no severance.",
+          "score": 6
+        },
+        {
+          "scene": "Sarah wins the multi-million dollar jackpot and screams in joy as she realizes all her debts are cleared.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Look for explicit mentions of changes in wealth, status, possessions, or formal relationships.",
+      "exclusion_note": "Do not score purely emotional gains or losses (e.g., feeling sad about a breakup) unless accompanied by concrete social or material consequences."
+    },
+    {
+      "dimension_id": "goal_achievement_and_failure",
+      "definition": "The extent to which characters succeed or fail in achieving their active, explicit goals within the narrative.",
+      "domain": "viewer_value_and_outcome_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Successfully completing a difficult mission",
+        "Failing to save a patient or friend",
+        "Reaching a long-sought destination",
+        "Failing an important exam or audition"
+      ],
+      "graded_anchors": {
+        "0": "No active goals are pursued, achieved, or failed in this scene.",
+        "1": "An extremely trivial goal is achieved, like successfully tying a shoe.",
+        "2": "A minor daily goal is achieved or failed, like catching a bus or missing it.",
+        "3": "A low-stakes goal is resolved, such as successfully booking a restaurant table.",
+        "4": "A moderate goal is resolved, like passing a routine driving test.",
+        "5": "A significant goal is resolved, such as successfully pitching a project to a client.",
+        "6": "A major goal is achieved or failed, like graduating from college or failing a crucial licensing exam.",
+        "7": "A high-stakes goal is resolved, such as successfully performing a complex surgery to save a life.",
+        "8": "A life-defining goal is achieved or failed, like successfully launching a dream company or having it shut down.",
+        "9": "An epic goal is resolved, such as saving a city from destruction or failing to prevent a major disaster.",
+        "10": "The ultimate narrative goal is achieved or failed, deciding the fate of the entire story or world."
+      },
+      "calibration_examples": [
+        {
+          "scene": "After months of training, David crosses the finish line of the marathon in first place, raising his arms in triumph.",
+          "score": 7
+        },
+        {
+          "scene": "The detective arrives too late; the suspect has escaped, leaving behind a mocking note.",
+          "score": 5.5
+        }
+      ],
+      "scoreability_note": "Score based on the resolution of a character's stated or clearly implied objective.",
+      "exclusion_note": "Do not score general good or bad luck; there must be an active goal that is either achieved or thwarted."
+    },
+    {
+      "dimension_id": "moral_and_karmic_retribution",
+      "definition": "The appraisal of whether characters receive outcomes that align with moral justice, desert, or karmic retribution (i.e., good things happening to good people, or bad people being punished).",
+      "domain": "viewer_value_and_outcome_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A villain being arrested or punished",
+        "An innocent character being vindicated and rewarded",
+        "A corrupt official getting away with a crime",
+        "A kind character suffering an unfair tragedy"
+      ],
+      "graded_anchors": {
+        "0": "No moral or karmic outcomes are depicted or relevant.",
+        "1": "Extremely minor moral alignment, like a polite person getting a small favor in return.",
+        "2": "Minor moral alignment, like a rude person being ignored by others.",
+        "3": "Noticeable moral outcome, like a small lie being exposed, causing minor embarrassment.",
+        "4": "Moderate moral outcome, like a dishonest student getting caught cheating and receiving a failing grade.",
+        "5": "Significant moral outcome, such as a thief being caught and forced to return stolen goods.",
+        "6": "Substantial moral outcome, like a corrupt manager being fired after their misdeeds are exposed.",
+        "7": "Major moral outcome, such as a murderer being convicted and sentenced to life in prison.",
+        "8": "Very high moral outcome, like a heroic figure receiving a lifetime achievement award and public adoration.",
+        "9": "Profound moral outcome, such as a tyrant being overthrown and justice restored to an entire nation.",
+        "10": "Ultimate karmic resolution, where absolute justice is served or a tragic, monumental injustice occurs."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The corrupt CEO is led out of the building in handcuffs as his former employees cheer from their desks.",
+          "score": 7.5
+        },
+        {
+          "scene": "A kind old man who spent his life helping others is suddenly evicted from his home by a greedy landlord.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Evaluate the moral alignment of the outcome. High scores represent strong alignment (justice served) or strong violation (gross injustice).",
+      "exclusion_note": "Do not score simple neutral outcomes; there must be a clear moral or ethical dimension to the character's desert."
+    },
+    {
+      "dimension_id": "social_faux_pas_and_awkwardness",
+      "definition": "The occurrence of minor social transgressions, awkward interactions, embarrassing moments, or violations of polite etiquette.",
+      "domain": "viewer_social_norm_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Spilling a drink on someone at a formal dinner",
+        "Forgetting someone's name during an introduction",
+        "An awkward silence during a conversation",
+        "Making an inappropriate joke that falls flat"
+      ],
+      "graded_anchors": {
+        "0": "No social awkwardness or etiquette violations occur; interactions are smooth.",
+        "1": "An extremely minor slip, like a slight stutter or a brief pause in conversation.",
+        "2": "A minor breach, like forgetting to say 'thank you' in a casual setting.",
+        "3": "A noticeable awkward moment, like a joke that receives only polite, forced laughter.",
+        "4": "A moderate faux pas, like mispronouncing a host's name or wearing slightly inappropriate attire.",
+        "5": "A significant embarrassing moment, like spilling a drink on a colleague during a business lunch.",
+        "6": "A substantial social blunder, like accidentally insulting someone's cooking while they are listening.",
+        "7": "A major social transgression, like making a highly inappropriate comment at a formal wedding toast.",
+        "8": "An extremely cringeworthy event, like being publicly exposed for a minor but highly embarrassing lie.",
+        "9": "A devastating social disaster, where a character is completely ostracized from a social gathering due to their behavior.",
+        "10": "The ultimate social nightmare, an agonizingly awkward and prolonged public humiliation."
+      },
+      "calibration_examples": [
+        {
+          "scene": "During the quiet toast, Mark accidentally burps loudly, causing the entire room to fall silent and stare at him in shock.",
+          "score": 6.5
+        },
+        {
+          "scene": "Tom waves back at a woman, only to realize she was waving to the person standing directly behind him.",
+          "score": 3
+        }
+      ],
+      "scoreability_note": "Look for cues of embarrassment, social discomfort, or minor breaches of etiquette.",
+      "exclusion_note": "Do not score major moral or legal crimes here; focus on social etiquette and awkwardness."
+    },
+    {
+      "dimension_id": "moral_transgression_and_rule_breaking",
+      "definition": "The violation of significant moral, ethical, legal, or cultural rules and norms (e.g., theft, betrayal, violence, lying under oath).",
+      "domain": "viewer_social_norm_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Stealing from a store or a friend",
+        "Betraying a close friend's trust",
+        "Committing a violent act against an innocent person",
+        "Lying to authorities to cover up a crime"
+      ],
+      "graded_anchors": {
+        "0": "No moral transgressions or rule-breaking occur.",
+        "1": "An extremely minor infraction, like jaywalking or taking a paperclip from the office.",
+        "2": "A minor rule violation, like telling a white lie to avoid hurting someone's feelings.",
+        "3": "A noticeable transgression, like cheating on a minor homework assignment.",
+        "4": "A moderate violation, like shoplifting a low-value item or breaking a minor promise.",
+        "5": "A significant moral breach, like stealing money from a friend's wallet or lying to a partner about an affair.",
+        "6": "A substantial transgression, like embezzling funds from a local charity.",
+        "7": "A major crime or betrayal, like committing armed robbery or betraying a country's secrets.",
+        "8": "A severe moral atrocity, like committing a violent assault or framing an innocent person for a major crime.",
+        "9": "An extreme violation of human rights, like mass violence or systematic torture.",
+        "10": "The ultimate moral transgression, an act of unspeakable evil or betrayal on a massive scale."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Arthur slips the gold watch into his pocket while the shopkeeper is distracted, then quickly walks out.",
+          "score": 5
+        },
+        {
+          "scene": "The soldier turns on his lifelong friend, shooting him in the back to secure his own escape.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Score based on the severity of the ethical or legal violation described.",
+      "exclusion_note": "Do not score minor social awkwardness or polite etiquette breaches; focus on serious moral transgressions."
+    },
+    {
+      "dimension_id": "politeness_and_normative_compliance",
+      "definition": "The explicit adherence to social etiquette, respect, politeness, or cultural rituals and norms.",
+      "domain": "viewer_social_norm_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Offering a polite greeting or bow",
+        "Expressing deep gratitude or appreciation",
+        "Following strict protocol during a formal ceremony",
+        "Showing respect to an elder or authority figure"
+      ],
+      "graded_anchors": {
+        "0": "No explicit polite behaviors or normative compliance are depicted.",
+        "1": "A minimal polite gesture, like a quick nod of acknowledgment.",
+        "2": "A standard polite phrase, like saying 'please' or 'thank you' casually.",
+        "3": "A clear act of politeness, like holding a door open for someone carrying packages.",
+        "4": "A moderate demonstration of respect, like standing up when an elder enters the room.",
+        "5": "A significant act of courtesy, like offering a heartfelt apology and a small gift to make amends.",
+        "6": "A substantial display of formal etiquette, like following proper dining protocols at a state dinner.",
+        "7": "A major demonstration of respect, like bowing deeply before a monarch or high official.",
+        "8": "An exemplary act of self-sacrificing politeness, putting others' comfort entirely before one's own.",
+        "9": "A profound adherence to sacred cultural rituals or protocols under extreme pressure.",
+        "10": "The absolute pinnacle of grace, respect, and flawless adherence to social and cultural norms."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The young diplomat bows low, presenting the gift with both hands and speaking in the formal honorific register.",
+          "score": 7
+        },
+        {
+          "scene": "She smiles and thanks the waiter warmly as he places her coffee on the table.",
+          "score": 2.5
+        }
+      ],
+      "scoreability_note": "Look for active demonstrations of politeness, respect, and adherence to social expectations.",
+      "exclusion_note": "Do not score passive compliance where no active polite behavior is described."
+    },
+    {
+      "dimension_id": "sensory_luxury_and_comfort",
+      "definition": "The depiction of high-end, luxurious, comfortable, or sensory-rich environments and experiences (e.g., fine dining, plush furniture, beautiful aesthetics, physical indulgence).",
+      "domain": "viewer_affective_and_hedonic_valuation",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Eating a gourmet meal in a five-star restaurant",
+        "Relaxing in a luxurious spa or hot tub",
+        "Sitting on a plush, comfortable velvet sofa",
+        "Surrounding oneself with beautiful art and gold decor"
+      ],
+      "graded_anchors": {
+        "0": "No luxury, comfort, or sensory indulgence is depicted.",
+        "1": "Extremely basic comfort, like sitting in a clean, standard chair.",
+        "2": "A minor comfort, like drinking a warm cup of tea on a cool day.",
+        "3": "A pleasant environment, like a cozy, well-lit living room.",
+        "4": "A moderately luxurious experience, like dining at a nice local bistro.",
+        "5": "A significant display of luxury, like staying in a high-end hotel room with a king-sized bed.",
+        "6": "A substantial sensory indulgence, like a full-body massage at a premium spa.",
+        "7": "A major luxury experience, like traveling in a private first-class cabin with gourmet catering.",
+        "8": "An extremely lavish setting, like a grand mansion filled with fine art, silk drapes, and expensive champagne.",
+        "9": "An extraordinary, opulent feast or environment, representing the absolute height of sensory indulgence.",
+        "10": "The ultimate, celestial level of luxury, comfort, and sensory bliss, leaving no desire unfulfilled."
+      },
+      "calibration_examples": [
+        {
+          "scene": "They sink into the plush leather seats of the private jet, sipping vintage champagne as classical music plays softly.",
+          "score": 8
+        },
+        {
+          "scene": "He wraps himself in a warm, soft blanket and takes a satisfying sip of hot cocoa by the fireplace.",
+          "score": 4
+        }
+      ],
+      "scoreability_note": "Focus on descriptions of sensory pleasure, comfort, wealth, and aesthetic indulgence.",
+      "exclusion_note": "Do not score general happiness or success unless it is tied to physical, sensory, or environmental luxury."
+    },
+    {
+      "dimension_id": "visceral_harshness_and_deprivation",
+      "definition": "The depiction of squalor, extreme physical discomfort, hostile environments, sensory unpleasantness, or deprivation (e.g., cold, dirt, hunger, harsh weather).",
+      "domain": "viewer_affective_and_hedonic_valuation",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Shivering in a freezing, damp cell",
+        "Walking through a muddy, trash-filled alley",
+        "Starving with no food or clean water",
+        "Enduring a harsh, blinding dust storm"
+      ],
+      "graded_anchors": {
+        "0": "No harshness, deprivation, or sensory unpleasantness is depicted.",
+        "1": "Extremely minor discomfort, like a slightly scratchy collar.",
+        "2": "A minor unpleasantness, like walking in a light drizzle without an umbrella.",
+        "3": "A noticeable discomfort, like sitting in a dusty, poorly ventilated room.",
+        "4": "A moderate harshness, like walking through a smelly, cluttered alleyway.",
+        "5": "A significant deprivation, like spending the night on a hard concrete floor in a cold room.",
+        "6": "A substantial physical hardship, like trekking through a heavy snowstorm with inadequate clothing.",
+        "7": "A major state of squalor, like living in a cramped, unsanitary slum with no running water.",
+        "8": "An extreme environment of suffering, like being trapped in a filthy, rat-infested dungeon with minimal food.",
+        "9": "A devastating, life-threatening state of deprivation and physical torture by the elements.",
+        "10": "The absolute nadir of visceral harshness, squalor, and physical agony, representing complete sensory horror."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The prisoners huddle together on the damp, freezing stone floor, surrounded by the stench of decay and dripping sewage.",
+          "score": 8.5
+        },
+        {
+          "scene": "He walks home through the pouring rain, his shoes soaked and his jacket clinging coldly to his skin.",
+          "score": 3.5
+        }
+      ],
+      "scoreability_note": "Look for descriptions of physical suffering, environmental hostility, and sensory unpleasantness.",
+      "exclusion_note": "Do not score emotional sadness or grief unless it is accompanied by physical or environmental harshness."
+    },
+    {
+      "dimension_id": "aesthetic_and_atmospheric_harmony",
+      "definition": "The beauty, safety, and pleasantness of the setting, atmosphere, or natural environment, evoking a sense of peace, awe, or harmony.",
+      "domain": "viewer_affective_and_hedonic_valuation",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Watching a beautiful sunset over a calm ocean",
+        "Walking through a peaceful, sunlit forest",
+        "Sitting in a quiet, beautifully decorated garden",
+        "Listening to harmonious, soothing music in a serene chapel"
+      ],
+      "graded_anchors": {
+        "0": "No aesthetic or atmospheric harmony is depicted; the setting is neutral or chaotic.",
+        "1": "An extremely minor pleasant detail, like a single flower in a vase.",
+        "2": "A minor pleasant setting, like a clean, quiet street.",
+        "3": "A nice, peaceful atmosphere, like a tidy park on a cloudy day.",
+        "4": "A moderately beautiful setting, like a well-kept garden with blooming roses.",
+        "5": "A significant sense of harmony, like a quiet beach at dawn with gentle waves.",
+        "6": "A substantial aesthetic experience, like standing in a majestic cathedral with light streaming through stained glass.",
+        "7": "A major experience of natural beauty, like standing atop a mountain looking out over a pristine valley.",
+        "8": "An extraordinarily beautiful and serene landscape, evoking deep peace and awe.",
+        "9": "A breathtaking, near-magical atmosphere of perfect harmony, beauty, and safety.",
+        "10": "The ultimate, transcendent experience of sublime beauty and absolute atmospheric harmony."
+      },
+      "calibration_examples": [
+        {
+          "scene": "They stand on the cliffside as the sun sets, painting the sky in brilliant shades of gold and violet over the mirror-like sea.",
+          "score": 8
+        },
+        {
+          "scene": "The classroom is quiet and orderly, with a gentle breeze blowing through the open window.",
+          "score": 3
+        }
+      ],
+      "scoreability_note": "Score based on the described beauty, tranquility, and positive atmosphere of the environment.",
+      "exclusion_note": "Do not score active excitement or high-energy fun; focus on peaceful, harmonious, and aesthetic qualities."
+    },
+    {
+      "dimension_id": "physical_hazard_and_threat",
+      "definition": "The presence of immediate physical danger, life-threatening hazards, or survival risks to the characters.",
+      "domain": "viewer_risk_and_uncertainty_assessment",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Being chased by a dangerous predator",
+        "Standing on the edge of a collapsing bridge",
+        "Being trapped in a burning building",
+        "Facing an armed attacker in a dark alley"
+      ],
+      "graded_anchors": {
+        "0": "No physical hazards or threats are present.",
+        "1": "An extremely minor hazard, like a loose rug that could cause a trip.",
+        "2": "A minor risk, like chopping vegetables with a sharp knife.",
+        "3": "A noticeable hazard, like walking along a busy road with no sidewalk.",
+        "4": "A moderate threat, like driving a car at high speed in heavy rain.",
+        "5": "A significant danger, like a physical altercation or fistfight.",
+        "6": "A substantial threat, like being shot at by an unseen sniper.",
+        "7": "A major hazard, like being trapped inside a building that is actively on fire.",
+        "8": "An extremely high-stakes threat, like hanging by one hand from a skyscraper ledge.",
+        "9": "A catastrophic physical threat, like being in the direct path of an oncoming avalanche or explosion.",
+        "10": "The absolute maximum level of physical peril, where survival is highly improbable."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The flames lick at the ceiling as smoke fills the room, blocking the only exit and forcing them to gasp for air.",
+          "score": 7.5
+        },
+        {
+          "scene": "He carefully steps over a puddle of water on the kitchen floor to avoid slipping.",
+          "score": 2
+        }
+      ],
+      "scoreability_note": "Evaluate the severity and immediacy of the physical threat to life or limb.",
+      "exclusion_note": "Do not score financial, social, or emotional risks here; focus strictly on physical danger."
+    },
+    {
+      "dimension_id": "strategic_uncertainty_and_suspense",
+      "definition": "The unpredictability of outcomes, high-stakes decision-making under uncertainty, or intense suspense regarding what will happen next.",
+      "domain": "viewer_risk_and_uncertainty_assessment",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Waiting for the results of a critical medical test",
+        "Defusing a bomb with seconds left on the timer",
+        "A high-stakes poker game where a character bets everything",
+        "Hiding in a closet while a killer searches the room"
+      ],
+      "graded_anchors": {
+        "0": "Outcomes are completely predictable; no suspense or strategic uncertainty.",
+        "1": "An extremely minor uncertainty, like waiting to see if a green light turns red.",
+        "2": "A minor suspenseful moment, like waiting for a friend to answer a phone call.",
+        "3": "A noticeable tension, like waiting for a teacher to hand back a graded quiz.",
+        "4": "A moderate uncertainty, like a job interview where the candidate is unsure of their performance.",
+        "5": "A significant suspenseful situation, like waiting to hear if a loved one survived a surgery.",
+        "6": "A substantial strategic gamble, like investing one's life savings into a volatile new startup.",
+        "7": "A major suspense sequence, like hiding silently in a room while an intruder searches nearby.",
+        "8": "An extremely high-stakes gamble, like playing Russian roulette or making a decision that decides many lives.",
+        "9": "An agonizing, breathless state of suspense where the entire narrative hangs in the balance.",
+        "10": "The absolute peak of strategic uncertainty and heart-stopping suspense, where the outcome is completely unpredictable and of ultimate consequence."
+      },
+      "calibration_examples": [
+        {
+          "scene": "She holds her breath, pressing her back against the wall as the guard's flashlight beam sweeps just inches from her feet.",
+          "score": 7.5
+        },
+        {
+          "scene": "He waits anxiously by the phone, hoping the hiring manager will call him back today.",
+          "score": 4
+        }
+      ],
+      "scoreability_note": "Look for cues of suspense, tension, uncertainty, and high-stakes decision-making.",
+      "exclusion_note": "Do not score simple physical action unless it is accompanied by high uncertainty or suspense about the outcome."
+    },
+    {
+      "dimension_id": "expectation_violation_and_surprise",
+      "definition": "The occurrence of sudden, unexpected turns of events, shocking plot twists, or violations of established expectations.",
+      "domain": "viewer_risk_and_uncertainty_assessment",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A trusted ally suddenly revealing themselves as the villain",
+        "A character believed to be dead walking into the room",
+        "A sudden, unexpected car crash out of nowhere",
+        "An unexpected lottery win or sudden windfall"
+      ],
+      "graded_anchors": {
+        "0": "Events unfold exactly as expected; no surprises or twists.",
+        "1": "An extremely minor surprise, like a light bulb suddenly burning out.",
+        "2": "A minor unexpected event, like a friend arriving five minutes early.",
+        "3": "A noticeable surprise, like finding a small gift left on one's desk.",
+        "4": "A moderate unexpected turn, like a sudden rain shower on a sunny day.",
+        "5": "A significant surprise, like an unannounced visit from a distant relative.",
+        "6": "A substantial twist, like learning that a minor character was secretly working for the rival company.",
+        "7": "A major expectation violation, like a sudden, violent car crash during a peaceful conversation.",
+        "8": "An extremely shocking plot twist, like discovering the protagonist has been hallucinating their partner the entire time.",
+        "9": "A profound, mind-bending revelation that completely recontextualizes the entire narrative.",
+        "10": "The ultimate, paradigm-shattering twist or surprise that completely upends all expectations instantly."
+      },
+      "calibration_examples": [
+        {
+          "scene": "As they drive down the quiet country road laughing, a truck suddenly broadsides them out of nowhere with a deafening crash.",
+          "score": 7.5
+        },
+        {
+          "scene": "He opens the closet door and is surprised to find his old winter coat, which he thought he had lost.",
+          "score": 3
+        }
+      ],
+      "scoreability_note": "Score based on how shocking, sudden, or unexpected the event is to the characters and the viewer.",
+      "exclusion_note": "Do not score gradual changes or predictable developments; there must be a sudden mismatch between expectation and reality."
+    }
+  ],
+  "metadata": {
+    "domain_pool": {
+      "source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/OFC/domain_pool_auto_confirmed.json",
+      "content_sha256": "3b6e538aebf741dce96a483766fccfbdcb791d77d007eccfa7218bb2e334ba5b",
+      "version": "domain_pool_v2",
+      "target_region": "OFC",
+      "curation_status": "confirmed",
+      "proposal_runs": 5,
+      "curated_domain_ids": [
+        "viewer_value_and_outcome_appraisal",
+        "viewer_social_norm_appraisal",
+        "viewer_affective_and_hedonic_valuation",
+        "viewer_risk_and_uncertainty_assessment"
+      ]
+    },
+    "source_provider": "gemini",
+    "source_model": "gemini-3.5-flash",
+    "fixed_roi_definition": {
+      "roi_id": "OFC",
+      "display_name": "orbitofrontal cortex",
+      "theoretical_role": "Reward learning, expected outcomes, and stimulus-value representation.",
+      "selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52
+          ]
+        }
+      ]
+    }
+  }
+}

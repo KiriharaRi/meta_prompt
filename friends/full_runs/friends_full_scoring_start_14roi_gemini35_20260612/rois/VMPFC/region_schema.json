@@ -1,0 +1,655 @@
+{
+  "version": "region_schema_v1",
+  "target_region": "VMPFC",
+  "functional_hypothesis": "The Ventromedial Prefrontal Cortex (VMPFC) is a critical hub for integrating affective, social, and valuation signals during naturalistic movie viewing. It is heavily involved in representing subjective value, safety, moral and social appraisals, and the self-relevant or emotional significance of narrative events. By combining dimensions of emotional experience, social-moral appraisal, and subjective valuation, we can model how the VMPFC tracks the unfolding narrative's personal and social significance to the viewer.",
+  "scoring_instruction": "Score each dimension on a unified 0 to 10 intensity scale based strictly on the text-only evidence in the dense movie descriptions. A score of 0 indicates that the dimension is completely absent or cannot be inferred from the text. A score of 10 indicates that the dimension is extremely prominent and central to the described scene. Evaluate the scene from the perspective of a typical viewer, focusing on the narrative context, character actions, and situational stakes described.",
+  "selection_rules": [
+    {
+      "networks": [],
+      "sub_regions": [],
+      "hemispheres": [],
+      "label_ids": [
+        13,
+        14,
+        41,
+        42,
+        47,
+        48,
+        187,
+        188
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": "emotion_experience",
+      "definition": "The inferred emotional experience a typical viewer would have while watching a described movie segment, grounded in observable narrative evidence such as character states, dialogue, actions, consequences, situational stakes, and scene atmosphere.",
+      "region_relevance": "Emotion experience is a required anchor domain for target-region feature discovery because naturalistic movie responses often depend on affective meaning, safety appraisal, and viewer-state inference.",
+      "scoreability_note": "Score only from text evidence in dense descriptions; do not infer viewer emotion from genre labels or unstated audiovisual cues.",
+      "source_domain_ids": [
+        "required_emotion_experience",
+        "run_1_emotion_experience",
+        "run_2_emotion_experience",
+        "run_3_emotion_experience",
+        "run_4_emotion_experience",
+        "run_5_emotion_experience"
+      ],
+      "source_runs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 6,
+      "consolidation_rationale": "Consolidated the required anchor domain across all runs. The definition, relevance, and scoreability notes are preserved exactly as mandated."
+    },
+    {
+      "domain_id": "social_moral_appraisal",
+      "definition": "The viewer's appraisal of the moral, ethical, or social value of characters' actions, decisions, and interpersonal dynamics, evaluating whether behaviors violate or uphold social norms, fairness, or interpersonal obligations.",
+      "region_relevance": "The VMPFC is a key node in the brain's valuation and social cognition networks, actively representing moral judgments, social norms, and the appraisal of interpersonal warmth, trust, or conflict.",
+      "scoreability_note": "Score by evaluating whether the described actions violate or uphold common social/moral norms, or involve explicit interpersonal conflicts, as detailed in the text description.",
+      "source_domain_ids": [
+        "run_1_moral_and_social_valuation",
+        "run_2_social_moral_appraisal",
+        "run_3_moral_appraisal",
+        "run_4_social_appraisal",
+        "run_5_moral_social_appraisal"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged multiple overlapping candidate domains focusing on social and moral evaluation. These candidates all capture the viewer's appraisal of characters' social warmth, moral alignment, and adherence to social norms, which are heavily processed by the VMPFC."
+    },
+    {
+      "domain_id": "subjective_valuation",
+      "definition": "The viewer's tracking and appraisal of the subjective value, stakes, safety, and desirability of potential outcomes or goals for characters, representing how a typical viewer integrates narrative events to evaluate gains, losses, threats, or rewards.",
+      "region_relevance": "As a central hub of the brain's valuation network, the VMPFC encodes subjective value, reward significance, safety signaling, and the personal/motivational relevance of narrative events during naturalistic viewing.",
+      "scoreability_note": "Score by identifying text-described events that represent major progress toward or setbacks against a character's primary goals, high-stakes conflicts, physical/psychological threats, or resource changes.",
+      "source_domain_ids": [
+        "run_2_narrative_value_tracking",
+        "run_3_outcome_value_anticipation",
+        "run_4_subjective_valuation",
+        "run_5_safety_value_appraisal"
+      ],
+      "source_runs": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Consolidated domains related to subjective utility, outcome anticipation, safety, and reward/threat tracking. These represent a unified functional concept of valuation and outcome prediction, which is a core function of the VMPFC."
+    }
+  ],
+  "active_domain_ids": [
+    "emotion_experience",
+    "social_moral_appraisal",
+    "subjective_valuation"
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "emotion_admiration",
+      "definition": "Inferred feeling of warm approval, respect, or appreciation directed toward a character's noble actions, skill, or character.",
+      "domain": "emotion_experience",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character performing a selfless act of bravery.",
+        "A character demonstrating exceptional skill or mastery under pressure.",
+        "A character standing up for their principles despite personal cost."
+      ],
+      "graded_anchors": {
+        "0": "No admiration or respect-worthy actions are described.",
+        "1": "A character performs a minor, routine polite act.",
+        "2": "A character shows basic competence in a standard task.",
+        "3": "A character displays a small act of kindness or helpfulness.",
+        "4": "A character shows clear determination or skill in overcoming a moderate obstacle.",
+        "5": "A character acts with noticeable integrity or skill in a challenging situation.",
+        "6": "A character makes a significant personal sacrifice or demonstrates impressive talent.",
+        "7": "A character performs a highly courageous or noble act to help others.",
+        "8": "A character shows extraordinary heroism, selflessness, or mastery under extreme stakes.",
+        "9": "A character's profound nobility or legendary skill inspires deep awe and respect.",
+        "10": "An exceptionally rare, monumental act of self-sacrifice or supreme virtue that profoundly moves the viewer."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A firefighter runs back into a collapsing, burning building to save a trapped child, ignoring warnings from his chief.",
+          "score": 8.5
+        },
+        {
+          "scene": "A student studies diligently and passes a difficult exam, smiling as they see their grade.",
+          "score": 3
+        }
+      ],
+      "scoreability_note": "Score based on text descriptions of characters performing acts of virtue, bravery, skill, or moral strength.",
+      "exclusion_note": "Do not score general positive events or simple happiness; there must be a target of respect or approval."
+    },
+    {
+      "dimension_id": "emotion_amusement",
+      "definition": "Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements.",
+      "domain": "emotion_experience",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character making a witty joke or sarcastic remark.",
+        "A slapstick or physically comical situation.",
+        "An absurd, ironic, or unexpected comedic turn of events."
+      ],
+      "graded_anchors": {
+        "0": "No humorous or lighthearted elements are present.",
+        "1": "A character smiles briefly in a non-humorous context.",
+        "2": "A mild, polite exchange with a hint of lightheartedness.",
+        "3": "A minor joke or slightly amusing observation is made.",
+        "4": "A clear comedic remark or mildly funny situation occurs.",
+        "5": "A character engages in witty banter or a moderately funny misunderstanding.",
+        "6": "A highly amusing scene with prominent comedic dialogue or physical comedy.",
+        "7": "A very funny sequence of events that would make most viewers laugh out loud.",
+        "8": "An intensely hilarious climax of a comedic subplot or highly absurd situation.",
+        "9": "Continuous, high-intensity comedic action and jokes dominating the scene.",
+        "10": "An overwhelmingly hysterical, legendary comedic sequence of peak absurdity and humor."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character slips on a banana peel in an exaggerated, cartoonish way, and their friend bursts out laughing.",
+          "score": 7
+        },
+        {
+          "scene": "Two colleagues exchange a brief, polite greeting in the hallway before entering a serious meeting.",
+          "score": 0
+        }
+      ],
+      "scoreability_note": "Look for explicit jokes, witty banter, physical comedy, or absurd situations described in the text.",
+      "exclusion_note": "Do not score general happiness, joy, or relief unless there is a clear element of humor or playfulness."
+    },
+    {
+      "dimension_id": "emotion_joy",
+      "definition": "Inferred feeling of great happiness, pleasure, or elation in response to positive events, successes, or reunions.",
+      "domain": "emotion_experience",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character achieving a long-sought goal or victory.",
+        "A warm, happy reunion between loved ones.",
+        "A celebration of a happy milestone or event."
+      ],
+      "graded_anchors": {
+        "0": "No positive or joyful elements are present.",
+        "1": "A character is in a neutral or slightly pleasant mood.",
+        "2": "A character experiences a small moment of satisfaction.",
+        "3": "A character smiles warmly upon receiving minor good news.",
+        "4": "A cheerful interaction or successful completion of a daily task.",
+        "5": "A character celebrates a clear success or enjoys a very happy moment.",
+        "6": "A major positive breakthrough or highly joyful celebration occurs.",
+        "7": "An ecstatic reaction to a life-changing positive event or deep reunion.",
+        "8": "Overwhelming, radiant joy and celebration dominating the scene.",
+        "9": "An intensely euphoric moment of peak triumph or profound happiness.",
+        "10": "A transcendent, ultimate experience of pure ecstasy and boundless joy."
+      },
+      "calibration_examples": [
+        {
+          "scene": "After years of separation, a mother tears up and embraces her daughter at the airport arrival gate, both laughing with happiness.",
+          "score": 8.5
+        },
+        {
+          "scene": "A man finds a five-dollar bill on the sidewalk and pockets it with a quick smile.",
+          "score": 3
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of characters experiencing success, celebration, warm connections, or explicit expressions of happiness.",
+      "exclusion_note": "Do not score relief (which is characterized by the removal of a threat) or admiration unless accompanied by active happiness."
+    },
+    {
+      "dimension_id": "emotion_tenderness",
+      "definition": "Inferred feeling of warmth, affection, gentleness, or love, typically evoked by close relationships, caring actions, or vulnerability.",
+      "domain": "emotion_experience",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A parent gently tucking a sleeping child into bed.",
+        "A quiet, intimate moment of affection between romantic partners.",
+        "A character comforting a vulnerable or hurting friend or pet."
+      ],
+      "graded_anchors": {
+        "0": "No tender, affectionate, or gentle elements are present.",
+        "1": "A polite, friendly gesture between acquaintances.",
+        "2": "A character shows mild concern or friendliness.",
+        "3": "A warm handshake or friendly pat on the back.",
+        "4": "A character offers comforting words to someone who is slightly stressed.",
+        "5": "A clear display of affection, such as a warm hug or gentle touch.",
+        "6": "A deeply affectionate exchange between close family members or partners.",
+        "7": "A highly tender scene of comforting someone in deep vulnerability or expressing deep love.",
+        "8": "An intensely moving, gentle moment of pure love, care, or emotional intimacy.",
+        "9": "A profound, heart-melting display of tenderness and emotional connection.",
+        "10": "An ultimate, sublime experience of unconditional love and absolute emotional tenderness."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A father sits by his sick daughter's bedside, gently stroking her hair and whispering comforting words as she falls asleep.",
+          "score": 8.5
+        },
+        {
+          "scene": "A couple discusses their weekend plans while washing dishes together, speaking in a normal tone.",
+          "score": 2
+        }
+      ],
+      "scoreability_note": "Look for descriptions of gentle physical contact, soft spoken words, expressions of love, care, and vulnerability.",
+      "exclusion_note": "Do not score general happiness, sexual passion, or pity/sadness unless accompanied by active warmth and gentleness."
+    },
+    {
+      "dimension_id": "emotion_confusion",
+      "definition": "Inferred feeling of bewilderment, perplexity, or lack of understanding in response to puzzling, contradictory, or bizarre events.",
+      "domain": "emotion_experience",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character encountering an inexplicable or surreal phenomenon.",
+        "A character receiving highly contradictory or nonsensical information.",
+        "A character losing their bearings or failing to comprehend a sudden twist."
+      ],
+      "graded_anchors": {
+        "0": "The situation is completely clear and understood.",
+        "1": "A minor, easily resolved misunderstanding occurs.",
+        "2": "A character asks a brief clarifying question.",
+        "3": "A character is slightly puzzled by a minor detail.",
+        "4": "A character faces a confusing situation but quickly figures it out.",
+        "5": "A character is visibly perplexed by an unexpected or strange event.",
+        "6": "A major plot twist or bizarre occurrence leaves characters highly bewildered.",
+        "7": "A deeply disorienting situation where nothing seems to make sense.",
+        "8": "Intense, overwhelming confusion and cognitive disorientation.",
+        "9": "A surreal, dreamlike state of complete perplexity and loss of comprehension.",
+        "10": "An absolute, mind-bending state of total cognitive chaos and incomprehensibility."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man wakes up in a room where gravity is reversed, and objects are floating upward while clocks tick backward.",
+          "score": 8.5
+        },
+        {
+          "scene": "A woman looks at a map for a second, realizes she took a wrong turn, and immediately corrects her course.",
+          "score": 2
+        }
+      ],
+      "scoreability_note": "Look for descriptions of characters expressing bewilderment, asking what is happening, or encountering surreal/illogical events.",
+      "exclusion_note": "Do not score simple ignorance (not knowing a fact) unless it causes active perplexity or disorientation."
+    },
+    {
+      "dimension_id": "emotion_surprise",
+      "definition": "Inferred feeling of sudden astonishment, shock, or wonder caused by an unexpected event, revelation, or sudden stimulus.",
+      "domain": "emotion_experience",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A sudden jump scare or loud, unexpected noise.",
+        "A shocking revelation or plot twist that changes everything.",
+        "An unexpected arrival or sudden, dramatic change in the environment."
+      ],
+      "graded_anchors": {
+        "0": "Everything happens exactly as expected; no surprise.",
+        "1": "A very minor, predictable variation in routine.",
+        "2": "A character is slightly startled by a quick movement.",
+        "3": "A mild, pleasant surprise like a small, unexpected gift.",
+        "4": "A character is clearly surprised by an unexpected visitor or news.",
+        "5": "A significant, unexpected turn of events that startles the characters.",
+        "6": "A major, shocking revelation that completely catches characters off guard.",
+        "7": "A highly dramatic, jaw-dropping twist or sudden, intense startle.",
+        "8": "An overwhelming, mind-blowing shock that leaves characters speechless.",
+        "9": "An extremely intense, profound shock or monumental revelation.",
+        "10": "An ultimate, world-shattering shock that completely redefines the entire narrative reality."
+      },
+      "calibration_examples": [
+        {
+          "scene": "As she opens her closet door, a masked intruder suddenly leaps out with a loud shout.",
+          "score": 8
+        },
+        {
+          "scene": "A man reads his daily newspaper and notices that the weather forecast was slightly off.",
+          "score": 1
+        }
+      ],
+      "scoreability_note": "Look for descriptions of sudden events, jump scares, shocking news, or characters reacting with wide eyes, gasps, or startle responses.",
+      "exclusion_note": "Do not score anticipation or suspense; the event must be sudden and unexpected."
+    },
+    {
+      "dimension_id": "emotion_agitation",
+      "definition": "Inferred feeling of nervous excitement, restlessness, tension, or anxiety, often characterized by physical or mental unease.",
+      "domain": "emotion_experience",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character pacing nervously while waiting for critical news.",
+        "A tense, high-stakes confrontation where violence could erupt at any second.",
+        "A character feeling trapped, overwhelmed, or frantically trying to escape."
+      ],
+      "graded_anchors": {
+        "0": "Complete calm, relaxation, or peace.",
+        "1": "A very minor, fleeting moment of impatience.",
+        "2": "A character fidgets slightly during a long wait.",
+        "3": "Mild nervousness, such as before a routine presentation.",
+        "4": "Clear tension or worry about an upcoming difficult task.",
+        "5": "Visible agitation, pacing, or sharp, anxious dialogue.",
+        "6": "High anxiety and restlessness in a highly stressful situation.",
+        "7": "Intense, frantic agitation with physical signs of panic or severe distress.",
+        "8": "Extreme, overwhelming panic, frantic pacing, or hysterical anxiety.",
+        "9": "A state of near-paralyzing, frantic terror or chaotic agitation.",
+        "10": "An absolute, peak state of uncontrollable, explosive panic and frantic agitation."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man paces frantically back and forth in a hospital waiting room, sweating and biting his nails as he waits for the surgeon to emerge.",
+          "score": 7.5
+        },
+        {
+          "scene": "A woman relaxes on a hammock in a quiet garden, sipping iced tea and reading a book.",
+          "score": 0
+        }
+      ],
+      "scoreability_note": "Look for descriptions of physical restlessness (pacing, sweating, shaking), frantic actions, and high-tension situations.",
+      "exclusion_note": "Do not score calm sadness or quiet depression; there must be an active element of tension, restlessness, or anxiety."
+    },
+    {
+      "dimension_id": "emotion_sadness",
+      "definition": "Inferred feeling of sorrow, grief, disappointment, or melancholy in response to loss, tragedy, or misfortune.",
+      "domain": "emotion_experience",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character weeping over the death of a loved one.",
+        "A painful breakup or abandonment.",
+        "A character reflecting on a tragic loss or failure with quiet despair."
+      ],
+      "graded_anchors": {
+        "0": "No sadness, grief, or disappointment is present.",
+        "1": "A very minor, temporary disappointment.",
+        "2": "A character feels slightly down or nostalgic.",
+        "3": "A mild sense of disappointment or melancholy.",
+        "4": "Clear sadness, such as crying quietly over a sad story.",
+        "5": "Visible grief or sorrow, with tears and expressions of pain.",
+        "6": "Deep sadness and mourning over a significant loss or failure.",
+        "7": "Intense, heartbreaking grief or devastating disappointment.",
+        "8": "Overwhelming, crushing sorrow and despair that dominates the scene.",
+        "9": "A profound, agonizing state of absolute grief and devastation.",
+        "10": "An ultimate, soul-crushing experience of infinite sorrow and complete despair."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man stands alone in the rain at his wife's graveside, tears streaming down his face as he clutches her photograph.",
+          "score": 9
+        },
+        {
+          "scene": "A child is slightly disappointed when their favorite ice cream flavor is sold out, but quickly chooses another.",
+          "score": 2
+        }
+      ],
+      "scoreability_note": "Look for descriptions of crying, mourning, expressions of grief, loss, and deep disappointment.",
+      "exclusion_note": "Do not score anger or fear unless they are directly accompanied by active sorrow or grief."
+    },
+    {
+      "dimension_id": "moral_violation_indignation",
+      "definition": "The viewer's appraisal of a character's actions as violating moral, ethical, or social norms (e.g., cruelty, betrayal, injustice, dishonesty), evoking a sense of indignation, disapproval, or moral outrage.",
+      "domain": "social_moral_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character betraying a close friend for personal gain.",
+        "An act of unprovoked cruelty or bullying toward a vulnerable person or animal.",
+        "A powerful figure corruptly abusing their power to exploit others."
+      ],
+      "graded_anchors": {
+        "0": "No moral violations or ethical issues are present; actions are neutral or positive.",
+        "1": "A very minor, harmless social faux pas (e.g., forgetting to say thank you).",
+        "2": "A minor, selfish act that causes slight inconvenience (e.g., cutting in line).",
+        "3": "A character tells a small, white lie or acts somewhat selfishly.",
+        "4": "A clear, intentional lie or minor act of dishonesty that hurts someone's feelings.",
+        "5": "A significant moral transgression, such as stealing or cheating on a partner.",
+        "6": "A serious betrayal of trust or an act of malicious bullying.",
+        "7": "A highly egregious act of cruelty, severe exploitation, or major injustice.",
+        "8": "An extremely shocking, heinous crime or profound betrayal of fundamental human decency.",
+        "9": "A monstrous, deeply disturbing act of pure malice, torture, or systemic evil.",
+        "10": "An ultimate, unspeakable moral atrocity that evokes absolute, overwhelming moral outrage."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A corrupt politician orders his henchmen to burn down an orphanage to clear land for a luxury resort, laughing at the residents' plight.",
+          "score": 9.5
+        },
+        {
+          "scene": "A man accidentally bumps into someone on the subway and immediately apologizes.",
+          "score": 0
+        }
+      ],
+      "scoreability_note": "Evaluate the severity of the moral/ethical violation described in the text and the degree to which it violates universal or situational social norms.",
+      "exclusion_note": "Do not score simple physical accidents or non-moral conflicts; there must be a clear violation of ethical or social standards."
+    },
+    {
+      "dimension_id": "prosocial_altruism",
+      "definition": "The viewer's appraisal of a character's actions as highly prosocial, altruistic, cooperative, or morally exemplary, upholding social norms of fairness, kindness, and mutual support.",
+      "domain": "social_moral_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character risking their own safety to help a stranger.",
+        "An act of profound generosity or charity to someone in need.",
+        "Characters working together cooperatively and selflessly to solve a community crisis."
+      ],
+      "graded_anchors": {
+        "0": "No prosocial or altruistic actions are described.",
+        "1": "A character performs a basic, expected social courtesy (e.g., holding a door open).",
+        "2": "A character is polite and cooperative in a routine interaction.",
+        "3": "A character offers minor assistance or shares a small resource.",
+        "4": "A clear act of kindness, such as helping a neighbor carry heavy groceries.",
+        "5": "A significant prosocial act, like volunteering time or donating a meaningful amount of money.",
+        "6": "A character makes a notable personal sacrifice to help or protect another person.",
+        "7": "A highly altruistic act of bravery or selflessness in a challenging situation.",
+        "8": "An extraordinary display of self-sacrifice, heroism, or profound generosity.",
+        "9": "A monumental, life-saving act of pure altruism that inspires deep moral elevation.",
+        "10": "An ultimate, legendary act of supreme self-sacrifice and boundless love for humanity."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A poor villager shares his last bowl of rice with a starving traveler, smiling warmly despite his own hunger.",
+          "score": 8.5
+        },
+        {
+          "scene": "A businessman buys a cup of coffee for himself and walks quickly to his office.",
+          "score": 0
+        }
+      ],
+      "scoreability_note": "Look for descriptions of characters acting selflessly, cooperating, showing kindness, or making sacrifices for the well-being of others.",
+      "exclusion_note": "Do not score routine professional duties unless they involve extraordinary personal sacrifice or genuine altruistic intent."
+    },
+    {
+      "dimension_id": "social_conflict_tension",
+      "definition": "The viewer's appraisal of interpersonal friction, social disharmony, power struggles, or social exclusion/ostracism between characters.",
+      "domain": "social_moral_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A heated argument or shouting match between family members.",
+        "A character being actively excluded, mocked, or ostracized by a social group.",
+        "A tense power struggle or passive-aggressive confrontation in a professional setting."
+      ],
+      "graded_anchors": {
+        "0": "Complete social harmony, cooperation, or absence of interpersonal interaction.",
+        "1": "A very minor, polite disagreement that is immediately resolved.",
+        "2": "A slight, brief moment of awkwardness or mild tension in conversation.",
+        "3": "A character expresses mild annoyance or passive-aggressive behavior.",
+        "4": "A clear, ongoing disagreement or cold shoulder between characters.",
+        "5": "A heated argument, sharp exchange of words, or visible social exclusion.",
+        "6": "A major interpersonal conflict with shouting, insults, or deep hostility.",
+        "7": "A highly toxic, explosive confrontation or severe, systematic social ostracism.",
+        "8": "An intense, destructive social war or deep-seated feud that tears a group apart.",
+        "9": "A devastating, all-out interpersonal betrayal and explosive conflict dominating the scene.",
+        "10": "An ultimate, catastrophic breakdown of all social bonds, resulting in absolute hostility and social chaos."
+      },
+      "calibration_examples": [
+        {
+          "scene": "During Thanksgiving dinner, two brothers scream insults at each other over a family secret, eventually throwing plates and storming out.",
+          "score": 8.5
+        },
+        {
+          "scene": "A group of friends sit around a campfire, laughing and singing songs together in perfect harmony.",
+          "score": 0
+        }
+      ],
+      "scoreability_note": "Look for descriptions of verbal arguments, passive-aggressive behavior, social exclusion, power struggles, and interpersonal hostility.",
+      "exclusion_note": "Do not score physical violence or combat unless it is driven by and highlights deep interpersonal/social conflict."
+    },
+    {
+      "dimension_id": "goal_progress_reward",
+      "definition": "The viewer's tracking of a character's progress toward their primary goals, representing positive outcomes, achievements, resource gains, or rewards.",
+      "domain": "subjective_valuation",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character finding a key clue or making a major breakthrough in their quest.",
+        "A character winning a competition, receiving a promotion, or gaining valuable resources.",
+        "A character successfully escaping a dangerous situation or securing safety."
+      ],
+      "graded_anchors": {
+        "0": "No progress toward goals or rewards is described; neutral or negative state.",
+        "1": "A very minor, routine task is completed.",
+        "2": "A character takes a small, easy step toward a larger goal.",
+        "3": "A minor success or small resource gain (e.g., finding a lost key).",
+        "4": "A clear, positive step forward in a character's main quest or career.",
+        "5": "A significant breakthrough, achievement, or substantial reward.",
+        "6": "A major victory or highly successful milestone that brings the goal within reach.",
+        "7": "A highly critical, high-stakes triumph or massive resource/reward gain.",
+        "8": "An extraordinary, life-defining achievement or ultimate breakthrough.",
+        "9": "A monumental, peak triumph that represents the complete realization of a primary goal.",
+        "10": "An ultimate, transcendent victory of supreme value and absolute reward."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The detective finally decodes the secret cipher, revealing the exact location of the kidnapped hostage.",
+          "score": 7.5
+        },
+        {
+          "scene": "A man walks to the kitchen and successfully pours himself a glass of water.",
+          "score": 1
+        }
+      ],
+      "scoreability_note": "Evaluate how much the described events advance the character's primary narrative goals or represent significant positive rewards/gains.",
+      "exclusion_note": "Do not score general positive emotions (joy) unless they are directly tied to objective goal progress or reward attainment."
+    },
+    {
+      "dimension_id": "threat_loss_stakes",
+      "definition": "The viewer's tracking of threats to a character's safety, physical/psychological well-being, or major setbacks, losses, and negative outcomes.",
+      "domain": "subjective_valuation",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character being chased by a dangerous predator or killer.",
+        "A character losing a vital resource, a loved one, or suffering a devastating defeat.",
+        "A character facing an imminent, life-threatening danger or extreme psychological threat."
+      ],
+      "graded_anchors": {
+        "0": "No threats, losses, or negative stakes are present; safe and stable environment.",
+        "1": "A very minor, easily corrected setback (e.g., spilling a drink).",
+        "2": "A minor inconvenience or small loss (e.g., losing a small amount of pocket change).",
+        "3": "A character faces a mild threat or moderate setback in their plans.",
+        "4": "A clear, worrying threat to safety or a significant setback to a goal.",
+        "5": "A serious danger, physical threat, or substantial loss (e.g., losing a job).",
+        "6": "A major, high-stakes threat to life or a devastating loss of a key resource.",
+        "7": "A highly critical, life-or-death situation or catastrophic defeat.",
+        "8": "An extraordinary, terrifying threat or profound, heartbreaking loss.",
+        "9": "A monumental, near-fatal crisis or absolute, devastating ruin.",
+        "10": "An ultimate, catastrophic threat of total destruction or complete, irreversible loss."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The protagonist hangs by his fingertips from a crumbling cliff edge as a villain stands above him, preparing to step on his hands.",
+          "score": 8.5
+        },
+        {
+          "scene": "A woman realizes she forgot her umbrella, but it is only drizzling slightly outside.",
+          "score": 2
+        }
+      ],
+      "scoreability_note": "Evaluate the severity of the threat, danger, or loss described in the text and its impact on the character's survival or primary goals.",
+      "exclusion_note": "Do not score moral indignation or social conflict unless they directly translate into a tangible threat, loss, or high-stakes danger."
+    },
+    {
+      "dimension_id": "motivational_relevance",
+      "definition": "The overall personal significance, urgency, or high-stakes nature of the current situation for the main characters, representing how critical the events are to their core motivations and survival.",
+      "domain": "subjective_valuation",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character facing a ticking-clock scenario where every second counts.",
+        "A situation that directly decides the fate of a character's family, country, or life.",
+        "A critical decision point that will permanently alter the character's destiny."
+      ],
+      "graded_anchors": {
+        "0": "The situation has zero personal significance or urgency; completely trivial.",
+        "1": "A routine, low-stakes daily activity with no long-term consequences.",
+        "2": "A minor decision or task with very low personal stakes.",
+        "3": "A situation of mild personal interest or moderate importance.",
+        "4": "A clear, meaningful situation that affects a character's immediate plans.",
+        "5": "A significant event with clear, long-term consequences for the character.",
+        "6": "A high-stakes situation where a major personal goal or relationship is on the line.",
+        "7": "A highly critical, urgent scenario with massive personal or professional stakes.",
+        "8": "An extraordinary crisis of extreme urgency, directly threatening core survival or life goals.",
+        "9": "A monumental, ultimate turning point where the character's entire destiny hangs in the balance.",
+        "10": "An absolute, supreme peak of motivational relevance, where the survival of everything the character cares about is decided."
+      },
+      "calibration_examples": [
+        {
+          "scene": "With only thirty seconds left on the bomb's timer, the technician must choose which wire to cut to save the entire city.",
+          "score": 9.5
+        },
+        {
+          "scene": "A man sits on his couch, lazily flipping through television channels on a Sunday afternoon.",
+          "score": 1
+        }
+      ],
+      "scoreability_note": "Evaluate the urgency, importance, and long-term consequences of the described situation for the main characters.",
+      "exclusion_note": "Do not score simple activity level or physical movement; the focus must be on the narrative stakes and motivational significance."
+    }
+  ],
+  "metadata": {
+    "domain_pool": {
+      "source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/VMPFC/domain_pool_auto_confirmed.json",
+      "content_sha256": "9caa78d6298021a705d022102a644cfb2a33a59f5e6bd1c77131ff56be6ad115",
+      "version": "domain_pool_v2",
+      "target_region": "VMPFC",
+      "curation_status": "confirmed",
+      "proposal_runs": 5,
+      "curated_domain_ids": [
+        "emotion_experience",
+        "social_moral_appraisal",
+        "subjective_valuation"
+      ]
+    },
+    "source_provider": "gemini",
+    "source_model": "gemini-3.5-flash",
+    "fixed_roi_definition": {
+      "roi_id": "VMPFC",
+      "display_name": "ventromedial prefrontal cortex",
+      "theoretical_role": "Subjective valuation, emotion regulation, and self-referential meaning.",
+      "selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            13,
+            14,
+            41,
+            42,
+            47,
+            48,
+            187,
+            188
+          ]
+        }
+      ]
+    }
+  }
+}

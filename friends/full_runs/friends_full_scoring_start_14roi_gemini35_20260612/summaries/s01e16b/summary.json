@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:41",
+    "batch_summary": "In a coffee shop, two women excitedly recognize and approach a blonde woman. Meanwhile, in the apartment, Monica and Rachel tease Ross for failing to fire a girl he is now dating. Their conversation is interrupted when Joey arrives, followed by their grumpy downstairs neighbor, Mr. Heckles, who complains about the group making too much noise through his ceiling.",
+    "cumulative_summary": "The story begins in a coffee shop, where two women excitedly recognize and approach a blonde woman, confirming her identity after a brief exchange. The scene then shifts to the apartment, where Phoebe watches television while Monica, Ross, and Rachel wind yarn. Monica and Rachel tease Ross for avoiding firing a female employee, a situation made more complicated because he is now dating her. Their playful banter is interrupted when Joey enters, closely followed by their eccentric downstairs neighbor, Mr. Heckles. Wearing a robe, Mr. Heckles complains that the group is making too much noise and that he can hear them through his ceiling, despite Monica's protests that they are only talking quietly."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:41 - 00:03:24",
+    "batch_summary": "Monica quickly dismisses Mr. Heckles' absurd complaints. Joey then asks Phoebe to try on a garment to size it for her twin sister, Ursula, whom he is dating. This sparks tension, leading to an argument where Phoebe admits she is no longer okay with them dating, causing Joey to leave in frustration. Meanwhile, at the office, Chandler is caught embracing Nina by his boss, Mr. Douglas, who questions why Nina has not yet been fired.",
+    "cumulative_summary": "The story begins in a coffee shop with a brief encounter before shifting to the apartment, where the friends wind yarn and discuss Chandler's struggle to fire an employee he is dating. Their banter is interrupted by their eccentric neighbor, Mr. Heckles, who complains about noise. After Monica dismisses him, Joey asks Phoebe to try on a garment to size it for her twin sister, Ursula, whom Joey is dating. This sparks tension, and Phoebe admits she is no longer okay with their relationship, leading to a heated argument and Joey's abrupt departure. Meanwhile, at the office, Chandler is caught embracing Nina by his boss, Mr. Douglas. Chandler attempts to cover, but Mr. Douglas demands to know why Nina has not yet been fired, intensifying Chandler's workplace dilemma."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:24 - 00:05:32",
+    "batch_summary": "Chandler successfully lies to his boss, Mr. Douglas, claiming Nina had a psychological breakdown after being fired and has no memory of it, allowing him to delay her termination. Meanwhile, Ross, Carol, and Susan attend a birthing class. After watching a birth video, Carol panics about the delivery. Susan calms her by pointing out that childbirth is just one day, but parenthood is forever. This realization deeply shocks Ross, who later sits in a daze at the coffee shop, finally processing that he is going to be a father.",
+    "cumulative_summary": "The story begins with the friends discussing Chandler's struggle to fire Nina, an employee he is dating. Meanwhile, tension rises when Joey dates Phoebe's twin sister, Ursula, leading to a heated argument between Joey and Phoebe. At the office, Chandler is caught embracing Nina by his boss, Mr. Douglas, who demands to know why she hasn't been fired. To save himself, Chandler fabricates a story that Nina had a psychological breakdown and has no memory of being let go, successfully delaying her termination. Elsewhere, Ross, Carol, and Susan attend a birthing class. After watching a birth video, Carol panics about the physical reality of delivery. Susan comforts her by reminding her that childbirth is only one day, but they will be parents for the rest of their lives. This profound realization hits Ross hard, leaving him in a state of shock at the coffee shop as he finally processes that he is going to be a father."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:32 - 00:07:16",
+    "batch_summary": "At the coffee shop, Rachel comforts a panicked Ross, who doubts his parenting skills because he cannot control his monkey, Marcel. Meanwhile, Phoebe questions Joey about his relationship with Ursula, and Joey defensively admits they have not had sex yet. At the office, Nina confronts Chandler about her coworkers' strange behavior and missing scissors. To distract her from his previous lies, Chandler impulsively promises her a big raise, further complicating his web of deceit.",
+    "cumulative_summary": "The story begins with the friends discussing Chandler's struggle to fire Nina, an employee he is dating. Meanwhile, tension rises when Joey dates Phoebe's twin sister, Ursula, leading to a heated argument between Joey and Phoebe. At the office, Chandler is caught embracing Nina by his boss, who demands to know why she hasn't been fired. To save himself, Chandler fabricates a story that Nina had a psychological breakdown. Elsewhere, Ross, Carol, and Susan attend a birthing class. After watching a birth video, Ross is left in shock at the coffee shop as he finally processes that he is going to be a father. Rachel tries to comfort him, but Ross doubts his parenting abilities, comparing raising a baby to his struggles with his monkey, Marcel. Meanwhile, Phoebe questions Joey about his intimacy with Ursula, and Joey defensively admits they haven't had sex. Back at the office, Nina confronts Chandler about her coworkers' strange behavior. To cover up his lies, Chandler impulsively promises her a raise, digging himself into a deeper hole."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:16 - 00:09:01",
+    "batch_summary": "Chandler's lies completely unravel when his assistant accidentally reveals Nina's fake psychological profile over the intercom. After confessing the truth, Chandler ends up with a stapled, bandaged hand. Meanwhile, Phoebe expresses her deep frustration and hurt over Joey dating her twin sister, Ursula. She shares childhood stories of Ursula's selfish behavior, including breaking her collarbone and stealing her boyfriend, highlighting the deep-seated tension and history of betrayal between the sisters.",
+    "cumulative_summary": "The story begins with Chandler struggling to fire Nina, an employee he is dating. To avoid firing her, Chandler lies to his boss that Nina had a psychological breakdown, but his web of lies collapses when his assistant accidentally exposes the fake psychological profile over the intercom. After Chandler confesses the truth, an angry Nina staples his hand. Meanwhile, Ross panics about his parenting abilities after attending a birthing class with Carol and Susan. At the same time, tension rises over Joey dating Phoebe's twin sister, Ursula. At the apartment, Phoebe opens up to the group about her deep resentment toward Ursula. She recounts a lifetime of Ursula breaking her belongings, injuring her, and stealing her boyfriend, explaining why Joey's relationship with her twin is so painful."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:01 - 00:10:45",
+    "batch_summary": "Phoebe explains how Ursula previously stole her boyfriend, leaving Phoebe heartbroken and isolated. Reassured by her friends that she won't lose Joey, Phoebe decides to confront Ursula directly. Meanwhile, Rachel attempts to take down string lights on the balcony in the freezing cold. She loses her footing and falls over the railing, ending up hilariously suspended upside down by her ankle outside Mr. Heckles' window.",
+    "cumulative_summary": "The story begins with Chandler's attempt to avoid firing Nina by claiming she had a psychological breakdown, a lie that collapses and ends with Nina stapling his hand. Meanwhile, Ross panics about his parenting abilities after a birthing class, and Joey begins dating Phoebe's twin sister, Ursula. This relationship deeply upsets Phoebe, who opens up to the group about Ursula's lifelong habit of stealing her belongings and boyfriends. After sharing a painful memory of a past boyfriend who shunned her because she looked like Ursula, Phoebe is encouraged by her friends to take action and goes to visit her twin. Meanwhile, Rachel attempts to take down string lights from the balcony in the freezing cold. She loses her footing and falls over the railing, ending up comically suspended upside down by her ankle outside Mr. Heckles' window."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 275,
+    "timestamp_range": "00:10:45 - 00:11:59",
+    "batch_summary": "After being ignored by a grumpy Mr. Heckles while hanging upside down, Rachel is rushed to the hospital by Monica with a injured ankle. At the emergency room, Monica helps Rachel fill out the intake forms, leading to a sweet moment when Monica lists herself as Rachel's emergency contact. However, the warm atmosphere quickly turns tense and awkward when Monica asks for Rachel's insurance information, and Rachel realizes she does not have any.",
+    "cumulative_summary": "The story begins with Chandler's failed attempt to avoid firing Nina, Ross's panic over his parenting abilities, and Joey dating Phoebe's twin sister, Ursula. This relationship deeply upsets Phoebe, who opens up about Ursula's history of stealing her things and boyfriends before going to visit her twin. Meanwhile, Rachel's attempt to remove string lights from the balcony ends with her hanging upside down outside Mr. Heckles' window. After Mr. Heckles offers no help, Monica rushes a limping Rachel to the emergency room. While filling out the hospital paperwork, the two friends share a touching moment when Monica lists herself as Rachel's emergency contact. However, the sweet mood quickly evaporates when Monica asks for Rachel's insurance information, leaving Rachel silent and anxious as she realizes she does not have coverage."
+  }
+]

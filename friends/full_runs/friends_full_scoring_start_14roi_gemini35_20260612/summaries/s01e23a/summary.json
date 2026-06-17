@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:46",
+    "batch_summary": "Ross anxiously waits in a hospital waiting room with Monica, Chandler, Rachel, and Joey for Carol to arrive and give birth. The group exchanges jokes to ease the tension, and Phoebe arrives with her guitar. When Carol and Susan finally arrive, Ross is frustrated that they stopped for a candy bar. The scene shifts to the delivery room, where Ross and Susan continue to bicker until Dr. Franzblau arrives to check on Carol, diffusing the tension with lighthearted humor.",
+    "cumulative_summary": "In a hospital waiting room, an anxious Ross paces as he waits for his pregnant ex-wife, Carol, to arrive and give birth to his baby. His friends Monica, Chandler, Rachel, and Joey try to keep him calm, though their teasing and jokes only highlight his nervousness. Phoebe soon joins them, carrying her guitar to pass the time. Tension rises when Carol finally arrives in a wheelchair, accompanied by her partner Susan; Ross is immediately annoyed to learn they delayed their arrival to buy a \"Chunky\" candy bar at the gift shop. The group moves to the hospital room, where Ross and Susan continue their petty bickering over the candy bar. The mood lightens slightly when Dr. Franzblau enters the room, greeting the parenting team and making playful jokes about Carol's advanced stage of pregnancy as he prepares to examine her."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:46 - 00:03:03",
+    "batch_summary": "Inside the hospital room, Ross and Susan continue to bicker, this time over timing Carol's contractions. When Carol asks for ice chips, Ross leaves to get them, but Rachel beats him to it. Rachel introduces herself to Dr. Franzblau in a humorously convoluted way. Meanwhile, in the waiting room, Monica admits she wants a baby, prompting a sarcastic response from Chandler. Nearby, Joey watches a basketball game and strikes up a conversation with Lydia, a pregnant Knicks fan who just walked in.",
+    "cumulative_summary": "In a hospital waiting room, an anxious Ross paces as he waits for his pregnant ex-wife, Carol, to arrive and give birth. His friends Monica, Chandler, Rachel, and Joey try to keep him calm, though their teasing highlights his nervousness. When Carol and her partner Susan arrive, Ross's anxiety turns to petty bickering, which continues in the delivery room over timing Carol's contractions. After Ross leaves to fetch ice chips for Carol, Rachel arrives with some instead and shares a humorous introduction with Carol's obstetrician, Dr. Franzblau. Meanwhile, back in the waiting room, Monica confesses her own desire to have a baby, prompting a witty deflection from Chandler as they head off for coffee. Left alone by the television, Joey watches a basketball game and strikes up a friendly conversation with Lydia, an expectant mother and fellow Knicks fan."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:03 - 00:04:31",
+    "batch_summary": "Joey and Lydia's playful basketball rivalry is interrupted when Lydia goes into labor. When Joey frantically calls for the father, Lydia reveals she is on her own, prompting Joey to kindly guide her to the delivery room. Meanwhile, in the waiting room, Phoebe sings a humorously bleak song about parenting until Ross pays her to stop. Monica's baby fever intensifies when she spots a mother with twins, leading her to complain to Chandler about the unfairness of her situation.",
+    "cumulative_summary": "In a hospital waiting room, an anxious Ross paces as he waits for his pregnant ex-wife, Carol, to arrive and give birth. His friends Monica, Chandler, Rachel, and Joey try to keep him calm. When Carol and her partner Susan arrive, Ross's anxiety turns to petty bickering in the delivery room. Meanwhile, Rachel flirts with Carol's obstetrician, and Monica confesses her deep desire to have a baby to Chandler. Left alone, Joey strikes up a friendly basketball rivalry with Lydia, an expectant mother. When Lydia goes into labor, Joey frantically searches for the father, only to learn she is single; he kindly helps her to the delivery ward. Back in the waiting room, Phoebe performs a humorously bleak song about the realities of parenting until Ross pays her to stop. Monica's baby fever peaks when she spots a mother with twins, prompting her to lament her single, childless status to Chandler."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:31 - 00:05:59",
+    "batch_summary": "Chandler tries to comfort Monica by suggesting a pact to have a baby together if they are both single at 40, but Monica takes offense, forcing Chandler to awkwardly flee. Meanwhile, Rachel arrives dressed up and anxiously searches for Dr. Franzblau, prompting Chandler to tease her about her fixation on doctors. In the delivery room, Joey stays by Lydia's side as she argues with her mother on the phone, proudly introducing Joey as her companion.",
+    "cumulative_summary": "In a hospital waiting room, Ross anxiously awaits the birth of his child with his ex-wife Carol and her partner Susan. While Phoebe sings bleak parenting songs, Monica laments her single, childless status to Chandler. Chandler attempts to comfort her by suggesting a pact to have a baby together if they are both single at 40, but Monica takes offense, forcing Chandler to awkwardly flee. Meanwhile, Rachel arrives dressed up and anxiously searches for Carol's obstetrician, Dr. Franzblau, prompting Chandler to tease her about her fixation on doctors. Nearby, Joey continues to support Lydia, the single expectant mother he helped earlier. As Lydia argues with her mother on the phone, she proudly introduces Joey Tribbiani as her companion, bringing a smile to his face as he stays by her side."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:05:59 - 00:07:38",
+    "batch_summary": "Joey speaks briefly with Lydia's mother on the phone before she hangs up. When Joey asks about the baby's father, Lydia gets defensive, prompting Joey to briefly walk out. However, he quickly returns to continue their playful sports banter. Meanwhile, in the delivery room, Carol is in labor. A heated argument erupts between Ross and Susan when Susan refers to the baby as \"Jordy,\" revealing they discarded Ross's preferred name, \"Jamie,\" because it was the name of Susan's ex-girlfriend.",
+    "cumulative_summary": "In a hospital waiting room, Ross anxiously awaits the birth of his child with his ex-wife Carol and her partner Susan. While Phoebe sings bleak parenting songs, Monica laments her single status to Chandler, who awkwardly suggests a future marriage pact. Meanwhile, Rachel searches for Carol's obstetrician, and Joey continues to support Lydia, a single expectant mother. After a brief, awkward phone call with Lydia's mother, Joey asks about the baby's father, causing a tense moment that almost makes him leave. However, he returns to resume their playful sports banter. In the delivery room, Carol goes into labor, but the supportive atmosphere quickly dissolves into conflict. Ross and Susan clash bitterly over the baby's name when Susan refers to the child as \"Jordy,\" revealing she and Carol rejected Ross's choice, \"Jamie,\" because it was the name of Susan's first girlfriend."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:07:38 - 00:09:36",
+    "batch_summary": "Fed up with Ross and Susan's relentless bickering, Carol kicks them both out of the delivery room. In the hallway, their argument escalates until Phoebe intervenes, dragging them into a closet to lecture them, only to accidentally lock all three of them inside. Meanwhile, Joey panics when Lydia's water breaks but tries to remain supportive. Back in the delivery room, Carol asks Rachel and Dr. Franzblau where Ross and Susan are.",
+    "cumulative_summary": "In a hospital waiting room, Ross anxiously awaits the birth of his child with his ex-wife Carol and her partner Susan. While Phoebe sings bleak parenting songs, Monica laments her single status to Chandler, and Joey supports Lydia, a single expectant mother. In the delivery room, Carol goes into labor, but the atmosphere dissolves into conflict as Ross and Susan clash bitterly over baby names. Fed up with their relentless bickering, Carol kicks them both out of the room. Their argument escalates in the hallway until Phoebe intervenes, dragging them into a closet to lecture them, only to accidentally lock all three of them inside. Meanwhile, Joey panics when Lydia's water breaks but tries to remain supportive. Back in the delivery room, Carol begins to wonder where Ross and Susan have gone as her labor progresses."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:36 - 00:11:15",
+    "batch_summary": "As Carol's labor progresses with Dr. Franzblau and Rachel by her side, Chandler and Monica search the hospital for their missing friends. Inside the locked closet, Ross's failed attempt to kick the door open leads to more bickering with Susan, while Phoebe sings a morbid song about their predicament. Meanwhile, Joey enthusiastically coaches Lydia through her delivery like a sports trainer until a nurse reprimands him, forcing him to tone down his support.",
+    "cumulative_summary": "In a hospital waiting room, Ross anxiously awaits the birth of his child with his ex-wife Carol and her partner Susan. While Monica laments her single status, Joey supports Lydia, a single expectant mother. In the delivery room, Carol goes into labor, but the atmosphere dissolves into conflict as Ross and Susan clash bitterly over baby names. Fed up with their bickering, Carol kicks them out. Phoebe drags them into a closet to lecture them, only to accidentally lock all three inside. As Carol's labor progresses with Dr. Franzblau and Rachel by her side, Chandler and Monica search for their missing friends. Inside the locked closet, Ross's failed attempt to kick the door open leads to more bickering with Susan, while Phoebe sings a morbid song about their predicament. Meanwhile, Joey enthusiastically coaches Lydia through her delivery like a sports trainer until a nurse reprimands him."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 284,
+    "timestamp_range": "00:11:15 - 00:11:27",
+    "batch_summary": "While Ross and Susan continue to desperately bang on the locked closet door, the scene shifts back to the waiting room. Monica speaks to her mother on a payphone, falsely reassuring her that everything is going smoothly and that Ross is actively involved in the birth. Nearby, Chandler sits quietly, waiting as the search for their missing friends temporarily stalls.",
+    "cumulative_summary": "In a hospital waiting room, Ross anxiously awaits the birth of his child with his ex-wife Carol and her partner Susan. While Monica laments her single status, Joey supports Lydia, a single expectant mother. In the delivery room, Carol goes into labor, but the atmosphere dissolves into conflict as Ross and Susan clash bitterly over baby names. Fed up with their bickering, Carol kicks them out. Phoebe drags them into a closet to lecture them, only to accidentally lock all three inside. As Carol's labor progresses with Dr. Franzblau and Rachel by her side, Chandler and Monica search for their missing friends. Inside the locked closet, Ross's failed attempt to kick the door open leads to more bickering with Susan, while Phoebe sings a morbid song about their predicament. Meanwhile, Joey enthusiastically coaches Lydia through her delivery like a sports trainer until a nurse reprimands him. While Ross and Susan continue to desperately bang on the locked closet door, Monica speaks to her mother on a payphone, falsely reassuring her that everything is going smoothly and that Ross is present, while Chandler waits nearby."
+  }
+]

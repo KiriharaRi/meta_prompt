@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:42",
+    "batch_summary": "While reassuring her mother on the phone that her apartment is safe, Rachel is startled when a pigeon flies through her window. After a tense struggle, she successfully traps the bird under a pot. Her victory is short-lived when a man named Duncan enters looking for Phoebe, revealing himself to be Phoebe's husband. Shocked by this revelation, Rachel drops the pot, letting the pigeon escape. Later, the group confronts Phoebe about her secret marriage, which she downplays.",
+    "cumulative_summary": "In her apartment kitchen, Rachel tries to reassure her overprotective mother on the phone that her building is safe. However, her claim is immediately undercut when a pigeon flies through the open window, causing her to panic and hang up. After a tense and comical struggle, Rachel manages to trap the bird under a metal pot. Just as she secures it, a man named Duncan enters the apartment carrying flowers and looking for Phoebe. When Rachel offers to take a message, Duncan casually reveals that he is Phoebe's husband. Stunned by this shocking news, Rachel drops the pot, allowing the pigeon to escape. The scene then shifts to the rest of the group confronting Phoebe about her secret marriage. Phoebe tries to downplay the situation, cryptically explaining that she is not \"married married,\" leaving her friends bewildered."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:42 - 00:03:19",
+    "batch_summary": "Phoebe explains she married her gay Canadian friend, Duncan, for a green card. Monica is hurt by the secret, pointing out Phoebe was actually in love with him. Deflecting, Phoebe reveals Monica once left her underwear on a telephone pole after sex with Fun Bobby. Furious at Chandler for leaking this, Monica retaliates by exposing Chandler's secret: he has a third nipple. The group's focus shifts to teasing Chandler about his useless extra nipple, creating a chain reaction of exposed secrets.",
+    "cumulative_summary": "In her apartment, Rachel's struggle with a pigeon is interrupted by Duncan, who reveals he is Phoebe's husband. When the group confronts Phoebe, she explains that Duncan is a gay Canadian friend she married solely for a green card. Monica is deeply hurt that Phoebe kept this a secret, especially since Phoebe was clearly in love with him. To deflect Monica's judgment, Phoebe exposes Monica's own secret: she left her underwear on a telephone pole after having sex with Fun Bobby on the terrace. Realizing Chandler leaked this information, a furious Monica retaliates by revealing Chandler's closely guarded secret—that he has a third nipple. The tense confrontation quickly devolves into comedic chaos as the rest of the group, including Ross, Joey, and Rachel, gleefully tease Chandler and demand to see his useless extra nipple."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:19 - 00:05:22",
+    "batch_summary": "To deflect teasing about his third nipple, Chandler exposes Joey's past appearance in an adult film, though Joey clarifies he only played a copier repairman. Later at Central Perk, Julie tries to reassure Chandler that some cultures view a third nipple as a sign of virility, further enamoring Ross. Watching them, a bitter Rachel mocks Julie's perfection. Monica advises Rachel to move on and accept Ross's new relationship, prompting a sarcastic and frustrated outburst from Rachel just as Phoebe arrives.",
+    "cumulative_summary": "After Phoebe's secret green-card marriage to Duncan is exposed, a chain reaction of secrets unfolds. To deflect Monica's judgment, Phoebe reveals Monica's terrace tryst with Fun Bobby. Monica retaliates by exposing Chandler's third nipple, prompting relentless teasing. To save himself, Chandler reveals Joey once acted in an adult film, though Joey defends his minor role as a copier repairman. Later at Central Perk, Julie tries to comfort Chandler by suggesting his extra nipple is a sign of virility in some cultures, further enamoring Ross. Watching them, a jealous Rachel bitterly mocks Julie's perfection. When Monica advises her to accept that Ross has moved on, Rachel reacts with sarcastic frustration just as Phoebe arrives."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:22 - 00:07:08",
+    "batch_summary": "Phoebe prepares to meet her husband Duncan at his ice-skating show, dressing up to find closure despite Monica's warnings. Meanwhile, Ross continues to tease Chandler about his third nipple. After Julie leaves Central Perk, Ross unexpectedly asks Rachel for relationship advice, wanting to know how long she typically waits to have sex in a new relationship. This surprising question catches Rachel off guard, immediately sparking her curiosity.",
+    "cumulative_summary": "After Phoebe's secret green-card marriage to Duncan is exposed, a chain reaction of secrets unfolds, leading to Monica exposing Chandler's third nipple. While the group continues to tease Chandler, Phoebe decides to meet Duncan at his ice-skating show to find closure, dressing up despite Monica's warnings. Meanwhile, Rachel struggles with her jealousy over Ross and Julie's relationship. After Julie leaves Central Perk, Ross unexpectedly turns to Rachel for relationship advice, asking how long she typically waits to have sex in a new relationship. This surprising question catches Rachel off guard, immediately sparking her curiosity and highlighting the underlying romantic tension and awkwardness between the two."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:08 - 00:08:36",
+    "batch_summary": "Ross confesses to Rachel that he and Julie have not had sex yet, admitting he is \"psyched out\" due to his limited sexual history with his ex-wife, Carol. Sensing an opportunity to delay their intimacy, Rachel reassures Ross by claiming that a man who wants to wait is incredibly \"sexy.\" She strongly encourages him to hold off even longer, playing on his insecurities to keep him from sleeping with Julie while maintaining a supportive front.",
+    "cumulative_summary": "After Phoebe's secret green-card marriage to Duncan is exposed, a chain reaction of secrets unfolds, leading to Monica exposing Chandler's third nipple. While the group continues to tease Chandler, Phoebe decides to meet Duncan at his ice-skating show to find closure. Meanwhile, Rachel struggles with her jealousy over Ross and Julie's relationship. When Ross unexpectedly turns to Rachel for relationship advice, he confesses that he and Julie have not slept together yet. Ross admits he is insecure and \"psyched out\" because his only previous partner was his ex-wife, Carol. Seizing the chance to stall their physical intimacy, Rachel reassures Ross that his hesitation is actually \"sexy\" and strongly advises him to wait even longer. Ross is comforted by her advice, completely unaware of Rachel's ulterior, jealous motives."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:36 - 00:10:13",
+    "batch_summary": "Rachel continues to manipulate Ross, emphatically advising him to delay sleeping with Julie by claiming that waiting is what women truly desire. Ross, completely convinced, takes her advice to heart. Meanwhile, Phoebe visits her green-card husband, Duncan, in his dressing room at Madison Square Garden. The two share a warm, nostalgic reunion, embracing and expressing how much they have missed each other before Duncan goes to change.",
+    "cumulative_summary": "After Phoebe's secret green-card marriage to Duncan is exposed, a chain reaction of secrets unfolds, leading to Monica exposing Chandler's third nipple. While the group continues to tease Chandler, Phoebe decides to meet Duncan at his ice-skating show at Madison Square Garden to find closure. Their reunion in his dressing room is warm and nostalgic, as they embrace and express how much they missed each other. Meanwhile, Rachel struggles with her jealousy over Ross and Julie's relationship. When Ross unexpectedly turns to Rachel for relationship advice, he confesses that he and Julie have not slept together yet. Seizing the chance to stall their physical intimacy, Rachel emphatically advises Ross to wait even longer, claiming that women desire restraint more than jewelry. Ross is comforted and completely convinced by her advice, remaining unaware of Rachel's jealous, ulterior motives to keep him and Julie apart."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 263,
+    "timestamp_range": "00:10:13 - 00:11:16",
+    "batch_summary": "Phoebe bids a playful farewell to Duncan, concluding their meeting. Later, in the apartment kitchen, Chandler interrupts a kiss between Ross and Julie with a joke. Ross thanks Rachel for her advice on waiting to be intimate with Julie. However, when Rachel asks if he is going to follow it, Ross reveals that he subsequently consulted Joey. Rachel's face falls in silent horror, realizing Joey's advice has likely ruined her plan to keep Ross and Julie apart.",
+    "cumulative_summary": "After Phoebe's secret green-card marriage to Duncan is exposed, she meets him at Madison Square Garden for closure, ultimately bidding him a warm and playful farewell. Meanwhile, Rachel struggles with her jealousy over Ross and Julie's relationship. When Ross turns to Rachel for relationship advice, confessing that he and Julie have not slept together yet, Rachel seizes the opportunity. She advises him to wait, hoping to stall their physical intimacy. However, her plan quickly unravels. Back at the apartment, after Chandler jokingly interrupts a kiss between Ross and Julie, Ross thanks Rachel for her advice. But when Rachel asks if he is going to wait, Ross reveals that he also consulted Joey after speaking with her. Rachel is left in silent, clenched-jaw horror, realizing that Joey's advice has likely completely derailed her scheme to keep Ross and Julie apart."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:32",
+    "batch_summary": "In their kitchen, Chandler is horrified to discover his roommate Joey's unhygienic habits, including licking a spoon before putting it away, using Chandler's toothbrush, and sharing soap in a highly questionable manner. Later, dressed up for a brunch hosted by a coma patient from Joey's show, the roommates join Monica, Phoebe, and Rachel. The group discusses Joey's event, and Chandler expresses disbelief that Rachel and Phoebe are actually going to get tattoos.",
+    "cumulative_summary": "The episode opens with a humorous and tense confrontation between roommates Chandler and Joey in their kitchen. Chandler is disgusted to witness Joey lick a spoon and return it to the drawer. The argument escalates when Joey casually reveals he has been using Chandler's toothbrush—after using his own to unclog the drain. Joey further unnerves Chandler by pointing out the gross implications of sharing a bar of soap. After this unsettling exchange, the scene shifts to the neighboring apartment where a dressed-up Joey and Chandler join Monica, Phoebe, and Rachel. Joey explains they are attending a brunch for a coma patient character from his television show. Meanwhile, Rachel and Phoebe prepare to leave, prompting Chandler to express his disbelief that the two women are actually going to get tattoos."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:32 - 00:03:05",
+    "batch_summary": "Rachel's plan to surprise Ross with a tattoo is spoiled when he walks in and strongly disapproves of the idea, comparing tattoos to permanent bad haircuts. Meanwhile, Monica prepares for her father's birthday party, which her older boyfriend, Richard, is attending. Joey and Ross press Monica about whether she will finally reveal her relationship with Richard to her parents, but Monica decides to keep it a secret until she is sure of how serious Richard is about her.",
+    "cumulative_summary": "The episode opens with a tense, humorous confrontation between Chandler and Joey over Joey's gross hygiene habits, including sharing Chandler's toothbrush and a bar of soap. Later, in Monica's apartment, Rachel and Phoebe reveal they are getting tattoos. Although Rachel wants to surprise Ross, he walks in and immediately voices his strong disapproval, comparing tattoos to a permanent bad haircut. Meanwhile, Monica prepares for her father's birthday party, which her older boyfriend, Richard—a close family friend—is attending. Joey and Ross press Monica on whether she will finally reveal her relationship with Richard to her parents. Monica decides to keep it a secret for now, admitting she is still unsure of how serious Richard is about their relationship, while Ross playfully teases her about their significant age difference."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:05 - 00:04:45",
+    "batch_summary": "Monica, Ross, and Richard arrive at Jack's birthday party, with Monica feeling incredibly anxious about keeping her relationship with Richard a secret. Despite their nerves, they enter, and Richard is warmly welcomed by Jack. However, the tension rises when Ross makes a sly comment about Monica thanking Richard for the ride. Later in the kitchen, Monica is horrified when a family friend, Emily, gossips about Richard dating a \"20-year-old twinkie,\" causing a nervous Monica to ruin a cake with whipped cream.",
+    "cumulative_summary": "The episode opens with Joey and Chandler bickering over shared hygiene items, while Rachel and Phoebe plan to get tattoos despite Ross's vocal disapproval. Meanwhile, Monica prepares for her father Jack's birthday party, which her older boyfriend, Richard, is also attending. Although Monica decides to keep their relationship a secret from her parents, both she and Richard are incredibly anxious as they arrive at the party. Ross playfully heightens the tension by making a sly comment to their mother, Judy, about Monica thanking Richard for driving them. The situation grows even more awkward in the kitchen when a family friend, Emily, gossips about Richard dating a \"20-year-old twinkie.\" Overhearing this, a panicked Monica loses control of a whipped cream can, creating a massive mound on a cake while desperately trying to keep her composure and protect her secret."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:45 - 00:06:33",
+    "batch_summary": "At the party, Monica endures harsh gossip about Richard's young girlfriend, while Richard faces relentless teasing from Jack and his friends, who compare the young woman to a sports car. Ross frantically intervenes to stop his father's inappropriate jokes. Meanwhile, Joey and Chandler tour a beautiful apartment that is unexpectedly available, and Rachel and Phoebe arrive at the tattoo parlor to browse designs.",
+    "cumulative_summary": "The episode opens with Joey and Chandler bickering, while Rachel and Phoebe plan to get tattoos despite Ross's disapproval. Meanwhile, Monica and her older boyfriend, Richard, anxiously attend her father Jack's birthday party while keeping their relationship a secret. The tension escalates when a family friend, Emily, gossips about Richard dating a \"20-year-old twinkie,\" prompting a panicked Monica to make a mess with whipped cream. As Emily continues to insult the mystery girl's intelligence, Richard faces relentless teasing from Jack and his friends, who compare his young girlfriend to a sports car. Ross frantically intervenes to stop his father's inappropriate jokes, while Richard struggles to maintain his composure. Elsewhere, Joey and Chandler tour a beautiful apartment that is unexpectedly available, though Chandler seems hesitant about the prospect. Finally, Rachel and Phoebe arrive at the tattoo parlor to browse designs."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:33 - 00:08:07",
+    "batch_summary": "At the tattoo parlor, Rachel hesitates to get her tattoo, realizing she is letting Ross's disapproval dictate her choices. Phoebe steps in with an empowering pep talk, reminding Rachel that she is her own boss. Reinvigorated, Rachel decides to go through with getting a heart tattoo on her hip. Meanwhile, the scene shifts back to Jack's birthday party, where Richard joins Monica in a private bathroom to escape the mounting tension.",
+    "cumulative_summary": "The episode opens with Joey and Chandler bickering, while Rachel and Phoebe plan to get tattoos despite Ross's disapproval. Meanwhile, Monica and her older boyfriend, Richard, anxiously attend her father Jack's birthday party while keeping their relationship a secret. The tension escalates when a family friend gossips about Richard's young girlfriend, prompting a panicked Monica to make a mess with whipped cream. As Richard faces relentless teasing from Jack and his friends, Ross frantically intervenes to stop his father's inappropriate jokes. Elsewhere, Joey and Chandler tour a beautiful apartment, though Chandler seems hesitant about moving. At the tattoo parlor, Rachel initially hesitates to get inked, worrying that she is letting Ross control her. However, after an empowering pep talk from Phoebe about being her own boss, Rachel confidently decides to get a heart tattoo on her hip. Back at the party, Monica and Richard retreat to a private bathroom to escape the mounting pressure."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:07 - 00:09:44",
+    "batch_summary": "In the bathroom, Monica and Richard comfort each other over the stress of hiding their relationship. After Richard leaves to avoid suspicion, Monica is forced to hide behind the shower curtain when her parents, Jack and Judy, enter. She overhears them gossiping about Richard's new \"bimbo\" girlfriend, but is deeply moved when Judy reveals that Richard told a friend he is falling in love with her.",
+    "cumulative_summary": "The episode opens with Joey and Chandler bickering, while Rachel and Phoebe plan to get tattoos despite Ross's disapproval. Meanwhile, Monica and her older boyfriend, Richard, anxiously attend her father Jack's birthday party while keeping their relationship a secret. As Richard faces relentless teasing, Joey and Chandler tour a new apartment, and Rachel overcomes her hesitation to get a heart tattoo on her hip. Back at the party, Monica and Richard retreat to a private bathroom to escape the mounting pressure. After sharing a tender moment, Richard leaves first to avoid suspicion. Monica is forced to hide behind the shower curtain when her parents, Jack and Judy, walk in. While hiding, Monica overhears them gossiping about Richard's new \"bimbo\" girlfriend, but she is deeply touched to learn that Richard told a friend he is actually falling in love with her."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:44 - 00:11:43",
+    "batch_summary": "While hiding in the bathroom, Monica is traumatized when she accidentally overhears her parents getting intimate. Meanwhile, Joey and Chandler get into a heated argument after Chandler accuses Joey of wanting to move out. Joey admits he wants to experience living alone now that he can afford it. Hurt and defensive, Chandler tells him to take the new apartment, leading to a bitter standoff where Joey decides to move. Back at the party, a shaken Monica tells Ross about the horrifying \"live show\" she just witnessed.",
+    "cumulative_summary": "The episode follows the friends navigating secrets and major life changes. While Rachel gets a heart tattoo despite Ross's disapproval, Monica and her older boyfriend, Richard, attend her father Jack's birthday party while keeping their relationship secret. To escape the pressure, Monica hides in a bathroom, where she overhears her parents gossiping about Richard's new girlfriend, but is touched to learn Richard is falling in love with her. However, her hiding spot backfires when she is traumatized by overhearing her parents getting intimate, a horror she later shares with Ross. Meanwhile, Joey and Chandler's playful bickering escalates into a serious conflict when Chandler accuses Joey of wanting a new apartment. Joey confesses that at 28, he finally wants to experience living alone. Feeling defensive and hurt, Chandler tells Joey to take the place, prompting Joey to decide to move out, leaving their friendship in a tense and fractured state."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 281,
+    "timestamp_range": "00:11:43 - 00:11:51",
+    "batch_summary": "In this brief concluding moment, Monica walks away into the kitchen while Ross quietly watches her leave, reflecting the lingering awkwardness and emotional weight of their recent conversation about their parents. The scene then fades to black, bringing a quiet, reflective close to this chapter of the friends' interconnected lives as they navigate their respective personal dilemmas and relationship shifts.",
+    "cumulative_summary": "The friends navigate secrets and major life changes. While Rachel gets a heart tattoo despite Ross's disapproval, Monica and her older boyfriend, Richard, attend her father's birthday party while keeping their relationship secret. To escape the pressure, Monica hides in a bathroom, where she overhears her parents gossiping about Richard's new girlfriend, but is touched to learn Richard is falling in love with her. However, her hiding spot backfires when she is traumatized by overhearing her parents getting intimate, a horror she later shares with Ross. Following this awkward revelation, Monica retreats to the kitchen under Ross's watchful eye before the scene fades to black. Meanwhile, Joey and Chandler's playful bickering escalates into a serious conflict when Chandler accuses Joey of wanting a new apartment. Joey confesses that at 28, he finally wants to experience living alone. Feeling defensive and hurt, Chandler tells Joey to take the place, prompting Joey to decide to move out, leaving their friendship in a tense and fractured state."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:49",
+    "batch_summary": "In a coffee shop, Ross, Chandler, Phoebe, and Monica discuss what they would do if they were omnipotent. Joey joins them but hilariously confuses \"omnipotent\" with \"impotent,\" leading to an awkward misunderstanding with Ross. Later, as Phoebe sleeps on the couch, Monica and Ross bicker over childhood memories of the Grand Canyon. Phoebe suddenly jolts awake, explaining her severe sleep deprivation is due to her grandmother's loud, insecure intimate life with a new boyfriend.",
+    "cumulative_summary": "At the Central Perk coffee shop, a tight-knit group of friends shares lighthearted banter. The conversation begins with Phoebe, Monica, Chandler, and Ross discussing what they would do if they were omnipotent for a day. When Joey arrives, he hilariously confuses the word \"omnipotent\" with \"impotent,\" leading to an awkward and comedic misunderstanding where he mistakenly believes Ross is impotent. After a brief transition, the scene shifts to Phoebe sleeping soundly on the couch. Monica and Ross bicker over Monica's ability to sleep in public, revealing that she slept through a childhood family trip to the Grand Canyon. Phoebe suddenly jolts awake from a nightmare, visibly exhausted. When Monica asks about her lack of sleep, Phoebe candidly reveals that her grandmother's new boyfriend has moved in, and the couple's loud, insecure intimate life is keeping her awake all night."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:49 - 00:03:21",
+    "batch_summary": "Monica offers Phoebe a place to stay to escape her grandmother's loud, deaf boyfriend. Joey and Chandler arrive with hockey tickets for Ross, jokingly calling it a birthday gift despite his birthday being months ago. However, Ross realizes the date is October 20th—the anniversary of when he first slept with his ex-wife, Carol. Overcome with sadness, Ross decides to skip the game to go home and brood about Carol and her new partner.",
+    "cumulative_summary": "At the Central Perk coffee shop, a tight-knit group of friends shares lighthearted banter. After discussing omnipotence, Phoebe reveals she is sleep-deprived because her grandmother's loud, deaf boyfriend has moved in. Sympathetic, Monica offers Phoebe a place to stay with her and Rachel. Soon after, Joey and Chandler arrive and surprise Ross with hockey tickets under the guise of a late birthday present. However, Ross quickly realizes the date is October 20th—the anniversary of when he and his ex-wife, Carol, first consummated their relationship. Depressed by the memory of his failed marriage, Ross declines the tickets, choosing instead to go home alone and brood over Carol and her lesbian partner."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:21 - 00:04:51",
+    "batch_summary": "Chandler and Joey successfully convince a reluctant Ross to join them for a guys' night out at the hockey game to cheer him up. Meanwhile, Rachel excitedly receives her first paycheck from Central Perk, only to be immediately disheartened by how little she actually made after tax deductions. After Phoebe shares a bizarre story about her past, the guys try to reassure Rachel before leaving her generous tips and heading out to their game.",
+    "cumulative_summary": "At the Central Perk coffee shop, a tight-knit group of friends shares lighthearted banter. After discussing omnipotence, Phoebe reveals she is sleep-deprived because her grandmother's loud, deaf boyfriend has moved in. Sympathetic, Monica offers Phoebe a place to stay with her and Rachel. Soon after, Joey and Chandler arrive and surprise Ross with hockey tickets under the guise of a late birthday present. However, Ross quickly realizes the date is October 20th—the anniversary of when he and his ex-wife, Carol, first consummated their relationship. Depressed by the memory of his failed marriage, Ross initially declines the tickets. However, Chandler and Joey successfully convince him to join them for a \"guys' night out\" to take his mind off things. Meanwhile, Rachel excitedly receives her first paycheck from Central Perk, but her joy quickly turns to disappointment upon seeing how much FICA has deducted from her earnings. After Phoebe shares a bizarre story about her own past employment, the guys try to reassure Rachel, leaving her generous tips before heading off to the hockey game."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:51 - 00:06:42",
+    "batch_summary": "Rachel is visited at Central Perk by her wealthy, old friends, Kiki, Leslie, and Joanne. As they excitedly share updates about engagements and career promotions, Rachel feels self-conscious in her waitress apron. Monica and Phoebe watch the high-energy reunion with amusement. Meanwhile, on their way to the hockey game, Joey, Chandler, and Ross walk down the street. Ross's mood takes another dive when a pair of boots in a shop window reminds him of his first night with Carol, prompting him to apologize to his friends for his lingering sadness.",
+    "cumulative_summary": "At Central Perk, Phoebe moves in with Monica and Rachel to escape her grandmother's loud boyfriend. Meanwhile, Rachel's joy over her first paycheck turns to disappointment due to tax deductions, which is compounded when her wealthy old friends drop by. As they excitedly share news of engagements and career success, Rachel feels self-conscious in her waitress apron, while Monica and Phoebe watch with amusement. To cheer up Ross on the anniversary of his first night with his ex-wife Carol, Joey and Chandler take him to a hockey game. However, on their way there, Ross spots a pair of boots in a shop window that triggers memories of Carol, plunging him back into depression and prompting him to apologize to his friends for dampening the mood."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:42 - 00:08:26",
+    "batch_summary": "On their way to the game, Ross's melancholy continues as a peach pit on the street triggers another memory of Carol, while Joey's clumsy attempt to cheer him up falls flat. Meanwhile, at Central Perk, Rachel tries to defend her new independent life to her wealthy friends. However, as she lists her minor waitressing duties, like writing on the specials board and decorating cookies, her friends' patronizing amusement leaves her feeling deeply insecure and deflated.",
+    "cumulative_summary": "At Central Perk, Phoebe moves in with Monica and Rachel to escape her grandmother's loud boyfriend. Meanwhile, Rachel's joy over her first paycheck turns to disappointment due to tax deductions, which is compounded when her wealthy old friends drop by. As they share news of their successful lives, Rachel feels self-conscious. When her friends patronizingly ask when she is coming home, Rachel tries to defend her new independence by listing her minor waitressing duties, but their amusement only leaves her feeling more deflated. To cheer up Ross on the anniversary of his first night with his ex-wife Carol, Joey and Chandler take him to a hockey game. However, Ross remains deeply depressed, finding reminders of Carol everywhere—first in a shop window's boots, and then in a discarded peach pit on the street. Joey's clumsy attempt to distract Ross by pointing out a woman who resembles Carol only falls flat, leaving the guys to awkwardly push forward to the game."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:26 - 00:10:11",
+    "batch_summary": "Back at the apartment, Monica and Phoebe host a slumber party to cheer up a deflated Rachel, offering \"Tiki death punch\" and games. The mood shifts when the Visa company calls about Rachel's inactive card. This triggers an emotional breakdown from Rachel, who laments that her peers are getting married, pregnant, or promoted while she is stuck serving coffee. Seeking a distraction from her existential dread, Rachel aggressively insists they play Twister.",
+    "cumulative_summary": "At Central Perk, Phoebe moves in with Monica and Rachel. Rachel's joy over her first paycheck quickly sours due to tax deductions, a disappointment compounded by a patronizing visit from her wealthy, successful friends. To distract a deeply depressed Ross from the anniversary of his first night with his ex-wife Carol, Joey and Chandler take him to a hockey game. Back at the apartment, Monica and Phoebe try to cheer up a deflated Rachel with a slumber party. However, the mood shifts when Rachel's credit card company calls to report \"unusual activity\"—which is actually her complete lack of spending. This triggers an emotional breakdown from Rachel, who laments that her peers are getting married, pregnant, or promoted while she is stuck serving coffee. Desperate to escape her anxiety, Rachel aggressively insists they play Twister just as the guys arrive at Madison Square Garden."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 258,
+    "timestamp_range": "00:10:11 - 00:11:12",
+    "batch_summary": "At the hockey game, Ross continues to dwell on his ex-wife Carol, annoying Chandler and Joey as they find their seats. Meanwhile, back at the apartment, Monica tries to reassure Rachel that her new independence is a major achievement. Still feeling doubtful about her sacrifices, Rachel is comforted by Phoebe, who uses a quirky \"Jack and the Beanstalk\" analogy to remind her that giving up her old life could lead to unexpected, magical possibilities.",
+    "cumulative_summary": "At Central Perk, Phoebe moves in with Monica and Rachel. Rachel's joy over her first paycheck quickly sours due to tax deductions, a disappointment compounded by a patronizing visit from her wealthy friends. To distract a deeply depressed Ross from the anniversary of his first night with his ex-wife Carol, Joey and Chandler take him to a hockey game. However, even at Madison Square Garden, Ross continues to wallow in memories of Carol, testing his friends' patience. Back at the apartment, Monica and Phoebe try to comfort a deflated Rachel during their slumber party. When Rachel experiences an emotional breakdown over her lack of career progress and financial independence, Monica reassures her that she is doing an amazing, independent thing. Phoebe chimes in with a quirky \"Jack and the Beanstalk\" analogy, encouraging Rachel to view her sacrifices as \"magic beans\" that will eventually grow into a future full of new possibilities."
+  }
+]

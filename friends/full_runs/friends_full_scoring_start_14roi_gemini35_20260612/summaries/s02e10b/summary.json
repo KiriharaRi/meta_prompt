@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:24",
+    "batch_summary": "In the coffee shop, Monica laments that her boyfriend has become dull since quitting drinking. Meanwhile, Rachel's new date, Russ, arrives. Chandler and Phoebe are immediately struck by Russ's uncanny resemblance to Ross, though Rachel fails to see it. When the real Ross walks in, Phoebe is shocked, and Monica covers with a bizarre excuse. Finally, Chandler guides Ross over to Russ, bringing the lookalikes face-to-face in an amusing confrontation.",
+    "cumulative_summary": "In a coffee shop, Monica complains to Chandler and Phoebe that her boyfriend has become incredibly dull ever since she helped him quit drinking. The mood shifts when Rachel's new date, Russ, arrives. Chandler initially mistakes him for Ross, and Phoebe is quickly bewildered by the uncanny resemblance between the two men. Rachel, however, remains oblivious, suggesting Russ looks more like Bob Saget. When the actual Ross enters the shop, Phoebe reacts with shock, prompting Monica to cover with a bizarre lie about Phoebe buttering a spider into her toast. Sensing the comedy of the situation, Chandler orchestrates a meeting by guiding Ross directly toward Russ. The segment ends in a humorous climax as the two identical-looking men stand face-to-face, staring at each other in mutual confusion."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:24 - 00:03:00",
+    "batch_summary": "Ross and Russ share an awkward introduction, discovering they are a paleontologist and a periodontist, respectively. While the friends joke about their identical nature, Russ departs to get a drink. Ross then confronts Rachel about dating other people. When Rachel points out they are not together, a defensive Ross claims a museum curator is interested in him. Rachel confirms they are indeed free to date, leaving Ross frustrated as she prepares to leave with Russ.",
+    "cumulative_summary": "In a coffee shop, Monica complains about her newly sober, dull boyfriend, but the mood shifts when Rachel's new date, Russ, arrives. Phoebe and Chandler are instantly baffled by Russ's uncanny resemblance to Ross, though Rachel remains oblivious. When Ross enters, Chandler orchestrates an awkward face-to-face meeting between the lookalikes. Ross and Russ exchange tense pleasantries, discovering they are a paleontologist and a periodontist, while the friends joke about having a \"spare\" Ross. After Russ steps away, Ross confronts Rachel about seeing other people. Rachel reminds him that they are not dating, prompting a defensive Ross to claim that a museum curator is pursuing him. Rachel holds her ground, confirming they are both free to date other people, and prepares to leave with Russ, leaving Ross frustrated and jealous."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:00 - 00:04:38",
+    "batch_summary": "After Rachel and Russ leave, Ross remains oblivious to Russ's resemblance to him, criticizing Russ's slow speech while Chandler subtly mocks Ross's own identical habit. Meanwhile, Joey copes with stress by making massive amounts of tomato sauce. He reveals to Chandler that he was offered a major role on Days of Our Lives, but only if he agrees to sleep with the attractive casting director. Joey struggles with the moral dilemma of compromising his integrity for his big break.",
+    "cumulative_summary": "In a coffee shop, Rachel's new date, Russ, baffles the group with his uncanny resemblance to Ross, though Rachel remains oblivious. After a tense face-to-face meeting between the lookalikes, Rachel and Russ leave, prompting Ross to complain about Russ's slow speech—unaware that Chandler is subtly mocking Ross's own identical habit. Meanwhile, Joey copes with stress by making massive amounts of tomato sauce. He reveals to Chandler that he has finally landed a major career break with a role on Days of Our Lives, but it comes with a catch: he must sleep with the attractive casting director. Joey faces a difficult moral dilemma, torn between his professional ambitions and his personal integrity, having never traded sex for a role before."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:38 - 00:06:25",
+    "batch_summary": "Joey ultimately decides to prioritize his professional integrity, refusing to sleep with the casting director to secure his acting role. Meanwhile, Monica goes on a date with a newly sober Fun Bobby, but his incredibly dull conversation quickly drives her to order a strong drink. Back at the coffee shop, Chandler amuses himself by highlighting the identical, pedantic behaviors of Ross and Russ during a crossword puzzle, while Phoebe tries in vain to make a still-oblivious Rachel see their uncanny resemblance.",
+    "cumulative_summary": "In a coffee shop, Rachel's new date, Russ, baffles the group with his uncanny resemblance to Ross, though Rachel remains oblivious. Meanwhile, Joey faces a moral dilemma over a major role on Days of Our Lives that requires him to sleep with the casting director. Ultimately, Joey chooses integrity, deciding he wants to succeed on talent alone. Elsewhere, Monica goes on a date with a newly sober Fun Bobby, but his incredibly dull conversation quickly drives her to order a strong drink. Back at the coffee shop, Chandler amuses himself by highlighting the identical, pedantic behaviors of Ross and Russ as they solve a crossword puzzle in unison. Despite their matching personalities and looks, Rachel remains completely blind to the resemblance, leaving Phoebe utterly baffled by her friend's lack of awareness."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:25 - 00:08:19",
+    "batch_summary": "Phoebe tries to convince Rachel that Russ is Ross's clone, but Rachel remains oblivious until she witnesses the two men bickering over their professions and grammar. When Ross and Russ speak in unison, Rachel finally sees the uncanny resemblance and flees in shock. Later, at the apartment, Chandler jokes with Rachel about trading favors for jobs, while Monica packs a stash of alcohol for her weekend getaway with a newly sober, dull Fun Bobby, drawing teasing remarks from her friends.",
+    "cumulative_summary": "In a coffee shop, Rachel's new date, Russ, baffles the group with his uncanny resemblance to Ross. While Joey struggles with a moral dilemma regarding a casting director, Monica dates a newly sober, incredibly dull Fun Bobby. Back at the coffee shop, Phoebe tries to convince Rachel that Russ is Ross's double, but Rachel remains oblivious until she witnesses the two men in a petty, identical argument over grammar and their medical credentials. When Ross and Russ speak in unison, Rachel finally sees the truth and flees in shock. Later at the apartment, Chandler jokes with Rachel about trading favors for jobs, while Monica packs a massive stash of alcohol for her upcoming weekend getaway with the boring, sober Bobby, earning teasing from her friends."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:19 - 00:10:14",
+    "batch_summary": "Monica's plan to drink her way through a weekend with sober Fun Bobby backfires when he confronts her in the hallway. Believing Monica has a drinking problem, Bobby breaks up with her to avoid a codependent relationship. Back inside, Monica shares the news and gives away her alcohol stash. Meanwhile, Joey returns with good news: he refused to trade favors for the acting role, but the casting director caught up with him at the elevator and offered him an even bigger part anyway.",
+    "cumulative_summary": "In a coffee shop, Rachel's new date, Russ, baffles the group with his uncanny resemblance to Ross. While Joey struggles with a moral dilemma regarding a casting director, Monica dates a newly sober, incredibly dull Fun Bobby. Back at the coffee shop, Phoebe tries to convince Rachel that Russ is Ross's double, but Rachel remains oblivious until she witnesses the two men in a petty, identical argument over grammar and their medical credentials. When Ross and Russ speak in unison, Rachel finally sees the truth and flees in shock. Later, Monica packs a massive stash of alcohol to survive her weekend getaway with the boring, sober Bobby. However, Bobby confronts Monica, mistakenly believing she has a drinking problem, and breaks up with her to protect his sobriety. After Monica returns to the apartment to share the news of her breakup, Joey arrives with a triumphant update: he refused to sleep with the casting director for the role, but his integrity paid off when she caught up with him and offered him an even bigger part."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 275,
+    "timestamp_range": "00:10:14 - 00:11:53",
+    "batch_summary": "Joey celebrates landing a recurring role as neurosurgeon Dr. Drake Ramoray. Meanwhile, at Central Perk, a newly dumped Russ laments that Rachel broke up with him for reminding her of someone. Soon after, Ross's ex-girlfriend Julie arrives to return Ross's things. She and Russ lock eyes and experience an instant, uncanny connection. They decide to skip coffee and grab juice together, leaving Phoebe and Chandler completely bewildered by the bizarre pairing.",
+    "cumulative_summary": "In a coffee shop, Rachel's new date, Russ, baffles the group with his uncanny resemblance to Ross. While Joey struggles with a casting director's advances, Monica dates a newly sober, incredibly dull Fun Bobby. Rachel eventually realizes Russ is Ross's double and dumps him. Meanwhile, Monica's relationship with Bobby ends when he mistakenly believes she has a drinking problem. Joey's integrity pays off when he lands a recurring role as neurosurgeon Dr. Drake Ramoray. Finally, a heartbroken Russ meets Ross's ex-girlfriend, Julie, at Central Perk. The two experience an instant, uncanny connection and leave together to get juice, leaving Phoebe and Chandler completely bewildered."
+  }
+]

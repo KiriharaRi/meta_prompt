@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:39",
+    "batch_summary": "Phoebe joins her friends Monica, Richard, Ross, and Rachel as they watch Old Yeller. Confused by their sadness, Phoebe reveals she believes the film has a happy ending because her mother always turned it off early. Despite her friends' warnings, Phoebe watches the tragic climax where the dog is shot, leaving her completely horrified and traumatized. Later, Monica calls her friends to offer dinner leftovers, leading to a playful exchange over the phone.",
+    "cumulative_summary": "In this opening segment, Phoebe walks in on her friends Monica, Richard, Ross, and Rachel tearfully watching the classic film Old Yeller. Phoebe is cheerful, believing the movie is a happy story about a family getting a dog. When the others express their sadness, she explains that her mother always turned the television off early, telling her that the dog \"had babies\" rather than rabies. Intrigued and warned by Richard, Phoebe continues watching past her usual cutoff point. She is shocked and deeply traumatized to witness the tragic ending where Travis shoots the dog, angrily calling it a \"doggy snuff film.\" Later that evening, the scene shifts to Monica's apartment, where she calls her friends to offer them leftover chicken and potatoes. During the call, she humorously responds to a cheeky question about what she is wearing by claiming she is only wearing rubber gloves."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:39 - 00:03:28",
+    "batch_summary": "Chandler and Joey rush to Monica's apartment after her joke about being naked, only to find her fully clothed. While eating leftovers, the guys debate who to take to a Knicks game with their extra ticket, choosing between two annoying friends. Monica suggests they invite her boyfriend, Richard. Although Richard drops hints that he wants to go, Joey and Chandler miss them entirely. When Monica clarifies her suggestion, the guys express hesitation due to the age gap and not knowing Richard very well.",
+    "cumulative_summary": "In the opening, Phoebe is traumatized after watching the tragic ending of Old Yeller, having been shielded from it by her mother. Later, Monica jokingly tells her friends over the phone that she is only wearing rubber gloves while offering leftover chicken. Chandler and Joey rush over hoping she is naked, but find her fully clothed. While eating, the guys mention they have an extra ticket to a Knicks game because Ross cannot make it. They debate between two annoying friends, prompting Monica to suggest they invite her older boyfriend, Richard. Richard subtly hints at his interest, but Joey and Chandler completely miss the cue. When Monica directly suggests taking him, the guys hesitate, feeling awkward about the age difference and their lack of a close relationship with him."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:28 - 00:05:08",
+    "batch_summary": "Monica convinces Joey and Chandler to invite Richard to the Knicks game by mentioning his Jaguar, though Chandler's attempt to accept smoothly fails. Meanwhile, Ross excitedly tells Carol and Susan that his son Ben stood up, only to learn he actually missed the real milestone last week. Feeling left out of his son's major life events, a frustrated Ross asks Carol and Susan if he can have Ben for an entire weekend, and Carol agrees.",
+    "cumulative_summary": "After Phoebe is traumatized by the ending of Old Yeller, the focus shifts to Monica's apartment. When Chandler and Joey need to fill an extra Knicks ticket, Monica suggests her older boyfriend, Richard. Though initially hesitant due to the age gap, the guys eagerly agree once Monica mentions Richard might drive them in his Jaguar. Meanwhile, Ross babysits his son, Ben, and excitedly tells Carol and Susan that the toddler stood up for the first time. He is disheartened to learn that Ben actually reached this milestone a week ago, making Ross realize how many of his son's firsts he has missed. Feeling excluded, Ross asks Carol and Susan if he can have Ben for an entire weekend, and Carol agrees it would be a great idea."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:08 - 00:06:51",
+    "batch_summary": "Ross is excited to get Ben for the weekend, though he is disappointed to learn Ben's \"first\" wave isn't actually a first. At Central Perk, Phoebe reveals she is watching classic sad movies after learning her mother used to shield her from their tragic endings. Meanwhile, Chandler and Joey return from the Knicks game completely enamored with Monica's boyfriend, Richard. They rave about his cool demeanor, his Jaguar, and his smooth tipping skills, much to Monica's delight as Richard joins them.",
+    "cumulative_summary": "After Phoebe is traumatized by the ending of Old Yeller, she decides to watch other notoriously sad movies upon learning her late mother used to turn them off early to shield her from pain. Meanwhile, when Chandler and Joey need to fill an extra Knicks ticket, Monica suggests her older boyfriend, Richard. Though initially hesitant, the guys return from the game completely won over by Richard, enthusiastically praising his cool attitude, his Jaguar, and his slick tipping style. Elsewhere, Ross babysits his son, Ben, and is disheartened to learn he has missed several of the toddler's milestones. Feeling excluded, Ross asks Carol and Susan if he can have Ben for an entire weekend. Carol agrees, though Ross is gently corrected yet again when he mistakenly thinks Ben waved for the very first time."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:51 - 00:08:36",
+    "batch_summary": "Carol and Susan drop Ben off with Ross for their first full weekend apart. Meanwhile, Joey and Chandler's obsession with Richard reaches hilarious heights. Joey tries to look cool with an unlit cigar, while Chandler debuts a new mustache, having lost a coin toss to Joey over who got which accessory. Monica is amused to discover that Joey and Chandler are the \"guys\" Richard is hanging out with for a Rangers game, teasing them about their desperate attempts to emulate her boyfriend.",
+    "cumulative_summary": "After Phoebe is traumatized by the ending of Old Yeller, she decides to watch other notoriously sad movies upon learning her late mother used to turn them off early to shield her from pain. Meanwhile, Ross prepares for his first full weekend babysitting Ben after Carol and Susan drop the toddler off. At the same time, Joey and Chandler's obsession with Monica's older boyfriend, Richard, reaches hilarious heights. Desperate to emulate his cool demeanor, Joey tries posing with an unlit cigar, while Chandler debuts a new mustache after losing a coin toss. Monica is highly amused to discover that Joey and Chandler are the \"guys\" Richard is taking to a Rangers game, teasing them about their desperate attempts to copy her boyfriend's style."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:36 - 00:10:14",
+    "batch_summary": "At Central Perk, Ross visits Rachel with baby Ben and asks her to hold him. Rachel is hilariously awkward, holding Ben at arm's length like a bomb, and admits she has no experience with babies. Ross reassures her by casually mentioning that she will feel differently when they have \"our baby.\" Rachel is stunned when Ross reveals he has already envisioned their future together, specifically planning for them to have two children—a boy and a girl.",
+    "cumulative_summary": "After Phoebe is traumatized by the ending of Old Yeller, she decides to watch other notoriously sad movies. Meanwhile, Joey and Chandler's obsession with Monica's older boyfriend, Richard, reaches hilarious heights as they prepare to go to a Rangers game with him. At the same time, Ross prepares for his first full weekend babysitting Ben. He visits Rachel at Central Perk and asks her to hold the baby. Rachel is hilariously awkward, holding Ben at arm's length like a bomb and admitting her lack of experience with infants. To reassure her, Ross casually mentions that she will feel differently when they have \"our baby.\" Rachel is left completely stunned and frozen when Ross further reveals he has already envisioned their future together, specifically planning for them to have a boy and a girl."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 262,
+    "timestamp_range": "00:10:14 - 00:11:09",
+    "batch_summary": "Ross continues to detail his elaborate future plans with Rachel, explaining his desire to move to Scarsdale to raise their future children and analyzing local school systems. Rachel, increasingly overwhelmed and stunned by his intense forward-planning, abruptly ends her break. She quickly hands baby Ben back to a bewildered Ross and flees to serve coffee, leaving Ross to realize he has seriously freaked her out.",
+    "cumulative_summary": "After Phoebe is traumatized by the ending of Old Yeller, she decides to watch other notoriously sad movies. Meanwhile, Joey and Chandler's obsession with Monica's older boyfriend, Richard, reaches hilarious heights. At Central Perk, Ross prepares for his first full weekend babysitting Ben and asks Rachel to hold the baby. Rachel is hilariously awkward, admitting her lack of experience with infants. To reassure her, Ross casually mentions his elaborate future plans for them, including having a boy and a girl, moving to Scarsdale, and analyzing local school systems. Stunned and completely overwhelmed by Ross's intense forward-planning, Rachel abruptly ends her break, hands Ben back to a bewildered Ross, and quickly flees to serve coffee, leaving Ross staring after her in realization of his blunder."
+  }
+]

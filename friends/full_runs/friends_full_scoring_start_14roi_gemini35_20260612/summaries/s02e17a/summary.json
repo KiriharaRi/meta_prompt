@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:33",
+    "batch_summary": "Joey proudly shows off his eccentrically decorated new apartment, \"Casa de Joey,\" to Rachel, Phoebe, Ross, and Monica. The group playfully teases him about his unique decor choices, which include a black panther coffee table, a water feature, and a fuzzy magenta pillow. When Rachel asks about Chandler's absence, Ross offers a vague excuse. Joey then reveals his favorite feature: a phone installed right next to his black toilet. Amused but disgusted, Monica makes Joey promise never to call her from it.",
+    "cumulative_summary": "Joey proudly welcomes his friends Rachel, Phoebe, Ross, and Monica to his newly decorated apartment, which he dubs \"Casa de Joey.\" The group tours the living room, reacting with amused skepticism to Joey's eccentric design choices. These include a large white ceramic greyhound, a glass coffee table supported by a black panther statue, a running water feature, and a fuzzy magenta pillow that Rachel jokes is made of \"genuine muppet skin.\" When Rachel notices Chandler is missing, Ross explains vaguely that he had \"a thing.\" Joey then eagerly leads the group to the bathroom to show off his favorite feature. Alongside a black toilet and a painting of a green dog, Joey has installed a telephone on the wall. While Joey is incredibly proud of this convenience, a disgusted Monica immediately makes him promise that he will never call her from his bathroom phone."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:33 - 00:03:32",
+    "batch_summary": "At Central Perk, Phoebe excitedly announces that a record producer wants to record a demo and music video of her song \"Smelly Cat,\" sparking wild celebration from her friends. Meanwhile, Rachel accidentally drops a slice of pie into a customer's hood, forcing a reluctant Ross to retrieve it in an awkward confrontation. Later, back at the apartment, an impatient Monica stands in the hallway, banging on the bathroom door and demanding that Ross hurry up inside.",
+    "cumulative_summary": "After touring Joey's eccentrically decorated new apartment, the friends gather at Central Perk. Phoebe arrives in a frenzy of excitement to share major news: a record producer wants to record a demo and music video of her song \"Smelly Cat,\" with the possibility of an album. As the group celebrates, Rachel realizes she accidentally dropped a slice of pie into a customer's coat hood and begs Ross to retrieve it, resulting in an awkward confrontation. Later, back at the apartment, the focus shifts to bathroom struggles of a different kind as an impatient Monica, wearing a robe, stands in the hallway and bangs on the door, demanding that Ross finally hurry up and get out."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:32 - 00:05:15",
+    "batch_summary": "Monica's frustration peaks as Ross hogs the bathroom, sparking a childish sibling rivalry that makes Monica feel like a teenager again. After Ross finally emerges, they trade immature insults, prompting a sarcastic remark from Rachel. Meanwhile, Joey experiences the downside of living alone in his new apartment. Surrounded by his eccentric decor, including a giant ceramic greyhound, he wanders around aimlessly and tries to cure his boredom by chatting with the building's staff over the intercom.",
+    "cumulative_summary": "After touring Joey's eccentrically decorated new apartment, the friends gather at Central Perk to celebrate Phoebe's exciting news about a record producer wanting to record a demo of 'Smelly Cat.' Meanwhile, Rachel deals with an awkward mishap involving a slice of pie dropped in a customer's hood. Back at the apartment, sibling tensions flare as an impatient Monica confronts Ross for hogging the bathroom. Their childish bickering makes Monica feel like a teenager again, prompting sarcastic amusement from Rachel. Meanwhile, Joey begins to experience the isolation of living alone. Surrounded by his bizarre new decor, including a giant ceramic greyhound, he wanders his quiet apartment and desperately tries to strike up a conversation with the building's staff over the intercom to ease his loneliness."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:15 - 00:07:07",
+    "batch_summary": "Both Joey and Chandler struggle with the loneliness of living apart, with Chandler resorting to talking to his dog slippers and Joey playing with his ceramic greyhound. Chandler calls Joey to check in, and though both pretend to be enjoying their independent lives, their mutual longing for companionship is clear. They find comfort in their shared routine, watching Baywatch together over the phone and enthusiastically commenting on the show, temporarily bridging the distance between them.",
+    "cumulative_summary": "After touring Joey's eccentrically decorated new apartment, the friends celebrate Phoebe's upcoming 'Smelly Cat' demo, while Monica and Ross engage in childish sibling bickering. Meanwhile, both Joey and Chandler struggle deeply with the isolation of living apart. While Joey wanders his quiet apartment playing with his ceramic greyhound, Chandler resorts to talking to his barking dog slippers. Seeking connection, Chandler calls Joey. Although both men proudly pretend to be thriving on their own, their underlying loneliness is undeniable. They quickly fall back into their comfortable, shared routine by watching Baywatch together over the phone, enthusiastically commenting on the characters and action. This bittersweet phone call highlights their enduring bond and the void left by Joey's departure."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:07 - 00:08:55",
+    "batch_summary": "Joey admits to Phoebe and Monica that living alone is lonelier than expected, but he fears he hurt Chandler too much to move back. Meanwhile, Ross and Rachel discourage a hopeful Chandler from asking Joey back, believing Joey has happily moved on. Elsewhere, Phoebe begins recording her \"Smelly Cat\" demo in a professional studio, where she is hilariously startled by the sudden addition of enthusiastic backup singers.",
+    "cumulative_summary": "After touring Joey's eccentrically decorated new apartment, the friends celebrate Phoebe's upcoming 'Smelly Cat' demo, while Monica and Ross engage in childish sibling bickering. Meanwhile, both Joey and Chandler struggle deeply with the isolation of living apart. Seeking connection, Chandler calls Joey. Although both men proudly pretend to be thriving on their own, their underlying loneliness is undeniable. They quickly fall back into their comfortable, shared routine by watching Baywatch together over the phone. Following their late-night call, Joey admits to Phoebe and Monica that living alone is lonelier than expected, but he fears he hurt Chandler too much to ask to move back. Meanwhile, Ross and Rachel discourage a hopeful Chandler from asking Joey back, mistakenly believing Joey has happily moved on. Elsewhere, Phoebe begins recording her \"Smelly Cat\" demo in a professional studio, where she is hilariously startled by the sudden addition of enthusiastic backup singers whom she initially thought were just watching her like an aquarium."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:55 - 00:10:44",
+    "batch_summary": "In the recording studio, Phoebe stops her \"Smelly Cat\" session to lecture her backup singers on the emotional depth of the song's smelly subject. However, upon learning the studio costs $100 a minute, she quickly resumes recording. Meanwhile, Ross and Monica's childish sibling rivalry escalates when Ross takes a message for Monica but fails to write down the phone number. Their bickering is briefly interrupted when Monica's boyfriend calls, prompting Ross to hand over the phone.",
+    "cumulative_summary": "After touring Joey's new apartment, the friends celebrate Phoebe's upcoming \"Smelly Cat\" demo. Meanwhile, Joey and Chandler struggle with living apart, finding comfort in watching Baywatch together over the phone, though miscommunications keep them from reuniting. In the recording studio, Phoebe's session gets off to a rocky start when she stops the backup singers to ensure they truly understand the emotional depth of the smelly cat. However, once she learns the studio costs $100 a minute, she quickly gets back to work. Back at the apartment, Ross and Monica's childish sibling rivalry continues to flare up. When Ross takes a call for Monica but fails to write down the caller's number, the two trade petty insults until Monica's boyfriend calls, forcing Ross to hand over the phone."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 263,
+    "timestamp_range": "00:10:44 - 00:12:08",
+    "batch_summary": "Monica suffers an embarrassing moment when she mistakes her mother for her boyfriend on the phone, prompting Ross to tease her. Meanwhile, Joey visits Chandler's apartment, hoping to talk, but is shocked to discover Chandler has already replaced him with a new roommate named Eddie. Joey retrieves his moose hat and leaves, feeling hurt and replaced, as Chandler explains how he and Eddie met.",
+    "cumulative_summary": "After touring Joey's new apartment, the friends celebrate Phoebe's upcoming \"Smelly Cat\" demo. Meanwhile, Joey and Chandler struggle with living apart, finding comfort in watching Baywatch together over the phone, though miscommunications keep them from reuniting. In the recording studio, Phoebe's session gets off to a rocky start, but she quickly gets back to work upon learning the high studio costs. Back at the apartment, Ross and Monica's sibling rivalry peaks when Monica mistakes her mother for her boyfriend on the phone, asking an embarrassing question that leaves Ross in hysterics. Later, Joey visits Chandler's apartment, only to be blindsided by the discovery that Chandler has already found a new roommate, Eddie. Feeling hurt and replaced, Joey retrieves a left-behind moose hat and makes a quiet, awkward exit, leaving the former best friends further apart than ever."
+  }
+]

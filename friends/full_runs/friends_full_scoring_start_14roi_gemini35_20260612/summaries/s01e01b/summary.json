@@ -1,0 +1,74 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:34",
+    "batch_summary": "In an apartment kitchen, Ross laments his recent divorce, fearing there is only one soulmate for everyone. Joey uses an ice cream metaphor to enthusiastically encourage Ross to embrace single life and start dating again, while Chandler offers sarcastic commentary. Meanwhile, Monica enjoys a flirtatious dinner date at an Asian restaurant with Paul, who hints at his own past heartbreak, leading the two to mutually anticipate a fifth date.",
+    "cumulative_summary": "In an apartment kitchen, Ross laments his recent divorce, expressing anxiety that there might only be one soulmate for everyone—and noting bitterly that in his ex-wife's case, she chose another woman. Joey uses a colorful ice cream metaphor to enthusiastically encourage Ross to embrace single life and start dating again, while Chandler offers sarcastic commentary. Meanwhile, the scene shifts to an Asian restaurant where Monica is on a date with Paul. As they eat, Paul hints at a painful past heartbreak that he is hesitant to share so early on. Monica playfully coaxes him, and the two share a flirtatious moment as they mutually agree that their connection is strong enough to warrant a fifth date."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:34 - 00:03:17",
+    "batch_summary": "During their date, Paul reveals to Monica that he has been unable to perform sexually since his wife left him two years ago. Despite an awkward moment where she spits her drink, Monica is touched and agrees to a fifth date. Meanwhile, a tearful Rachel watches a TV wedding while clutching her wedding dress. Back at the apartment, Joey heads out for a date after confusing the names of his love interests, leaving Ross to lament his extreme dating rustiness and lack of confidence to ask anyone out.",
+    "cumulative_summary": "In the wake of his divorce, a bitter Ross receives enthusiastic encouragement from Joey to start dating again, though Ross remains deeply insecure about his ability to ask women out. Meanwhile, Monica's date with Paul takes an unexpectedly intimate turn when he confesses he has been unable to perform sexually since his wife left him two years ago. Despite accidentally spitting her drink in surprise, Monica is touched by his vulnerability and happily agrees to a fifth date. Elsewhere, a tearful Rachel clutches her wedding dress while watching a television wedding, reflecting on her own disrupted life. As Joey casually heads out for a date—hilariously confusing the names of the women he is seeing—Ross is left contemplating his long absence from the dating scene, feeling completely unprepared to grab a spoon again."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:17 - 00:05:00",
+    "batch_summary": "As Ross wonders who he will date, Rachel pensively contemplates her new life. The next morning, Rachel proudly serves her very first pot of coffee to Chandler and Joey, though her brewing skills leave much to be desired. Meanwhile, Monica and Paul emerge from her bedroom after spending the night together. Paul leaves after thanking Monica profusely, leaving her absolutely ecstatic about their incredible night, much to the amusement of her watching friends.",
+    "cumulative_summary": "Following his divorce, a bitter Ross is encouraged by Joey to start dating again, though he remains deeply insecure about who to ask. Meanwhile, Rachel contemplates her disrupted life before trying to embrace independence the next morning by proudly brewing her very first pot of coffee for Joey and Chandler—even if the results are barely drinkable. At the same time, Monica's relationship with Paul reaches a major milestone. After previously opening up about his vulnerability, Paul spends the night at Monica's apartment. As he leaves the next morning, thanking her profusely, a glowing Monica is left ecstatic, comparing the experience to all her birthdays combined, while her friends watch the romantic departure with amusement."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:00 - 00:06:40",
+    "batch_summary": "As the group prepares for work, Rachel is surprised to learn they all have jobs, prompting Monica to explain how adulthood works. Joey proudly claims he is an actor, but Monica and Chandler tease him about his past role as Pinocchio in a children's theater production. After the guys leave, Monica checks in on Rachel, who is still processing her runaway bride situation. Rachel admits she can't stop smiling, comparing her newfound sense of freedom to a past fling, but this time with genuine feelings.",
+    "cumulative_summary": "Following his divorce, a bitter Ross is encouraged to start dating again, while Rachel takes her first steps toward independence by brewing coffee for Joey and Chandler. Meanwhile, Monica is ecstatic after her date, Paul, spends the night. The next morning, the friends playfully tease Monica about the date before preparing for work. Rachel, still naive about self-sufficiency, is surprised to learn that everyone has a job. This prompts Monica to explain how adulthood works, while she and Chandler tease Joey about his past role as Pinocchio in a children's play. After the guys depart, Monica checks in on Rachel's emotional state following her jilted wedding. Rachel happily admits she cannot stop smiling, feeling a genuine, emotional sense of excitement about her new life."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:40 - 00:08:25",
+    "batch_summary": "Rachel heads out to look for a job, while Monica goes to work at her restaurant. There, her coworker Frannie reveals she also slept with Paul, exposing his \"two-year dry spell\" story as a manipulative lie. Devastated and angry, Monica vents to her friends at the coffee shop. While Joey laughs and Ross dryly explains Paul's obvious motive, Phoebe tries to soothe Monica, who laments her terrible luck with men and wonders if she attracts emotionally troubled partners.",
+    "cumulative_summary": "Following his divorce, a bitter Ross is encouraged to start dating again, while Rachel takes her first steps toward independence by brewing coffee for Joey and Chandler. Meanwhile, Monica is ecstatic after her date, Paul, spends the night. The next morning, Rachel decides to look for her first job, while Monica heads to work at her restaurant. There, Monica's excitement is shattered when her coworker Frannie reveals she also slept with Paul, exposing his \"two-year dry spell\" sob story as a manipulative line to get women into bed. Furious and humiliated, Monica vents to her friends at the coffee shop. While Joey finds the situation amusing and Ross dryly points out Paul's obvious motives, Phoebe tries to comfort Monica. Monica is left feeling defeated, bitterly wondering if she possesses a beacon that only attracts men with severe emotional problems."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:25 - 00:10:08",
+    "batch_summary": "Rachel returns to the coffee shop after being laughed out of twelve job interviews, surprisingly upbeat after buying expensive boots using her parents' credit card. Realizing Rachel is still financially dependent, the group gathers at the apartment to urge her to cut up her credit cards. Rachel resists, defending her shopping habits, while Phoebe tries to empathize by sharing a bizarrely tragic story about her own difficult past, leaving the group stunned.",
+    "cumulative_summary": "Following his divorce, a bitter Ross is encouraged to start dating again, while Rachel takes her first steps toward independence. Meanwhile, Monica's excitement over her date with Paul is shattered when she learns his \"dry spell\" story was a manipulative line, leaving her feeling humiliated. Rachel then returns from a disastrous day of twelve failed job interviews, surprisingly upbeat after buying expensive boots on her parents' credit card. Realizing Rachel is still avoiding true independence, the group gathers at the apartment to stage an intervention, urging her to cut up her credit cards. Although Rachel resists, arguing she only planned to marry to avoid living off her parents, Phoebe tries to comfort her by sharing a bizarrely tragic story about her own troubled youth, leaving everyone stunned as they continue to push Rachel to take control of her life."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:10:08 - 00:12:00",
+    "batch_summary": "With the group's enthusiastic chanting and encouragement, Rachel finally takes the plunge and cuts up her credit cards, officially entering the \"real world.\" Later that night, after Monica heads to bed following a brief reminder of her failed date with Paul, Ross and Rachel are left alone. Ross shares a quiet, sweet moment with Rachel, offering her half of an Oreo cookie, hinting at his lingering feelings as they wind down the eventful day.",
+    "cumulative_summary": "Following his divorce, a bitter Ross is encouraged to start dating again, while Rachel takes her first steps toward independence. Meanwhile, Monica's excitement over her date with Paul is shattered when she learns his \"dry spell\" story was a manipulative line. After Rachel returns from a disastrous day of failed job interviews with expensive boots bought on her parents' credit card, the group stages an intervention. With their enthusiastic chanting and support, Rachel finally cuts up her credit cards, officially welcoming her to the \"real world.\" Later that night, after Monica heads to bed following a brief reminder of her failed date with Paul, Ross and Rachel are left alone. Ross shares a quiet, sweet moment with Rachel, offering her half of an Oreo cookie, hinting at his lingering feelings as they wind down the eventful day."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 319,
+    "timestamp_range": "00:12:00 - 00:13:40",
+    "batch_summary": "Left alone, Ross confesses his high school crush to Rachel. Though she admits she always saw him as Monica's geeky older brother, she playfully agrees when he vulnerably asks if he can ask her out sometime. After Rachel heads to bed, a thrilled Ross tells Monica he \"just grabbed a spoon,\" referencing his decision to start dating again. Later, the friends gather back at the coffee shop, chatting and joking together.",
+    "cumulative_summary": "Following his divorce, a bitter Ross is encouraged to start dating again, while Rachel takes her first steps toward independence. After Rachel cuts up her credit cards with the group's enthusiastic support, she and Ross are left alone in the apartment. Seizing the moment, Ross confesses his high school crush to Rachel. Although she admits she used to see him as Monica's geeky older brother, she playfully agrees when he vulnerably asks if he can ask her out sometime. A thrilled Ross tells Monica he \"just grabbed a spoon,\" embracing the advice to put himself back out there. Later, the close-knit group of friends reunites at the coffee shop, resuming their usual lighthearted banter."
+  },
+  {
+    "batch_idx": 8,
+    "segment_start": 320,
+    "segment_end": 342,
+    "timestamp_range": "00:13:40 - 00:14:39",
+    "batch_summary": "At the coffee shop, the friends engage in playful banter before Rachel debuts in her new role as a waitress. Wearing an apron and serving coffee, she takes her first steps toward financial independence, though she is still clumsily learning the ropes. Meanwhile, Chandler begins sharing a bizarre dream about being Liza Minnelli in Las Vegas, wrapping up the episode on a characteristically humorous and lighthearted note.",
+    "cumulative_summary": "Following his divorce, a bitter Ross is encouraged to start dating again, while Rachel takes her first steps toward independence by cutting up her credit cards with the group's support. Left alone, Ross confesses his high school crush to Rachel, who playfully agrees to go out with him sometime, prompting a thrilled Ross to embrace the advice to put himself back out there. Later, the close-knit group reunites at their usual coffee shop, where Rachel officially begins her journey of self-reliance by taking a job as a waitress. As she clumsily navigates serving her friends and other customers, the group supports her with their signature humor. The episode closes on a lighthearted note as Chandler shares a bizarre dream about being Liza Minnelli in Las Vegas, cementing the enduring, comedic bond of the six friends."
+  }
+]

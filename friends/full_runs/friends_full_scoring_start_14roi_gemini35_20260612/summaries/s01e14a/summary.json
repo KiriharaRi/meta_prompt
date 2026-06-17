@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:31",
+    "batch_summary": "In a coffee shop, Joey and Chandler encourage a reluctant Ross to get back into the dating scene. After a woman from his building greets him, Joey devises a bizarre plan for Ross to return a raw egg to her as an icebreaker. Despite Chandler admitting it is \"suicide,\" Ross goes for it. Meanwhile, Monica tries to dissuade Phoebe from going on a Valentine's Day date with her creepy ex-boyfriend, Roger, though Phoebe remains tempted just to have a date.",
+    "cumulative_summary": "At the local coffee shop, Joey and Chandler try to help their friend Ross move on from his ex-wife and his unrequited feelings for Rachel. When a woman from Ross's building—who once lent him an egg—says hello, Joey and Chandler push him to make a move. Joey orders a raw egg from the waitress and convinces Ross to use it as a bizarre icebreaker to \"return\" it to her. Although Chandler privately admits the plan is social suicide, a reluctant Ross takes the egg and approaches the woman. Meanwhile, the focus shifts to the women of the group. Monica strongly advises Phoebe against going out with her ex-boyfriend, Roger, for Valentine's Day. Although Phoebe agrees that Roger was creepy, mean, and frightening, she admits she is still tempted to go just so she does not have to spend Valentine's Day alone."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:31 - 00:03:21",
+    "batch_summary": "Ross happily reveals that his bizarre egg icebreaker worked and the woman agreed to a date. Meanwhile, Joey convinces a reluctant Chandler to join him on a double date with his date, Lorraine, and her supposedly needy friend. At the restaurant, Lorraine arrives and reveals that Chandler's blind date is actually his notorious ex-girlfriend, Janice, leaving Chandler in utter shock.",
+    "cumulative_summary": "At the local coffee shop, Joey and Chandler try to help Ross move on from his ex-wife. Joey convinces Ross to use a raw egg as a bizarre icebreaker to ask out a woman from his building. Surprisingly, the plan works, and Ross happily announces she said yes. Meanwhile, Monica discourages Phoebe from spending Valentine's Day with her creepy ex-boyfriend, Roger. Rachel asks Joey and Chandler about their plans, prompting Joey to pressure Chandler into joining him on a double date with his date, Lorraine, and her friend. Joey points out that Chandler hasn't dated anyone since his ex-girlfriend, Janice. At the restaurant, Joey and Chandler wait for their dates. Lorraine arrives first, but the night takes a shocking turn for Chandler when Lorraine reveals that her friend—Chandler's blind date—is none other than Janice herself."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:21 - 00:05:05",
+    "batch_summary": "Chandler is horrified to find his blind date is indeed his ex-girlfriend Janice. In the restroom, Chandler tries to escape, but Joey begs him to stay so he doesn't ruin Joey's date with Lorraine. Chandler reluctantly agrees despite having dumped Janice twice recently. Meanwhile, back at the apartment, Monica, Rachel, and Phoebe bond over stories of their terrible ex-boyfriends, wondering why they seem to attract such odd and difficult men.",
+    "cumulative_summary": "At the local coffee shop, Joey and Chandler try to help Ross move on from his ex-wife. Joey convinces Ross to use a raw egg as a bizarre icebreaker to ask out a woman from his building. Surprisingly, the plan works, and Ross happily announces she said yes. Meanwhile, Monica discourages Phoebe from spending Valentine's Day with her creepy ex-boyfriend, Roger. Rachel asks Joey and Chandler about their plans, prompting Joey to pressure Chandler into joining him on a double date with his date, Lorraine, and her friend. Joey points out that Chandler hasn't dated anyone since his ex-girlfriend, Janice. At the restaurant, Joey and Chandler wait for their dates. Lorraine arrives first, but the night takes a shocking turn for Chandler when Lorraine reveals that her friend—Chandler's blind date—is none other than Janice herself. Horrified, Chandler tries to escape through the restroom window, but Joey begs him to stay so he doesn't ruin his own date with Lorraine. Chandler reluctantly agrees to endure the evening. Back at the apartment, Monica, Rachel, and Phoebe swap stories about their terrible ex-boyfriends, wondering why they always seem to attract such bizarre men."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:05 - 00:06:55",
+    "batch_summary": "To break their bad boyfriend cycle, Phoebe convinces Monica and Rachel to perform a cleansing ritual on Valentine's Day by burning mementos from their exes. Meanwhile, the double date continues to be a disaster for Chandler. While Joey and Lorraine get cozy, Janice torments Chandler by revealing she saved a bag of his cut-out heads from old photos. After whispering with Lorraine, Joey pulls Chandler aside for an urgent conversation.",
+    "cumulative_summary": "At the local coffee shop, Joey and Chandler try to help Ross move on from his ex-wife. Joey convinces Ross to use a raw egg as a bizarre icebreaker to ask out a woman from his building. Surprisingly, the plan works, and Ross happily announces she said yes. Meanwhile, Monica, Rachel, and Phoebe swap stories about their terrible ex-boyfriends. To break their bad boyfriend cycle, Phoebe convinces Monica and Rachel to perform a cleansing ritual on Valentine's Day by burning mementos from their exes. Elsewhere, Joey pressures Chandler into joining him on a blind double date, which takes a horrifying turn when Chandler's date is revealed to be his obnoxious ex-girlfriend, Janice. As Joey and his date, Lorraine, get cozy at the restaurant, Chandler is forced to endure Janice's eccentric chatter, including her revelation that she kept a bag of his cut-out heads from old photos. The awkward evening takes another turn when Joey whispers with Lorraine and suddenly pulls Chandler aside for a private conversation."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:55 - 00:08:21",
+    "batch_summary": "During their double date, Joey pulls Chandler aside to reveal that his date, Lorraine, wants to leave together for an intimate encounter. Despite Chandler's protests, Joey abandons him, leaving his credit card to cover the bill. Now alone with his obnoxious ex-girlfriend Janice, Chandler's misery worsens when she points out his shirt is sticking out of his zipper. After a quick, embarrassed adjustment, Chandler is left to endure the rest of the awkward evening with Janice, bitterly declaring that Joey is no longer his friend.",
+    "cumulative_summary": "At the local coffee shop, Joey and Chandler help Ross secure a date using a bizarre raw egg icebreaker. Meanwhile, Monica, Rachel, and Phoebe plan a Valentine's Day cleansing ritual to burn mementos of their terrible ex-boyfriends. Elsewhere, Joey pressures Chandler into a blind double date, which goes horribly wrong when Chandler's date is revealed to be his obnoxious ex-girlfriend, Janice. The night worsens when Joey's date, Lorraine, proposes they leave early for an intimate encounter. Despite Chandler's protests, Joey abandons him to pursue Lorraine, leaving his credit card to cover the bill. Left alone with Janice, Chandler's misery and embarrassment peak when she points out his shirt is sticking out of his zipper. After a hasty adjustment, Chandler is forced to endure the rest of the awkward evening, bitterly declaring that Joey is no longer his friend."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:21 - 00:10:05",
+    "batch_summary": "Deciding to exploit Joey's abandoned credit card, Chandler treats Janice to expensive drinks. The next morning, he wakes up in horror to find he has spent the night with her. As he awkwardly tries to say goodbye to Janice in the hallway, Monica and Rachel catch them kissing. The girls are highly amused by the unexpected reunion, while a mortified Chandler tries to usher Janice away just as Joey arrives on the scene.",
+    "cumulative_summary": "At a local coffee shop, Joey and Chandler help Ross secure a date, while Monica, Rachel, and Phoebe plan a Valentine's Day cleansing ritual. Meanwhile, Joey pressures Chandler into a blind double date that goes horribly wrong when Chandler's date turns out to be his obnoxious ex-girlfriend, Janice. After Joey abandons him to pursue his own date, leaving his credit card behind, Chandler decides to spite Joey by using the card to buy expensive drinks for himself and Janice. The next morning, Chandler wakes up in horror to find he has spent the night with her. While trying to bid Janice a hasty farewell in the hallway, they are caught kissing by Monica and Rachel, who are highly amused by the awkward reunion. As a mortified Chandler desperately tries to usher Janice away, Joey suddenly returns, setting the stage for further confrontation."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 278,
+    "timestamp_range": "00:10:05 - 00:12:11",
+    "batch_summary": "Joey returns to find Chandler and Janice together, much to Chandler's extreme embarrassment. Monica playfully forces Janice to speak to Ross on the phone, intensifying Chandler's misery. Meanwhile, Ross's Valentine's Day date at a Japanese restaurant starts well but quickly derails when his pregnant ex-wife, Carol, and her partner, Susan, unexpectedly sit at their table. Ross is forced to awkwardly explain his complicated personal life, leaving his date completely stunned.",
+    "cumulative_summary": "At a local coffee shop, Joey and Chandler help Ross secure a date, while Monica, Rachel, and Phoebe plan a Valentine's Day cleansing ritual. Meanwhile, Joey pressures Chandler into a blind double date that goes horribly wrong when Chandler's date turns out to be his obnoxious ex-girlfriend, Janice. After Joey abandons him, Chandler spends the night with Janice in a spiteful mistake. The next morning, Monica, Rachel, and a returning Joey catch the awkward pair in the hallway, where Monica playfully worsens Chandler's misery by having Janice speak to Ross on the phone. Meanwhile, Ross's own Valentine's Day date at a Japanese restaurant starts off well but quickly derails when his pregnant ex-wife, Carol, and her partner, Susan, unexpectedly sit at their table. Ross is forced to awkwardly explain his complicated situation, leaving his date completely stunned."
+  }
+]

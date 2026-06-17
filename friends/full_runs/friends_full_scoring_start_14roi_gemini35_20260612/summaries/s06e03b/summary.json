@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:40",
+    "batch_summary": "Monica and Chandler get into a heated argument when Chandler tries to bring his beloved, but ugly, barca lounger chairs into Monica's apartment. Feeling rejected and claiming Monica wants total control, Chandler storms out, declaring he won't move anything in. He retreats to Joey's apartment, where Joey is in the middle of interviewing a potential female roommate. Chandler abruptly announces he is moving back in, much to Joey's humorous resistance as he tries to continue his search.",
+    "cumulative_summary": "Monica and Chandler's plans to move in together hit a major roadblock during a dispute over furniture. When Chandler suggests bringing his favorite barca lounger chairs to Monica's apartment, Monica strongly objects, calling them incredibly ugly and complaining that they do not match her decor. Feeling shut out and dramatic, Chandler accuses Monica of wanting complete control over the space. He storms out of the apartment in anger, insulting her home's \"grandma\" aesthetic. Chandler heads over to his old apartment, where Joey is currently interviewing a potential female roommate. Desperate for a place to stay, Chandler abruptly announces that the roommate search is over because he is moving back in. Joey, who is looking for a roommate who likes to party, humorously tries to dismiss Chandler's declaration to the applicant, while Chandler questions Joey's odd apartment safety choices, such as removing the shower curtain."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:40 - 00:03:25",
+    "batch_summary": "Rachel informs Ross about Monica and Chandler's massive fight, expressing relief that she no no longer has to move in with him. Desperate to keep his own living arrangements on track, Ross intervenes. He visits Monica and Chandler, passionately lecturing them about how \"silly\" it is to jeopardize their deep happiness and love over a dispute about a room. His dramatic mediation forces the couple to reconsider their stubbornness, with Chandler admitting they still value their love over their silly argument.",
+    "cumulative_summary": "Monica and Chandler's plans to move in together stall after a major fight over Chandler's ugly barca lounger chairs. Feeling shut out, Chandler storms out and tries to move back in with Joey, who is in the middle of interviewing a new roommate. Meanwhile, Rachel informs Ross about the couple's blowout, secretly thrilled that she no longer has to move in with him. Determined to fix the situation, Ross intervenes as a mediator. He visits Monica and Chandler, delivering an earnest, dramatic speech about how \"silly\" it is to jeopardize their deep happiness and love over a dispute about a room. His passionate plea successfully softens the couple, prompting Chandler to admit that while they enjoy being silly, they ultimately value their love more, paving the way for a potential reconciliation."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:25 - 00:05:09",
+    "batch_summary": "Ross successfully secures a verbal agreement from Monica and Chandler to move in together before leaving. At Central Perk, Gunther awkwardly offers Rachel his apartment, which she declines. Ross then arrives to share the news of Monica and Chandler's reconciliation, excitedly pointing out that he and Rachel will now be roommates. Rachel hesitates, raising concerns about whether their romantic history will make living together awkward. Ross dismisses her worries, insisting it is only weird if they still have feelings, which Rachel denies.",
+    "cumulative_summary": "Following his passionate plea, Ross successfully secures a verbal commitment from Monica and Chandler to move in together. With their reconciliation sealed, Ross heads to Central Perk, where Gunther awkwardly tries to offer Rachel his apartment. When Ross arrives, he eagerly breaks the news of Monica and Chandler's reunion, pointing out that he and Rachel are now set to be roommates. This development makes Rachel uneasy, prompting her to question whether their complicated romantic history will make living together too awkward. Ross quickly laughs off her concerns, claiming it would only be weird if either of them still harbored feelings. Rachel denies having any lingering feelings, setting the stage for their new living arrangement despite her underlying hesitation."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:09 - 00:06:57",
+    "batch_summary": "At Central Perk, Rachel and Ross agree to be roommates, but Rachel's jokes about their future dating lives and \"getting lucky\" signs make Ross realize how awkward the arrangement will actually be. Panicked, Ross rushes back to Monica and Chandler's apartment. He desperately tries to reverse his previous advice, warning them that moving in together is a huge mistake that will inevitably lead to a breakup. Monica and Chandler dismiss his sudden change of heart, leaving Ross frustrated.",
+    "cumulative_summary": "Following his passionate plea, Ross successfully secures a verbal commitment from Monica and Chandler to move in together. With their reconciliation sealed, Ross heads to Central Perk, where he eagerly breaks the news to Rachel, pointing out that they are now set to be roommates. Although Rachel initially questions if their romantic history will make living together awkward, they both deny having any lingering feelings. However, when Rachel jokingly suggests a system for when they inevitably date other people, Ross suddenly realizes the uncomfortable reality of their new arrangement. Desperate to undo this, Ross rushes back to Monica and Chandler's apartment. He abruptly reverses his previous stance, warning them that moving in together is a massive mistake that will destroy their relationship and lead to a breakup. Despite his intense warnings, Monica and Chandler remain unfazed and dismiss his concerns, leaving Ross trapped in his impending living situation with Rachel."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:57 - 00:08:53",
+    "batch_summary": "After Ross's dramatic exit, Monica and Chandler reaffirm their commitment to move in together. Monica sweetens the transition by mapping out a spot for Chandler's beloved chair, though she quickly vetoes his suggestion of hanging a \"Merge\" road sign over their bed. Meanwhile, at Central Perk, Phoebe performs a quirky song about a stray hair. Nearby, Ross and Rachel discuss the happy couple, with a defeated Ross finally accepting that Monica and Chandler are inseparable, leaving him stuck with his new roommate situation.",
+    "cumulative_summary": "Following his passionate plea, Ross successfully secures a verbal commitment from Monica and Chandler to move in together. However, after realizing this means he must room with Rachel, Ross desperately tries to sabotage the couple's plans by warning them of an impending breakup. Unfazed, Monica and Chandler dismiss his dramatic warnings and reaffirm their commitment. Monica even maps out a spot for Chandler's favorite chair, though she quickly vetoes his idea of hanging a \"Merge\" sign over their bed. Meanwhile, at Central Perk, Phoebe performs a quirky song for the crowd. Nearby, Ross and Rachel discuss the happy couple, with a defeated Ross finally accepting that Monica and Chandler are inseparable, leaving him trapped in his new living arrangement with Rachel."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:53 - 00:10:47",
+    "batch_summary": "At Central Perk, Ross reluctantly hands Rachel his house key. Once she leaves, Joey warns Ross that living with Rachel will inevitably reignite their romance. Panicked, Ross reconsiders. When Rachel returns because the key shop is closed, Joey steps in and offers to let Rachel move in with him instead, promising to suspend his \"naked Thursdays\" rule. Rachel is receptive to the idea of moving just across the hall, leaving Ross surprised.",
+    "cumulative_summary": "Following his passionate plea, Ross successfully secures a verbal commitment from Monica and Chandler to move in together. However, realizing this means he must room with Rachel, Ross reluctantly hands her his house key. At Central Perk, Joey warns Ross that living with Rachel will inevitably reignite their romance. Terrified of this outcome, Ross reconsiders the arrangement. When Rachel returns because the key shop is closed, Joey steps in to help Ross by offering to let Rachel move in with him instead, even promising to negotiate his \"naked Thursdays\" rule. Rachel is highly receptive to the idea of moving just across the hall, offering a sudden and convenient alternative to living with Ross."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 264,
+    "timestamp_range": "00:10:47 - 00:11:44",
+    "batch_summary": "Joey interviews a potential female roommate to see if their personalities match. He conducts a humorous, suggestive word association test. While she successfully answers \"fight\" to \"pillow\" and \"string\" to \"G,\" she fails his final test by responding \"kitten\" to \"doggy.\" Disappointed by her innocent answer, Joey immediately rejects her and ushers her out of the apartment, continuing his search for the perfect roommate.",
+    "cumulative_summary": "Following Ross's plea, Monica and Chandler agree to move in together, leaving Ross to reluctantly offer Rachel his spare key. Worried that living with Rachel will reignite their romance, Ross is relieved when Joey steps in and offers to let Rachel move in with him instead. Rachel is highly receptive to this convenient alternative. Meanwhile, Joey begins interviewing other potential female roommates, using a highly suggestive word association test to screen candidates. When one promising applicant answers \"kitten\" to his prompt of \"doggy,\" Joey decides she is not a match and promptly ushers her out of the apartment, continuing his search."
+  }
+]

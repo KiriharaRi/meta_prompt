@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:39",
+    "batch_summary": "In an office, Chandler tries to negotiate a deadline extension with his boss, Mr. Kogen. However, Joey, playing a bold persona named \"Joseph,\" undermines Chandler by siding with the boss, forcing Chandler to deliver final numbers by Tuesday. A furious Chandler threatens Joey, who defends his character's disruptive nature. Meanwhile, in a bedroom, Monica prepares duct tape and oven mitts to stop the \"scratchy twins\" from scratching. Her boyfriend, Richard, playfully teases her strictness while admiring her highly organized tape-folding method.",
+    "cumulative_summary": "In an office setting, Chandler attempts to negotiate a deadline extension for his team's systems report with his boss, Mr. Kogen, hoping to give his staff a holiday weekend. However, Joey, adopting a bold and confrontational persona named \"Joseph,\" completely undermines Chandler's efforts. Siding with the boss, Joey declares that the company is not built on \"rough numbers,\" prompting Mr. Kogen to move the deadline up to Tuesday. Afterward, an angry Chandler threatens Joey, who defensively explains that \"Joseph\" is just a guy who likes to ruffle feathers. Meanwhile, the scene shifts to a bedroom where Monica and Richard are together. Monica arrives with duct tape, planning to tape oven mitts onto the \"scratchy twins\" to prevent them from scratching. Richard playfully teases Monica about her strict parenting style but finds himself genuinely impressed by her hyper-organized method of folding the tape's tab for easy access during an emergency."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:39 - 00:03:26",
+    "batch_summary": "Monica expresses relief at being able to show her neurotic side to Richard, who playfully goes along with her strict organization rules. However, when Monica reveals she sets her clocks six minutes fast and asks Richard for his own obsessive habits, his simple sock-sorting routine fails to impress her. Frustrated by his lack of quirky compulsions, Monica laments that her boyfriend is \"too normal.\" Meanwhile, the scene transitions back to the office, where Joey approaches Chandler at his desk.",
+    "cumulative_summary": "In an office setting, Chandler's attempt to negotiate a deadline extension with his boss, Mr. Kogen, is ruined by Joey's aggressive alter-ego, \"Joseph,\" who sides with the boss and gets the deadline moved up. Later, the scene shifts to Monica and Richard in the bedroom. After Monica prepares oven mitts for the \"scratchy twins,\" she expresses joy at being able to be completely neurotic around Richard. She details her strict organization habits, including setting her clocks six minutes fast. When she presses Richard to share his own obsessive quirks, his simple habit of separating his socks fails to satisfy her, leading her to jokingly complain that her boyfriend is \"too normal.\" Finally, the focus shifts back to the office, where Joey approaches Chandler at his desk."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:26 - 00:05:07",
+    "batch_summary": "Back in the office, Joey informs Chandler that his alter-ego, \"Joseph,\" blamed Chandler for a project mistake to their boss. Fed up with the betrayal, Chandler tries to fire both Joey and Joseph. When Joey claims Joseph is untouchable, Chandler retaliates by creating his own rogue character, \"Chandi,\" who is having an affair with Joseph's fictional wife, Karen. The absurd escalation and Chandler's mock affair finally force Joey to back down from his aggressive roleplay.",
+    "cumulative_summary": "In an office setting, Chandler's attempt to negotiate a deadline extension is ruined by Joey's aggressive alter-ego, \"Joseph,\" who sides with the boss. Meanwhile, Monica enjoys being completely neurotic around her \"too normal\" boyfriend, Richard, sharing her strict organizational habits in the bedroom. Back at the office, Joey informs Chandler that Joseph blamed him for a project mistake. Fed up, Chandler tries to fire both Joey and Joseph. When Joey claims Joseph is untouchable, Chandler retaliates by inventing his own rogue character, \"Chandi,\" who is having an affair with Joseph's fictional wife, Karen. This absurd escalation and Chandler's mock affair finally force Joey to back down from his aggressive roleplay."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:07 - 00:06:40",
+    "batch_summary": "Chandler finally puts an end to Joey's \"Joseph\" roleplay by pushing him out of the office, despite Joey's lingering affection for his fictional character's life. Meanwhile, Phoebe and Ryan are forced to wear oven mitts to prevent scratching. Despite this physical limitation, they attempt to share a romantic, albeit incredibly clumsy, dinner together, struggling to pour wine and communicate through their padded hands.",
+    "cumulative_summary": "In an office setting, Chandler's attempt to negotiate a deadline extension is ruined by Joey's aggressive alter-ego, \"Joseph,\" who sides with the boss. Back at the office, Joey informs Chandler that Joseph blamed him for a project mistake. Fed up, Chandler tries to fire both Joey and Joseph. When Joey claims Joseph is untouchable, Chandler retaliates by inventing his own rogue character, \"Chandi,\" who is having an affair with Joseph's fictional wife, Karen. This absurd escalation forces Joey to back down, though he laments losing Joseph's fictional life before Chandler finally pushes him out of the office. Meanwhile, Monica enjoys being completely neurotic around her \"too normal\" boyfriend, Richard, sharing her strict organizational habits in the bedroom. In another storyline, Phoebe and Ryan are forced to wear oven mitts to prevent scratching. Despite this awkward constraint, they attempt to have a romantic dinner, resulting in a series of clumsy, humorous mishaps as they struggle to pour wine and converse through their padded hands."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:40 - 00:08:38",
+    "batch_summary": "Frustrated by their oven mitts, Phoebe and Ryan throw them off to kiss passionately, briefly startling Ross who walks in and immediately retreats. Meanwhile, Richard reveals his own neurotic quirk to Monica: he must sleep on the west side of the bed so the ocean feels like it is on the correct side. Monica is delighted to discover that Richard has his own \"freakish\" habits, making him a perfect match for her.",
+    "cumulative_summary": "In an office conflict, Chandler successfully shuts down Joey's aggressive alter-ego, \"Joseph,\" by inventing his own rogue character, \"Chandi.\" Meanwhile, Phoebe and Ryan's romantic dinner is initially hindered by the oven mitts they wear to prevent scratching. Frustrated by the constraint, they finally throw the mitts off to kiss passionately, briefly startling Ross when he walks in on them. In another storyline, Monica enjoys being completely neurotic around her boyfriend, Richard, sharing her strict bedroom organization habits. However, Richard surprises her by revealing his own absurd, neurotic quirk: he must sleep on the west side of the bed so the ocean feels like it is on the correct side. Monica is thrilled to discover that Richard is a \"freak\" just like her, cementing their compatibility."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:38 - 00:10:31",
+    "batch_summary": "Ryan prepares to ship out, sharing a passionate goodbye kiss with Phoebe outside Central Perk. Meanwhile, Rachel admits to Ross that she finds Ryan's naval uniform highly attractive. Eager to please her, Ross later surprises Rachel at the coffee shop dressed in his own white sailor uniform. Rachel is thrilled, jumping into his arms as they playfully pretend he is shipping out the next day to make their night count.",
+    "cumulative_summary": "In an office conflict, Chandler successfully shuts down Joey's aggressive alter-ego, \"Joseph,\" by inventing his own rogue character, \"Chandi.\" Meanwhile, Monica is thrilled to discover that her boyfriend, Richard, has his own absurd, neurotic quirks, cementing their compatibility. Phoebe and Ryan, having finally discarded their oven mitts to kiss, must say their goodbyes as Ryan's naval leave ends. After a passionate farewell on the sidewalk, Ryan departs in a taxi. Inspired by Ryan's military look, Rachel confesses to Ross that she finds the uniform highly attractive. Ross eagerly obliges by surprising Rachel at Central Perk dressed in a full white sailor uniform. Delighted by the romantic gesture, Rachel jumps into his arms, and they playfully pretend he is shipping out the next day to make their night count."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 253,
+    "timestamp_range": "00:10:31 - 00:11:18",
+    "batch_summary": "Ross attempts to carry Rachel out of Central Perk in a grand, romantic gesture, but the moment is repeatedly interrupted by mundane tasks like turning off the cappuccino machine and grabbing Rachel's purse. Struggling under her weight, Ross's romantic energy quickly fades. He clumsily drops Rachel onto the couch, makes a quick excuse about a bathroom light, and suggests they just meet upstairs, leaving a bewildered Rachel behind as he exits.",
+    "cumulative_summary": "In an office conflict, Chandler successfully shuts down Joey's aggressive alter-ego, \"Joseph,\" by inventing his own rogue character, \"Chandi.\" Meanwhile, Monica is thrilled to discover that her boyfriend, Richard, has his own absurd, neurotic quirks, cementing their compatibility. Phoebe and Ryan, having finally discarded their oven mitts to kiss, must say their goodbyes as Ryan's naval leave ends. Inspired by Ryan's military look, Rachel confesses to Ross that she finds the uniform highly attractive. Ross eagerly obliges by surprising Rachel at Central Perk dressed in a full white sailor uniform. Delighted by the romantic gesture, Rachel jumps into his arms, and they playfully pretend he is shipping out. However, the romantic mood quickly dissolves into physical comedy as Ross attempts to carry Rachel out of the coffee house. Repeatedly interrupted by forgotten chores and Rachel's purse, a struggling Ross finally gives up, dropping Rachel unceremoniously onto the couch. Making a hasty excuse, he suggests they simply meet upstairs, leaving Rachel sitting alone on the sofa as he exits."
+  }
+]

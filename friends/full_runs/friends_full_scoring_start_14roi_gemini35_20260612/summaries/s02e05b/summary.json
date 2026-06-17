@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:53",
+    "batch_summary": "At a restaurant, the friends discuss financial disparities when planning Ross's birthday. While Ross, Monica, and Chandler want to see Hootie and the Blowfish, Joey, Phoebe, and Rachel find it too expensive. Ross compromises, emphasizing that being together is what matters, though an awkward silence follows. Later, back at the apartment, Monica surprises the group with free steaks and an eggplant for Phoebe, courtesy of her restaurant's new meat supplier, easing the tension.",
+    "cumulative_summary": "During a group dinner at a restaurant, an awkward conversation about financial differences arises among the friends. Rachel points out that Ross doesn't worry about money because he has it, leading to a discussion about the expenses surrounding Ross's upcoming birthday. While Ross, Chandler, and Monica plan to celebrate by attending a Hootie and the Blowfish concert, Joey, Phoebe, and Rachel find the ticket prices too steep. To keep the group together, Ross graciously compromises on the concert, though the financial tension leaves a lingering awkwardness that Chandler unsuccessfully tries to break. Later, back at the apartment, the mood lifts when Monica, Chandler, and Ross arrive with a surprise. Monica reveals she received free steaks and an eggplant for Phoebe from her restaurant's new meat supplier, offering a free celebratory dinner for the six of them."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:53 - 00:03:31",
+    "batch_summary": "Chandler surprises the group with six tickets to the Hootie and the Blowfish concert as a treat, but Joey, Phoebe, and Rachel react negatively, feeling like it is charity that makes them feel small. A tense argument breaks out as Ross and Chandler defend their gesture, while the others feel patronized. Ultimately, Phoebe, Rachel, and Joey refuse to go, prompting Rachel to suggest that the group does not always need to do everything together, leaving the friends divided.",
+    "cumulative_summary": "During a group dinner, financial differences spark tension when Joey, Phoebe, and Rachel find the ticket prices for Ross's birthday concert too steep. Though Ross compromises to keep the group together, the awkwardness lingers. Back at the apartment, Monica tries to lift spirits with a free dinner, but the peace is short-lived. Chandler surprises everyone by revealing he bought six tickets to the Hootie and the Blowfish concert as a treat. Instead of being pleased, Joey, Phoebe, and Rachel react defensively, viewing the gesture as charity that makes them feel small. A heated argument ensues, with Ross and Chandler feeling unappreciated while the others feel patronized. Ultimately, Phoebe, Rachel, and Joey refuse to go, and Rachel suggests they do not always have to do everything together, leaving the friends deeply divided over their financial disparity."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:31 - 00:05:08",
+    "batch_summary": "After the friends awkwardly agree to disagree, Monica's attempt at a dramatic exit falls flat. Later, Ross excitedly boasts to Chandler about a successful sexual encounter he had earlier that day. Meanwhile, Chandler screens his answering machine and intercepts a call from a woman named Jade, who thinks she is calling a man named Bob. Pretending to be Bob, Chandler listens as Jade reveals she had sex with a new guy two hours ago, leading Ross and Chandler to realize with shock that Ross is the mystery man.",
+    "cumulative_summary": "During a group dinner, financial differences spark tension when Joey, Phoebe, and Rachel find the ticket prices for Ross's birthday concert too steep. Though Ross compromises, the awkwardness lingers. Back at the apartment, Chandler surprises everyone by revealing he bought six tickets to a concert as a treat. Instead of being pleased, Joey, Phoebe, and Rachel react defensively, viewing the gesture as charity. A heated argument ensues, and the friends decide to go their separate ways for the evening. Later, Ross excitedly boasts to Chandler about a successful sexual encounter he had earlier that day. Meanwhile, Chandler screens his answering machine and intercepts a call from a woman named Jade, who thinks she is calling a man named Bob. Pretending to be Bob, Chandler listens as Jade reveals she had sex with a new guy two hours ago. Putting the pieces together, Ross and Chandler realize in a moment of mutual shock and excitement that Ross is the mystery man Jade is talking about."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:08 - 00:06:52",
+    "batch_summary": "Chandler continues his call with Jade, who brutally criticizes her sexual encounter with Ross, describing it as awkward and brief, leaving Ross mortified. Later, Ross, Monica, and Chandler attend the concert. Despite initial guilt about leaving Joey, Phoebe, and Rachel behind, they decide to stay and end up having an amazing time. Meanwhile, back at the apartment, the left-out trio of Joey, Phoebe, and Rachel spend a boring, uneventful evening playing guessing games.",
+    "cumulative_summary": "During a group dinner, financial differences spark tension when Joey, Phoebe, and Rachel find Ross's birthday concert tickets too expensive. When Chandler tries to surprise everyone by buying tickets, the trio reacts defensively, viewing it as charity, leading to a heated argument. Later, Chandler intercepts an answering machine call from a woman named Jade, who thinks she is speaking to a man named Bob. Chandler and Ross quickly realize Jade is talking about her recent sexual encounter with Ross. However, the excitement turns to embarrassment for Ross as Jade goes on to describe the encounter as awkward, bumpy, and far too brief. Despite feeling initial guilt about the rift, Ross, Monica, and Chandler decide to attend the concert anyway. Though they briefly hesitate out of solidarity for their absent friends, they ultimately stay and have an incredible time. Meanwhile, back at the apartment, a bored Joey, Phoebe, and Rachel spend a dull evening together, highlighting the growing divide within the group."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:52 - 00:08:34",
+    "batch_summary": "At the concert, Monica runs into Stevie Fisher, a former kid she babysat who is now a lawyer for the band. He invites Monica, Ross, and Chandler backstage. The next day at Central Perk, the trio tries to downplay their amazing night to spare Joey, Phoebe, and Rachel's feelings, claiming the evening sucked. However, their lie quickly unravels when Phoebe spots a hickey on Monica's neck, forcing them to admit they actually went to an after-party, reigniting the group's tension.",
+    "cumulative_summary": "During a group dinner, financial differences spark tension when Joey, Phoebe, and Rachel find Ross's birthday concert tickets too expensive. Rejecting Chandler's offer to buy them tickets as charity, the trio stays home for a dull evening, while Ross, Monica, and Chandler attend the concert. There, Monica runs into her former babysitting charge, Stevie Fisher, who is now a lawyer for the band and invites them backstage. The next day at Central Perk, the two groups reunite. Guilty about the rift, Ross, Monica, and Chandler try to downplay their night, claiming it was a total bust. However, their cover is blown when Phoebe spots a hickey on Monica's neck. Monica's clumsy excuses force Ross to admit they actually attended an exclusive backstage gathering, exposing their lie and threatening to worsen the financial divide within the group."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:34 - 00:10:13",
+    "batch_summary": "The confrontation escalates as Ross, Monica, and Chandler admit they partied backstage with Hootie and the Blowfish. Phoebe, Joey, and Rachel express deep resentment over the financial divide, leading Ross and Chandler to defend their success, which only worsens the argument. However, the tension is abruptly cut short when Monica receives a work call. She is accused of accepting a kickback from a meat vendor and, despite her protests, is fired on the spot due to corporate policy, leaving her devastated.",
+    "cumulative_summary": "During a group dinner, financial differences spark tension when Joey, Phoebe, and Rachel find Ross's birthday concert tickets too expensive. While the trio stays home, Ross, Monica, and Chandler attend the concert and end up partying backstage with Hootie and the Blowfish. The next day, the truth is exposed when Phoebe spots a hickey on Monica's neck. A heated argument erupts as Phoebe, Joey, and Rachel express deep resentment over the financial divide. Ross and Chandler defend their success, admitting they sometimes feel held back, which further alienates their friends. However, the bitter confrontation is abruptly halted when Monica receives a devastating phone call from work. Accused of accepting a kickback from a meat vendor, Monica tries to explain it was just a gift, but she is summarily fired due to corporate policy, leaving the entire group in shock."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 263,
+    "timestamp_range": "00:10:13 - 00:11:17",
+    "batch_summary": "Monica officially breaks the news to her shocked friends that she has been fired, prompting them to immediately rally around her in support. Despite the heavy moment, the financial tension briefly resurfaces when Chandler offers to pay a small bill but asks Joey for five dollars. Later, Joey is sitting at home when a woman leaves a highly suggestive wrong-number message on his answering machine for someone named Bob. Eager to take advantage of the opportunity, Joey frantically dives over his couch to answer the call.",
+    "cumulative_summary": "During a group dinner, financial differences spark tension when Joey, Phoebe, and Rachel find Ross's birthday concert tickets too expensive. While the trio stays home, Ross, Monica, and Chandler attend the concert and end up partying backstage. The next day, a heated argument erupts over the financial divide, with Phoebe, Joey, and Rachel expressing deep resentment. However, the bitter confrontation is abruptly halted when Monica receives a devastating phone call. She reveals to the shocked group that she has been summarily fired for accepting a kickback gift from a meat vendor. As her friends immediately rally to comfort her, the financial awkwardness briefly lingers when Chandler offers to pay a small bill but asks Joey for money. Later, the mood lightens when Joey, relaxing at home, hears a suggestive wrong-number message on his answering machine meant for a man named Bob. Desperate for a wild night, Joey frantically dives over his couch to intercept the call, ending the tense day on a comedic note."
+  }
+]

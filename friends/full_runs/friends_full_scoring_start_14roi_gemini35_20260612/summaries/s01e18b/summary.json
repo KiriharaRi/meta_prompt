@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:45",
+    "batch_summary": "Rachel arrives at the apartment thrilled about a successful job interview, but Monica quickly redirects the group to play poker. Despite the guys teasing them and Rachel's clumsy attempt at shuffling, the women decide to play another round. Later that night, the game ends with the women losing. Ross tallies the debts, revealing Rachel owes $15. Phoebe pays her debt with \"cursed\" money, which Chandler gladly accepts. The batch ends with a tense but playful exchange as Rachel calls out Ross for his smug attitude about her loss.",
+    "cumulative_summary": "Rachel returns to the apartment ecstatic after a highly successful job interview, confident she has landed the position. However, the excitement is cut short when Monica insists they start their poker game. The guys—Ross, Joey, and Chandler—tease the women about their previous losses, mockingly suggesting they play Pictionary instead. Determined to prove themselves, the women insist on playing, even after Rachel hilariously fumbles shuffling the cards. Later that night, the game concludes with another defeat for the women. Ross tallies up the losses, announcing that Phoebe owes $7.50, Monica owes $10, and Rachel owes $15. Phoebe dramatically claims her money is cursed, which Chandler jokingly accepts. As Rachel prepares to pay her debt, she playfully confronts Ross, calling him out for his smug attitude over his victory."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:45 - 00:03:28",
+    "batch_summary": "After Ross smugly demands his winnings, Rachel mocks his male ego, and Monica fiercely demands a rematch. Seeking to improve their skills, the women get poker lessons from an older woman who playfully bluffs them first. When the rematch begins, Ross continues his teasing, but Monica is dead serious, shutting down Joey's requests for snacks and Ross's attempt to use the bathroom to keep the focus entirely on the game.",
+    "cumulative_summary": "Rachel returns to the apartment ecstatic after a successful job interview, but the excitement is cut short when Monica insists they start their poker game. After the guys—Ross, Joey, and Chandler—tease the women, the game ends in a defeat for the women. When Ross smugly demands his winnings, Rachel mocks his male ego, and Monica fiercely demands a rematch. To prepare, the women seek poker lessons from an older woman who playfully bluffs them before teaching them the ropes. When the rematch finally begins, the guys continue their teasing, but Monica is dead serious, shutting down Joey's requests for snacks and Ross's attempt to use the bathroom to keep the focus entirely on winning."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:28 - 00:05:16",
+    "batch_summary": "As the rematch begins, Rachel delays Joey's pizza order while she waits for her job call. Ross tries to intimidate Rachel, but she quickly embarrasses him by pointing out his open fly. During the hand, Phoebe folds after making a silly word observation, but Rachel stays in. Ross confidently lays down his hand, only for Rachel to beat him with a winning hand of sixes. Ecstatic, Rachel celebrates her victory by mockingly creating a \"Ross pile\" out of his lost chips, turning the tables on his earlier smugness.",
+    "cumulative_summary": "Rachel returns to the apartment ecstatic after a successful job interview, but the excitement is cut short when Monica insists they start their poker game. After the guys—Ross, Joey, and Chandler—tease the women, the game ends in a defeat for the women. Seeking revenge, the women get poker lessons from an older woman and demand a rematch. As the second game begins, Monica keeps the focus entirely on winning, while Rachel delays Joey's pizza order to wait for her job call. Ross tries to intimidate Rachel, but she quickly embarrasses him by pointing out his open fly. When the hand plays out, Ross confidently reveals his cards, only for Rachel to beat him with a winning hand of sixes. Ecstatic, Rachel celebrates her victory by mockingly creating a \"Ross pile\" out of his lost chips, successfully turning the tables on his earlier smugness."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:16 - 00:06:50",
+    "batch_summary": "As the poker game continues, Monica, Joey, Chandler, and Phoebe all fold, leaving Rachel and Ross in a tense showdown. Rachel raises the stakes and taunts Ross about his visible frustration and inability to lose. Just as Ross defensively insists he is not losing, the phone rings. Rachel rushes to answer it, confirming to the group that it is about the job she interviewed for. Her initial excitement quickly fades into an abrupt silence as she listens to the caller.",
+    "cumulative_summary": "Rachel returns to the apartment ecstatic after a successful job interview, but the excitement is cut short when Monica insists they start a poker game. After losing the first round to the guys, the women get lessons and demand a rematch. During the tense second game, Rachel embarrasses Ross by tricking him about his fly and wins a major hand. As the game continues, the other friends fold, leaving Rachel and Ross in a high-stakes showdown. Rachel confidently raises the bet and taunts Ross for getting visibly tense and red-faced over the prospect of losing. However, the intense showdown is suddenly interrupted when the phone rings. Rachel rushes to answer, excitedly announcing to the group that the call is about the job. Her cheerful demeanor abruptly halts as she listens to the caller, leaving her future hanging in the balance."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:50 - 00:08:41",
+    "batch_summary": "Rachel's phone call brings bad news: she did not get the job. Devastated but determined, she returns to the poker table and insists on continuing the game. Channeling her frustration, she aggressively raises the bet to five dollars. Sensing her volatile mood, the other friends quickly fold, leaving only Ross. In a surprising move, Ross also folds his hand, prompting an angry reaction from Rachel, who accuses him of backing down from his earlier tough-guy persona.",
+    "cumulative_summary": "Rachel returns to the apartment ecstatic after a successful job interview, but the excitement is cut short when Monica insists they start a poker game. After losing the first round, the women get lessons and demand a rematch. During a tense second game, Rachel wins a major hand against Ross. Their high-stakes showdown is interrupted by a phone call about the job, which unfortunately brings bad news. Devastated by the rejection, Rachel insists on continuing the game to channel her frustration. She aggressively raises the bet to five dollars, prompting the intimidated friends to fold immediately. Left alone with Ross, Rachel is shocked when he also folds his hand. Frustrated by his sudden retreat, she angrily confronts him for backing down from his earlier competitive attitude."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:41 - 00:10:17",
+    "batch_summary": "Ross rejoins the game, escalating the tension by raising Rachel's bet by twenty dollars. Rachel matches him, prompting Ross to raise another twenty-five. Determined to win despite her empty purse, Rachel borrows cash from Monica and Phoebe to call his bet and raise him an additional seventeen dollars. Out of cash himself, Ross is forced to ask Joey for financial backing to stay in the high-stakes showdown.",
+    "cumulative_summary": "Rachel returns to the apartment ecstatic after a successful job interview, but her joy is cut short by a phone call bringing bad news. Devastated, she insists on continuing a tense poker game with her friends to channel her frustration. After she aggressively raises the bet, her friends fold, and she angrily confronts Ross when he tries to back down. Challenged, Ross rejoins the game, and the stakes quickly skyrocket. Ross raises Rachel's bet by twenty dollars, and then another twenty-five. Refusing to back down despite having an empty purse, Rachel borrows cash from Monica and Phoebe to call his bet and raise him an additional seventeen dollars. Now short on cash himself, Ross is forced to ask Joey for a loan to keep playing, setting the stage for an intense, high-stakes showdown between the two competitive rivals."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:10:17 - 00:11:47",
+    "batch_summary": "After borrowing cash from Chandler and Joey, Ross calls Rachel's high-stakes bet. Rachel triumphantly reveals a full house, winning the game and lifting her spirits after her earlier bad news. Ross graciously accepts his defeat, glad to see Rachel happy. Later, the group transitions to a lively game of Pictionary. Monica's questionable drawing of a \"birdie\" confuses the guys, and Rachel steps up for her turn, restoring a fun, lighthearted atmosphere to the apartment.",
+    "cumulative_summary": "Rachel returns to the apartment ecstatic after a successful job interview, but her joy is cut short by a phone call bringing bad news. Devastated, she insists on continuing a tense poker game with her friends to channel her frustration. After she aggressively raises the bet, her friends fold, and she angrily confronts Ross when he tries to back down. Challenged, Ross rejoins the game, and the stakes quickly skyrocket. Refusing to back down, Rachel borrows cash from Monica and Phoebe to raise Ross an additional seventeen dollars. Ross is forced to borrow money from Chandler and Joey to call her bet. In a dramatic showdown, Rachel reveals a winning full house, taking the pot and lifting her spirits. Ross graciously accepts his loss, pleased to see Rachel smiling again. Later, the tension dissipates as the friends transition to a lively game of Pictionary, where Monica's terrible drawing of a \"birdie\" confuses the guys before Rachel steps up for her turn."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 291,
+    "timestamp_range": "00:11:47 - 00:12:20",
+    "batch_summary": "During the game of Pictionary, Rachel takes her turn and draws a simple curved shape. Chandler guesses \"bean,\" but Joey miraculously and loudly guesses the correct answer, \"The Unbearable Lightness of Being.\" The women celebrate excitedly, while Monica expresses disbelief that Joey actually got the obscure reference. This sparks a loud, playful argument and banter between the two teams, with Chandler, Ross, and Joey defending their victory.",
+    "cumulative_summary": "Rachel returns to the apartment ecstatic after a successful job interview, but her joy is cut short by a phone call bringing bad news. Devastated, she insists on continuing a tense poker game with her friends to channel her frustration. After she aggressively raises the bet, her friends fold, and she angrily confronts Ross when he tries to back down. Challenged, Ross rejoins the game, and the stakes quickly skyrocket. Refusing to back down, Rachel borrows cash from Monica and Phoebe to raise Ross an additional seventeen dollars. Ross is forced to borrow money from Chandler and Joey to call her bet. In a dramatic showdown, Rachel reveals a winning full house, taking the pot and lifting her spirits. Ross graciously accepts his loss, pleased to see Rachel smiling again. Later, the tension dissipates as the friends transition to a lively game of Pictionary. When Rachel draws a simple curved shape, Joey miraculously guesses the correct answer, \"The Unbearable Lightness of Being.\" The women celebrate, but Monica is hilariously dumbfounded that Joey got it, sparking a loud, playful argument between the two teams."
+  }
+]

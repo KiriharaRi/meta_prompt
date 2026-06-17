@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:44",
+    "batch_summary": "While walking on a snowy street, Monica and Phoebe spot an attractive stranger. In an attempt to get his attention, Phoebe yells out, causing the man to step into the street where he is struck by an ambulance. Feeling immense guilt, the two visit him in the hospital where he lies in a coma. Unable to wake him, they begin to bond over his unconscious form, projecting idealized traits onto him, imagining him as an artistic lawyer who can dance.",
+    "cumulative_summary": "On a snowy city street, Monica and Phoebe spot an attractive man who catches their eye. In an attempt to get his attention, Phoebe yells out, which startles the man and causes him to step backward into the street, where he is immediately struck by an ambulance. Stricken with guilt over causing the accident, Monica and Phoebe follow him to the hospital, where he lies unconscious in a coma as an unidentified \"John Doe.\" After Phoebe unsuccessfully tries to shake him awake, the two women stand by his bedside and begin to romanticize him. Based on his physical appearance, they playfully construct an idealized identity for him, imagining him as a smart, artistic lawyer who teaches sculpting and knows how to dance."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:44 - 00:03:38",
+    "batch_summary": "Monica and Phoebe continue to romanticize their comatose \"John Doe,\" defending their hospital visits to the skeptical guys. Meanwhile, the group gathers around the TV to watch Chandler's mother, Nora Tyler Bing, a famous romance novelist, appear on Jay Leno. Chandler is deeply embarrassed as his friends enthusiastically recall her steamy books. The mood shifts when Rachel's boyfriend Paolo returns from Rome, sparking Ross's jealousy, just as Nora's interview begins.",
+    "cumulative_summary": "After causing an attractive stranger to be hit by an ambulance, Monica and Phoebe follow him to the hospital, where he lies in a coma. They romanticize the \"John Doe,\" imagining him as the perfect man. Back at the apartment, the guys question their obsession with an unconscious stranger. The focus shifts when the group gathers to watch Chandler's mother, Nora Tyler Bing, a famous romance novelist, promote her new book on Jay Leno. Chandler is deeply embarrassed, especially as his friends enthusiastically recall the steamy details of her past novels. The gathering is further complicated by the return of Rachel's Italian boyfriend, Paolo, from Rome, which instantly triggers Ross's jealousy. Despite the tension, the group gathers around the television to watch Nora's interview begin."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:38 - 00:05:40",
+    "batch_summary": "During the televised interview, Chandler's mother, Nora Bing, deeply embarrasses him by sharing intimate details, including her post-sex cravings and buying him his first condoms, leaving Chandler mortified in front of his friends. She also announces her upcoming visit. Meanwhile, Monica and Phoebe continue to visit the unconscious \"Coma Guy\" at the hospital. They read him the news, bring him plants, drape a sweater over him, and Phoebe plays her guitar, fully leaning into their romanticized caretaking of the stranger.",
+    "cumulative_summary": "After causing an attractive stranger to be hit by an ambulance, Monica and Phoebe follow him to the hospital, where he lies in a coma. They romanticize the \"John Doe,\" imagining him as the perfect man. Back at the apartment, the group gathers to watch Chandler's mother, Nora Tyler Bing, a famous romance novelist, on Jay Leno. During the broadcast, Nora deeply mortifies Chandler by sharing highly personal details, including her post-intimacy cravings and the fact that she bought him his first condoms. She also announces her upcoming visit to see him, much to Chandler's dismay. Meanwhile, Monica and Phoebe's obsession with the comatose \"John Doe\" intensifies. They visit him in the hospital, reading him the daily news, decorating his room with flowers and plants, and even playing guitar for him, fully committing to their idealized fantasy of the unconscious stranger."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:40 - 00:07:22",
+    "batch_summary": "At the hospital, Phoebe and Monica continue caring for the comatose stranger, trying to brainstorm the perfect name for him. Later, the group gathers at a restaurant to dine with Chandler's flamboyant mother, Nora. When Rachel and Paolo arrive late and act highly affectionate, a jealous Ross struggles to cope, drinking tequila shots to numb his pain before leaving the table. Meanwhile, Rachel enthusiastically expresses her admiration for Nora's romance novels.",
+    "cumulative_summary": "After causing an attractive stranger to be hit by an ambulance, Monica and Phoebe follow him to the hospital, where he lies in a coma. They romanticize the \"John Doe,\" visiting him to read the news, decorate his room, and even try to brainstorm the perfect name for him. Meanwhile, Chandler's flamboyant mother, Nora Tyler Bing, a famous romance novelist, visits New York after mortifying Chandler on national television. The group gathers for dinner with Nora, where the atmosphere becomes tense for Ross when Rachel and Paolo arrive late and flaunt their affection. Unable to bear their PDA, a miserable Ross drinks tequila shots to cope before abruptly leaving the table. Meanwhile, Rachel enthusiastically gushes to Nora about her love for her romance novels, highlighting the contrast between her happy relationship and Ross's silent heartbreak."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:22 - 00:09:00",
+    "batch_summary": "At dinner, Nora humorously explains her simple formula for writing romance novels, prompting a sarcastic remark from Chandler. Later, in the hallway, a dejected Ross encounters Nora, who quickly deduces his heartbreak over Rachel and Paolo. Drawing on her expertise as a best-selling romance novelist, Nora comforts a vulnerable Ross by assuring him that Paolo is merely a \"secondary character\" and a temporary complication, while Ross is the true hero women actually fall in love with.",
+    "cumulative_summary": "After causing an attractive stranger to be hit by an ambulance, Monica and Phoebe follow him to the hospital, where he lies in a coma, romanticizing his identity. Meanwhile, Chandler's flamboyant mother, Nora Tyler Bing, a famous romance novelist, visits New York. During a group dinner, Rachel and Paolo's heavy PDA drives a miserable Ross to drink tequila and leave the table. While Rachel enthusiastically gushes to Nora about her novels, Nora humorously demystifies her writing process, prompting sarcasm from Chandler. Nora later corners Ross in the hallway and quickly deduces his heartbreak over Rachel. Drawing on her expertise as a best-selling author, Nora comforts a vulnerable Ross by assuring him that Paolo is merely a \"secondary character\"—a temporary complication destined to be written out—while Ross is the true hero women actually fall in love with."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:00 - 00:11:07",
+    "batch_summary": "Nora's comforting words escalate when she passionately kisses Ross, a moment caught by a shocked Joey. The next morning, a panicked Ross corners Joey in the hallway, begging him to keep the secret from Chandler. Joey is furious, accusing Ross of breaking the ultimate friendship code by kissing a friend's mother. When Chandler unexpectedly interrupts, the two scramble to fabricate a racquetball excuse. Once Chandler leaves, Ross guiltily admits his mistake but tries to justify it by noting Nora is not a typical mother.",
+    "cumulative_summary": "After causing an attractive stranger to be hit by an ambulance, Monica and Phoebe follow him to the hospital, where he lies in a coma. Meanwhile, Chandler's flamboyant mother, Nora Tyler Bing, a famous romance novelist, visits New York. During a group dinner, Rachel and Paolo's heavy PDA drives a miserable Ross to drink. Nora later corners Ross in the hallway, comforting him by calling him the true 'hero' of the story. However, the comforting moment escalates when Nora passionately kisses Ross, a shocking encounter witnessed by Joey. The next morning, a panicked Ross begs Joey to keep the kiss a secret from Chandler. Joey is furious, accusing Ross of breaking the ultimate friendship code by kissing a friend's mother. When Chandler unexpectedly interrupts, Ross and Joey quickly fabricate a flimsy excuse about racquetball to cover their tracks. Once Chandler leaves, a guilt-ridden Ross admits his mistake but tries to justify his actions by arguing that Nora is not a typical mother."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 257,
+    "timestamp_range": "00:11:07 - 00:11:50",
+    "batch_summary": "Ross and Joey's argument takes a bizarre turn when Ross calls Chandler's mother sexy, prompting Joey to defensively boast about his own mother's past looks. Realizing the conversation has gotten weird, they are interrupted when Rachel and Paolo step out of the apartment. Ross and Joey quickly scramble to maintain their cover story, fabricating more absurd excuses about racquetball gear to hide the truth about the kiss.",
+    "cumulative_summary": "After causing an attractive stranger to be hit by an ambulance, Monica and Phoebe follow him to the hospital, where he lies in a coma. Meanwhile, Chandler's flamboyant mother, Nora, visits New York. During a group dinner, Rachel and Paolo's heavy PDA drives a miserable Ross to drink. Nora later comforts Ross in the hallway, culminating in a passionate kiss witnessed by Joey. The next morning, a panicked Ross begs Joey to keep the secret. Joey is furious, accusing Ross of breaking the friendship code. When Chandler interrupts, they fabricate a flimsy racquetball excuse. Once Chandler leaves, Ross tries to justify his actions by calling Nora sexy, which leads to a bizarre argument about the attractiveness of Joey's own mother. Their weird conversation is cut short when Rachel and Paolo emerge from the apartment, forcing Ross and Joey to quickly scramble and double down on their absurd racquetball cover story."
+  }
+]

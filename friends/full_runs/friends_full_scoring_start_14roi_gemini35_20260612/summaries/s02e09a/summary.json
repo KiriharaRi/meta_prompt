@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:38",
+    "batch_summary": "In Monica's apartment during the holidays, the friends gather as Monica and Rachel decorate cookies. When Joey and Chandler ask about tipping the building staff, Monica admits they are broke and tipped the super, mailman, and newspaper delivery guy with homemade cookies. The consequences of this cheap gesture quickly become clear when Joey finds their newspaper torn up outside, with a cookie smashed inside and a hostile message written in the crossword puzzle by the disgruntled delivery guy.",
+    "cumulative_summary": "In Monica's apartment during the holiday season, the friends gather as Monica and Rachel decorate cookies. Phoebe spots their neighbor, \"Ugly Naked Guy,\" decorating his tree, while Ross prepares a menorah. When Joey and Chandler arrive and ask about tipping the building's super, Monica and Rachel admit they are broke and have been tipping the local service workers—including the super, mailman, and newspaper delivery guy—with homemade cookies instead of cash. Phoebe humorously defends the gesture, recalling a time she ate \"funny\" brownies. However, the group quickly realizes their cheap tips have backfired. Joey finds their daily newspaper torn up in the hallway, with a cookie smashed into the sports section and a hostile message (\"bite me\") written repeatedly in the crossword puzzle by the angry delivery guy. The scene then transitions to the friends hanging out at Central Perk."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:38 - 00:03:03",
+    "batch_summary": "At Central Perk, Joey and Chandler share a lighthearted exchange about Christmas. Ross arrives with holiday gifts and attempts to break the ice with Rachel by gifting her a Slinky. However, Rachel remains cold and unresponsive, still furious over his past \"degrading list.\" Defeated, Ross gives the toy to Gunther instead. Joining the rest of the group, Ross shows off his holiday purchases, including a picture frame from his son Ben for his parents and \"hers and hers\" towels for Susan and Carol, bringing back a warmer holiday spirit.",
+    "cumulative_summary": "During the holiday season, Monica and Rachel's attempt to tip local service workers with homemade cookies backfires, resulting in a vandalized newspaper and a hostile message from their delivery guy. The friends then gather at Central Perk, where Joey and Chandler share a lighthearted holiday exchange. Ross arrives carrying shopping bags and attempts to break the ice with Rachel by gifting her a Slinky. However, Rachel remains cold and unresponsive, still furious over his \"degrading list\" of reasons not to be with her. After awkwardly giving the toy to Gunther instead, Ross joins the rest of the group. He shows off his holiday purchases, including a picture frame from his son Ben for his parents and \"hers and hers\" towels for Susan and Carol, shifting the mood back to a warmer, festive tone despite the lingering romantic tension."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:03 - 00:04:33",
+    "batch_summary": "At Central Perk, Ross shows off his holiday purchases, but the mood shifts when Phoebe arrives. Spotting Ross's new picture frame, she is shocked to recognize the stock photo model as her biological father. Despite the group's gentle explanations that it is just a default frame insert, Phoebe compares it to a photo her mother gave her and realizes she has been misled. Distraught, she rushes off to confront her grandmother, leaving the group stunned until Joey awkwardly changes the subject.",
+    "cumulative_summary": "During the holiday season, Monica and Rachel's attempt to tip service workers with cookies backfires, leading to a vandalized newspaper. At Central Perk, Ross tries to break the ice with a cold Rachel by gifting her a Slinky, but she rejects him. Ross then joins the group to show off his holiday purchases. The festive mood takes a dramatic turn when Phoebe arrives and recognizes the stock photo in Ross's new picture frame as her estranged biological father. Despite Chandler and Monica pointing out it is just a default insert of a \"frame guy\" posing with a collie, Phoebe compares it to a photo from her late mother and realizes her grandmother lied to her. Distraught, Phoebe rushes out to confront her grandmother. The stunned silence is broken only when Joey awkwardly tries to shift the conversation to his own love life."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:33 - 00:06:00",
+    "batch_summary": "Phoebe visits her grandmother, Frances, to confront her about the photos of her father. Frances initially shows Phoebe several framed pictures of her \"father\" in various settings, including multiple graduations. However, Phoebe calls her out on the lie. Frances finally confesses that the man in the photos is indeed just a model from the picture frames, leaving Phoebe devastated by the truth.",
+    "cumulative_summary": "During the holiday season, Monica and Rachel's attempt to tip service workers with cookies backfires, and Ross's attempt to reconcile with Rachel fails. The festive mood shifts when Phoebe recognizes the stock photo in Ross's new picture frame as her estranged biological father. Realizing her grandmother lied to her, Phoebe rushes to confront her. At her grandmother Frances's apartment, Phoebe asks to see the photos of her father again. Frances presents several framed pictures of the man in various scenarios, including multiple graduations. Phoebe confronts Frances about the deception, prompting Frances to finally admit the truth: the man in the photos is not Phoebe's father, but simply a model who came with the frames. Phoebe is left heartbroken by the confirmation of her grandmother's long-standing lie."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:00 - 00:07:34",
+    "batch_summary": "Frances explains that the deception about Phoebe's father was her late mother's idea to protect her from the pain of his abandonment. Frances then reveals the truth: he is actually a pharmacist living upstate. She hands Phoebe a genuine photograph of him, leaving Phoebe deeply moved. Meanwhile, back at the apartment, Rachel, Joey, and Chandler decorate the Christmas tree. Chandler shares a characteristically dark and awkward childhood memory about his father, just before Monica and Ross arrive with groceries.",
+    "cumulative_summary": "During the holiday season, Monica and Rachel's attempt to tip service workers with cookies backfires, and Ross's attempt to reconcile with Rachel fails. The festive mood shifts when Phoebe recognizes the stock photo in Ross's new picture frame as her estranged biological father. Realizing her grandmother lied to her, Phoebe confronts Frances, who admits the man in the photos is just a frame model. Frances explains the deception was Phoebe's late mother's idea to shield her from the pain of her father's abandonment. Frances then reveals the truth: her father is actually a pharmacist living upstate, and she hands Phoebe a genuine photograph of him. Meanwhile, back at the apartment, Rachel, Joey, and Chandler decorate the Christmas tree. Chandler shares a characteristically dark and awkward childhood memory about his father, just before Monica and Ross return with groceries."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:07:34 - 00:09:29",
+    "batch_summary": "Back at the apartment, Monica and Ross worry about Phoebe, while Chandler and Joey are teased for delaying their Christmas shopping. Monica's cookie-tipping scheme backfires again when she receives crushed ornaments from the mailman. To help Rachel vent, Ross suggests she make a list of his flaws. Rachel eagerly complies, calling him whiny, insecure, and gutless, which successfully lifts her spirits. Meanwhile, Phoebe takes action, calling directory assistance to track down her father, Frank Buffay, across upstate New York.",
+    "cumulative_summary": "During the holiday season, Monica and Rachel's attempt to tip service workers with cookies backfires, resulting in crushed ornaments from the mailman. Meanwhile, Phoebe discovers her grandmother lied about her father's identity; the man in her pictures is just a frame model. Frances reveals her real father, Frank Buffay, is a pharmacist living upstate. Determined to find him, Phoebe uses a map and directory assistance to track his location. Back at the apartment, Chandler and Joey are scolded for delaying their Christmas shopping. In an attempt to ease tension, Ross suggests Rachel make a list of his flaws. Rachel eagerly lists his insecurities, whininess, and excessive hair gel, which successfully lifts her spirits while leaving Ross regretful."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:29 - 00:10:59",
+    "batch_summary": "Frustrated by her search for her father upstate, Phoebe is confronted by her grandmother, Frances, who initially discourages her by calling her father an irresponsible creep. However, seeing Phoebe's genuine desire to know him, Frances relents and confesses she knows his exact address in Middletown. Frances lends Phoebe her cab keys, and the two share a warm, emotional embrace as Phoebe prepares to finally meet her father.",
+    "cumulative_summary": "During the holiday season, Monica and Rachel's attempt to tip service workers with cookies backfires, resulting in crushed ornaments from the mailman. Meanwhile, Chandler and Joey are scolded for delaying their Christmas shopping, and Ross regrets suggesting Rachel make a list of his flaws to lift her spirits. The main focus shifts to Phoebe, who discovers her grandmother, Frances, lied about her father's identity. Determined to find her real father, Frank Buffay, Phoebe struggles to locate him upstate using maps. Frances initially discourages the search, calling Frank an irresponsible creep. However, seeing Phoebe's deep emotional need to know her father, Frances confesses she actually knows his exact address in Middletown. She gives Phoebe the keys to her cab, and after a heartfelt embrace, Phoebe prepares to set off on a journey to finally meet her father."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 284,
+    "timestamp_range": "00:10:59 - 00:11:12",
+    "batch_summary": "As Phoebe prepares to leave, she pauses to look at a photograph of her grandfather, asking him for luck before heading out. Frances watches her depart with a mixture of hope and quiet apprehension, her supportive smile slowly fading into a solemn, neutral expression once Phoebe is gone. This brief, emotional moment underscores the gravity of Phoebe's quest to find her father.",
+    "cumulative_summary": "During the holiday season, Monica and Rachel's attempt to tip service workers with cookies backfires, while Chandler and Joey are scolded for delaying their Christmas shopping, and Ross regrets suggesting Rachel list his flaws. The main focus shifts to Phoebe, who discovers her grandmother, Frances, lied about her father's identity. Determined to find her real father, Frank Buffay, Phoebe struggles to locate him upstate. Frances initially discourages the search but, seeing Phoebe's deep emotional need, confesses she knows his exact address in Middletown and lends Phoebe her cab. Before setting off, Phoebe pauses to ask a photograph of her grandfather for luck. Frances watches her depart with a mixture of hope and quiet apprehension, her supportive smile slowly fading as she is left alone, highlighting the emotional weight of Phoebe's impending journey."
+  }
+]

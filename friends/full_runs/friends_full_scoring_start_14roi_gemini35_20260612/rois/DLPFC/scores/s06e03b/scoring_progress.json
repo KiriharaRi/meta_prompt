@@ -1,0 +1,41 @@
+{
+  "command": "score-descriptions",
+  "status": "complete",
+  "updated_at": "2026-06-16T18:06:35+00:00",
+  "total_segments": 265,
+  "completed_segments": 265,
+  "next_segment_id": 265,
+  "completed_batches": 7,
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "run_signature": {
+    "descriptions_sha256": "2fd35655e1c4e0aedca413e7e20b770f4112e455fb1f6b012a072c0799ca5cfa",
+    "region_schema_sha256": "b587f7f741743d0fb716db3ca7ca70b9c4bd9a956489d38b7e8c7f46fdad96aa",
+    "summary_file_sha256": "a8c9234377fe7c801455d496b2de148a03561de1419cb67665afa62aecc3a2a7",
+    "provider": "aihubmix",
+    "model": "gemini-3.5-flash",
+    "scoring_batch_size": 40,
+    "local_buffer_size": 10,
+    "tr_s": 1.49,
+    "alignment": "overlap_weighted",
+    "total_trs": null,
+    "gt_dir": null,
+    "gt_file_pattern": "*.csv",
+    "gt_time_column": "视频时间(s)",
+    "gt_emotion_column": "情绪值"
+  },
+  "source_paths": {
+    "descriptions": "D:\\Doc\\meta_prompt\\friends\\description\\downloaded_refine_descriptions\\mv_friends_s06e03b\\descriptions\\refined_description.md",
+    "region_schema": "D:\\Doc\\meta_prompt\\friends\\output\\rois\\DLPFC\\region_schema.json",
+    "summary_file": "D:\\Doc\\meta_prompt\\friends\\output\\summaries\\s06e03b\\summary.json",
+    "gt_dir": null
+  },
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  }
+}

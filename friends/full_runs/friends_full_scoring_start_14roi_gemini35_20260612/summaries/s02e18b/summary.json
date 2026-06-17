@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:30",
+    "batch_summary": "In the kitchen, Chandler awkwardly interacts with Eddie, miming putting something in his pocket and tossing a tangelo that bounces off Eddie's chest. Meanwhile, in the bedroom, Monica and Richard discuss their past sexual partners. Monica is relieved that Richard is unfazed by her high number, but she is shocked to learn his number is only two. When Richard explains he has only slept with women he loved, Monica is deeply touched by his romantic nature, realizing she is one of those few.",
+    "cumulative_summary": "The episode opens with a tense and awkward kitchen interaction between Chandler and Eddie, where Chandler's playful antics—including tossing a tangelo that bounces off Eddie's chest—are met with silence. The focus then shifts to Monica and Richard in the bedroom, where they have an intimate conversation about their past relationships. Monica nervously reveals her high number of past partners, which Richard takes in stride. However, the dynamic shifts when Monica questions Richard's surprisingly low number of two. Worried she might just be a casual fling or \"an oat\" he is sowing, Monica questions his intentions. Richard reassures her that he only sleeps with women he is deeply in love with. This revelation deeply touches Monica, who realizes the depth of Richard's feelings for her, bringing the couple closer together."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:30 - 00:03:08",
+    "batch_summary": "Monica and Richard share a loving moment as Monica confesses her love. Meanwhile, Rachel tries to soothe Ross's insecurities about her past relationship with Paolo. Although Ross is jealous of the \"animal sex\" Rachel had with Paolo, Rachel reassures him that their deep emotional connection and intimacy make their relationship the best she has ever had. Determined to prove himself, Ross playfully initiates a passionate encounter. Later, Rachel and Monica excitedly celebrate in the bathroom after Monica reveals that Richard confessed his love for her.",
+    "cumulative_summary": "The episode begins with an awkward kitchen encounter between Chandler and Eddie, followed by an intimate bedroom conversation between Monica and Richard. After discussing their past partners, Monica is deeply moved when Richard reveals he only sleeps with women he loves, prompting her to confess her love for him as they share a tender kiss. Meanwhile, Rachel addresses Ross's insecurities regarding her ex-boyfriend, Paolo. Although Ross is jealous of the \"animal sex\" Rachel shared with Paolo, Rachel reassures him that their emotional connection, tenderness, and intimacy make their relationship the best she has ever had. Challenged and excited, Ross playfully initiates a passionate encounter to prove himself. Later, Rachel and Monica meet in the bathroom, where they excitedly celebrate Monica's major relationship milestone with Richard."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:08 - 00:05:04",
+    "batch_summary": "In the bathroom, Rachel and Monica discover there is only one condom left, leading to a frantic negotiation. Rachel desperately offers to do chores, but fails Monica's test of knowing where the dustpan is kept. They ultimately resort to a game of rock-paper-scissors to decide who gets it. Meanwhile, in the living room, Ross and Richard share an incredibly awkward waiting-room conversation, with Ross making clumsy small talk about Richard's mustache and asking if he served in Vietnam.",
+    "cumulative_summary": "The episode begins with Chandler and Eddie's awkward kitchen encounter, followed by Monica and Richard sharing an intimate conversation where they confess their love. Meanwhile, Rachel reassures a jealous Ross that their deep emotional connection makes their relationship her best ever, prompting Ross to playfully initiate a passionate encounter. However, both couples hit a comedic roadblock when Rachel and Monica realize there is only one condom left in the apartment. A frantic negotiation ensues in the bathroom; Rachel desperately offers to do chores, but fails Monica's test of knowing where the dustpan is kept. They ultimately resort to a game of rock-paper-scissors to decide who gets it. Outside, Ross and Richard endure an incredibly awkward wait in the living room, with Ross making clumsy, uncomfortable small talk about Richard's mustache and asking if he served in Vietnam."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:04 - 00:06:44",
+    "batch_summary": "Monica wins the rock-paper-scissors game but ultimately yields the sole condom to Rachel and Ross, leaving a disappointed Richard wishing for a schedule. Later, Chandler vents to Phoebe and Rachel about his eccentric roommate Eddie, who stole his shoe insoles under the delusion that Chandler slept with his ex-girlfriend and killed his fish. The group then gathers around the television to watch Joey's soap opera appearance.",
+    "cumulative_summary": "The episode begins with Chandler and Eddie's awkward kitchen encounter, followed by Monica and Richard sharing an intimate conversation where they confess their love. Meanwhile, Rachel reassures a jealous Ross that their deep emotional connection makes their relationship her best ever, prompting Ross to playfully initiate a passionate encounter. However, both couples hit a comedic roadblock when Rachel and Monica realize there is only one condom left in the apartment. After a frantic negotiation, they resort to a game of rock-paper-scissors. Although Monica wins, she ultimately yields the condom to Rachel and Ross, leaving a disappointed Richard wishing for a schedule. Later, Chandler vents to Phoebe and Rachel about his eccentric roommate Eddie, who stole his shoe insoles under the delusion that Chandler slept with his ex-girlfriend and killed his fish. The friends then gather around the television to watch Joey's soap opera appearance."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:44 - 00:08:10",
+    "batch_summary": "The friends watch in shock as Joey's soap opera character, Dr. Drake Ramoray, is abruptly killed off by falling down an empty elevator shaft. Devastated by his sudden unemployment, Joey retreats to his apartment to hide his embarrassment. The supportive group visits him to offer comfort and condolences. Although Ross suggests that the writers might find a way to bring his character back, a dejected Joey remains skeptical about his future.",
+    "cumulative_summary": "The episode begins with Chandler and Eddie's awkward kitchen encounter, followed by Monica and Richard confessing their love. Meanwhile, Rachel reassures a jealous Ross about their deep emotional connection, prompting a passionate encounter. However, both couples hit a comedic roadblock when Rachel and Monica realize there is only one condom left in the apartment. After a frantic game of rock-paper-scissors, Monica wins but yields the condom to Rachel and Ross. Later, Chandler vents to Phoebe and Rachel about his eccentric roommate Eddie's bizarre delusions. The friends then gather around the television to watch Joey's soap opera, only to witness in shock as his character, Dr. Drake Ramoray, is abruptly killed off by falling down an empty elevator shaft. Devastated and embarrassed by his sudden unemployment, Joey retreats to his apartment. The supportive group visits him to offer comfort and condolences, though a dejected Joey remains skeptical about any hope of his character's return."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:10 - 00:09:57",
+    "batch_summary": "Joey continues to mourn the loss of his soap opera role, explaining how Dr. Drake Ramoray's death was written with tragic irony. Despite his friends' attempts to comfort him—including Monica's sweet but ultimately useless reassurance that he is \"pre-approved\" in their hearts—Joey remains deeply depressed about losing his dream job. Later, Chandler returns home to find his eccentric roommate Eddie baking cookies. After a bizarre exchange about the ingredients, Chandler prepares to have a serious conversation with Eddie.",
+    "cumulative_summary": "The episode begins with Chandler and Eddie's awkward kitchen encounter, followed by Monica and Richard confessing their love. Meanwhile, Rachel and Ross's romantic plans, along with Monica and Richard's, are hilariously disrupted by a shortage of condoms. Later, the friends gather to watch Joey's soap opera, only to witness his character, Dr. Drake Ramoray, being killed off. As the group tries to comfort a devastated Joey in his apartment, he laments losing the best thing that ever happened to him, rejecting their well-meaning but useless attempts to cheer him up. Meanwhile, Chandler returns home to another bizarre encounter with his eccentric roommate Eddie, who offers him questionable homemade cookies, prompting Chandler to initiate a serious talk."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 268,
+    "timestamp_range": "00:09:57 - 00:11:24",
+    "batch_summary": "Chandler's attempt to discuss his living situation with Eddie is derailed when Eddie proudly reveals a \"pet fish\" named Chandler, which is actually just a goldfish cracker floating in a tank. Disturbed by Eddie's bizarre behavior, Chandler abandons the conversation and goes to bed. Later, an incredibly awkward hallway encounter occurs between Ross and Richard, both clad in robes. After a tense, silent moment, they mutually agree to never speak of the run-in and quickly retreat to their respective apartments.",
+    "cumulative_summary": "The episode begins with Chandler and Eddie's awkward kitchen encounter, followed by Monica and Richard confessing their love. Meanwhile, Rachel and Ross's romantic plans, along with Monica and Richard's, are hilariously disrupted by a shortage of condoms. Later, the friends gather to watch Joey's soap opera, only to witness his character, Dr. Drake Ramoray, being killed off. As the group tries to comfort a devastated Joey in his apartment, he laments losing his job, rejecting their attempts to cheer him up. Meanwhile, Chandler returns home to another bizarre encounter with his eccentric roommate Eddie. Chandler's attempt to discuss their living situation is derailed when Eddie proudly reveals a \"pet fish\" named Chandler, which is actually just a goldfish cracker floating in a tank. Disturbed by Eddie's escalating eccentricity, Chandler abandons the talk and goes to bed. Finally, Ross and Richard have an incredibly awkward, silent encounter in the hallway while both are wearing robes. Shaken by the run-in, they quickly agree to never speak of it again and retreat to their respective apartments."
+  }
+]

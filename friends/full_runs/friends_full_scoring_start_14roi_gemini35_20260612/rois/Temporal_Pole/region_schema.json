@@ -1,0 +1,730 @@
+{
+  "version": "region_schema_v1",
+  "target_region": "Temporal_Pole",
+  "functional_hypothesis": "The temporal pole (Brodmann Area 38) acts as a high-level semantic association hub that integrates abstract social knowledge, person-specific schemas, and narrative context over extended timescales. It is a critical node in the social brain network, working in tandem with the mentalizing network to decode interpersonal subtext, track social relationships, and perform socio-moral appraisals. By annotating dense movie descriptions along these dimensions, we can model how the temporal pole synthesizes immediate scene events into a coherent, emotionally and socially rich mental model of the narrative.",
+  "scoring_instruction": "Score each dimension on a scale from 0 to 10 based on the evidence present in the text description. A score of 0 indicates that the dimension is completely absent or irrelevant to the scene. A score of 10 indicates that the dimension is the central focus of the scene and is present with maximum intensity. Rely strictly on the text-only evidence provided in the description, and use the graded anchors and calibration examples to maintain consistency across different scenes.",
+  "selection_rules": [
+    {
+      "networks": [],
+      "sub_regions": [],
+      "hemispheres": [],
+      "label_ids": [
+        69,
+        70,
+        77,
+        78
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": "social_relationship_and_script_tracking",
+      "definition": "The viewer's tracking and updating of the social bonds, hierarchies, alliances, conflicts, and abstract social scripts or concepts that govern character interactions as they unfold in the narrative.",
+      "region_relevance": "The temporal pole acts as a semantic hub for social knowledge, enabling the integration of abstract social concepts, scripts, and relational dynamics during narrative comprehension.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing character interactions, dialogue, changes in relational status, or expressions of interpersonal attitudes.",
+      "source_domain_ids": [
+        "run_1_social_relationship_tracking",
+        "run_2_social_script_tracking",
+        "run_5_social_relationship_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        5
+      ],
+      "proposal_frequency": 3,
+      "consolidation_rationale": "Merged recurring domains tracking social relationships and abstract social scripts into a single coherent domain focused on the viewer's tracking of interpersonal dynamics and social structures."
+    },
+    {
+      "domain_id": "person_identity_and_schema_integration",
+      "definition": "The viewer's retrieval, tracking, and integration of unique, person-specific knowledge, including biographical details, personality traits, and past narrative history associated with specific characters, to interpret their current actions and significance.",
+      "region_relevance": "The temporal pole is a critical node for person-identity nodes (PINs) and unique entity recognition, integrating face, voice, and biographical semantic memory to recognize and track familiar individuals.",
+      "scoreability_note": "Scoreable by tracking the presence of recurring characters, references to their background, or scenes that require the viewer to recall a character's history to understand their current actions.",
+      "source_domain_ids": [
+        "run_3_person_identity_integration",
+        "run_4_person_schema_retrieval",
+        "run_5_character_identity_synthesis"
+      ],
+      "source_runs": [
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 3,
+      "consolidation_rationale": "Consolidated domains focusing on character identity, biographical retrieval, and person-specific schemas into a unified domain representing how the viewer maintains and updates knowledge about specific individuals."
+    },
+    {
+      "domain_id": "interpersonal_intent_and_subtext_inference",
+      "definition": "The viewer's active inference of a character's underlying motivations, unstated intentions, hidden agendas, beliefs, or psychological states driving their behavior, particularly by decoding the subtext of dialogue and social maneuvering.",
+      "region_relevance": "The temporal pole works in tandem with the mentalizing network to store and retrieve abstract social concepts and scripts necessary to interpret complex, ambiguous, or deceptive interpersonal behavior.",
+      "scoreability_note": "Highly scoreable in scenes featuring deception, negotiation, unspoken tension, or strategic communication where characters act with ambiguous or highly strategic motives.",
+      "source_domain_ids": [
+        "run_1_character_intent_inference",
+        "run_4_interpersonal_subtext_inference"
+      ],
+      "source_runs": [
+        1,
+        4
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Merged character intent inference and interpersonal subtext inference to capture the viewer's mentalizing effort in decoding hidden motives and unstated social dynamics."
+    },
+    {
+      "domain_id": "socio_moral_and_emotional_appraisal",
+      "definition": "The viewer's evaluative and affective appraisal of the moral, ethical, or social appropriateness of characters' actions, alongside the emotional significance, tension, warmth, or hostility of the social atmosphere.",
+      "region_relevance": "The temporal pole is heavily implicated in socio-emotional processing and moral cognition, linking abstract social rules and semantic concepts with affective value and limbic structures.",
+      "scoreability_note": "Scoreable by identifying narrative moments involving moral dilemmas, transgressions, acts of altruism, or scenes with high emotional resonance, social tension, or relational climate shifts.",
+      "source_domain_ids": [
+        "run_1_socio_moral_appraisal",
+        "run_2_socio_emotional_appraisal",
+        "run_3_social_concept_appraisal",
+        "run_4_social_concept_resonance",
+        "run_4_socio_emotional_valuation",
+        "run_5_socio_emotional_appraisal"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Combined multiple overlapping runs addressing socio-moral appraisal, social concept resonance, and socio-emotional valuation into a single robust domain representing the viewer's evaluative and affective appraisal of social scenarios."
+    },
+    {
+      "domain_id": "narrative_schema_and_coherence_integration",
+      "definition": "The viewer's cognitive synthesis of immediate scene events with the broader, long-term narrative context, overarching plot schemas, and thematic or moral concepts to construct a coherent mental model of the story.",
+      "region_relevance": "The anterior temporal lobe and temporal pole act as a semantic association engine that binds complex narrative threads, propositional information, and emotional tones over extended timescales.",
+      "scoreability_note": "Scored based on how much a scene relies on prior narrative context, introduces key transitions or thematic revelations, or requires the viewer to bridge temporal or spatial gaps.",
+      "source_domain_ids": [
+        "run_1_narrative_theme_integration",
+        "run_2_narrative_schema_integration",
+        "run_3_narrative_coherence_linking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3
+      ],
+      "proposal_frequency": 3,
+      "consolidation_rationale": "Merged narrative theme integration, schema integration, and coherence linking into a single domain capturing the viewer's high-level integration of narrative events over time."
+    }
+  ],
+  "active_domain_ids": [
+    "social_relationship_and_script_tracking",
+    "person_identity_and_schema_integration",
+    "interpersonal_intent_and_subtext_inference",
+    "socio_moral_and_emotional_appraisal",
+    "narrative_schema_and_coherence_integration"
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "social_hierarchy_and_power_dynamics",
+      "definition": "Tracking the relative social status, dominance, authority, or submission between characters in an interaction.",
+      "domain": "social_relationship_and_script_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Explicit assertions of authority or rank",
+        "Submissive gestures or deferential language",
+        "Power struggles or challenges to leadership",
+        "Displays of wealth, status, or social privilege"
+      ],
+      "graded_anchors": {
+        "0": "No social hierarchy or power dynamics are present or relevant.",
+        "1": "Extremely subtle, barely perceptible cues of status differences.",
+        "2": "Minor recognition of social roles without active power dynamics.",
+        "3": "Clear but routine hierarchy with no conflict.",
+        "4": "Mild assertion of authority or status difference in dialogue.",
+        "5": "Moderate display of dominance or submission; clear power asymmetry.",
+        "6": "Active negotiation or mild conflict over authority or social standing.",
+        "7": "Strong assertion of power, demanding obedience or showing clear subordination.",
+        "8": "Intense power struggle, open defiance, or heavy-handed exercise of authority.",
+        "9": "Extreme dominance, humiliation, or complete subjugation of one character by another.",
+        "10": "Absolute, life-or-death power dynamic or total systemic subjugation dominating the scene."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A soldier stands at attention and salutes a passing officer without speaking.",
+          "score": 3
+        },
+        {
+          "scene": "A ruthless CEO demands that an employee sign a demotion agreement immediately or face ruin, while the employee trembles in silence.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Driven by verbal commands, deferential language, physical posture of submission/dominance, and explicit mentions of rank or social class.",
+      "exclusion_note": "Do not score general physical conflict or emotional anger unless it directly relates to social status, authority, or power relations."
+    },
+    {
+      "dimension_id": "alliance_and_affiliation_tracking",
+      "definition": "Tracking the formation, maintenance, or dissolution of cooperative bonds, friendships, romantic relationships, or alliances.",
+      "domain": "social_relationship_and_script_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Expressions of loyalty or mutual support",
+        "Declarations of friendship or love",
+        "Forming a pact or agreement to work together",
+        "Betrayal or breaking of an alliance"
+      ],
+      "graded_anchors": {
+        "0": "No alliances, friendships, or cooperative bonds are present or discussed.",
+        "1": "Very minor, passing acknowledgment of acquaintance.",
+        "2": "Polite, routine cooperation between characters with no deeper bond.",
+        "3": "Casual friendly interaction or minor cooperative effort.",
+        "4": "Clear demonstration of established friendship or reliable partnership.",
+        "5": "Active formation of a new alliance or a significant moment of mutual support.",
+        "6": "Strong expression of loyalty, romantic commitment, or shared purpose.",
+        "7": "A critical test of an alliance, or a major joint effort to overcome an obstacle.",
+        "8": "Deep, emotional reaffirmation of a bond, or a painful, explicit betrayal of trust.",
+        "9": "A life-defining pact, marriage proposal, or catastrophic betrayal that shatters a core alliance.",
+        "10": "Ultimate sacrifice for an ally or partner, representing the absolute peak of relational bonding."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Two coworkers agree to share notes on a project before a meeting.",
+          "score": 3
+        },
+        {
+          "scene": "A character risks their life to pull their wounded best friend out of a burning building, shouting that they won't leave them behind.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Driven by explicit statements of loyalty, shared goals, physical affection, or acts of betrayal described in the text.",
+      "exclusion_note": "Do not score general social interactions that lack a sense of cooperative bonding, alliance, or relational commitment."
+    },
+    {
+      "dimension_id": "social_script_conformance_or_violation",
+      "definition": "Tracking how characters adhere to or violate culturally and situationally expected social scripts, etiquette, or rituals.",
+      "domain": "social_relationship_and_script_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Participation in formal rituals or ceremonies",
+        "Adherence to strict etiquette or protocol",
+        "Shocking breaches of social decorum",
+        "Awkward or inappropriate behavior in a structured setting"
+      ],
+      "graded_anchors": {
+        "0": "No structured social scripts, rituals, or etiquette are relevant to the scene.",
+        "1": "Minimal, automatic adherence to basic social greetings.",
+        "2": "Standard participation in a common, low-stakes social script.",
+        "3": "Slightly more formal script adherence like a job interview.",
+        "4": "Minor, awkward deviation from a social script, causing brief discomfort.",
+        "5": "Active participation in a highly structured ritual like a wedding or funeral.",
+        "6": "A noticeable, deliberate breach of etiquette that draws attention from others.",
+        "7": "Significant violation of a sacred or formal social script, causing offense.",
+        "8": "A shocking, highly disruptive act of social defiance during a major ceremony.",
+        "9": "Complete, chaotic destruction of a critical social ritual, leading to immediate social ostracization.",
+        "10": "A monumental, historic violation of cultural taboos or sacred rituals that permanently alters the social order."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man quietly takes his seat at a funeral and bows his head in respect.",
+          "score": 5
+        },
+        {
+          "scene": "During a solemn royal banquet, a guest stands up, insults the king, throws wine in a diplomat's face, and laughs hysterically.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of formal settings, rituals, rules of etiquette, and characters' compliance or defiance of these expectations.",
+      "exclusion_note": "Do not score general emotional outbursts unless they represent a direct violation of a specific situational social script or ritual."
+    },
+    {
+      "dimension_id": "biographical_retrieval_and_association",
+      "definition": "The necessity of retrieving and integrating a character's unique, long-term biographical background, secrets, or past history to understand the current scene.",
+      "domain": "person_identity_and_schema_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "References to a character's childhood or family history",
+        "Revelations of long-held personal secrets",
+        "Recalling past events from earlier in the narrative",
+        "Discussions of a character's reputation or resume"
+      ],
+      "graded_anchors": {
+        "0": "No biographical details or past history are mentioned or relevant.",
+        "1": "Passing mention of a minor, trivial biographical detail.",
+        "2": "Brief reference to a character's general background or occupation.",
+        "3": "Explicit mention of a character's past relationship or history that explains their current attitude.",
+        "4": "A scene where a character's reputation or known history precedes them.",
+        "5": "Moderate focus on a character's background, such as discussing their family.",
+        "6": "A conversation centered on a character's past actions, requiring the viewer to recall their history.",
+        "7": "A significant revelation of a character's secret past that changes how other characters view them.",
+        "8": "A deep dive into a character's traumatic history, crucial for understanding their current behavior.",
+        "9": "A massive biographical twist that redefines the narrative.",
+        "10": "The entire scene is a profound, identity-defining synthesis of a character's lifelong history, secrets, and ultimate destiny."
+      },
+      "calibration_examples": [
+        {
+          "scene": "John mentions in passing that he grew up in Chicago before moving to New York.",
+          "score": 2
+        },
+        {
+          "scene": "An old man reveals a faded photograph, proving that the protagonist's supposedly deceased father was actually the founder of the rival corporation.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Driven by explicit dialogue or descriptions detailing a character's past, family, secrets, or long-term personal history.",
+      "exclusion_note": "Do not score immediate, short-term scene memory unless it connects to deep biographical identity."
+    },
+    {
+      "dimension_id": "character_trait_and_role_consistency",
+      "definition": "Evaluating how well a character's current actions align with or dramatically subvert their established personality traits, moral alignment, or archetypal roles.",
+      "domain": "person_identity_and_schema_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Actions that perfectly exemplify a character's signature trait",
+        "A sudden, shocking departure from a character's usual behavior",
+        "Characters commenting on how someone is 'not acting like themselves'",
+        "A character struggling to maintain their public persona"
+      ],
+      "graded_anchors": {
+        "0": "Characters have no established traits or roles, or act as generic background figures.",
+        "1": "Extremely minor, routine action consistent with a basic role.",
+        "2": "A character acts in a way that mildly reflects a simple trait.",
+        "3": "Clear, typical behavior that reinforces an established character trait.",
+        "4": "A character explicitly acts in accordance with their defined role under minor pressure.",
+        "5": "A strong demonstration of a character's core trait, defining their approach to a problem.",
+        "6": "A character faces a mild dilemma but ultimately acts in perfect alignment with their established persona.",
+        "7": "A noticeable, surprising deviation from established behavior, raising questions about their motives.",
+        "8": "A profound, shocking subversion of a character's core identity.",
+        "9": "A dramatic, permanent character transformation or breakdown of their established persona.",
+        "10": "The ultimate test and resolution of a character's identity, where they fully transcend or completely succumb to their core nature."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The notoriously stingy landlord begrudgingly accepts the rent payment without charging a late fee.",
+          "score": 3
+        },
+        {
+          "scene": "The saintly, deeply religious priest suddenly pulls out a hidden pistol and cold-bloodedly executes an unarmed informant.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of actions that contrast with or strongly reinforce a character's known personality, values, or typical behavior.",
+      "exclusion_note": "Do not score simple physical actions or emotional reactions that do not relate to a deeper, established personality schema or character role."
+    },
+    {
+      "dimension_id": "multi_character_identity_tracking",
+      "definition": "The cognitive demand of tracking, distinguishing, and integrating the identities, names, and relationships of multiple distinct characters present in a scene.",
+      "domain": "person_identity_and_schema_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "An ensemble scene with many named characters interacting",
+        "Introductions of multiple new characters at once",
+        "Complex cross-talk or multi-way conversations",
+        "Scenes requiring the viewer to keep track of who is who in a crowd"
+      ],
+      "graded_anchors": {
+        "0": "No characters are present, or only a single isolated character is shown.",
+        "1": "A single character interacting with an anonymous, unnamed background figure.",
+        "2": "Two characters interacting in a simple, straightforward manner.",
+        "3": "Three characters interacting, with clear, easily distinguishable roles.",
+        "4": "A small group where a few key individuals dominate the interaction.",
+        "5": "A moderate group scene where at least 4 distinct, named characters actively participate.",
+        "6": "A complex scene with 5 or more characters, requiring tracking of multiple simultaneous relationships.",
+        "7": "A large family gathering or ensemble scene with rapid shifts in focus among 6+ characters.",
+        "8": "An extremely busy ensemble scene where multiple sub-groups of characters converse simultaneously.",
+        "9": "A highly complex, chaotic scene with 8+ key individuals whose distinct identities all matter.",
+        "10": "A massive, climactic ensemble scene where dozens of established characters interact, requiring maximum integration."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Alice and Bob sit at a table, quietly discussing their weekend plans.",
+          "score": 2
+        },
+        {
+          "scene": "At the family dinner, the grandfather, mother, uncle, and three siblings all argue loudly, throwing accusations and referencing their shared history.",
+          "score": 7.5
+        }
+      ],
+      "scoreability_note": "Driven by the number of named, active characters in the scene description and the complexity of their mutual interactions.",
+      "exclusion_note": "Do not score large, anonymous crowds where individual identities do not need to be tracked."
+    },
+    {
+      "dimension_id": "deceptive_intent_and_ulterior_motives",
+      "definition": "Inferring when a character is lying, concealing information, manipulating others, or acting with a hidden agenda.",
+      "domain": "interpersonal_intent_and_subtext_inference",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character telling an explicit lie",
+        "A character hiding an object or secret from someone in the room",
+        "Flattery or charm used to manipulate someone",
+        "A character acting double-faced or showing a different face when others turn away"
+      ],
+      "graded_anchors": {
+        "0": "Complete transparency; characters are entirely honest and open about their intentions.",
+        "1": "A very minor, harmless white lie or polite omission.",
+        "2": "A character is slightly guarded or reluctant to share full details.",
+        "3": "A clear, simple lie or concealment of a minor fact.",
+        "4": "Active deception regarding a significant plot point, though easily spotted by the viewer.",
+        "5": "A character uses charm or manipulation to steer a conversation while hiding their true motive.",
+        "6": "A complex web of lies where a character must maintain a false persona in front of others.",
+        "7": "High-stakes deception, where a character is actively spying, double-crossing, or manipulating a major situation.",
+        "8": "A masterclass in manipulation, where a character completely deceives others while revealing their cold, calculating nature.",
+        "9": "An extreme, multi-layered betrayal or elaborate con game where every word spoken is a calculated lie.",
+        "10": "A profound, narrative-shifting revelation of a massive, long-term conspiracy or double-agent identity."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Sarah tells her friend she likes her new haircut, even though she secretly thinks it looks terrible.",
+          "score": 2
+        },
+        {
+          "scene": "The spy sits across from the general, smiling warmly and sharing fake intelligence reports, while secretly memorizing the launch codes on the desk.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of lies, hidden agendas, discrepancies between a character's private knowledge and public statements, or manipulative behavior.",
+      "exclusion_note": "Do not score general misunderstandings or accidental misinformation where there is no intent to deceive."
+    },
+    {
+      "dimension_id": "subtextual_dialogue_decoding",
+      "definition": "Reading between the lines of dialogue to decode unspoken tension, sarcasm, double entendres, coded language, or implicit threats.",
+      "domain": "interpersonal_intent_and_subtext_inference",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Sarcastic or passive-aggressive remarks",
+        "Coded language or metaphors used to discuss a forbidden topic",
+        "Unspoken romantic or hostile tension beneath polite conversation",
+        "Double meanings where a statement has a hidden significance for certain characters"
+      ],
+      "graded_anchors": {
+        "0": "Dialogue is completely literal, direct, and straightforward.",
+        "1": "Extremely minor sarcasm or a very simple, common figure of speech.",
+        "2": "Mild passive-aggressiveness or polite euphemisms.",
+        "3": "Clear use of sarcasm or a simple double entendre.",
+        "4": "A conversation where characters use coded language to discuss something sensitive in public.",
+        "5": "Moderate subtext; characters are talking about one thing but clearly referencing another.",
+        "6": "Strong unspoken tension, where polite words mask deep hostility or intense romantic attraction.",
+        "7": "A highly charged verbal duel where every sentence is packed with double meanings, threats, or hidden overtures.",
+        "8": "An intense scene of psychological warfare conducted entirely through polite, coded, and highly strategic dialogue.",
+        "9": "A masterpiece of subtext, where the literal words are completely trivial but the underlying psychological battle is of monumental importance.",
+        "10": "Absolute peak of subtextual complexity, where multiple layers of meaning, historical grievances, and hidden threats are communicated entirely through silence and coded whispers."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A husband and wife politely ask each other to pass the salt, but their cold tone and stiff posture reveal a deep, unresolved argument.",
+          "score": 5
+        },
+        {
+          "scene": "The mob boss invites the detective for dinner, smilingly offering him 'protection' and discussing 'accidents' that happen to careless people, never explicitly threatening him but making the danger crystal clear.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of passive-aggressive dialogue, coded speech, double meanings, and the contrast between literal words and emotional undertones.",
+      "exclusion_note": "Do not score direct, open arguments or explicit threats where the conflict is fully out in the open."
+    },
+    {
+      "dimension_id": "strategic_social_maneuvering",
+      "definition": "Tracking characters engaging in social chess, negotiations, alliances, or power plays to gain an advantage over others.",
+      "domain": "interpersonal_intent_and_subtext_inference",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Negotiating terms of an agreement or contract",
+        "Attempting to win someone's favor or support",
+        "Blackmailing or leveraging secrets for gain",
+        "Playing characters against each other to create division"
+      ],
+      "graded_anchors": {
+        "0": "No strategic social interactions; characters are acting purely impulsively or cooperatively without calculation.",
+        "1": "A very minor, routine negotiation.",
+        "2": "A simple trade or compromise between two characters.",
+        "3": "A clear business negotiation or discussion of terms with minor stakes.",
+        "4": "A character strategically flatters a superior to secure a promotion.",
+        "5": "Moderate social maneuvering; a character actively tries to persuade or manipulate a group to take their side.",
+        "6": "A tense negotiation where both sides hold leverage and try to outmaneuver each other.",
+        "7": "A high-stakes social power play, such as using blackmail or a threat to force compliance.",
+        "8": "A complex, multi-party political or corporate maneuver, playing rivals against each other to secure a major victory.",
+        "9": "An extraordinary display of social chess, where a character orchestrates a massive shift in alliances and power dynamics through sheer strategic brilliance.",
+        "10": "The ultimate, masterfully executed social coup that completely dismantles an opponent's entire network of support and establishes absolute dominance."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A teenager tries to convince their parent to let them borrow the car by offering to do extra chores.",
+          "score": 3
+        },
+        {
+          "scene": "During a board meeting, the CFO presents fabricated evidence of the CEO's misconduct to the board members, having secretly secured their votes beforehand to stage a hostile takeover.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of negotiations, blackmail, strategic persuasion, and characters calculating their social moves to achieve a specific goal.",
+      "exclusion_note": "Do not score physical fights, emotional outbursts, or simple, non-strategic cooperation."
+    },
+    {
+      "dimension_id": "moral_transgression_and_ethical_judgment",
+      "definition": "The viewer's evaluation of the moral or ethical appropriateness of a character's actions, particularly involving transgressions, betrayal, or ethical dilemmas.",
+      "domain": "socio_moral_and_emotional_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Acts of cruelty, theft, or violence",
+        "Betrayal of a trust or promise",
+        "A character facing a difficult ethical dilemma",
+        "Acts of profound selflessness or moral courage"
+      ],
+      "graded_anchors": {
+        "0": "No moral or ethical issues are present; actions are completely neutral.",
+        "1": "A very minor, harmless moral slip.",
+        "2": "A minor transgression, like being slightly rude or selfish.",
+        "3": "A clear but common moral transgression.",
+        "4": "A character faces a mild ethical dilemma with clear right and wrong choices.",
+        "5": "A significant moral transgression, such as a character betraying a friend for personal gain.",
+        "6": "A complex ethical dilemma where there is no easy right answer, forcing a difficult choice.",
+        "7": "A severe moral transgression, such as unprovoked cruelty, systemic injustice, or major corruption.",
+        "8": "A shocking, heinous act of violence or betrayal that evokes strong moral outrage in the viewer.",
+        "9": "An extreme, stomach-turning moral atrocity or an act of monumental, saint-like self-sacrifice.",
+        "10": "The absolute peak of moral conflict, representing a profound struggle between ultimate good and absolute evil."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A student copies an answer from their neighbor's test paper when the teacher looks away.",
+          "score": 3
+        },
+        {
+          "scene": "A corrupt dictator orders his soldiers to fire upon a crowd of peaceful, unarmed protesters demanding food.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of harmful, illegal, cruel, or exceptionally noble actions that demand ethical evaluation.",
+      "exclusion_note": "Do not score general physical danger or accidents unless they are caused by a deliberate, morally evaluable human action."
+    },
+    {
+      "dimension_id": "interpersonal_warmth_and_hostility",
+      "definition": "Appraising the emotional temperature of a social interaction, ranging from deep warmth, love, and empathy to intense hostility, hatred, and aggression.",
+      "domain": "socio_moral_and_emotional_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Tender moments of physical affection or comfort",
+        "Warm, supportive, and loving conversations",
+        "Cold, icy silences or passive-aggressive hostility",
+        "Explosive verbal arguments, shouting, and insults"
+      ],
+      "graded_anchors": {
+        "0": "The emotional climate is completely neutral, clinical, or indifferent.",
+        "1": "A slightly polite or mildly cool interaction.",
+        "2": "A pleasant, friendly exchange or a minor, brief disagreement.",
+        "3": "Clear warmth or clear friction.",
+        "4": "A very supportive, comforting conversation or a tense, hostile confrontation.",
+        "5": "A deeply affectionate moment between partners or a highly aggressive, shouting argument.",
+        "6": "Intense emotional warmth or bitter, hateful hostility.",
+        "7": "A profound display of love and emotional intimacy, or a vicious, venomous verbal assault designed to hurt.",
+        "8": "An overwhelming surge of interpersonal warmth and bonding, or a terrifyingly hostile, explosive confrontation.",
+        "9": "An extraordinary, heart-melting expression of pure love and connection, or a scene of absolute, chilling hatred and interpersonal malice.",
+        "10": "The absolute emotional zenith of either pure, transcendent love and unity or devastating, destructive interpersonal hatred."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Two old friends meet at an airport, smiling warmly and sharing a brief hug.",
+          "score": 3.5
+        },
+        {
+          "scene": "A husband screams furious, venomous insults at his crying wife, smashing a vase against the wall and threatening to ruin her life.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of tone of voice, physical gestures of affection or aggression, and the explicit emotional quality of the dialogue.",
+      "exclusion_note": "Do not score internal, solitary emotions; there must be an active interpersonal exchange or appraisal of a relationship's climate."
+    },
+    {
+      "dimension_id": "empathic_resonance_and_compassion",
+      "definition": "Appraising scenes of suffering, vulnerability, grief, or altruism that evoke a strong sense of empathy, pity, or compassion in the viewer.",
+      "domain": "socio_moral_and_emotional_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character weeping in grief or despair",
+        "An act of pure, selfless kindness to someone in need",
+        "A vulnerable confession of pain or fear",
+        "Comforting someone who is suffering or dying"
+      ],
+      "graded_anchors": {
+        "0": "No suffering, vulnerability, or altruism is present; the scene is emotionally detached.",
+        "1": "A character experiences a very minor, temporary inconvenience.",
+        "2": "Mild disappointment or sadness expressed by a character.",
+        "3": "A character is visibly upset or stressed, receiving minor comfort.",
+        "4": "A clear moment of vulnerability, such as admitting a personal insecurity.",
+        "5": "A character is in significant distress or grief, evoking genuine sympathy.",
+        "6": "A touching act of compassion, where a character goes out of their way to help someone suffering.",
+        "7": "Deep, heartbreaking grief or physical suffering that strongly pulls at the viewer's heartstrings.",
+        "8": "A profound, highly emotional scene of shared suffering, comfort, or a beautiful act of selfless rescue.",
+        "9": "An incredibly moving, tear-inducing moment of ultimate compassion, comfort in the face of death, or profound emotional healing.",
+        "10": "The absolute peak of empathic resonance, evoking overwhelming compassion and emotional connection to a character's suffering or redemption."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A woman sighs in frustration when she drops her grocery bag, and a passerby helps her pick up a few apples.",
+          "score": 2
+        },
+        {
+          "scene": "A father holds his dying child in his arms, weeping uncontrollably and whispering words of love as the child takes their final breath.",
+          "score": 9.5
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of intense grief, physical or emotional pain, vulnerability, and acts of comfort, mercy, or altruism.",
+      "exclusion_note": "Do not score physical action, suspense, or horror unless it directly evokes a deep, empathic connection to a character's suffering or vulnerability."
+    },
+    {
+      "dimension_id": "long_term_plot_integration",
+      "definition": "The degree to which the current scene serves as a critical junction that connects, resolves, or advances long-term, overarching plotlines established much earlier in the narrative.",
+      "domain": "narrative_schema_and_coherence_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A major plot twist that recontextualizes previous events",
+        "The resolution of a long-running mystery or conflict",
+        "A callback to a crucial clue or event from early in the story",
+        "A scene that sets a major, long-term goal for the protagonist"
+      ],
+      "graded_anchors": {
+        "0": "A completely standalone, episodic scene with no connection to any larger plot.",
+        "1": "A minor scene that slightly advances a routine, short-term task.",
+        "2": "A scene that fits into the general narrative but has low plot significance.",
+        "3": "A standard plot-advancing scene, introducing a minor new obstacle.",
+        "4": "A scene that clearly connects to a major subplot, moving it forward.",
+        "5": "A significant narrative step, such as discovering a key clue or making a major decision.",
+        "6": "A scene that brings two major, previously separate plotlines together.",
+        "7": "A major turning point in the story, significantly shifting the direction of the main plot.",
+        "8": "A critical revelation or confrontation that resolves a major, long-standing mystery or conflict.",
+        "9": "A massive, mind-bending plot twist that completely redefines the entire narrative arc up to this point.",
+        "10": "The ultimate climax of the entire movie, where all major plotlines, conflicts, and character arcs converge and resolve."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The detective finds a matchbook from a local bar, giving him a minor lead on where the suspect might hang out.",
+          "score": 3
+        },
+        {
+          "scene": "In a dramatic confrontation, the protagonist discovers that the mentor who guided him for years was actually the mastermind behind his family's murder, resolving a mystery established in the opening scene.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of major revelations, plot twists, resolutions of long-term mysteries, and critical turning points in the story.",
+      "exclusion_note": "Do not score simple, immediate action sequences or episodic events that do not connect to a broader, long-term narrative arc."
+    },
+    {
+      "dimension_id": "thematic_and_symbolic_synthesis",
+      "definition": "The degree to which a scene expresses, reinforces, or synthesizes the abstract themes, philosophical questions, or symbolic motifs of the movie.",
+      "domain": "narrative_schema_and_coherence_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Explicit discussions of philosophical or moral themes",
+        "The use of prominent visual or narrative symbols",
+        "A character delivering a speech that summarizes the story's message",
+        "A scene that serves as a clear metaphor for a broader human condition"
+      ],
+      "graded_anchors": {
+        "0": "The scene is purely literal and action-oriented, with no thematic or symbolic depth.",
+        "1": "A very minor, common cliché or superficial moral statement.",
+        "2": "A brief, simple thematic reference.",
+        "3": "A clear, standard thematic element, such as a recurring motif appearing in the background.",
+        "4": "A conversation that touches upon a central theme of the movie.",
+        "5": "A scene structured around a clear symbolic metaphor.",
+        "6": "A strong thematic statement, where a character's choice directly illustrates a core philosophical dilemma.",
+        "7": "A highly symbolic sequence or a deep, meaningful dialogue that explores the story's underlying message.",
+        "8": "A powerful, poetic synthesis of theme and narrative, where the events of the scene carry immense symbolic weight.",
+        "9": "A profound, climactic monologue or symbolic event that perfectly encapsulates the entire philosophical message of the film.",
+        "10": "The absolute thematic peak, where narrative, symbolism, and philosophy merge into a transcendent, universally resonant statement on the human condition."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character looks at a wilted rose on their desk, sighing as they realize their time is running out.",
+          "score": 4
+        },
+        {
+          "scene": "The protagonist delivers a powerful, tearful speech to the court about the nature of true justice, forgiveness, and the systemic failures of the law, summarizing the film's core philosophical struggle.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of symbolic objects, metaphorical situations, philosophical dialogues, and explicit thematic statements.",
+      "exclusion_note": "Do not score literal plot progression or emotional reactions unless they carry a clear, abstract thematic or symbolic meaning."
+    },
+    {
+      "dimension_id": "temporal_and_spatial_bridging",
+      "definition": "The cognitive demand of integrating events across non-linear narrative structures, such as flashbacks, flashforwards, dream sequences, parallel editing, or significant time jumps.",
+      "domain": "narrative_schema_and_coherence_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A sudden flashback to a character's childhood",
+        "A flashforward showing a future outcome",
+        "Parallel editing cutting between two events happening at the same time in different places",
+        "A dream sequence or hallucination that blends reality and fantasy"
+      ],
+      "graded_anchors": {
+        "0": "The scene is completely linear, continuous, and set in a single time and place.",
+        "1": "A very minor, brief mention of a past event without a visual or structural jump.",
+        "2": "A simple, straightforward transition between two consecutive scenes with a minor time jump.",
+        "3": "A clear, brief flashback or memory sequence that interrupts the present action.",
+        "4": "A scene that cuts back and forth between two closely related, simultaneous actions in the same building.",
+        "5": "A significant flashback that provides crucial context for a character's current emotional state.",
+        "6": "Parallel editing cutting between two entirely different locations, requiring the viewer to bridge the spatial gap.",
+        "7": "A complex, non-linear sequence blending present action with multiple brief memories or projections of the future.",
+        "8": "A highly stylized dream sequence or hallucination where the boundaries of time, space, and reality are heavily blurred.",
+        "9": "An intricate, multi-layered sequence of parallel editing or rapid flashbacks that demands intense cognitive effort to reconstruct the timeline.",
+        "10": "A masterpiece of non-linear storytelling, where multiple timelines, realities, or spatial dimensions are woven together, requiring maximum cognitive integration."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The scene cuts from the protagonist falling asleep to a brief, hazy memory of his mother singing to him when he was five years old.",
+          "score": 5
+        },
+        {
+          "scene": "The film rapidly cuts between a surgeon performing a critical operation in the present, a car crash that occurred two hours ago, and a childhood memory of the patient, weaving all three timelines into a single, tense climax.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of flashbacks, parallel editing, dream sequences, time jumps, and non-linear narrative transitions.",
+      "exclusion_note": "Do not score standard, linear scene transitions that follow a simple chronological order without spatial or temporal complexity."
+    }
+  ],
+  "metadata": {
+    "domain_pool": {
+      "source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/Temporal_Pole/domain_pool_auto_confirmed.json",
+      "content_sha256": "9fc361fdfb60c759c4f31dc494342b4118df3d71750b8a361fda5a6c5ffe8e2a",
+      "version": "domain_pool_v2",
+      "target_region": "Temporal_Pole",
+      "curation_status": "confirmed",
+      "proposal_runs": 5,
+      "curated_domain_ids": [
+        "social_relationship_and_script_tracking",
+        "person_identity_and_schema_integration",
+        "interpersonal_intent_and_subtext_inference",
+        "socio_moral_and_emotional_appraisal",
+        "narrative_schema_and_coherence_integration"
+      ]
+    },
+    "source_provider": "gemini",
+    "source_model": "gemini-3.5-flash",
+    "fixed_roi_definition": {
+      "roi_id": "Temporal_Pole",
+      "display_name": "temporal pole",
+      "theoretical_role": "Semantic memory, social concepts, and autobiographical meaning.",
+      "selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            69,
+            70,
+            77,
+            78
+          ]
+        }
+      ]
+    }
+  }
+}

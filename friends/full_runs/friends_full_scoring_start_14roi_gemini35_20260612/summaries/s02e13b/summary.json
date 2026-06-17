@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:50",
+    "batch_summary": "At a restaurant, Susie intensely flirts with Chandler, prompting him to follow her to the restroom despite being at a table with Ross, Joey, and a companion. Once inside a bathroom stall, Susie playfully commands Chandler to strip off his clothes. Chandler complies, joking about missing the restaurant specials. However, after Chandler undresses, Susie unexpectedly exits the stall alone, carrying her belongings and leaving him stranded.",
+    "cumulative_summary": "In a dimly lit restaurant, Susie and Chandler share an intensely flirtatious moment at a dinner table, despite sitting right next to Ross, Joey, and an unnamed female companion. Susie boldly suggests they hook up immediately and tells Chandler to meet her in the restroom. After Chandler loudly announces his departure to the table, he follows Susie into a public restroom stall. The two begin to fool around, and Susie commands Chandler to strip off all his clothes, including his trousers and shirt. Chandler humorously complies, joking about missing the dinner specials. However, the playful encounter takes a sudden turn when Susie abruptly exits the stall barefoot, carrying her shoes and a black garment, leaving a completely undressed Chandler trapped inside."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:50 - 00:03:31",
+    "batch_summary": "In the restroom, Susie tricks Chandler into turning around, reaches under the stall, and steals his clothes. She reveals this is revenge for a fourth-grade prank where he lifted her skirt, earning her the nickname \"Susie Underpants.\" Despite Chandler's protests, Susie leaves him naked and stranded. Meanwhile, Monica enjoys a thrilling night out on a blind date with action star Jean-Claude Van Damme, playfully asking him if he can beat up random pedestrians as they walk down the street.",
+    "cumulative_summary": "During a dinner with friends, Susie and Chandler sneak into a public restroom stall to hook up. After convincing Chandler to strip completely naked, Susie's playful demeanor shifts. She tricks him into turning around, reaches under the door, and steals all of his clothes. Susie angrily reveals this is long-awaited revenge for a fourth-grade prank where Chandler lifted her skirt, leaving her with the humiliating nickname \"Susie Underpants\" for years. Ignoring his protests, she abandons a completely naked Chandler in the restroom. Meanwhile, Monica enjoys an exciting night out on a blind date with action star Jean-Claude Van Damme. As they stroll down a city street, Monica gushes over his fame and playfully asks him if he can beat up various passersby, while he admits his surprise at her agreeing to the date."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:31 - 00:05:05",
+    "batch_summary": "Monica's date with Jean-Claude Van Damme turns sour when he reveals Rachel told him Monica wanted a threesome with him and Drew Barrymore. Furious, Monica confronts Rachel back at the apartment. When Rachel refuses to apologize, their argument quickly escalates into a petty, destructive battle. Monica begins unraveling Rachel's favorite sweater, prompting Rachel to retaliate by pouring marinara sauce directly into Monica's handbag. A shocked Phoebe steps in to break up the chaotic fight, though both women remain incredibly angry.",
+    "cumulative_summary": "During a dinner with friends, Susie and Chandler sneak into a public restroom stall to hook up. After convincing Chandler to strip completely naked, Susie's playful demeanor shifts. She tricks him into turning around, reaches under the door, and steals all of his clothes. Susie angrily reveals this is long-awaited revenge for a fourth-grade prank where Chandler lifted her skirt, leaving her with the humiliating nickname \"Susie Underpants\" for years. Ignoring his protests, she abandons a completely naked Chandler in the restroom. Meanwhile, Monica enjoys an exciting night out on a blind date with action star Jean-Claude Van Damme. However, the date turns sour when Van Damme reveals Rachel told him Monica wanted a threesome with him and Drew Barrymore. Furious, Monica confronts Rachel back at the apartment. When Rachel refuses to apologize, their argument quickly escalates into a petty, destructive battle. Monica begins unraveling Rachel's favorite sweater, prompting Rachel to retaliate by pouring marinara sauce directly into Monica's handbag. A shocked Phoebe eventually steps in to break up the chaotic fight, though both women remain incredibly angry."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:05 - 00:06:43",
+    "batch_summary": "Phoebe successfully de-escalates Monica and Rachel's destructive fight by forcing them to look at their ruined belongings. Ashamed, the two friends apologize, swap their damaged items, and reconcile over the Jean-Claude Van Damme drama. Meanwhile, Joey enters the public restroom and discovers Chandler trapped in a stall. Chandler reluctantly confesses that Susie stole his clothes, leaving him with nothing to wear but a pair of panties, prompting Joey to tease him about his unfortunate situation.",
+    "cumulative_summary": "During a dinner with friends, Susie lures Chandler into a restroom stall, tricks him into stripping, and steals his clothes as revenge for a childhood prank. Meanwhile, Monica's date with Jean-Claude Van Damme goes awry when she learns Rachel told him Monica wanted a threesome. Back at the apartment, Monica and Rachel's confrontation escalates into a destructive fight, with Monica unraveling Rachel's sweater and Rachel ruining Monica's handbag with marinara sauce. Phoebe steps in to stop the chaos, forcing them to look at the damage they have caused. Shamed by their actions, Monica and Rachel apologize to each other and reconcile. Meanwhile, Joey enters the public restroom and discovers Chandler still trapped in the stall. Chandler is forced to admit that Susie stole his clothes, leaving him with nothing to wear but a pair of panties, much to Joey's amusement."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:43 - 00:09:03",
+    "batch_summary": "In the restroom, Ross joins Joey in mocking Chandler, who is wearing a pink thong. Desperate, Chandler tries to buy Ross's underwear but ultimately has to escape the restaurant using a detached stall door to cover himself. Later at Central Perk, Joey happily announces he landed a minor role in the movie. Meanwhile, Ross tries to act indifferent about saying goodbye to Marcel, but the monkey suddenly appears at the window. The two share a heartwarming reunion, and Ross walks down the street with Marcel on his shoulder.",
+    "cumulative_summary": "During a dinner with friends, Susie steals Chandler's clothes as revenge for a childhood prank, leaving him trapped in a restroom stall wearing only a pink thong. After Joey and Ross discover him, Chandler is forced to escape the restaurant by holding a detached stall door in front of himself. Meanwhile, Monica and Rachel's tension over Jean-Claude Van Damme escalates into a destructive physical fight, but Phoebe intervenes, helping them reconcile. Later at Central Perk, Joey celebrates landing a minor role in the movie. Although Ross tries to act indifferent about his former pet monkey Marcel moving on, Marcel unexpectedly appears at the coffee shop window. The two share a heartwarming reunion, and Ross happily walks down the street with Marcel on his shoulder."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:03 - 00:10:55",
+    "batch_summary": "Ross enjoys a sweet montage of moments around the city with Marcel before bidding him an emotional farewell as the monkey departs in a car, supported by the rest of the gang. Meanwhile, Monica and Rachel meet Jean-Claude Van Damme to say goodbye. After taking turns kissing him, they hilariously reject his suggestions of a threesome and a bizarre walnut-crushing trick, walking away together.",
+    "cumulative_summary": "During a dinner with friends, Susie steals Chandler's clothes as revenge for a childhood prank, leaving him trapped in a restroom stall wearing only a pink thong. After Joey and Ross discover him, Chandler is forced to escape the restaurant by holding a detached stall door in front of himself. Meanwhile, Monica and Rachel's tension over Jean-Claude Van Damme escalates into a destructive physical fight, but Phoebe intervenes, helping them reconcile. Later, Ross unexpectedly reunites with his former pet monkey, Marcel. After enjoying a sweet montage of moments together around the city, Ross bids an emotional farewell to Marcel as he leaves for his movie career, supported by the entire gang. Before this, Monica and Rachel meet Jean-Claude Van Damme one last time. Although they take turns kissing him goodbye, they unitedly reject his suggestions for a threesome and a bizarre walnut-crushing stunt, walking away as friends."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 266,
+    "timestamp_range": "00:10:55 - 00:12:07",
+    "batch_summary": "After waving goodbye to Marcel, the group walks together, and Phoebe playfully teases Chandler about his earlier thong incident by asking to borrow his \"g-string\" for her guitar. Later, on a movie set, Joey shoots a scene with Jean-Claude Van Damme. Playing a dying man on a stretcher, Joey's hilariously over-the-top groans and dramatic wails repeatedly ruin the takes. Ultimately, the director changes the scene so Joey's character is already dead, and Jean-Claude simply covers his face with a sheet.",
+    "cumulative_summary": "Following a series of wild events—including Chandler being left in a thong by Susie, Monica and Rachel fighting over Jean-Claude Van Damme, and Ross reuniting with his monkey Marcel—the gang bids an emotional farewell to Marcel as he departs for his movie career. Walking home, Phoebe lightens the mood by teasing Chandler about his thong incident, asking to borrow his \"g-string\" for her guitar. Later, Joey shoots a movie scene alongside Jean-Claude Van Damme. Playing a dying man on a stretcher, Joey's hilariously over-the-top groans and dramatic wails repeatedly ruin the takes. Frustrated by his theatrical antics, the director ultimately changes the scene, declaring Joey's character dead so Jean-Claude can simply cover his face with a sheet."
+  }
+]

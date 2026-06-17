@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:49",
+    "batch_summary": "In a hospital waiting room, an emotional Monica talks to her mother on the phone about Ross and her own anxiety about having babies. Chandler comforts her as she breaks down, and Joey arrives after witnessing a birth. Meanwhile, Rachel flirts with Dr. Franzblau by the coffee machine. The doctor attempts to explain how his profession as an OB/GYN impacts his dating life by comparing it to Rachel's job as a waitress, leaving her momentarily put off by the analogy before he goes to check on their friend.",
+    "cumulative_summary": "In a hospital waiting area, Monica is on the phone with her mother, trying to reassure her while dealing with her own emotional distress. Overwhelmed by the topic of children and her age, Monica breaks down in tears. Chandler steps in to comfort her, taking over the call and offering a warm embrace. Joey soon joins them, casually announcing he just helped deliver a baby. Meanwhile, Rachel strikes up a flirtatious conversation with Dr. Franzblau over coffee. The doctor inquires about her relationship status and explains the difficulties of keeping his professional life separate from his personal life. He uses an awkward analogy comparing his work as an OB/GYN to Rachel's job as a waitress, which leaves her feeling slightly uncomfortable. Dr. Franzblau then heads off to check on their friend, leaving Rachel to ponder his words."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:49 - 00:03:49",
+    "batch_summary": "Joey visits Susan and Roy in their hospital room to see their new baby before quietly slipping away with a balloon. Meanwhile, Ross, Susan, and Phoebe find themselves accidentally locked in a hospital closet after Ross breaks the doorknob. Trapped inside, Ross and Susan's underlying tensions boil over as they argue heatedly about their respective roles and insecurities regarding the baby's future, while Phoebe watches from the floor.",
+    "cumulative_summary": "In a hospital waiting area, Monica is comforted by Chandler and Joey after breaking down over her anxieties about having children. Nearby, Rachel has a flirtatious but slightly awkward conversation with Dr. Franzblau. Meanwhile, Joey visits Susan and Roy in their hospital room to check on their newborn baby before quietly slipping away. The situation takes a chaotic turn when Ross, Susan, and Phoebe get trapped inside a hospital storage closet after Ross accidentally breaks the doorknob. Confined in the small space, the tension between Ross and Susan erupts into a heated argument. Ross expresses his frustration over missing his son's birth and feeling excluded from the baby's future home life, while Susan voices her own insecurities about her lack of official recognition as a parent. As they bicker over their roles, Phoebe can only watch and try to lighten the tense atmosphere."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:49 - 00:05:58",
+    "batch_summary": "Inside the closet, Phoebe's touching speech about her own difficult childhood helps Ross and Susan resolve their conflict. Meanwhile, in the delivery room, Carol reaches full dilation and must begin pushing. Attempting an escape, Ross and Susan hoist Phoebe into a ceiling vent, but a janitor suddenly opens the closet door. Ross and Susan rush out, leaving Phoebe dangling, and arrive in the delivery room just in time to support Carol as she begins to give birth.",
+    "cumulative_summary": "In a hospital waiting area, Monica is comforted by Chandler and Joey over her anxieties about having children, while Rachel flirts with Dr. Franzblau. Nearby, Joey visits a newborn before Ross, Susan, and Phoebe accidentally get locked in a hospital closet. The confinement sparks a heated argument between Ross and Susan over their parental roles. However, Phoebe defuses the tension with a heartfelt speech about her own fragmented childhood, reminding them how lucky their baby is to have three loving parents. Meanwhile, in the delivery room, Carol reaches full dilation and is forced to start pushing. Desperate to escape, Ross and Susan hoist Phoebe into a ceiling vent, but they are suddenly rescued when a janitor opens the closet door. Leaving Phoebe hilariously dangling from the ceiling, Ross and Susan sprint to the delivery room, arriving just in time to support Carol as she prepares to give birth."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:58 - 00:07:43",
+    "batch_summary": "In the delivery room, the nurse ushers the friends out, leaving Ross and Susan to support Carol through labor. As Dr. Franzblau guides the delivery, an ecstatic Ross narrates the birth step-by-step, joyfully announcing that the baby is a boy. After the emotional birth, the friends celebrate through the window. Later, as Carol cradles the newborn, Ross suggests the name Ben, which Susan warmly accepts, bringing a peaceful resolution to their naming dispute.",
+    "cumulative_summary": "In a hospital waiting area, Monica is comforted by Chandler and Joey over her anxieties about having children, while Rachel flirts with Dr. Franzblau. Nearby, Joey visits a newborn before Ross, Susan, and Phoebe accidentally get locked in a hospital closet. The confinement sparks a heated argument between Ross and Susan over their parental roles, which Phoebe defuses with a heartfelt speech about her own childhood. After being rescued from the closet, Ross and Susan sprint to the delivery room just in time to support Carol. As the nurse ushers the other friends out, Ross and Susan stand by Carol's side. Ross excitedly narrates the birth as Dr. Franzblau delivers the baby, joyfully declaring that it is a boy. The friends watch and celebrate through the window as the newborn arrives. Later, holding their new son, Ross, Susan, and Carol peacefully agree on the name Ben, uniting the three parents in shared joy."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:43 - 00:09:25",
+    "batch_summary": "Carol, Ross, and Susan officially name the baby Ben. The rest of the friends enter the hospital room to meet the newborn. Ross proudly introduces Ben to the group, prompting warm and humorous reactions. Monica eagerly asks to hold her new nephew, tenderly introducing herself as \"Aunt Monica\" and promising she will always have gum for him. Finally, Ross playfully addresses Ben directly, ducking out of the frame to show he might not always be physically right there.",
+    "cumulative_summary": "In a hospital waiting area, Monica is comforted by Chandler and Joey over her anxieties about having children, while Rachel flirts with Dr. Franzblau. Nearby, Joey visits a newborn before Ross, Susan, and Phoebe accidentally get locked in a hospital closet. The confinement sparks a heated argument between Ross and Susan over their parental roles, which Phoebe defuses with a heartfelt speech. After being rescued, Ross and Susan sprint to the delivery room just in time to support Carol. Ross excitedly narrates the birth of his new son, and the three parents peacefully agree on the name Ben. Soon after, the rest of the friends enter the room to meet the newborn. Ross proudly introduces Ben to the group, prompting warm and humorous reactions. Monica eagerly holds her new nephew, tenderly introducing herself as \"Aunt Monica\" and promising she will always have gum for him. Finally, Ross playfully addresses Ben directly, ducking out of the frame to show he might not always be physically right there."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:25 - 00:10:54",
+    "batch_summary": "Ross continues his playful monologue to baby Ben, demonstrating baseball signs with Chandler watching. Later, the entire friend group gathers around the newborn, marveling at his small movements. After Joey jokes about Ben not knowing his name and Chandler notes the baby's lack of activity, Rachel suggests getting coffee. The group starts to leave but quickly returns, unable to tear themselves away from the baby as they all stand together, staring down at Ben in quiet fascination.",
+    "cumulative_summary": "In a hospital waiting area, Monica is comforted over her anxieties about having children, while Ross, Susan, and Phoebe accidentally get locked in a closet. After a heated argument over parental roles, Phoebe defuses the tension, and they are rescued just in time for Carol to give birth to baby Ben. The friends gather to meet the newborn, with Monica warmly introducing herself as Aunt Monica. Ross playfully addresses Ben directly, joking about being away and demonstrating baseball signs with Chandler. The entire group then clusters around the baby, marveling at his small movements. Although Chandler notes the baby does not do much and Rachel briefly suggests getting coffee, the friends find themselves unable to leave. They quickly return to stand by Ross, staring down at Ben in quiet, collective fascination as the credits roll."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 249,
+    "timestamp_range": "00:10:54 - 00:11:27",
+    "batch_summary": "The group remains completely transfixed by baby Ben, standing in quiet, collective fascination. They watch his every minor movement in silence, with Phoebe softly pointing out when he closes his eyes again. This tender, quiet moment of shared wonder binds the friends together as the scene fades to black and the final copyright credits appear, concluding the episode on a warm and peaceful note.",
+    "cumulative_summary": "In a hospital waiting area, Monica is comforted over her anxieties about having children, while Ross, Susan, and Phoebe accidentally get locked in a closet. After a heated argument over parental roles, Phoebe defuses the tension, and they are rescued just in time for Carol to give birth to baby Ben. The friends gather to meet the newborn, with Monica warmly introducing herself as Aunt Monica. Ross playfully addresses Ben directly, demonstrating baseball signs with Chandler. The entire group then clusters around the baby, marveling at his small movements. Although Chandler notes the baby does not do much and Rachel briefly suggests getting coffee, the friends find themselves unable to leave. They quickly return to stand by Ross, staring down at Ben in quiet, collective fascination. The group remains completely transfixed, watching his tiny movements in silence. Phoebe softly points out when Ben closes his eyes again, and the friends continue their peaceful vigil until the scene fades to black and the final credits roll."
+  }
+]

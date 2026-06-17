@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:25",
+    "batch_summary": "Ross and Rachel share a romantic moment in the hallway, planning an intimate evening together, but their kiss is interrupted when Ross opens the door to find Joey and Chandler watching TV. Meanwhile, Monica visits her eye doctor, Richard. During her exam, a palpable romantic tension builds between them as they exchange flirtatious remarks and share a lingering, silent look before holding hands as she prepares to leave.",
+    "cumulative_summary": "In a hallway, Ross and Rachel share a tender embrace as Rachel flirtatiously suggests a romantic evening of dinner, wine, and dessert at her place. After a passionate kiss, Ross opens the door to an apartment, only to have their intimate moment interrupted by Joey and Chandler, who are lazily watching TV and asking for beers. Meanwhile, Monica attends an eye exam with her doctor, Richard. The routine checkup quickly becomes charged with romantic tension as Richard examines Monica's eyes and compliments them. Monica responds with playful banter, and the two share a prolonged, silent gaze. As the exam concludes, Richard helps Monica up from her chair, and they hold hands, leaving a strong impression of mutual attraction."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:25 - 00:02:56",
+    "batch_summary": "Monica and Richard's romantic tension culminates in a passionate kiss at his office before she departs. Meanwhile, back at the apartment, Phoebe attempts to coax Joey and Chandler out of their recliners, only to get instantly sucked into watching TV with them. When Ross and Rachel arrive to say goodnight, Ross tests the trio's extreme distraction by joking about taking off his shirt, which goes completely unnoticed. Later, Monica confronts Joey and Chandler about sending food to her apartment.",
+    "cumulative_summary": "Following their flirtatious encounter in the hallway, Ross and Rachel's romantic evening is interrupted by Joey and Chandler, who are lazily glued to the television. Meanwhile, Monica's eye exam with Dr. Richard Burke escalates from playful banter to undeniable chemistry. Before Monica can leave, Richard stops her to offer free eye drops, leading to a passionate kiss between the two. Back at the apartment, Phoebe tries to shame Joey and Chandler for their laziness, but she is quickly hypnotized by the TV herself. When Ross and Rachel drop by to say goodnight, Ross jokingly tests the trio's extreme distraction by pretending to take off his shirt, but they remain completely unresponsive. Finally, Monica arrives to confront Joey and Chandler, dumping a box on Chandler's lap and demanding they stop sending food to her apartment."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:02:56 - 00:04:45",
+    "batch_summary": "Monica reluctantly reveals to a judgmental Ross that she has a date with Dr. Richard Burke. Ross is horrified, pointing out that Richard is their father's friend and much older, but Monica and Phoebe defend him as sophisticated and sexy. Rachel also shares a sweet childhood memory of Richard. Later, Ross works on a museum display with Rachel, venting about historical inaccuracies while Chandler cracks a joke from the apartment.",
+    "cumulative_summary": "Following their flirtatious encounter in the hallway, Ross and Rachel's romantic evening is interrupted by Joey and Chandler, who are lazily glued to the television. Meanwhile, Monica's eye exam with Dr. Richard Burke escalates from playful banter to a passionate kiss. Back at the apartment, Phoebe is also hypnotized by the TV, and Monica arrives to demand Joey and Chandler stop sending food to her place. When Ross notices Monica is dressed up, she reluctantly reveals she has a date with Richard. Ross is immediately judgmental, pointing out that Richard is their father's friend and significantly older. However, Monica defends Richard as sophisticated and sexy, a sentiment Phoebe shares, while Rachel recalls a sweet childhood memory of him. Later, Ross works on a museum display with Rachel, frustrated by historical inaccuracies, while Chandler cracks a joke from afar."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:45 - 00:06:20",
+    "batch_summary": "At the museum, Ross apologizes to Rachel for his work taking longer than expected, delaying their dinner plans. Meanwhile, Monica and Richard's date takes an unexpected turn when Richard reveals he is already a grandfather. This revelation, along with Monica's childhood memories of him, forces them to confront their significant 21-year age gap and question if they are crazy for dating.",
+    "cumulative_summary": "Following their flirtatious encounter in the hallway, Ross and Rachel's romantic evening is interrupted by Joey and Chandler, who are lazily glued to the television. Meanwhile, Monica's eye exam with Dr. Richard Burke escalates from playful banter to a passionate kiss. Back at the apartment, Monica reluctantly reveals she has a date with Richard. Ross is immediately judgmental, pointing out that Richard is their father's friend and significantly older, though Monica defends him as sophisticated and sexy. Later, Ross works on a museum display with Rachel, but his work takes much longer than expected, delaying their dinner plans. Meanwhile, Monica and Richard's date gets complicated when Richard reveals he is a grandfather. This revelation, combined with Monica's childhood memories of him, forces the couple to confront the reality of their 21-year age gap and question if they are making a mistake."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:20 - 00:08:00",
+    "batch_summary": "Monica and Richard acknowledge their massive age difference and briefly consider ending things, but their intense chemistry wins out. Deciding not to rush into any decisions, they share a passionate embrace. Meanwhile, Ross finally finishes his work, but it is too late for a normal dinner date. Refusing to let the night be ruined, Ross surprises Rachel by taking her to the museum's planetarium, setting up a romantic, makeshift picnic on the floor.",
+    "cumulative_summary": "After their initial plans are interrupted, Monica and Richard's first date is complicated by their 21-year age gap and Richard's status as a grandfather. Although they briefly consider ending things, their intense chemistry prevails, and they decide to continue seeing each other without rushing into major decisions. Meanwhile, Ross's museum work runs incredibly late, seemingly ruining his highly anticipated date with Rachel. However, rather than canceling, Ross salvages the evening by bringing Rachel into the museum's planetarium. He sets up a spontaneous, romantic picnic on the floor with juice cartons and his jacket, turning a delayed evening into an intimate, memorable date."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:00 - 00:09:34",
+    "batch_summary": "Inside the planetarium, Ross projects a starry sky and dims the lights to create a romantic atmosphere. As they lie together on the floor, Ross apologizes for his lateness, but Rachel reassures him that he was worth the wait. The tender moment leads to a passionate, intimate kiss, marking a significant step forward in their relationship as they embrace under the projected stars.",
+    "cumulative_summary": "After their initial plans are interrupted, Monica and Richard's first date is complicated by their 21-year age gap. Although they briefly consider ending things, their chemistry prevails, and they decide to continue seeing each other. Meanwhile, Ross's museum work runs incredibly late, seemingly ruining his highly anticipated date with Rachel. However, Ross salvages the evening by bringing Rachel into the planetarium for a spontaneous picnic. Under a projection of stars, Ross apologizes for the delay, but Rachel tenderly reassures him that he was worth the wait. The romantic atmosphere leads to a passionate and deeply intimate embrace, marking a major milestone in their relationship as they kiss on the planetarium floor."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:34 - 00:11:28",
+    "batch_summary": "Following their romantic moment, a funny mishap with a crushed juice box leads Ross and Rachel to laugh and kiss again. They wake up the next morning inside a museum exhibit under a fur blanket, only to realize a group of schoolchildren and a priest are staring at them through the glass. Meanwhile, Joey and Chandler are so comfortable in their new recliner chairs that they hilariously ignore a blaring fire alarm, deciding they have time to keep watching TV since the floor isn't warm yet.",
+    "cumulative_summary": "After their initial plans are interrupted, Monica and Richard's first date is complicated by their 21-year age gap, though they ultimately decide to keep seeing each other. Meanwhile, Ross salvages his late-night museum shift by taking Rachel on a romantic planetarium date. After a passionate night together, a lighthearted moment with a crushed juice box gives way to a sweet morning as they wake up under a fur blanket in a museum exhibit. However, their romantic bubble is hilariously popped when they realize a group of schoolchildren and a priest are staring at them through the exhibit glass. Back at the apartment, Joey and Chandler's extreme laziness is on full display as they refuse to get out of their comfortable new recliner chairs, choosing to ignore a blaring fire alarm to keep watching television."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 280,
+    "timestamp_range": "00:11:28 - 00:11:33",
+    "batch_summary": "The current segment concludes with a brief transition as the television screen fades to black, bringing a quiet end to the chaotic and humorous events of the day. This final moment wraps up the parallel storylines of Monica and Richard's budding romance, Ross and Rachel's museum morning, and Joey and Chandler's lazy recliner marathon, leaving the characters in their respective states of romantic bliss and comfortable inertia.",
+    "cumulative_summary": "Monica and Richard's first date is complicated by their 21-year age gap, though they ultimately decide to keep seeing each other. Meanwhile, Ross salvages his late-night museum shift by taking Rachel on a romantic planetarium date. After a passionate night together, they wake up under a fur blanket in a museum exhibit, only to have their romantic bubble hilariously popped when they realize a group of schoolchildren and a priest are staring at them through the glass. Back at the apartment, Joey and Chandler's extreme laziness is on full display as they refuse to get out of their comfortable new recliner chairs, choosing to ignore a blaring fire alarm to keep watching television. The chaotic and romantic events of the day finally draw to a close as the screen fades to black, leaving the friends to navigate their new relationships and comfortable inertia."
+  }
+]

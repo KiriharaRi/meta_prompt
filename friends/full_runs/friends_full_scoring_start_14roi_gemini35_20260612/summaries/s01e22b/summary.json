@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:39",
+    "batch_summary": "In a dimly lit bedroom, Monica confesses her strong feelings for Ethan, but the romantic mood quickly shatters when Ethan reveals he is actually a high school senior. Shocked and panicked by the legal implications, Monica paces the room in distress. Despite Ethan's sweet confession of falling in love with her, Monica insists they must end their relationship, reminding him that he shouldn't even be there on a school night.",
+    "cumulative_summary": "In a dimly lit bedroom, Monica confesses her deep feelings for Ethan, recalling the spark she felt during their very first kiss. However, the romantic atmosphere quickly turns to shock when Ethan admits he lied about his age and is actually a senior in high school. Horrified by the realization of what they have done and the potential legal consequences, Monica panics and paces the room. Although Ethan tries to comfort her by confessing that he is falling in love with her, Monica firmly shuts down his advances. Distressed and overwhelmed, she insists that they must end their relationship and tells him he needs to leave because it is a school night."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:39 - 00:03:11",
+    "batch_summary": "Monica humorously compares herself to Joan Collins before the scene shifts to the apartment. Ross makes a bizarre phone call about \"whores\" and \"kimonos\" while Phoebe watches. Later, in the living room, Chandler presses Rachel to share details about a dream she had. Rachel reluctantly reveals that both Chandler and Joey were in it, prompting an anxious Ross to ask if he was included. When Rachel says no, an excited Joey eagerly asks for the specific, suggestive details of the dream's dynamics.",
+    "cumulative_summary": "In a dimly lit bedroom, Monica confesses her deep feelings for Ethan, but the romantic atmosphere turns to shock when Ethan admits he is actually a high school senior. Horrified by the potential legal consequences, Monica panics, rejects his advances, and insists they must end their relationship. After humorously comparing herself to Joan Collins, the scene shifts to the apartment. Ross makes a bizarre, suspicious phone call about \"whores\" and \"kimonos\" while Phoebe looks on. Later, in the living room, Chandler presses Rachel to share details about a dream she had. Rachel reluctantly reveals that both Chandler and Joey were in the dream, prompting an anxious Ross to ask if he was included. When Rachel confirms he was not, a thrilled Joey eagerly asks for the specific, suggestive details of the dream's dynamics."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:11 - 00:04:50",
+    "batch_summary": "Rachel adds a bizarre twist to her dream, leaving Joey and Chandler amused yet awkward. When Monica enters, Rachel mentions that Ethan called again. Monica tries to downplay their breakup, but Chandler and Ross relentlessly tease her about Ethan's young age, making Power Rangers jokes until she asks them to drop it. Finally, Phoebe experiences a head rush before announcing she is leaving to attend a birthday party with her \"work people,\" leaving Chandler intrigued.",
+    "cumulative_summary": "After Monica ends her relationship with Ethan upon discovering he is a high school senior, she returns to the apartment where the group is gathered. Meanwhile, Rachel shares more details about her suggestive dream involving Chandler and Joey, adding a bizarre twist that she wasn't always herself in it. When Rachel reveals that Ethan called again, Monica tries to brush off their breakup. However, Chandler and Ross relentlessly tease her about dating a teenager, making jokes about gym class excuses and Power Rangers until an annoyed Monica begs them to drop the subject. Finally, Phoebe experiences a sudden head rush before preparing to leave for a birthday party with her mysterious \"work people,\" sparking curiosity among her friends."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:50 - 00:06:31",
+    "batch_summary": "Chandler learns his coworkers dislike him due to his promotion. Phoebe convinces him to attend a work party to win them over, though she refuses to arrive with him. Despite Chandler's efforts to be a \"fun boss\" by playing office games and singing karaoke, Phoebe reveals that the staff still mocks him behind his back as \"Boss Man Bing.\" She advises him to accept his authority. Meanwhile, Ross continues to tease Monica about Ethan's young age, prompting a playful physical retaliation from Monica.",
+    "cumulative_summary": "After Monica ends her relationship with high school senior Ethan, Ross continues to relentlessly tease her about his young age, prompting a playful physical retaliation from Monica. Meanwhile, Chandler discovers that his coworkers—who are also Phoebe's colleagues—dislike him due to his promotion. Phoebe convinces him to attend a work party to prove he is still a great guy, though she refuses to go with him to avoid being seen with the boss. Despite Chandler's best efforts to be a \"fun boss\" by playing office games and singing karaoke, Phoebe later breaks the news that the staff still mocks him behind his back as \"Boss Man Bing.\" Ultimately, Phoebe advises Chandler to accept his authoritative role as the one who hires and fires them."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:31 - 00:08:27",
+    "batch_summary": "Phoebe helps Chandler accept that while he is a great boss, he can no longer be friends with his employees. Meanwhile, Ethan visits Monica at Central Perk to plead his case for their relationship. Despite their strong connection and chemistry, Monica remains firm on ending things, explaining that the age difference is simply too \"icky\" for her to overlook. Though Ethan tries to convince her otherwise, they share a bittersweet goodbye, acknowledging their deep feelings but accepting that they cannot be together.",
+    "cumulative_summary": "After Monica ends her relationship with high school senior Ethan, Ross relentlessly teases her, while Chandler struggles with his promotion. Though Chandler tries to win over his employees at a work party, Phoebe helps him accept the harsh reality that he must embrace his authoritative role as \"Boss Man Bing\" rather than try to be their friend. Meanwhile, Ethan visits Monica at Central Perk to plead his case, arguing that they have amazing chemistry and a genuine connection. Despite her strong feelings for him, Monica remains firm in her decision to end things, explaining that the age difference is simply too \"icky\" for her to ignore. The two share a bittersweet goodbye, acknowledging what could have been but ultimately accepting that they cannot be together."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:27 - 00:10:28",
+    "batch_summary": "Monica and Ethan share a final, intense gaze as Rachel and Ross awkwardly interrupt. Meanwhile, Chandler successfully steps into his authoritative role at work, demanding weekly numbers from his employees and assigning weekend tasks with Phoebe's support. Later, Ross tenderly covers a sleeping Rachel with a blanket, but their intimate moment is interrupted when his pager goes off, signaling that his ex-wife is in labor and he is about to have a baby.",
+    "cumulative_summary": "After Monica ends her relationship with high school senior Ethan, Ross relentlessly teases her, while Chandler struggles with his promotion. Though Chandler tries to win over his employees, Phoebe helps him accept that he must embrace his authoritative role as \"Boss Man Bing.\" Meanwhile, Ethan visits Monica at Central Perk to plead his case. Despite their strong chemistry, Monica remains firm in her decision to end things due to their age difference, and they share a bittersweet goodbye. Following their breakup, Monica and Ethan share a lingering look, oblivious to Rachel and Ross's awkward presence. At the office, Chandler successfully asserts his authority by demanding weekly reports and assigning weekend work. Later, Ross shares a tender moment with a sleeping Rachel, gently covering her with a blanket. However, their quiet connection is abruptly interrupted when Ross's pager goes off, signaling that his ex-wife is in labor and he is about to become a father."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 265,
+    "timestamp_range": "00:10:28 - 00:11:45",
+    "batch_summary": "Upon receiving the page that his ex-wife is in labor, a panicked Ross frantically rallies the group to head to the hospital. Amidst the chaotic rush, the friends exhibit their classic quirks: Rachel touches up her makeup for potential doctors, Joey packs a massive sandwich for the cab ride, and Monica celebrates becoming an aunt. In his frantic state, Ross hesitates at the door, prompting the group to playfully drag him along as they set off for the momentous occasion.",
+    "cumulative_summary": "After Monica ends her relationship with high school senior Ethan, Ross relentlessly teases her, while Chandler struggles with his promotion. Though Chandler tries to win over his employees, Phoebe helps him accept that he must embrace his authoritative role as \"Boss Man Bing.\" Meanwhile, Ethan visits Monica at Central Perk to plead his case. Despite their strong chemistry, Monica remains firm in her decision to end things due to their age difference, and they share a bittersweet goodbye. Following their breakup, Monica and Ethan share a lingering look, oblivious to Rachel and Ross's awkward presence. At the office, Chandler successfully asserts his authority by demanding weekly reports and assigning weekend work. Later, Ross shares a tender moment with a sleeping Rachel, gently covering her with a blanket. However, their quiet connection is abruptly interrupted when Ross's pager goes off, signaling that his ex-wife is in labor. A panicked Ross frantically rallies the group to head to the hospital. Amidst the chaotic rush, the friends exhibit their classic quirks—Rachel touches up her makeup, Joey packs a massive sandwich, and Monica celebrates becoming an aunt—before they playfully drag a hesitant Ross out the door."
+  }
+]

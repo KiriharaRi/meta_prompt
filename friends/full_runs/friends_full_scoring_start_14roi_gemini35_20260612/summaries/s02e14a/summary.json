@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:59",
+    "batch_summary": "In their apartment, Joey surprises Chandler by paying him back $812 for past expenses like headshots and bills, expressing his deep gratitude. To show further appreciation, Joey gifts Chandler a flashy, engraved gold bracelet that says \"To my best bud.\" Although Chandler is privately hesitant and makes sarcastic remarks about the gaudy jewelry, Joey enthusiastically insists he wear it. Chandler reluctantly puts it on, humorously questioning how the heavy accessory will impact his love life.",
+    "cumulative_summary": "In their apartment, Joey surprises Chandler by paying him back $812 for past expenses, including headshots, electric bills, and countless slices of pizza, expressing his deep gratitude for Chandler's constant support. To show further appreciation for always being there for him, Joey presents Chandler with a special gift: a thick, flashy gold bracelet engraved with \"To my best bud.\" Although Chandler is privately hesitant and tries to save the gaudy jewelry for a \"special occasion,\" Joey enthusiastically insists that it goes with everything and helps him put it on. Chandler reluctantly accepts the gift, masking his amusement and slight embarrassment with sarcastic jokes about how the heavy new accessory might temporarily slow down his sex life. This heartwarming yet humorous exchange highlights the close, supportive friendship between the two roommates."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:59 - 00:03:51",
+    "batch_summary": "Monica's job interview at a restaurant kitchen takes an uncomfortable turn when the creepy manager makes highly inappropriate, sexually suggestive remarks while she prepares a salad. Disgusted by his behavior, Monica abruptly walks out. Meanwhile, back at the apartment, Chandler continues to contemplate his flashy new bracelet, and Ross takes a phone message for Rachel from a guy named Casey whom she met at the movies, playfully teasing about the man's romantic intentions.",
+    "cumulative_summary": "After Joey generously pays Chandler back and gifts him a flashy, gaudy \"best bud\" gold bracelet, Chandler is left reluctantly wearing the heavy accessory to spare his friend's feelings. Meanwhile, Monica's job search takes an uncomfortable turn during a restaurant kitchen interview. When the creepy manager begins making highly inappropriate, sexually suggestive remarks while she prepares a simple salad, a disgusted Monica abruptly walks out. Back at the apartment, as Chandler contemplates his new jewelry, Ross takes a phone message for Rachel from a guy named Casey whom she met at the movies, playfully teasing about the man's romantic intentions."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:51 - 00:05:33",
+    "batch_summary": "Ross laments taking messages for Rachel from other men, prompting Phoebe to comfort him by declaring Rachel is his \"lobster\" because lobsters mate for life. Meanwhile, Monica worries about making rent after her failed interview. Ross suggests she borrow money from their parents, pointing out she already feels tense around them anyway. Finally, Monica notices Chandler's flashy new gold bracelet, which he jokingly tries to dismiss.",
+    "cumulative_summary": "After Joey generously pays Chandler back and gifts him a flashy, gaudy \"best bud\" gold bracelet, Chandler is left reluctantly wearing the heavy accessory to spare his friend's feelings. Meanwhile, Monica's job search takes an uncomfortable turn during a restaurant kitchen interview. When the creepy manager begins making highly inappropriate, sexually suggestive remarks while she prepares a simple salad, a disgusted Monica abruptly walks out. Back at the apartment, Ross takes a phone message for Rachel from a guy named Casey, which leads him to lament how far apart he and Rachel have drifted. Phoebe comforts Ross with her theory that Rachel is his \"lobster\" because lobsters mate for life. Still reeling from her terrible interview, Monica worries about making rent. Ross suggests she borrow money from their parents since she already feels tense around them. The mood lightens when Monica notices Chandler's flashy new gold bracelet, which he humorously tries to downplay."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:33 - 00:07:07",
+    "batch_summary": "Ross and Phoebe playfully tease Chandler about his flashy new gold bracelet. Meanwhile, Monica's parents, Jack and Judy, arrive to deliver her old belongings, revealing they are converting her childhood bedroom into a gym while preserving Ross's trophy-filled room. Monica deflects questions about her unemployment, feeling the familiar sting of parental favoritism. When Rachel arrives, Jack and Judy awkwardly offer condolences about her parents' impending divorce, with Jack insensitively pointing out that her parents have been unhappy for years.",
+    "cumulative_summary": "After Joey generously pays Chandler back with a gaudy gold bracelet, Chandler reluctantly wears it, enduring playful teasing from Ross and Phoebe. Meanwhile, Monica's job search takes a terrible turn after a creepy kitchen interview, leaving her struggling to make rent. Although Ross suggests she borrow money from their parents, Jack and Judy's arrival makes things difficult. They deliver Monica's childhood belongings, announcing they are converting her old bedroom into a gym while leaving Ross's trophy-filled room untouched. Feeling the sting of this blatant favoritism, Monica avoids admitting she is unemployed. The awkward family visit takes another turn when Rachel arrives, and Monica's parents offer insensitive condolences about Rachel's parents' impending divorce, noting they had been unhappy for years."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:07 - 00:08:39",
+    "batch_summary": "After Jack Geller awkwardly dismisses Rachel, the focus shifts to Central Perk, where Phoebe points out an attractive woman, Gail, looking at Chandler. Chandler confidently approaches her, but the moment he gestures and reveals his gaudy gold bracelet, Gail is instantly repelled and leaves. A frustrated Chandler rants to Phoebe, calling the jewelry a \"woman repeller\" and an eyesore. However, Joey walks in mid-complaint, forcing Chandler to quickly cover up his insults with an awkward Mr. T impression.",
+    "cumulative_summary": "After Joey pays Chandler back with a gaudy gold bracelet, Chandler reluctantly wears it. Meanwhile, Monica struggles financially after a terrible job interview. When her parents, Jack and Judy, visit to deliver her childhood belongings, their blatant favoritism toward Ross prevents Monica from asking them for money. The awkward visit continues as Jack makes insensitive comments about Rachel's parents' divorce before dismissing Rachel to do laundry. Later at Central Perk, Phoebe points out an attractive woman, Gail, who is interested in Chandler. Chandler confidently approaches her, but the moment he gestures and reveals his flashy bracelet, Gail is instantly repelled and leaves. Frustrated, Chandler rants to Phoebe, calling the jewelry a \"woman repeller\" and an eyesore. However, Joey walks in mid-complaint, forcing Chandler to quickly cover up his insults with an awkward Mr. T impression to save his friend's feelings."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:39 - 00:10:07",
+    "batch_summary": "Chandler successfully covers his tracks with Joey by performing a Marcel Marceau mime impression. Meanwhile, at Central Perk, a jealous Ross watches a man chat with Rachel at the counter. Despite Phoebe's reassurance that Rachel is fine, Ross intervenes by awkwardly pretending he and Rachel are meeting for a blind date. The tactic successfully scares the man away, leaving Ross feeling triumphant, though Rachel is left thoroughly unimpressed and confused by his unsolicited rescue.",
+    "cumulative_summary": "After Joey pays Chandler back with a gaudy gold bracelet, Chandler reluctantly wears it. When Joey catches Chandler complaining about the jewelry, Chandler quickly covers his tracks with awkward impressions. Meanwhile, Monica struggles financially but cannot bring herself to ask her visiting parents for money due to their blatant favoritism toward Ross. Later at Central Perk, Ross becomes intensely jealous when he spots a man chatting with Rachel at the counter. Ignoring Phoebe's insistence that Rachel is fine, Ross decides to rescue her. He interrupts the conversation by pretending he and Rachel are meeting for a blind date, successfully driving the man away. Ross proudly claims credit for saving her, but Rachel is left highly annoyed and confused by his unsolicited interference."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 278,
+    "timestamp_range": "00:10:07 - 00:11:45",
+    "batch_summary": "Rachel confronts Ross for interrupting her conversation, firmly stating she does not need saving. Ross tries to express his feelings by declaring Rachel is his \"lobster,\" referencing Phoebe's theory about lobsters mating for life. However, Rachel rejects the analogy and explains she is tired of getting hurt by their emotional back-and-forth. She decisively tells Ross that they are never going to happen, leaving him heartbroken and forced to accept her rejection.",
+    "cumulative_summary": "After Joey pays Chandler back with a gaudy gold bracelet, Chandler reluctantly wears it. Meanwhile, Monica struggles financially but cannot bring herself to ask her visiting parents for money due to their blatant favoritism toward Ross. At Central Perk, Ross's jealousy flares when he sees a man chatting with Rachel. He interrupts them by pretending to be her blind date, driving the man away. When Ross proudly claims he \"saved\" her, Rachel is highly annoyed and confronts him, stating she is not his to save. In response, Ross desperately tries to express his feelings by declaring Rachel is his \"lobster,\" referencing Phoebe's theory about soulmates. However, Rachel rejects the analogy, explaining she is tired of getting hurt by their emotional back-and-forth. She firmly tells Ross that they are never going to happen, leaving him heartbroken and forced to accept her final rejection."
+  }
+]

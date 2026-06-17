@@ -1,0 +1,394 @@
+{
+  "version": "domain_pool_v2",
+  "target_region": "VMPFC",
+  "curation_status": "draft",
+  "source_model": "gemini-3.5-flash",
+  "proposal_runs": 5,
+  "metadata": {
+    "generation_parameters": {
+      "provider": "gemini",
+      "temperature": 0.2,
+      "proposal_runs": 5
+    },
+    "required_domain_ids": [
+      "emotion_experience"
+    ],
+    "confirmation_instructions": "Review curated_domains and rejected_or_merged_domains, then set curation_status to 'confirmed' before passing this pool to make-region-schema --domain-pool.",
+    "required_seed_source_run": 0
+  },
+  "candidate_domains": [
+    {
+      "domain_id": "required_emotion_experience",
+      "definition": "The inferred emotional experience a typical viewer would have while watching a described movie segment, grounded in observable narrative evidence such as character states, dialogue, actions, consequences, situational stakes, and scene atmosphere.",
+      "region_relevance": "Emotion experience is a required anchor domain for target-region feature discovery because naturalistic movie responses often depend on affective meaning, safety appraisal, and viewer-state inference.",
+      "scoreability_note": "Score only from text evidence in dense descriptions; do not infer viewer emotion from genre labels or unstated audiovisual cues.",
+      "source_run": 0
+    },
+    {
+      "domain_id": "run_1_emotion_experience",
+      "definition": "The inferred emotional experience a typical viewer would have while watching a described movie segment, grounded in observable narrative evidence such as character states, dialogue, actions, consequences, situational stakes, and scene atmosphere.",
+      "region_relevance": "Emotion experience is a required anchor domain for target-region feature discovery because naturalistic movie responses often depend on affective meaning, safety appraisal, and viewer-state inference.",
+      "scoreability_note": "Score only from text evidence in dense descriptions; do not infer viewer emotion from genre labels or unstated audiovisual cues.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_moral_and_social_valuation",
+      "definition": "The viewer's appraisal of the moral, ethical, or social value of characters' actions, decisions, and interpersonal dynamics within the narrative segment.",
+      "region_relevance": "The VMPFC is a key node in the brain's valuation and social cognition networks, actively representing moral judgments, social norms, and the appraisal of interpersonal warmth or conflict.",
+      "scoreability_note": "Score by evaluating whether the described actions violate or uphold common social/moral norms, or involve explicit interpersonal conflicts, as detailed in the text description.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_narrative_schema_integration",
+      "definition": "The viewer's cognitive integration of ongoing events into a coherent narrative schema, tracking how current actions align with or disrupt established situational contexts, character goals, and expectations.",
+      "region_relevance": "VMPFC plays a critical role in schema-based processing and narrative comprehension, integrating incoming real-time information with prior knowledge and long-term narrative context.",
+      "scoreability_note": "Score based on the presence of schema-consistent events, major narrative transitions, or goal-directed behaviors that require the viewer to link current actions to broader story arcs described in the text.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_2_emotion_experience",
+      "definition": "The inferred emotional experience a typical viewer would have while watching a described movie segment, grounded in observable narrative evidence such as character states, dialogue, actions, consequences, situational stakes, and scene atmosphere.",
+      "region_relevance": "Emotion experience is a required anchor domain for target-region feature discovery because naturalistic movie responses often depend on affective meaning, safety appraisal, and viewer-state inference.",
+      "scoreability_note": "Score only from text evidence in dense descriptions; do not infer viewer emotion from genre labels or unstated audiovisual cues.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_social_moral_appraisal",
+      "definition": "The viewer's ongoing appraisal of the moral alignment, trustworthiness, and social warmth of characters, simulating how a typical viewer evaluates the ethical dimensions and social acceptability of actions described in the segment.",
+      "region_relevance": "The VMPFC is heavily implicated in social cognition, mentalizing, and moral decision-making, integrating social context with affective value to guide interpersonal judgments.",
+      "scoreability_note": "Score based on explicit text descriptions of characters violating or upholding social norms, committing moral transgressions, or demonstrating altruism and cooperation.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_narrative_value_tracking",
+      "definition": "The viewer's tracking of subjective value, stakes, and the desirability of narrative outcomes, representing how a typical viewer integrates character goals to appraise the significance of gains, losses, or threats.",
+      "region_relevance": "As a central hub of the brain's valuation network, the VMPFC encodes subjective value, reward significance, and the personal relevance of narrative events during naturalistic viewing.",
+      "scoreability_note": "Score by identifying text-described events that represent major progress toward or setbacks against a character's primary goals, high-stakes conflicts, or resource changes.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_3_emotion_experience",
+      "definition": "The inferred emotional experience a typical viewer would have while watching a described movie segment, grounded in observable narrative evidence such as character states, dialogue, actions, consequences, situational stakes, and scene atmosphere.",
+      "region_relevance": "Emotion experience is a required anchor domain for target-region feature discovery because naturalistic movie responses often depend on affective meaning, safety appraisal, and viewer-state inference.",
+      "scoreability_note": "Score only from text evidence in dense descriptions; do not infer viewer emotion from genre labels or unstated audiovisual cues.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_moral_appraisal",
+      "definition": "The viewer's appraisal of the moral, ethical, or social value of characters' actions and decisions within the narrative context, evaluating whether behaviors violate or uphold social norms, fairness, or interpersonal obligations.",
+      "region_relevance": "VMPFC is a key node in the social brain network, integrating cognitive representations of social norms with affective value to compute moral judgments and social appraisals during complex narrative viewing.",
+      "scoreability_note": "Score based on explicit or strongly implied violations of norms, altruistic acts, betrayal, or ethical dilemmas described in the text.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_outcome_value_anticipation",
+      "definition": "The viewer's tracking and anticipation of the subjective value, safety, or desirability of potential outcomes for characters, evaluating whether the unfolding situation represents a positive resolution or a threatening setback.",
+      "region_relevance": "VMPFC plays a critical role in representing expected value, safety signaling, and predicting future rewards or punishments based on current environmental and narrative contexts.",
+      "scoreability_note": "Score by identifying the stakes of the scene, the clarity of potential positive/negative outcomes, and whether the narrative text describes a progression toward or away from a desired state.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_4_emotion_experience",
+      "definition": "The inferred emotional experience a typical viewer would have while watching a described movie segment, grounded in observable narrative evidence such as character states, dialogue, actions, consequences, situational stakes, and scene atmosphere.",
+      "region_relevance": "Emotion experience is a required anchor domain for target-region feature discovery because naturalistic movie responses often depend on affective meaning, safety appraisal, and viewer-state inference.",
+      "scoreability_note": "Score only from text evidence in dense descriptions; do not infer viewer emotion from genre labels or unstated audiovisual cues.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_subjective_valuation",
+      "definition": "The viewer's appraisal of the subjective value, desirability, motivational significance, or utility of characters' goals, choices, and outcomes within the narrative segment.",
+      "region_relevance": "VMPFC, alongside subcortical structures like the nucleus accumbens (NAC) and caudate (vCa) identified in the atlas, is central to the brain's valuation network, encoding subjective utility, reward expectations, and goal-directed significance during naturalistic stimuli.",
+      "scoreability_note": "Score based on the explicit or strongly implied stakes, conflicts of interest, and potential gains or losses for the characters as described in the text.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_social_appraisal",
+      "definition": "The viewer's cognitive tracking and inference of characters' mental states, interpersonal relationships, hidden motives, and social alignments based on narrative evidence.",
+      "region_relevance": "Medial prefrontal areas (such as A10m, A14m, and A32sg) and associated amygdala/hippocampal structures are key components of the default mode and social brain networks, critical for mentalizing and social schema integration during movie viewing.",
+      "scoreability_note": "Score by assessing the density of social interactions, the requirement to infer unstated intentions, and the complexity of relational dynamics described in the text.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_5_emotion_experience",
+      "definition": "The inferred emotional experience a typical viewer would have while watching a described movie segment, grounded in observable narrative evidence such as character states, dialogue, actions, consequences, situational stakes, and scene atmosphere.",
+      "region_relevance": "Emotion experience is a required anchor domain for target-region feature discovery because naturalistic movie responses often depend on affective meaning, safety appraisal, and viewer-state inference.",
+      "scoreability_note": "Score only from text evidence in dense descriptions; do not infer viewer emotion from genre labels or unstated audiovisual cues.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_moral_social_appraisal",
+      "definition": "The viewer's appraisal of the moral alignment, ethical integrity, or social warmth of characters, and the evaluation of interpersonal trust or betrayal depicted in the narrative segment.",
+      "region_relevance": "The VMPFC is heavily implicated in social cognition, specifically in integrating social knowledge to make moral judgments, evaluate others' intentions, and assess interpersonal value.",
+      "scoreability_note": "Score based on explicit character actions, choices, and dialogue that signal ethical dilemmas, prosocial behavior, or violations of social norms described in the text.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_safety_value_appraisal",
+      "definition": "The viewer's appraisal of the situational safety, physical or psychological threat level, and the overall stakes (rewards or punishments) facing the characters in the scene.",
+      "region_relevance": "VMPFC plays a crucial role in representing safety signals, evaluating risk versus reward, and updating the subjective value of environmental contexts during dynamic narratives.",
+      "scoreability_note": "Score by identifying text-described environmental hazards, physical conflicts, safe havens, or explicit gains and losses experienced by the characters.",
+      "source_run": 5
+    }
+  ],
+  "curated_domains": [
+    {
+      "domain_id": "emotion_experience",
+      "definition": "The inferred emotional experience a typical viewer would have while watching a described movie segment, grounded in observable narrative evidence such as character states, dialogue, actions, consequences, situational stakes, and scene atmosphere.",
+      "region_relevance": "Emotion experience is a required anchor domain for target-region feature discovery because naturalistic movie responses often depend on affective meaning, safety appraisal, and viewer-state inference.",
+      "scoreability_note": "Score only from text evidence in dense descriptions; do not infer viewer emotion from genre labels or unstated audiovisual cues.",
+      "source_domain_ids": [
+        "required_emotion_experience",
+        "run_1_emotion_experience",
+        "run_2_emotion_experience",
+        "run_3_emotion_experience",
+        "run_4_emotion_experience",
+        "run_5_emotion_experience"
+      ],
+      "source_runs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 6,
+      "consolidation_rationale": "Consolidated the required anchor domain across all runs. The definition, relevance, and scoreability notes are preserved exactly as mandated."
+    },
+    {
+      "domain_id": "social_moral_appraisal",
+      "definition": "The viewer's appraisal of the moral, ethical, or social value of characters' actions, decisions, and interpersonal dynamics, evaluating whether behaviors violate or uphold social norms, fairness, or interpersonal obligations.",
+      "region_relevance": "The VMPFC is a key node in the brain's valuation and social cognition networks, actively representing moral judgments, social norms, and the appraisal of interpersonal warmth, trust, or conflict.",
+      "scoreability_note": "Score by evaluating whether the described actions violate or uphold common social/moral norms, or involve explicit interpersonal conflicts, as detailed in the text description.",
+      "source_domain_ids": [
+        "run_1_moral_and_social_valuation",
+        "run_2_social_moral_appraisal",
+        "run_3_moral_appraisal",
+        "run_4_social_appraisal",
+        "run_5_moral_social_appraisal"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged multiple overlapping candidate domains focusing on social and moral evaluation. These candidates all capture the viewer's appraisal of characters' social warmth, moral alignment, and adherence to social norms, which are heavily processed by the VMPFC."
+    },
+    {
+      "domain_id": "subjective_valuation",
+      "definition": "The viewer's tracking and appraisal of the subjective value, stakes, safety, and desirability of potential outcomes or goals for characters, representing how a typical viewer integrates narrative events to evaluate gains, losses, threats, or rewards.",
+      "region_relevance": "As a central hub of the brain's valuation network, the VMPFC encodes subjective value, reward significance, safety signaling, and the personal/motivational relevance of narrative events during naturalistic viewing.",
+      "scoreability_note": "Score by identifying text-described events that represent major progress toward or setbacks against a character's primary goals, high-stakes conflicts, physical/psychological threats, or resource changes.",
+      "source_domain_ids": [
+        "run_2_narrative_value_tracking",
+        "run_3_outcome_value_anticipation",
+        "run_4_subjective_valuation",
+        "run_5_safety_value_appraisal"
+      ],
+      "source_runs": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Consolidated domains related to subjective utility, outcome anticipation, safety, and reward/threat tracking. These represent a unified functional concept of valuation and outcome prediction, which is a core function of the VMPFC."
+    }
+  ],
+  "rejected_or_merged_domains": [
+    {
+      "domain_id": "run_1_narrative_schema_integration",
+      "decision": "rejected",
+      "reason": "This domain is too abstract and difficult to score reliably from text descriptions alone, as schema integration depends heavily on long-term narrative context and prior knowledge that may not be fully captured in a single segment's dense description.",
+      "source_domain_ids": [
+        "run_1_narrative_schema_integration"
+      ],
+      "source_runs": [
+        1
+      ]
+    },
+    {
+      "domain_id": "required_emotion_experience",
+      "decision": "merged",
+      "reason": "Merged into the consolidated anchor domain 'emotion_experience' to maintain a single unified representation of viewer emotional experience.",
+      "source_domain_ids": [
+        "required_emotion_experience"
+      ],
+      "source_runs": [
+        0
+      ],
+      "merged_into": "emotion_experience"
+    },
+    {
+      "domain_id": "run_1_emotion_experience",
+      "decision": "merged",
+      "reason": "Merged into the consolidated anchor domain 'emotion_experience'.",
+      "source_domain_ids": [
+        "run_1_emotion_experience"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "emotion_experience"
+    },
+    {
+      "domain_id": "run_2_emotion_experience",
+      "decision": "merged",
+      "reason": "Merged into the consolidated anchor domain 'emotion_experience'.",
+      "source_domain_ids": [
+        "run_2_emotion_experience"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "emotion_experience"
+    },
+    {
+      "domain_id": "run_3_emotion_experience",
+      "decision": "merged",
+      "reason": "Merged into the consolidated anchor domain 'emotion_experience'.",
+      "source_domain_ids": [
+        "run_3_emotion_experience"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "emotion_experience"
+    },
+    {
+      "domain_id": "run_4_emotion_experience",
+      "decision": "merged",
+      "reason": "Merged into the consolidated anchor domain 'emotion_experience'.",
+      "source_domain_ids": [
+        "run_4_emotion_experience"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "emotion_experience"
+    },
+    {
+      "domain_id": "run_5_emotion_experience",
+      "decision": "merged",
+      "reason": "Merged into the consolidated anchor domain 'emotion_experience'.",
+      "source_domain_ids": [
+        "run_5_emotion_experience"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "emotion_experience"
+    },
+    {
+      "domain_id": "run_1_moral_and_social_valuation",
+      "decision": "merged",
+      "reason": "Merged into 'social_moral_appraisal' to consolidate all social and moral evaluation concepts.",
+      "source_domain_ids": [
+        "run_1_moral_and_social_valuation"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "social_moral_appraisal"
+    },
+    {
+      "domain_id": "run_2_social_moral_appraisal",
+      "decision": "merged",
+      "reason": "Merged into 'social_moral_appraisal' to consolidate all social and moral evaluation concepts.",
+      "source_domain_ids": [
+        "run_2_social_moral_appraisal"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "social_moral_appraisal"
+    },
+    {
+      "domain_id": "run_3_moral_appraisal",
+      "decision": "merged",
+      "reason": "Merged into 'social_moral_appraisal' to consolidate all social and moral evaluation concepts.",
+      "source_domain_ids": [
+        "run_3_moral_appraisal"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "social_moral_appraisal"
+    },
+    {
+      "domain_id": "run_4_social_appraisal",
+      "decision": "merged",
+      "reason": "Merged into 'social_moral_appraisal' to consolidate all social and moral evaluation concepts.",
+      "source_domain_ids": [
+        "run_4_social_appraisal"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "social_moral_appraisal"
+    },
+    {
+      "domain_id": "run_5_moral_social_appraisal",
+      "decision": "merged",
+      "reason": "Merged into 'social_moral_appraisal' to consolidate all social and moral evaluation concepts.",
+      "source_domain_ids": [
+        "run_5_moral_social_appraisal"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "social_moral_appraisal"
+    },
+    {
+      "domain_id": "run_2_narrative_value_tracking",
+      "decision": "merged",
+      "reason": "Merged into 'subjective_valuation' to consolidate all subjective utility, outcome anticipation, and safety tracking concepts.",
+      "source_domain_ids": [
+        "run_2_narrative_value_tracking"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "subjective_valuation"
+    },
+    {
+      "domain_id": "run_3_outcome_value_anticipation",
+      "decision": "merged",
+      "reason": "Merged into 'subjective_valuation' to consolidate all subjective utility, outcome anticipation, and safety tracking concepts.",
+      "source_domain_ids": [
+        "run_3_outcome_value_anticipation"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "subjective_valuation"
+    },
+    {
+      "domain_id": "run_4_subjective_valuation",
+      "decision": "merged",
+      "reason": "Merged into 'subjective_valuation' to consolidate all subjective utility, outcome anticipation, and safety tracking concepts.",
+      "source_domain_ids": [
+        "run_4_subjective_valuation"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "subjective_valuation"
+    },
+    {
+      "domain_id": "run_5_safety_value_appraisal",
+      "decision": "merged",
+      "reason": "Merged into 'subjective_valuation' to consolidate all subjective utility, outcome anticipation, and safety tracking concepts.",
+      "source_domain_ids": [
+        "run_5_safety_value_appraisal"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "subjective_valuation"
+    }
+  ]
+}

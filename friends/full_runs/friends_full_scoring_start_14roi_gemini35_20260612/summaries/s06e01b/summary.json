@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:56",
+    "batch_summary": "On a road trip, Phoebe punishes a sleepy Joey by making him sing and planning to make him drive back. Later, Joey falls asleep at the wheel, resulting in a stranger named Rick taking over the driving while both Joey and Phoebe sleep in the back. Meanwhile, back in New York, Ross tells Rachel he doesn't want to get the annulment. Rachel laughs it off, thinking he is joking, and playfully agrees to stay married as \"Mrs. Geller.\"",
+    "cumulative_summary": "On a road trip, Phoebe grows frustrated with Joey for sleeping through most of their six-hour drive. As punishment, she demands he drive the entire way back and forces him to sing to her in the meantime. Later, when Joey takes over driving their yellow cab, he struggles to stay awake. Phoebe eventually wakes up in the back seat to find Joey asleep beside her, while a stranger named Rick has taken over the wheel. Meanwhile, back in New York City, Ross meets Rachel at a coffee shop. When Rachel jokingly calls him \"hubby,\" Ross confesses that he does not want to go through with their annulment. Believing he is joking, Rachel laughs and playfully agrees that they should just stay married, even joking about going by \"Mrs. Geller,\" unaware of Ross's serious intentions."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:56 - 00:03:52",
+    "batch_summary": "Ross confesses to Rachel that he is serious about staying married because he cannot handle having three failed marriages. Rachel is stunned and incredulous, pointing out that he is literally asking her to be his wife. Ross desperately tries to downplay the situation as a simple favor, but Rachel remains completely unconvinced. Meanwhile, Monica and Chandler return from their trip, with Monica limping after getting into a petty physical altercation with a child on the plane over a snack.",
+    "cumulative_summary": "On a road trip, Phoebe grows frustrated with Joey for sleeping through most of their drive. She demands he drive back, but later wakes up to find Joey asleep beside her while a stranger named Rick drives their cab. Back in New York, Ross meets Rachel at a coffee shop. When Rachel jokingly refers to him as her husband, Ross confesses he wants to avoid their annulment. In their continued conversation, Ross admits he is entirely serious, desperately explaining that he cannot face the embarrassment of having three failed marriages. Rachel is incredulous, pointing out the absurdity of him asking her to remain his wife as a \"favor.\" Ross tries to downplay the marriage as merely checking a different box on forms, but Rachel is not amused. Meanwhile, Monica and Chandler return home from their trip, with Monica limping and complaining about a child who kicked her on the plane after she pulled his hair for stealing her snack."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:52 - 00:06:07",
+    "batch_summary": "Chandler carries an injured Monica into their apartment. Meanwhile, Phoebe is furious at Joey for picking up a hitchhiker named Rick, but she quickly warms up to Rick over a car game while freezing Joey out. Back in New York, Ross tries to bribe Rachel into staying married by suggesting they register for wedding gifts. Rachel firmly rejects this, calling their marriage \"the world's worst hangover,\" and threatens to get the annulment herself. Defeated, Ross finally agrees to do it.",
+    "cumulative_summary": "On a road trip, Phoebe grows frustrated with Joey for sleeping through most of their drive. She demands he drive back, but later wakes up to find Joey asleep beside her while a stranger named Rick drives their cab. When Phoebe takes over driving, she is furious at Joey for picking up a hitchhiker, but she quickly warms up to Rick over a car game while ignoring Joey. Back in New York, Monica and Chandler return home, where Chandler carries an injured Monica into their apartment. Meanwhile, Ross desperately tries to avoid an annulment with Rachel, even absurdly suggesting they stay married so they can register for wedding gifts. Rachel is entirely unimpressed, dismissing their marriage as \"the world's worst hangover.\" When she threatens to file for the annulment herself, Ross finally backs down and agrees to go through with it."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:06:07 - 00:07:58",
+    "batch_summary": "After Rachel jokingly asks Ross about an annulment shower, the focus shifts back to the road trip. Rick gets dropped off at a train station after a flirtatious goodbye with Phoebe. Desperate to end the silent treatment, Joey serenades Phoebe with \"Space Oddity.\" Phoebe quickly relents, admitting she cannot resist his singing. Joey sincerely apologizes for sleeping and promises to be a more attentive friend. The two reconcile and happily resume their road trip with a game of 20 Questions.",
+    "cumulative_summary": "On a road trip, Phoebe grows frustrated with Joey for sleeping through most of their drive. She demands he drive back, but later wakes up to find Joey asleep beside her while a stranger named Rick drives their cab. When Phoebe takes over driving, she is furious at Joey for picking up a hitchhiker, but she quickly warms up to Rick over a car game while ignoring Joey. Back in New York, Monica and Chandler return home, where Chandler carries an injured Monica into their apartment. Meanwhile, Ross desperately tries to avoid an annulment with Rachel, even absurdly suggesting they stay married so they can register for wedding gifts. Rachel is entirely unimpressed, dismissing their marriage as \"the world's worst hangover.\" When she threatens to file for the annulment herself, Ross finally backs down and agrees to go through with it. After Rick is dropped off at a train station, Joey desperately tries to win back Phoebe's favor by serenading her with \"Space Oddity.\" Phoebe quickly softens, accepting his sincere apology for sleeping through the trip. The two reconcile and happily resume their drive with a game of 20 Questions."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:58 - 00:09:35",
+    "batch_summary": "Phoebe and Joey happily finish their road trip playing 20 Questions. Back in New York, Rachel playfully tosses Monica a bouquet, prompting Chandler to impulsively suggest they get married. Monica rejects the idea, wanting to keep things as they are, and tells him to go unpack. However, Chandler returns shortly after and nervously suggests a different step forward: that they move in together.",
+    "cumulative_summary": "On their road trip, Phoebe and Joey fully reconcile over a game of 20 Questions. Back in New York, Monica and Chandler return home, where Chandler carries an injured Monica into their apartment. Meanwhile, Ross fails to convince Rachel to stay married for wedding gifts, and he finally agrees to an annulment after she threatens to file it herself. Later, Rachel playfully tosses a bouquet to Monica, prompting a panicked Chandler to impulsively suggest they get married. Monica rejects the proposal, stating she is happy with how things are and doesn't want to rush. She sends Chandler to his apartment to unpack, but he quickly returns. After some initial miscommunication, Chandler takes a major step in their relationship by asking Monica if they should move in together."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:35 - 00:11:11",
+    "batch_summary": "Monica happily accepts Chandler's proposal to move in together. To celebrate, she hands him a key and sends him outside to practice entering, but the old key breaks in the lock, trapping Chandler outside. Despite the mishap, they share a sweet moment expressing their love through the door. Meanwhile, at Central Perk, Ross lies to Rachel, claiming their annulment has been successfully taken care of. Rachel, relieved and grateful, hugs him, completely unaware of his deception.",
+    "cumulative_summary": "On their road trip, Phoebe and Joey fully reconcile over a game of 20 Questions. Back in New York, Monica and Chandler return home, where Chandler carries an injured Monica into their apartment. Meanwhile, Ross fails to convince Rachel to stay married for wedding gifts, and he finally agrees to an annulment after she threatens to file it herself. Later, Rachel playfully tosses a bouquet to Monica, prompting a panicked Chandler to impulsively suggest they get married. Monica rejects the proposal, stating she is happy with how things are and doesn't want to rush. After some initial miscommunication, Chandler asks Monica to move in together. She happily accepts, but when she gives him a key to practice entering, it breaks in the lock, trapping him outside. Despite this, they share a sweet moment through the door. Meanwhile, at Central Perk, Ross lies to Rachel, claiming their annulment has been successfully taken care of. Rachel, relieved and grateful, hugs him, completely unaware of his deception."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 268,
+    "timestamp_range": "00:11:11 - 00:12:23",
+    "batch_summary": "Ross confesses a shocking secret to Phoebe: he did not actually get the annulment, meaning he and Rachel are still married. He swears Phoebe to secrecy, leaving her stunned. Meanwhile, Chandler tries to extract his broken key from the apartment door. Joey offers to help and hilariously resorts to using a large handsaw. Joey's destructive craftsmanship ends up cutting a massive chunk out of the door frame, leaving Chandler sarcastically impressed as they step through the ruined entryway.",
+    "cumulative_summary": "On their road trip, Phoebe and Joey reconcile. Back in New York, Monica and Chandler return home, where Chandler carries an injured Monica. Meanwhile, Ross fails to convince Rachel to stay married for wedding gifts, eventually agreeing to an annulment. Later, Chandler impulsively suggests marriage to Monica, but she declines, preferring not to rush. Instead, they happily agree to move in together. However, the key Monica gives Chandler breaks in the lock, trapping him outside. At Central Perk, Ross lies to Rachel, claiming the annulment is finalized. He then confesses the shocking truth to a stunned Phoebe: he never got the annulment, and he and Rachel are still married. Meanwhile, Chandler tries to fix the broken lock, but Joey intervenes with a large handsaw. Joey's aggressive craftsmanship results in sawing a massive chunk out of the door frame, leaving Chandler sarcastically amused as they step through the ruined entryway."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:36",
+    "batch_summary": "In an apartment living room, the friends gather around Carol, Susan, and baby Ben. After Monica presents a pair of expensive baby shoes, Carol begins breastfeeding Ben. Uncomfortable with the situation, Chandler and Joey flee to the kitchen. Ross follows them, lecturing them on the natural beauty of breastfeeding and encouraging them to ask questions if they feel awkward. Ross brings them back to the living room, where Joey asks Carol if breastfeeding hurts, and she candidly answers.",
+    "cumulative_summary": "The story begins in an apartment living room where a close-knit group of friends—Monica, Rachel, Phoebe, Chandler, Joey, and Ross—gather around Carol, Susan, and baby Ben. Monica kicks off the warm gathering by gifting Ben a pair of expensive baby shoes. However, the atmosphere shifts to comedic awkwardness when Carol begins breastfeeding Ben. Feeling uncomfortable, Chandler and Joey quickly retreat to the kitchen. Ross follows them, using a kitchen ladle to lecture them on the natural beauty of breastfeeding and urging them to overcome their discomfort by asking questions. Ross leads them back to the living room, prompting Joey to ask Carol a question. Joey asks if breastfeeding hurts, and Carol candidly explains that it did at first but no longer does, easing the tension with open communication."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:36 - 00:03:08",
+    "batch_summary": "After Joey's immature breastfeeding question ends the baby gathering, the scene shifts to Central Perk. Rachel's jealousy of Ross's new girlfriend, Julie, is evident when she calls Julie a \"bitch\" despite Julie's kind behavior. When Julie offers a shopping trip to Bloomingdale's with a discount, Monica accepts. However, Joey, Chandler, and Phoebe warn Monica that shopping with Julie is a betrayal of Rachel, comparing it to cheating on her in her \"house of worship\" and warning of Rachel's wrath.",
+    "cumulative_summary": "The story begins in an apartment living room where a close-knit group of friends—Monica, Rachel, Phoebe, Chandler, Joey, and Ross—gather around Carol, Susan, and baby Ben. After Monica gifts Ben expensive baby shoes, the atmosphere shifts to comedic awkwardness when Carol begins breastfeeding. Ross encourages Chandler and Joey to overcome their discomfort by asking questions, which backfires when Joey asks an immature question. Later at Central Perk, Rachel struggles with jealousy toward Ross's new girlfriend, Julie, calling her a \"bitch\" despite Julie's friendly gestures. When Julie offers a discounted shopping trip to Bloomingdale's, Monica accepts. This decision sparks immediate concern from Joey, Chandler, and Phoebe, who warn Monica that shopping with Julie is a massive betrayal of Rachel, comparing it to cheating on her in her ultimate \"house of worship.\""
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:08 - 00:04:44",
+    "batch_summary": "As Phoebe dramatically warns Monica about Rachel's wrath, Ross arrives and expresses heartfelt gratitude to Monica for shopping with Julie, intensifying Monica's guilt. Meanwhile, at Saks & Company, Joey works as a tuxedo-clad cologne spritzer. His shift takes a competitive turn when a new rival, the cowboy-themed \"Hombre Man,\" encroaches on his designated department store territory. Joey confronts the newcomer to defend his turf, setting up a humorous retail rivalry.",
+    "cumulative_summary": "The story begins with the friends gathering around baby Ben, where Carol's breastfeeding causes comedic awkwardness for Chandler and Joey. Later, Rachel struggles with jealousy toward Ross's new girlfriend, Julie. When Monica accepts Julie's invitation to go shopping, her friends warn her that this is a massive betrayal of Rachel. Ross, unaware of the tension, expresses heartfelt gratitude to Monica for welcoming Julie, intensifying Monica's guilt. Meanwhile, Joey works his job as a tuxedo-clad cologne spritzer at Saks & Company. His routine is disrupted by the arrival of a new rival, the cowboy-themed \"Hombre Man,\" who begins encroaching on Joey's designated department store territory. Refusing to back down, Joey confronts the newcomer to defend his turf."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:44 - 00:06:13",
+    "batch_summary": "At the department store, Joey's rivalry with \"Hombre Man\" intensifies when the cowboy successfully steals a customer right in front of him, leaving Joey frustrated. Meanwhile, Monica tries to cover up her shopping trip with Julie by convincing Phoebe to act as her alibi. However, Phoebe's terrible lying skills lead to a hilarious interrogation by Rachel, where Phoebe awkwardly claims they went shopping for fur and \"boobs\" before Monica quickly clarifies they bought bras, temporarily keeping the secret safe.",
+    "cumulative_summary": "The story begins with the friends gathering around baby Ben, where Carol's breastfeeding causes comedic awkwardness for Chandler and Joey. Meanwhile, Rachel struggles with jealousy toward Ross's new girlfriend, Julie. When Monica accepts Julie's invitation to go shopping, she is warned that this is a massive betrayal of Rachel. To hide her guilt, Monica attempts to use Phoebe as an alibi, but Phoebe's terrible lying skills—claiming they shopped for fur and \"boobs\"—nearly expose the secret to Rachel before they cover it up as a bra-shopping trip. At Saks & Company, Joey's professional rivalry with the cowboy-themed \"Hombre Man\" escalates. Joey is left speechless and defeated when his rival successfully steals a customer right in front of him, though Joey stubbornly continues to pitch his \"Bijan for men\" cologne."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:13 - 00:07:47",
+    "batch_summary": "Joey's rivalry with \"Hombre Man\" ends in total defeat when his crush, Annabel, rejects his coffee invitation to go out with the cowboy instead. Meanwhile, Ross receives unexpected support from Susan while preparing to watch baby Ben. The tension spikes when Monica receives a phone call from Ross's girlfriend, Julie. Under Rachel's sharp, suspicious glare, Monica panics and attempts a clumsy cover-up, pretending she was speaking to someone named \"Jew\" to hide her ongoing betrayal.",
+    "cumulative_summary": "The story begins with the friends gathering around baby Ben, where Carol's breastfeeding causes comedic awkwardness for Chandler and Joey. Meanwhile, Rachel struggles with jealousy toward Ross's new girlfriend, Julie. When Monica accepts Julie's invitation to go shopping, she is warned that this is a massive betrayal of Rachel. To hide her guilt, Monica attempts to use Phoebe as an alibi, but Phoebe's terrible lying skills nearly expose the secret. At Saks & Company, Joey's professional rivalry with the cowboy-themed \"Hombre Man\" ends in total defeat when the cowboy not only steals his customers but also wins a date with Joey's crush, Annabel. Back at the apartment, Ross bonds with baby Ben and receives unexpected praise from Susan. However, the peace is shattered when Monica receives a phone call from Julie. Under Rachel's suspicious glare, Monica panics and clumsily tries to cover up the caller's identity by pretending she is talking to someone named \"Jew,\" further deepening her web of lies and betrayal."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:07:47 - 00:09:06",
+    "batch_summary": "Monica digs herself deeper into her lie, telling a suspicious Rachel that the caller was her friend \"Eddie Moskowitz\" who is exploring his Jewish faith. Later, a bizarre debate erupts in the kitchen over Carol's breast milk. After Phoebe tests and tastes it, Joey follows suit, much to Chandler and Rachel's disgust. Ross demands they stop drinking it, but when challenged by Rachel and Phoebe to try it himself, he adamantly refuses, highlighting the group's comedic divide over the natural substance.",
+    "cumulative_summary": "The story begins with the friends gathering around baby Ben, where Carol's breastfeeding causes comedic awkwardness. Meanwhile, Rachel struggles with jealousy toward Ross's new girlfriend, Julie. When Monica secretly goes shopping with Julie, she tries to hide her betrayal. After accidentally saying \"Jew\" on the phone with Julie in front of Rachel, Monica clumsily covers by claiming she was talking to a friend named Eddie Moskowitz who is exploring his faith. Later, a bizarre debate erupts in the kitchen over Carol's breast milk. After Phoebe tests and tastes it, Joey follows suit, much to Chandler and Rachel's disgust. Ross demands they stop drinking it, but when challenged by Rachel and Phoebe to try it himself, he adamantly refuses, highlighting the group's comedic divide over the natural substance."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:06 - 00:10:39",
+    "batch_summary": "Rachel confronts Monica after finding a $53 lunch receipt in Monica's jacket pocket, exposing her lie about dining alone. Under pressure, Monica slips up and admits she had lunch and went shopping with Julie. Rachel is deeply shocked and hurt by this perceived betrayal, reacting as if Monica committed an act of infidelity. Monica desperately tries to defend her actions, explaining she was just trying to be nice to Ross's girlfriend, but Rachel is left devastated by the revelation.",
+    "cumulative_summary": "The story begins with comedic awkwardness around baby Ben's breastfeeding, leading to a bizarre debate where Phoebe and Joey taste Carol's breast milk, much to Ross, Chandler, and Rachel's disgust. Meanwhile, Rachel struggles with intense jealousy toward Ross's new girlfriend, Julie. Monica secretly hangs out with Julie, desperately trying to hide her perceived betrayal. However, Monica's secret is blown when Rachel finds a $53 lunch receipt in Monica's jacket pocket. After Monica clumsily tries to lie her way out of it, she finally cracks under Rachel's questioning and confesses to having lunch and going shopping with Julie. Rachel reacts with dramatic shock and heartbreak, treating the shopping trip as an ultimate act of disloyalty, while a guilt-ridden Monica desperately tries to downplay the betrayal."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 290,
+    "timestamp_range": "00:10:39 - 00:11:10",
+    "batch_summary": "Monica desperately tries to downplay her outing with Julie, claiming it meant nothing and that she was thinking of Rachel the entire time. Rachel remains deeply hurt and skeptical, rejecting Monica's apologies. The confrontation escalates as Rachel accuses Monica of wanting to get caught, pointing to the receipt left in the jacket pocket as proof of her subconscious guilt.",
+    "cumulative_summary": "The story begins with comedic awkwardness around baby Ben's breastfeeding, leading to a bizarre debate where Phoebe and Joey taste Carol's breast milk. Meanwhile, Rachel struggles with intense jealousy toward Ross's new girlfriend, Julie. Monica secretly hangs out with Julie, desperately trying to hide her perceived betrayal. However, Monica's secret is blown when Rachel finds a lunch receipt in Monica's jacket pocket. After Monica confesses to shopping with Julie, Rachel reacts with dramatic heartbreak. Monica desperately tries to apologize, claiming the outing meant nothing and that she was thinking of Rachel the whole time. Unmoved, Rachel angrily rejects Monica's excuses and accuses her of wanting to get caught, pointing to the left-behind receipt as proof of her guilt."
+  }
+]

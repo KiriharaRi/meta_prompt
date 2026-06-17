@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:34",
+    "batch_summary": "In a clinic, Ross comforts a somber Monica while briefly mentioning some good news of his own. Outside Central Perk, Phoebe meets Stephanie, a professional guitarist, and defensively questions her musical skills and equipment. Meanwhile, a panicked Chandler and Joey call the Transit Authority from a payphone, trying to recover a baby they accidentally left on a city bus.",
+    "cumulative_summary": "The story begins with three distinct situations. In a clinic examination room, Ross tries to comfort a somber Monica, attempting to lighten the mood by mentioning some good news he received, though Monica remains unresponsive. Outside the Central Perk coffee shop, Phoebe encounters Stephanie, a professional guitarist scheduled to perform. Feeling threatened, Phoebe defensively questions Stephanie's knowledge of chords and boasts about her own guitar strap. Meanwhile, Chandler and Joey find themselves in a frantic situation at a public payphone. Joey is wearing an empty baby carrier, and Chandler calls the Transit Authority under the guise of doing \"book research\" to ask what happens if a baby is left on a bus. Joey takes over the call, bluntly admitting they lost a baby in a white plastic car seat on a city bus, only to be quickly referred back to Chandler."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:34 - 00:03:21",
+    "batch_summary": "Inside Central Perk, Rachel introduces Stephanie Schiffer, but a jealous Phoebe loudly protests and plays her guitar outside the window, disrupting the performance. Meanwhile, Chandler and Joey rush to the Department of Health Services to retrieve the lost baby. Posing as a couple to the clerk, they are led to a nursery full of babies. Panic sets in when they realize they cannot distinguish Ben from another baby, especially after a \"mole\" Joey uses for identification turns out to be a piece of debris that falls off.",
+    "cumulative_summary": "The story begins with Ross trying to comfort a somber Monica in a clinic. Meanwhile, Phoebe feels threatened by Stephanie, a professional guitarist scheduled to perform at Central Perk. When Rachel introduces Stephanie inside the coffee shop, Phoebe retaliates by loudly busking outside the window, disrupting the performance. Elsewhere, Chandler and Joey frantically try to track down baby Ben after accidentally leaving him on a city bus. Their search leads them to the Department of Health Services, where they awkwardly pretend to be a couple to claim the baby. However, their relief is short-lived when they are ushered into a nursery filled with cribs. They quickly realize they cannot tell which baby is Ben. Joey confidently points out a baby he believes is Ben due to a distinctive mole, but panic ensues when Chandler touches the spot and the \"mole\" rubs off as a piece of debris, leaving them completely clueless and terrified."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:21 - 00:05:17",
+    "batch_summary": "In a desperate bid to choose the right baby, Joey and Chandler decide to flip a coin, choosing between \"ducks\" and \"clowns.\" However, their panic-induced confusion leads to a hilarious debate over which side represents what. Meanwhile, outside Central Perk, Phoebe sits on the curb with her guitar case while Stephanie performs a soulful rendition of \"Angel of the Morning\" to an appreciative audience inside.",
+    "cumulative_summary": "The story begins with Ross trying to comfort a somber Monica in a clinic. Meanwhile, Phoebe feels threatened by Stephanie, a professional guitarist scheduled to perform at Central Perk. When Rachel introduces Stephanie inside the coffee shop, Phoebe retaliates by loudly busking outside. Inside, Stephanie delivers a soulful performance of \"Angel of the Morning\" to an appreciative audience, while Phoebe sits dejectedly on the curb outside. Elsewhere, Chandler and Joey frantically try to track down baby Ben after accidentally leaving him on a city bus. Their search leads them to the Department of Health Services, where they awkwardly pretend to be a couple to claim the baby. However, they are ushered into a nursery filled with cribs and realize they cannot tell which baby is Ben. In a state of sheer panic, they decide to flip a coin to choose between two babies, humorously debating whether \"heads\" represents \"ducks\" or \"clowns\" as they struggle to make a terrifying decision."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:17 - 00:07:27",
+    "batch_summary": "Inside Central Perk, Stephanie delivers a captivating performance of \"Angel of the Morning\" to an appreciative crowd. Outside, a dejected Phoebe counts her meager busking earnings of $8.27, admitting she seeded the case with her own money. Rachel kindly brings Phoebe a warm cloth and comforts her on the curb. Phoebe confesses that playing music for money is taking a toll on her, highlighting her struggle with being replaced. Meanwhile, Chandler is briefly seen making an anxious phone call outside.",
+    "cumulative_summary": "The story begins with Ross comforting Monica in a clinic, while Chandler and Joey frantically search for baby Ben after leaving him on a bus. After pretending to be a couple at the Department of Health Services, they face the terrifying task of choosing between two identical babies by flipping a coin. Meanwhile, Phoebe feels threatened by Stephanie, a professional guitarist scheduled to perform at Central Perk. As Stephanie delivers a soulful performance of \"Angel of the Morning\" inside, Phoebe retaliates by busking on the curb outside. Rachel eventually steps outside to comfort Phoebe, bringing her a warm cloth. Phoebe counts her meager earnings of $8.27, admitting she seeded the case with her own money to feel better. She confesses to Rachel that playing music for money is not good for her, highlighting her emotional struggle with being replaced."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:27 - 00:09:02",
+    "batch_summary": "Outside Central Perk, Phoebe laments that playing music has become about money rather than happiness, comparing her meager earnings for \"Smelly Cat.\" Rachel comforts her by requesting the song herself. Their conversation is interrupted when a young man runs out to retrieve a condom he accidentally dropped in Phoebe's guitar case, replacing it with a coin. Later, back at the apartment, Ross thanks Monica for her support during the baby crisis and apologizes for nearly breaking her hand.",
+    "cumulative_summary": "The story begins with Ross comforting Monica in a clinic, while Chandler and Joey frantically search for baby Ben after leaving him on a bus, eventually resorting to a coin toss to choose between two identical babies. Meanwhile, Phoebe feels threatened by Stephanie, a professional guitarist performing inside Central Perk, and decides to busk on the curb outside. Rachel comforts Phoebe, who laments that playing music has lost its joy and become solely about money. Rachel cheers her up by requesting Phoebe's favorite song, \"Smelly Cat.\" Their heartfelt moment is humorously interrupted when a young man runs out to retrieve a condom he accidentally dropped in Phoebe's guitar case, replacing it with a coin. Afterward, the scene shifts to the apartment, where Ross warmly thanks Monica for her support during the stressful day and apologizes for nearly breaking her hand."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:02 - 00:10:44",
+    "batch_summary": "Monica and Ross playfully reminisce about childhood injuries they inflicted on each other, including Ross cutting the legs off Monica's Malibu Ken doll. Their banter is interrupted when Joey and Chandler return with baby Ben. Monica happily holds the baby, noting he isn't crying, which brings immense relief to Joey and Chandler. Ross then takes Ben to change his diaper, completely unaware of the day's chaotic bus adventure, while Joey casually mentions they rode the bus.",
+    "cumulative_summary": "The story begins with Ross comforting Monica in a clinic, while Chandler and Joey frantically search for baby Ben after leaving him on a bus, eventually resorting to a coin toss to choose between two identical babies. Meanwhile, Phoebe busks outside Central Perk after feeling threatened by a professional guitarist, finding comfort when Rachel requests her favorite song, \"Smelly Cat.\" Back at the apartment, Ross and Monica playfully reminisce about childhood injuries they inflicted on each other. Their banter is interrupted when Joey and Chandler return with baby Ben. Monica happily holds the baby, noting he isn't crying, which brings immense relief to the anxious duo. Ross then takes Ben to change his diaper, completely unaware of the day's chaotic bus adventure, while Joey casually mentions they rode the bus."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:10:44 - 00:12:20",
+    "batch_summary": "Ross discovers a \"Property of Human Services\" stamp on baby Ben's rear, exposing Joey and Chandler's baby mix-up. Panicked, Joey and Chandler flee the apartment in a comedic rush. Later, at Central Perk, Phoebe reconciles with her rival guitarist, Stephanie, by teaching her \"Smelly Cat.\" However, when Stephanie tries to add complex vocal flourishes to the simple song, Phoebe humorously reins her in, telling her it is \"too much.\"",
+    "cumulative_summary": "The story begins with Ross comforting Monica in a clinic, while Chandler and Joey frantically search for baby Ben after leaving him on a bus, eventually resorting to a coin toss to choose between two identical babies. Meanwhile, Phoebe busks outside Central Perk after feeling threatened by a professional guitarist, Stephanie. Back at the apartment, Ross and Monica's playful banter is interrupted when Joey and Chandler return with baby Ben. However, the duo's relief is short-lived; while changing Ben's diaper, Ross discovers a \"Property of Human Services\" stamp on the baby's rear. Realizing they brought home the wrong baby, Joey and Chandler panic and flee the apartment. Later, back at Central Perk, Phoebe takes Stephanie under her wing to teach her \"Smelly Cat.\" Despite Stephanie's professional background, she struggles with the simplicity of the song, and when she adds overly dramatic vocal flourishes, Phoebe humorously stops her, declaring it \"too much.\""
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 280,
+    "timestamp_range": "00:12:20 - 00:12:24",
+    "batch_summary": "This brief transitional segment features a fade to black, marking a pause in the narrative after Phoebe's humorous music lesson with Stephanie and the ongoing panic of Joey and Chandler's baby mix-up. It serves as a quiet moment of suspense before the resolution of the characters' chaotic situations.",
+    "cumulative_summary": "The story begins with Ross comforting Monica in a clinic, while Chandler and Joey frantically search for baby Ben after leaving him on a bus, eventually resorting to a coin toss to choose between two identical babies. Meanwhile, Phoebe busks outside Central Perk after feeling threatened by a professional guitarist, Stephanie. Back at the apartment, Ross and Monica's playful banter is interrupted when Joey and Chandler return with baby Ben. However, the duo's relief is short-lived; while changing Ben's diaper, Ross discovers a \"Property of Human Services\" stamp on the baby's rear. Realizing they brought home the wrong baby, Joey and Chandler panic and flee. Later, back at Central Perk, Phoebe takes Stephanie under her wing to teach her \"Smelly Cat.\" Despite Stephanie's professional background, she struggles with the song's simplicity, leading to a humorous clash of musical styles. The segment concludes with a brief fade to black, leaving the resolution of both the baby mix-up and Phoebe's musical mentorship hanging in suspense."
+  }
+]

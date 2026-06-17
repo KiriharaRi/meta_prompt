@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:51",
+    "batch_summary": "After watching a beer commercial featuring a capuchin monkey, Ross becomes nostalgic and sad, missing his former pet monkey, Marcel. The friends reminisce about Marcel's troublesome but funny antics that ultimately forced Ross to give him up. Later, at the coffee shop, Joey excitedly shares his very first piece of fan mail with the group. Monica reads the letter aloud, revealing a highly passionate and obsessive message from an admirer named Erica Ford, who addresses Joey as his soap opera character, Dr. Ramoray.",
+    "cumulative_summary": "The story begins with the friends watching a television commercial for \"Monkey Shine Beer\" featuring a capuchin monkey. This triggers a wave of nostalgia and sadness for Ross, who is deeply reminded of his former pet monkey, Marcel. The group comforts Ross while humorously reminiscing about Marcel's mischievous habits—such as humping Barbie dolls and leaving \"raisins\" in hats—which ultimately forced Ross to give him away. Later, the scene transitions to the local coffee shop, where Joey arrives in high spirits to share a major milestone: he has received his very first piece of fan mail. Monica reads the letter aloud to the group, revealing a passionate and slightly obsessive message from a fan named Erica Ford. Interestingly, the admirer addresses Joey by his soap opera character's name, Dr. Ramoray, hinting at a potential misunderstanding of reality."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:51 - 00:03:41",
+    "batch_summary": "Monica discovers Joey's fan letter contains eyelashes and was hand-delivered, prompting Rachel to warn Joey about his new stalker. Meanwhile, Ross prepares for a trip to L.A. to surprise his former pet monkey, Marcel. At the coffee shop, Phoebe is approached by a handsome man named Rob, who invites her to perform her music for children at local libraries, which she happily accepts. Finally, Joey and Chandler discuss dinner plans back at their apartment.",
+    "cumulative_summary": "The story begins with the friends watching a television commercial that triggers nostalgia for Ross regarding his former pet monkey, Marcel. Later at the coffee shop, Joey shares his first piece of fan mail from an obsessive admirer named Erica Ford. Monica realizes the letter contains eyelashes and was hand-delivered, prompting Rachel to warn a thrilled Joey about having a stalker. Meanwhile, Ross prepares for a trip to Los Angeles to surprise Marcel at the zoo. At the same time, Phoebe catches the eye of a handsome man named Rob, who invites her to perform her music for children at local libraries, an opportunity she enthusiastically accepts. Back at their apartment, Joey and Chandler unwind and discuss dinner plans."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:41 - 00:05:31",
+    "batch_summary": "Joey and Chandler panic when Joey's stalker, Erica, buzzes their apartment. After a failed attempt to flee, they arm themselves with a frying pan and dish soap, but Joey is instantly disarmed when Erica enters and smiles warmly at him. Meanwhile, Ross arrives at the Los Angeles zoo to visit Marcel, only to receive devastating news from the zoo administrator, Dean Lipson, who informs him that Marcel has passed away after an illness.",
+    "cumulative_summary": "The story begins with the friends watching a television commercial that triggers nostalgia for Ross regarding his former pet monkey, Marcel. Later, Joey receives fan mail from an obsessive admirer named Erica Ford, prompting warnings from his friends about a stalker. Meanwhile, Phoebe is invited by a handsome man named Rob to perform her music for children, and Ross prepares for a trip to Los Angeles to surprise Marcel at the zoo. Back at the apartment, Joey and Chandler panic when Erica buzzes their door. After a failed attempt to flee, they arm themselves with household items, but Joey is quickly disarmed by Erica's warm arrival. Meanwhile, Ross's trip ends in heartbreak when he arrives at the Los Angeles zoo, only to be informed by the zoo administrator, Dean Lipson, that Marcel has tragically passed away after an illness."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:31 - 00:07:14",
+    "batch_summary": "Ross is left insulted when the zoo administrator, Mr. Lipson, offers him \"Zoo dollars\" to compensate for Marcel's death. Meanwhile, at a library where Phoebe is nervously preparing to perform for children, Chandler, Rachel, and Monica discuss Joey's date with his stalker, Erica. Chandler reveals that Erica is completely delusional, believing Joey is actually his soap opera character, Dr. Drake Ramoray, yet Joey is still pursuing her.",
+    "cumulative_summary": "The story begins with the friends watching a television commercial that triggers nostalgia for Ross regarding his former pet monkey, Marcel. This prompts Ross to travel to the Los Angeles zoo to surprise him, only to be heartbroken when the administrator, Dean Lipson, reveals Marcel has died. To make matters worse, Lipson insensitively offers Ross \"Zoo dollars\" as compensation. Meanwhile, Joey receives fan mail from an obsessive admirer named Erica Ford. Despite warnings from his friends, Joey welcomes Erica when she arrives at his apartment. Later, at a library where Phoebe is nervously preparing to perform for children, Chandler, Rachel, and Monica discuss Joey's lunch date with Erica. Chandler reveals that Erica is completely delusional, genuinely believing Joey is actually his soap opera character, Dr. Drake Ramoray, yet Joey insists on pursuing her anyway."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:14 - 00:08:36",
+    "batch_summary": "At the library, Phoebe shares a sweet, spontaneous kiss with the event coordinator before starting her performance. Meanwhile, Chandler gets humorously engrossed in a children's book while finding seats with Monica and Rachel. Phoebe begins her musical set for the children, but her upbeat song about grandparents quickly takes a characteristically dark and inappropriate turn as she sings about a grandmother's declining health and her parents lying about her moving to Peru.",
+    "cumulative_summary": "The story begins with the friends watching a television commercial that triggers nostalgia for Ross regarding his former pet monkey, Marcel. This prompts Ross to travel to the Los Angeles zoo to surprise him, only to be heartbroken when the administrator, Dean Lipson, reveals Marcel has died. Meanwhile, Joey receives fan mail from an obsessive admirer named Erica Ford, who delusionally believes Joey is actually his soap opera character, Dr. Drake Ramoray. Despite warnings from his friends, Joey pursues a lunch date with her. At the library, Phoebe prepares to perform for children, sharing a brief romantic kiss with the event coordinator to calm her nerves. As Monica, Rachel, and Chandler take their seats—with Chandler getting humorously distracted by a children's book—Phoebe begins her performance. However, her upbeat song about grandparents quickly takes a characteristically dark and brutally honest turn, leaving the audience of children and her friends surprised."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:36 - 00:10:07",
+    "batch_summary": "Phoebe concludes her brutally honest children's song with a dark lyric about mortality, shocking the adult onlookers. Meanwhile, Joey goes on his lunch date with his obsessive fan, Erica Ford. Erica remains completely convinced that Joey is actually his soap opera character, Dr. Drake Ramoray, praising his fictional medical skills. Joey plays along with her delusion, enjoying the flattery. The date takes a bizarre turn when Erica becomes obsessed with Joey's \"magical\" hands and licks his finger, which Joey surprisingly allows.",
+    "cumulative_summary": "The story begins with the friends watching a commercial that triggers Ross's nostalgia for his former pet monkey, Marcel, leading him to discover at the Los Angeles zoo that Marcel has reportedly died. Meanwhile, Joey receives fan mail from an obsessive admirer, Erica Ford, who delusionally believes he is his soap opera character, Dr. Drake Ramoray. Despite warnings, Joey pursues a date with her. At the library, Phoebe prepares to perform for children, sharing a brief romantic kiss with the event coordinator before delivering a song about grandparents that takes a shockingly dark turn about mortality. Meanwhile, Joey's date with Erica gets underway at a restaurant. Erica remains entirely convinced Joey is Dr. Ramoray, marveling at his fictional medical feats. Joey happily plays along with her delusion to enjoy the flattery. The encounter grows increasingly bizarre as Erica becomes infatuated with Joey's \"miracle\" hands, culminating in her licking his finger with his bemused permission."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:10:07 - 00:12:03",
+    "batch_summary": "During their date, a choking emergency arises, and Erica proudly volunteers Joey as \"Dr. Drake Ramoray.\" Joey avoids helping by hilariously claiming \"foodal chokeage\" is out of his specialty as a neurosurgeon, which only deepens Erica's infatuation. Meanwhile, at the zoo, Ross bribes a security guard for information and is shocked to learn that his beloved monkey, Marcel, is actually alive.",
+    "cumulative_summary": "The story begins with Ross learning his former pet monkey, Marcel, has reportedly died, while Phoebe performs a surprisingly dark song for children at a library. Meanwhile, Joey goes on a date with Erica Ford, an obsessive fan who believes he is his soap opera character, Dr. Drake Ramoray. During their dinner, a medical emergency arises when a nearby patron chokes. To maintain his cover, Joey hilariously claims that \"foodal chokeage\" is outside his expertise as a neurosurgeon. Erica is completely fooled, and her infatuation only deepens, leading to a passionate kiss. Meanwhile, Ross visits the zoo and bribes a security guard, who delivers the shocking revelation that Marcel is actually alive."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 280,
+    "timestamp_range": "00:12:03 - 00:12:07",
+    "batch_summary": "The segment concludes with a brief transition as the scene fades to black, marking a pause in the narrative. This moment of quiet transition follows the high-stakes revelations of Ross discovering Marcel's survival and Joey navigating his absurdly comedic date with his obsessive fan, Erica. The fade-out sets the stage for the next chapter of their respective adventures.",
+    "cumulative_summary": "The story begins with Ross learning his former pet monkey, Marcel, has reportedly died, while Phoebe performs a dark song for children at a library. Meanwhile, Joey goes on a date with Erica Ford, an obsessive fan who believes he is his soap opera character, Dr. Drake Ramoray. During their dinner, a medical emergency arises when a nearby patron chokes. To maintain his cover, Joey claims that 'foodal chokeage' is outside his expertise as a neurosurgeon. Erica is completely fooled, and her infatuation deepens, leading to a passionate kiss. Meanwhile, Ross visits the zoo and bribes a security guard, who delivers the shocking revelation that Marcel is actually alive. The segment then fades to black, bringing a temporary close to these parallel storylines of deception, discovery, and comedic misunderstandings as the characters prepare for what comes next."
+  }
+]

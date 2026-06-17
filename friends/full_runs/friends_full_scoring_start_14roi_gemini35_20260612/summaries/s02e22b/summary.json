@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:34",
+    "batch_summary": "At a lively gathering spanning two apartments, Ross navigates social tensions. After pouring a scotch neat in apartment 20, he has a brief, slightly awkward exchange with Sandra, who notes it is Rachel's father's drink. Stepping into the hallway, Ross intercepts Leonard to prevent him from entering the \"staging area\" and ruining the party's illusion, promising to retrieve Leonard's cigarettes and glasses instead. Ross then enters apartment 19, where Monica is hosting a party game that quickly takes an embarrassing turn for her.",
+    "cumulative_summary": "At a lively gathering split between two neighboring apartments, Ross finds himself managing social dynamics and party logistics. In apartment 20, Ross pours himself a scotch neat, prompting a brief and slightly awkward conversation with Sandra, who points out that it is Rachel's father's drink. Seeking an escape, Ross slips out into the hallway, where he intercepts Leonard. To preserve the \"illusion of the party,\" Ross stops Leonard from entering the staging area to get his cigarettes, offering to retrieve them and his glasses instead. Ross then enters apartment 19, where another gathering is underway. There, Monica hosts a party game, reading aloud a guest's submission for their most embarrassing memory, which humorously turns out to be Monica's own party."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:34 - 00:03:19",
+    "batch_summary": "Monica becomes stressed over a water ring on her coffee table. Meanwhile, Ross tries to cover up having Leonard's glasses and cigarette by claiming they are his own to Sandra and Rachel. Rachel plays along, prompting Ross to escape to the hallway to \"smoke.\" However, Ross immediately runs into Leonard, who catches him wearing his glasses and holding his cigarette, leading to an awkward confrontation.",
+    "cumulative_summary": "At a lively gathering split between two neighboring apartments, Ross manages tense social dynamics. In apartment 20, Ross's awkward encounter with Sandra prompts him to escape to the hallway, where he intercepts Rachel's father, Leonard. To keep the feuding parents apart, Ross offers to retrieve Leonard's glasses and cigarettes. Meanwhile, in apartment 19, Monica's party game backfires, and she soon becomes obsessively distracted by a water ring on her coffee table. When Ross returns, Sandra questions why he has Leonard's bifocals and cigarette. Ross and Rachel quickly lie, claiming Ross wears bifocals and smokes heavily. Slipping back into the hallway to \"smoke,\" Ross immediately runs into Leonard. Leonard catches Ross wearing his glasses and carrying his cigarette, forcing Ross to make up absurd excuses on the spot."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:19 - 00:05:18",
+    "batch_summary": "After Ross awkwardly tries to explain the cigarette to Leonard, the focus shifts to the competing parties. Phoebe smuggles bored guests from Monica's apartment to the livelier party next door. Monica catches Phoebe and several guests, including Gunther, and defensively tries to champion her quiet party games. Meanwhile, Sandra tells Rachel she needs therapy for dating someone just like her father, Leonard, who immediately complains to Rachel about Sandra's spending.",
+    "cumulative_summary": "At a gathering split between two apartments, Ross struggles to keep Rachel's divorced parents, Sandra and Leonard, apart. After telling absurd lies to cover up having Leonard's glasses and cigarette, Ross awkwardly tries to explain himself to Leonard in the hallway. Meanwhile, Monica's party is so dull that Phoebe begins smuggling bored guests—including Gunther—over to the livelier party next door. Monica catches them in the act and defensively tries to convince everyone that her quiet party games are fun, to no avail. Back at the party, Sandra tells Rachel she needs therapy because Ross is exactly like her father, a comparison reinforced when Leonard immediately complains to Rachel about Sandra's extravagant spending."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:19 - 00:07:19",
+    "batch_summary": "Rachel becomes overwhelmed as her parents, Sandra and Leonard, continuously complain about each other's flaws and their bitter divorce. Seeking an escape, Rachel retreats to the hallway stairs. Chandler finds her there and tries to comfort her by sharing his own childhood experiences with parental divorce, using humor to ease her pain. Rachel tearfully worries about her future split holidays and reflects on a bittersweet memory of the 4th of July, while Chandler listens supportively.",
+    "cumulative_summary": "At a gathering split between two apartments, Ross struggles to keep Rachel's divorced parents, Sandra and Leonard, apart. Meanwhile, Monica's party is so dull that Phoebe smuggles guests to the livelier party next door, leaving Monica defensive. Back at the party, Sandra and Leonard separately bombard Rachel with bitter complaints about each other's flaws, habits, and their divorce settlement. Overwhelmed by their mutual animosity, Rachel retreats to the hallway staircase to escape the tension. Chandler finds her there and sits with her, offering comfort by sharing his own childhood experiences with his parents' divorce. Though he uses his trademark humor to lighten the mood, Rachel opens up about her anxieties regarding future split holidays and her changing family dynamic, reflecting on a poignant memory of the 4th of July."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:19 - 00:09:05",
+    "batch_summary": "Rachel shares a bittersweet memory of her family's past 4th of July trips, highlighting how they huddled under one blanket despite their bickering. Chandler comforts her with a hug, which Ross quickly interrupts to hug Rachel himself. As Sandra prepares to leave Monica's party, she heads into the hallway to say goodbye. When the door to the other apartment begins to open, Ross frantically holds it shut to prevent Rachel's parents from crossing paths, while Monica pulls Rachel back inside.",
+    "cumulative_summary": "At a gathering split between two apartments, Ross struggles to keep Rachel's divorced parents, Sandra and Leonard, apart. Meanwhile, Monica's party is so dull that Phoebe smuggles guests to the livelier party next door. Overwhelmed by her parents' bitter complaints about each other, Rachel retreats to the hallway staircase. Chandler comforts her by sharing his own experiences with divorce. Rachel then opens up about a bittersweet childhood memory of her family huddling under a single blanket during 4th of July fireworks despite their constant bickering. Chandler offers a comforting hug, which Ross quickly interrupts to embrace Rachel himself. As Sandra prepares to leave Monica's party and heads into the hallway to say goodbye, the door to the other apartment begins to open. To prevent a disastrous encounter between the hostile exes, Ross frantically throws his weight against the door to hold it shut, while Monica pulls Rachel safely back inside."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:05 - 00:10:58",
+    "batch_summary": "As Rachel's parents nearly cross paths in the hallway, the group goes to extreme lengths to keep them apart. Phoebe frantically blocks Leonard from leaving, while Joey distracts Sandra by passionately kissing her. The distraction works perfectly, leaving Sandra delighted and declaring it the best party she has attended in years. With the crisis averted, the group gathers to celebrate as Rachel makes a wish and blows out the candles on her birthday flan.",
+    "cumulative_summary": "At a gathering split between two apartments, Ross struggles to keep Rachel's divorced parents, Sandra and Leonard, apart. After comforting a stressed Rachel in the hallway, the friends face a crisis when both parents prepare to leave at the same time. To prevent a disastrous encounter, Phoebe frantically blocks Leonard from exiting, while Joey desperately distracts Sandra by passionately kissing her. The chaotic plan succeeds; Sandra is thoroughly charmed and declares it the best party she has been to in years, completely unaware of her ex-husband's presence. With the parents successfully kept apart and sent on their way, the friends finally gather together to celebrate Rachel's birthday, cheering as she makes a wish and blows out the candles on her birthday flan."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 244,
+    "timestamp_range": "00:10:58 - 00:11:14",
+    "batch_summary": "Just as the group is celebrating Rachel's birthday, a stray volleyball suddenly drops from above, smashing her birthday flan to pieces. Chandler breaks the stunned silence with a sarcastic joke about wishes rarely coming true, ending the chaotic celebration on a humorous, albeit messy, note before the screen fades to black.",
+    "cumulative_summary": "At a gathering split between two apartments, Ross struggles to keep Rachel's divorced parents, Sandra and Leonard, apart. After comforting a stressed Rachel in the hallway, the friends face a crisis when both parents prepare to leave at the same time. To prevent a disastrous encounter, Phoebe frantically blocks Leonard from exiting, while Joey desperately distracts Sandra by passionately kissing her. The chaotic plan succeeds; Sandra is thoroughly charmed and declares it the best party she has been to in years, completely unaware of her ex-husband's presence. With the parents successfully kept apart and sent on their way, the friends finally gather together to celebrate Rachel's birthday, cheering as she makes a wish and blows out the candles on her birthday flan. However, the celebration takes a sudden, comical turn when a stray volleyball drops from above, completely smashing the cake. Chandler breaks the stunned silence with a sarcastic remark about wishes rarely coming true, bringing the chaotic and memorable double-party to a messy but humorous close."
+  }
+]

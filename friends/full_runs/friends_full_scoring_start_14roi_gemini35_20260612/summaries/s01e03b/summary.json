@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:07",
+    "batch_summary": "At the coffee shop, Monica, Rachel, Ross, Chandler, and Joey discuss their fondness for Alan, though Monica wonders if he is \"too much.\" Meanwhile, Phoebe meets her friend Lizzy on the street and generously gifts her $1,000. Lizzy is shocked and insists on giving something back, so they agree Lizzy will buy Phoebe a soda. Later, Chandler is shown at his office cubicle, secretly lighting a cigarette and spraying air freshener to hide the smoke while he works.",
+    "cumulative_summary": "In a cozy coffee shop, Rachel, Monica, Ross, Chandler, and Joey reminisce about a recent softball game and praise a man named Alan for bringing them together as a team. While Monica tentatively questions if Alan is \"too much,\" the guys enthusiastically defend him, expressing their deep admiration for his personality. Meanwhile, Phoebe meets up with a homeless woman named Lizzy on a city street. After bringing her soup, Phoebe surprises Lizzy by gifting her an envelope containing $1,000. Overwhelmed and reluctant to accept the charity for free, Lizzy tries to offer her tinfoil hat in return. Phoebe declines the hat but graciously agrees to let Lizzy buy her a soda so they can call it even. Later, the scene shifts to an office building where Chandler sits in his cubicle. Struggling with his urges, he sneaks a cigarette, lighting it at his desk and using air freshener to mask the smell while he continues to type on his computer."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:07 - 00:03:52",
+    "batch_summary": "After comically trying to hide his smoking at work, Chandler joins the group at the coffee shop. Meanwhile, Lizzy buys Phoebe a soda, but Phoebe is horrified to discover a severed thumb floating inside. When she shares this gross discovery with the group, the friends quickly shift to criticizing Chandler for smoking again. Defensively, Chandler deflects by pointing out everyone else's annoying habits—such as Joey's knuckle cracking and Monica's snort-laughing—leaving the group feeling self-conscious and tense.",
+    "cumulative_summary": "In a cozy coffee shop, the friends praise Monica's new boyfriend, Alan, though Monica has doubts. Meanwhile, Phoebe gifts $1,000 to a homeless woman named Lizzy, who insists on buying Phoebe a soda in return. At work, Chandler struggles to hide his smoking habit, comically using air freshener and breath spray. When Phoebe drinks her soda, she is horrified to find a severed thumb floating inside. Back at the coffee shop, she shares this bizarre discovery with the group. When the friends confront Chandler about his smoking, he defensively deflects by exposing everyone else's annoying flaws—including Joey's knuckle cracking, Ross's overpronouncing, and Monica's snort-laughing—sparking self-consciousness and tension among the group."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:52 - 00:05:38",
+    "batch_summary": "The tension among the friends explodes into a chaotic argument as they mock each other's flaws, from Phoebe chewing her hair to Rachel's poor waitressing skills, while Chandler quietly slips away to smoke. Later, at work, Monica confides in her coworker Paula about her relationship with Alan. Monica admits she doesn't \"feel the thing\" for him despite her friends' adoration. Paula advises her to dump him, but Monica confesses she is more worried about how her friends will react to the breakup than Alan himself.",
+    "cumulative_summary": "In a cozy coffee shop, the friends praise Monica's new boyfriend, Alan, though Monica has doubts. Meanwhile, Phoebe finds a severed thumb in her soda after receiving a cash reward. When the friends confront Chandler about his smoking habit, he deflects by exposing everyone else's annoying flaws. This sparks a chaotic, overlapping argument where the friends mock each other's habits—including Phoebe chewing her hair and Rachel's poor waitressing skills—allowing Chandler to slip away unnoticed. Later, at her restaurant job, Monica confides in her coworker Paula that she doesn't \"feel the thing\" for Alan. Although Paula advises her to break up with him, Monica admits she is terrified of how her five friends will react, as they have grown incredibly attached to him."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:38 - 00:07:15",
+    "batch_summary": "When Ross confronts Chandler about his smoking, Chandler remains defensive until he receives a phone call from Monica's boyfriend, Alan. Alan's persuasive words surprisingly convince Chandler to stub out his cigarette, leaving Ross and Rachel in awe of Alan's charm. Later, while watching TV, an irritable Chandler struggles with nicotine withdrawal, prompting Ross to suggest changing his nicotine patch. Monica then arrives home looking for Joey, only to be met with Chandler's sarcastic remarks.",
+    "cumulative_summary": "In a cozy coffee shop, the friends praise Monica's new boyfriend, Alan, though Monica has doubts. Meanwhile, Phoebe finds a severed thumb in her soda after receiving a cash reward. When the friends confront Chandler about his smoking habit, he deflects by exposing everyone else's annoying flaws, sparking a chaotic argument. Later, Monica confides in her coworker Paula that she doesn't \"feel the thing\" for Alan but fears breaking up with him because her friends are so attached to him. This attachment is further proven when Ross confronts Chandler about his smoking again. Chandler remains defensive until he takes a phone call from Alan, whose persuasive advice surprisingly convinces Chandler to stub out his cigarette, leaving Ross and Rachel in awe of Alan's charm. Later, as Chandler struggles irritably with nicotine withdrawal while watching TV, Ross suggests changing his nicotine patch. Monica then returns home looking for Joey, only to be met with Chandler's sarcastic, withdrawal-induced remarks."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:15 - 00:08:57",
+    "batch_summary": "Ross helps Chandler with his nicotine withdrawal by applying a patch, bringing him instant relief. Meanwhile, Phoebe reveals she received $7,000 for the severed thumb but still feels plagued by bad luck. As the friends gather, Monica summons her courage to deliver some shocking news. Despite the group's excitement about upcoming plans with Alan, Monica confesses that she has decided to break up with him, leaving her friends utterly stunned and speechless.",
+    "cumulative_summary": "In a cozy coffee shop, the friends praise Monica's new boyfriend, Alan, though Monica has doubts. Meanwhile, Phoebe finds a severed thumb in her soda, which eventually leads to a $7,000 payout from the soda company. When the friends confront Chandler about his smoking habit, he deflects by exposing everyone else's annoying flaws, sparking a chaotic argument. Later, Monica confides in her coworker Paula that she doesn't \"feel the thing\" for Alan but fears breaking up with him because her friends are so attached to him. This attachment is proven when Alan's persuasive phone advice surprisingly convinces Chandler to stub out his cigarette. As Chandler struggles with nicotine withdrawal, Ross helps him by applying a nicotine patch, bringing him instant relief. Finally, Monica gathers the courage to face her friends. Despite their excitement about upcoming plans with Alan, Monica drops a bombshell and announces she has decided to break up with him, leaving the entire group completely stunned and heartbroken."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:57 - 00:10:49",
+    "batch_summary": "Monica's friends struggle to accept the breakup, expressing deep grief and asking for time to heal. Monica meets with Alan to end the relationship, only for Alan to admit he is relieved because he cannot stand her friends. Back at the apartment, the group eats ice cream and reminisces about their good times with Alan, completely unaware of his true feelings, just as Monica returns home.",
+    "cumulative_summary": "In a cozy coffee shop, the friends praise Monica's new boyfriend, Alan, though Monica has doubts. Meanwhile, Phoebe finds a severed thumb in her soda, leading to a $7,000 payout. When the friends confront Chandler about his smoking, he deflects by exposing everyone's annoying flaws. Later, Monica confides in her coworker that she doesn't \"feel the thing\" for Alan but fears breaking up with him because her friends are so attached to him. After Alan's advice helps Chandler quit smoking, Monica finally gathers the courage to announce their breakup, leaving the group completely heartbroken. As the friends struggle to accept the news and ask for time to grieve, Monica meets with Alan to end things. Surprisingly, Alan admits he is relieved because he cannot stand her friends. Back at the apartment, the group eats ice cream and fondly reminisces about Alan, completely unaware of his true feelings, just as Monica returns home."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 260,
+    "timestamp_range": "00:10:49 - 00:11:43",
+    "batch_summary": "Upon returning home, Monica lies to her friends to spare their feelings, telling them that Alan will miss them. As Ross comforts her, a stressed Chandler cracks under the pressure and declares he is going to buy cigarettes. To stop him from ruining his progress, Phoebe offers him her $7,000 soda settlement money if he promises never to smoke again. Chandler accepts the deal and exits, leaving the group together.",
+    "cumulative_summary": "In a cozy coffee shop, the friends praise Monica's new boyfriend, Alan, though Monica has doubts. Meanwhile, Phoebe finds a severed thumb in her soda, leading to a $7,000 payout. When the friends confront Chandler about his smoking, he deflects by exposing everyone's annoying flaws. Later, Monica confides in her coworker that she doesn't \"feel the thing\" for Alan but fears breaking up with him because her friends are so attached to him. After Alan's advice helps Chandler quit smoking, Monica finally gathers the courage to announce their breakup, leaving the group completely heartbroken. As the friends struggle to accept the news, Monica meets with Alan to end things. Surprisingly, Alan admits he is relieved because he cannot stand her friends. Back at the apartment, Monica lies to spare her friends' feelings, telling them Alan will miss them. As Ross comforts her, a stressed Chandler declares he is going to buy cigarettes. To stop him, Phoebe offers him her $7,000 settlement if he never smokes again. Chandler accepts the deal and exits, leaving the group together."
+  }
+]

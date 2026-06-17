@@ -1,0 +1,488 @@
+{
+  "version": "domain_pool_v2",
+  "target_region": "PCC",
+  "curation_status": "draft",
+  "source_model": "gemini-3.5-flash",
+  "proposal_runs": 5,
+  "metadata": {
+    "generation_parameters": {
+      "provider": "gemini",
+      "temperature": 0.2,
+      "proposal_runs": 5
+    },
+    "required_domain_ids": [],
+    "confirmation_instructions": "Review curated_domains and rejected_or_merged_domains, then set curation_status to 'confirmed' before passing this pool to make-region-schema --domain-pool."
+  },
+  "candidate_domains": [
+    {
+      "domain_id": "run_1_narrative_situation_updating",
+      "definition": "The viewer's cognitive process of updating their mental model of the story's situation, specifically when detecting shifts in time, location, or major plot directions.",
+      "region_relevance": "The posterior cingulate cortex (PCC), including areas A23 and A31, is a key node of the default mode network and is heavily involved in event segmentation, tracking narrative continuity, and updating situation models during continuous movie viewing.",
+      "scoreability_note": "Can be scored by identifying narrative boundaries, scene transitions, or sudden shifts in the story's context within the text description.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_interpersonal_dynamic_appraisal",
+      "definition": "The viewer's tracking and appraisal of the psychological distance, trust, conflict, or alignment between characters as their relationships evolve.",
+      "region_relevance": "PCC is consistently implicated in social cognition, theory of mind, and processing social relationships, helping the viewer track complex interpersonal dynamics and character perspectives.",
+      "scoreability_note": "Scoreable based on dialogue, body language, and actions in the text that reveal changes in character alliances, intimacy, or tension.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_narrative_memory_retrieval",
+      "definition": "The viewer's active retrieval and integration of past story details, callbacks, or character histories to make sense of the current scene.",
+      "region_relevance": "As a core node of the episodic memory network, the PCC is crucial for linking immediate sensory inputs with retrieved long-term narrative context to maintain a coherent story representation.",
+      "scoreability_note": "Scoreable by identifying references to past events, recurring motifs, or unresolved plot points that require the viewer to recall earlier parts of the movie.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_thematic_moral_evaluation",
+      "definition": "The viewer's appraisal of the moral, ethical, or thematic weight of the characters' situations, eliciting a sense of deeper significance or empathetic resonance.",
+      "region_relevance": "PCC is involved in self-referential processing, moral evaluation, and assigning personal relevance or emotional meaning to narratives, bridging external story events with the viewer's internal value systems.",
+      "scoreability_note": "Scoreable by analyzing the text for high-stakes moral dilemmas, profound character transformations, or emotionally poignant moments that invite viewer reflection.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_2_narrative_situation_tracking",
+      "definition": "The viewer's cognitive integration of the ongoing situation model, tracking how current events, locations, and character configurations connect to the broader narrative history and established context.",
+      "region_relevance": "PCC (A23, A31) is a central hub of the default mode network, critical for constructing and updating situation models, integrating information across long temporal windows, and contextual narrative processing.",
+      "scoreability_note": "Highly scoreable by assessing whether a scene introduces new narrative context, shifts the situation model, or relies heavily on the viewer retrieving prior plot points to understand the current interaction.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_social_perspective_coherence",
+      "definition": "The viewer's appraisal of the alignment, conflict, or hidden discrepancies between different characters' mental states, beliefs, and intentions as revealed by the scene.",
+      "region_relevance": "PCC/precuneus regions (A31, A23) are consistently implicated in theory of mind and social evaluation, specifically in tracking complex interpersonal dynamics and perspective-taking.",
+      "scoreability_note": "Scoreable by analyzing dialogue and actions to determine if the viewer must track multiple conflicting viewpoints, hidden motives, or shared understandings between characters.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_spatial_environmental_anchoring",
+      "definition": "The viewer's mental mapping and orientation within the physical layout of the scene, tracking transitions between distinct environments or the spatial relationships of key elements within a setting.",
+      "region_relevance": "Ventral PCC and adjacent retrosplenial cortex (A23v, A31) are heavily involved in spatial navigation, scene processing, and anchoring the viewer's perspective within a physical framework.",
+      "scoreability_note": "Scoreable based on the description of physical settings, camera movements revealing spatial layouts, transitions between locations, and explicit spatial references in the text.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_affective_narrative_resonance",
+      "definition": "The viewer's evaluative appraisal of the emotional gravity, tension, or significance of a scene, grounded in the accumulated stakes of the characters' situations rather than immediate sensory shock.",
+      "region_relevance": "PCC acts as a bridge between memory, self-referential networks, and subcortical emotion systems, mediating the cognitive appraisal of complex, narrative-driven emotional significance.",
+      "scoreability_note": "Scoreable by evaluating the narrative stakes, dramatic tension, and the degree of emotional investment or moral appraisal required from the viewer to interpret the scene's outcome.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_3_narrative_situation_model",
+      "definition": "The viewer's cognitive tracking and integration of the ongoing situation model, including temporal continuity, causal links, and event transitions.",
+      "region_relevance": "The posterior cingulate cortex (PCC) is a central hub of the default mode network, critical for constructing, maintaining, and updating mental models of a narrative across event boundaries.",
+      "scoreability_note": "Can be scored by identifying shifts in scene, temporal jumps, or major updates to the plot structure and causal chain in the text description.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_social_relationship_tracking",
+      "definition": "The viewer's tracking and appraisal of interpersonal dynamics, social bonds, conflicts, and alliances between characters.",
+      "region_relevance": "PCC and adjacent precuneus regions are heavily involved in social cognition, theory of mind, and tracking long-term relational dynamics and history between agents.",
+      "scoreability_note": "Can be scored based on the presence of interpersonal interactions, dialogue revealing relationship status, or changes in social alignment described in the text.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_spatial_environmental_context",
+      "definition": "The viewer's construction and updating of the physical space, environmental layout, and spatial transitions of the scene.",
+      "region_relevance": "The PCC and adjacent retrosplenial cortex are crucial for spatial navigation, scene processing, and anchoring events within a physical context.",
+      "scoreability_note": "Can be scored by analyzing descriptions of the physical setting, movement through space, or transitions between different environments.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_moral_and_value_appraisal",
+      "definition": "The viewer's evaluative appraisal of the moral, ethical, or value-laden significance of the characters' actions and decisions.",
+      "region_relevance": "PCC is consistently implicated in moral reasoning, processing self-relevant values, and evaluating the significance of social behaviors.",
+      "scoreability_note": "Can be scored by identifying narrative events involving ethical choices, transgressions, altruism, or high-stakes personal consequences in the text.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_4_narrative_situation_integration",
+      "definition": "The viewer's ongoing integration of incoming narrative details into a coherent, long-term mental model of the story, tracking how new events connect to past occurrences and future expectations.",
+      "region_relevance": "The PCC (including areas A23 and A31) is a central hub of the default mode network, critical for integrating information over extended temporal windows and maintaining a continuous narrative situation model.",
+      "scoreability_note": "Can be scored by evaluating the density of narrative connections, callbacks, and causal links to prior events in the movie description that require the viewer to retrieve past story context.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_social_mentalizing_inference",
+      "definition": "The viewer's cognitive simulation and inference of characters' internal mental states, unexpressed intentions, beliefs, and interpersonal dynamics based on behavioral and contextual cues.",
+      "region_relevance": "PCC is heavily implicated in social cognition and theory-of-mind networks, showing elevated activity when viewers process complex social interactions and infer the psychological states of others.",
+      "scoreability_note": "Can be scored by identifying scenes rich in subtext, non-verbal communication, conflicting motivations, or social tension where the viewer must actively infer what characters are thinking or feeling.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_spatial_environmental_anchoring",
+      "definition": "The viewer's mental mapping and tracking of the physical layout, spatial relationships, and environmental context in which the characters' actions take place.",
+      "region_relevance": "The ventral PCC and adjacent retrosplenial cortex are key components of the brain's spatial processing and scene-construction networks, active during the retrieval and maintenance of environmental layouts.",
+      "scoreability_note": "Can be scored based on the presence of explicit spatial descriptions, movement through physical layouts, and environmental landmarks that allow the viewer to construct a mental map of the scene.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_affective_significance_appraisal",
+      "definition": "The viewer's appraisal of the moral, personal, or emotional significance of the narrative events, evaluating the gravity of the consequences for the characters involved.",
+      "region_relevance": "PCC plays a key role in self-referential processing, value representation, and personal relevance, which translates in film viewing to appraising the moral weight and personal stakes of the narrative.",
+      "scoreability_note": "Can be scored by assessing the presence of moral dilemmas, high-stakes decisions, or emotionally pivotal events in the text that prompt the viewer to evaluate the deeper significance of the scene.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_5_situational_boundary_tracking",
+      "definition": "The viewer's cognitive tracking of shifts in the narrative context, such as transitions in physical location, jumps in time, or changes in the primary activity, which prompt the viewer to update their mental model of the ongoing story.",
+      "region_relevance": "The posterior cingulate cortex (PCC, including A23 and A31) is a critical hub for event segmentation and situational model updating, showing transient activity peaks at narrative boundaries.",
+      "scoreability_note": "Highly scoreable from text descriptions by identifying explicit shifts in setting, temporal jumps, or the initiation of new activities.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_interpersonal_dynamic_appraisal",
+      "definition": "The viewer's ongoing evaluation of the social relationships, emotional alignment, conflicts, or power hierarchies between characters as revealed through their interactions.",
+      "region_relevance": "The PCC is a core component of the default mode network, heavily implicated in social cognition, perspective-taking, and evaluating the personal or social relevance of observed interactions.",
+      "scoreability_note": "Scoreable by analyzing dialogue, body language, and actions that indicate the level of intimacy, tension, cooperation, or hostility between characters.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_spatial_context_reconstruction",
+      "definition": "The viewer's mental mapping of the physical environment, spatial scale, and layout of the scene, establishing a sense of place and the relative positions of characters and objects.",
+      "region_relevance": "Ventral PCC (A23v) and adjacent retrosplenial/parahippocampal regions are central to spatial navigation, scene perception, and anchoring the viewer within a coherent physical space.",
+      "scoreability_note": "Scoreable based on textual descriptions of the setting, spatial layout, camera perspectives, and characters' movements or orientation within the environment.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_narrative_context_integration",
+      "definition": "The viewer's cognitive integration of current scene events with prior narrative history, requiring the retrieval of past plot points, character motivations, or thematic knowledge to fully comprehend the present situation.",
+      "region_relevance": "The PCC is a primary hub for episodic memory retrieval and integrating information over extended temporal scales, linking immediate experiences with long-term narrative context.",
+      "scoreability_note": "Scoreable by identifying elements in the text that rely on prior knowledge, callbacks to earlier scenes, or actions whose significance is derived from past events.",
+      "source_run": 5
+    }
+  ],
+  "curated_domains": [
+    {
+      "domain_id": "narrative_situation_updating_and_integration",
+      "definition": "The viewer's cognitive tracking, updating, and integration of the ongoing situation model, including detecting shifts in time, location, or plot direction, and linking current events with retrieved past narrative context.",
+      "region_relevance": "The posterior cingulate cortex (PCC), including areas A23 and A31, is a key node of the default mode network and is heavily involved in event segmentation, tracking narrative continuity, episodic memory retrieval, and updating situation models during continuous movie viewing.",
+      "scoreability_note": "Can be scored by identifying narrative boundaries, scene transitions, temporal jumps, or explicit callbacks to prior events in the text description that require the viewer to update or retrieve narrative context.",
+      "source_domain_ids": [
+        "run_1_narrative_situation_updating",
+        "run_2_narrative_situation_tracking",
+        "run_3_narrative_situation_model",
+        "run_4_narrative_situation_integration",
+        "run_5_situational_boundary_tracking",
+        "run_1_narrative_memory_retrieval",
+        "run_5_narrative_context_integration"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all narrative situation tracking, event segmentation, and memory retrieval/integration domains into a single coarse domain, as they all represent the viewer's unified cognitive process of maintaining and updating a coherent narrative model in the PCC."
+    },
+    {
+      "domain_id": "social_relationship_and_mentalizing_appraisal",
+      "definition": "The viewer's tracking, appraisal, and inference of interpersonal dynamics, social relationships, and characters' internal mental states, beliefs, or unexpressed intentions.",
+      "region_relevance": "The PCC and adjacent precuneus are core components of the default mode and theory-of-mind networks, consistently implicated in social cognition, perspective-taking, and tracking long-term relational dynamics.",
+      "scoreability_note": "Scoreable by identifying scenes rich in dialogue, non-verbal communication, conflicting motivations, or social tension where the viewer must actively infer what characters are thinking, feeling, or how their relationships are changing.",
+      "source_domain_ids": [
+        "run_1_interpersonal_dynamic_appraisal",
+        "run_2_social_perspective_coherence",
+        "run_3_social_relationship_tracking",
+        "run_4_social_mentalizing_inference",
+        "run_5_interpersonal_dynamic_appraisal"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Consolidated all social cognition, theory of mind, and interpersonal tracking domains into a single domain, reflecting the PCC's role in processing social relationships and character perspectives."
+    },
+    {
+      "domain_id": "spatial_environmental_anchoring",
+      "definition": "The viewer's mental mapping, orientation, and tracking of the physical layout, environmental context, and spatial transitions of the scene.",
+      "region_relevance": "The ventral PCC and adjacent retrosplenial cortex are key components of the brain's spatial processing and scene-construction networks, active during the retrieval and maintenance of environmental layouts.",
+      "scoreability_note": "Scoreable based on textual descriptions of physical settings, camera movements revealing spatial layouts, transitions between locations, and characters' movements or orientation within the environment.",
+      "source_domain_ids": [
+        "run_2_spatial_environmental_anchoring",
+        "run_3_spatial_environmental_context",
+        "run_4_spatial_environmental_anchoring",
+        "run_5_spatial_context_reconstruction"
+      ],
+      "source_runs": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Merged all spatial and environmental tracking domains into a single coarse domain representing the viewer's spatial anchoring within the scene, supported by the ventral PCC and retrosplenial cortex."
+    },
+    {
+      "domain_id": "moral_thematic_and_affective_appraisal",
+      "definition": "The viewer's evaluative appraisal of the moral, ethical, thematic, or emotional significance of the narrative events, including the gravity of consequences and the value-laden weight of characters' actions.",
+      "region_relevance": "The PCC plays a key role in self-referential processing, value representation, and personal relevance, translating to the cognitive appraisal of moral weight, thematic significance, and narrative-driven emotional stakes.",
+      "scoreability_note": "Scoreable by identifying narrative events involving ethical choices, transgressions, high-stakes decisions, or emotionally pivotal moments that prompt the viewer to evaluate the deeper significance of the scene.",
+      "source_domain_ids": [
+        "run_1_thematic_moral_evaluation",
+        "run_2_affective_narrative_resonance",
+        "run_3_moral_and_value_appraisal",
+        "run_4_affective_significance_appraisal"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Combined moral, thematic, and affective significance appraisal domains into a single coarse domain, as they all involve the viewer's evaluative processing of narrative stakes and values, which recruits the PCC's self-referential and evaluative networks."
+    }
+  ],
+  "rejected_or_merged_domains": [
+    {
+      "domain_id": "run_1_narrative_situation_updating",
+      "decision": "merged",
+      "reason": "Combined with other situation tracking and integration domains to form a unified narrative situation model domain.",
+      "source_domain_ids": [
+        "run_1_narrative_situation_updating"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "narrative_situation_updating_and_integration"
+    },
+    {
+      "domain_id": "run_1_interpersonal_dynamic_appraisal",
+      "decision": "merged",
+      "reason": "Combined with other social tracking and theory-of-mind domains to form a unified social relationship and mentalizing appraisal domain.",
+      "source_domain_ids": [
+        "run_1_interpersonal_dynamic_appraisal"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "social_relationship_and_mentalizing_appraisal"
+    },
+    {
+      "domain_id": "run_1_narrative_memory_retrieval",
+      "decision": "merged",
+      "reason": "Integrated into the narrative situation updating domain, as memory retrieval is a core component of updating and maintaining the situation model.",
+      "source_domain_ids": [
+        "run_1_narrative_memory_retrieval"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "narrative_situation_updating_and_integration"
+    },
+    {
+      "domain_id": "run_1_thematic_moral_evaluation",
+      "decision": "merged",
+      "reason": "Combined with other moral and affective appraisal domains to form a unified moral, thematic, and affective appraisal domain.",
+      "source_domain_ids": [
+        "run_1_thematic_moral_evaluation"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "moral_thematic_and_affective_appraisal"
+    },
+    {
+      "domain_id": "run_2_narrative_situation_tracking",
+      "decision": "merged",
+      "reason": "Combined with other situation tracking and integration domains to form a unified narrative situation model domain.",
+      "source_domain_ids": [
+        "run_2_narrative_situation_tracking"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "narrative_situation_updating_and_integration"
+    },
+    {
+      "domain_id": "run_2_social_perspective_coherence",
+      "decision": "merged",
+      "reason": "Combined with other social tracking and theory-of-mind domains to form a unified social relationship and mentalizing appraisal domain.",
+      "source_domain_ids": [
+        "run_2_social_perspective_coherence"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "social_relationship_and_mentalizing_appraisal"
+    },
+    {
+      "domain_id": "run_2_spatial_environmental_anchoring",
+      "decision": "merged",
+      "reason": "Combined with other spatial tracking domains to form a unified spatial environmental anchoring domain.",
+      "source_domain_ids": [
+        "run_2_spatial_environmental_anchoring"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "spatial_environmental_anchoring"
+    },
+    {
+      "domain_id": "run_2_affective_narrative_resonance",
+      "decision": "merged",
+      "reason": "Combined with other moral and affective appraisal domains to form a unified moral, thematic, and affective appraisal domain.",
+      "source_domain_ids": [
+        "run_2_affective_narrative_resonance"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "moral_thematic_and_affective_appraisal"
+    },
+    {
+      "domain_id": "run_3_narrative_situation_model",
+      "decision": "merged",
+      "reason": "Combined with other situation tracking and integration domains to form a unified narrative situation model domain.",
+      "source_domain_ids": [
+        "run_3_narrative_situation_model"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "narrative_situation_updating_and_integration"
+    },
+    {
+      "domain_id": "run_3_social_relationship_tracking",
+      "decision": "merged",
+      "reason": "Combined with other social tracking and theory-of-mind domains to form a unified social relationship and mentalizing appraisal domain.",
+      "source_domain_ids": [
+        "run_3_social_relationship_tracking"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "social_relationship_and_mentalizing_appraisal"
+    },
+    {
+      "domain_id": "run_3_spatial_environmental_context",
+      "decision": "merged",
+      "reason": "Combined with other spatial tracking domains to form a unified spatial environmental anchoring domain.",
+      "source_domain_ids": [
+        "run_3_spatial_environmental_context"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "spatial_environmental_anchoring"
+    },
+    {
+      "domain_id": "run_3_moral_and_value_appraisal",
+      "decision": "merged",
+      "reason": "Combined with other moral and affective appraisal domains to form a unified moral, thematic, and affective appraisal domain.",
+      "source_domain_ids": [
+        "run_3_moral_and_value_appraisal"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "moral_thematic_and_affective_appraisal"
+    },
+    {
+      "domain_id": "run_4_narrative_situation_integration",
+      "decision": "merged",
+      "reason": "Combined with other situation tracking and integration domains to form a unified narrative situation model domain.",
+      "source_domain_ids": [
+        "run_4_narrative_situation_integration"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "narrative_situation_updating_and_integration"
+    },
+    {
+      "domain_id": "run_4_social_mentalizing_inference",
+      "decision": "merged",
+      "reason": "Combined with other social tracking and theory-of-mind domains to form a unified social relationship and mentalizing appraisal domain.",
+      "source_domain_ids": [
+        "run_4_social_mentalizing_inference"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "social_relationship_and_mentalizing_appraisal"
+    },
+    {
+      "domain_id": "run_4_spatial_environmental_anchoring",
+      "decision": "merged",
+      "reason": "Combined with other spatial tracking domains to form a unified spatial environmental anchoring domain.",
+      "source_domain_ids": [
+        "run_4_spatial_environmental_anchoring"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "spatial_environmental_anchoring"
+    },
+    {
+      "domain_id": "run_4_affective_significance_appraisal",
+      "decision": "merged",
+      "reason": "Combined with other moral and affective appraisal domains to form a unified moral, thematic, and affective appraisal domain.",
+      "source_domain_ids": [
+        "run_4_affective_significance_appraisal"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "moral_thematic_and_affective_appraisal"
+    },
+    {
+      "domain_id": "run_5_situational_boundary_tracking",
+      "decision": "merged",
+      "reason": "Combined with other situation tracking and integration domains to form a unified narrative situation model domain.",
+      "source_domain_ids": [
+        "run_5_situational_boundary_tracking"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "narrative_situation_updating_and_integration"
+    },
+    {
+      "domain_id": "run_5_interpersonal_dynamic_appraisal",
+      "decision": "merged",
+      "reason": "Combined with other social tracking and theory-of-mind domains to form a unified social relationship and mentalizing appraisal domain.",
+      "source_domain_ids": [
+        "run_5_interpersonal_dynamic_appraisal"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "social_relationship_and_mentalizing_appraisal"
+    },
+    {
+      "domain_id": "run_5_spatial_context_reconstruction",
+      "decision": "merged",
+      "reason": "Combined with other spatial tracking domains to form a unified spatial environmental anchoring domain.",
+      "source_domain_ids": [
+        "run_5_spatial_context_reconstruction"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "spatial_environmental_anchoring"
+    },
+    {
+      "domain_id": "run_5_narrative_context_integration",
+      "decision": "merged",
+      "reason": "Combined with other situation tracking and integration domains to form a unified narrative situation model domain.",
+      "source_domain_ids": [
+        "run_5_narrative_context_integration"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "narrative_situation_updating_and_integration"
+    }
+  ]
+}

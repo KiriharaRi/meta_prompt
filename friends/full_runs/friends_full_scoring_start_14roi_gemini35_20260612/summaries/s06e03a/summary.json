@@ -1,0 +1,50 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:02",
+    "batch_summary": "In Monica's apartment, Rachel asks to move in with Phoebe, only to discover Phoebe has a mysterious roommate named Denise whom no one has ever heard of. Joey offers Rachel a room at his place, but she declines after he mentions \"naked Thursdays.\" Later, at the coffee shop, Phoebe confronts Ross, asking how Rachel reacted when he told her they were still married, catching Ross completely off guard.",
+    "cumulative_summary": "The episode opens in the apartment where Chandler, Monica, Joey, and Phoebe are hanging out. When Rachel enters looking for a new place to live, she asks to move in with Phoebe. However, Phoebe reveals she already has a roommate named Denise. The group is shocked, having never heard of Denise, but Phoebe insists she talks about her all the time. Joey then offers Rachel a room at his apartment, but his mention of \"naked Thursdays\" quickly prompts her to decline and seek her own place. Later, at the coffee shop, the narrative shifts to Ross. Phoebe sits down with him and casually asks how Rachel reacted when he told her they were still married. Ross, who clearly has not broken the news to Rachel yet, is left speechless, setting up a major conflict regarding their ongoing, secret marriage."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:02 - 00:04:19",
+    "batch_summary": "At the coffee shop, Phoebe confronts Ross about not telling Rachel they are still married. Ross defends his silence, claiming he only comforted Rachel as a friend. However, Phoebe teases him about smelling Rachel's \"coconutty\" hair, accusing him of still being in love with her, which Ross vehemently denies. Meanwhile, back at the apartment, Monica excitedly pitches her elaborate plans to turn Rachel's soon-to-be-vacant bedroom into a high-end guest room once Chandler moves in.",
+    "cumulative_summary": "The episode opens with Rachel looking for a new apartment. After learning Phoebe already has a mysterious roommate named Denise, and rejecting Joey's offer due to his \"naked Thursdays\" rule, Rachel continues her search. Meanwhile, at the coffee shop, Phoebe confronts Ross about his secret marriage to Rachel. Ross admits he hasn't told Rachel yet, claiming he kept quiet to avoid upsetting her during her stressful move. Phoebe playfully teases Ross about still being in love with Rachel, especially after he admits to smelling her \"coconutty\" hair during a comforting hug. Though Ross vehemently denies having feelings, Phoebe warns him to be careful. Back at the apartment, Monica and Chandler prepare for their next step. With Rachel moving out and Chandler moving in, Monica enthusiastically pitches her elaborate plans to transform Rachel's soon-to-be-vacant bedroom into a high-end guest room complete with a mahogany sleigh bed and guest comment cards."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:04:19 - 00:06:11",
+    "batch_summary": "Monica and Chandler have their first fight about moving in together when Chandler suggests turning Rachel's room into a game room. Monica flatly rejects the idea in favor of an antique-filled guest room, prompting Chandler to storm out. He visits Joey, who reveals a questionable newspaper ad seeking a \"non-ugly\" 19-year-old female roommate. Meanwhile, a stressed Rachel approaches Phoebe at the coffee shop to ask for a favor.",
+    "cumulative_summary": "The episode opens with Rachel searching for a new apartment after rejecting Joey's \"naked Thursdays\" rule and learning Phoebe already has a roommate. Meanwhile, Phoebe confronts Ross about his secret marriage to Rachel. Though Ross claims he is keeping quiet to avoid stressing Rachel, Phoebe warns him that he might still be in love with her. Back at the apartment, Monica and Chandler's moving plans hit a snag when they clash over Rachel's soon-to-be-vacant bedroom. Monica insists on an elegant, antique-filled guest room, while Chandler wants a game room with arcade machines. After Monica flatly rejects his input, an annoyed Chandler storms out and visits Joey. Joey reveals he has placed a questionable newspaper ad seeking a \"non-ugly,\" 19-year-old female roommate. Finally, a stressed Rachel returns to the coffee shop to ask Phoebe for a favor."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:06:11 - 00:07:53",
+    "batch_summary": "At Central Perk, Rachel laments her disastrous apartment hunt, even reading Joey's anonymous \"non-ugly\" roommate ad. Ross arrives with a solution: a two-year sublet from his museum colleague, Warren. Rachel is thrilled and rushes to call him. Once Rachel leaves, Phoebe stares Ross down, claiming she \"saw\" his true motives. Ross tries to play dumb, but Phoebe remains highly suspicious of his helpful gesture.",
+    "cumulative_summary": "The episode opens with Rachel searching for a new apartment after rejecting Joey's \"naked Thursdays\" rule. Meanwhile, Phoebe confronts Ross about his secret marriage to Rachel, warning him that he might still be in love with her. Back at the apartment, Monica and Chandler clash over Rachel's soon-to-be-vacant bedroom, leading an annoyed Chandler to visit Joey, who has placed a questionable ad for a \"non-ugly\" roommate. Later at Central Perk, Rachel laments her disastrous apartment hunt to Phoebe, even reading Joey's anonymous ad. Ross arrives with a solution: a two-year sublet from his museum colleague, Warren. Rachel is thrilled and rushes to call him. Once Rachel leaves, Phoebe stares Ross down, claiming she \"saw\" his true motives. Ross tries to play dumb, but Phoebe remains highly suspicious of his helpful gesture."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:53 - 00:09:39",
+    "batch_summary": "After Phoebe warns Ross not to do anything stupid regarding his feelings for Rachel, Rachel returns with news that the sublet is gone. In a moment of impulse, Ross invites Rachel to move in with him. Rachel happily accepts, calling him her hero. Once Rachel leaves, Phoebe mockingly points out the absurdity of the situation and tells a convoluted, fabricated story about her roommate Denise to highlight the messiness of Ross's secret marriage and lingering feelings.",
+    "cumulative_summary": "The episode opens with Rachel searching for a new apartment after rejecting Joey's \"naked Thursdays\" rule. Meanwhile, Phoebe confronts Ross about his secret marriage to Rachel, warning him that he might still be in love with her. Back at the apartment, Monica and Chandler clash over Rachel's soon-to-be-vacant bedroom, leading an annoyed Chandler to visit Joey, who has placed a questionable ad for a \"non-ugly\" roommate. Later at Central Perk, Rachel laments her disastrous apartment hunt to Phoebe. Ross arrives with a solution: a sublet from his colleague. However, when Rachel returns with news that the sublet is already taken, Ross impulsively invites her to move in with him. Rachel is ecstatic and accepts, calling him her hero. After she leaves, Phoebe sarcastically teases Ross about his \"not stupid\" decision, even fabricating a story about a roommate named Denise to mock his denial of his true feelings and his secret marriage."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 234,
+    "timestamp_range": "00:09:39 - 00:10:53",
+    "batch_summary": "Phoebe dramatically storms out of Central Perk after shouting about her roommate Denise, leaving Ross bewildered. Meanwhile, Chandler apologizes to Monica about their game room conflict, sweetly expressing his commitment to her. Touched, Monica suggests they decide how to use Rachel's vacant room together. However, the peace is short-lived when Chandler suggests rearranging the living room furniture to accommodate his favorite chair, prompting a tense, silent stare of disapproval from Monica.",
+    "cumulative_summary": "The episode opens with Rachel searching for a new apartment after rejecting Joey's \"naked Thursdays\" rule. Meanwhile, Phoebe confronts Ross about his secret marriage to Rachel, warning him that he might still be in love with her. After Ross impulsively invites Rachel to move in with him, Phoebe dramatically storms out of Central Perk, shouting about her mysterious roommate Denise. Back at the apartment, Chandler apologizes to Monica for their earlier clash over Rachel's vacant bedroom, sweetly expressing his commitment to their relationship. Touched, Monica suggests they decide how to use the extra room together. However, their newfound harmony is instantly threatened when Chandler suggests rearranging the living room furniture to accommodate his favorite chair, leaving Monica staring at him in silent, tense disapproval."
+  }
+]

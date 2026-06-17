@@ -1,0 +1,494 @@
+{
+  "version": "domain_pool_v2",
+  "target_region": "OFC",
+  "curation_status": "confirmed",
+  "source_model": "gemini-3.5-flash",
+  "proposal_runs": 5,
+  "metadata": {
+    "generation_parameters": {
+      "provider": "gemini",
+      "temperature": 0.2,
+      "proposal_runs": 5
+    },
+    "required_domain_ids": [],
+    "confirmation_instructions": "Review curated_domains and rejected_or_merged_domains, then set curation_status to 'confirmed' before passing this pool to make-region-schema --domain-pool.",
+    "confirmation_mode": "auto_pilot",
+    "confirmed_by": "run-multi-roi-pilot",
+    "manual_review_required_before_final_claims": true,
+    "draft_source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/OFC/domain_pool_draft.json"
+  },
+  "candidate_domains": [
+    {
+      "domain_id": "run_1_vicarious_value_appraisal",
+      "definition": "The viewer's appraisal of the subjective value, desirability, or threat of ongoing events and outcomes for the characters involved, tracking what is at stake (gains, losses, rewards, punishments) from the viewer's perspective as they simulate the characters' situations.",
+      "region_relevance": "The orbitofrontal cortex (specifically medial subregions like A14m and lateral subregions like A12/47o) is heavily implicated in representing subjective value, reward expectation, and the appraisal of positive versus negative outcomes.",
+      "scoreability_note": "Highly scoreable from text descriptions by identifying whether a scene depicts a major success, a devastating loss, a physical/social threat, or a neutral transition for the protagonist.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_social_norm_violation",
+      "definition": "The viewer's evaluation of whether a character's behavior violates social, moral, or cultural norms within the context of the narrative, capturing the viewer's judgment of social inappropriateness, faux pas, or transgressive actions.",
+      "region_relevance": "Lateral OFC (e.g., A12/47l) and its connections to the ventral attention network are crucial for processing social transgressions, norm violations, and the resulting shift in social expectations.",
+      "scoreability_note": "Can be reliably scored from text descriptions of dialogue and actions that depict rule-breaking, insults, awkward social interactions, or moral transgressions.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_narrative_expectation_conflict",
+      "definition": "The viewer's cognitive appraisal of a mismatch between expected narrative outcomes and actual events (e.g., plot twists, unexpected character reactions, sudden obstacles), representing the viewer's processing of prediction errors in the story.",
+      "region_relevance": "OFC plays a key role in signaling expectation violations and updating value representations when outcomes do not match predictions, mirroring its role in reversal learning.",
+      "scoreability_note": "Scoreable by analyzing whether the text description depicts a sudden, unexpected turn of events or a highly predictable, expected progression of the plot.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_affective_valence_appraisal",
+      "definition": "The viewer's appraisal of the overall emotional tone or valence of a scene (ranging from highly positive/comforting to highly negative/distressing), grounded in the narrative context and character interactions.",
+      "region_relevance": "OFC, along with its dense connections to the amygdala (lAmyg, mAmyg) and nucleus accumbens (NAC), is central to the representation of affective valence and the integration of emotional salience.",
+      "scoreability_note": "Easily scoreable from text descriptions by assessing the presence of emotionally charged events, hostile/warm dialogue, and threatening/safe environments.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_2_outcome_value_appraisal",
+      "definition": "The viewer's ongoing evaluation of the positive or negative utility, payoff, or consequence of narrative events and character decisions as they unfold.",
+      "region_relevance": "The orbitofrontal cortex, including subregions A11, A12/47, and A13, is a primary hub for value-based processing, encoding the subjective value of outcomes and tracking reward/punishment contingencies.",
+      "scoreability_note": "Can be scored by identifying narrative moments of success, failure, material gain, or loss for the characters, as well as the resolution of suspenseful situations.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_social_norm_appraisal",
+      "definition": "The viewer's appraisal of whether a character's actions, dialogue, or decisions violate or conform to social norms, etiquette, or moral expectations within the scene's context.",
+      "region_relevance": "Lateral and medial OFC subregions, such as A12/47l and A11m, are heavily involved in processing social violations, tracking social context, and evaluating the appropriateness of behavior.",
+      "scoreability_note": "Easily scored from text descriptions depicting transgressive behavior, social faux pas, rule-breaking, or highly polite and conforming social interactions.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_hedonic_aesthetic_appraisal",
+      "definition": "The viewer's appraisal of the sensory pleasantness, comfort, luxury, or aesthetic appeal versus the discomfort, harshness, or repulsiveness of the depicted environment and objects.",
+      "region_relevance": "Medial OFC, including A14m and A11m, is consistently associated with the representation of hedonic experience, subjective pleasantness, and aesthetic value across multiple sensory modalities.",
+      "scoreability_note": "Scored by analyzing descriptions of the physical setting, food, luxury items, or harsh/unpleasant environmental conditions depicted in the scene.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_risk_threat_assessment",
+      "definition": "The viewer's estimation of the potential negative consequences, physical danger, or strategic risk associated with a character's current situation or impending decision.",
+      "region_relevance": "Lateral OFC (A12/47o, A12/47l) and its functional connectivity with amygdalar nuclei (lAmyg, mAmyg) are critical for evaluating threat, risk, and potential punishment or loss.",
+      "scoreability_note": "Scored based on the presence of physical hazards, high-stakes decisions, uncertain outcomes, or impending conflict described in the text.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_3_viewer_reward_risk_appraisal",
+      "definition": "The viewer's ongoing evaluation of the potential rewards, benefits, risks, or negative consequences associated with a character's immediate decisions or actions, integrating narrative context to estimate the subjective value of what is at stake.",
+      "region_relevance": "The orbitofrontal cortex (OFC), including subregions A11, A13, and A12/47, is heavily implicated in representing expected value, assessing risk versus reward, and predicting future outcomes based on current choices.",
+      "scoreability_note": "Highly scoreable from dense text descriptions that detail characters making high-stakes choices, facing moral dilemmas, or taking calculated risks where the potential gains and losses are clearly outlined.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_viewer_social_appropriateness_evaluation",
+      "definition": "The viewer's appraisal of whether a character's behavior, dialogue, or social interaction violates or conforms to established social norms, rules, or interpersonal expectations within the scene's specific context.",
+      "region_relevance": "The lateral OFC (such as A12/47l and A12/47o) is critical for social cognition, specifically tracking social norms, detecting social faux pas, and processing violations of interpersonal expectations.",
+      "scoreability_note": "Easily scored by identifying scenes in the text containing awkward interactions, rule-breaking, insults, polite compliance, or shocking social transgressions.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_viewer_outcome_contingency_tracking",
+      "definition": "The viewer's tracking of sudden shifts in narrative fortunes, specifically evaluating whether an event represents a realized reward (success, relief) or a realized punishment (loss, failure, setback) relative to prior expectations.",
+      "region_relevance": "Medial and lateral OFC, along with connections to the striatum (such as the nucleus accumbens and caudate), encode actual outcomes, reward prediction errors, and the updating of value representations when contingencies change.",
+      "scoreability_note": "Can be scored by identifying moments of resolution, sudden plot twists, unexpected failures, or successful achievements described in the text.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_viewer_affective_significance_appraisal",
+      "definition": "The viewer's appraisal of the overall emotional valence (positive/pleasant vs. negative/unpleasant) and motivational significance of a scene's atmosphere or situation, determining whether the environment poses a threat or offers safety/comfort.",
+      "region_relevance": "OFC integrates sensory inputs with internal affective states (working closely with the amygdala and insula) to construct a representation of the affective value of the current environment.",
+      "scoreability_note": "Scoreable based on textual descriptions of environmental threats, cozy/safe settings, tense standoffs, or celebratory atmospheres.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_4_viewer_value_appraisal",
+      "definition": "The viewer's appraisal of the subjective value, desirability, or utility of events, choices, and resources presented in the narrative, tracking what is at stake and the relative worth of potential gains or losses.",
+      "region_relevance": "The orbitofrontal cortex (including medial and lateral subregions like A11, A13, and A14m) is heavily implicated in representing subjective value, reward expectation, and the appraisal of outcomes.",
+      "scoreability_note": "Can be scored by identifying scenes where characters face choices with clear positive or negative consequences, or where the narrative highlights the value, loss, or acquisition of an object, status, or relationship.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_viewer_social_norm_evaluation",
+      "definition": "The viewer's tracking and evaluation of social norm adherence, violations, or interpersonal expectations within the narrative, including the detection of social faux pas, breaches of trust, or unexpected moral behavior.",
+      "region_relevance": "Lateral OFC subregions (such as A12/47l and A12/47o) are critical for processing social context, tracking social rules, and detecting violations of expectations or social norms.",
+      "scoreability_note": "Easily scored from text descriptions detailing awkward social interactions, rule-breaking, polite versus rude behavior, or deviations from situational expectations.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_viewer_affective_congruence",
+      "definition": "The viewer's appraisal of the emotional tone, safety, or threat level of the immediate situation, integrating character expressions, environmental cues, and narrative context to determine if the scene represents a safe/rewarding or threatening/punishing environment.",
+      "region_relevance": "OFC works closely with subcortical structures to compute the affective significance of complex sensory and social situations, updating value representations based on context.",
+      "scoreability_note": "Can be scored by assessing the overall valence, tension, or comfort level of a scene as described in the text (e.g., a warm family dinner versus a tense, hostile interrogation).",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_viewer_outcome_uncertainty",
+      "definition": "The viewer's tracking of the uncertainty, risk, or predictability of upcoming narrative outcomes, evaluating the likelihood of success or failure for a character's actions and the potential volatility of the situation.",
+      "region_relevance": "OFC is highly active during decision-making under uncertainty, tracking risk, and updating expectations when outcomes are unpredictable.",
+      "scoreability_note": "Scored by identifying moments of high suspense, risky decisions, or unpredictable plot twists where the outcome of an action is highly uncertain.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_5_outcome_value_appraisal",
+      "definition": "The viewer's evaluation of the positive or negative value of narrative outcomes, tracking whether events represent rewards, gains, punishments, or losses for the characters.",
+      "region_relevance": "The orbitofrontal cortex (OFC, including A11, A13, and A12/47) is a primary hub for representing subjective value, reward expectation, and the affective significance of outcomes.",
+      "scoreability_note": "Can be scored by identifying narrative shifts in character fortunes, goal attainment, or setbacks described in the text.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_social_appropriateness_tracking",
+      "definition": "The viewer's monitoring of characters' adherence to or violation of social norms, interpersonal expectations, and moral codes within the scene.",
+      "region_relevance": "OFC is strongly implicated in social cognition, particularly in detecting social faux pas, norm violations, and evaluating the appropriateness of interpersonal behavior.",
+      "scoreability_note": "Can be scored by analyzing text descriptions of social interactions, dialogue, and behaviors that deviate from or conform to expected social standards.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_hedonic_sensory_valuation",
+      "definition": "The viewer's appraisal of the pleasantness, comfort, luxury, or visceral unpleasantness (such as danger, decay, or pain) of the physical environment and sensory experiences depicted in the scene.",
+      "region_relevance": "OFC integrates sensory information with internal states to compute hedonic value, processing both primary and secondary reinforcers.",
+      "scoreability_note": "Can be scored from descriptions of environmental aesthetics, physical comfort, sensory indulgence, or visceral threats and discomfort.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_decision_risk_assessment",
+      "definition": "The viewer's estimation of the risk, uncertainty, and potential negative consequences associated with the choices and actions characters are making.",
+      "region_relevance": "OFC is critical for decision-making under uncertainty, evaluating risk, and updating expectations when contingencies change.",
+      "scoreability_note": "Can be scored by identifying moments in the text where characters face high-stakes decisions, uncertain outcomes, or potential danger.",
+      "source_run": 5
+    }
+  ],
+  "curated_domains": [
+    {
+      "domain_id": "viewer_value_and_outcome_appraisal",
+      "definition": "The viewer's ongoing appraisal of the subjective value, utility, and consequences of narrative events, tracking what is at stake (gains, losses, rewards, punishments) for the characters and evaluating whether outcomes represent realized success or failure relative to expectations.",
+      "region_relevance": "The orbitofrontal cortex (including medial subregions like A14m, A11, and A13) is heavily implicated in representing subjective value, reward expectation, and updating value representations based on outcomes.",
+      "scoreability_note": "Highly scoreable from text descriptions of characters experiencing major successes, devastating losses, or material/social gains and setbacks.",
+      "source_domain_ids": [
+        "run_1_vicarious_value_appraisal",
+        "run_2_outcome_value_appraisal",
+        "run_3_viewer_outcome_contingency_tracking",
+        "run_4_viewer_value_appraisal",
+        "run_5_outcome_value_appraisal"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Consolidated multiple highly redundant runs focusing on outcome value, utility, and contingency tracking into a single robust domain representing the viewer's appraisal of subjective value and narrative consequences."
+    },
+    {
+      "domain_id": "viewer_social_norm_appraisal",
+      "definition": "The viewer's evaluation of whether a character's behavior, dialogue, or decisions violate or conform to social, moral, or cultural norms and interpersonal expectations within the narrative context.",
+      "region_relevance": "Lateral OFC (specifically A12/47l and A12/47o) is critical for social cognition, tracking social context, and detecting social transgressions or faux pas.",
+      "scoreability_note": "Easily scored from text descriptions of rule-breaking, awkward social interactions, insults, polite compliance, or moral transgressions.",
+      "source_domain_ids": [
+        "run_1_social_norm_violation",
+        "run_2_social_norm_appraisal",
+        "run_3_viewer_social_appropriateness_evaluation",
+        "run_4_viewer_social_norm_evaluation",
+        "run_5_social_appropriateness_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged recurring domains tracking social norms, appropriateness, and violations across all five runs into a single, well-defined social appraisal domain."
+    },
+    {
+      "domain_id": "viewer_affective_and_hedonic_valuation",
+      "definition": "The viewer's appraisal of the overall emotional valence, sensory pleasantness, comfort, luxury, or visceral unpleasantness/harshness of the depicted environment, atmosphere, and physical settings.",
+      "region_relevance": "Medial OFC (A14m, A11m) and its connections to the amygdala and insula are central to representing hedonic experience, subjective pleasantness, and integrating sensory inputs with internal affective states.",
+      "scoreability_note": "Scored by analyzing descriptions of environmental aesthetics, physical comfort, sensory indulgence, or tense, hostile, or safe atmospheres.",
+      "source_domain_ids": [
+        "run_1_affective_valence_appraisal",
+        "run_2_hedonic_aesthetic_appraisal",
+        "run_3_viewer_affective_significance_appraisal",
+        "run_4_viewer_affective_congruence",
+        "run_5_hedonic_sensory_valuation"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Combined affective valence, congruence, and hedonic/sensory valuation domains into a unified domain capturing the viewer's appraisal of environmental and situational pleasantness/unpleasantness."
+    },
+    {
+      "domain_id": "viewer_risk_and_uncertainty_assessment",
+      "definition": "The viewer's estimation of the potential negative consequences, strategic risks, and predictability of upcoming narrative outcomes, tracking the uncertainty of characters' decisions and the mismatch between expected and actual events.",
+      "region_relevance": "Lateral OFC (A12/47o, A12/47l) and its connections to the amygdala are critical for evaluating threat, risk, decision-making under uncertainty, and signaling expectation violations.",
+      "scoreability_note": "Scored based on the presence of physical hazards, high-stakes decisions, uncertain outcomes, or sudden unexpected turns of events.",
+      "source_domain_ids": [
+        "run_1_narrative_expectation_conflict",
+        "run_2_risk_threat_assessment",
+        "run_3_viewer_reward_risk_appraisal",
+        "run_4_viewer_outcome_uncertainty",
+        "run_5_decision_risk_assessment"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged risk, threat, uncertainty, and expectation conflict domains into a single domain focused on the viewer's cognitive tracking of risk and prediction errors."
+    }
+  ],
+  "rejected_or_merged_domains": [
+    {
+      "domain_id": "run_1_vicarious_value_appraisal",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_value_and_outcome_appraisal to unify subjective value tracking.",
+      "source_domain_ids": [
+        "run_1_vicarious_value_appraisal"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "viewer_value_and_outcome_appraisal"
+    },
+    {
+      "domain_id": "run_1_social_norm_violation",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_social_norm_appraisal to unify social norm tracking.",
+      "source_domain_ids": [
+        "run_1_social_norm_violation"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "viewer_social_norm_appraisal"
+    },
+    {
+      "domain_id": "run_1_narrative_expectation_conflict",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_risk_and_uncertainty_assessment as it represents prediction error and outcome uncertainty.",
+      "source_domain_ids": [
+        "run_1_narrative_expectation_conflict"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "viewer_risk_and_uncertainty_assessment"
+    },
+    {
+      "domain_id": "run_1_affective_valence_appraisal",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_affective_and_hedonic_valuation to capture overall environmental and situational valence.",
+      "source_domain_ids": [
+        "run_1_affective_valence_appraisal"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "viewer_affective_and_hedonic_valuation"
+    },
+    {
+      "domain_id": "run_2_outcome_value_appraisal",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_value_and_outcome_appraisal to unify subjective value tracking.",
+      "source_domain_ids": [
+        "run_2_outcome_value_appraisal"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "viewer_value_and_outcome_appraisal"
+    },
+    {
+      "domain_id": "run_2_social_norm_appraisal",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_social_norm_appraisal to unify social norm tracking.",
+      "source_domain_ids": [
+        "run_2_social_norm_appraisal"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "viewer_social_norm_appraisal"
+    },
+    {
+      "domain_id": "run_2_hedonic_aesthetic_appraisal",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_affective_and_hedonic_valuation to capture sensory and aesthetic pleasantness.",
+      "source_domain_ids": [
+        "run_2_hedonic_aesthetic_appraisal"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "viewer_affective_and_hedonic_valuation"
+    },
+    {
+      "domain_id": "run_2_risk_threat_assessment",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_risk_and_uncertainty_assessment to unify threat and risk estimation.",
+      "source_domain_ids": [
+        "run_2_risk_threat_assessment"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "viewer_risk_and_uncertainty_assessment"
+    },
+    {
+      "domain_id": "run_3_viewer_reward_risk_appraisal",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_risk_and_uncertainty_assessment to capture decision risk and potential negative consequences.",
+      "source_domain_ids": [
+        "run_3_viewer_reward_risk_appraisal"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "viewer_risk_and_uncertainty_assessment"
+    },
+    {
+      "domain_id": "run_3_viewer_social_appropriateness_evaluation",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_social_norm_appraisal to unify social norm tracking.",
+      "source_domain_ids": [
+        "run_3_viewer_social_appropriateness_evaluation"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "viewer_social_norm_appraisal"
+    },
+    {
+      "domain_id": "run_3_viewer_outcome_contingency_tracking",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_value_and_outcome_appraisal to capture realized rewards and punishments.",
+      "source_domain_ids": [
+        "run_3_viewer_outcome_contingency_tracking"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "viewer_value_and_outcome_appraisal"
+    },
+    {
+      "domain_id": "run_3_viewer_affective_significance_appraisal",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_affective_and_hedonic_valuation to capture environmental valence and comfort.",
+      "source_domain_ids": [
+        "run_3_viewer_affective_significance_appraisal"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "viewer_affective_and_hedonic_valuation"
+    },
+    {
+      "domain_id": "run_4_viewer_value_appraisal",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_value_and_outcome_appraisal to unify subjective value tracking.",
+      "source_domain_ids": [
+        "run_4_viewer_value_appraisal"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "viewer_value_and_outcome_appraisal"
+    },
+    {
+      "domain_id": "run_4_viewer_social_norm_evaluation",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_social_norm_appraisal to unify social norm tracking.",
+      "source_domain_ids": [
+        "run_4_viewer_social_norm_evaluation"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "viewer_social_norm_appraisal"
+    },
+    {
+      "domain_id": "run_4_viewer_affective_congruence",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_affective_and_hedonic_valuation to capture environmental valence and comfort.",
+      "source_domain_ids": [
+        "run_4_viewer_affective_congruence"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "viewer_affective_and_hedonic_valuation"
+    },
+    {
+      "domain_id": "run_4_viewer_outcome_uncertainty",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_risk_and_uncertainty_assessment to capture outcome predictability and risk.",
+      "source_domain_ids": [
+        "run_4_viewer_outcome_uncertainty"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "viewer_risk_and_uncertainty_assessment"
+    },
+    {
+      "domain_id": "run_5_outcome_value_appraisal",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_value_and_outcome_appraisal to unify subjective value tracking.",
+      "source_domain_ids": [
+        "run_5_outcome_value_appraisal"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "viewer_value_and_outcome_appraisal"
+    },
+    {
+      "domain_id": "run_5_social_appropriateness_tracking",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_social_norm_appraisal to unify social norm tracking.",
+      "source_domain_ids": [
+        "run_5_social_appropriateness_tracking"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "viewer_social_norm_appraisal"
+    },
+    {
+      "domain_id": "run_5_hedonic_sensory_valuation",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_affective_and_hedonic_valuation to capture sensory and aesthetic pleasantness.",
+      "source_domain_ids": [
+        "run_5_hedonic_sensory_valuation"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "viewer_affective_and_hedonic_valuation"
+    },
+    {
+      "domain_id": "run_5_decision_risk_assessment",
+      "decision": "MERGED",
+      "reason": "Consolidated into viewer_risk_and_uncertainty_assessment to capture decision risk and potential negative consequences.",
+      "source_domain_ids": [
+        "run_5_decision_risk_assessment"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "viewer_risk_and_uncertainty_assessment"
+    }
+  ]
+}

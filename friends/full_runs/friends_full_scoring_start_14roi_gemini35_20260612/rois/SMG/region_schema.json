@@ -1,0 +1,754 @@
+{
+  "version": "region_schema_v1",
+  "target_region": "SMG",
+  "functional_hypothesis": "The supramarginal gyrus (SMG) is a highly heterogeneous parietal region involved in multiple cognitive, motor, and sensory domains. Dorsal subregions (A40rd, A40rv) are critical nodes of the action observation network and somatosensory-motor integration, supporting the mental simulation of manual actions, tool use, and somatic resonance (pain/touch). Caudal subregions (A40c) are embedded within the ventral and dorsal attention networks, mediating bottom-up, stimulus-driven attentional reorienting to salient or unexpected events. Additionally, left SMG is heavily implicated in phonological processing and verbal working memory, while right SMG is crucial for overcoming egocentric bias and resolving perspective discrepancies. Tracking these dimensions in movie descriptions will allow for highly accurate predictions of SMG activity across its functional subdivisions.",
+  "scoring_instruction": "For each movie description segment, rate each of the 15 dimensions on a scale from 0 to 10. A score of 0 indicates that the dimension is completely absent or cannot be inferred from the text. A score of 10 indicates that the dimension is extremely prominent, intense, or central to the described scene. Base your ratings strictly on the explicit text and highly direct, logical implications of the described actions, dialogue, and narrative events. Do not extrapolate beyond the text. Ensure that each dimension is scored independently, avoiding halo effects or redundant scoring across distinct domains.",
+  "selection_rules": [
+    {
+      "networks": [],
+      "sub_regions": [],
+      "hemispheres": [],
+      "label_ids": [
+        139,
+        140,
+        141,
+        142,
+        145,
+        146
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": "action_and_tool_simulation",
+      "definition": "The viewer's tracking and mental simulation of physical actions, manual manipulations, tool use, and bodily movements performed by characters. This involves parsing the mechanics, effort, and spatial trajectory of physical interactions with objects or other characters.",
+      "region_relevance": "The supramarginal gyrus (SMG, particularly dorsal subregions like A40rd and A40rv) is a core node of the action observation network and somatosensory-motor integration, heavily involved in representing motor schemas, tool use, and manual praxis.",
+      "scoreability_note": "Can be reliably scored by identifying descriptions of manual actions, tool manipulation, physical struggles, or precise bodily movements in the movie segment text.",
+      "source_domain_ids": [
+        "run_1_action_kinematics_tracking",
+        "run_2_action_kinesthetic_resonance",
+        "run_3_action_kinematics_and_tool_use",
+        "run_4_manual_action_simulation",
+        "run_5_action_and_tool_manipulation"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Highly recurrent across all five runs. Merged to form a single robust domain representing the viewer's motor simulation of manual actions and tool use, which is a primary function of the rostral SMG."
+    },
+    {
+      "domain_id": "attentional_reorienting_and_spatial_salience",
+      "definition": "The viewer's experience of sudden shifts in attention or spatial orientation triggered by unexpected narrative events, abrupt visual or auditory changes, or the sudden introduction of highly salient, behaviorally relevant stimuli that disrupt the ongoing flow of the scene.",
+      "region_relevance": "SMG (specifically caudal subregions like A40c, associated with the ventral attention network) plays a critical role in bottom-up, stimulus-driven attentional reorienting, egocentric coordinate mapping, and detecting unexpected but behaviorally relevant changes in the environment.",
+      "scoreability_note": "Can be scored by tracking sudden plot twists, unexpected interruptions, abrupt entrances of characters, sudden sensory shocks, or rapid shifts in camera perspective described in the text.",
+      "source_domain_ids": [
+        "run_1_attentional_reorienting_events",
+        "run_2_attentional_reorienting_events",
+        "run_3_spatial_salience_and_orienting",
+        "run_4_attentional_reorienting_events",
+        "run_5_egocentric_spatial_attention"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merges recurring domains focusing on bottom-up attentional capture, spatial orienting, and egocentric attention, aligning with the caudal SMG's role in the ventral attention network."
+    },
+    {
+      "domain_id": "verbal_phonological_tracking",
+      "definition": "The viewer's cognitive tracking and parsing of spoken language, dialogue complexity, speech rhythms, and phonological patterns during verbal interactions or voiceover narration.",
+      "region_relevance": "The left SMG (A40rv/A40rd) is a key anatomical substrate for phonological processing, verbal working memory, and mapping auditory speech sounds to motor-articulatory representations.",
+      "scoreability_note": "Can be scored based on the density, speed, complexity, and phonetic emphasis of dialogue or spoken narration described in the movie text.",
+      "source_domain_ids": [
+        "run_1_verbal_phonological_tracking",
+        "run_2_verbal_phonological_tracking",
+        "run_3_phonological_and_conversational_flow",
+        "run_4_verbal_communication_tracking",
+        "run_5_vocal_and_phonological_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Highly recurrent across all runs. Merged into a single domain capturing the auditory-verbal and phonological tracking functions of the left SMG."
+    },
+    {
+      "domain_id": "perspective_discrepancy_resolution",
+      "definition": "The viewer's cognitive effort in distinguishing and resolving discrepancies between their own knowledge state and a character's mistaken beliefs, or between the conflicting perspectives of different characters (e.g., processing dramatic irony or overcoming egocentric bias).",
+      "region_relevance": "The right SMG is established in social neuroscience as crucial for overcoming egocentric bias, allowing the distinction between self and other perspectives, and managing conflicting cognitive representations of a situation.",
+      "scoreability_note": "Can be scored by identifying narrative instances of dramatic irony, hidden information, misunderstandings, or starkly contrasting viewpoints between characters in the scene description.",
+      "source_domain_ids": [
+        "run_1_perspective_discrepancy_resolution",
+        "run_3_social_perspective_alignment"
+      ],
+      "source_runs": [
+        1,
+        3
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Merges two highly overlapping domains from runs 1 and 3 that focus on the right SMG's role in overcoming egocentric bias and aligning social perspectives."
+    },
+    {
+      "domain_id": "somatic_and_pain_resonance",
+      "definition": "The viewer's vicarious appraisal and somatic resonance with physical touch, pain, bodily discomfort, or immediate visceral distress experienced by characters on screen.",
+      "region_relevance": "The SMG is part of the somatosensory association cortex and is implicated in the mirror system for touch, empathy for pain, and distinguishing self-other affective and bodily states.",
+      "scoreability_note": "Scoreable from descriptions of physical contact, injuries, tactile interactions, or intense somatic experiences depicted on screen.",
+      "source_domain_ids": [
+        "run_4_visceral_empathy_appraisal",
+        "run_5_tactile_and_somatic_resonance"
+      ],
+      "source_runs": [
+        4,
+        5
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Merges run 4's visceral empathy and run 5's tactile/somatic resonance into a single domain representing the SMG's role in processing shared bodily and somatic states."
+    }
+  ],
+  "active_domain_ids": [
+    "action_and_tool_simulation",
+    "attentional_reorienting_and_spatial_salience",
+    "verbal_phonological_tracking",
+    "perspective_discrepancy_resolution",
+    "somatic_and_pain_resonance"
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "manual_manipulation_and_tool_use",
+      "definition": "The degree to which characters perform fine-grained manual manipulations, use tools, or interact with objects using their hands.",
+      "domain": "action_and_tool_simulation",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "using a key to unlock a door",
+        "typing rapidly on a keyboard",
+        "holding and aiming a handgun",
+        "cutting vegetables with a knife",
+        "assembling a complex mechanical device"
+      ],
+      "graded_anchors": {
+        "0": "No manual manipulation or tool use is mentioned or implied.",
+        "1": "A character holds a simple object passively without active manipulation.",
+        "2": "A character picks up or sets down a common object briefly.",
+        "3": "A character performs a simple, brief manual action like opening a door.",
+        "4": "A character uses a basic tool or object for its standard purpose (e.g., writing with a pen).",
+        "5": "A character performs moderately complex manual actions, such as pouring a drink or slicing food.",
+        "6": "A character engages in sustained manual manipulation of an object or tool.",
+        "7": "A character performs highly skilled or precise manual work (e.g., lockpicking, surgical incision).",
+        "8": "A character uses multiple tools in sequence to accomplish a complex physical task.",
+        "9": "Intense, highly detailed description of intricate manual manipulation and tool coordination.",
+        "10": "An extremely detailed, continuous sequence of complex, high-precision tool use and manual dexterity."
+      },
+      "calibration_examples": [
+        {
+          "scene": "John sits at his desk, occasionally sipping from a mug while reading a document.",
+          "score": 2
+        },
+        {
+          "scene": "With sweat dripping from his brow, the technician uses a small screwdriver to carefully adjust the delicate wiring inside the ticking bomb.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Look for explicit verbs of manual action (e.g., twist, turn, cut, type, write, hold, manipulate) and references to tools or handheld objects.",
+      "exclusion_note": "Do not score general whole-body movements (like walking or running) or passive physical contact that does not involve manual manipulation."
+    },
+    {
+      "dimension_id": "complex_motor_planning_and_sequencing",
+      "definition": "The tracking of multi-step, goal-directed physical actions that require motor planning, coordination, and sequencing of bodily movements.",
+      "domain": "action_and_tool_simulation",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "climbing a steep, rocky cliffside",
+        "navigating an obstacle course",
+        "performing a complex dance routine",
+        "sneaking through a laser security grid",
+        "disassembling a rifle in a specific sequence"
+      ],
+      "graded_anchors": {
+        "0": "No complex motor planning or sequenced physical action is described.",
+        "1": "A character performs a single, automatic physical movement (e.g., standing up).",
+        "2": "A character performs a simple sequence of two basic movements (e.g., walking to a chair and sitting).",
+        "3": "A character performs a short sequence of coordinated movements (e.g., climbing a short ladder).",
+        "4": "A character engages in a moderately coordinated physical activity (e.g., jogging while carrying a heavy bag).",
+        "5": "A character executes a planned sequence of physical actions (e.g., climbing over a fence and running to a car).",
+        "6": "A character performs a highly coordinated physical task requiring continuous adjustment (e.g., skateboarding down a busy street).",
+        "7": "A character executes a complex, multi-step physical sequence requiring precise motor planning (e.g., scaling a building facade).",
+        "8": "A character performs an intricate, highly coordinated sequence of athletic or acrobatic movements.",
+        "9": "A continuous, highly detailed sequence of complex, rapid, and highly coordinated motor actions.",
+        "10": "An extraordinary, non-stop sequence of extreme physical coordination, acrobatics, or complex motor planning (e.g., a high-stakes parkour chase)."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Sarah walks over to the cabinet, opens it, takes out a glass, and pours water.",
+          "score": 3
+        },
+        {
+          "scene": "The spy leaps from the balcony, grabs a hanging banner to swing across the courtyard, rolls upon landing, and immediately dives through a closing metal gate.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on the complexity, sequencing, and coordination of whole-body or multi-limb movements described in the text.",
+      "exclusion_note": "Do not score simple, repetitive movements (like walking) or purely manual actions that do not involve complex whole-body coordination."
+    },
+    {
+      "dimension_id": "forceful_physical_interaction",
+      "definition": "The degree of physical effort, force, struggle, or resistance involved in characters' interactions with objects or other people.",
+      "domain": "action_and_tool_simulation",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "wrestling or grappling with an opponent",
+        "pushing a heavy stalled car up a hill",
+        "prying open a rusted metal door with a crowbar",
+        "struggling to hold onto a ledge",
+        "dragged a heavy crate across a rough floor"
+      ],
+      "graded_anchors": {
+        "0": "No forceful physical interaction or effort is described.",
+        "1": "A character exerts minimal force (e.g., lifting a light book).",
+        "2": "A character exerts slight physical effort (e.g., carrying groceries).",
+        "3": "A character exerts moderate force (e.g., opening a heavy wooden door).",
+        "4": "A character exerts noticeable physical effort (e.g., lifting a heavy suitcase).",
+        "5": "A character engages in a brief struggle or forceful action (e.g., shoving someone away).",
+        "6": "A character exerts sustained physical force (e.g., pulling a rope in tug-of-war).",
+        "7": "A character engages in a highly forceful struggle or intense physical effort (e.g., wrestling to the ground).",
+        "8": "A character exerts near-maximum physical strength against strong resistance (e.g., trying to hold back a collapsing wall).",
+        "9": "An intense, prolonged physical struggle involving extreme force and physical exertion.",
+        "10": "An overwhelming, violent, and continuous display of maximum physical force and desperate struggle."
+      },
+      "calibration_examples": [
+        {
+          "scene": "David carries a box of books up the stairs, breathing slightly heavily.",
+          "score": 4
+        },
+        {
+          "scene": "The two men grapple desperately on the edge of the cliff, muscles straining and veins bulging as each tries to throw the other off.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for descriptions of physical strain, resistance, heavy lifting, pushing, pulling, wrestling, and the exertion of muscular force.",
+      "exclusion_note": "Do not score non-forceful physical contact (like a gentle hug) or purely mental/emotional struggle."
+    },
+    {
+      "dimension_id": "sudden_sensory_shocks_and_disruptions",
+      "definition": "The occurrence of sudden, intense visual, auditory, or physical events that abruptly disrupt the ongoing scene and force an immediate shift in attention.",
+      "domain": "attentional_reorienting_and_spatial_salience",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "a sudden loud explosion nearby",
+        "a flash of lightning illuminating a dark room",
+        "a sudden gunshot shattering the silence",
+        "a car crashing through a window",
+        "an alarm suddenly blaring at high volume"
+      ],
+      "graded_anchors": {
+        "0": "No sudden sensory shocks or disruptions occur.",
+        "1": "A minor, subtle sensory change occurs (e.g., a candle flickers).",
+        "2": "A mild sensory disruption occurs (e.g., a light turns on in a dim room).",
+        "3": "A noticeable sensory event occurs (e.g., a door slams shut).",
+        "4": "A moderate sensory shock occurs (e.g., a phone rings loudly in a quiet room).",
+        "5": "A significant, sudden sensory disruption occurs (e.g., a glass shatters on the floor).",
+        "6": "A strong sensory shock that immediately startles characters (e.g., a sudden thunderclap directly overhead).",
+        "7": "An intense, highly disruptive sensory event (e.g., a sudden gunshot nearby).",
+        "8": "A massive, violent sensory shock (e.g., a bomb explodes in the adjacent room).",
+        "9": "An overwhelming, sudden sensory onslaught that completely shatters the scene's environment.",
+        "10": "An extreme, cataclysmic sensory shock that instantly obliterates the ongoing scene and disorients everyone."
+      },
+      "calibration_examples": [
+        {
+          "scene": "As they talk quietly in the library, a heavy book falls off a shelf, making a loud thud.",
+          "score": 4
+        },
+        {
+          "scene": "Without warning, the brick wall explodes inward in a shower of dust and debris as an armored truck crashes into the room.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Identify words indicating suddenness (e.g., suddenly, without warning, abruptly, instantly) combined with high-intensity sensory descriptions (e.g., deafening, blinding, shattering).",
+      "exclusion_note": "Do not score gradual build-ups of tension, slow environmental changes, or predictable sensory events."
+    },
+    {
+      "dimension_id": "unexpected_narrative_intrusions",
+      "definition": "The sudden, unexpected introduction of a new character, object, or event that interrupts the ongoing narrative flow and demands immediate attention.",
+      "domain": "attentional_reorienting_and_spatial_salience",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "a character suddenly bursting into a private meeting",
+        "an unexpected phone call interrupting an intimate moment",
+        "a sudden, unannounced arrival of a visitor",
+        "an unexpected obstacle appearing in the middle of the road",
+        "a sudden, shocking plot twist revealed mid-conversation"
+      ],
+      "graded_anchors": {
+        "0": "No unexpected narrative intrusions or interruptions occur.",
+        "1": "A minor, expected transition occurs in the scene.",
+        "2": "A slightly unexpected but non-disruptive event occurs (e.g., a character notices a new email).",
+        "3": "A mild interruption occurs (e.g., a waiter arrives to take an order).",
+        "4": "A moderate narrative intrusion occurs (e.g., a knock at the door during a conversation).",
+        "5": "A significant, unexpected intrusion occurs (e.g., an uninvited guest walks into the room).",
+        "6": "A strong narrative interruption that halts the ongoing action (e.g., a character's phone rings with urgent news).",
+        "7": "An intense, highly disruptive intrusion (e.g., a character bursts in screaming for help).",
+        "8": "A major, shocking narrative intrusion that completely derails the current scene (e.g., an assassin attacks mid-dinner).",
+        "9": "An overwhelming, sudden narrative twist or intrusion that completely upends the entire situation.",
+        "10": "An extreme, catastrophic narrative intrusion that instantly terminates the ongoing scene and forces an immediate, high-stakes pivot."
+      },
+      "calibration_examples": [
+        {
+          "scene": "While they are discussing the budget, the secretary knocks and enters to deliver a cup of coffee.",
+          "score": 3
+        },
+        {
+          "scene": "Just as the couple is about to kiss, the front door is kicked off its hinges and a team of armed SWAT officers floods the apartment.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for events that interrupt, halt, or redirect the characters' current focus, actions, or conversations in an unexpected manner.",
+      "exclusion_note": "Do not score expected transitions, planned meetings, or gradual narrative developments."
+    },
+    {
+      "dimension_id": "rapid_spatial_and_perspective_shifts",
+      "definition": "The frequency and intensity of rapid shifts in spatial orientation, camera perspective, or focal points described in the scene.",
+      "domain": "attentional_reorienting_and_spatial_salience",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "rapid cutting between different characters' faces",
+        "sudden whip-pans or camera rotations",
+        "abrupt shifts from a wide landscape to a tight close-up",
+        "rapidly changing environments (e.g., falling through the air, spinning)",
+        "frequent, fast-paced cuts during an action sequence"
+      ],
+      "graded_anchors": {
+        "0": "The scene is static, with no spatial or perspective shifts described.",
+        "1": "A single, slow shift in perspective or camera angle is described.",
+        "2": "A few standard, slow cuts between characters during a calm conversation.",
+        "3": "A noticeable shift in spatial focus or a moderate camera movement.",
+        "4": "Multiple cuts or a clear shift in perspective that reorients the viewer.",
+        "5": "A sequence of rapid cuts or a sudden, sharp shift in spatial perspective.",
+        "6": "Frequent, fast-paced perspective shifts that keep the viewer's attention moving rapidly.",
+        "7": "Highly dynamic spatial shifts (e.g., tracking a fast-moving object with rapid cuts).",
+        "8": "A dizzying array of rapid cuts and dramatic perspective shifts (e.g., during a chaotic chase).",
+        "9": "Extremely rapid, disorienting shifts in space and perspective that occur continuously.",
+        "10": "An overwhelming, hyper-fast sequence of non-stop, chaotic spatial and perspective shifts (e.g., a first-person view of a spinning car crash)."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The camera slowly pans across the quiet living room, eventually settling on a framed photo on the mantelpiece.",
+          "score": 2
+        },
+        {
+          "scene": "The scene cuts rapidly from the driver's panicked eyes, to the speedometer needle spinning, to the oncoming headlights, then to a bird's-eye view of the intersection, all in a split second.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for explicit descriptions of camera movements (e.g., cut to, pan, zoom, tilt, whip-pan) or rapid changes in the viewer's spatial point of view.",
+      "exclusion_note": "Do not score characters moving within a single, stable frame without a shift in the described perspective or camera focus."
+    },
+    {
+      "dimension_id": "dialogue_density_and_tempo",
+      "definition": "The density, speed, and overall tempo of spoken dialogue or narration in the scene.",
+      "domain": "verbal_phonological_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "characters speaking rapidly and overlapping",
+        "a fast-paced, witty banter sequence",
+        "a rapid-fire monologue or voiceover",
+        "characters interrupting each other constantly",
+        "a high volume of spoken words in a short period"
+      ],
+      "graded_anchors": {
+        "0": "No spoken dialogue or narration occurs; the scene is completely silent or non-verbal.",
+        "1": "A character utters a single, brief word or short phrase.",
+        "2": "A few sparse, slow-paced sentences are spoken.",
+        "3": "A standard, moderately paced conversation with clear pauses between turns.",
+        "4": "A continuous conversation with steady, normal-paced dialogue.",
+        "5": "A fast-paced conversation with quick exchanges and minimal pauses.",
+        "6": "Highly dense dialogue, such as a character speaking quickly or delivering a long, uninterrupted speech.",
+        "7": "Rapid-fire dialogue with characters frequently cutting each other off or speaking simultaneously.",
+        "8": "Extremely dense, fast-paced verbal exchanges (e.g., a heated argument with overlapping speech).",
+        "9": "An intense, non-stop torrent of rapid speech, monologue, or voiceover narration.",
+        "10": "An overwhelming, hyper-dense verbal onslaught where multiple characters speak at maximum speed with constant overlap and no pauses."
+      },
+      "calibration_examples": [
+        {
+          "scene": "They sit in silence for a moment before Mark quietly says, 'I'm sorry,' and looks away.",
+          "score": 2
+        },
+        {
+          "scene": "The two lawyers exchange rapid-fire legal arguments, interrupting each other mid-sentence and throwing out facts and figures at a dizzying pace.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Score based on the described speed, density, and frequency of spoken words, dialogue exchanges, or voiceovers.",
+      "exclusion_note": "Do not score non-verbal sounds (like groans or screams) or written text shown on screen."
+    },
+    {
+      "dimension_id": "phonetic_and_articulatory_emphasis",
+      "definition": "The degree of phonetic, acoustic, or articulatory emphasis in the spoken language, including whispering, shouting, stuttering, or highly stylized pronunciation.",
+      "domain": "verbal_phonological_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "whispering a secret in a hushed, breathy voice",
+        "screaming or shouting in anger or panic",
+        "speaking with a heavy, highly pronounced accent",
+        "stuttering or hesitating on specific speech sounds",
+        "exaggerating or emphasizing certain syllables or words"
+      ],
+      "graded_anchors": {
+        "0": "No spoken dialogue occurs, or speech has completely neutral, flat articulation.",
+        "1": "A character speaks in a calm, standard, uninflected tone.",
+        "2": "Slight vocal inflection or minor emphasis on a single word.",
+        "3": "Noticeable vocal inflection (e.g., speaking with mild excitement or annoyance).",
+        "4": "Clear phonetic emphasis, such as speaking in a deliberate whisper or a raised voice.",
+        "5": "Pronounced articulatory effort, such as a character speaking with a thick accent or a noticeable stutter.",
+        "6": "Strong phonetic emphasis (e.g., shouting a command or whispering intensely close to someone's ear).",
+        "7": "Highly stylized or exaggerated speech patterns (e.g., a theatrical monologue with dramatic pauses and emphasized consonants).",
+        "8": "Extreme vocal articulation, such as screaming at the top of one's lungs or whispering with intense, breathy sibilance.",
+        "9": "A highly intense, phonetically rich verbal performance with extreme variations in volume, pitch, and articulation.",
+        "10": "An overwhelming, extraordinary display of phonetic and articulatory extremes (e.g., a character screaming, sobbing, and stuttering simultaneously in a chaotic verbal outburst)."
+      },
+      "calibration_examples": [
+        {
+          "scene": "He speaks in a flat, monotone voice, reading the weather report without any emotion.",
+          "score": 1
+        },
+        {
+          "scene": "She leans in and whispers a warning, her breath hot against his ear, emphasizing every single syllable with terrifying clarity.",
+          "score": 7
+        }
+      ],
+      "scoreability_note": "Look for descriptions of how words are spoken (e.g., whispered, shouted, hissed, stuttered, accented, emphasized, articulated).",
+      "exclusion_note": "Do not score the semantic content of the words (what is said), only the physical/phonetic manner of delivery."
+    },
+    {
+      "dimension_id": "verbal_working_memory_load",
+      "definition": "The cognitive complexity of the spoken language, requiring the listener (and viewer) to hold complex verbal information, technical terms, or lists in working memory.",
+      "domain": "verbal_phonological_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "reciting a long list of numbers or coordinates",
+        "explaining a highly complex scientific or technical theory",
+        "giving intricate, multi-step verbal directions",
+        "using dense, obscure legal or medical jargon",
+        "spelling out a long, complicated word or code"
+      ],
+      "graded_anchors": {
+        "0": "No spoken dialogue, or dialogue consists of extremely simple, basic words.",
+        "1": "Dialogue consists of very simple, everyday phrases (e.g., 'Hello, how are you?').",
+        "2": "Standard, easily understood conversation with no complex terms.",
+        "3": "Dialogue includes a slightly complex term or a brief instruction.",
+        "4": "Dialogue contains a moderate amount of information (e.g., a phone number or a simple address).",
+        "5": "Dialogue requires tracking a sequence of events or a basic technical explanation.",
+        "6": "Dialogue features dense information, such as a character explaining a moderately complex plan.",
+        "7": "Highly complex verbal information, such as a doctor explaining a detailed medical procedure with jargon.",
+        "8": "Extremely dense verbal load (e.g., reciting a string of alphanumeric codes or a highly complex mathematical formula).",
+        "9": "An intense, continuous stream of highly complex, technical, or coded verbal information that is difficult to parse.",
+        "10": "An overwhelming, maximum-capacity verbal working memory load (e.g., a character rapidly reciting a massive, intricate sequence of coordinates, codes, and technical jargon without pause)."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The officer tells the driver, 'Take a left at the light, then your first right, and it's the third house on the left.'",
+          "score": 4
+        },
+        {
+          "scene": "The physicist rapidly explains the quantum mechanics of the wormhole, throwing out terms like 'Einstein-Rosen bridge,' 'gravitational singularity,' and 'metric tensor' while writing equations.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Look for technical jargon, numbers, codes, lists, complex instructions, or highly abstract concepts spoken aloud.",
+      "exclusion_note": "Do not score emotionally complex dialogue that is linguistically simple, nor visual complexity that is not spoken."
+    },
+    {
+      "dimension_id": "dramatic_irony_and_privileged_knowledge",
+      "definition": "The cognitive discrepancy arising when the viewer possesses crucial information that a character in the scene lacks, creating a tension between different states of knowledge.",
+      "domain": "perspective_discrepancy_resolution",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "a character entering a room where the viewer knows an assassin is hiding",
+        "a character happily drinking a beverage that the viewer knows is poisoned",
+        "a character talking about a friend, unaware that the friend has just died",
+        "a character searching for an object that the viewer can see is right behind them",
+        "a character lying to someone, while the viewer knows the absolute truth"
+      ],
+      "graded_anchors": {
+        "0": "No dramatic irony or privileged knowledge exists; the viewer and characters share the same information.",
+        "1": "A very minor, inconsequential discrepancy in knowledge (e.g., a character doesn't know it's raining outside, but the viewer does).",
+        "2": "A slight discrepancy in knowledge that has little impact on the immediate scene.",
+        "3": "A noticeable instance of privileged knowledge (e.g., a character is looking for their keys, which the viewer sees on the counter).",
+        "4": "A moderate level of dramatic irony (e.g., a character is talking to a disguised person, while the viewer knows their true identity).",
+        "5": "A significant discrepancy in perspective (e.g., a character is planning a surprise party, unaware the target is already in the house).",
+        "6": "Strong dramatic irony that drives the tension of the scene (e.g., a character is searching a house, unaware a killer is stalking them from behind).",
+        "7": "Highly intense dramatic irony (e.g., a character is about to sign a contract that the viewer knows is a trap that will ruin them).",
+        "8": "Extreme dramatic irony where a character's life or well-being is at stake due to their lack of knowledge (e.g., eating poisoned food).",
+        "9": "An overwhelming, agonizingly tense sequence of dramatic irony where every action a character takes is fraught with danger known only to the viewer.",
+        "10": "The absolute pinnacle of dramatic irony, where a character's entire reality is completely false, and they make catastrophic decisions based on their ignorance while the viewer watches helplessly."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Tom searches his pockets for his wallet, while the viewer can see it sitting on the car roof outside.",
+          "score": 4
+        },
+        {
+          "scene": "The detective sits down and takes a deep sip of his coffee, smiling at his suspect, completely unaware that the suspect slipped a lethal dose of cyanide into the cup just moments before.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Identify situations where the text explicitly notes that a character is unaware of a fact, danger, or presence that has been clearly established for the viewer.",
+      "exclusion_note": "Do not score general suspense where neither the character nor the viewer knows what will happen next."
+    },
+    {
+      "dimension_id": "character_misunderstanding_and_false_belief",
+      "definition": "The cognitive effort required to track and resolve situations where characters hold false beliefs, operate under misunderstandings, or have conflicting perspectives about a situation.",
+      "domain": "perspective_discrepancy_resolution",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "two characters arguing due to a fundamental misunderstanding of each other's motives",
+        "a character acting on a false belief or incorrect information",
+        "a character being deceived by another character's elaborate lie",
+        "characters having completely different interpretations of the same event",
+        "a character mistakenly identifying someone as a culprit"
+      ],
+      "graded_anchors": {
+        "0": "No character misunderstandings or false beliefs are present; all characters have a clear, accurate understanding.",
+        "1": "A trivial, quickly resolved misunderstanding (e.g., mishearing a word).",
+        "2": "A minor false belief that is corrected almost immediately.",
+        "3": "A noticeable misunderstanding that causes a brief moment of confusion.",
+        "4": "A moderate false belief (e.g., a character believes a store is open when it is closed, leading to a wasted trip).",
+        "5": "A significant misunderstanding between characters that drives their dialogue or actions in the scene.",
+        "6": "A strong, deeply rooted false belief (e.g., a character believes their partner is cheating on them based on circumstantial evidence).",
+        "7": "A highly complex web of misunderstandings or deception where multiple characters hold false beliefs about each other.",
+        "8": "An extreme case of false belief with high stakes (e.g., a character accusing an innocent person of a crime, fully believing they are guilty).",
+        "9": "An intense, prolonged sequence of profound misunderstanding and deception that threatens to destroy relationships or lives.",
+        "10": "A monumental, tragic climax entirely driven by deep-seated false beliefs and mutual misunderstandings that lead to catastrophic conflict."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Jane thinks Mark is mad at her because he didn't reply to her text, but he actually just lost his phone.",
+          "score": 4
+        },
+        {
+          "scene": "Othello, fully convinced by Iago's lies, confronts Desdemona, refusing to believe her desperate and truthful denials of infidelity.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for descriptions of deception, lies, false assumptions, misinterpretations, and characters acting on incorrect information.",
+      "exclusion_note": "Do not score simple disagreements where both parties fully understand each other's positions but simply disagree."
+    },
+    {
+      "dimension_id": "egocentric_bias_overcoming",
+      "definition": "The cognitive demand of distinguishing between one's own perspective (or a character's dominant perspective) and a highly contrasting, conflicting perspective of another.",
+      "domain": "perspective_discrepancy_resolution",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "a character having to suppress their own anger to comfort someone who is grieving",
+        "a character trying to explain a complex concept to a child, requiring them to simplify their perspective",
+        "a character realizing their own bias or prejudice and actively trying to see things from another's point of view",
+        "the viewer being forced to empathize with a character they previously disliked or feared",
+        "a character navigating a highly unfamiliar cultural norm or alien perspective"
+      ],
+      "graded_anchors": {
+        "0": "No perspective conflict or need to overcome egocentric bias is present.",
+        "1": "A character briefly acknowledges another's perspective without any effort or conflict.",
+        "2": "A minor adjustment in perspective (e.g., a character speaks slightly softer to a sleeping baby).",
+        "3": "A noticeable effort to understand a simple, different viewpoint.",
+        "4": "A moderate effort to overcome one's own immediate reaction to accommodate another's perspective.",
+        "5": "A significant moment where a character must actively suppress their own strong feelings or knowledge to interact with someone who has a different state of mind.",
+        "6": "A strong, conscious effort to bridge a major gap in perspective (e.g., a scientist explaining a complex theory to a layman).",
+        "7": "A highly challenging perspective shift (e.g., a victim trying to understand the psychological motives of their captor).",
+        "8": "An extreme struggle to overcome egocentric bias (e.g., a character suppressing intense personal grief to support a bitter rival).",
+        "9": "An intense, profound psychological struggle to reconcile two completely incompatible and deeply held perspectives.",
+        "10": "An extraordinary, transformative moment of overcoming egocentric bias, where a character or the viewer completely shifts their fundamental worldview to inhabit an entirely alien or opposing perspective."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The teacher patiently explains the basic math problem to the struggling student, using simple analogies instead of advanced formulas.",
+          "score": 4
+        },
+        {
+          "scene": "Though consumed by rage and a desire for revenge, the warrior looks into the eyes of his enemy's crying child, suppresses his anger, and lowers his sword, realizing the cycle of violence must end.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Look for instances where a character must suppress their own knowledge, emotions, or biases to communicate with, understand, or help another person.",
+      "exclusion_note": "Do not score simple empathy or sympathy that does not require overcoming a conflicting personal perspective or bias."
+    },
+    {
+      "dimension_id": "vicarious_pain_and_injury",
+      "definition": "The depiction of physical pain, injury, wounds, or intense bodily suffering that triggers a strong vicarious somatic response in the viewer.",
+      "domain": "somatic_and_pain_resonance",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "a character's hand being crushed in a door",
+        "a deep cut or laceration bleeding heavily",
+        "a character breaking a bone with an audible snap",
+        "a character being burned by a hot surface",
+        "the slow, painful extraction of a bullet from a wound"
+      ],
+      "graded_anchors": {
+        "0": "No physical pain, injury, or bodily suffering is described.",
+        "1": "A character experiences a very minor discomfort (e.g., a light scratch or a stubbed toe).",
+        "2": "A minor injury with brief pain (e.g., a small paper cut).",
+        "3": "A noticeable injury (e.g., a character gets slapped or bruised).",
+        "4": "A moderate level of physical pain (e.g., a character sprains an ankle or gets punched in the face).",
+        "5": "A significant injury with clear descriptions of pain (e.g., a deep cut that requires bandaging).",
+        "6": "A severe injury causing intense, sustained pain (e.g., a gunshot wound to the shoulder).",
+        "7": "Highly graphic or intense descriptions of physical trauma and suffering (e.g., a character's bones breaking).",
+        "8": "Extreme, agonizing physical pain and mutilation (e.g., a limb being crushed or severed).",
+        "9": "An excruciating, prolonged sequence of intense physical torture or severe bodily trauma.",
+        "10": "An overwhelming, unbearable depiction of ultimate physical agony, catastrophic injury, and visceral bodily destruction."
+      },
+      "calibration_examples": [
+        {
+          "scene": "He trips on the rug and bumps his knee, wincing slightly as he rubs it.",
+          "score": 2
+        },
+        {
+          "scene": "The torturer slowly drives a long metal needle underneath the captive's fingernail, eliciting a blood-curdling scream of pure agony.",
+          "score": 9.5
+        }
+      ],
+      "scoreability_note": "Look for explicit descriptions of physical trauma, wounds, blood, screams of pain, and the physiological sensations of injury.",
+      "exclusion_note": "Do not score emotional pain, grief, or psychological suffering unless it is directly accompanied by physical injury or somatic distress."
+    },
+    {
+      "dimension_id": "tactile_and_somatic_contact",
+      "definition": "The focus on physical touch, textures, temperature extremes, skin-to-skin contact, or intense somatic sensations.",
+      "domain": "somatic_and_pain_resonance",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "running fingers over a rough, textured stone wall",
+        "shivering violently in a freezing cold blizzard",
+        "a gentle, intimate caress of a character's cheek",
+        "the feeling of heavy rain soaking through clothing",
+        "submerging a hand into thick, sticky mud"
+      ],
+      "graded_anchors": {
+        "0": "No tactile sensations, touch, or somatic contact are described.",
+        "1": "A character makes brief, standard contact with an object (e.g., holding a cup).",
+        "2": "A minor tactile sensation is mentioned (e.g., feeling a light breeze).",
+        "3": "A noticeable tactile interaction (e.g., shaking hands with someone).",
+        "4": "A moderate focus on touch or texture (e.g., feeling the soft fabric of a coat).",
+        "5": "A significant somatic experience (e.g., walking barefoot on cold, wet grass).",
+        "6": "A strong focus on tactile sensations or skin-to-skin contact (e.g., a detailed description of a massage or a warm embrace).",
+        "7": "Highly vivid descriptions of tactile or somatic sensations (e.g., shivering in icy water or feeling a burning hot metal plate).",
+        "8": "Extreme somatic contact or sensory immersion (e.g., being completely covered in thick, viscous slime).",
+        "9": "An intense, highly detailed sequence focusing entirely on rich, overwhelming tactile and somatic sensations.",
+        "10": "An extraordinary, non-stop sensory onslaught of tactile, thermal, and somatic experiences that completely dominates the scene."
+      },
+      "calibration_examples": [
+        {
+          "scene": "She zips up her jacket as a cool autumn breeze blows through the trees.",
+          "score": 3
+        },
+        {
+          "scene": "He plunges his bare hands into the freezing, slushy ice water, his skin instantly turning bright red and numb as he gropes for the dropped key.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Look for descriptions of textures (rough, smooth, sticky), temperatures (hot, freezing), and the physical sensation of touch or skin contact.",
+      "exclusion_note": "Do not score visual descriptions of objects unless their tactile qualities are explicitly emphasized or experienced by a character."
+    },
+    {
+      "dimension_id": "visceral_bodily_distress",
+      "definition": "The depiction of immediate, involuntary physiological distress, such as choking, gasping, nausea, vomiting, or extreme physical exhaustion.",
+      "domain": "somatic_and_pain_resonance",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "gasping for air while drowning or being choked",
+        "vomiting from intense illness or disgust",
+        "shivering uncontrollably from hypothermia",
+        "hyperventilating during a severe panic attack",
+        "collapsing from absolute physical exhaustion"
+      ],
+      "graded_anchors": {
+        "0": "No visceral or physiological bodily distress is described.",
+        "1": "A character yawns or shows a minor sign of tiredness.",
+        "2": "A character coughs briefly or clears their throat.",
+        "3": "A noticeable sign of physical discomfort (e.g., breathing slightly heavily after a short jog).",
+        "4": "A moderate level of physiological distress (e.g., shivering slightly in a cold room).",
+        "5": "A significant visceral reaction (e.g., a character gagging or feeling intensely nauseous).",
+        "6": "Strong physiological distress (e.g., hyperventilating or gasping for breath after running a long distance).",
+        "7": "Highly intense visceral distress (e.g., choking on smoke in a burning building).",
+        "8": "Extreme physiological collapse or distress (e.g., vomiting violently or convulsing).",
+        "9": "An agonizing, prolonged sequence of severe visceral distress and physiological struggle for survival.",
+        "10": "An overwhelming, life-threatening display of ultimate physiological distress, such as complete asphyxiation, violent convulsions, or total bodily collapse."
+      },
+      "calibration_examples": [
+        {
+          "scene": "After running up the hill, Sarah leans against a tree, panting heavily and catching her breath.",
+          "score": 4
+        },
+        {
+          "scene": "He clutches his throat, gasping desperately for air as the poison takes hold, his face turning blue and his body convulsing violently on the floor.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for involuntary physiological reactions like choking, gasping, vomiting, shivering, hyperventilating, convulsing, or collapsing.",
+      "exclusion_note": "Do not score purely emotional distress (like crying or sadness) unless it manifests as severe, involuntary physiological reactions."
+    }
+  ],
+  "metadata": {
+    "domain_pool": {
+      "source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/SMG/domain_pool_auto_confirmed.json",
+      "content_sha256": "bc57f85e0a2d64b16b4108d8c79f0b275bad3821746a2fd691006367646fb865",
+      "version": "domain_pool_v2",
+      "target_region": "SMG",
+      "curation_status": "confirmed",
+      "proposal_runs": 5,
+      "curated_domain_ids": [
+        "action_and_tool_simulation",
+        "attentional_reorienting_and_spatial_salience",
+        "verbal_phonological_tracking",
+        "perspective_discrepancy_resolution",
+        "somatic_and_pain_resonance"
+      ]
+    },
+    "source_provider": "gemini",
+    "source_model": "gemini-3.5-flash",
+    "fixed_roi_definition": {
+      "roi_id": "SMG",
+      "display_name": "supramarginal gyrus",
+      "theoretical_role": "Phonological working memory, action observation, and somatosensory integration.",
+      "selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            139,
+            140,
+            141,
+            142,
+            145,
+            146
+          ]
+        }
+      ]
+    }
+  }
+}

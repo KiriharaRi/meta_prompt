@@ -1,0 +1,451 @@
+{
+  "version": "domain_pool_v2",
+  "target_region": "DLPFC",
+  "curation_status": "confirmed",
+  "source_model": "gemini-3.5-flash",
+  "proposal_runs": 5,
+  "metadata": {
+    "generation_parameters": {
+      "provider": "gemini",
+      "temperature": 0.2,
+      "proposal_runs": 5
+    },
+    "required_domain_ids": [],
+    "confirmation_instructions": "Review curated_domains and rejected_or_merged_domains, then set curation_status to 'confirmed' before passing this pool to make-region-schema --domain-pool.",
+    "confirmation_mode": "auto_pilot",
+    "confirmed_by": "run-multi-roi-pilot",
+    "manual_review_required_before_final_claims": true,
+    "draft_source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/DLPFC/domain_pool_draft.json"
+  },
+  "candidate_domains": [
+    {
+      "domain_id": "run_1_narrative_working_memory",
+      "definition": "The viewer's active maintenance and integration of temporally disjointed narrative threads, past backstory, or complex character relationships required to comprehend the current onscreen action.",
+      "region_relevance": "DLPFC (including A46 and A9/46) is a core node of the executive control network, heavily implicated in working memory, information maintenance over temporal delays, and the structured integration of multi-step information during complex cognitive tasks.",
+      "scoreability_note": "Can be scored high in scenes that rely on callbacks, non-linear storytelling, or parallel subplots, and low in self-contained, highly predictable, or purely sensory-driven scenes.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_strategic_plan_tracking",
+      "definition": "The viewer's cognitive tracking and evaluation of a character's goal-directed plans, tactical maneuvers, and the logical steps taken to overcome obstacles.",
+      "region_relevance": "DLPFC is crucial for executive planning, goal maintenance, and evaluating strategic choices under constraint, allowing the viewer to simulate and track the viability of complex, goal-directed behaviors.",
+      "scoreability_note": "Can be scored high during planning sequences, negotiations, problem-solving, or tactical execution, and low during passive, aimless, or purely reactive character behaviors.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_cognitive_conflict_monitoring",
+      "definition": "The viewer's appraisal of high-uncertainty situations, conflicting information, or discrepancies between their own knowledge and a character's knowledge, requiring active hypothesis testing.",
+      "region_relevance": "DLPFC is heavily involved in monitoring cognitive conflict, managing decision-making under ambiguity, and updating internal models when predictions fail or when multiple competing interpretations exist.",
+      "scoreability_note": "Can be scored high during suspenseful scenes involving dramatic irony, mystery resolution, or unexpected plot twists, and low during straightforward, highly transparent narrative progression.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_rule_and_norm_integration",
+      "definition": "The viewer's integration and application of specific narrative rules, physical laws, or social/moral codes of the movie's world to evaluate the consequences and correctness of a character's actions.",
+      "region_relevance": "DLPFC is implicated in rule-guided behavior, norm processing, and evaluating actions against abstract principles, conditional rules, or social expectations.",
+      "scoreability_note": "Can be scored high when characters navigate complex legal, ethical, or supernatural rules where the viewer must judge if an action violates or successfully exploits these rules, and low during mundane, rule-free interactions.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_2_strategic_goal_tracking",
+      "definition": "The viewer's cognitive tracking and integration of multi-step plans, tactical maneuvers, or goal-directed sequences. This involves holding the overarching objective in working memory while evaluating how immediate actions contribute to or hinder that objective.",
+      "region_relevance": "DLPFC (specifically BA 46 and 9/46) is crucial for working memory, goal maintenance, and hierarchical planning, allowing the viewer to map current narrative actions to long-term plot goals.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing characters executing complex plans, solving multi-step problems, or navigating tactical obstacles where the viewer must connect current actions to a larger goal.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_cognitive_model_updating",
+      "definition": "The viewer's active cognitive effort to resolve narrative contradictions, process unexpected plot twists, or filter out deceptive information. This requires suppressing outdated interpretations and restructuring their mental model of the scene.",
+      "region_relevance": "DLPFC is heavily implicated in cognitive flexibility, set-shifting, conflict monitoring, and the suppression of prepotent responses or outdated mental sets when processing novel or conflicting information.",
+      "scoreability_note": "Scoreable when descriptions depict sudden shifts in context, revealed lies, or complex situations where the viewer's initial assumptions are challenged and must be revised.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_normative_constraint_appraisal",
+      "definition": "The viewer's appraisal of characters' actions against explicit rules, social contracts, tactical protocols, or moral boundaries established within the narrative. The viewer evaluates the permissibility, risk, and logical consequences of violating these constraints.",
+      "region_relevance": "DLPFC plays a key role in rule-guided behavior, norm compliance, and evaluating the consequences of rule violations in social and strategic contexts.",
+      "scoreability_note": "Scoreable in scenes involving formal rules (e.g., games, legal proceedings, military operations) or high-stakes social situations where characters deliberately break or navigate complex social norms.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_3_narrative_goal_tracking",
+      "definition": "The viewer's active tracking, maintenance, and updating of characters' strategic plans, immediate objectives, and the narrative obstacles blocking those goals.",
+      "region_relevance": "DLPFC (including A9/46d, A46, and IFS) is heavily implicated in working memory, goal maintenance, and the executive control required to monitor complex, multi-step plans over time.",
+      "scoreability_note": "Highly scoreable from text descriptions that detail characters formulating plans, discussing obstacles, or executing goal-directed actions.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_cognitive_conflict_resolution",
+      "definition": "The viewer's cognitive appraisal and integration of conflicting narrative information, ambiguous character motives, or complex dilemmas that require active reconciliation.",
+      "region_relevance": "DLPFC is a core node for cognitive control, conflict monitoring, and resolving ambiguity when processing competing interpretations or complex decision-making scenarios.",
+      "scoreability_note": "Can be scored by identifying scenes where characters face moral dilemmas, present contradictory evidence, or engage in deceptive behavior that forces the viewer to weigh competing hypotheses.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_strategic_anticipation",
+      "definition": "The viewer's forward-looking formulation of hypotheses and predictions regarding the consequences of a character's risky decisions, tactical maneuvers, or strategic choices.",
+      "region_relevance": "DLPFC is associated with prospective planning, risk assessment, and predicting outcomes based on complex situational rules and social strategies.",
+      "scoreability_note": "Scoreable based on narrative segments depicting high-stakes decisions, tactical preparations, or suspenseful setups where the immediate future outcome depends on strategic success.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_rule_and_norm_monitoring",
+      "definition": "The viewer's evaluation of characters' adherence to or violation of explicit rules, social norms, or situational constraints established within the narrative context.",
+      "region_relevance": "DLPFC plays a critical role in rule-guided behavior, norm compliance, and detecting deviations from expected social or logical frameworks.",
+      "scoreability_note": "Easily scored from descriptions of rule-breaking, social transgressions, protocol violations, or interactions within highly structured, rule-bound environments.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_4_strategic_plan_tracking",
+      "definition": "The viewer's cognitive tracking and evaluation of a character's multi-step, goal-directed plan, including the identification of obstacles, deviations, and strategic adjustments required to achieve a specific outcome.",
+      "region_relevance": "The dorsolateral prefrontal cortex (DLPFC) is critical for executive function, goal maintenance, and monitoring progress toward long-term objectives under changing environmental demands.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing characters executing complex plans, encountering setbacks, or formulating strategies (e.g., heist sequences, escape attempts, or tactical negotiations).",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_narrative_rule_integration",
+      "definition": "The viewer's cognitive integration of complex, explicit rules, constraints, or conditional logic (such as physical, social, or supernatural laws) that govern the characters' actions and the narrative world.",
+      "region_relevance": "DLPFC supports rule-guided behavior, working memory maintenance of abstract rules, and the application of conditional logic to interpret current states.",
+      "scoreability_note": "Scoreable when descriptions highlight characters operating under strict constraints, explaining rules (e.g., 'if X happens, we must do Y'), or navigating complex systems.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_hypothesis_testing_and_ambiguity",
+      "definition": "The viewer's active cognitive appraisal of ambiguous situations, involving the generation and testing of competing hypotheses about hidden motives, plot twists, or unexplained events.",
+      "region_relevance": "DLPFC is recruited during decision-making under uncertainty, hypothesis generation, and the cognitive control required to weigh conflicting interpretations.",
+      "scoreability_note": "Scoreable during mystery sequences, deceptive dialogue, or scenes with high situational ambiguity where the viewer must actively deduce what is true.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_5_goal_plan_tracking",
+      "definition": "The viewer's cognitive tracking and mental maintenance of characters' active goals, plans, and strategic subgoals as they navigate narrative obstacles.",
+      "region_relevance": "DLPFC (specifically A46, A9/46) is central to working memory, executive control, and maintaining goal representations over time.",
+      "scoreability_note": "Highly scoreable from text descriptions by identifying when characters explicitly state, modify, or execute multi-step plans, and when the viewer must hold these intentions in mind to make sense of current actions.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_cognitive_conflict_monitoring",
+      "definition": "The viewer's active monitoring and resolution of conflicting narrative information, ambiguous character motives, or complex dilemmas presented in the scene.",
+      "region_relevance": "DLPFC is recruited during cognitive control, conflict monitoring, and decision-making under uncertainty or ambiguity.",
+      "scoreability_note": "Can be scored by identifying scenes with high narrative ambiguity, plot twists, conflicting evidence, or characters facing difficult, multi-option dilemmas that require the viewer to weigh competing interpretations.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_rule_norm_integration",
+      "definition": "The viewer's appraisal of characters' actions against established social norms, tactical rules, or situational constraints within the narrative context.",
+      "region_relevance": "DLPFC is involved in rule representation, norm compliance, and context-dependent behavioral evaluation.",
+      "scoreability_note": "Scoreable by analyzing text descriptions for violations of social etiquette, legal boundaries, tactical rules, or strategic constraints that the viewer must recognize to evaluate the appropriateness of a character's behavior.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_causal_logical_reasoning",
+      "definition": "The viewer's active reconstruction of the logical, causal, and mechanical relationships between events, actions, and physical/narrative consequences.",
+      "region_relevance": "DLPFC supports relational reasoning, logical integration, and complex problem-solving.",
+      "scoreability_note": "Scoreable based on the density of causal links, mystery-solving elements, or complex physical/narrative mechanisms that require the viewer to actively deduce 'how' or 'why' an event occurred rather than just passively observing it.",
+      "source_run": 5
+    }
+  ],
+  "curated_domains": [
+    {
+      "domain_id": "strategic_goal_and_plan_tracking",
+      "definition": "The viewer's active cognitive tracking, maintenance, and evaluation of characters' multi-step, goal-directed plans, tactical maneuvers, and strategic choices, including anticipating consequences and evaluating progress toward long-term objectives.",
+      "region_relevance": "DLPFC (specifically BA 46 and 9/46) is central to working memory, goal maintenance, executive planning, and hierarchical control, allowing the viewer to map current actions to long-term plot goals.",
+      "scoreability_note": "Highly scoreable in scenes where characters formulate, discuss, or execute complex plans, navigate tactical obstacles, or make high-stakes strategic decisions.",
+      "source_domain_ids": [
+        "run_1_strategic_plan_tracking",
+        "run_2_strategic_goal_tracking",
+        "run_3_narrative_goal_tracking",
+        "run_3_strategic_anticipation",
+        "run_4_strategic_plan_tracking",
+        "run_5_goal_plan_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "These candidate domains all focus on the viewer's tracking of goal-directed behavior, planning, and tactical execution. Merging them creates a robust, highly scoreable domain representing the core executive planning functions of the DLPFC."
+    },
+    {
+      "domain_id": "cognitive_conflict_and_hypothesis_testing",
+      "definition": "The viewer's active monitoring, appraisal, and resolution of conflicting narrative information, ambiguous character motives, or unexpected plot developments, requiring the generation and testing of competing hypotheses and updating of mental models.",
+      "region_relevance": "DLPFC is heavily recruited for cognitive control, conflict monitoring, decision-making under uncertainty, and updating internal models when predictions fail or when multiple competing interpretations exist.",
+      "scoreability_note": "Scored high during suspenseful scenes, mystery sequences, deceptive dialogue, or plot twists where the viewer must actively resolve ambiguity or revise their assumptions.",
+      "source_domain_ids": [
+        "run_1_cognitive_conflict_monitoring",
+        "run_2_cognitive_model_updating",
+        "run_3_cognitive_conflict_resolution",
+        "run_4_hypothesis_testing_and_ambiguity",
+        "run_5_cognitive_conflict_monitoring"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "These domains all capture the cognitive effort of managing uncertainty, resolving narrative conflicts, and updating mental models. Merging them avoids redundancy and aligns with DLPFC's role in cognitive flexibility and conflict resolution."
+    },
+    {
+      "domain_id": "rule_and_normative_constraint_integration",
+      "definition": "The viewer's cognitive integration and application of explicit rules, social norms, tactical protocols, or moral boundaries established within the narrative to evaluate the permissibility, risk, and consequences of characters' actions.",
+      "region_relevance": "DLPFC plays a critical role in rule-guided behavior, norm compliance, and evaluating actions against abstract principles, conditional rules, or social expectations.",
+      "scoreability_note": "Highly scoreable in scenes involving formal rules (e.g., games, legal proceedings, tactical operations) or high-stakes social situations where characters deliberately navigate or violate established norms.",
+      "source_domain_ids": [
+        "run_1_rule_and_norm_integration",
+        "run_2_normative_constraint_appraisal",
+        "run_3_rule_and_norm_monitoring",
+        "run_4_narrative_rule_integration",
+        "run_5_rule_norm_integration"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "These domains all address how the viewer evaluates characters' actions against narrative, social, or logical rules. Merging them provides a unified domain for rule-guided cognitive evaluation."
+    },
+    {
+      "domain_id": "narrative_working_memory_and_causal_integration",
+      "definition": "The viewer's active maintenance and integration of temporally disjointed narrative threads, past backstory, and complex causal or logical relationships between events to comprehend the current onscreen action.",
+      "region_relevance": "DLPFC supports relational reasoning, logical integration, working memory maintenance over temporal delays, and complex problem-solving.",
+      "scoreability_note": "Scored high in scenes that rely on callbacks, non-linear storytelling, or complex physical/narrative mechanisms where the viewer must actively deduce causal links rather than passively observing.",
+      "source_domain_ids": [
+        "run_1_narrative_working_memory",
+        "run_5_causal_logical_reasoning"
+      ],
+      "source_runs": [
+        1,
+        5
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Both domains involve the active maintenance of information in working memory to perform relational or causal reasoning over time, which is a key executive function of the DLPFC."
+    }
+  ],
+  "rejected_or_merged_domains": [
+    {
+      "domain_id": "run_1_narrative_working_memory",
+      "decision": "merged",
+      "reason": "Merged with causal reasoning to form a unified domain covering working memory maintenance and relational integration.",
+      "source_domain_ids": [
+        "run_1_narrative_working_memory"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "narrative_working_memory_and_causal_integration"
+    },
+    {
+      "domain_id": "run_1_strategic_plan_tracking",
+      "decision": "merged",
+      "reason": "Merged into a consolidated strategic goal and plan tracking domain to avoid redundancy across runs.",
+      "source_domain_ids": [
+        "run_1_strategic_plan_tracking"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "strategic_goal_and_plan_tracking"
+    },
+    {
+      "domain_id": "run_1_cognitive_conflict_monitoring",
+      "decision": "merged",
+      "reason": "Merged into a consolidated cognitive conflict and hypothesis testing domain to avoid redundancy across runs.",
+      "source_domain_ids": [
+        "run_1_cognitive_conflict_monitoring"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "cognitive_conflict_and_hypothesis_testing"
+    },
+    {
+      "domain_id": "run_1_rule_and_norm_integration",
+      "decision": "merged",
+      "reason": "Merged into a consolidated rule and norm integration domain to avoid redundancy across runs.",
+      "source_domain_ids": [
+        "run_1_rule_and_norm_integration"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "rule_and_normative_constraint_integration"
+    },
+    {
+      "domain_id": "run_2_strategic_goal_tracking",
+      "decision": "merged",
+      "reason": "Merged into a consolidated strategic goal and plan tracking domain to avoid redundancy across runs.",
+      "source_domain_ids": [
+        "run_2_strategic_goal_tracking"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "strategic_goal_and_plan_tracking"
+    },
+    {
+      "domain_id": "run_2_cognitive_model_updating",
+      "decision": "merged",
+      "reason": "Merged into a consolidated cognitive conflict and hypothesis testing domain to avoid redundancy across runs.",
+      "source_domain_ids": [
+        "run_2_cognitive_model_updating"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "cognitive_conflict_and_hypothesis_testing"
+    },
+    {
+      "domain_id": "run_2_normative_constraint_appraisal",
+      "decision": "merged",
+      "reason": "Merged into a consolidated rule and norm integration domain to avoid redundancy across runs.",
+      "source_domain_ids": [
+        "run_2_normative_constraint_appraisal"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "rule_and_normative_constraint_integration"
+    },
+    {
+      "domain_id": "run_3_narrative_goal_tracking",
+      "decision": "merged",
+      "reason": "Merged into a consolidated strategic goal and plan tracking domain to avoid redundancy across runs.",
+      "source_domain_ids": [
+        "run_3_narrative_goal_tracking"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "strategic_goal_and_plan_tracking"
+    },
+    {
+      "domain_id": "run_3_cognitive_conflict_resolution",
+      "decision": "merged",
+      "reason": "Merged into a consolidated cognitive conflict and hypothesis testing domain to avoid redundancy across runs.",
+      "source_domain_ids": [
+        "run_3_cognitive_conflict_resolution"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "cognitive_conflict_and_hypothesis_testing"
+    },
+    {
+      "domain_id": "run_3_strategic_anticipation",
+      "decision": "merged",
+      "reason": "Merged into the strategic goal and plan tracking domain as anticipation is an inherent part of tracking strategic plans.",
+      "source_domain_ids": [
+        "run_3_strategic_anticipation"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "strategic_goal_and_plan_tracking"
+    },
+    {
+      "domain_id": "run_3_rule_and_norm_monitoring",
+      "decision": "merged",
+      "reason": "Merged into a consolidated rule and norm integration domain to avoid redundancy across runs.",
+      "source_domain_ids": [
+        "run_3_rule_and_norm_monitoring"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "rule_and_normative_constraint_integration"
+    },
+    {
+      "domain_id": "run_4_strategic_plan_tracking",
+      "decision": "merged",
+      "reason": "Merged into a consolidated strategic goal and plan tracking domain to avoid redundancy across runs.",
+      "source_domain_ids": [
+        "run_4_strategic_plan_tracking"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "strategic_goal_and_plan_tracking"
+    },
+    {
+      "domain_id": "run_4_narrative_rule_integration",
+      "decision": "merged",
+      "reason": "Merged into a consolidated rule and norm integration domain to avoid redundancy across runs.",
+      "source_domain_ids": [
+        "run_4_narrative_rule_integration"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "rule_and_normative_constraint_integration"
+    },
+    {
+      "domain_id": "run_4_hypothesis_testing_and_ambiguity",
+      "decision": "merged",
+      "reason": "Merged into a consolidated cognitive conflict and hypothesis testing domain to avoid redundancy across runs.",
+      "source_domain_ids": [
+        "run_4_hypothesis_testing_and_ambiguity"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "cognitive_conflict_and_hypothesis_testing"
+    },
+    {
+      "domain_id": "run_5_goal_plan_tracking",
+      "decision": "merged",
+      "reason": "Merged into a consolidated strategic goal and plan tracking domain to avoid redundancy across runs.",
+      "source_domain_ids": [
+        "run_5_goal_plan_tracking"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "strategic_goal_and_plan_tracking"
+    },
+    {
+      "domain_id": "run_5_cognitive_conflict_monitoring",
+      "decision": "merged",
+      "reason": "Merged into a consolidated cognitive conflict and hypothesis testing domain to avoid redundancy across runs.",
+      "source_domain_ids": [
+        "run_5_cognitive_conflict_monitoring"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "cognitive_conflict_and_hypothesis_testing"
+    },
+    {
+      "domain_id": "run_5_rule_norm_integration",
+      "decision": "merged",
+      "reason": "Merged into a consolidated rule and norm integration domain to avoid redundancy across runs.",
+      "source_domain_ids": [
+        "run_5_rule_norm_integration"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "rule_and_normative_constraint_integration"
+    },
+    {
+      "domain_id": "run_5_causal_logical_reasoning",
+      "decision": "merged",
+      "reason": "Merged with narrative working memory to form a unified domain covering working memory maintenance and relational integration.",
+      "source_domain_ids": [
+        "run_5_causal_logical_reasoning"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "narrative_working_memory_and_causal_integration"
+    }
+  ]
+}

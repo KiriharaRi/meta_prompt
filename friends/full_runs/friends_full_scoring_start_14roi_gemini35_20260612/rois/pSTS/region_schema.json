@@ -1,0 +1,855 @@
+{
+  "version": "region_schema_v1",
+  "target_region": "pSTS",
+  "functional_hypothesis": "The posterior superior temporal sulcus (pSTS) is a critical hub for social perception and cognition, integrating multisensory inputs to decode dynamic social interactions. By tracking variables across social interaction, biological motion, mentalizing, audiovisual speech, and social attention, this schema captures the multi-layered features that drive pSTS activity during naturalistic movie viewing. Specifically, caudal pSTS (cpSTS) is heavily engaged in biological motion and action observation, while rostral pSTS (rpSTS) is recruited during mentalizing, gaze tracking, and audiovisual speech integration.",
+  "scoring_instruction": "Score each dimension on a scale from 0 to 10 based on the explicit descriptions and clear narrative implications in the text. A score of 0 indicates the feature is completely absent or not applicable, while a score of 10 indicates the feature is highly prominent, intense, or central to the scene. Base your scores strictly on text-based evidence, avoiding extrapolation beyond what is described or highly implied by the characters' actions, speech, and reactions.",
+  "selection_rules": [
+    {
+      "networks": [],
+      "sub_regions": [],
+      "hemispheres": [],
+      "label_ids": [
+        121,
+        122,
+        123,
+        124
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": "social_interaction_tracking",
+      "definition": "The viewer's tracking and integration of interpersonal dynamics, communicative exchanges, turn-taking, and relational shifts between characters as they unfold in the scene.",
+      "region_relevance": "The pSTS is a core node for social perception, heavily involved in processing dynamic social interactions, dialogue flow, and tracking how agents relate to one another.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing who is interacting, the nature of their dialogue, turn-taking, and changes in their immediate social alignment or conflict.",
+      "source_domain_ids": [
+        "run_1_social_interaction_tracking",
+        "run_2_social_interaction_tracking",
+        "run_4_social_interaction_tracking",
+        "run_4_social_tension_appraisal"
+      ],
+      "source_runs": [
+        1,
+        2,
+        4
+      ],
+      "proposal_frequency": 3,
+      "consolidation_rationale": "Consolidated multiple runs of social interaction tracking and social tension appraisal into a single robust domain focusing on the viewer's tracking of interpersonal dynamics and relational shifts."
+    },
+    {
+      "domain_id": "biological_motion_and_action_intent_appraisal",
+      "definition": "The viewer's perceptual tracking and interpretation of dynamic human movements (such as gestures, gait, head turns, and eye gaze) and the immediate appraisal of these actions as goal-directed or intentional.",
+      "region_relevance": "The pSTS (including cpSTS) is a classic hub for biological motion perception and the action-observation network, decoding the intentionality behind observed physical actions.",
+      "scoreability_note": "Scoreable by identifying descriptions of physical actions, bodily gestures, gaze shifts, and goal-oriented tasks where the character's immediate objective must be inferred.",
+      "source_domain_ids": [
+        "run_1_biological_motion_and_action_intent",
+        "run_2_action_intentionality_appraisal",
+        "run_3_biological_motion_appraisal",
+        "run_4_intentional_action_attribution",
+        "run_5_biological_motion_tracking",
+        "run_5_agency_and_goal_inference"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged biological motion tracking, action intentionality, and agency/goal inference into a single domain, as they represent the same underlying pSTS process of mapping physical movements to inferred agentic goals."
+    },
+    {
+      "domain_id": "mental_state_attribution_and_perspective_taking",
+      "definition": "The viewer's cognitive inference of characters' hidden mental states, including their beliefs, secret motives, knowledge gaps, or unexpressed feelings, to make sense of their behavior.",
+      "region_relevance": "The pSTS (especially cpSTS/rpSTS bordering TPJ) is a key component of the mentalizing network, activated when viewers must infer what characters are thinking or planning.",
+      "scoreability_note": "Scoreable from narrative contexts where characters act on false beliefs, hide information, or have conflicting internal motivations that the viewer must actively deduce.",
+      "source_domain_ids": [
+        "run_1_mental_state_attribution",
+        "run_2_mental_state_attribution",
+        "run_3_implied_social_intention_inference",
+        "run_5_social_perspective_taking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Consolidated mental state attribution, social perspective taking, and implied social intention inference into a single domain representing Theory of Mind processes in the pSTS/TPJ border."
+    },
+    {
+      "domain_id": "audiovisual_speech_and_communication_integration",
+      "definition": "The viewer's multisensory integration of spoken language, vocal tone, and auditory cues with corresponding visual expressions, mouth movements, and communicative gestures.",
+      "region_relevance": "The pSTS is a classic multisensory integration hub, particularly for combining auditory speech signals with visual speech (lip reading) and non-verbal vocalizations.",
+      "scoreability_note": "Scoreable by analyzing descriptions of dialogue delivery, voice tone, visible speech, and sound effects paired with visual actions.",
+      "source_domain_ids": [
+        "run_1_audiovisual_congruence_and_speech_integration",
+        "run_2_audiovisual_speech_integration",
+        "run_3_audio_visual_speech_integration",
+        "run_4_multisensory_communication_integration",
+        "run_5_communicative_intent_integration"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all runs of audiovisual speech and communication integration into a single domain focusing on the multisensory binding of auditory and visual communicative signals."
+    },
+    {
+      "domain_id": "social_attention_and_gaze_tracking",
+      "definition": "The viewer's tracking of where characters are directing their attention, inferred from eye gaze, head orientation, and pointing gestures, to establish shared focus or joint attention.",
+      "region_relevance": "The pSTS is highly sensitive to eye gaze direction and social attention cues, playing a key role in processing where others are looking and what they are attending to.",
+      "scoreability_note": "Scoreable based on descriptions of characters looking at specific objects, staring at other characters, or pointing to direct attention.",
+      "source_domain_ids": [
+        "run_3_social_attention_tracking"
+      ],
+      "source_runs": [
+        3
+      ],
+      "proposal_frequency": 1,
+      "consolidation_rationale": "Retained as a distinct domain because tracking eye gaze and joint attention is a highly specialized pSTS function that is functionally distinct from general biological motion or conversational tracking."
+    }
+  ],
+  "active_domain_ids": [
+    "social_interaction_tracking",
+    "biological_motion_and_action_intent_appraisal",
+    "mental_state_attribution_and_perspective_taking",
+    "audiovisual_speech_and_communication_integration",
+    "social_attention_and_gaze_tracking"
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "dialogue_interactivity_and_turn_taking",
+      "definition": "The degree to which the scene features active, back-and-forth verbal communication and conversational turn-taking between characters.",
+      "domain": "social_interaction_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Rapid verbal banter",
+        "Interrupted speech or overlapping dialogue",
+        "Direct question-and-answer exchanges",
+        "Heated arguments with quick verbal retorts"
+      ],
+      "graded_anchors": {
+        "0": "No dialogue or verbal interaction occurs; the scene is completely silent or features only monologue/narration.",
+        "1": "Extremely minimal verbal exchange, such as a single one-word response or greeting.",
+        "2": "Brief, slow exchange of a couple of sentences with long pauses.",
+        "3": "Simple, low-intensity conversation with clear, slow turn-taking.",
+        "4": "Standard conversational exchange with moderate pacing and typical turn-taking.",
+        "5": "Active dialogue with steady, continuous turn-taking and responsive replies.",
+        "6": "Highly interactive conversation with quick responses and minimal pauses between speakers.",
+        "7": "Fast-paced verbal exchange, including minor interruptions or overlapping speech.",
+        "8": "Intense, rapid-fire dialogue, such as a lively debate or a quick-witted banter.",
+        "9": "Extremely rapid, overlapping verbal conflict or highly synchronized, fast-paced conversational flow.",
+        "10": "Continuous, breathless, rapid-fire verbal exchange with constant interruptions, overlapping voices, and intense conversational density."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Two characters sit in silence on a train, looking out opposite windows without speaking.",
+          "score": 0
+        },
+        {
+          "scene": "A detective asks a suspect a question, and after a long pause, the suspect gives a brief one-word answer.",
+          "score": 2
+        },
+        {
+          "scene": "Two friends have a casual conversation over coffee, taking turns speaking and listening at a relaxed pace.",
+          "score": 5
+        },
+        {
+          "scene": "An estranged couple engages in a screaming match, shouting over each other's sentences with rapid-fire accusations.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on the frequency, speed, and density of verbal turn-taking described in the text.",
+      "exclusion_note": "Do not score non-verbal interactions or solitary monologues/voiceovers where no interactive turn-taking occurs."
+    },
+    {
+      "dimension_id": "relational_alignment_and_conflict_shifts",
+      "definition": "The extent to which the scene depicts shifts, developments, or tension in the social relationship, alignment, or conflict between characters.",
+      "domain": "social_interaction_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Sudden betrayal or revelation of a secret",
+        "A shift from friendly banter to hostile confrontation",
+        "An unexpected moment of emotional bonding or reconciliation",
+        "A dramatic escalation of interpersonal tension"
+      ],
+      "graded_anchors": {
+        "0": "No relational dynamics or shifts; characters are solitary or their relationship is completely static and neutral.",
+        "1": "Very subtle, barely perceptible change in attitude or tone between characters.",
+        "2": "Minor shift in alignment, such as a slight disagreement or a small gesture of friendliness.",
+        "3": "Clear but low-stakes change in social dynamics, like a mild misunderstanding being resolved.",
+        "4": "Moderate relational tension or development, such as a growing suspicion or a budding friendship.",
+        "5": "Significant shift in alignment, such as characters forming an alliance or expressing open disagreement.",
+        "6": "Strong interpersonal conflict or bonding, with clear emotional stakes and visible shifts in how they relate.",
+        "7": "High-intensity relational shift, such as a major argument, a declaration of love, or a deep betrayal.",
+        "8": "Dramatic escalation of conflict or a profound emotional breakthrough that fundamentally alters their relationship.",
+        "9": "Extreme relational crisis, such as a violent falling out or a life-altering pact made under intense pressure.",
+        "10": "A monumental, climactic shift in relational alignment, such as a shocking, ultimate betrayal or a profound, tearful reconciliation that resolves a movie-long conflict."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man walks past a stranger on the street; they briefly nod at each other with no further interaction.",
+          "score": 1
+        },
+        {
+          "scene": "Two coworkers discuss a project, and one politely corrects the other's minor error, which is accepted smoothly.",
+          "score": 3
+        },
+        {
+          "scene": "During a tense dinner, a wife suddenly reveals she knows about her husband's secret affair, causing a massive shift in their dynamic.",
+          "score": 8
+        },
+        {
+          "scene": "In a climactic confrontation, a lifelong mentor reveals he was the villain all along and attempts to kill his student, shattering their bond.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of changing emotional dynamics, conflicts, alliances, and relational tension between characters.",
+      "exclusion_note": "Do not score physical action or environmental threats unless they directly cause or represent a shift in interpersonal relationships."
+    },
+    {
+      "dimension_id": "non_verbal_social_coordination",
+      "definition": "The degree of non-verbal coordination, physical proximity, shared gestures, or synchronized movements between interacting characters.",
+      "domain": "social_interaction_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Synchronized walking or running together",
+        "Physical touch such as hugging, shaking hands, or fighting",
+        "Coordinated physical tasks like lifting a heavy object together",
+        "Mirroring body language or physical gestures during a conversation"
+      ],
+      "graded_anchors": {
+        "0": "No physical proximity or non-verbal coordination; characters are isolated or completely still.",
+        "1": "Characters are in the same room but remain physically distant and do not coordinate.",
+        "2": "Minimal non-verbal contact, such as a brief, formal handshake or passing an object.",
+        "3": "Low-level physical coordination, like walking side-by-side at a relaxed pace.",
+        "4": "Moderate physical proximity with occasional shared gestures or coordinated movements.",
+        "5": "Clear non-verbal coordination, such as dancing together, hugging, or working together on a simple physical task.",
+        "6": "High physical coordination, such as a synchronized dance routine or a closely coordinated team effort.",
+        "7": "Intense physical interaction, such as a passionate embrace, a physical struggle, or a coordinated rescue.",
+        "8": "Highly synchronized, complex physical coordination, such as a choreographed fight scene or a complex acrobatic duet.",
+        "9": "Extremely intense, continuous physical coordination, where every movement is tightly coupled with another character's actions.",
+        "10": "Flawless, highly complex, and continuous physical synchronization, such as a professional, high-stakes tango or an intricate, life-or-death physical struggle where two bodies move as one."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character sits alone in an empty room, reading a book.",
+          "score": 0
+        },
+        {
+          "scene": "Two business partners shake hands briefly at the end of a meeting.",
+          "score": 2
+        },
+        {
+          "scene": "A couple holds hands and walks in perfect sync through a crowded park, navigating the crowd together.",
+          "score": 5
+        },
+        {
+          "scene": "Two martial artists engage in a rapid, highly choreographed sword fight, parrying and dodging each other's moves in perfect synchronization.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of physical touch, synchronized movements, shared gestures, and spatial coordination between characters.",
+      "exclusion_note": "Do not score solitary physical actions or movements that are not coordinated with or directed toward another character."
+    },
+    {
+      "dimension_id": "expressive_bodily_gestures",
+      "definition": "The presence and intensity of dynamic, communicative, or emotional physical gestures of the body (e.g., hand waving, shrugging, pacing, defensive postures).",
+      "domain": "biological_motion_and_action_intent_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Agitated pacing or hand-wringing",
+        "Expressive hand gestures while speaking",
+        "Defensive arm crossing or cowering",
+        "Enthusiastic waving or pointing"
+      ],
+      "graded_anchors": {
+        "0": "No bodily gestures; the character is completely rigid, asleep, or motionless.",
+        "1": "Extremely subtle movement, such as a slight twitch of a finger or a minor shift in posture.",
+        "2": "Minimal gestures, like a simple nod or a brief shrug.",
+        "3": "Low-intensity gestures, such as crossing arms or gesturing slightly with one hand while talking.",
+        "4": "Moderate bodily gestures, like pacing slowly or using hands to emphasize a point.",
+        "5": "Clear, expressive gestures, such as waving to someone, shrugging dramatically, or pacing anxiously.",
+        "6": "Highly expressive movements, including wide hand gestures, throwing arms up in frustration, or cowering in fear.",
+        "7": "Intense, rapid gestures, such as frantic hand-wringing, aggressive pointing, or pacing rapidly back and forth.",
+        "8": "Extremely dramatic and expressive bodily movements, conveying strong emotion through posture and gestures.",
+        "9": "Violent or frantic expressive gestures, such as thrashing arms, dramatic bowing, or highly agitated physical expressions of panic.",
+        "10": "A continuous, overwhelming display of highly expressive, dramatic, and rapid bodily gestures that dominate the scene and convey intense emotional or communicative intent."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A soldier stands perfectly at attention, eyes fixed forward, completely motionless.",
+          "score": 0
+        },
+        {
+          "scene": "A man shrugs his shoulders slightly when asked a question he doesn't know the answer to.",
+          "score": 2
+        },
+        {
+          "scene": "An anxious father paces back and forth across the waiting room, wringing his hands and occasionally running them through his hair.",
+          "score": 6
+        },
+        {
+          "scene": "A street preacher gesticulates wildly, throwing his arms to the sky, pointing aggressively at passersby, and thrashing his body in religious ecstasy.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of non-verbal, expressive bodily movements, postures, and gestures that convey emotion or intent.",
+      "exclusion_note": "Do not score mechanical or non-expressive movements (like walking normally) or purely facial expressions (which belong to gaze/attention or speech)."
+    },
+    {
+      "dimension_id": "goal_directed_object_manipulation",
+      "definition": "The tracking of physical actions directed toward objects with a clear, inferable intent or goal (e.g., reaching for a weapon, writing, unlocking a door).",
+      "domain": "biological_motion_and_action_intent_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Reaching for a hidden weapon",
+        "Carefully picking a lock",
+        "Writing a letter or typing frantically",
+        "Pouring a drink or preparing food with intent"
+      ],
+      "graded_anchors": {
+        "0": "No object manipulation; characters are empty-handed and not interacting with any physical items.",
+        "1": "Very passive contact, such as resting a hand on a table or holding an object without using it.",
+        "2": "Simple, low-intent manipulation, like picking up a glass or turning a page.",
+        "3": "Basic goal-directed action, such as opening a door or picking up a phone.",
+        "4": "Moderate manipulation, like pouring a cup of tea or typing a short message.",
+        "5": "Clear, intentional manipulation of an object to achieve a specific goal, like loading a gun or unlocking a safe.",
+        "6": "Complex or precise object manipulation, such as assembling a device or carefully searching through files.",
+        "7": "High-stakes or urgent object manipulation, like frantically cutting a wire to defuse a bomb or grabbing a weapon during a fight.",
+        "8": "Extremely precise and intense goal-directed manipulation, requiring high focus and dexterity under pressure.",
+        "9": "Rapid, complex, and highly urgent manipulation of multiple objects to achieve a critical, immediate goal.",
+        "10": "A masterclass of highly complex, rapid, and critical object manipulation, such as a surgeon performing a delicate operation or a thief bypassing a complex mechanical lock in seconds under extreme duress."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A woman sits on a couch with her hands resting in her lap, staring at the wall.",
+          "score": 0
+        },
+        {
+          "scene": "A man picks up a pen from his desk and places it in his pocket.",
+          "score": 3
+        },
+        {
+          "scene": "A spy carefully inserts a lockpick into a keyhole, turning it slowly and listening intently for the click.",
+          "score": 6
+        },
+        {
+          "scene": "With seconds left on a countdown, a technician frantically cuts specific colored wires inside a ticking bomb while sweating profusely.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of characters physically interacting with, manipulating, or using objects to achieve a specific, visible goal.",
+      "exclusion_note": "Do not score general body movements that do not involve manipulating physical objects."
+    },
+    {
+      "dimension_id": "locomotion_and_gait_dynamics",
+      "definition": "The physical manner of walking, running, or moving through space, conveying intent, urgency, or physical state (e.g., sneaking, stomping, stumbling).",
+      "domain": "biological_motion_and_action_intent_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Sneaking stealthily on tiptoes",
+        "Stumbling or limping heavily due to injury",
+        "Sprinting frantically away from danger",
+        "Stomping angrily out of a room"
+      ],
+      "graded_anchors": {
+        "0": "No locomotion; characters are completely stationary, sitting, or lying down.",
+        "1": "Extremely minimal movement, such as taking a single step forward.",
+        "2": "Standard, neutral walking with no distinct emotional or intentional gait.",
+        "3": "Slightly modified gait, such as walking briskly or strolling leisurely.",
+        "4": "Clear, intentional locomotion, like walking cautiously or marching in an orderly fashion.",
+        "5": "Distinct, expressive gait, such as sneaking quietly, limping slightly, or stomping in frustration.",
+        "6": "High-intensity locomotion, such as jogging urgently or stumbling heavily while intoxicated.",
+        "7": "Rapid, purposeful movement, like sprinting to catch a train or fleeing from a minor threat.",
+        "8": "Extreme locomotion dynamics, such as a frantic, life-or-death sprint, or crawling desperately on the ground.",
+        "9": "Highly dramatic, impaired, or intense locomotion, such as dragging a broken leg while fleeing, or a wild, chaotic chase on foot.",
+        "10": "An extraordinary display of intense, dynamic locomotion, such as a character sprinting at absolute maximum speed through a collapsing building, leaping over obstacles, and diving for safety."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A group of people sit around a conference table, listening to a presentation.",
+          "score": 0
+        },
+        {
+          "scene": "A man walks down a quiet sidewalk at a normal, relaxed pace.",
+          "score": 2
+        },
+        {
+          "scene": "A thief tiptoes silently down a dark hallway, carefully placing each foot to avoid creaking floorboards.",
+          "score": 5
+        },
+        {
+          "scene": "An injured soldier drags himself across a muddy battlefield, clawing at the dirt and pulling his body forward under heavy fire.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on the style, speed, urgency, and physical effort involved in a character's walking, running, or physical movement through space.",
+      "exclusion_note": "Do not score passive transportation (like riding in a car) or stationary physical actions."
+    },
+    {
+      "dimension_id": "false_belief_and_deception_tracking",
+      "definition": "The degree to which the viewer must track characters acting on incorrect information, lies, or hiding their true knowledge from others.",
+      "domain": "mental_state_attribution_and_perspective_taking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character lying to another character's face",
+        "A character acting on a false assumption or misunderstanding",
+        "An undercover agent pretending to be someone else",
+        "A character hiding a secret object or truth from someone in the room"
+      ],
+      "graded_anchors": {
+        "0": "No deception or false beliefs; all characters are fully informed, honest, and transparent.",
+        "1": "Very minor, harmless white lie or a brief, insignificant misunderstanding.",
+        "2": "A character keeps a small, personal secret that doesn't affect others.",
+        "3": "Mild deception, such as a character withholding a piece of non-critical information.",
+        "4": "Clear false belief, where a character is mistaken about a minor detail of the situation.",
+        "5": "Active deception, such as a character telling a significant lie to protect themselves or others.",
+        "6": "High-stakes deception, such as an undercover spy interacting with targets who have no idea of their true identity.",
+        "7": "Complex false belief tracking, where a character acts on a major misconception while the viewer and another character know the truth.",
+        "8": "Intense, multi-layered deception, such as a character pretending to cooperate while secretly plotting a betrayal.",
+        "9": "Extreme deception and false belief, where a character's entire survival depends on maintaining a massive lie in a high-pressure confrontation.",
+        "10": "A masterfully complex web of deception and false beliefs, where multiple characters are actively deceiving each other, operating on conflicting false assumptions, and the viewer must track several layers of hidden knowledge."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A mother asks her son if he ate the cookie, and he honestly admits that he did.",
+          "score": 0
+        },
+        {
+          "scene": "A woman tells her coworker she likes his tie, even though she secretly thinks it is ugly.",
+          "score": 2
+        },
+        {
+          "scene": "An undercover detective sits at a table with a mob boss, calmly answering questions about his fake background while keeping his wire hidden.",
+          "score": 7
+        },
+        {
+          "scene": "In a tense standoff, a double agent convinces the villain that the hero is dead, using a fake body, while the hero secretly positions themselves for an ambush.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of lies, secrets, undercover operations, misunderstandings, and characters acting on incorrect information.",
+      "exclusion_note": "Do not score simple disagreements or open conflicts where everyone's motives and knowledge are fully transparent."
+    },
+    {
+      "dimension_id": "hidden_motive_and_intent_inference",
+      "definition": "The requirement for the viewer to infer a character's unexpressed plans, secret goals, or underlying strategic calculations that are not explicitly stated.",
+      "domain": "mental_state_attribution_and_perspective_taking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character exchanging a knowing, secret glance with an accomplice",
+        "A character observing someone from a distance with an unreadable expression",
+        "A character subtly manipulating a conversation to extract information",
+        "An ambiguous action that suggests a hidden agenda"
+      ],
+      "graded_anchors": {
+        "0": "No hidden motives; characters state their intentions openly and act in perfect alignment with their words.",
+        "1": "Extremely straightforward behavior with a very minor, easily guessed motive.",
+        "2": "Simple, common motives that require almost no effort to infer (e.g., eating because of hunger).",
+        "3": "Low-level strategic behavior, such as a character being slightly evasive about their plans.",
+        "4": "Moderate hidden intent, where a character's actions are slightly mysterious but their general goal is clear.",
+        "5": "Clear hidden motive, such as a character subtly steering a conversation to gather intelligence without revealing why.",
+        "6": "Strong strategic calculation, where a character's behavior seems counterintuitive, forcing the viewer to guess their true motive.",
+        "7": "High-stakes hidden agenda, such as a character secretly sabotaging a mission while pretending to help.",
+        "8": "Deeply mysterious or ambiguous behavior that strongly implies a complex, unexpressed plan or conspiracy.",
+        "9": "Extremely complex strategic maneuvering, where a character plays multiple sides against each other, leaving their true loyalty highly ambiguous.",
+        "10": "An incredibly intricate, high-stakes scenario of psychological chess, where every action is a calculated move in a hidden, grand strategy that the viewer must actively piece together."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A hungry man walks into a diner, orders a burger, and eats it immediately.",
+          "score": 0
+        },
+        {
+          "scene": "A politician smiles warmly and shakes hands with voters, but his eyes remain cold and calculating as he scans the crowd.",
+          "score": 5
+        },
+        {
+          "scene": "A character secretly slips a mysterious vial of liquid into a guest's drink while they are looking away, smiling innocently when they turn back.",
+          "score": 8
+        },
+        {
+          "scene": "In a high-stakes board meeting, a CEO subtly goads his rival into making a rash decision, executing a complex, unstated plan to force her resignation.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of ambiguous, strategic, or suspicious behavior that requires the viewer to infer a character's underlying motives or plans.",
+      "exclusion_note": "Do not score scenes where characters explicitly explain their plans, feelings, or motives to the audience or other characters."
+    },
+    {
+      "dimension_id": "empathic_perspective_taking",
+      "definition": "The requirement for the viewer to infer and empathize with a character's internal emotional state, unexpressed feelings, or subjective experience in response to a situation.",
+      "domain": "mental_state_attribution_and_perspective_taking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character silently reacting to tragic news",
+        "A character hiding their sadness or fear behind a brave face",
+        "A character experiencing a quiet moment of grief or trauma",
+        "A character looking longingly at a lost loved one's photograph"
+      ],
+      "graded_anchors": {
+        "0": "No emotional depth or perspective-taking required; characters are robotic, neutral, or the scene is purely action-focused.",
+        "1": "Very superficial emotional reaction, such as a brief, standard smile or frown.",
+        "2": "Simple, explicit emotion that requires no deep inference (e.g., crying loudly when hurt).",
+        "3": "Low-level emotional inference, such as a character looking slightly downcast.",
+        "4": "Moderate emotional depth, where a character is quiet and the viewer must infer their feelings from the context.",
+        "5": "Clear empathic perspective-taking, such as a character trying to stay strong for their children while secretly crying.",
+        "6": "Strong emotional resonance, where the viewer must put themselves in the character's shoes to understand their complex feelings.",
+        "7": "High-intensity internal conflict, such as a character forced to make a painful sacrifice and silently coping with the grief.",
+        "8": "Deeply moving, silent portrayal of trauma, grief, or heartbreak that demands intense empathy from the viewer.",
+        "9": "Extremely profound, complex emotional state, such as a character experiencing a mixture of relief, guilt, and sorrow after a tragedy.",
+        "10": "An overwhelming, deeply poignant emotional climax where the viewer is forced to fully inhabit a character's profound internal suffering, grief, or existential crisis, conveyed entirely through subtle, silent acting."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A robot moves boxes from one shelf to another in a sterile warehouse.",
+          "score": 0
+        },
+        {
+          "scene": "A boy scrapes his knee, cries out in pain, and his mother immediately puts a bandage on it.",
+          "score": 2
+        },
+        {
+          "scene": "A woman receives a letter, reads it silently, and slowly sinks into a chair, her face blank with shock as a single tear rolls down her cheek.",
+          "score": 7
+        },
+        {
+          "scene": "A father stands at his son's grave, staring silently at the headstone as the rain pours down, his face a mask of suppressed, devastating grief.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of silent emotional suffering, suppressed feelings, grief, longing, and complex internal states that require empathic inference.",
+      "exclusion_note": "Do not score outward, explosive anger or simple physical pain that does not require deep psychological perspective-taking."
+    },
+    {
+      "dimension_id": "vocal_prosody_and_emotional_expression",
+      "definition": "The presence and intensity of emotional inflection, tone, pitch, and volume in spoken words (e.g., whispering in fear, shouting in anger, trembling voice).",
+      "domain": "audiovisual_speech_and_communication_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A voice trembling with suppressed tears",
+        "A furious, screaming argument",
+        "A tense, hushed whisper in the dark",
+        "A sarcastic, mocking tone of voice"
+      ],
+      "graded_anchors": {
+        "0": "No speech or vocalization occurs; the scene is completely silent or features only instrumental music.",
+        "1": "Flat, monotone speech with absolutely no emotional inflection or prosody.",
+        "2": "Standard, neutral conversational tone with typical, low-intensity prosody.",
+        "3": "Slightly expressive tone, such as mild annoyance or gentle warmth in the voice.",
+        "4": "Moderate vocal emotion, like a clearly nervous stutter or a firm, authoritative tone.",
+        "5": "Clear, emotionally charged speech, such as a character speaking with a trembling voice or a sharp, angry tone.",
+        "6": "Highly expressive vocal prosody, including shouting in frustration or whispering frantically in fear.",
+        "7": "Intense vocal emotion, such as a character sobbing while speaking or screaming in terror.",
+        "8": "Extremely powerful vocal expression, like a furious, throat-shredding tirade or a deeply broken, tearful plea.",
+        "9": "Violent, chaotic vocal delivery, combining screaming, sobbing, and gasping for air during a high-stakes confrontation.",
+        "10": "An extraordinary, climactic display of vocal emotion, where a character's voice cracks, screams, and whispers in a tour de force of raw, overwhelming psychological intensity."
+      },
+      "calibration_examples": [
+        {
+          "scene": "An automated computer voice reads out a list of system coordinates in a flat, robotic tone.",
+          "score": 1
+        },
+        {
+          "scene": "Two colleagues discuss the weather in polite, standard conversational tones.",
+          "score": 2
+        },
+        {
+          "scene": "A terrified soldier hides in a closet, whispering in a frantic, trembling voice to the emergency operator.",
+          "score": 6
+        },
+        {
+          "scene": "A mother screams in absolute agony and rage, her voice cracking and breaking as she begs the kidnapper to release her child.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of how words are spoken, focusing on tone, volume, trembling, screaming, whispering, and emotional inflection.",
+      "exclusion_note": "Do not score the semantic content of the words themselves, only the acoustic and emotional delivery of the speech."
+    },
+    {
+      "dimension_id": "visible_speech_and_lip_movement",
+      "definition": "The visual prominence of a character actively speaking, where their mouth movements, facial expressions, and lip shapes accompany their spoken words.",
+      "domain": "audiovisual_speech_and_communication_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Extreme close-up of a character's mouth as they speak",
+        "A character speaking directly to the camera",
+        "Clear, unobstructed view of a character's face during a monologue",
+        "Intense face-to-face dialogue with visible lip movements"
+      ],
+      "graded_anchors": {
+        "0": "No visible speech; characters are not speaking, are off-screen, or their mouths are completely covered.",
+        "1": "A character speaks from a great distance or with their back turned, making lip movements invisible.",
+        "2": "Minimal visibility, such as a character speaking in a wide shot where their face is small and blurry.",
+        "3": "Low visibility, like a character speaking in a medium shot with partial obstruction or shadow.",
+        "4": "Moderate visibility, with a clear view of the character's face during standard dialogue.",
+        "5": "Clear, unobstructed view of a character speaking, with their mouth and facial expressions fully visible.",
+        "6": "High visibility, such as a close-up of a character delivering an important line or explanation.",
+        "7": "Very high prominence, with tight close-ups on the face and lips during an intense conversation.",
+        "8": "Extreme visual focus on the mouth and face, such as a character whispering directly into another's ear in a tight split-screen or close-up.",
+        "9": "An intense, prolonged close-up of a character's face as they deliver a powerful, emotional monologue directly facing the viewer.",
+        "10": "An absolute focus on visible speech, such as an extreme, screen-filling close-up of a character's lips enunciating words slowly and intensely, capturing every micro-movement of the mouth."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A narrator speaks over a montage of landscape shots; no characters are shown speaking.",
+          "score": 0
+        },
+        {
+          "scene": "Two characters talk while walking away from the camera down a long, foggy street.",
+          "score": 1
+        },
+        {
+          "scene": "The camera frames a tight close-up of a politician's face as he delivers a passionate speech, his lips and facial muscles moving dynamically with every word.",
+          "score": 7
+        },
+        {
+          "scene": "An extreme close-up fills the screen with a character's mouth as they slowly and deliberately whisper a secret code word, capturing the precise movement of their lips and teeth.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of close-ups, face-to-face framing, and clear visibility of the mouth and lips during speech.",
+      "exclusion_note": "Do not score off-screen voices, voiceovers, or scenes where the speaker's face is obscured or turned away."
+    },
+    {
+      "dimension_id": "non_verbal_vocalizations_and_sound_pairing",
+      "definition": "The presence of non-verbal sounds produced by characters (e.g., gasping, laughing, sighing, crying) paired with their corresponding visual reactions.",
+      "domain": "audiovisual_speech_and_communication_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A sudden, sharp gasp of shock",
+        "A burst of hysterical laughter",
+        "A heavy, defeated sigh",
+        "Choked sobbing or whimpering"
+      ],
+      "graded_anchors": {
+        "0": "No non-verbal vocalizations; characters are silent or engage only in standard, dry speech.",
+        "1": "Extremely subtle, barely audible breath or sniffle.",
+        "2": "A minor, brief non-verbal sound, such as a quick clearing of the throat.",
+        "3": "Low-intensity vocalization, like a soft sigh or a quiet chuckle.",
+        "4": "Moderate non-verbal sound, such as a clear gasp of surprise or a brief laugh.",
+        "5": "Clear, expressive vocalization, like a loud sigh of relief, a hearty laugh, or a quiet whimper.",
+        "6": "High-intensity vocalization, such as a sharp gasp of horror or a burst of mocking laughter.",
+        "7": "Strong emotional vocalization, like heavy, choked sobbing or a loud groan of physical pain.",
+        "8": "Extremely intense non-verbal sounds, such as hysterical, uncontrollable laughter or frantic, breathless hyperventilating.",
+        "9": "Violent, raw vocalizations, combining agonizing screams, gasps, and heavy sobbing in a highly dramatic moment.",
+        "10": "An overwhelming, continuous barrage of raw, non-verbal vocalizations, such as a character hyperventilating in a panic attack, gasping for air, and sobbing hysterically in a tight, claustrophobic close-up."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man reads a book in a quiet library, making no sound at all.",
+          "score": 0
+        },
+        {
+          "scene": "A woman gasps in sudden surprise as a jack-in-the-box pops open in front of her.",
+          "score": 4
+        },
+        {
+          "scene": "Upon hearing the tragic news, the man breaks down into heavy, choked sobbing, gasping for breath between tears.",
+          "score": 7
+        },
+        {
+          "scene": "Trapped in a sinking car, a woman hyperventilates frantically, letting out sharp, terrified gasps and whimpers as the water rises to her chin.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of non-verbal sounds (gasping, laughing, sighing, sobbing, screaming) and their visual expression.",
+      "exclusion_note": "Do not score standard spoken dialogue or environmental sound effects (like explosions or thunder) that are not produced by characters."
+    },
+    {
+      "dimension_id": "gaze_direction_and_mutual_stare",
+      "definition": "The tracking of where characters are directing their eyes, specifically focusing on mutual eye contact or intense, direct stares between characters.",
+      "domain": "social_attention_and_gaze_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Locked eye contact during a confrontation",
+        "A romantic, lingering gaze between lovers",
+        "An intense, hostile stare-down",
+        "A character staring intently at another who is unaware"
+      ],
+      "graded_anchors": {
+        "0": "No gaze tracking; characters are blindfolded, asleep, or looking in completely different directions with no visual connection.",
+        "1": "Extremely brief, casual glance that is immediately broken.",
+        "2": "Standard, brief eye contact during a casual conversation.",
+        "3": "Low-intensity gaze, such as a character looking at another while speaking.",
+        "4": "Moderate eye contact, with characters looking at each other for several seconds.",
+        "5": "Clear, sustained mutual gaze, establishing a strong connection or tension between two characters.",
+        "6": "Intense, focused stare, such as a character watching another's movements closely across a room.",
+        "7": "High-intensity mutual stare-down, conveying deep romantic interest, suspicion, or silent confrontation.",
+        "8": "Extremely powerful, locked eye contact where neither character blinks, charging the scene with psychological tension.",
+        "9": "A fierce, unbroken, hostile stare-down during a critical standoff, where their eyes convey absolute determination or hatred.",
+        "10": "An overwhelming, climactic duel of gazes, where the camera cuts rapidly between extreme close-ups of two characters' eyes locked in an intense, unbroken, and emotionally charged mutual stare."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Two strangers sit back-to-back on a bench, staring at their respective phones.",
+          "score": 0
+        },
+        {
+          "scene": "A waiter takes an order, briefly making eye contact with the customer before writing it down.",
+          "score": 2
+        },
+        {
+          "scene": "The hero and the villain stand ten feet apart, their eyes locked in a fierce, silent stare-down before the duel begins.",
+          "score": 8
+        },
+        {
+          "scene": "In a tight close-up, two lovers stare deeply into each other's eyes, their gazes completely locked as the rest of the world fades away.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of characters looking at each other, locking eyes, staring, or exchanging intense glances.",
+      "exclusion_note": "Do not score characters looking at inanimate objects, landscapes, or looking around a room generally without focusing on another person."
+    },
+    {
+      "dimension_id": "joint_attention_and_pointing",
+      "definition": "The tracking of when characters establish a shared focus, looking at or pointing to a specific object, event, or third person together.",
+      "domain": "social_attention_and_gaze_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character pointing to a distant object while others look",
+        "Multiple characters staring in awe at a sudden explosion",
+        "Two people huddled over a map, tracing a route together",
+        "A crowd turning their heads simultaneously to watch a newcomer enter"
+      ],
+      "graded_anchors": {
+        "0": "No joint attention; characters are looking at completely different things or are isolated.",
+        "1": "A character looks at something, but no one else notices or shares the focus.",
+        "2": "Minimal joint attention, such as one character briefly glancing at what another is holding.",
+        "3": "Low-level shared focus, like two people looking at a television screen together.",
+        "4": "Moderate joint attention, such as a character pointing out a passing car and another looking at it.",
+        "5": "Clear, coordinated joint attention, where multiple characters look at the same object or event with shared interest.",
+        "6": "Strong shared focus, such as a group of detectives huddled around a single piece of evidence on a table, analyzing it together.",
+        "7": "High-intensity joint attention, where a character points frantically at a sudden threat, and everyone immediately locks their gaze onto it.",
+        "8": "Extremely coordinated group attention, such as an entire crowd turning in unison to stare at a shocking event.",
+        "9": "Intense, dramatic joint attention, where multiple characters track a fast-moving, critical target together with high anxiety.",
+        "10": "A monumental moment of collective, synchronized joint attention, where every character in the scene is visually and physically locked onto a single, climactic event, their shared gaze driving the entire narrative tension."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man looks at his watch while a woman next to him stares out the window.",
+          "score": 0
+        },
+        {
+          "scene": "A guide points toward a mountain peak, and the group of tourists turn their heads to look at where he is pointing.",
+          "score": 5
+        },
+        {
+          "scene": "Suddenly, a loud crash echoes from the sky; everyone in the crowded square stops, gasps, and looks up in unison at a falling meteor.",
+          "score": 8
+        },
+        {
+          "scene": "In a tense operating room, the entire surgical team bends over the patient, their eyes collectively glued to the surgeon's hands as he makes a critical incision.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of multiple characters looking at, pointing to, or tracking the same object, person, or event simultaneously.",
+      "exclusion_note": "Do not score mutual eye contact between characters (which belongs to mutual stare) or solitary looking."
+    },
+    {
+      "dimension_id": "avoidant_or_covert_gaze",
+      "definition": "The tracking of when a character deliberately avoids eye contact, looks away in guilt or shame, or secretly watches someone/something from the corner of their eye.",
+      "domain": "social_attention_and_gaze_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Looking down in shame or guilt when questioned",
+        "A character quickly averting their eyes when caught staring",
+        "Watching someone secretly through a mirror or reflection",
+        "Glancing sideways suspiciously without turning the head"
+      ],
+      "graded_anchors": {
+        "0": "No avoidant or covert gaze; characters look at each other openly, directly, and without hesitation.",
+        "1": "Extremely minor, natural blink or brief look away during a normal conversation.",
+        "2": "A character briefly looks down or away out of mild shyness.",
+        "3": "Low-level avoidant gaze, such as a character looking away when a slightly uncomfortable topic is raised.",
+        "4": "Moderate avoidant gaze, like a child looking at the floor while being scolded by a parent.",
+        "5": "Clear covert gaze, such as a character pretending to read a newspaper while secretly watching someone across the room.",
+        "6": "Strong avoidance of eye contact, where a character actively refuses to look at another due to intense guilt, fear, or shame.",
+        "7": "High-stakes covert tracking, such as a spy watching a target's reflection in a window to avoid detection.",
+        "8": "Extremely tense avoidant gaze, where a character desperately tries to look natural while avoiding eye contact with a suspicious interrogator.",
+        "9": "Intense, dramatic covert watching, where a character's survival depends on secretly tracking someone's movements without being caught looking.",
+        "10": "A masterclass in covert and avoidant gaze, where a character is trapped in a high-pressure situation, forced to constantly avert their eyes in terror or guilt, while simultaneously tracking their surroundings through highly calculated, secret glances."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Two friends talk face-to-face, maintaining open, friendly, and direct eye contact throughout.",
+          "score": 0
+        },
+        {
+          "scene": "When asked if he broke the vase, the little boy looks down at his shoes and mumbles, refusing to meet his mother's eyes.",
+          "score": 5
+        },
+        {
+          "scene": "A detective sits in a diner, holding a menu up to his face but keeping his eyes glued to the reflection of the suspect in the window behind him.",
+          "score": 7
+        },
+        {
+          "scene": "Under intense interrogation, the spy sweats profusely, keeping his eyes darting around the room and looking everywhere except at the detective's piercing gaze, trying to hide his panic.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of characters looking away, avoiding eye contact, glancing sideways, or watching others secretly/indirectly.",
+      "exclusion_note": "Do not score direct, open eye contact or general blindness/inability to see."
+    }
+  ],
+  "metadata": {
+    "domain_pool": {
+      "source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/pSTS/domain_pool_auto_confirmed.json",
+      "content_sha256": "9fdca4474258c95799d7efbbfba4bcc97f91976ac78dc3d0c7ccc2c960c56f13",
+      "version": "domain_pool_v2",
+      "target_region": "pSTS",
+      "curation_status": "confirmed",
+      "proposal_runs": 5,
+      "curated_domain_ids": [
+        "social_interaction_tracking",
+        "biological_motion_and_action_intent_appraisal",
+        "mental_state_attribution_and_perspective_taking",
+        "audiovisual_speech_and_communication_integration",
+        "social_attention_and_gaze_tracking"
+      ]
+    },
+    "source_provider": "gemini",
+    "source_model": "gemini-3.5-flash",
+    "fixed_roi_definition": {
+      "roi_id": "pSTS",
+      "display_name": "posterior superior temporal sulcus",
+      "theoretical_role": "Biological motion perception, intention inference, and gaze or action interpretation.",
+      "selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            121,
+            122,
+            123,
+            124
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "command": "summarize-descriptions",
+  "descriptions": "D:\\Doc\\meta_prompt\\friends\\description\\downloaded_refine_descriptions\\mv_friends_s06e01a\\descriptions\\refined_description.md",
+  "summary_file": "D:\\Doc\\meta_prompt\\friends\\demo\\output\\summaries\\s06e01a\\summary.json",
+  "metadata_file": "D:\\Doc\\meta_prompt\\friends\\demo\\output\\summaries\\s06e01a\\summary_metadata.json",
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_batch_size": 40,
+  "n_segments": 273,
+  "n_batches": 7,
+  "generated_at": "2026-06-16T09:09:32.028643+00:00",
+  "prompt_contract": {
+    "batch_summary_words": "50-100",
+    "cumulative_summary_words": "100-200",
+    "summary_schema": "fallen_notebook_batch_summary_array"
+  }
+}

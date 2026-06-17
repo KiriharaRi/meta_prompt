@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:02",
+    "batch_summary": "The friends attend Joey's off-Broadway musical, 'Freud!', and endure a bizarre, uncomfortable performance. Despite their initial excitement and Ross's hope for 'magic,' they are left feeling violated and disturbed. The show features a strange musical number about Freudian themes, and afterward, they collectively express their trauma. Ross, however, is distracted by a beautiful woman he spots in the audience.",
+    "cumulative_summary": "The story begins as Ross, Monica, Chandler, Rachel, and Phoebe go to the Cherry Lane Theatre to see their friend Joey's new musical, 'Freud!' They are initially excited but quickly become apprehensive. During the performance, which features an actor singing and dancing about Freudian concepts in an exaggerated manner, their discomfort grows. After the show, they are all left feeling violated and disturbed by the bizarre experience, with Rachel stating she feels violated and Chandler comparing the urge to peel his skin off. Amid their shared trauma, Ross becomes distracted by noticing an attractive woman seated near them in the theater."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:02 - 00:03:35",
+    "batch_summary": "After the traumatic musical, the group focuses on Chandler's crush on a woman named Aurora. Despite his friends' encouragement, he's convinced she's out of his league. After a nervous, awkward approach where he fumbles his words and nearly flees, he musters the courage to ask her out, though he nearly blows it. The segment ends as Joey joins them, and the group struggles to give him honest feedback on his performance.",
+    "cumulative_summary": "The story begins as Ross, Monica, Chandler, Rachel, and Phoebe attend their friend Joey's bizarre musical, 'Freud!', leaving them all feeling violated and disturbed. Amid their shared trauma, Ross is distracted by an attractive woman. Later, Chandler becomes fixated on another woman, Aurora. With his friends' encouragement, he nervously approaches her. After a fumbling, awkward conversation where he almost runs away, he successfully asks her out. The segment ends with Joey joining the group, who are hesitant to give him honest feedback on his disturbing performance."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:35 - 00:05:16",
+    "batch_summary": "The group hesitantly offers Joey indirect praise for his play, avoiding honest criticism. Chandler interrupts with excitement, revealing his date with Aurora is set, which briefly turns his attention back to mock Joey. Joey then discovers a business card from the Estelle Leonard Talent Agency left by an usher, interpreting a cryptic note ('Call me a SAP') as encouragement. Despite the group's skepticism, Joey confidently visits the agency, meeting the eccentric, chain-smoking agent Estelle Leonard in her cluttered office, who playfully introduces herself and invites him to sit.",
+    "cumulative_summary": "After attending Joey's disturbing musical 'Freud!', Ross, Monica, Chandler, Rachel, and Phoebe are left feeling violated. Ross is distracted by an attractive woman, while Chandler, with friends' encouragement, nervously asks out Aurora. The next day, the group awkwardly avoids giving Joey direct feedback on his play. Chandler bursts in excited to share his successful date with Aurora, then abruptly insults Joey's performance. Joey finds a business card from the Estelle Leonard Talent Agency left by an usher, misinterpreting a note as high praise. Undeterred by his friends' doubts, he visits the agency and meets the flamboyant, cigarette-smoking agent Estelle Leonard, beginning a new potential opportunity."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:16 - 00:07:08",
+    "batch_summary": "Joey meets with agent Estelle Leonard, who crudely but enthusiastically signs him, comparing their future partnership to a Hollywood romance. Meanwhile, the friends attempt to see a Magic Eye image in the coffee shop. Chandler eagerly recounts his amazing first date with Aurora, describing her fascinating and adventurous life story, including her time in the Israeli army.",
+    "cumulative_summary": "After Joey's disastrous musical, Chandler successfully asks out Aurora. Joey, undeterred by friends' skepticism, meets with flamboyant agent Estelle Leonard and secures representation. In the coffee shop, the group struggles with a Magic Eye poster, with only Ross unable to see the hidden image. Chandler bursts in with excitement, sharing details of his incredible first date with Aurora, highlighting her extraordinary background. Joey's career gains a new, promising, if eccentric, champion, while Chandler's romantic life takes an enthusiastic turn."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:08 - 00:08:25",
+    "batch_summary": "On their date, Aurora reveals to a stunned Chandler that she is still married to her husband, Rick. The shock deepens when she casually mentions her boyfriend, Ethan, implying she is in multiple simultaneous relationships. Chandler's initial romantic excitement quickly turns to bewildered horror, while the Friends back in the coffee shop react with collective disbelief.",
+    "cumulative_summary": "After Joey secures the eccentric agent Estelle, the group deals with a Magic Eye poster. Chandler, having successfully asked out Aurora, recounts an amazing first date where her fascinating background is highlighted. However, on their second date at a restaurant, Aurora delivers a series of shocks: she casually mentions her husband, Rick, clarifies she is not divorced or widowed, and then introduces her boyfriend, Ethan. Chandler's initial romantic enthusiasm crumbles into stunned silence and horror, while his friends react with disbelief. Joey's career now has a new champion, but Chandler's romantic life has taken a dramatically complicated turn."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:25 - 00:10:27",
+    "batch_summary": "At the restaurant, Aurora clarifies that she sees her relationship with Chandler as 'mainly sexual.' Back at the coffee shop, a stunned Chandler defends his decision to keep seeing her, calling it 'every guy's fantasy,' but his friends are skeptical. Ross attempts an anthropological lecture on monogamy, which is humorously shut down. Later, the group arrives at Rachel's apartment, where she proudly presents her meticulous cleaning.",
+    "cumulative_summary": "After Joey secures agent Estelle, Chandler asks out Aurora and has a great first date. Their second date turns shocking when Aurora reveals she has a husband, Rick, and a boyfriend, Ethan. Despite this, Chandler is intrigued. In the coffee shop, he defends his choice to continue seeing her, framing it as a fantasy with 'all the good stuff.' His friends—Monica, Ross, Phoebe, and Joey—react with a mix of disbelief and humor. Ross's attempt to lecture on monogamy is comically rebuffed. The group then visits Rachel's apartment, where she eagerly shows off her extensive cleaning."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:10:27 - 00:12:07",
+    "batch_summary": "In Rachel's apartment, the friends admire her cleaning. Monica becomes fixated when she notices Rachel moved the green ottoman. She subtly returns it to its original spot, rationalizing the change. The group teases Monica about her extreme cleanliness and control issues, citing childhood examples. Defensively, Monica insists she can be fun, leading to a comedic exchange where Ross sarcastically challenges her to prove it, resulting in a brief, silent black screen.",
+    "cumulative_summary": "After Joey gets an agent and Chandler's complicated relationship with Aurora unfolds, the group gathers at Rachel's apartment to see her impressive cleaning. Monica's control issues surface when she obsesses over Rachel moving a green ottoman, secretly moving it back. The friends tease Monica relentlessly about her rigidness, prompting her defensive claim that she can be spontaneous. Ross's sarcastic challenge leads to a comedic moment of silence, highlighting the group's dynamic of good-natured ribbing about Monica's personality."
+  }
+]

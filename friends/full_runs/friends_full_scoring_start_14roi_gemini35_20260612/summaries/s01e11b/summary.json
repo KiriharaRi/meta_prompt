@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:30",
+    "batch_summary": "In the apartment hallway, Joey and Ross watch Rachel kiss a man goodbye. Inside, Joey and Ross argue about whether Ross should reveal a secret before Monica interrupts them. Later, at the hospital, Phoebe is visiting a comatose man when Monica unexpectedly arrives with balloons. Both women realize they have been secretly visiting \"Coma Guy\" individually, leading to a slightly awkward confrontation about how often they visit him.",
+    "cumulative_summary": "In the apartment hallway, Joey and Ross watch as Rachel bids a romantic farewell to a man. After Rachel heads inside, Joey and Ross retreat to their apartment, where they bicker about whether Ross should reveal a secret to someone before his mother does. Their conversation is interrupted by Monica, who questions their presence. The scene then shifts to a hospital, where Phoebe is tenderly visiting a patient in a coma. Monica suddenly walks in carrying colorful balloons, catching Phoebe off guard. As both women try to downplay their presence, it becomes clear that they have both been secretly and frequently visiting \"Coma Guy\" without telling each other. This awkward encounter reveals their shared, secret attachment to the patient, leaving them to question how often the other has been dropping by."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:30 - 00:03:21",
+    "batch_summary": "After Monica and Phoebe's hospital encounter, Ross confesses to Chandler that he, not Paolo, kissed Chandler's mother, Nora. Chandler is furious and deeply hurt by the betrayal, especially upon learning Joey kept the secret. After Chandler storms out, Joey warns Ross about breaking their friendship code. Later, at Central Perk, Rachel shares a suggestive excerpt from a romance novel she is writing with Monica.",
+    "cumulative_summary": "After Monica and Phoebe awkwardly discover they have both been secretly visiting a coma patient, the focus shifts to Ross's looming confession. Unable to keep the secret any longer, Ross admits to Chandler that he was the one who kissed Chandler's mother, Nora, while drunk and upset over Rachel. Chandler is deeply hurt and outraged by the betrayal, especially after learning Joey knew and kept it a secret. Chandler storms out of the apartment, leaving Joey to lecture Ross about breaking their friendship code. Later, at Central Perk, Rachel lightens the mood by reading Monica a highly suggestive excerpt from a romance novel she has started writing."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:21 - 00:05:14",
+    "batch_summary": "At Central Perk, Rachel introduces Phoebe, who performs a bizarre song dedicated to the coma patient she and Monica have been visiting. However, Phoebe abruptly cuts her performance short and runs outside. Meanwhile, Joey proudly shows Ross a photo of his mother, leading to an awkward conversation. Chandler then arrives, still furious with Ross. He pointedly ignores Ross and addresses Joey, calling Ross a \"mother kisser\"—an insult that Joey finds absolutely hilarious, breaking the tense atmosphere with laughter.",
+    "cumulative_summary": "After Monica and Phoebe discover they have both been secretly visiting a coma patient, Ross confesses to Chandler that he kissed Chandler's mother, Nora. Deeply hurt and outraged by the betrayal, Chandler storms out, leaving Joey to lecture Ross. Later at Central Perk, Rachel helps Monica edit her romance novel before introducing Phoebe, who performs a bizarre song dedicated to their beloved coma patient. However, Phoebe abruptly cuts her set short and runs outside. Meanwhile, Joey proudly shows Ross a wedding photo of his mother. When a still-furious Chandler arrives, he pointedly ignores Ross and addresses Joey, coining the insult \"mother kisser\" for Ross. While Chandler remains angry, Joey finds the nickname hilarious, momentarily cutting through the tension."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:14 - 00:07:01",
+    "batch_summary": "At Central Perk, Ross tries to convince Chandler to confront his mother about the kiss, but Chandler refuses, calling her a \"Freudian nightmare.\" Their loud argument draws stares, which Ross and Joey awkwardly cover up as a Greek play rehearsal. Meanwhile, Monica and Phoebe visit the hospital only to find their beloved coma patient has finally woken up. When they eagerly list all the sweet things they did for him while he was asleep, he offers a polite but dismissive farewell, leaving both women deeply disappointed.",
+    "cumulative_summary": "After Ross confesses to kissing Chandler's mother, Nora, a furious Chandler continues to freeze him out. At Central Perk, Ross tries to defend himself and urges Chandler to confront his mother directly. Chandler refuses, calling her a \"Freudian nightmare,\" and their loud confrontation forces Ross and Joey to pretend they are rehearsing a Greek play. Meanwhile, Monica and Phoebe return to the hospital to find that their beloved coma patient has finally woken up. Eager to win his affection, they introduce themselves and list all the thoughtful things they did for him during his coma. However, instead of the romantic connection they envisioned, the man gives them a polite but incredibly dismissive farewell, leaving both women stunned and disappointed."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:01 - 00:08:37",
+    "batch_summary": "Monica and Phoebe officially end their pursuit of the newly awakened coma patient, expressing their deep disappointment in his ungrateful attitude before storming out. Meanwhile, Chandler's mother, Nora, stops by to say goodbye. Just as she is about to leave, Chandler finally finds the courage to confront her about kissing Ross. Nora closes the door and admits that her actions were incredibly stupid, opening the door for an honest conversation between mother and son.",
+    "cumulative_summary": "After Ross confesses to kissing Chandler's mother, Nora, a furious Chandler freezes him out. Ross urges Chandler to confront his mother directly, but Chandler initially refuses. Meanwhile, Monica and Phoebe visit the hospital only to find their beloved coma patient has woken up. Expecting romance, they are met with a dismissive attitude. After expressing their frustration at his ungratefulness, the women storm out, concluding his only appeal was being in a coma. Later, Nora stops by Chandler's apartment to say goodbye. Finally taking Ross's advice, Chandler confronts his mother about kissing his best friend. Nora stops, closes the door, and admits her behavior was incredibly stupid, initiating a long-overdue, honest conversation between them."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:37 - 00:10:08",
+    "batch_summary": "Nora apologizes to Chandler for her behavior, and though Chandler admits they are not entirely okay, they reach a breakthrough. Outside, Joey excitedly tells Ross about Chandler's confrontation, albeit with a hilarious misunderstanding about Nora having a \"bomb.\" After Joey and Ross unsuccessfully try to spy on the apartment, Nora and Chandler emerge. Nora affectionately checks on Chandler, kisses his cheek, and bids him a warm farewell, leaving their relationship on much better, more honest terms.",
+    "cumulative_summary": "After Ross confesses to kissing Chandler's mother, Nora, a furious Chandler freezes him out. Meanwhile, Monica and Phoebe visit the hospital only to find their beloved coma patient has woken up, but they storm out after he proves to be incredibly ungrateful. Later, Nora stops by Chandler's apartment to say goodbye. Taking Ross's advice, Chandler confronts his mother about her behavior. Nora apologizes sincerely, admitting her actions were stupid. Though Chandler admits they are not completely fine yet, the air is cleared. Outside, Joey excitedly recounts the confrontation to Ross, hilariously misinterpreting Nora's words as a threat about a \"bomb\" before Ross corrects him. As Joey and Ross attempt to spy on the apartment, Nora and Chandler emerge. Nora affectionately checks on her son, kisses his cheek, and bids him a warm farewell. This long-overdue, honest conversation finally brings a sense of closure and healing to Chandler's complicated relationship with his mother."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:10:08 - 00:11:45",
+    "batch_summary": "Following Nora's departure, Ross and Chandler reconcile with a heartfelt handshake, putting the kissing incident behind them as Chandler admits he feels good about confronting his mother. Later, the friends gather in Monica's apartment where Rachel shares the first chapter of her new book. However, the serious moment quickly devolves into hilarity as the group points out numerous embarrassing typos, including 'heaving beasts' and 'thropping pens,' prompting an embarrassed Rachel to snatch her manuscript back.",
+    "cumulative_summary": "After Ross confesses to kissing Chandler's mother, Nora, a furious Chandler freezes him out. Meanwhile, Monica and Phoebe's visit to a newly awakened coma patient ends in disappointment due to his ungrateful attitude. Encouraged by Ross, Chandler confronts Nora before she leaves town. The honest conversation brings much-needed closure, leading Nora to apologize and Chandler to feel relieved. Outside, Ross and Chandler finally reconcile with a warm handshake, putting the kissing incident behind them. Later, the friends gather as Rachel shares the first chapter of her new book. However, the serious moment quickly devolves into hilarity when the group discovers a series of highly embarrassing typos, including 'heaving beasts' and 'thropping pens.' An embarrassed Rachel snatches her manuscript back, ending the day on a lighthearted note of shared laughter."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 280,
+    "timestamp_range": "00:11:45 - 00:11:50",
+    "batch_summary": "The segment draws to a quiet close as the screen fades to black, marking the definitive end of the day's dramatic confrontations and lighthearted moments. With Chandler and Ross reconciled, Nora departed, and the friends sharing a final laugh over Rachel's manuscript, this transition provides a peaceful conclusion to the group's chaotic but ultimately heartwarming experiences.",
+    "cumulative_summary": "After Ross confesses to kissing Chandler's mother, Nora, a furious Chandler freezes him out. Meanwhile, Monica and Phoebe's visit to a newly awakened coma patient ends in disappointment due to his ungrateful attitude. Encouraged by Ross, Chandler confronts Nora before she leaves town, leading to an apology and much-needed closure. Outside, Ross and Chandler finally reconcile with a warm handshake. Later, the friends gather as Rachel shares her new book, but the serious moment quickly devolves into hilarity when the group discovers highly embarrassing typos in her manuscript. An embarrassed Rachel snatches her work back, ending the day on a lighthearted note of shared laughter. Finally, the screen fades to black, bringing a peaceful and definitive close to the group's eventful day of emotional confrontations and warm reconciliation."
+  }
+]

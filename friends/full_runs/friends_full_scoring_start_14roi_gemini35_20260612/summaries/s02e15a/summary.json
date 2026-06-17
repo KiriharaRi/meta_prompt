@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:24",
+    "batch_summary": "Joey surprises Chandler with two brand-new leather reclining chairs and a large television, funded by his contract renewal on Days of Our Lives. After a joyful celebration, the roommates eagerly test out the recliners, finding ultimate comfort. Later, their friends Monica, Ross, and Phoebe join them. Monica jokingly criticizes the leather chairs, but Joey humorously defends them as they continue to lounge happily.",
+    "cumulative_summary": "Joey surprises his roommate Chandler by leading him blindfolded into their apartment to reveal a brand-new television and two matching black leather reclining chairs. Joey excitedly explains that he bought them because his acting option for Days of Our Lives was picked up. After a brief celebration, the two friends settle into their respective chairs, eagerly pulling the levers to recline in pure comfort. Later, their friends Monica, Ross, and Phoebe gather in the apartment. Monica playfully criticizes the purchase, pointing out that two cows sacrificed their lives for the leather chairs, but Joey humorously dismisses her comment, remaining completely content in his new seat."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:24 - 00:03:04",
+    "batch_summary": "Rachel arrives at the apartment and shares a romantic moment with Ross, excitedly announcing that tonight is their first official date. However, Monica quickly reminds Rachel that she was supposed to waitress for Monica's catering gig. Having completely forgotten, Rachel is in a bind until Phoebe volunteers to cover the shift. Despite Monica's skepticism about Phoebe's actual waitressing abilities, Phoebe confidently demonstrates her diner lingo to prove she is up for the job.",
+    "cumulative_summary": "Joey surprises Chandler with a new television and matching leather recliners bought with his Days of Our Lives earnings. While the friends gather to admire the TV, Rachel arrives and shares a romantic moment with Ross, excitedly announcing that tonight is their first official date. However, Monica quickly dampens her excitement by reminding Rachel that she promised to waitress for Monica's catering gig that evening. Having completely forgotten, Rachel is saved when Phoebe volunteers to cover the shift. Despite Monica's skepticism about Phoebe's actual waitressing abilities, Phoebe confidently demonstrates her diner lingo to prove she is up for the job, allowing Rachel to keep her date with Ross."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:04 - 00:04:50",
+    "batch_summary": "Monica and Phoebe arrive at their catering gig for Dr. Richard Burke, an old family friend. Richard is stunned by Monica's dramatic weight loss and compliments her appearance. During their conversation, Richard reveals he is recently divorced, leading to a warm, slightly flirtatious exchange. Meanwhile, back at the apartment, Joey and Chandler are so comfortable in their new leather recliners that Chandler orders pizza and instructs the delivery person to buzz Monica's apartment so they do not have to get up.",
+    "cumulative_summary": "Joey surprises Chandler with a new television and matching leather recliners. While the friends gather, Rachel and Ross share a romantic moment ahead of their first official date. However, Rachel realizes she promised to waitress for Monica's catering gig. Phoebe volunteers to cover for her, allowing Rachel to keep her date. Monica and Phoebe arrive at the gig, hosted by handsome family friend Dr. Richard Burke. Richard is stunned by Monica's dramatic weight loss and compliments her. As they catch up, Richard reveals he is recently divorced, sparking an immediate, warm connection between them. Meanwhile, Joey and Chandler are so comfortable in their new recliners that they refuse to get up, with Chandler ordering pizza and instructing the delivery person to buzz Monica's apartment instead of theirs to avoid moving."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:50 - 00:06:36",
+    "batch_summary": "Chandler and Joey remain glued to their recliners, even canceling their soda order to avoid having to get up to use the bathroom. Meanwhile, at the catering gig, Monica and Dr. Richard Burke share a playful, flirtatious connection in the kitchen. Phoebe notices their chemistry and teases Monica about being smitten. Although Monica hesitates due to their twenty-year age gap and his friendship with her parents, she admits she has conveniently scheduled an eye appointment with him the very next day.",
+    "cumulative_summary": "Joey surprises Chandler with a new television and matching leather recliners, leading to a lazy marathon where the two refuse to get up, even canceling their pizza sodas to avoid bathroom breaks. Meanwhile, Rachel and Ross prepare for their first date after Phoebe volunteers to cover Rachel's shift at Monica's catering gig. The event is hosted by handsome family friend Dr. Richard Burke, who is recently divorced and immediately charmed by Monica. As Monica and Richard share a playful, flirtatious connection in the kitchen, Phoebe teases Monica for being smitten. Although Monica initially resists the attraction due to their twenty-year age difference and his friendship with her parents, she eagerly admits she has already scheduled an eye appointment with him for the very next day."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:36 - 00:08:41",
+    "batch_summary": "After a brief flirtatious exchange between Monica and Richard, Ross and Rachel return from their first date. As they try to kiss, Rachel becomes incredibly nervous about crossing the line from friends to lovers. She repeatedly bursts into giggles, especially when Ross places his hands on her backside. Though Ross is slightly frustrated by her laughter, Rachel explains her anxiety about the significance of their relationship shift. They try to resume kissing, but the nervous tension and giggles linger.",
+    "cumulative_summary": "Joey and Chandler enjoy a lazy marathon in their new recliners, while Monica flirts with handsome family friend Dr. Richard Burke at a catering gig, scheduling an eye appointment with him despite their age difference. Meanwhile, Ross and Rachel return to the apartment after their first date. However, their highly anticipated romantic moment is interrupted by Rachel's nerves. As they begin to kiss, Rachel repeatedly bursts into giggles, particularly when Ross touches her backside. She admits she is anxious about crossing the line from friends to a couple. Although Ross is initially confused by her laughter, they try to overcome the awkwardness and resume kissing, though the nervous tension remains."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:41 - 00:10:17",
+    "batch_summary": "Rachel tries to salvage the romantic mood by playfully begging Ross to touch her backside, but a self-conscious Ross declares the moment is gone. Later, Ross visits Joey and Chandler, who are still glued to their recliners after fourteen hours. Defeated, Ross asks them if they have ever had a woman laugh while fooling around, prompting a humorous response from Chandler about his past haircut.",
+    "cumulative_summary": "Joey and Chandler enjoy a lazy marathon in their new recliners, while Monica flirts with handsome family friend Dr. Richard Burke at a catering gig, scheduling an eye appointment with him despite their age difference. Meanwhile, Ross and Rachel return to the apartment after their first date. However, their highly anticipated romantic moment is interrupted by Rachel's nerves. As they begin to kiss, Rachel repeatedly bursts into giggles, particularly when Ross touches her backside. Despite Rachel's playful attempts to salvage the mood by begging Ross to touch her again, Ross becomes too self-conscious, and the romantic moment is ruined. Later, Ross seeks comfort from Joey and Chandler, who are still comically glued to their recliners fourteen hours later. When Ross asks if they have ever had a woman laugh during an intimate moment, Chandler lightens the mood with a joke about his ridiculous 1982 haircut."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 269,
+    "timestamp_range": "00:10:17 - 00:11:33",
+    "batch_summary": "Ross admits to Joey and Chandler that he has wanted things to be perfect with Rachel since the ninth grade. When Rachel arrives at the apartment, Chandler's teasing prompts Ross and Rachel to step into the hallway for privacy. Rachel sincerely apologizes for her giggling the previous night and proposes a romantic makeup date, complete with candles, wine, and an intimate evening, successfully restoring their romantic momentum.",
+    "cumulative_summary": "Joey and Chandler enjoy a lazy marathon in their new recliners, while Monica flirts with handsome family friend Dr. Richard Burke, scheduling an eye appointment with him. Meanwhile, Ross and Rachel's highly anticipated first date ends awkwardly when Rachel's nervous giggling ruins their romantic moment. Seeking comfort, Ross confides in Joey and Chandler, admitting he has wanted things to be perfect with Rachel since the ninth grade. When Rachel arrives at the apartment, Chandler's teasing prompts her and Ross to step into the hallway for privacy. Rachel sincerely apologizes for her behavior the previous night and proposes a romantic makeup date with candles, wine, and intimacy, successfully reigniting their spark and restoring their romantic momentum."
+  }
+]

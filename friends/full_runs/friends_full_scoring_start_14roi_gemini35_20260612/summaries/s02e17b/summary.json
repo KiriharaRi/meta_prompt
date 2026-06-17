@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:56",
+    "batch_summary": "Joey visits Chandler's apartment to retrieve a moose-head hat, feeling hurt and replaced by Chandler's new roommate, Eddie. After Joey leaves, Ross, Rachel, and Monica discuss Eddie, labeling him a \"rebound roommate.\" Soon after, Phoebe excitedly arrives to show the group her new \"Smelly Cat\" music video. The friends watch in stunned silence as the dramatic, over-the-top video plays, featuring Phoebe singing with backup vocalists and holding a cat.",
+    "cumulative_summary": "Tension arises between former roommates when Joey visits Chandler's apartment to retrieve his belongings, including a moose-head hat. He is visibly hurt to find Chandler has already replaced him with a new roommate, Eddie. After Joey makes a swift, awkward exit, the scene shifts to Monica's apartment. There, Ross, Rachel, and Monica discuss Chandler's new living situation, with Monica dismissing Eddie as merely a \"rebound roommate.\" The mood quickly shifts when Phoebe bursts in with a videotape of her newly produced \"Smelly Cat\" music video. She eagerly plays it for her friends, who watch in bewildered, stiff silence. The dramatic video features Phoebe in a gown, surrounded by mist and backup singers, passionately singing her signature song to a fluffy cat."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:56 - 00:03:35",
+    "batch_summary": "Phoebe is thrilled by her \"amazing\" voice in her new music video, completely oblivious to the fact that she has been dubbed, while her friends watch in awkward silence. Later, Joey visits Chandler's apartment to pick up his mail and is struck by how much has changed. His jealousy and sense of displacement peak when he witnesses Eddie cooking a special breakfast for Chandler, especially after Chandler praises Eddie's cooking over Joey's signature egg dish.",
+    "cumulative_summary": "Tension arises when Joey visits Chandler's apartment to retrieve his belongings, hurt to find Chandler has already replaced him with a new roommate, Eddie. At Monica's apartment, Phoebe plays her new \"Smelly Cat\" music video. While Phoebe is thrilled by her \"amazing\" voice, completely unaware that her vocals have been dubbed, her friends watch in awkward silence. Later, Joey returns to Chandler's apartment to pick up his mail, only to find further evidence of Eddie's integration, including rearranged furniture. Joey's jealousy and sense of displacement peak when he witnesses Eddie cooking a special breakfast for Chandler. When Chandler enthusiastically praises Eddie's cooking, Joey is left feeling completely replaced and nostalgic for their old routine."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:35 - 00:05:08",
+    "batch_summary": "After Eddie leaves, Joey's simmering jealousy boils over when he finds an empty juice carton. He launches into a dramatic, metaphor-laden confrontation with Chandler, demanding to know if Chandler prefers Eddie's eggs over his. When Chandler points out that Joey was the one who chose to move out, Joey tries to deepen the metaphor with a confusing comment about a chicken before storming off in frustration.",
+    "cumulative_summary": "Tension arises when Joey visits Chandler's apartment to retrieve his belongings, hurt to find Chandler has already replaced him with a new roommate, Eddie. Meanwhile, Phoebe plays her new \"Smelly Cat\" music video for the group, oblivious to the fact that her vocals have been dubbed. Back at the apartment, Joey's jealousy peaks when he witnesses Eddie cooking breakfast for Chandler. Once Eddie leaves, Joey's resentment boils over. Triggered by an empty juice carton, Joey confronts Chandler in a dramatic argument, demanding to know whose eggs Chandler prefers. Chandler defends himself by pointing out that Joey was the one who chose to move out and take his \"eggs\" with him. Unable to properly articulate his hurt feelings and getting hilariously tangled in a confusing metaphor about a chicken, Joey storms off, leaving their friendship in a state of unresolved tension."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:08 - 00:06:46",
+    "batch_summary": "After Joey leaves Chandler's apartment, the focus shifts to Monica's living room, where Ross and Monica engage in a childish squabble over the TV remote. Annoyed by their regression into sibling rivalry, Rachel declares herself the \"mommy\" of the group and leaves for a bath. Monica then confronts Ross about their relationship, admitting that she actually hated him when they were kids because he was mean, teased her constantly, and always got his way, leaving Ross completely stunned.",
+    "cumulative_summary": "Tension arises when Joey visits Chandler's apartment, hurt to find he has been replaced by a new roommate, Eddie. After a dramatic argument over a confusing egg metaphor, Joey storms off, leaving their friendship strained. Meanwhile, Phoebe remains oblivious that her vocals were dubbed in her \"Smelly Cat\" music video. The focus then shifts to Monica's apartment, where Ross and Monica bicker childishly over the TV remote. Annoyed by their regression, Rachel declares herself the \"mommy\" of the group and leaves for a bath. Monica then confronts Ross about their constant friction. When Ross defends their behavior as harmless childhood fun, Monica drops a bombshell, admitting she actually hated him growing up because he was mean, teased her, and always got his way, leaving Ross utterly stunned."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:46 - 00:08:25",
+    "batch_summary": "Following Monica's confession, Ross is deeply hurt to learn she hated him as a child. Monica reassures him of her love but warns him to stop annoying her, leading to a playful truce and a compromise over the TV remote. Later at Central Perk, Phoebe reveals she discovered her vocals were dubbed in the music video after receiving a contract from the record company. However, she hilariously misinterprets the situation, feeling sorry for the \"voicewoman\" who lacks a video while celebrating her own video stardom.",
+    "cumulative_summary": "Tension arises when Joey visits Chandler's apartment, hurt to find he has been replaced by a new roommate, Eddie. After a dramatic argument over a confusing egg metaphor, Joey storms off, leaving their friendship strained. Meanwhile, Ross and Monica bicker childishly over the TV remote until Monica drops a bombshell, admitting she hated him growing up. Stunned by this revelation, Ross is reassured when Monica explains she loves him now, though she warns him to stop annoying her. The siblings happily reconcile and compromise on what to watch. Later at Central Perk, Phoebe finally realizes her vocals were dubbed in her \"Smelly Cat\" music video after receiving a record company contract. However, she completely misinterprets the exploitation; instead of being upset, Phoebe feels sorry for the talented \"voicewoman\" who has no video, while proudly celebrating her own video stardom."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:25 - 00:10:01",
+    "batch_summary": "Phoebe continues to misinterpret her music video dubbing, concluding that \"Smelly Cat\" has deep layers of meaning. Meanwhile, Chandler struggles to bond with his new roommate, Eddie, who rejects playing sports and watching Baywatch, leaving Chandler feeling isolated. At the same time, Joey watches Baywatch alone in his new apartment. Looking at the empty recliner beside him, he is overcome with sadness, deeply missing his best friend.",
+    "cumulative_summary": "Tension arises when Joey visits Chandler's apartment, hurt to find he has been replaced by a new roommate, Eddie. After a dramatic argument, Joey storms off, leaving their friendship strained. Meanwhile, Ross and Monica bicker childishly over the TV remote before reconciling. At Central Perk, Phoebe realizes her vocals were dubbed in her \"Smelly Cat\" music video but completely misinterprets the exploitation, finding deep meaning in the song instead of feeling upset. Back at the apartment, Chandler struggles to bond with Eddie, who rejects playing sports and watching Baywatch, leaving Chandler feeling isolated. Meanwhile, Joey watches Baywatch alone in his new apartment. Looking at the empty recliner beside him, he is overcome with sadness, deeply missing Chandler."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:10:01 - 00:11:59",
+    "batch_summary": "Joey and Chandler endure a melancholy period of separation, both playing solo games and staring out rainy windows, deeply missing each other's company. Later, the mood lifts at Central Perk, where Phoebe proudly performs \"Smelly Cat\" using her real voice. She invites the entire group—including Joey, Chandler, Monica, Rachel, and Ross—to join her in a heartwarming, collaborative sing-along, restoring a sense of unity and joy among the friends.",
+    "cumulative_summary": "Tension arises when Joey visits Chandler's apartment, hurt to find he has been replaced by a new roommate, Eddie. After a dramatic argument, Joey storms off, leaving their friendship strained. Meanwhile, Ross and Monica bicker childishly over the TV remote before reconciling. At Central Perk, Phoebe realizes her vocals were dubbed in her \"Smelly Cat\" music video but completely misinterprets the exploitation, finding deep meaning in the song instead of feeling upset. Back at the apartment, Chandler struggles to bond with Eddie, leaving both Chandler and Joey feeling isolated and deeply missing each other. This loneliness culminates in a melancholy montage of both men playing solo games and staring out rainy windows. However, the friends find comfort and unity at Central Perk when Phoebe performs \"Smelly Cat\" with her real voice. She invites the entire group to join her in a heartwarming, collaborative sing-along, bringing everyone back together in a moment of shared joy."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 281,
+    "timestamp_range": "00:11:59 - 00:12:08",
+    "batch_summary": "Following the live performance, the scene transitions to the official music video for \"Smelly Cat.\" Phoebe is shown singing the opening lines against a hazy, purplish background, accompanied by an upbeat instrumental track. This marks the debut of her produced music video, capturing her quirky charm in a stylized, professional setting.",
+    "cumulative_summary": "After Joey and Chandler experience a painful rift due to Chandler's new roommate Eddie, the friends find comfort and unity at Central Perk. Phoebe, despite realizing her vocals were dubbed in her \"Smelly Cat\" music video, remains blissfully oblivious to the exploitation. Instead, she leads her friends in a heartwarming, collaborative live sing-along of the song. Following this moment of shared joy, the scene transitions to the actual \"Smelly Cat\" music video. Set against a hazy, purplish background with an upbeat instrumental track, Phoebe sings her signature song directly to the camera, showcasing her quirky charm in a stylized production."
+  }
+]

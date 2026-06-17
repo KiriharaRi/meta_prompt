@@ -1,0 +1,74 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:44",
+    "batch_summary": "The film opens with an establishing shot of a city and a coffee shop called Central Perk. Inside, Monica discusses a non-date dinner with a coworker, teased by her friends Joey, Chandler, and Phoebe. Chandler shares a recurring anxiety dream about being naked and receiving a phone call from his mother. The scene ends with Ross entering, appearing dejected and greeting the group quietly.",
+    "cumulative_summary": "The film begins with a city skyline and introduces the Central Perk coffee shop, where six friends—Monica, Joey, Chandler, Phoebe, Rachel, and Ross—regularly gather. In their first conversation, Monica downplays a dinner outing with a coworker, sparking playful skepticism from Joey, Chandler, and Phoebe. Chandler humorously describes a recurring anxiety dream about being naked in a public place. The scene concludes with Ross's subdued entrance, hinting at an underlying melancholy."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:44 - 00:03:12",
+    "batch_summary": "The friends react to Ross's visible devastation over his wife Carol leaving him for another woman. He describes his emotional pain vividly, rejects Phoebe's attempt to 'cleanse his aura,' and grows defensive when asked if he knew Carol was a lesbian. Chandler accidentally voices a wish to be a lesbian. Later, Ross reveals his parents did not handle the news well, contradicting his earlier claim and adding to his misery.",
+    "cumulative_summary": "The film begins with a city skyline and introduces the Central Perk coffee shop, where six friends—Monica, Joey, Chandler, Phoebe, Rachel, and Ross—regularly gather. Their first conversation is lighthearted, with Monica downplaying a dinner date and Chandler joking about a naked anxiety dream. The tone shifts with Ross's subdued entrance, hinting at melancholy. Ross then reveals his wife Carol has left him for another woman. He describes his emotional devastation, grows defensive about not knowing she was a lesbian, and attempts to appear okay. The friends offer quirky support, including Phoebe's aura cleansing and a classic Chandler quip. The scene concludes with Ross admitting his parents took the news badly, underscoring his heartbreak."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:12 - 00:05:09",
+    "batch_summary": "Joey's crass advice to Ross to visit a strip club is rejected, as Ross expresses his desire to be married again. Rachel then dramatically enters the coffee shop in a wet wedding dress, seeking Monica. After introductions, Rachel explains she fled her wedding to Barry after realizing she was more attracted to a gravy boat than her fiancé, prompting a crisis of identity.",
+    "cumulative_summary": "The film opens at Central Perk, introducing six friends. Ross reveals his wife Carol left him for another woman, causing him deep heartbreak. Joey's insensitive strip-club suggestion is met with Ross's longing to be married again. The scene is disrupted by Rachel's sudden, dramatic entrance in a soaking wedding dress. She explains to the group that she abandoned her fiancé Barry after an epiphany in the gift room, realizing her lack of attraction and questioning her life choices, setting up her new beginning."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:09 - 00:06:51",
+    "batch_summary": "Rachel calls her father to explain her decision, using a frantic shoe metaphor to articulate her desire for independence, while the friends watch a telenovela and cheer as a character is pushed down the stairs. The scene contrasts Rachel's emotional turmoil with the group's lighthearted banter, establishing her struggle to be heard and her new, uncertain path.",
+    "cumulative_summary": "At Central Perk, Rachel dramatically arrives in a wedding dress after leaving her fiancé Barry. She explains her epiphany about not loving him. The friends, including heartbroken Ross, absorb her story. In Monica's apartment, Rachel continues her crisis, phoning her father to declare she can't marry Barry, using a desperate metaphor about not wanting to be a 'shoe' but perhaps a 'hat' to explain her need for a new identity. Meanwhile, the group watches a telenovela, providing a humorous counterpoint to Rachel's emotional struggle as she commits to her new beginning."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:51 - 00:08:30",
+    "batch_summary": "Rachel ends her fraught call with her father, asserting her independence but wavering on financial support. She hyperventilates into a paper bag, and her friends comfort her with varying degrees of helpfulness—Monica's calm reassurance, Phoebe's nonsensical singing, and Joey's opportunistic flirting, which Monica sharply rebukes. The scene shifts to Chandler answering the buzzer, revealing Paul's arrival and startling Monica.",
+    "cumulative_summary": "At Central Perk, Rachel arrives in a wedding dress after leaving her fiancé Barry, explaining her epiphany. The group, including the heartbroken Ross, absorbs her story. At Monica's apartment, Rachel continues her crisis, calling her father to declare she can't marry him, using a 'shoe' and 'hat' metaphor for her need for a new identity. She hyperventilates into a paper bag while her friends offer varied support—Monica's calm encouragement, Phoebe's odd singing, and Joey's clumsy advances. The tension eases when Chandler buzzes in Paul, prompting a panicked reaction from Monica as she realizes the time."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:30 - 00:10:07",
+    "batch_summary": "Monica gets ready for her date with Paul, the wine guy, while her friends tease her and offer commentary. Rachel, still in her wedding dress, offers to cancel her plans, but Monica insists she go. Ross, still heartbroken, quietly wishes Monica would stay. Joey gives Paul an awkward, unsolicited tip about rubbing Monica's neck. The group's playful banter contrasts with Rachel's lonely reality of having nowhere to go on what was supposed to be her honeymoon.",
+    "cumulative_summary": "Rachel arrives at Monica's apartment in her wedding dress after leaving her fiancé Barry, seeking a new identity. While she calls her father and panics, her friends try to comfort her. The group's dynamic is disrupted when Monica's date, Paul, arrives. Monica nervously gets ready to leave, feeling guilty about abandoning Rachel and her heartbroken brother, Ross. Rachel bravely tells her to go, though she's left facing an empty night that was meant for her honeymoon, highlighting the group's mix of support, personal drama, and humor."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:10:07 - 00:12:01",
+    "batch_summary": "Ross awkwardly invites a lonely Rachel to join his furniture-building night, but she declines to stay in. Phoebe sings an absurd song about love and pigeons for subway tips. Later, Ross, Joey, and Chandler hilariously struggle to assemble a bookcase, baffled by the instructions and missing parts. The tone shifts from awkward compassion to comedic frustration.",
+    "cumulative_summary": "After fleeing her wedding, Rachel seeks refuge at Monica's, facing her uncertain future. The group offers support, with Ross awkwardly trying to cheer her up by inviting her to help build furniture, though she opts for solitude. Monica leaves for a date feeling guilty. Meanwhile, Phoebe earns money busking with a quirky song. The evening culminates in a comedy of errors as Ross, Joey, and Chandler attempt to assemble furniture, highlighting the friends' mix of earnest support and hapless humor."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 319,
+    "timestamp_range": "00:12:01 - 00:14:01",
+    "batch_summary": "In the aftermath of Rachel's wedding flight, the friends continue their support in parallel scenes. Ross, Joey, and Chandler finish assembling furniture, but Ross spirals into self-pity over his divorce, prompting his friends to awkwardly try to cheer him up. Meanwhile, Monica bonds with Paul over dating war stories, and Rachel makes a heartfelt, if rambling, final call to Barry, officially ending their engagement while questioning her own identity.",
+    "cumulative_summary": "After fleeing her wedding, Rachel seeks refuge at Monica's, facing an uncertain future with the group's support. The evening unfolds with Ross, Joey, and Chandler attempting to build furniture, but Ross's melancholy over his divorce surfaces, leading to a mix of humor and sympathy from his friends. Concurrently, Monica goes on a date with Paul, sharing stories of past relationship mishaps. Rachel makes a decisive call to Barry, apologizing and formally ending their engagement while grappling with her sense of self, marking a significant step in her new independent path."
+  },
+  {
+    "batch_idx": 8,
+    "segment_start": 320,
+    "segment_end": 332,
+    "timestamp_range": "00:14:01 - 00:14:41",
+    "batch_summary": "Chandler and Joey commiserate over their failed relationships, with Chandler humorously contrasting their short-lived romances to Ross's four-year marriage that ended in heartbreak. The group's banter mixes comedy with underlying sympathy for Ross, who remains melancholy about his divorce.",
+    "cumulative_summary": "After fleeing her wedding, Rachel seeks refuge at Monica's, facing an uncertain future with the group's support. The evening unfolds with Ross, Joey, and Chandler attempting to build furniture, but Ross's melancholy over his divorce surfaces, leading to a mix of humor and sympathy from his friends. Chandler and Joey commiserate over their own failed relationships, with Chandler humorously contrasting their short-lived romances to Ross's four-year marriage that ended in heartbreak. Concurrently, Monica goes on a date with Paul, sharing stories of past relationship mishaps. Rachel makes a decisive call to Barry, apologizing and formally ending their engagement while grappling with her sense of self, marking a significant step in her new independent path."
+  }
+]

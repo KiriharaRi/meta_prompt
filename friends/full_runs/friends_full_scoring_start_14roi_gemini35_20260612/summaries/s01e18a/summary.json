@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:07",
+    "batch_summary": "Rachel is determined to quit her waitressing job and enlists her friends—Monica, Phoebe, Joey, Chandler, and Ross—to help mail out her resumes. However, Ross discovers a major typo on her resume, which Chandler jokes about. Later at the coffee shop, Monica and Phoebe bring Rachel her mail, which consists of rejection letters. Rachel tries to distract herself from the bad news by offering her friends scones.",
+    "cumulative_summary": "In an apartment, Rachel expresses her deep frustration with her waitressing job and her desire for a career change. Her friends—Monica, Phoebe, Joey, Chandler, and Ross—gather to help her assemble and mail out her resumes. The collaborative effort takes a turn when Ross notices a glaring typo on Rachel's resume, prompting Chandler to make a sarcastic joke about the Xerox machine catching it. Later, the scene shifts to the coffee shop, where Chandler and Ross are lounging. Monica and Phoebe arrive with Rachel's mail, which contains several responses to her applications. As Phoebe begins reading a rejection letter aloud, Rachel, still working her waitressing shift, tries to mask her disappointment by focusing on her job and offering them scones."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:07 - 00:03:42",
+    "batch_summary": "While sorting through Rachel's mail, Phoebe notices a massive Visa bill. Meanwhile, Chandler presses Ross on his dating life, prompting Ross to describe his ideal partner—a description that clearly matches Rachel as she walks by. Despite Ross's insistence that he is over her, Chandler teases him. Joey then arrives, and the group laughs about him crying during a poker game over a chocolate-smudged card. This prompts Phoebe to ask why the guys have never invited the girls to play poker, questioning if it is a sexist exclusion.",
+    "cumulative_summary": "In an apartment, Rachel expresses her frustration with her waitressing job and her desire for a career change. Her friends—Monica, Phoebe, Joey, Chandler, and Ross—gather to help her mail out resumes, though Ross notices a glaring typo. Later at the coffee shop, Monica and Phoebe bring Rachel her mail, which includes rejection letters and a large Visa bill. Meanwhile, Chandler questions Ross about his dating life. Ross describes wanting a passionate connection, but his gaze lingers on Rachel, prompting Chandler to tease him about his obvious feelings despite Ross's denials. When Joey arrives, the guys tease him for crying during a recent poker game over a chocolate-smudged card. This prompts Phoebe to ask why the guys have never invited the women to play poker, questioning if it is a sexist exclusion."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:42 - 00:05:38",
+    "batch_summary": "After Phoebe and Monica challenge the guys' sexist exclusion from poker, the guys reluctantly agree to teach the women. However, the first game is a comedic disaster. Monica, Phoebe, and Rachel struggle with the basic rules—Phoebe discards cards based on their \"mood,\" and Rachel tries to share cards. Meanwhile, Monica serves upscale appetizers, prompting Joey to complain that poker food must be simple. Despite their confusion, Monica is eager to start playing for real money.",
+    "cumulative_summary": "After Rachel receives career rejection letters, the friends discuss Ross's feelings for her and tease Joey about crying during a poker game. This prompts Phoebe to challenge the guys' exclusion of women from their games. Reluctantly, the guys agree to teach them, but the subsequent game is a comedic disaster. Monica, Phoebe, and Rachel struggle with the basic rules—Phoebe discards cards based on their \"mood,\" and Rachel tries to share cards. Meanwhile, Monica serves upscale appetizers, prompting Joey to complain that poker food must be simple. Despite their confusion, Monica is eager to start playing for real money."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:38 - 00:07:37",
+    "batch_summary": "The real-money poker game goes poorly for the women. Monica loses a hand after a reckless raise, while Phoebe struggles to understand the concept of bluffing. When the game ends, Rachel tries to leave to fax resumes, but the guys insist they settle their debts. Although Joey generously offers to waive their losses, a competitive Monica refuses and demands a rematch. Rachel accuses Ross of taking pleasure in winning their money, prompting Ross to unapologetically defend his competitive nature, explaining that poker requires others to lose.",
+    "cumulative_summary": "After Rachel receives career rejection letters, the friends discuss Ross's feelings for her and tease Joey about crying during poker. This prompts Phoebe to challenge the guys' exclusion of women from their games. Reluctantly, the guys agree to teach them, but the practice game is a comedic disaster as the women struggle with basic rules. Despite their confusion, Monica insists on playing for real money. The actual game goes poorly; Monica loses a hand after a reckless raise, and Phoebe struggles with the concept of bluffing. When the game ends, Rachel tries to leave to fax resumes, but the guys demand they settle their debts. Although Joey offers to waive their losses, a competitive Monica refuses and demands a rematch. Rachel accuses Ross of taking pleasure in winning their money, prompting Ross to unapologetically defend his competitive nature, explaining that poker requires others to lose."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:37 - 00:09:40",
+    "batch_summary": "Ross finishes his dramatic warning about his ruthless poker persona. Later, Chandler and Joey tease him about his lingering feelings for Rachel, which he denies. The tension is broken when Ross's monkey, Marcel, plays music, prompting the three guys to dance. Meanwhile, Rachel, Monica, and Phoebe discuss Ross's competitive attitude. Phoebe and Rachel quickly point out that Monica is just as intensely competitive, reminding her of her past behavior during a Pictionary game.",
+    "cumulative_summary": "After Rachel receives career rejection letters, the friends discuss Ross's feelings for her and tease Joey about crying during poker. This prompts Phoebe to challenge the guys' exclusion of women from their games. Reluctantly, the guys agree to teach them, but the practice game is a comedic disaster. Despite their confusion, Monica insists on playing for real money. The actual game goes poorly, ending with Monica demanding a rematch and Rachel accusing Ross of being a jerk. Ross unapologetically defends his ruthless poker persona, though Chandler and Joey later tease him, believing his intensity stems from his feelings for Rachel. Ross denies this, and a lighthearted moment ensues when his monkey, Marcel, plays music that gets the guys dancing. Meanwhile, Rachel, Monica, and Phoebe debrief the game. When Rachel complains about Ross's behavior, Phoebe and Rachel tease Monica, pointing out that she is just as aggressively competitive, recalling a notorious Pictionary incident."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:40 - 00:11:39",
+    "batch_summary": "Rachel's spirits rise when she secures an interview for an assistant buyer position at Saks Fifth Avenue. Meanwhile, Monica's experienced poker-playing Aunt Iris arrives to give the women a tough, no-nonsense lesson in bluffing and strategy. Later, back at the apartment, the friends gather again, but Phoebe quickly grows annoyed with the repetitive music Ross's monkey, Marcel, keeps playing, prompting Ross to finally turn it off.",
+    "cumulative_summary": "After the guys defeat the girls in a disastrous first poker game, Ross defends his aggressive play style while his friends suspect his intensity stems from feelings for Rachel. Meanwhile, Rachel's career prospects look up when she lands an interview for an assistant buyer position at Saks Fifth Avenue. Determined to win their upcoming rematch, Monica enlists her experienced, no-nonsense Aunt Iris to teach the women the art of bluffing and card strategy. Iris delivers a tough, eccentric lesson, preparing them to face the guys again. Later, the friends gather back at the apartment, where Phoebe quickly grows tired of the repetitive music Ross's monkey, Marcel, is playing and begs Ross to turn it off."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 248,
+    "timestamp_range": "00:11:39 - 00:12:20",
+    "batch_summary": "Ross finally turns off the repetitive music, and Marcel scurries out of the room. As the group sits in silence, Rachel bursts into the apartment bursting with excitement, repeatedly asking them to guess her news. Chandler interrupts her enthusiasm with a sarcastic joke about Trident gum, leaving the group staring at him as the scene cuts to black.",
+    "cumulative_summary": "After the guys defeat the girls in a disastrous first poker game, Ross defends his aggressive play style while his friends suspect his intensity stems from feelings for Rachel. Meanwhile, Rachel's career prospects look up when she lands an interview for an assistant buyer position at Saks Fifth Avenue. Determined to win their upcoming rematch, Monica enlists her experienced, no-nonsense Aunt Iris to teach the women the art of bluffing. Later, the friends gather back at the apartment, where Phoebe grows tired of the repetitive music Ross's monkey, Marcel, is playing. Ross finally turns off the music, and Marcel scurries away. Just as the group settles into silence, an ecstatic Rachel bursts through the door, eager to share some big news. However, before she can reveal what happened, Chandler cuts in with a sarcastic joke about Trident gum, leaving the room in anticipation as the scene cuts to black."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:39",
+    "batch_summary": "At an airport, Rachel desperately tries to reach Ross before his flight. Blocked by security, she leaves a message saying she loved his present. However, the flight representative mistakenly delivers it to a different man in a blue jacket, causing a domestic dispute, while the real Ross walks by wearing headphones. Meanwhile, in a bedroom, Joey and Melanie share an intimate moment. Joey selflessly offers to focus on Melanie's pleasure again, leaving her delighted and joking about sending him a fruit basket.",
+    "cumulative_summary": "In a bustling airport terminal, Rachel desperately tries to catch up with Ross before he boards his flight. Stopped by a flight representative for not having a boarding pass, Rachel begs her to deliver a message: she loved his present and will see him when he returns. However, the representative mistakenly delivers the message to an older stranger wearing a similar blue jacket, sparking a tense misunderstanding between the man and his companion, Toby. Meanwhile, the real Ross walks down the jetway wearing headphones, completely oblivious to Rachel's attempt to reach him. The scene then transitions to a dark bedroom, where Joey and Melanie are in bed together. After an intimate encounter, Melanie is highly satisfied, and Joey generously offers to focus on her pleasure once more. Delighted by his selflessness, Melanie happily jokes that he is going to get a big fruit basket tomorrow."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:39 - 00:03:45",
+    "batch_summary": "In bed, Melanie praises Joey's selflessness, calling him a \"giver\" and \"practically a woman,\" leaving Joey stunned and quietly bewildered. Meanwhile, Rachel returns to the apartment, disappointed that she missed Ross at the airport. After Chandler heads to bed, Monica asks Rachel if she still plans to pursue Ross. Rachel admits she is deeply conflicted, struggling to process her feelings and unsure of what to do next about her longtime friend.",
+    "cumulative_summary": "After Rachel desperately tries to catch Ross at the airport, a series of mishaps—including a misdelivered message and Ross wearing headphones—prevents her from reaching him. Meanwhile, Joey and Melanie share an intimate encounter. Melanie is so delighted by Joey's selflessness that she praises him as a \"giver\" and \"practically a woman,\" leaving Joey stunned and quietly bewildered. Rachel returns to the apartment defeated, where her friends offer comfort. As Chandler heads to bed, Monica asks Rachel if she still plans to pursue a relationship with Ross. Clutching torn wrapping paper, a conflicted Rachel admits she is torn and unsure of her next move, struggling to reconcile her sudden feelings for her longtime friend."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:45 - 00:05:47",
+    "batch_summary": "Rachel admits to Monica and Phoebe that she wants to pursue Ross, prompting Monica's ecstatic celebration of them becoming \"friends-in-law.\" However, when Phoebe raises the possibility of a breakup, Monica hilariously gets defensive, accusing Rachel of \"dumping\" her brother before they even start. Meanwhile, Joey enthusiastically tells Chandler about his amazing, selfless night with Melanie. Chandler dryly notes he could hear the loud encounter from his room, while Joey reflects on his newfound appreciation for intimacy.",
+    "cumulative_summary": "After failing to catch Ross at the airport, a defeated Rachel returns home, unsure of her next move. However, she soon admits to Monica and Phoebe that she wants to pursue a relationship with him. Monica is ecstatic about them becoming \"friends-in-law,\" but when Phoebe raises the realistic risk of a breakup, Monica hilariously leaps to her brother's defense, accusing Rachel of dumping him before they even start. Meanwhile, Joey enthusiastically recounts his intimate night with Melanie to Chandler. Because Joey had to focus entirely on Melanie's pleasure, he received an overwhelming response. While Chandler dryly notes he could hear the loud encounter from his nearby bedroom, Joey reflects on how the experience heightened his senses and gave him a deeper, more meaningful appreciation for intimacy."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:47 - 00:07:38",
+    "batch_summary": "Joey and Chandler wrap up their conversation before Joey celebrates earning $700, leaving Chandler hilariously surrounded by giant fruit baskets. Meanwhile, Rachel tells Monica she has decided not to pursue Ross because of the overwhelming pressure of dating within their close-knit friend group. Despite Monica's frantic promises to remain calm, Rachel proves her point about her friends' overbearing nature by inviting a date named Carl over, immediately triggering Monica's protective, judgmental instincts.",
+    "cumulative_summary": "After failing to catch Ross at the airport, Rachel initially decides she wants to pursue a relationship with him, which Monica enthusiastically supports. However, Rachel soon changes her mind, realizing that dating Ross means dealing with the intense pressure and scrutiny of their entire friend group. When Monica aggressively promises to behave, Rachel proves her point about the group's overbearing nature by inviting a date named Carl over, immediately drawing Monica's scrutiny. Meanwhile, Joey wraps up his reflections on his newfound level of intimacy. He celebrates earning $700 from his recent endeavors, leaving a dry Chandler hilariously buried under a mountain of giant fruit baskets."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:38 - 00:09:18",
+    "batch_summary": "Joey humorously rejects settling down, comparing his newfound romantic freedom to a blind man gaining sight. Meanwhile, Rachel's date with the opinionated Carl is interrupted by Ross. In a tense, emotional confrontation, Ross questions why she is dating Carl and begs Rachel to give their relationship a chance. Although Rachel fears losing her best friend if they break up, Ross passionately argues that they are perfect for each other and only need to get it right once.",
+    "cumulative_summary": "After failing to catch Ross at the airport, Rachel initially wanted to pursue him but backed off due to the intense pressure of their overbearing friend group. To prove her point, she invited a date named Carl over, while Joey celebrated his financial success and humorously rejected settling down. However, Rachel's date with the opinionated Carl is quickly overshadowed by an emotional confrontation with Ross. Ross passionately questions her choices and begs her to give them a chance, confessing he has loved her since the ninth grade. Although Rachel fears that a breakup would ruin their deep friendship, Ross reassures her, arguing that they are perfect for each other and only need to succeed once."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:18 - 00:11:00",
+    "batch_summary": "After Ross kisses her passionately, Rachel realizes her true feelings and abruptly abandons her dull date with Carl, making a hasty excuse to head to the airport. Back inside, she excitedly tells Monica she is going to get Ross, jokingly offering her wealthy date to Monica, who eagerly accepts. In the hallway, Rachel encounters a panicked Chandler, but after she reassures him that she is going to the airport to get Ross, he enthusiastically encourages her to go. Rachel rushes off, determined to finally confess her love.",
+    "cumulative_summary": "After failing to catch Ross at the airport, Rachel initially backed off due to pressure from her friends and went on a date with Carl. However, Ross confronted her, confessing his lifelong love and challenging her to see him romantically. After Ross kisses her passionately, Rachel realizes her true feelings. She abruptly abandons her dull date with Carl, making a hasty excuse to head to the airport. Back inside, she excitedly tells Monica she is going to get Ross, jokingly offering her wealthy date to Monica, who eagerly accepts. In the hallway, Rachel encounters a panicked Chandler, but after she reassures him that she is going to the airport to get Ross, he enthusiastically encourages her to go. Rachel rushes off, determined to finally confess her love to Ross."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 274,
+    "timestamp_range": "00:11:00 - 00:12:46",
+    "batch_summary": "After Chandler jokingly takes credit for Rachel's romantic pursuit, Rachel waits expectantly at the airport terminal with a bouquet of flowers. Meanwhile, Ross disembarks from his flight accompanied by a new, dark-haired love interest. The two share a kiss and Ross expresses excitement for her to meet his friends, completely unaware of Rachel's presence. As Rachel continues to scan the crowd with anticipation, the scene transitions into the iconic fountain dance sequence with the main cast.",
+    "cumulative_summary": "After realizing her true feelings for Ross, Rachel abandons her date and rushes to the airport, encouraged by Chandler and Monica. She arrives at the terminal holding a bouquet of flowers, eagerly scanning the crowd to finally confess her love. However, a major complication arises when Ross disembarks his plane accompanied by a new, dark-haired love interest. Unaware of Rachel's presence, Ross helps the woman with her bag, and the two share a romantic kiss as Ross expresses excitement for her to meet his friends. Rachel continues to wait expectantly in the terminal, completely unaware of the heartbreak that awaits her. The segment concludes with the iconic fountain sequence featuring the six friends dancing together."
+  }
+]

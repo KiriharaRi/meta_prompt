@@ -1,0 +1,811 @@
+{
+  "version": "region_schema_v1",
+  "target_region": "TPJ",
+  "functional_hypothesis": "The Temporoparietal Junction (TPJ) is a critical cortical hub involved in social cognition, theory of mind, and attention reorienting. Specifically, the bilateral TPJ (often localized in the ventral attention and default mode networks, such as rpSTS, A39rv, and A40c) processes mental state attribution (inferring others' beliefs, desires, and intentions), tracks epistemic perspectives (such as dramatic irony and information asymmetry), appraises social interactions, reorients attention to unexpected narrative events, and evaluates moral and normative transgressions. By annotating movie descriptions along these dimensions, we can model the cognitive demands placed on the TPJ during naturalistic movie viewing, thereby predicting its fMRI blood-oxygen-level-dependent (BOLD) activity.",
+  "scoring_instruction": "For each 0-10 dimension, score the intensity of the cognitive or narrative feature described in the text from the perspective of a typical viewer. A score of 0 indicates complete absence of the feature, while 10 indicates that the feature is the central focus of the scene and highly intense. Base your scores strictly on the text provided, using the graded anchors and calibration examples as guides. Do not extrapolate beyond the text, but do perform the necessary cognitive inferences that a viewer would naturally make when reading or watching the described scene.",
+  "selection_rules": [
+    {
+      "networks": [],
+      "sub_regions": [],
+      "hemispheres": [],
+      "label_ids": [
+        75,
+        76,
+        79,
+        80,
+        121,
+        122,
+        123,
+        124,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": "mental_state_attribution",
+      "definition": "The viewer's active inference and tracking of characters' internal, unobservable mental states—including their beliefs, hidden motives, knowledge gaps, secret intentions, or subjective emotional perspectives—based on behavioral cues, dialogue, or situational context.",
+      "region_relevance": "The temporoparietal junction (TPJ) is the primary cortical hub of the mentalizing network (Theory of Mind), crucial for representing others' cognitive states, distinguishing between self and other perspectives, and simulating others' internal experiences.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing characters acting on incomplete information, hiding secrets, experiencing complex internal dilemmas, or engaging in strategic deception, requiring the viewer to infer their inner thoughts.",
+      "source_domain_ids": [
+        "run_1_social_mentalizing",
+        "run_2_mental_state_attribution",
+        "run_3_mental_state_attribution",
+        "run_4_mental_state_attribution",
+        "run_5_social_agency_attribution",
+        "run_1_empathic_perspective_taking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all mentalizing, theory of mind, social agency attribution, and empathic perspective-taking domains across all five runs. These domains share a core functional mechanism (inferring internal cognitive/affective states of characters) and rely on the same behavioral and contextual evidence."
+    },
+    {
+      "domain_id": "epistemic_perspective_tracking",
+      "definition": "The viewer's cognitive tracking of the asymmetric distribution of information, knowledge, and beliefs across different characters or between the characters and the viewer (such as dramatic irony, secret-keeping, or tracking who knows what).",
+      "region_relevance": "TPJ is critical for representing divergent, potentially conflicting points of view and distinguishing between different agents' knowledge states (e.g., character A vs. character B, or self vs. other).",
+      "scoreability_note": "Scoreable by identifying scenes with clear information asymmetry, such as a character walking into a trap known only to the viewer, or a character lying while the viewer knows the truth.",
+      "source_domain_ids": [
+        "run_2_epistemic_gap_tracking",
+        "run_5_narrative_perspective_tracking"
+      ],
+      "source_runs": [
+        2,
+        5
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Consolidated domains focusing specifically on the tracking of knowledge discrepancies, dramatic irony, and perspective distribution. While related to mentalizing, this represents a distinct, highly scoreable cognitive process of tracking information boundaries and perspective divergence, which is a well-established function of the TPJ."
+    },
+    {
+      "domain_id": "social_interaction_appraisal",
+      "definition": "The viewer's tracking and appraisal of the dynamic social relationships, alliances, conflicts, power dynamics, or communicative exchanges occurring between two or more interacting characters.",
+      "region_relevance": "TPJ is sensitive to social context, communicative intent, and the interactive dynamics between agents, processing social stimuli beyond isolated individuals.",
+      "scoreability_note": "Easily scored by identifying scenes with multi-character dialogues, non-verbal social coordination, confrontations, or collaborative actions described in the text.",
+      "source_domain_ids": [
+        "run_1_social_interaction_appraisal",
+        "run_2_social_alignment_appraisal",
+        "run_3_social_agency_and_interaction",
+        "run_4_social_interaction_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Merged all domains focusing on tracking social interactions, alignment, and agency across runs 1-4. These domains all require the viewer to evaluate interpersonal dynamics and relationships rather than individual mental states in isolation."
+    },
+    {
+      "domain_id": "narrative_expectancy_reorienting",
+      "definition": "The viewer's cognitive reorienting or updating of their narrative model when unexpected events, sudden plot twists, abrupt character entries, or surprising actions violate prior expectations established by the scene.",
+      "region_relevance": "As a key node in the ventral attention network, the TPJ is heavily involved in stimulus-driven attention reorienting and detecting behaviorally relevant, unexpected changes in the environment or narrative flow.",
+      "scoreability_note": "Scoreable by identifying moments in the text where an unexpected event occurs, a character behaves in a highly surprising manner, or a sudden shift in the narrative direction is introduced.",
+      "source_domain_ids": [
+        "run_1_narrative_expectancy_reorienting",
+        "run_2_narrative_expectancy_violation",
+        "run_3_narrative_expectancy_violation",
+        "run_4_narrative_reorienting",
+        "run_5_salience_driven_attention_reorienting"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all domains related to narrative expectancy violation, reorienting, and salience-driven attention across all five runs. They represent the same underlying cognitive process of updating narrative models in response to unexpected events, mapped to the TPJ's role in the ventral attention network."
+    },
+    {
+      "domain_id": "moral_and_normative_appraisal",
+      "definition": "The viewer's appraisal of characters' actions against social norms, moral standards, or ethical expectations, including evaluations of blame, intentional harm, betrayal, or altruism.",
+      "region_relevance": "TPJ is heavily implicated in moral reasoning, specifically in integrating a character's intent (mentalizing) with the outcome of their actions to make moral judgments.",
+      "scoreability_note": "Scoreable from descriptions of characters making ethical choices, violating social norms, committing acts of betrayal, or demonstrating selflessness.",
+      "source_domain_ids": [
+        "run_3_moral_and_normative_appraisal",
+        "run_4_moral_appraisal"
+      ],
+      "source_runs": [
+        3,
+        4
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Consolidated moral appraisal domains from runs 3 and 4. This is a distinct, high-level cognitive process supported by the TPJ that integrates theory of mind with normative evaluation."
+    }
+  ],
+  "active_domain_ids": [
+    "mental_state_attribution",
+    "epistemic_perspective_tracking",
+    "social_interaction_appraisal",
+    "narrative_expectancy_reorienting",
+    "moral_and_normative_appraisal"
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "inferring_beliefs_and_knowledge",
+      "definition": "The degree to which the viewer must infer what a character believes to be true, or what knowledge they possess or lack, especially when their beliefs are false or outdated.",
+      "domain": "mental_state_attribution",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character acting on a false belief",
+        "A character realizing they were mistaken",
+        "A character searching for information they lack"
+      ],
+      "graded_anchors": {
+        "0": "No mention of characters' beliefs, knowledge, or thoughts; purely physical actions or environmental descriptions.",
+        "1": "Minimal hint of a character's awareness, but no active inference of their knowledge state is required.",
+        "2": "A character is described as knowing a simple fact, requiring very basic tracking of their knowledge.",
+        "3": "A character expresses a belief about a straightforward situation, requiring minor cognitive tracking.",
+        "4": "A character acts based on their understanding of a situation, requiring the viewer to track their perspective.",
+        "5": "A character's belief is central to their action, requiring the viewer to actively represent what they know.",
+        "6": "A character's belief is slightly outdated or incomplete, creating a clear gap in their knowledge.",
+        "7": "A character acts on a clear false belief, requiring the viewer to contrast the character's mind with reality.",
+        "8": "A character is deeply mistaken about a critical situation, and their actions are entirely driven by this false belief.",
+        "9": "Multiple characters hold conflicting beliefs about a complex situation, requiring the viewer to track multiple distinct knowledge states.",
+        "10": "A highly complex web of false beliefs, where characters are mistaken about each other's beliefs, requiring intense recursive mentalizing."
+      },
+      "calibration_examples": [
+        {
+          "scene": "John walks into the kitchen and grabs an apple from the counter.",
+          "score": 1
+        },
+        {
+          "scene": "Mary searches for her keys in the drawer, unaware that her brother moved them to the coat pocket.",
+          "score": 7
+        },
+        {
+          "scene": "Arthur confidently signs the contract, believing it is a business merger, while the viewer and the antagonist know it actually transfers all his personal assets.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for descriptions of characters acting on incomplete information, expressing mistaken assumptions, or discovering new facts.",
+      "exclusion_note": "Do not score simple emotional reactions or physical actions that do not require tracking what a character knows or believes."
+    },
+    {
+      "dimension_id": "inferring_hidden_motives_and_intentions",
+      "definition": "The degree to which the viewer must infer a character's secret plans, hidden agendas, or underlying intentions that are not explicitly stated in their actions or dialogue.",
+      "domain": "mental_state_attribution",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character acting suspiciously or secretively",
+        "A character hiding their true goals",
+        "A character engaging in strategic manipulation"
+      ],
+      "graded_anchors": {
+        "0": "No hidden motives; characters are completely transparent and straightforward about their goals.",
+        "1": "A character performs a routine action with a clear, immediate, and non-hidden goal.",
+        "2": "A character has a minor private goal, but it is easily understood and requires little inference.",
+        "3": "A character's action suggests a slight underlying motive, but it is mostly clear from context.",
+        "4": "A character acts with a dual purpose, requiring the viewer to infer their secondary intention.",
+        "5": "A character is hiding a minor intention, requiring the viewer to read between the lines of their behavior.",
+        "6": "A character's actions are ambiguous, strongly suggesting a hidden agenda or secret motive.",
+        "7": "A character actively conceals their true intentions while pretending to cooperate with others.",
+        "8": "A character executes a complex plan with a highly manipulative, hidden motive that must be inferred.",
+        "9": "A character's entire behavior is a facade, masking a deep, secret conspiracy or long-term hidden agenda.",
+        "10": "A complex scenario where multiple characters are hiding their true motives from each other, requiring the viewer to untangle a web of secret intentions."
+      },
+      "calibration_examples": [
+        {
+          "scene": "David asks Sarah for a glass of water because he is thirsty.",
+          "score": 1
+        },
+        {
+          "scene": "Elena compliments her boss's tie, hoping it will make him more receptive to her upcoming vacation request.",
+          "score": 5
+        },
+        {
+          "scene": "Agent Vance politely dines with the diplomat, secretly slipping a tracking device into his coat pocket while maintaining a warm, friendly conversation.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Look for descriptions of characters acting deceptively, pretending to be friendly while planning something else, or executing covert operations.",
+      "exclusion_note": "Do not score explicit, openly declared goals (e.g., a character saying 'I am going to kill you' and attacking)."
+    },
+    {
+      "dimension_id": "inferring_subjective_emotions_and_perspectives",
+      "definition": "The degree to which the viewer must infer a character's internal, subjective emotional state or unique psychological perspective, especially when they are hiding their feelings or experiencing complex internal conflict.",
+      "domain": "mental_state_attribution",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character masking their true feelings",
+        "A character experiencing an internal emotional dilemma",
+        "A character reacting silently with subtle facial expressions"
+      ],
+      "graded_anchors": {
+        "0": "No emotional states or subjective perspectives are described or implied.",
+        "1": "A character exhibits a simple, explicit physical reaction (e.g., crying or laughing) with no hidden depth.",
+        "2": "A character is described as feeling a basic emotion (e.g., sad, happy) that is fully explicit.",
+        "3": "A character's emotional state is slightly complex, requiring minor inference from their behavior.",
+        "4": "A character experiences a mild internal conflict, requiring the viewer to understand their perspective.",
+        "5": "A character hides their sadness or anger behind a neutral face, requiring the viewer to infer their true feelings.",
+        "6": "A character is torn between two conflicting emotions, requiring active tracking of their internal state.",
+        "7": "A character puts on a brave face during a tragedy, requiring the viewer to infer the deep pain beneath.",
+        "8": "A character experiences a profound, unexpressed psychological crisis or complex emotional dilemma.",
+        "9": "A character's subjective perspective is highly unconventional or distorted, requiring intense effort to empathize or understand.",
+        "10": "Multiple characters are experiencing deeply conflicting, unexpressed emotional states during a highly tense, silent confrontation."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Tom smiles when he receives a birthday present from his mother.",
+          "score": 2
+        },
+        {
+          "scene": "Clara congratulates her rival on winning the promotion, smiling warmly while her hands tremble slightly in her pockets.",
+          "score": 7
+        },
+        {
+          "scene": "As his father speaks, Leo stares blankly ahead, completely silent, torn between a lifetime of resentment and a sudden, overwhelming urge to forgive him.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for descriptions of subtle body language, forced smiles, silent contemplation, or complex emotional dilemmas.",
+      "exclusion_note": "Do not score simple, overt emotional outbursts (e.g., screaming in anger) where no inference of a hidden or complex state is needed."
+    },
+    {
+      "dimension_id": "dramatic_irony_detection",
+      "definition": "The degree to which the viewer tracks a significant gap in knowledge between themselves (the viewer) and a character, where the viewer possesses critical information that the character lacks.",
+      "domain": "epistemic_perspective_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character walking into a trap known to the viewer",
+        "A character searching for something the viewer knows the location of",
+        "A character speaking about someone who is secretly listening"
+      ],
+      "graded_anchors": {
+        "0": "No gap in knowledge; the viewer and the characters have the exact same information.",
+        "1": "A very minor, inconsequential gap in knowledge that does not affect the narrative.",
+        "2": "The viewer knows a minor detail about the environment that a character has not noticed yet.",
+        "3": "The viewer is aware of a small event happening nearby that the character is oblivious to.",
+        "4": "The viewer knows a character's secret, but the character is not currently in a situation where it matters.",
+        "5": "A character is looking for an object, and the viewer knows exactly where it is hidden.",
+        "6": "A character is talking about another person, unaware that the person is standing right behind them.",
+        "7": "A character is walking into a dangerous situation or trap that the viewer has just witnessed being set.",
+        "8": "A character is making a major life decision based on information that the viewer knows is completely false.",
+        "9": "A character is confiding in a person whom the viewer knows is the secret antagonist planning their downfall.",
+        "10": "An intense climax where a character's survival depends on a secret that only the viewer and a deceased character know, creating extreme dramatic irony."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Alice reads a book in her room while her brother plays video games in the living room.",
+          "score": 0
+        },
+        {
+          "scene": "Mark walks down the dark hallway, unaware that a masked intruder is hiding in the closet he is about to open.",
+          "score": 7
+        },
+        {
+          "scene": "Peter tearfully thanks his loyal partner James for saving his business, completely unaware that James was the one who orchestrated the cyberattack to bankrupt him in the first place.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for scenes where the text explicitly describes a character being unaware of a major fact, threat, or presence that has been established for the viewer.",
+      "exclusion_note": "Do not score general suspense where neither the viewer nor the character knows what is about to happen."
+    },
+    {
+      "dimension_id": "secret_keeping_and_deception_tracking",
+      "definition": "The degree to which the viewer tracks a character actively keeping a secret, lying, or deceiving another character in real-time.",
+      "domain": "epistemic_perspective_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character telling a direct lie",
+        "A character hiding an object from someone in the room",
+        "A character deflecting questions to protect a secret"
+      ],
+      "graded_anchors": {
+        "0": "No secrets or deception; all communication is completely honest and open.",
+        "1": "A character tells a minor white lie that has no real consequence.",
+        "2": "A character briefly hides a small, unimportant object when someone enters.",
+        "3": "A character avoids answering a personal question to keep a minor detail private.",
+        "4": "A character lies about their whereabouts to avoid a minor argument.",
+        "5": "A character actively conceals a significant secret during a casual conversation.",
+        "6": "A character tells a major lie to another character, requiring the viewer to track the liar's and the dupe's perspectives.",
+        "7": "A character is interrogated and must carefully construct a web of lies to protect a critical secret.",
+        "8": "A character is living a double life, constantly managing lies and secrets in front of their loved ones.",
+        "9": "A character is actively deceiving everyone around them about their true identity, requiring constant tracking of their dual persona.",
+        "10": "A high-stakes confrontation where a character must maintain a massive lie under extreme pressure, while the other character is actively trying to catch them in a contradiction."
+      },
+      "calibration_examples": [
+        {
+          "scene": "When asked if he ate the last cookie, Ben says no, even though he did.",
+          "score": 3
+        },
+        {
+          "scene": "Sarah hides her diary under her mattress when she hears her sister approaching the bedroom door.",
+          "score": 5
+        },
+        {
+          "scene": "During the police interrogation, Detective Miller asks Robert where he was on the night of the murder; Robert calmly provides a detailed, pre-fabricated alibi while sweating profusely.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Look for descriptions of characters lying, hiding evidence, pretending to be someone else, or carefully choosing their words to avoid revealing a secret.",
+      "exclusion_note": "Do not score simple privacy where no one is actively trying to uncover the secret or being deceived."
+    },
+    {
+      "dimension_id": "shared_vs_private_knowledge_mapping",
+      "definition": "The degree to which the viewer must map and track who knows what among a group of characters, specifically identifying who is included in a secret and who is excluded.",
+      "domain": "epistemic_perspective_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Characters sharing a secret look",
+        "A character revealing a secret to a select few",
+        "A group of characters hiding information from a specific individual"
+      ],
+      "graded_anchors": {
+        "0": "No private knowledge; all information is shared equally among all characters present.",
+        "1": "A character has a minor private thought that they do not share.",
+        "2": "Two characters share a minor inside joke that a third character does not understand.",
+        "3": "A character tells a secret to one friend, excluding another friend in the room.",
+        "4": "A group of characters knows about a surprise party, while the guest of honor is kept in the dark.",
+        "5": "Two characters exchange a knowing look, indicating they share a secret that others in the room do not know.",
+        "6": "A character must carefully discuss a secret with an ally in a crowded room without letting others overhear.",
+        "7": "There is a clear division in a group: three characters know the true mission, while the other two are being kept in the dark for safety.",
+        "8": "A complex social dynamic where character A knows a secret, character B knows character A knows it, but character C is completely oblivious.",
+        "9": "A multi-character meeting where different factions hold different pieces of a puzzle, and each is trying to figure out what the others know.",
+        "10": "An intricate web of espionage or political intrigue where the viewer must track multiple layers of shared, private, and leaked knowledge across several factions."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The teacher explains the math problem to the entire class, and all the students take notes.",
+          "score": 0
+        },
+        {
+          "scene": "At the dinner table, Julia and her father exchange a quick, silent glance when her mother mentions the upcoming weekend trip, both knowing they haven't bought the tickets yet.",
+          "score": 5
+        },
+        {
+          "scene": "In the war room, the generals discuss the true casualty numbers in hushed tones, but immediately change the subject to optimistic battle plans when the junior officers enter the room.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Look for descriptions of whispered conversations, knowing glances, selective sharing of information, or characters being excluded from discussions.",
+      "exclusion_note": "Do not score simple group conversations where everyone is fully informed and sharing everything openly."
+    },
+    {
+      "dimension_id": "social_conflict_and_confrontation",
+      "definition": "The intensity of social conflict, arguments, power struggles, or emotional clashes between two or more characters.",
+      "domain": "social_interaction_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "An intense verbal argument",
+        "A physical confrontation or standoff",
+        "A passive-aggressive exchange or power struggle"
+      ],
+      "graded_anchors": {
+        "0": "No social conflict; characters are completely harmonious, cooperative, or alone.",
+        "1": "A very minor, polite disagreement that is resolved immediately.",
+        "2": "A slight tension or coldness between characters during a brief interaction.",
+        "3": "A mild verbal disagreement or bickering over a trivial matter.",
+        "4": "A clear argument where characters express opposing views with some emotional heat.",
+        "5": "A heated argument with raised voices, showing significant interpersonal conflict.",
+        "6": "A bitter confrontation where characters exchange personal insults or threats.",
+        "7": "An intense power struggle or standoff where characters are actively trying to dominate or intimidate each other.",
+        "8": "A major emotional blowout or betrayal scene, causing a severe rupture in a relationship.",
+        "9": "A high-stakes, explosive confrontation that threatens physical violence or total social ruin.",
+        "10": "An extreme, life-or-death social conflict involving multiple characters in a chaotic, hostile standoff."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Two friends politely debate whether to eat Italian or Chinese food for dinner.",
+          "score": 2
+        },
+        {
+          "scene": "During the board meeting, the CEO slams his hand on the table, shouting at the CFO for losing millions, while the CFO glares back defiantly.",
+          "score": 7
+        },
+        {
+          "scene": "A husband and wife stand in the kitchen, screaming accusations of infidelity at each other, throwing dishes, and threatening divorce.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for descriptions of shouting, arguing, glaring, passive-aggressive remarks, power plays, and emotional confrontations.",
+      "exclusion_note": "Do not score physical violence against inanimate objects or monsters unless it is part of an interpersonal social conflict."
+    },
+    {
+      "dimension_id": "social_cooperation_and_alliance",
+      "definition": "The degree to which characters demonstrate cooperation, mutual support, bonding, or the formation of alliances to achieve a common goal.",
+      "domain": "social_interaction_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Characters working together to solve a problem",
+        "A character comforting another in distress",
+        "Two characters forming a pact or alliance"
+      ],
+      "graded_anchors": {
+        "0": "No cooperation or bonding; characters are hostile, indifferent, or isolated.",
+        "1": "A basic, transactional interaction (e.g., paying a cashier) with no real bonding.",
+        "2": "A polite, cooperative exchange between acquaintances.",
+        "3": "Characters work together on a simple, routine task with pleasant conversation.",
+        "4": "Characters show mutual support or offer mild comfort during a stressful moment.",
+        "5": "Characters collaborate effectively to solve a difficult problem, showing good teamwork.",
+        "6": "Two characters share a deep, personal conversation that strengthens their emotional bond.",
+        "7": "Characters form a strong alliance or make a formal pact to face a major challenge together.",
+        "8": "A powerful moment of reconciliation, deep trust, or mutual sacrifice between close friends or allies.",
+        "9": "A group of characters unites in perfect harmony, putting aside all differences to fight for a critical, shared cause.",
+        "10": "An extraordinary display of absolute trust, deep love, and seamless cooperation where characters risk their lives for one another."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A passenger asks the bus driver for directions, and the driver politely answers.",
+          "score": 2
+        },
+        {
+          "scene": "After a long day of searching, the rescue team coordinates their efforts, sharing maps and dividing the forest into search grids to find the lost child.",
+          "score": 6
+        },
+        {
+          "scene": "In a tearful embrace, the estranged brothers shake hands and vow to protect their family home from the developers, promising to stand by each other no matter what.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Look for descriptions of teamwork, comforting gestures, shared laughter, deep conversations, reconciliations, and alliances.",
+      "exclusion_note": "Do not score purely individual achievements or forced cooperation where characters remain deeply hostile and uncooperative in spirit."
+    },
+    {
+      "dimension_id": "communicative_intent_and_dialogue_dynamics",
+      "definition": "The complexity of the communication between characters, focusing on subtext, non-verbal social cues, sarcasm, or reading between the lines of a conversation.",
+      "domain": "social_interaction_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character using heavy sarcasm or irony",
+        "A conversation filled with unspoken subtext",
+        "Characters communicating through subtle non-verbal cues"
+      ],
+      "graded_anchors": {
+        "0": "No dialogue or communication; characters are silent or alone.",
+        "1": "Simple, literal statements with no subtext or emotional nuance (e.g., reading a list of facts).",
+        "2": "A straightforward conversation where characters say exactly what they mean.",
+        "3": "A conversation with minor social pleasantries or polite small talk.",
+        "4": "A character uses mild sarcasm or a playful tone that is easily understood.",
+        "5": "A conversation where there is a clear, simple subtext (e.g., flirting or hinting at a request).",
+        "6": "Characters use coded language or double entendres to discuss a sensitive topic in public.",
+        "7": "An intense conversation where what is left unsaid is more important than the actual words spoken, requiring the viewer to analyze every line.",
+        "8": "A highly sophisticated verbal duel where characters exchange veiled threats and test each other's boundaries under a polite facade.",
+        "9": "A complex dialogue rich with sarcasm, hidden meanings, emotional manipulation, and subtle non-verbal cues (glances, pauses).",
+        "10": "An extraordinary masterclass in subtext and psychological maneuvering, where every single word, pause, and micro-expression carries multiple layers of social meaning."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The weather reporter states that it will rain tomorrow, and the anchor thanks him.",
+          "score": 1
+        },
+        {
+          "scene": "At the bar, Leo asks Clara if she wants another drink, looking into her eyes and smiling, while she twists her hair and says, 'Only if you're having one.'",
+          "score": 5
+        },
+        {
+          "scene": "The detective and the prime suspect have tea; they exchange polite compliments about the porcelain, but every sentence is a carefully veiled threat and a test of the suspect's alibi.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Look for descriptions of sarcasm, flirting, coded language, tense silences, meaningful glances, and conversations where characters are hiding their true thoughts behind polite words.",
+      "exclusion_note": "Do not score loud, direct shouting matches where there is no subtext and everything is expressed explicitly."
+    },
+    {
+      "dimension_id": "unexpected_plot_twists_and_revelations",
+      "definition": "The degree to which a scene introduces a sudden, shocking revelation or plot twist that completely violates the viewer's established expectations of the narrative.",
+      "domain": "narrative_expectancy_reorienting",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A shocking revelation about a character's identity",
+        "A sudden, unexpected turn of events",
+        "A major secret being exposed to the viewer"
+      ],
+      "graded_anchors": {
+        "0": "No surprises; the narrative progresses exactly as expected in a highly predictable manner.",
+        "1": "A very minor, predictable detail is revealed that slightly adds to the story.",
+        "2": "A small, expected development occurs, confirming a previous suspicion.",
+        "3": "A minor surprise or twist that slightly alters the immediate situation but not the main plot.",
+        "4": "A character reveals a piece of information that is somewhat surprising but fits easily into the current understanding.",
+        "5": "A moderate plot twist that changes the immediate goals of the characters.",
+        "6": "A significant revelation that forces the viewer to re-evaluate a character's recent actions.",
+        "7": "A major, shocking plot twist that completely changes the direction of the narrative.",
+        "8": "A massive revelation (e.g., a dead character is actually alive) that shatters the viewer's assumptions about the story.",
+        "9": "An extraordinary, mind-bending plot twist that completely recontextualizes the entire movie up to this point.",
+        "10": "A legendary, paradigm-shifting narrative revelation that completely upends the viewer's understanding of reality, characters, and plot."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The detective follows the clues and successfully finds the stolen painting in the suspect's basement, just as he predicted.",
+          "score": 1
+        },
+        {
+          "scene": "Just as the hero is about to defeat the villain, the villain reveals a document proving that he is actually the hero's biological father.",
+          "score": 8
+        },
+        {
+          "scene": "The protagonist wakes up in a high-tech facility and realizes that the entire town he lived in, and all the people he knew, were merely a computer simulation he was testing.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for words like 'suddenly', 'shockingly', 'to his horror', 'revealed', 'realized', or descriptions of massive, unexpected shifts in the story.",
+      "exclusion_note": "Do not score standard, predictable action sequences or gradual developments that build up over time without a sudden twist."
+    },
+    {
+      "dimension_id": "surprising_character_actions",
+      "definition": "The degree to which a character behaves in a highly unexpected, shocking, or uncharacteristic manner, violating the viewer's expectations of their personality or loyalty.",
+      "domain": "narrative_expectancy_reorienting",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A loyal ally suddenly betraying the protagonist",
+        "A cowardly character performing a heroic act",
+        "A character making a completely irrational or shocking choice"
+      ],
+      "graded_anchors": {
+        "0": "Characters act completely in character, following predictable patterns of behavior.",
+        "1": "A character makes a slightly unusual choice that is easily explained by their mood.",
+        "2": "A character reacts a bit more strongly than usual to a minor annoyance.",
+        "3": "A character does something slightly unexpected, like changing their mind about a minor decision.",
+        "4": "A character acts somewhat out of character, raising mild questions about their motives.",
+        "5": "A character makes a surprising decision that goes against their immediate self-interest.",
+        "6": "A character performs an action that is highly uncharacteristic, causing surprise among other characters.",
+        "7": "A character makes a shocking, unexpected choice that dramatically alters their relationship with others.",
+        "8": "A sudden, shocking betrayal by a character who was established as a deeply loyal and trusted ally.",
+        "9": "A character performs an act so wildly unexpected and extreme (e.g., suddenly shooting their partner without warning) that it leaves the viewer stunned.",
+        "10": "A complete, shocking psychological break or sudden reversal of a character's core identity, manifested in an extreme, unimaginable action."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The grumpy old man grumbles but ultimately helps his neighbor carry her groceries inside.",
+          "score": 3
+        },
+        {
+          "scene": "During the escape, the brave soldier suddenly panics, pushes his comrade into the path of the oncoming guards, and locks the door behind himself to escape alone.",
+          "score": 8
+        },
+        {
+          "scene": "Without a word of warning, the quiet, gentle librarian pulls out a revolver and shoots the mayor in the middle of a peaceful town hall meeting.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for descriptions of sudden betrayals, shocking outbursts from quiet characters, or unexpected acts of heroism or cowardice.",
+      "exclusion_note": "Do not score predictable character growth or actions that are fully aligned with a character's established villainous or heroic nature."
+    },
+    {
+      "dimension_id": "abrupt_sensory_or_situational_shifts",
+      "definition": "The degree to which a scene features a sudden, abrupt transition in the environment, a jump scare, an unexpected entry of a character, or a rapid disruption of the scene's flow.",
+      "domain": "narrative_expectancy_reorienting",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A sudden jump scare or loud noise",
+        "An unexpected character bursting into the room",
+        "A sudden, abrupt cut or transition to a completely different situation"
+      ],
+      "graded_anchors": {
+        "0": "A calm, continuous scene with smooth transitions and no sudden disruptions.",
+        "1": "A minor, expected transition, such as a character entering a room after knocking.",
+        "2": "A slight shift in the scene, like a phone ringing or a door opening normally.",
+        "3": "A character enters the scene somewhat unexpectedly, causing a brief distraction.",
+        "4": "A sudden, moderately loud noise or unexpected movement that startles a character.",
+        "5": "An abrupt transition or cut to a different location, shifting the viewer's focus.",
+        "6": "A character suddenly bursts into the room unannounced, interrupting an important moment.",
+        "7": "A sudden, shocking event occurs without warning, such as a car crash or an explosion in a quiet scene.",
+        "8": "A classic jump scare: a terrifying figure suddenly appears on screen accompanied by a loud noise, shocking the viewer.",
+        "9": "An extremely abrupt, violent disruption of the scene (e.g., a character being suddenly snatched away by a monster in mid-sentence).",
+        "10": "A chaotic sequence of rapid-fire, highly disorienting sensory and situational shocks that completely overwhelm the viewer's attentional system."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The family sits at the dinner table, talking quietly, when the father enters and sits down.",
+          "score": 1
+        },
+        {
+          "scene": "As Sarah walks down the quiet, empty street, a car suddenly swerves off the road and crashes into a fire hydrant right next to her, sending water spraying everywhere.",
+          "score": 7
+        },
+        {
+          "scene": "While the scientist is explaining the safety protocols in a quiet laboratory, a massive creature suddenly crashes through the glass window behind him, grabbing him in its jaws and dragging him out.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for words like 'suddenly', 'bursts', 'shatters', 'out of nowhere', 'crashes', or descriptions of sudden visual or auditory shocks.",
+      "exclusion_note": "Do not score gradual build-ups of tension or slow, artistic transitions between scenes."
+    },
+    {
+      "dimension_id": "moral_violation_and_transgression",
+      "definition": "The severity of a character's violation of moral standards, ethical codes, or social norms, prompting the viewer to make a strong negative moral judgment.",
+      "domain": "moral_and_normative_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "An act of cruelty or unnecessary violence",
+        "A deep betrayal of trust or friendship",
+        "Exploitation of a vulnerable person"
+      ],
+      "graded_anchors": {
+        "0": "No moral violations; characters act ethically, neutrally, or kindly.",
+        "1": "A very minor social transgression, like being slightly rude or cutting in line.",
+        "2": "A character tells a minor lie or acts selfishly in a low-stakes situation.",
+        "3": "A character breaks a minor rule or shows a lack of consideration for others.",
+        "4": "A character acts dishonestly or unfairly, causing mild harm or distress.",
+        "5": "A clear moral violation, such as stealing from a friend or cheating on a partner.",
+        "6": "An act of deliberate cruelty, bullying, or significant exploitation of another person.",
+        "7": "A severe betrayal of a close friend or family member, causing deep emotional devastation.",
+        "8": "A heinous act of violence, abuse, or extreme malice directed at an innocent person.",
+        "9": "An atrocious, cold-blooded crime or systematic exploitation of vulnerable people, provoking intense moral outrage.",
+        "10": "An unspeakable, monstrous act of pure evil, absolute betrayal, or mass cruelty that completely violates basic human morality."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A teenager ignores an elderly man struggling to carry his bags and walks past him.",
+          "score": 3
+        },
+        {
+          "scene": "The corrupt landlord laughs as he hands an eviction notice to a crying widow and her young children on Christmas Eve.",
+          "score": 7
+        },
+        {
+          "scene": "The villain captures the hero's family and forces the hero to choose which of his children to execute, smiling as he enjoys the hero's agony.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Look for descriptions of cruelty, theft, betrayal, abuse of power, lies that hurt others, and violations of basic human rights.",
+      "exclusion_note": "Do not score accidental harm or actions taken in self-defense, which do not carry the same moral culpability."
+    },
+    {
+      "dimension_id": "altruism_and_moral_exemplar_behavior",
+      "definition": "The degree to which a character demonstrates selflessness, altruism, heroism, or high moral virtue, sacrificing their own well-being for the sake of others.",
+      "domain": "moral_and_normative_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character risking their life to save someone",
+        "An act of profound generosity or charity",
+        "A character standing up for justice at great personal cost"
+      ],
+      "graded_anchors": {
+        "0": "No altruistic or moral exemplar behavior; characters act selfishly, neutrally, or maliciously.",
+        "1": "A minor act of politeness, like holding a door open for someone.",
+        "2": "A character shows basic kindness, such as sharing a snack or offering a compliment.",
+        "3": "A character helps a stranger with a minor task, requiring very little effort.",
+        "4": "A character donates money or time to a good cause, showing genuine generosity.",
+        "5": "A character stands up against a minor injustice or defends a friend who is being teased.",
+        "6": "A character goes out of their way to help someone in need, incurring a moderate personal cost.",
+        "7": "A significant act of bravery or selflessness, such as a firefighter rushing into a burning building.",
+        "8": "A character makes a major personal sacrifice (e.g., giving up their career or life savings) to protect or help others.",
+        "9": "An extraordinary act of heroism where a character willingly risks their life to save strangers, demonstrating supreme moral virtue.",
+        "10": "The ultimate act of self-sacrifice: a character knowingly and willingly gives their life to save others, embodying absolute moral purity."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A woman gives her seat on a crowded bus to a pregnant passenger.",
+          "score": 3
+        },
+        {
+          "scene": "Despite knowing he will be fired and blacklisted, the whistleblower copies the incriminating files to expose the company's toxic dumping in the local water supply.",
+          "score": 7
+        },
+        {
+          "scene": "The soldier throws himself onto the live grenade, shielding his comrades with his own body to absorb the blast and save their lives.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Look for descriptions of self-sacrifice, bravery, standing up for the weak, extreme generosity, and choosing the right path despite severe consequences.",
+      "exclusion_note": "Do not score routine professional duties (e.g., a doctor performing a standard surgery) unless they involve extraordinary personal risk or sacrifice."
+    },
+    {
+      "dimension_id": "blame_and_intentionality_assessment",
+      "definition": "The degree to which the viewer must evaluate a character's level of blame, intentionality, or negligence behind a harmful outcome, distinguishing between accidents, negligence, and deliberate malice.",
+      "domain": "moral_and_normative_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "An accident that looks suspicious",
+        "A character being blamed for something they didn't do",
+        "Evaluating whether a character meant to cause harm"
+      ],
+      "graded_anchors": {
+        "0": "No harmful outcomes occur, or the cause of harm is completely clear and requires no evaluation of blame.",
+        "1": "A minor, obvious accident with no blame or negligence involved (e.g., tripping over a rug).",
+        "2": "A minor mishap where a character was slightly careless but clearly had no bad intentions.",
+        "3": "A character is blamed for a minor mistake, and the viewer must assess if they were truly at fault.",
+        "4": "A harmful event occurs due to clear negligence, requiring the viewer to assign blame for the carelessness.",
+        "5": "A character causes harm accidentally, but the circumstances make them look highly suspicious, forcing the viewer to weigh intent vs. outcome.",
+        "6": "A character does something wrong but was coerced or manipulated, complicating the assignment of moral blame.",
+        "7": "A character's actions lead to a tragic outcome; they did not intend the specific tragedy, but their reckless behavior makes them highly blameworthy.",
+        "8": "The viewer must determine if a character's harmful action was a deliberate act of malice or a tragic, unavoidable mistake under extreme pressure.",
+        "9": "A complex situation where a character is falsely accused of a major crime, and the viewer must carefully analyze the evidence of their innocence vs. guilt.",
+        "10": "A profound moral dilemma where a character causes massive harm, and the viewer must untangle a highly complex web of intent, negligence, coercion, and unforeseen consequences to assign blame."
+      },
+      "calibration_examples": [
+        {
+          "scene": "While carrying a tray of drinks, a waiter slips on a wet floor and drops everything.",
+          "score": 1
+        },
+        {
+          "scene": "A driver distracted by a text message runs a red light and crashes into another car, causing minor injuries.",
+          "score": 4
+        },
+        {
+          "scene": "The surgeon is accused of manslaughter after a patient dies on the table; the hospital board must determine if the death was due to an unpredictable medical anomaly or the surgeon's drinking before the operation.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Look for descriptions of accidents, negligence, false accusations, excuses, coercion, and debates over who is to blame for a tragedy.",
+      "exclusion_note": "Do not score clear-cut, deliberate acts of malice where there is absolutely no question about the character's intent and full culpability."
+    }
+  ],
+  "metadata": {
+    "domain_pool": {
+      "source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/TPJ/domain_pool_auto_confirmed.json",
+      "content_sha256": "a26d2847530a2a639afb10238b9013bc5d3c0ee7e450a832c22703799388502c",
+      "version": "domain_pool_v2",
+      "target_region": "TPJ",
+      "curation_status": "confirmed",
+      "proposal_runs": 5,
+      "curated_domain_ids": [
+        "mental_state_attribution",
+        "epistemic_perspective_tracking",
+        "social_interaction_appraisal",
+        "narrative_expectancy_reorienting",
+        "moral_and_normative_appraisal"
+      ]
+    },
+    "source_provider": "gemini",
+    "source_model": "gemini-3.5-flash",
+    "fixed_roi_definition": {
+      "roi_id": "TPJ",
+      "display_name": "temporoparietal junction",
+      "theoretical_role": "Theory of mind, attentional switching, and social prediction-error monitoring.",
+      "selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            75,
+            76,
+            79,
+            80,
+            121,
+            122,
+            123,
+            124,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,611 @@
+{
+  "version": "region_schema_v1",
+  "target_region": "Precuneus",
+  "functional_hypothesis": "The precuneus is a major association hub located on the medial surface of the parietal lobule. It is a core node of the Default Mode Network (DMN) and is heavily involved in visuospatial processing (such as mental imagery and spatial perspective tracking), episodic memory retrieval, narrative integration over long temporal windows, and social cognition (including theory of mind and self-referential processing). By tracking dimensions across spatial perspective tracking, narrative context integration, social perspective taking, and self-referential projection, we can model the multi-faceted cognitive demands that drive precuneus activity during naturalistic movie viewing.",
+  "scoring_instruction": "Score each dimension on a scale from 0 to 10 based on the evidence provided in the dense movie description. A score of 0 indicates that the dimension is completely absent or cannot be inferred from the text. A score of 10 indicates that the dimension is extremely prominent and central to the scene. Base your scores strictly on the text description, evaluating the cognitive demands placed on a typical viewer to process the spatial, narrative, social, or self-referential aspects of the scene.",
+  "selection_rules": [
+    {
+      "networks": [],
+      "sub_regions": [],
+      "hemispheres": [],
+      "label_ids": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": "spatial_perspective_tracking",
+      "definition": "The viewer's mental reconstruction and tracking of the physical layout, spatial relationships, and egocentric or allocentric perspectives within the scene's environment, including updating the mental map of where characters and objects are relative to each other and their surroundings.",
+      "region_relevance": "The precuneus is a key node in visuospatial processing, mental imagery, and egocentric-to-allocentric spatial coordinate transformation.",
+      "scoreability_note": "Highly scoreable from descriptions of character movements, camera perspective shifts, spatial layouts, and physical navigation within a scene.",
+      "source_domain_ids": [
+        "run_1_spatial_perspective_tracking",
+        "run_2_spatial_perspective_tracking",
+        "run_3_spatial_scene_mapping",
+        "run_4_spatial_layout_mentalizing",
+        "run_5_spatial_perspective_mapping"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all spatial mapping and perspective tracking domains across all five runs, as they describe the same underlying cognitive process of tracking physical layouts and spatial coordinates."
+    },
+    {
+      "domain_id": "narrative_context_integration",
+      "definition": "The viewer's cognitive integration of the current scene events with prior narrative context, tracking long-term plot developments, character histories, and thematic continuity across time.",
+      "region_relevance": "The precuneus is a core hub of the Default Mode Network (DMN) and is heavily implicated in narrative comprehension, episodic memory retrieval, and integrating information over long temporal windows.",
+      "scoreability_note": "Scoreable by assessing how much the current scene relies on prior knowledge, references past events, or advances ongoing multi-scene plotlines.",
+      "source_domain_ids": [
+        "run_1_narrative_situation_integration",
+        "run_2_narrative_event_integration",
+        "run_3_narrative_context_retrieval",
+        "run_4_narrative_context_integration",
+        "run_5_narrative_continuity_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all narrative integration, context retrieval, and continuity tracking domains across all five runs, as they all capture the viewer's temporal integration of story events."
+    },
+    {
+      "domain_id": "social_perspective_taking",
+      "definition": "The viewer's active inference of characters' unexpressed thoughts, hidden motives, beliefs, and psychological states based on their actions, expressions, and dialogue.",
+      "region_relevance": "The precuneus, as part of the mentalizing network, is consistently activated during Theory of Mind tasks and the attribution of mental states to others.",
+      "scoreability_note": "Scoreable from text descriptions detailing subtext, deceptive behavior, unspoken tension, or scenes requiring the viewer to read between the lines of character interactions.",
+      "source_domain_ids": [
+        "run_1_social_mentalizing",
+        "run_2_social_perspective_taking",
+        "run_3_character_perspective_tracking",
+        "run_4_social_perspective_taking",
+        "run_5_social_perspective_taking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all social mentalizing and perspective-taking domains across all five runs, as they all represent the viewer's cognitive simulation of characters' internal mental states."
+    },
+    {
+      "domain_id": "self_referential_projection",
+      "definition": "The viewer's retrieval of personal memories, familiar real-world schemas, or self-referential concepts triggered by the situations, relationships, or dilemmas presented on screen.",
+      "region_relevance": "The precuneus is central to autobiographical memory retrieval, self-referential processing, and comparing external stimuli to internal personal experiences.",
+      "scoreability_note": "Scoreable by evaluating the degree to which a scene depicts highly relatable, common life milestones, universal human experiences, or emotionally resonant personal dilemmas.",
+      "source_domain_ids": [
+        "run_1_self_referential_resonance",
+        "run_4_experiential_self_projection"
+      ],
+      "source_runs": [
+        1,
+        4
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Merged self-referential resonance and experiential self-projection from runs 1 and 4, as they both capture the viewer's projection of their own self-schema and autobiographical memories onto the narrative."
+    }
+  ],
+  "active_domain_ids": [
+    "spatial_perspective_tracking",
+    "narrative_context_integration",
+    "social_perspective_taking",
+    "self_referential_projection"
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "egocentric_navigation_detail",
+      "definition": "The degree to which the text describes a character's physical movement, orientation, and navigation through a local environment from their first-person or close-up egocentric perspective.",
+      "domain": "spatial_perspective_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Descriptions of a character walking, running, or crawling through a specific path",
+        "Details about a character turning left, right, or looking up/down within a space",
+        "First-person camera descriptions or close tracking of a character's immediate physical path",
+        "Descriptions of navigating obstacles, narrow corridors, or complex terrain"
+      ],
+      "graded_anchors": {
+        "0": "No physical movement or local spatial navigation is described.",
+        "1": "A character is mentioned moving slightly, but with no directional or environmental detail.",
+        "2": "Minimal movement is described, such as standing up or walking to a nearby door.",
+        "3": "A character walks through a room, with basic mentions of the layout.",
+        "4": "The character navigates a simple path, with clear directional cues (e.g., turning a corner).",
+        "5": "Moderate navigation detail, tracking a character moving through multiple rooms or a defined outdoor path.",
+        "6": "Clear tracking of a character's physical path, including obstacles and orientation changes.",
+        "7": "Detailed description of a character navigating a complex environment (e.g., a maze, a crowded market) with frequent directional updates.",
+        "8": "Highly detailed egocentric navigation, describing precise movements, turns, and physical interactions with the layout.",
+        "9": "Extremely rich description of a character's physical journey through a complex space, emphasizing their immediate perspective and orientation.",
+        "10": "An intense, continuous sequence of first-person or closely-tracked physical navigation through a highly complex, obstacle-filled environment."
+      },
+      "calibration_examples": [
+        {
+          "scene": "John sits at his desk, staring at a computer screen without moving.",
+          "score": 0
+        },
+        {
+          "scene": "Sarah runs down the narrow, winding stone corridor, turning sharply to the left, ducking under a low archway, and scrambling up a steep spiral staircase.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Driven by explicit verbs of motion, directional prepositions, and descriptions of the immediate physical surroundings relative to the character's body.",
+      "exclusion_note": "Do not score high if the scene only describes static positions or broad geographical movements (e.g., 'they traveled to Paris') without local navigation details."
+    },
+    {
+      "dimension_id": "allocentric_spatial_layout",
+      "definition": "The degree to which the text describes the relative physical positions, distances, and spatial relationships between multiple characters, objects, and landmarks in a stable environment.",
+      "domain": "spatial_perspective_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Descriptions of where characters are positioned relative to each other (e.g., 'opposite', 'next to')",
+        "Mentions of specific distances or spatial arrangements (e.g., 'ten feet away', 'arranged in a circle')",
+        "Descriptions of objects or landmarks serving as reference points in the scene",
+        "Mapping out the layout of a room or outdoor setting with multiple elements"
+      ],
+      "graded_anchors": {
+        "0": "No spatial layout or relative positions of objects/characters are described.",
+        "1": "Vague mention of a setting with no details about where things or people are located.",
+        "2": "Mentions that two characters are in the same room, but without specifying their relative positions.",
+        "3": "Basic layout is mentioned, such as a character sitting across a table from another.",
+        "4": "Clear description of the arrangement of a few key elements in the room (e.g., bed by the window, desk in the corner).",
+        "5": "Moderate detail mapping out the relative positions of several characters and key objects in a space.",
+        "6": "Detailed description of a multi-character scene where everyone's relative position and distance are clearly defined.",
+        "7": "Rich description of a complex physical layout, detailing the positions of multiple objects, characters, and background landmarks.",
+        "8": "Highly detailed spatial mapping of a scene, allowing the reader to construct a precise 3D mental model of the entire environment.",
+        "9": "Extremely detailed allocentric description, tracking shifting relative positions of multiple moving parts within a stable layout.",
+        "10": "A comprehensive, highly technical or vivid spatial blueprint of a complex environment, detailing every character's and object's exact coordinates and relative distances."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A voice speaks from the darkness, but nothing can be seen.",
+          "score": 0
+        },
+        {
+          "scene": "In the center of the circular room stands a large mahogany table. Arthur sits at the head, with Merlin to his immediate right and Lancelot directly opposite him, near the heavy wooden door that leads to the courtyard.",
+          "score": 7
+        }
+      ],
+      "scoreability_note": "Driven by spatial prepositions, distance measurements, and descriptions of static arrangements of multiple entities within a scene.",
+      "exclusion_note": "Do not confuse with egocentric movement; this focuses on the static or relative layout of the environment rather than a single character's path."
+    },
+    {
+      "dimension_id": "camera_perspective_shift",
+      "definition": "The degree to which the text describes shifts in camera angles, viewpoints, scale (e.g., close-up to wide shot), or perspective that require the viewer to update their mental spatial map.",
+      "domain": "spatial_perspective_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Explicit mentions of camera movements (e.g., panning, tilting, zooming)",
+        "Shifts from a wide establishing shot to a tight close-up",
+        "Changes in viewpoint, such as looking down from a high angle or up from a low angle",
+        "Descriptions of cutting between different viewpoints or characters' lines of sight"
+      ],
+      "graded_anchors": {
+        "0": "No camera movement, perspective shifts, or visual framing changes are described.",
+        "1": "Vague mention of a single static view or shot.",
+        "2": "A simple cut or change in focus is implied, but without detailed perspective shifts.",
+        "3": "Basic mention of a camera angle, such as a close-up on a character's face.",
+        "4": "Clear description of a perspective shift, such as cutting from one character's face to what they are looking at.",
+        "5": "Moderate description of camera movement, such as panning across a room to reveal a new character.",
+        "6": "Detailed description of shifting viewpoints, including changes in scale (e.g., zooming out to show the whole building).",
+        "7": "Rich description of dynamic camera work, tracking a continuous shot that moves through space and changes angles.",
+        "8": "Highly detailed sequence of rapid cuts, perspective shifts, and dramatic angle changes (e.g., bird's-eye view to low-angle close-up).",
+        "9": "Extremely vivid description of complex, fluid camera movements and perspective shifts that constantly reframe the spatial layout.",
+        "10": "A masterfully described, highly complex cinematic sequence defined entirely by rapid, continuous, and dramatic shifts in perspective, scale, and camera angles."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The two men continue their conversation in a steady, uninterrupted medium shot.",
+          "score": 1
+        },
+        {
+          "scene": "The camera starts on a tight close-up of a ticking watch, then slowly pans out and tilts upward to reveal the vast, empty train station, before cutting to a high-angle bird's-eye view of a single figure standing on the platform.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Driven by cinematic terminology or descriptions of visual framing, scale changes, and shifting vantage points.",
+      "exclusion_note": "Do not score high for simple descriptions of action without any indication of a change in visual perspective or framing."
+    },
+    {
+      "dimension_id": "episodic_memory_retrieval",
+      "definition": "The degree to which the scene explicitly references, recalls, or triggers memories of specific past events, characters, or objects previously encountered in the movie.",
+      "domain": "narrative_context_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Characters discussing or reminiscing about a specific past event",
+        "The appearance of a significant object or location from earlier in the narrative",
+        "Flashbacks or explicit visual/auditory callbacks to previous scenes",
+        "A character reacting to a reminder of a past trauma or milestone"
+      ],
+      "graded_anchors": {
+        "0": "No reference to past events or prior narrative context; the scene is entirely self-contained.",
+        "1": "A very minor, passing mention of something that happened earlier, with no impact on the scene.",
+        "2": "A brief reference to a past event that provides minor context for a character's current state.",
+        "3": "A character makes a clear verbal reference to a specific event from a previous scene.",
+        "4": "The scene features a prominent callback, such as a character returning to a location seen earlier in the movie.",
+        "5": "Moderate reliance on episodic memory, where understanding the scene's emotional weight requires recalling a specific past event.",
+        "6": "A significant object or secret from earlier in the film is reintroduced, driving the current interaction.",
+        "7": "The scene centers around a detailed discussion or flashback of a pivotal event from earlier in the narrative.",
+        "8": "Highly intense episodic retrieval, where the entire scene is a direct consequence of, or reflection on, a major past plot point.",
+        "9": "Extremely rich integration of past events, combining multiple callbacks, flashbacks, and references that reframe previous scenes.",
+        "10": "A climactic sequence entirely built upon the culmination and explicit retrieval of multiple key episodic memories from throughout the movie."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A stranger walks into a diner and orders a coffee, starting a conversation with the waitress about the weather.",
+          "score": 0
+        },
+        {
+          "scene": "Leo stares at the spinning top on the table, the exact same token his late wife used to prove they were in a dream, and his eyes fill with tears as he remembers their final confrontation.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Driven by explicit mentions of past events, flashbacks, callbacks, or characters reflecting on prior occurrences in the story.",
+      "exclusion_note": "Do not score high for general background lore or world-building that was not previously shown or experienced by the viewer in the narrative."
+    },
+    {
+      "dimension_id": "plot_continuity_integration",
+      "definition": "The degree to which the scene advances, complicates, or resolves ongoing multi-scene storylines, requiring the viewer to integrate long-term plot context.",
+      "domain": "narrative_context_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A major revelation that changes the direction of the main plot",
+        "The resolution of a long-standing conflict or mystery",
+        "A character making a decision that directly impacts an ongoing storyline",
+        "The intersection of two previously separate plotlines"
+      ],
+      "graded_anchors": {
+        "0": "The scene has no connection to the broader plot and does not advance any ongoing storylines.",
+        "1": "Very minor contribution to the plot, such as a character taking a small step toward a goal.",
+        "2": "A small plot point is introduced or advanced, but the scene is mostly conversational or atmospheric.",
+        "3": "Clear advancement of a secondary subplot or minor character arc.",
+        "4": "The main plot is steadily advanced through a key piece of information or action.",
+        "5": "Moderate plot integration, where a significant development occurs in the main storyline.",
+        "6": "A major plot complication or twist is introduced, requiring the viewer to re-evaluate the current narrative direction.",
+        "7": "The scene represents a major turning point in the narrative, resolving one conflict while setting up the final climax.",
+        "8": "Highly critical plot integration, such as the climax of a major narrative arc or the unmasking of a main antagonist.",
+        "9": "Extremely high narrative integration, where multiple complex plotlines converge and resolve simultaneously.",
+        "10": "The ultimate resolution or climax of the entire movie's narrative, tying together all major storylines and character arcs."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A montage of a character brushing their teeth, eating breakfast, and driving to work.",
+          "score": 1
+        },
+        {
+          "scene": "The detective finally confronts the mayor with the ledger, revealing that the mayor was the mastermind behind the city's corruption all along, tying together clues from the entire investigation.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Driven by plot-advancing actions, revelations, twists, or resolutions of narrative arcs established over multiple scenes.",
+      "exclusion_note": "Do not score high for episodic, self-contained actions (e.g., a random fight scene or a casual conversation) that do not advance the broader plot."
+    },
+    {
+      "dimension_id": "thematic_conceptual_synthesis",
+      "definition": "The degree to which the scene integrates overarching themes, motifs, or conceptual metaphors that span the entire narrative, requiring high-level abstract synthesis.",
+      "domain": "narrative_context_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Explicit dialogue discussing the central themes of the movie (e.g., justice, mortality, love)",
+        "Visual or narrative motifs that symbolize a deeper conceptual meaning",
+        "A character's actions serving as a clear metaphor for their broader psychological journey",
+        "Parallels drawn between different characters' situations to highlight a thematic contrast"
+      ],
+      "graded_anchors": {
+        "0": "No thematic or symbolic depth; the scene is purely literal and functional.",
+        "1": "A very subtle, passing mention of a theme or a minor symbolic object in the background.",
+        "2": "A brief thematic parallel is hinted at, but not elaborated upon.",
+        "3": "A character makes a comment that lightly touches upon a broader theme of the movie.",
+        "4": "Clear use of a visual motif or metaphor to represent a character's internal state.",
+        "5": "Moderate thematic depth, where a scene's events serve as a clear metaphor for the movie's central theme.",
+        "6": "The dialogue and actions are heavily layered with thematic meaning, inviting abstract interpretation.",
+        "7": "A powerful scene built around a central thematic contrast or philosophical debate between characters.",
+        "8": "Highly rich thematic synthesis, where the entire scene is structured as an allegory or deep exploration of the movie's core message.",
+        "9": "Extremely profound integration of multiple themes, motifs, and metaphors that unify the narrative's conceptual framework.",
+        "10": "A masterpiece of thematic synthesis, where every line of dialogue, action, and visual symbol perfectly crystallizes the ultimate philosophical message of the entire film."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man buys a newspaper from a stand, pays the vendor, and walks away.",
+          "score": 0
+        },
+        {
+          "scene": "As the old man dies, he drops a snowglobe that shatters on the floor, whispering 'Rosebud'—a symbol of his lost childhood innocence that encapsulates the entire film's exploration of wealth and regret.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Driven by symbolic imagery, metaphorical dialogue, thematic parallels, and philosophical reflections within the text.",
+      "exclusion_note": "Do not score high for literal, surface-level plot actions that lack symbolic, metaphorical, or thematic depth."
+    },
+    {
+      "dimension_id": "theory_of_mind_inference",
+      "definition": "The degree to which the viewer must actively infer a character's hidden thoughts, beliefs, knowledge states, or intentions, especially when they differ from reality or from what other characters believe.",
+      "domain": "social_perspective_taking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character hiding a secret or lying to another character",
+        "A character acting based on a false belief or misunderstanding",
+        "Dramatic irony, where the viewer knows something a character does not",
+        "A character trying to guess what another character is thinking or planning"
+      ],
+      "graded_anchors": {
+        "0": "No social interaction or need to infer mental states; characters are absent or completely transparent.",
+        "1": "Very simple interaction with no hidden motives or complex mental states.",
+        "2": "A character expresses a basic preference, requiring minimal inference.",
+        "3": "A character is slightly guarded, hinting at a minor unexpressed thought.",
+        "4": "Clear deception or hiding of information, requiring the viewer to track what the character actually knows versus what they say.",
+        "5": "Moderate theory of mind demand, such as a character navigating a polite social lie or hiding their true feelings.",
+        "6": "A character actively manipulates another by exploiting their false beliefs or lack of information.",
+        "7": "Complex mentalizing required, where multiple characters have different, conflicting levels of knowledge and hidden agendas.",
+        "8": "Highly intense strategic interaction, like a game of wits or a high-stakes interrogation where every word is calculated based on what the other knows.",
+        "9": "Extremely complex web of deception, double-bluffs, and nested mental states (e.g., 'he thinks that she thinks that he knows').",
+        "10": "A masterclass in psychological manipulation and asymmetric information, requiring the viewer to track highly complex, multi-layered nested beliefs and hidden motives."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Tom tells Jerry, 'I am angry because you broke my vase,' and Jerry apologizes sincerely.",
+          "score": 1
+        },
+        {
+          "scene": "During a tense poker game, James Bond bets heavily while maintaining a calm expression, knowing his opponent has a strong hand but hoping to convince him that Bond has an even stronger one, while the opponent tries to read Bond's tell.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of deception, hidden motives, false beliefs, strategic thinking, and situations involving asymmetric information.",
+      "exclusion_note": "Do not score high for straightforward, honest communication where characters say exactly what they think and feel."
+    },
+    {
+      "dimension_id": "interpersonal_subtext_tension",
+      "definition": "The degree to which the text describes unspoken tension, subtext, or coded communication between characters, requiring the viewer to read between the lines.",
+      "domain": "social_perspective_taking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Dialogue filled with double entendres, sarcasm, or coded language",
+        "Awkward silences, loaded glances, or tense body language",
+        "Characters speaking politely while harboring intense mutual dislike or romantic tension",
+        "Unspoken power dynamics or passive-aggressive behavior"
+      ],
+      "graded_anchors": {
+        "0": "No interpersonal interaction or subtext; characters are alone or completely direct.",
+        "1": "A casual, straightforward conversation with no underlying tension or subtext.",
+        "2": "A slightly awkward moment, but the conversation remains mostly polite and direct.",
+        "3": "Minor subtext, such as a character using mild sarcasm or a polite brush-off.",
+        "4": "Clear undercurrent of tension, with characters avoiding a sensitive topic but hinting at it.",
+        "5": "Moderate subtextual tension, where the true meaning of the conversation lies entirely beneath the polite surface.",
+        "6": "A highly charged conversation where every line of dialogue has a double meaning or serves as a passive-aggressive jab.",
+        "7": "Intense unspoken conflict or romantic/sexual tension, conveyed through loaded glances, body language, and coded speech.",
+        "8": "A masterfully written scene of psychological warfare, where characters exchange polite pleasantries while actively threatening or undermining each other.",
+        "9": "Extremely high subtextual complexity, where the unspoken tension is so thick it dominates the scene, requiring constant reading between the lines.",
+        "10": "An absolute peak of interpersonal subtext, where a highly polite, formal interaction completely masks a life-or-death struggle or devastating emotional betrayal known only to the characters and the viewer."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Two coworkers discuss a spreadsheet, agreeing on the numbers and wrapping up the meeting quickly.",
+          "score": 0
+        },
+        {
+          "scene": "The SS officer politely dines with the French dairy farmer, discussing milk production with extreme courtesy, while both are acutely aware of the Jewish family hiding silently beneath the floorboards.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of non-verbal cues, passive-aggressive dialogue, coded remarks, and palpable but unvoiced emotional tension.",
+      "exclusion_note": "Do not score high for explicit, loud arguments or physical fights where the conflict is completely overt and on the surface."
+    },
+    {
+      "dimension_id": "empathic_perspective_taking",
+      "definition": "The degree to which the scene invites the viewer to mentally project into a character's complex emotional state, moral dilemma, or psychological suffering to understand their perspective.",
+      "domain": "social_perspective_taking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character experiencing a profound personal crisis, grief, or moral dilemma",
+        "Close-up descriptions of a character's raw emotional vulnerability or breakdown",
+        "A scene highlighting a character's isolation, loneliness, or internal struggle",
+        "A character making a painful sacrifice for the sake of someone else"
+      ],
+      "graded_anchors": {
+        "0": "No emotional depth or opportunity for empathy; the scene is purely action-oriented or technical.",
+        "1": "A character shows a brief, superficial emotion with no exploration of their internal state.",
+        "2": "A character is mildly upset or disappointed, evoking minimal empathy.",
+        "3": "Clear depiction of a character's sadness or frustration, but the situation is common and straightforward.",
+        "4": "The viewer is invited to understand a character's difficult situation or minor moral dilemma.",
+        "5": "Moderate empathic demand, where a character faces a painful choice or significant emotional distress.",
+        "6": "Deep exploration of a character's internal conflict, making their painful perspective highly relatable.",
+        "7": "A highly emotional scene depicting a character's profound grief, betrayal, or psychological breakdown, forcing the viewer to feel their pain.",
+        "8": "Intense empathic projection, where the character's moral dilemma is so agonizing that the viewer is deeply torn alongside them.",
+        "9": "Extremely powerful psychological portrait of suffering or sacrifice, evoking an overwhelming sense of empathy and shared pain.",
+        "10": "An unparalleled peak of emotional and moral complexity, completely immersing the viewer in a character's devastating psychological reality and agonizing soul-searching."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man drops his ice cream cone on the sidewalk and sighs.",
+          "score": 2
+        },
+        {
+          "scene": "Sophie stands on the selection platform, weeping hysterically as she is forced by the Nazi officer to choose which of her two young children will be sent to the gas chamber and which will live.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of deep emotional pain, moral conflicts, vulnerability, and situations that strongly evoke empathy or compassion.",
+      "exclusion_note": "Do not score high for superficial or generic emotional expressions (e.g., a character crying in a cheesy way) without psychological depth or a complex dilemma."
+    },
+    {
+      "dimension_id": "autobiographical_memory_trigger",
+      "definition": "The degree to which the scene depicts highly common, relatable life events, milestones, or personal memories that naturally prompt the viewer to recall their own past experiences.",
+      "domain": "self_referential_projection",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Depictions of universal childhood memories (e.g., learning to ride a bike, playing in summer)",
+        "Common life milestones (e.g., first day of school, a wedding, a graduation, a funeral)",
+        "Relatable domestic routines or family gatherings",
+        "Nostalgic references to specific eras, toys, or cultural touchstones"
+      ],
+      "graded_anchors": {
+        "0": "The scene depicts highly exotic, fantasy, or sci-fi events with zero relatability to a normal person's life.",
+        "1": "An unusual or highly specific scenario with very little connection to common life experiences.",
+        "2": "A slightly relatable moment, but set in a highly unfamiliar or dramatic context.",
+        "3": "A common setting (like an office or school) is shown, but the actions are highly dramatic or unusual.",
+        "4": "A relatable everyday activity is depicted, such as cooking dinner or chatting with a neighbor.",
+        "5": "Moderate autobiographical resonance, depicting a familiar family dynamic or a common social gathering.",
+        "6": "A clear depiction of a major, highly relatable life milestone (e.g., a nervous first date, moving into a new home).",
+        "7": "A deeply nostalgic or universally relatable scene of childhood, family bonding, or personal growth.",
+        "8": "Highly resonant depiction of a universal human experience (e.g., grieving the loss of a parent, holding a newborn baby) that strongly triggers personal memories.",
+        "9": "Extremely evocative scene designed specifically to mirror the viewer's own most intimate personal memories and nostalgic reflections.",
+        "10": "An absolute peak of autobiographical resonance, capturing a universal, deeply intimate human experience with such authenticity that it irresistibly pulls the viewer into their own personal memories."
+      },
+      "calibration_examples": [
+        {
+          "scene": "An astronaut battles a giant alien creature on a volcanic planet in a distant galaxy.",
+          "score": 0
+        },
+        {
+          "scene": "A father patiently holds the back of his young daughter's bicycle, running alongside her on a sunny suburban street, before finally letting go and watching her ride off on her own with a mixture of pride and sadness.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of highly relatable, everyday human experiences, nostalgic settings, and universal life milestones.",
+      "exclusion_note": "Do not score high for highly exotic, sci-fi, fantasy, or extreme action scenarios (e.g., fighting aliens, robbing a bank) that a typical viewer has never personally experienced."
+    },
+    {
+      "dimension_id": "universal_moral_dilemma",
+      "definition": "The degree to which the scene depicts ethical choices, moral gray areas, or personal dilemmas that force the viewer to reflect on their own values, morals, and what they would do in that situation.",
+      "domain": "self_referential_projection",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character deciding whether to lie to protect a loved one",
+        "An ethical conflict between duty/law and personal morality",
+        "A situation where there is no clear 'right' answer, only difficult trade-offs",
+        "A character confronting their own hypocrisy or moral failings"
+      ],
+      "graded_anchors": {
+        "0": "No moral or ethical dimension; the scene is purely physical, technical, or morally straightforward.",
+        "1": "A very minor choice with negligible ethical consequences.",
+        "2": "A simple moral decision where the 'right' path is clear, even if a character struggles with it.",
+        "3": "A character faces a minor ethical dilemma, such as whether to keep found money.",
+        "4": "Clear moral conflict, such as a character deciding whether to blow the whistle on a minor corporate wrongdoing.",
+        "5": "Moderate moral dilemma, where a character must choose between two competing, valid values (e.g., loyalty vs. honesty).",
+        "6": "A significant ethical crisis, forcing the character to make a choice that will permanently impact their moral standing.",
+        "7": "A powerful moral debate or situation that directly challenges the viewer's own ethical framework and values.",
+        "8": "Highly intense moral dilemma, presenting a complex, tragic choice with no good outcome, forcing deep self-reflection in the viewer.",
+        "9": "Extremely profound ethical conflict that dissects human nature, hypocrisy, and morality, leaving the viewer deeply unsettled and questioning their own beliefs.",
+        "10": "The ultimate moral crucible, presenting an agonizing, universally resonant ethical dilemma that serves as a profound mirror for the viewer's own soul and moral boundaries."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A superhero punches a bank robber and hands the stolen money back to the bank teller.",
+          "score": 0
+        },
+        {
+          "scene": "A whistleblower sits in his car, holding a flash drive containing evidence of his company's life-saving drug causing fatal side effects, knowing that releasing it will save thousands of lives but destroy his family's livelihood and safety.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Driven by descriptions of moral conflicts, ethical debates, difficult choices, and situations that challenge conventional notions of right and wrong.",
+      "exclusion_note": "Do not score high for simple, black-and-white moral situations (e.g., a hero saving a baby from a cartoonish villain) where the right choice is completely obvious."
+    },
+    {
+      "dimension_id": "shared_social_schema",
+      "definition": "The degree to which the scene depicts highly familiar social dynamics, relationship patterns, or cultural schemas (e.g., sibling rivalry, marital drift, awkward small talk) that resonate with the viewer's personal social life.",
+      "domain": "self_referential_projection",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Depictions of typical family arguments or holiday dinner dynamics",
+        "The slow, realistic drift or tension in a long-term romantic relationship",
+        "Awkward social situations, peer pressure, or trying to fit in",
+        "The comforting, unspoken understanding between lifelong friends"
+      ],
+      "graded_anchors": {
+        "0": "No realistic social dynamics or familiar relationship schemas are depicted.",
+        "1": "A highly stylized or superficial social interaction with no realistic grounding.",
+        "2": "A brief, generic social interaction, like ordering food from a waiter.",
+        "3": "A common social situation is shown, but with minimal depth or realistic nuance.",
+        "4": "Clear depiction of a familiar social dynamic, such as awkward small talk at a party.",
+        "5": "Moderate social resonance, capturing a realistic and common relationship pattern (e.g., a minor bickering between spouses).",
+        "6": "Detailed depiction of a highly recognizable social schema, such as sibling rivalry or parental expectations.",
+        "7": "A deeply authentic portrayal of a complex, common social dynamic (e.g., the unspoken tension of a family dinner where a secret is kept).",
+        "8": "Highly resonant depiction of realistic relationship struggles (e.g., a couple realizing they have drifted apart over years), triggering deep personal recognition.",
+        "9": "Extremely rich and nuanced exploration of a universal social schema, capturing the subtle, painful, or heartwarming realities of human connection with absolute precision.",
+        "10": "An absolute masterpiece of social realism, depicting a universally shared relationship dynamic with such devastating or beautiful accuracy that every viewer recognizes their own life in it."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A king commands his knights to prepare for war against the dark elves.",
+          "score": 0
+        },
+        {
+          "scene": "A married couple sits in silence at a restaurant, both staring at their phones, occasionally making polite, empty small talk, perfectly capturing the quiet, painful drift of a dying relationship.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Driven by realistic, slice-of-life descriptions of interpersonal relationships, family dynamics, and common social rituals.",
+      "exclusion_note": "Do not score high for highly stylized, melodramatic, or fantastical relationship dynamics (e.g., a vampire romance or a royal court intrigue) that lack realistic social grounding."
+    }
+  ],
+  "metadata": {
+    "domain_pool": {
+      "source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/Precuneus/domain_pool_auto_confirmed.json",
+      "content_sha256": "cc50153748a49c0815f913d5fdb50cd9c587f8442b52d4e7338d9d7896adbe14",
+      "version": "domain_pool_v2",
+      "target_region": "Precuneus",
+      "curation_status": "confirmed",
+      "proposal_runs": 5,
+      "curated_domain_ids": [
+        "spatial_perspective_tracking",
+        "narrative_context_integration",
+        "social_perspective_taking",
+        "self_referential_projection"
+      ]
+    },
+    "source_provider": "gemini",
+    "source_model": "gemini-3.5-flash",
+    "fixed_roi_definition": {
+      "roi_id": "Precuneus",
+      "display_name": "precuneus",
+      "theoretical_role": "Self-awareness, episodic retrieval, and visuospatial imagery.",
+      "selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154
+          ]
+        }
+      ]
+    }
+  }
+}

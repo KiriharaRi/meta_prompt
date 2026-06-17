@@ -1,0 +1,385 @@
+{
+  "version": "domain_pool_v2",
+  "target_region": "ACC",
+  "curation_status": "draft",
+  "source_model": "gemini-3.5-flash",
+  "proposal_runs": 5,
+  "metadata": {
+    "generation_parameters": {
+      "provider": "gemini",
+      "temperature": 0.2,
+      "proposal_runs": 5
+    },
+    "required_domain_ids": [],
+    "confirmation_instructions": "Review curated_domains and rejected_or_merged_domains, then set curation_status to 'confirmed' before passing this pool to make-region-schema --domain-pool."
+  },
+  "candidate_domains": [
+    {
+      "domain_id": "run_1_conflict_and_obstacle_appraisal",
+      "definition": "The viewer's cognitive appraisal of the level of conflict, goal obstruction, or decision difficulty presented in the narrative. This involves the viewer tracking when characters face mutually exclusive choices, unexpected obstacles, or interpersonal friction that disrupts their plans.",
+      "region_relevance": "The dorsal anterior cingulate cortex (dACC, including A24cd and A32p) is heavily implicated in conflict monitoring, error detection, and the appraisal of decision-making difficulty or cognitive effort.",
+      "scoreability_note": "Can be scored by analyzing text descriptions for explicit obstacles, arguments, dilemmas, or situations where a character's goal-directed behavior is blocked.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_vicarious_threat_and_distress",
+      "definition": "The viewer's empathetic tracking and affective appraisal of threat, physical danger, or social distress experienced by characters. This represents the viewer's simulation of the characters' suffering, vulnerability, or social exclusion based on narrative context.",
+      "region_relevance": "The anterior and mid-cingulate cortex (including A24rv and A32p) are key components of the affective pain and empathy networks, responding to both direct and vicarious experiences of physical pain, social rejection, and distress.",
+      "scoreability_note": "Highly scoreable from descriptions of characters undergoing physical harm, intense emotional suffering, social isolation, or facing imminent threats.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_motivational_salience_and_urgency",
+      "definition": "The viewer's appraisal of the motivational significance, high-stakes nature, or behavioral urgency of the depicted situation. This captures the viewer's evaluation of how critical it is for characters to act immediately to resolve a crisis or achieve a vital outcome.",
+      "region_relevance": "The ACC (particularly within the ventral attention/salience network, such as A24rv and A32sg) plays a crucial role in detecting salient environmental events and coordinating autonomic and motivational responses to urgent demands.",
+      "scoreability_note": "Scoreable by identifying narrative elements involving high-stakes crises, time pressure, sudden dramatic shifts, or intense action sequences.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_2_narrative_conflict_monitoring",
+      "definition": "The viewer's active tracking of logical contradictions, unexpected obstacles, or high-stakes dilemmas within the scene that disrupt expected outcomes and demand cognitive resolution or behavioral adjustment from the characters.",
+      "region_relevance": "Associated with dorsal ACC (A24cd, A32p) activity during conflict monitoring, error processing, and the signaling of a need for increased cognitive control.",
+      "scoreability_note": "Scoreable by identifying narrative moments where characters face sudden complications, conflicting goals, or must choose between mutually exclusive paths.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_vicarious_social_distress",
+      "definition": "The viewer's affective appraisal of interpersonal vulnerability, social exclusion, humiliation, or relational discord experienced by characters, evoking an empathetic tracking of social pain or evaluative threat.",
+      "region_relevance": "Rostral and ventral ACC (A24rv, A32sg) are critical for processing affective distress, empathy for pain, and the emotional impact of social rejection or negative evaluation.",
+      "scoreability_note": "Scoreable based on text descriptions of arguments, social rejection, awkward silences, expressions of emotional pain, or situations where a character's reputation is threatened.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_appraised_action_effort",
+      "definition": "The viewer's estimation of the physical, mental, or emotional energy expended by characters to overcome resistance, pursue a challenging goal, or cope with high-demand situations.",
+      "region_relevance": "Mid-cingulate and dorsal ACC are involved in calculating the cost-benefit of effort, energization of behavior, and motor planning under high motivational demands.",
+      "scoreability_note": "Scoreable from descriptions of strenuous physical action, intense concentration, struggling against physical barriers, or enduring high-stress environments.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_3_expectancy_violation_detection",
+      "definition": "The viewer's cognitive detection of a mismatch or conflict between their established expectations of narrative progression or character behavior and the actual events unfolding on screen.",
+      "region_relevance": "The dorsal and caudal divisions of the ACC (such as A24cd and A32p) are heavily implicated in conflict monitoring, prediction error processing, and updating cognitive models when environmental feedback violates expectations.",
+      "scoreability_note": "Can be reliably scored from text descriptions by identifying sudden plot twists, unexpected character decisions, or abrupt disruptions to an ongoing plan.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_vicarious_threat_appraisal",
+      "definition": "The viewer's affective appraisal of imminent physical pain, social exclusion, or psychological distress facing a character, triggering vicarious tension or empathetic concern.",
+      "region_relevance": "The ventral and subgenual divisions of the ACC (such as A24rv and A32sg) are core nodes of the salience and pain networks, active during the vicarious processing of others' suffering and emotional distress.",
+      "scoreability_note": "Highly scoreable by identifying narrative segments featuring physical danger, intense social conflict, or explicit expressions of suffering.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_effort_and_obstacle_tracking",
+      "definition": "The viewer's cognitive tracking of the physical, mental, or emotional effort exerted by a character to overcome a salient obstacle or resolve a high-stakes dilemma.",
+      "region_relevance": "The ACC plays a critical role in cost-benefit analysis, tracking task difficulty, and the subjective estimation of effort required for goal-directed actions.",
+      "scoreability_note": "Scoreable by analyzing text descriptions for scenes depicting characters struggling against constraints, performing high-stakes tasks, or making difficult, willpower-demanding choices.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_4_viewer_conflict_appraisal",
+      "definition": "The viewer's cognitive tracking and appraisal of situational conflicts, goal obstructions, or decision-making dilemmas faced by characters, which signal a disruption in expected outcomes.",
+      "region_relevance": "Associated with the caudal and dorsal ACC (e.g., A24cd, A32p), which are central to conflict monitoring, error processing, and signaling the need for cognitive adjustment when predictions fail.",
+      "scoreability_note": "High scoreability from text descriptions depicting characters confronting mutually exclusive choices, making critical errors, or facing sudden obstacles that derail their plans.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_viewer_vicarious_distress",
+      "definition": "The viewer's affective appraisal and simulated resonance with a character's physical pain, emotional suffering, or social vulnerability.",
+      "region_relevance": "Linked to the rostral and subgenual ACC (e.g., A24rv, A32sg), which are key nodes in the affective/empathy network, active during the processing of social pain, distress, and vicarious emotional experiences.",
+      "scoreability_note": "Can be reliably scored from descriptions of characters undergoing intense emotional hardship, physical injury, or social exclusion, which elicit empathetic concern in the viewer.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_viewer_salience_tracking",
+      "definition": "The viewer's detection and processing of highly unexpected, motivationally significant, or dramatic narrative shifts that demand immediate attentional reallocation.",
+      "region_relevance": "The ACC acts as a major hub of the salience network, crucial for identifying behaviorally important events and coordinating cognitive resources in response to novel or threatening stimuli.",
+      "scoreability_note": "Scored by identifying sudden narrative disruptions, shocking plot developments, or high-stakes threats in the text that break the narrative flow and capture intense viewer focus.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_5_narrative_conflict_monitoring",
+      "definition": "The viewer's cognitive tracking and appraisal of explicit or implicit conflicts, mismatches, and obstacles that disrupt characters' goals or expectations within the scene.",
+      "region_relevance": "Dorsal and caudal divisions of the ACC (such as A24cd and A32p) are heavily implicated in conflict monitoring, detecting mismatches between expectations and outcomes, and signaling the need for heightened cognitive control.",
+      "scoreability_note": "Can be reliably scored from text descriptions by identifying moments of verbal arguments, physical barriers, unexpected plot interruptions, or divergent character motivations.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_vicarious_distress_appraisal",
+      "definition": "The viewer's affective appraisal and empathic tracking of a character's suffering, vulnerability, physical pain, or acute emotional distress.",
+      "region_relevance": "Rostral and ventral ACC subregions (including A24rv and A32sg) are core components of the affective and salience networks, consistently activated during the vicarious processing of others' pain, social exclusion, and negative emotional states.",
+      "scoreability_note": "Highly scoreable from descriptions detailing a character's expressions of grief, fear, physical injury, or social rejection.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_effort_outcome_tracking",
+      "definition": "The viewer's evaluation of the physical or mental effort exerted by characters toward a specific goal, along with the perceived uncertainty or success of those actions.",
+      "region_relevance": "The ACC is central to tracking action-outcome associations, evaluating effort-reward trade-offs, and processing prediction errors when goal-directed actions succeed or fail.",
+      "scoreability_note": "Easily identified in text descriptions of high-stakes tasks, physical struggles, complex problem-solving, or suspenseful moments where the outcome of an action hangs in the balance.",
+      "source_run": 5
+    }
+  ],
+  "curated_domains": [
+    {
+      "domain_id": "cognitive_conflict_and_expectancy_monitoring",
+      "definition": "The viewer's cognitive tracking and appraisal of narrative conflicts, goal obstructions, decision-making dilemmas, or expectancy violations where unfolding events mismatch established predictions.",
+      "region_relevance": "Dorsal and caudal divisions of the ACC (including A24cd and A32p) are heavily implicated in conflict monitoring, error detection, prediction error processing, and signaling the need for cognitive control.",
+      "scoreability_note": "Scoreable by identifying narrative moments where characters face sudden complications, conflicting goals, mutually exclusive choices, or unexpected plot twists that disrupt ongoing plans.",
+      "source_domain_ids": [
+        "run_1_conflict_and_obstacle_appraisal",
+        "run_2_narrative_conflict_monitoring",
+        "run_3_expectancy_violation_detection",
+        "run_4_viewer_conflict_appraisal",
+        "run_5_narrative_conflict_monitoring"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "These domains all capture the cognitive monitoring functions of the dACC/cACC, specifically tracking situational conflicts, obstacles, and mismatches between expectations and narrative reality. Merging them provides a robust, highly scoreable domain representing cognitive control demands."
+    },
+    {
+      "domain_id": "vicarious_distress_and_threat_appraisal",
+      "definition": "The viewer's affective appraisal and empathetic tracking of a character's physical pain, emotional suffering, social vulnerability, exclusion, or imminent threat.",
+      "region_relevance": "Rostral, ventral, and subgenual divisions of the ACC (including A24rv and A32sg) are core nodes of the affective pain and empathy networks, active during the vicarious processing of others' suffering, social rejection, and distress.",
+      "scoreability_note": "Highly scoreable from descriptions of characters undergoing physical harm, intense emotional suffering, social isolation, humiliation, or facing imminent threats.",
+      "source_domain_ids": [
+        "run_1_vicarious_threat_and_distress",
+        "run_2_vicarious_social_distress",
+        "run_3_vicarious_threat_appraisal",
+        "run_4_viewer_vicarious_distress",
+        "run_5_vicarious_distress_appraisal"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "These domains represent the affective and social processing functions of the rACC/vACC. They all focus on the viewer's vicarious resonance with characters' physical, emotional, or social distress, and are consolidated to avoid redundancy."
+    },
+    {
+      "domain_id": "appraised_effort_and_action_outcomes",
+      "definition": "The viewer's estimation of the physical, mental, or emotional effort exerted by characters to overcome obstacles, along with the evaluation of action-outcome uncertainty or success.",
+      "region_relevance": "Mid-cingulate and dorsal ACC are involved in calculating the cost-benefit of effort, tracking task difficulty, and processing action-outcome associations under high motivational demands.",
+      "scoreability_note": "Scoreable from descriptions of strenuous physical action, intense concentration, struggling against constraints, or performing high-stakes tasks where the outcome hangs in the balance.",
+      "source_domain_ids": [
+        "run_2_appraised_action_effort",
+        "run_3_effort_and_obstacle_tracking",
+        "run_5_effort_outcome_tracking"
+      ],
+      "source_runs": [
+        2,
+        3,
+        5
+      ],
+      "proposal_frequency": 3,
+      "consolidation_rationale": "These domains focus on the energetic and outcome-tracking aspects of the ACC, specifically the appraisal of effort and action difficulty. Merging them creates a distinct domain separate from pure conflict monitoring."
+    },
+    {
+      "domain_id": "motivational_salience_and_urgency_tracking",
+      "definition": "The viewer's detection and appraisal of the motivational significance, high-stakes nature, behavioral urgency, or dramatic shifts in the narrative that demand immediate attention.",
+      "region_relevance": "The ACC (particularly within the ventral attention/salience network, such as A24rv and A32sg) plays a crucial role in detecting salient environmental events and coordinating autonomic and motivational responses to urgent demands.",
+      "scoreability_note": "Scoreable by identifying narrative elements involving high-stakes crises, time pressure, sudden dramatic shifts, or intense action sequences that break narrative flow.",
+      "source_domain_ids": [
+        "run_1_motivational_salience_and_urgency",
+        "run_4_viewer_salience_tracking"
+      ],
+      "source_runs": [
+        1,
+        4
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "These domains capture the salience network functions of the ACC, focusing on the viewer's tracking of urgent, high-stakes, or highly unexpected narrative shifts. Merging them ensures a clean representation of salience detection."
+    }
+  ],
+  "rejected_or_merged_domains": [
+    {
+      "domain_id": "run_1_conflict_and_obstacle_appraisal",
+      "decision": "MERGED",
+      "reason": "Merged into a unified cognitive conflict and expectancy monitoring domain to capture dACC/cACC functions without redundancy.",
+      "source_domain_ids": [
+        "run_1_conflict_and_obstacle_appraisal"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "cognitive_conflict_and_expectancy_monitoring"
+    },
+    {
+      "domain_id": "run_1_vicarious_threat_and_distress",
+      "decision": "MERGED",
+      "reason": "Merged into a unified vicarious distress and threat appraisal domain to capture rACC/vACC affective processing.",
+      "source_domain_ids": [
+        "run_1_vicarious_threat_and_distress"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "vicarious_distress_and_threat_appraisal"
+    },
+    {
+      "domain_id": "run_1_motivational_salience_and_urgency",
+      "decision": "MERGED",
+      "reason": "Merged into a unified motivational salience and urgency tracking domain to capture salience network functions.",
+      "source_domain_ids": [
+        "run_1_motivational_salience_and_urgency"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "motivational_salience_and_urgency_tracking"
+    },
+    {
+      "domain_id": "run_2_narrative_conflict_monitoring",
+      "decision": "MERGED",
+      "reason": "Merged into a unified cognitive conflict and expectancy monitoring domain to capture dACC/cACC functions without redundancy.",
+      "source_domain_ids": [
+        "run_2_narrative_conflict_monitoring"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "cognitive_conflict_and_expectancy_monitoring"
+    },
+    {
+      "domain_id": "run_2_vicarious_social_distress",
+      "decision": "MERGED",
+      "reason": "Merged into a unified vicarious distress and threat appraisal domain to capture rACC/vACC affective processing.",
+      "source_domain_ids": [
+        "run_2_vicarious_social_distress"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "vicarious_distress_and_threat_appraisal"
+    },
+    {
+      "domain_id": "run_2_appraised_action_effort",
+      "decision": "MERGED",
+      "reason": "Merged into a unified appraised effort and action outcomes domain to capture mid-cingulate and dorsal ACC effort tracking.",
+      "source_domain_ids": [
+        "run_2_appraised_action_effort"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "appraised_effort_and_action_outcomes"
+    },
+    {
+      "domain_id": "run_3_expectancy_violation_detection",
+      "decision": "MERGED",
+      "reason": "Merged into a unified cognitive conflict and expectancy monitoring domain to capture dACC/cACC functions without redundancy.",
+      "source_domain_ids": [
+        "run_3_expectancy_violation_detection"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "cognitive_conflict_and_expectancy_monitoring"
+    },
+    {
+      "domain_id": "run_3_vicarious_threat_appraisal",
+      "decision": "MERGED",
+      "reason": "Merged into a unified vicarious distress and threat appraisal domain to capture rACC/vACC affective processing.",
+      "source_domain_ids": [
+        "run_3_vicarious_threat_appraisal"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "vicarious_distress_and_threat_appraisal"
+    },
+    {
+      "domain_id": "run_3_effort_and_obstacle_tracking",
+      "decision": "MERGED",
+      "reason": "Merged into a unified appraised effort and action outcomes domain to capture mid-cingulate and dorsal ACC effort tracking.",
+      "source_domain_ids": [
+        "run_3_effort_and_obstacle_tracking"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "appraised_effort_and_action_outcomes"
+    },
+    {
+      "domain_id": "run_4_viewer_conflict_appraisal",
+      "decision": "MERGED",
+      "reason": "Merged into a unified cognitive conflict and expectancy monitoring domain to capture dACC/cACC functions without redundancy.",
+      "source_domain_ids": [
+        "run_4_viewer_conflict_appraisal"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "cognitive_conflict_and_expectancy_monitoring"
+    },
+    {
+      "domain_id": "run_4_viewer_vicarious_distress",
+      "decision": "MERGED",
+      "reason": "Merged into a unified vicarious distress and threat appraisal domain to capture rACC/vACC affective processing.",
+      "source_domain_ids": [
+        "run_4_viewer_vicarious_distress"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "vicarious_distress_and_threat_appraisal"
+    },
+    {
+      "domain_id": "run_4_viewer_salience_tracking",
+      "decision": "MERGED",
+      "reason": "Merged into a unified motivational salience and urgency tracking domain to capture salience network functions.",
+      "source_domain_ids": [
+        "run_4_viewer_salience_tracking"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "motivational_salience_and_urgency_tracking"
+    },
+    {
+      "domain_id": "run_5_narrative_conflict_monitoring",
+      "decision": "MERGED",
+      "reason": "Merged into a unified cognitive conflict and expectancy monitoring domain to capture dACC/cACC functions without redundancy.",
+      "source_domain_ids": [
+        "run_5_narrative_conflict_monitoring"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "cognitive_conflict_and_expectancy_monitoring"
+    },
+    {
+      "domain_id": "run_5_vicarious_distress_appraisal",
+      "decision": "MERGED",
+      "reason": "Merged into a unified vicarious distress and threat appraisal domain to capture rACC/vACC affective processing.",
+      "source_domain_ids": [
+        "run_5_vicarious_distress_appraisal"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "vicarious_distress_and_threat_appraisal"
+    },
+    {
+      "domain_id": "run_5_effort_outcome_tracking",
+      "decision": "MERGED",
+      "reason": "Merged into a unified appraised effort and action outcomes domain to capture mid-cingulate and dorsal ACC effort tracking.",
+      "source_domain_ids": [
+        "run_5_effort_outcome_tracking"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "appraised_effort_and_action_outcomes"
+    }
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "version": "domain_pool_v2",
+  "target_region": "Insula",
+  "curation_status": "draft",
+  "source_model": "gemini-3.5-flash",
+  "proposal_runs": 5,
+  "metadata": {
+    "generation_parameters": {
+      "provider": "gemini",
+      "temperature": 0.2,
+      "proposal_runs": 5
+    },
+    "required_domain_ids": [],
+    "confirmation_instructions": "Review curated_domains and rejected_or_merged_domains, then set curation_status to 'confirmed' before passing this pool to make-region-schema --domain-pool."
+  },
+  "candidate_domains": [
+    {
+      "domain_id": "run_1_somatic_resonance",
+      "definition": "The viewer's vicarious simulation or appraisal of physical sensations, bodily states, pain, disgust, or intense physical exertion depicted on screen, capturing the somatic and visceral resonance evoked by the narrative action.",
+      "region_relevance": "The insula (specifically posterior and mid-insular subregions like dIg and vId/vIg) is the primary cortical hub for interoception, processing visceral sensations, pain, and somatic states, and is activated during both direct experience and vicarious observation of somatic states.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing physical impacts, injuries, visceral disgust, extreme temperatures, or heavy physical exertion experienced by characters.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_salience_and_affective_arousal",
+      "definition": "The viewer's appraisal of sudden, high-stakes, or emotionally charged events that disrupt the narrative baseline, demanding immediate attention and triggering heightened affective vigilance.",
+      "region_relevance": "The anterior insula (e.g., dIa, vIa) is a core node of the salience network, crucial for detecting behaviorally important stimuli and coordinating autonomic arousal in response to emotionally significant events.",
+      "scoreability_note": "Scoreable by identifying narrative turning points, sudden shocks, high-tension confrontations, or unexpected threats in the text descriptions.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_empathic_distress_appraisal",
+      "definition": "The viewer's cognitive and affective appraisal of a character's psychological suffering, vulnerability, or social distress, representing the viewer's emotional resonance with the characters' internal pain or social exclusion.",
+      "region_relevance": "The anterior insula is consistently implicated in the shared representation of affect, particularly empathy for both physical pain and social/emotional distress in others.",
+      "scoreability_note": "Scoreable by analyzing text descriptions for explicit or implicit cues of characters experiencing deep grief, humiliation, social rejection, or intense vulnerability.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_tension_and_conflict_monitoring",
+      "definition": "The viewer's tracking of interpersonal conflict, moral dilemmas, or high-stakes decision-making where characters face competing demands, uncertainty, or imminent errors.",
+      "region_relevance": "The insula, working in tandem with the anterior cingulate cortex (often grouped in the salience/ventral attention networks), is heavily involved in monitoring conflict, uncertainty, and cognitive/behavioral tension.",
+      "scoreability_note": "Scoreable by identifying scenes with high verbal conflict, suspenseful decision-making, or situations where characters must choose between risky options.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_2_vicarious_somatic_resonance",
+      "definition": "The viewer's simulated internal bodily sensation or visceral reaction—such as tension, disgust, physical impact, or somatic relief—triggered by witnessing characters experiencing physical distress, intense sensory environments, or bodily harm.",
+      "region_relevance": "Ventral and dysgranular insula subregions (vId/vIg, dIg, G) are critical for interoception, visceral processing, and the empathetic simulation of others' physical states, including pain and disgust.",
+      "scoreability_note": "Can be reliably scored from text descriptions detailing physical injuries, visceral threats, extreme environments, or intense physical exertion.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_salience_and_narrative_urgency",
+      "definition": "The viewer's cognitive appraisal of sudden, high-stakes shifts in the narrative that demand immediate attention, such as unexpected threats, critical plot twists, or highly consequential events that disrupt the status quo.",
+      "region_relevance": "Dorsal anterior insula (dIa, dId) acts as a central hub of the salience network, detecting behaviorally relevant environmental changes and coordinating cognitive transitions.",
+      "scoreability_note": "Easily scored by identifying moments of sudden narrative disruption, unexpected interruptions, or high-stakes emergencies in the scene descriptions.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_interpersonal_tension_appraisal",
+      "definition": "The viewer's tracking and appraisal of underlying social friction, unspoken hostility, moral violations, or emotional vulnerability during character interactions.",
+      "region_relevance": "Anterior insula (dIa, vIa) is heavily involved in processing social-emotional conflict, empathy for psychological distress, and responses to social norm violations.",
+      "scoreability_note": "Can be scored based on textual evidence of confrontation, betrayal, social exclusion, or highly charged emotional exchanges between characters.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_3_visceral_resonance",
+      "definition": "The viewer's simulated or inferred bodily, visceral, or physical resonance with events on screen, such as witnessing physical injury, intense exertion, disgust-inducing stimuli, or tactile/gustatory experiences that evoke a strong internal physical sensation.",
+      "region_relevance": "Ventral and granular insula (vId/vIg, dIg) are key hubs for interoceptive awareness, visceral sensation, and empathy for physical pain or disgust.",
+      "scoreability_note": "Can be scored by identifying scenes with explicit physical trauma, noxious stimuli, intense physical struggle, or highly sensory food/tactile interactions described in the text.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_narrative_salience_detection",
+      "definition": "The viewer's appraisal of sudden, unexpected, or highly consequential shifts in the narrative, including moments of high conflict, sudden threats, or critical violations of expectations that demand immediate cognitive reorientation.",
+      "region_relevance": "Dorsal anterior insula (dIa, dId) is a core node of the salience network, crucial for detecting behaviorally relevant stimuli and coordinating cognitive control resources.",
+      "scoreability_note": "High scores correspond to sudden plot twists, unexpected interruptions, explosive arguments, or immediate physical dangers described in the text.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_vicarious_affective_tension",
+      "definition": "The viewer's tracking of high-stakes interpersonal tension, emotional vulnerability, or social distress experienced by characters, leading to an inferred state of psychological suspense or empathetic discomfort.",
+      "region_relevance": "Ventral anterior insula (vIa) is heavily implicated in socio-emotional processing, empathy, and the subjective experience of emotional tension.",
+      "scoreability_note": "Can be scored based on descriptions of high-stakes social confrontations, awkward silences, characters concealing secrets under pressure, or intense emotional vulnerability.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_4_salience_and_novelty_detection",
+      "definition": "The viewer's tracking of sudden, unexpected, or highly prominent narrative events, sensory shifts, or behavioral cues that break the established baseline of a scene and demand immediate cognitive redirection.",
+      "region_relevance": "Anterior insula (dIa, vIa) is a core hub of the salience network, crucial for detecting behaviorally relevant or unexpected stimuli and coordinating attentional resources.",
+      "scoreability_note": "Easily scoreable from text descriptions by identifying sudden plot twists, unexpected character actions, loud noises/explosions described in text, or abrupt shifts in scene tone.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_vicarious_somatic_resonance",
+      "definition": "The viewer's cognitive and affective simulation of physical sensations, bodily vulnerability, pain, or visceral discomfort experienced by characters on screen.",
+      "region_relevance": "Posterior and mid-insula (dIg, vId/vIg) process interoceptive and somatosensory signals, and are active during both direct experience and vicarious observation of physical pain, disgust, or bodily exertion.",
+      "scoreability_note": "Scoreable by identifying textual descriptions of physical injury, extreme exertion, visceral disgust (e.g., noxious substances), or intense physical intimacy/touch.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_affective_tension_appraisal",
+      "definition": "The viewer's appraisal of high-stakes emotional conflict, social distress, or moral violation occurring within the narrative, generating a sense of psychological urgency or suspense.",
+      "region_relevance": "Ventral anterior insula (vIa, vId) is heavily implicated in emotional processing, empathy, and the subjective representation of negative affect (e.g., indignation, anxiety, empathy for distress).",
+      "scoreability_note": "Scoreable by evaluating the level of interpersonal conflict, threat to a character's well-being, or moral dilemmas described in the scene text.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_cognitive_effort_and_uncertainty",
+      "definition": "The viewer's tracking of complex, ambiguous, or highly demanding narrative situations where characters must solve difficult problems, make strategic decisions under high uncertainty, or navigate conflicting information.",
+      "region_relevance": "Dorsal anterior insula (dIa, dId) is co-activated with the cognitive control network and is sensitive to task difficulty, decision uncertainty, and cognitive conflict.",
+      "scoreability_note": "Scoreable by identifying scenes where characters are actively planning, deciphering clues, experiencing confusion, or facing highly complex, multi-layered decisions.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_5_somatic_resonance",
+      "definition": "The viewer's simulated or inferred visceral, homeostatic, or bodily sensations—such as pain, physical impact, disgust, extreme exertion, or physiological distress—triggered by witnessing characters undergoing intense physical experiences or bodily harm.",
+      "region_relevance": "Associated with the granular and dysgranular insula (e.g., dIg, dId, vId/vIg) and gustatory cortex (G), which process interoceptive signals, pain, and visceral sensations, and support the simulation of somatic states in others.",
+      "scoreability_note": "Can be reliably scored from text descriptions detailing physical injuries, violent impacts, consumption of repulsive substances, extreme environmental conditions, or visible physiological struggle.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_salience_and_tension",
+      "definition": "The viewer's appraisal of sudden, high-stakes shifts in the narrative, unexpected threats, or moments of acute conflict that demand immediate cognitive reorientation and heightened vigilance.",
+      "region_relevance": "Relates to the anterior insula (dIa, vIa), a key node of the salience network that detects behaviorally important environmental changes and coordinates attention toward survival-relevant stimuli.",
+      "scoreability_note": "Scoreable by identifying sudden plot twists, jump scares, abrupt outbursts of anger, or the sudden introduction of a critical threat in the scene description.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_affective_empathy",
+      "definition": "The viewer's inferred emotional resonance with a character's psychological distress, social rejection, humiliation, or intense vulnerability, involving an appraisal of their suffering.",
+      "region_relevance": "Involves the anterior agranular and dysgranular insula (vIa, dIa), which are consistently activated during empathy for both physical pain and social/emotional distress of others.",
+      "scoreability_note": "Scoreable based on scenes depicting deep emotional suffering, betrayal, public embarrassment, or profound grief.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_moral_indignation",
+      "definition": "The viewer's evaluative appraisal of norm violations, unfairness, cruelty, or morally repulsive behavior exhibited by characters, resulting in a sense of strong disapproval or indignation.",
+      "region_relevance": "Recruits the anterior insular cortex (vIa) and gustatory areas (G), which are implicated in both physical disgust and its evolutionary extension, moral disgust.",
+      "scoreability_note": "Easily scored from descriptions of characters acting with extreme selfishness, cruelty, deceit, or violating deep-seated social norms.",
+      "source_run": 5
+    }
+  ],
+  "curated_domains": [
+    {
+      "domain_id": "somatic_and_visceral_resonance",
+      "definition": "The viewer's vicarious simulation or appraisal of physical sensations, bodily states, pain, disgust, or intense physical exertion depicted on screen, capturing the somatic and visceral resonance evoked by the narrative action.",
+      "region_relevance": "The insula (specifically posterior and mid-insular subregions like dIg and vId/vIg) is the primary cortical hub for interoception, processing visceral sensations, pain, and somatic states, and is activated during both direct experience and vicarious observation of somatic states.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing physical impacts, injuries, visceral disgust, extreme temperatures, or heavy physical exertion experienced by characters.",
+      "source_domain_ids": [
+        "run_1_somatic_resonance",
+        "run_2_vicarious_somatic_resonance",
+        "run_3_visceral_resonance",
+        "run_4_vicarious_somatic_resonance",
+        "run_5_somatic_resonance"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Consolidated the highly recurrent somatic and visceral resonance domains across all five runs into a single robust domain. This domain captures the posterior and mid-insula's role in interoceptive simulation of bodily states, pain, and disgust from a viewer-centric perspective."
+    },
+    {
+      "domain_id": "salience_and_narrative_disruption",
+      "definition": "The viewer's appraisal of sudden, high-stakes, or unexpected narrative events, threats, or shifts that disrupt the established baseline of a scene, demanding immediate attention and cognitive reorientation.",
+      "region_relevance": "The anterior insula (e.g., dIa, vIa) is a core node of the salience network, crucial for detecting behaviorally important stimuli, coordinating autonomic arousal, and directing attention to significant environmental changes.",
+      "scoreability_note": "Scoreable by identifying sudden plot twists, unexpected threats, abrupt outbursts, or high-tension disruptions in the scene descriptions.",
+      "source_domain_ids": [
+        "run_1_salience_and_affective_arousal",
+        "run_2_salience_and_narrative_urgency",
+        "run_3_narrative_salience_detection",
+        "run_4_salience_and_novelty_detection",
+        "run_5_salience_and_tension"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged the highly recurrent salience, novelty, and narrative urgency domains across all runs. This captures the anterior insula's core network function of detecting unexpected, high-stakes narrative shifts that break the baseline."
+    },
+    {
+      "domain_id": "socio_emotional_conflict_and_tension",
+      "definition": "The viewer's tracking and appraisal of interpersonal friction, unspoken hostility, moral violations, or social conflict occurring within the narrative, generating a sense of psychological tension or moral disapproval.",
+      "region_relevance": "The anterior insula (dIa, vIa) is heavily involved in processing social-emotional conflict, tracking social norm violations (often linked to moral disgust), and representing interpersonal tension.",
+      "scoreability_note": "Scoreable by evaluating the level of interpersonal conflict, confrontation, betrayal, or moral violations described in the scene text.",
+      "source_domain_ids": [
+        "run_1_tension_and_conflict_monitoring",
+        "run_2_interpersonal_tension_appraisal",
+        "run_3_vicarious_affective_tension",
+        "run_4_affective_tension_appraisal",
+        "run_5_moral_indignation"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Combines recurrent domains tracking interpersonal tension, conflict, and moral indignation. These share a common substrate in the anterior insula's response to social conflict, norm violations, and interpersonal friction."
+    },
+    {
+      "domain_id": "empathic_distress_appraisal",
+      "definition": "The viewer's cognitive and affective appraisal of a character's internal psychological suffering, vulnerability, grief, or social exclusion, representing the viewer's emotional resonance with the character's distress.",
+      "region_relevance": "The anterior insula is consistently implicated in the shared representation of affect, particularly empathy for both physical pain and social/emotional distress in others.",
+      "scoreability_note": "Scoreable by analyzing text descriptions for explicit or implicit cues of characters experiencing deep grief, humiliation, social rejection, or intense vulnerability.",
+      "source_domain_ids": [
+        "run_1_empathic_distress_appraisal",
+        "run_5_affective_empathy"
+      ],
+      "source_runs": [
+        1,
+        5
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Consolidates domains focused specifically on the viewer's empathic resonance with characters' psychological suffering and vulnerability, keeping it distinct from active interpersonal conflict."
+    }
+  ],
+  "rejected_or_merged_domains": [
+    {
+      "domain_id": "run_1_somatic_resonance",
+      "decision": "Merged",
+      "reason": "Merged into somatic_and_visceral_resonance to form a unified domain representing the viewer's interoceptive and somatic simulation of bodily states.",
+      "source_domain_ids": [
+        "run_1_somatic_resonance"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "somatic_and_visceral_resonance"
+    },
+    {
+      "domain_id": "run_2_vicarious_somatic_resonance",
+      "decision": "Merged",
+      "reason": "Merged into somatic_and_visceral_resonance to form a unified domain representing the viewer's interoceptive and somatic simulation of bodily states.",
+      "source_domain_ids": [
+        "run_2_vicarious_somatic_resonance"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "somatic_and_visceral_resonance"
+    },
+    {
+      "domain_id": "run_3_visceral_resonance",
+      "decision": "Merged",
+      "reason": "Merged into somatic_and_visceral_resonance to form a unified domain representing the viewer's interoceptive and somatic simulation of bodily states.",
+      "source_domain_ids": [
+        "run_3_visceral_resonance"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "somatic_and_visceral_resonance"
+    },
+    {
+      "domain_id": "run_4_vicarious_somatic_resonance",
+      "decision": "Merged",
+      "reason": "Merged into somatic_and_visceral_resonance to form a unified domain representing the viewer's interoceptive and somatic simulation of bodily states.",
+      "source_domain_ids": [
+        "run_4_vicarious_somatic_resonance"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "somatic_and_visceral_resonance"
+    },
+    {
+      "domain_id": "run_5_somatic_resonance",
+      "decision": "Merged",
+      "reason": "Merged into somatic_and_visceral_resonance to form a unified domain representing the viewer's interoceptive and somatic simulation of bodily states.",
+      "source_domain_ids": [
+        "run_5_somatic_resonance"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "somatic_and_visceral_resonance"
+    },
+    {
+      "domain_id": "run_1_salience_and_affective_arousal",
+      "decision": "Merged",
+      "reason": "Merged into salience_and_narrative_disruption to capture the core salience network function of the anterior insula in detecting unexpected, high-stakes narrative shifts.",
+      "source_domain_ids": [
+        "run_1_salience_and_affective_arousal"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "salience_and_narrative_disruption"
+    },
+    {
+      "domain_id": "run_2_salience_and_narrative_urgency",
+      "decision": "Merged",
+      "reason": "Merged into salience_and_narrative_disruption to capture the core salience network function of the anterior insula in detecting unexpected, high-stakes narrative shifts.",
+      "source_domain_ids": [
+        "run_2_salience_and_narrative_urgency"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "salience_and_narrative_disruption"
+    },
+    {
+      "domain_id": "run_3_narrative_salience_detection",
+      "decision": "Merged",
+      "reason": "Merged into salience_and_narrative_disruption to capture the core salience network function of the anterior insula in detecting unexpected, high-stakes narrative shifts.",
+      "source_domain_ids": [
+        "run_3_narrative_salience_detection"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "salience_and_narrative_disruption"
+    },
+    {
+      "domain_id": "run_4_salience_and_novelty_detection",
+      "decision": "Merged",
+      "reason": "Merged into salience_and_narrative_disruption to capture the core salience network function of the anterior insula in detecting unexpected, high-stakes narrative shifts.",
+      "source_domain_ids": [
+        "run_4_salience_and_novelty_detection"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "salience_and_narrative_disruption"
+    },
+    {
+      "domain_id": "run_5_salience_and_tension",
+      "decision": "Merged",
+      "reason": "Merged into salience_and_narrative_disruption to capture the core salience network function of the anterior insula in detecting unexpected, high-stakes narrative shifts.",
+      "source_domain_ids": [
+        "run_5_salience_and_tension"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "salience_and_narrative_disruption"
+    },
+    {
+      "domain_id": "run_1_tension_and_conflict_monitoring",
+      "decision": "Merged",
+      "reason": "Merged into socio_emotional_conflict_and_tension to capture the anterior insula's response to social conflict and norm violations.",
+      "source_domain_ids": [
+        "run_1_tension_and_conflict_monitoring"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "socio_emotional_conflict_and_tension"
+    },
+    {
+      "domain_id": "run_2_interpersonal_tension_appraisal",
+      "decision": "Merged",
+      "reason": "Merged into socio_emotional_conflict_and_tension to capture the anterior insula's response to social conflict and norm violations.",
+      "source_domain_ids": [
+        "run_2_interpersonal_tension_appraisal"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "socio_emotional_conflict_and_tension"
+    },
+    {
+      "domain_id": "run_3_vicarious_affective_tension",
+      "decision": "Merged",
+      "reason": "Merged into socio_emotional_conflict_and_tension to capture the anterior insula's response to social conflict and norm violations.",
+      "source_domain_ids": [
+        "run_3_vicarious_affective_tension"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "socio_emotional_conflict_and_tension"
+    },
+    {
+      "domain_id": "run_4_affective_tension_appraisal",
+      "decision": "Merged",
+      "reason": "Merged into socio_emotional_conflict_and_tension to capture the anterior insula's response to social conflict and norm violations.",
+      "source_domain_ids": [
+        "run_4_affective_tension_appraisal"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "socio_emotional_conflict_and_tension"
+    },
+    {
+      "domain_id": "run_5_moral_indignation",
+      "decision": "Merged",
+      "reason": "Merged into socio_emotional_conflict_and_tension to capture the anterior insula's response to social conflict and norm violations.",
+      "source_domain_ids": [
+        "run_5_moral_indignation"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "socio_emotional_conflict_and_tension"
+    },
+    {
+      "domain_id": "run_1_empathic_distress_appraisal",
+      "decision": "Merged",
+      "reason": "Merged into empathic_distress_appraisal to represent the viewer's emotional resonance with characters' internal psychological suffering.",
+      "source_domain_ids": [
+        "run_1_empathic_distress_appraisal"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "empathic_distress_appraisal"
+    },
+    {
+      "domain_id": "run_5_affective_empathy",
+      "decision": "Merged",
+      "reason": "Merged into empathic_distress_appraisal to represent the viewer's emotional resonance with characters' internal psychological suffering.",
+      "source_domain_ids": [
+        "run_5_affective_empathy"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "empathic_distress_appraisal"
+    },
+    {
+      "domain_id": "run_4_cognitive_effort_and_uncertainty",
+      "decision": "Rejected",
+      "reason": "While the dorsal anterior insula is co-activated during cognitive control and uncertainty, this domain is less central to the insula's primary emotional, interoceptive, and salience profile in movie-fMRI, and is better captured by frontoparietal networks or partially subsumed under salience and narrative disruption.",
+      "source_domain_ids": [
+        "run_4_cognitive_effort_and_uncertainty"
+      ],
+      "source_runs": [
+        4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:09",
+    "batch_summary": "In an apartment, animal control officer Luisa warns Ross, Rachel, Monica, and Phoebe that possessing an illegal exotic monkey like Marcel is a serious offense. The situation takes a personal turn when Luisa reveals she went to high school with Monica and Rachel, harboring deep resentment for being ignored. Despite Monica's attempts to appeal to their high school connection, Luisa refuses to help, calling Rachel a \"bitch\" and promising to confiscate Marcel if she finds him first.",
+    "cumulative_summary": "In an apartment, Ross, Rachel, Monica, and Phoebe are confronted by Luisa, an animal control officer searching for Ross's missing illegal monkey, Marcel. Luisa warns them that keeping an exotic pet could lead to prison time and confiscation of the animal. The tension shifts to awkward comedy when Luisa recognizes Monica and Rachel from Lincoln High School. However, instead of a friendly reunion, Luisa reveals she spent four years being ignored by them. She insults Monica's past weight and calls Rachel a \"bitch\" for her high school behavior. Despite Monica's desperate attempt to appeal to school spirit and ask for a favor, Luisa flatly refuses to cooperate. She vows to confiscate Marcel if she finds him first and storms out, leaving the group in a state of panic and Phoebe offering a dramatic, humorous sound effect."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:09 - 00:04:12",
+    "batch_summary": "Chandler and Joey search the building hallways for Marcel, but get distracted by two attractive neighbors needing help with a radiator. Though Chandler wants to stay, Joey reminds him of their mission, only to ruin the interaction by awkwardly asking the women for pictures. Meanwhile, Monica and Phoebe search the dark basement. After Phoebe hilariously mistakes her own left leg brushing against her right leg for a creature, the duo successfully spots Marcel sitting on a basement couch.",
+    "cumulative_summary": "Following a tense confrontation with Luisa, an animal control officer who threatens to confiscate Ross's illegal monkey, Marcel, the group frantically splits up to search the building. Chandler and Joey comb the hallways, where they are briefly distracted by two attractive neighbors dealing with a broken radiator. Although Chandler is eager to flirt, Joey keeps them focused on their mission, though he awkwardly gets them shut out by asking the women for pictures. Meanwhile, Monica and Phoebe brave the dark basement. After a brief comedic scare where Phoebe panics when her own left leg brushes against her right, the duo successfully spots Marcel sitting on a basement couch."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:04:12 - 00:06:17",
+    "batch_summary": "In the basement, the animal control officer attempts to tranquilize Marcel, but Phoebe heroically takes the dart herself and passes out, allowing the monkey to escape. Meanwhile, Ross and Rachel search the streets. Frustrated by the loss, Ross rants about Rachel's selfishness, prompting her to angrily kick a signpost and injure her own foot. Their argument is interrupted when they spot a man carrying a box of bananas. They chase him down and reunite with the group in the apartment hallway.",
+    "cumulative_summary": "Following a tense confrontation with Luisa, an animal control officer, the group frantically splits up to search for Ross's illegal monkey, Marcel. While Chandler and Joey get distracted by attractive neighbors, Monica and Phoebe locate Marcel in the basement. However, Luisa corners them with a tranquilizer gun. In a heroic effort to protect Marcel, Phoebe jumps in the line of fire, gets shot with a dart, and passes out, allowing Marcel to escape. Meanwhile, Ross and Rachel search the streets. Frustrated by the loss, Ross rants about Rachel's carelessness, prompting a guilty Rachel to injure her own foot in solidarity. Their argument is interrupted when they spot a man carrying a box of bananas. After chasing him down, Ross and Rachel reunite with the rest of the group in the apartment hallway, holding the bananas in hopes of luring Marcel back."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:06:17 - 00:08:02",
+    "batch_summary": "The group confronts their neighbor, Mr. Heckles, over his banana order and discovers Marcel dressed in a pink dress inside his apartment. Before Ross can retrieve him, animal control officer Luisa arrives and cages the monkey. Luisa refuses to return Marcel, revealing a bitter high school grudge against Rachel, who was the popular prom queen. Rachel attempts to defuse the situation by appealing to Luisa's maturity, but the standoff over Marcel's custody remains unresolved.",
+    "cumulative_summary": "Following a frantic search for Ross's illegal monkey, Marcel, which left Phoebe accidentally tranquilized, the group traces a box of bananas to their neighbor, Mr. Heckles. Pushing into his apartment, they discover Marcel dressed in a pink dress, which Heckles bizarrely claims is his own pet. Before Ross can reclaim Marcel, the animal control officer, Luisa, arrives and traps the monkey in a cage. Luisa refuses to release Marcel to Ross, revealing a deep-seated high school grudge against Rachel, who was the popular prom queen while Luisa was ignored. Despite Rachel's attempts to appeal to Luisa as adults in the real world, the standoff over Marcel's fate intensifies."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:08:02 - 00:09:55",
+    "batch_summary": "When Luisa refuses to show mercy, Rachel successfully blackmails her by threatening to report her for accidentally shooting Phoebe with a tranquilizer dart, securing Marcel's release. Back at the apartment, a grateful Ross apologizes to Rachel for his harshness and credits her with saving his pet. As the two share a warm, intimate moment over glasses of wine, the tension between them softens, hinting at deeper romantic feelings as Ross brings up their earlier argument.",
+    "cumulative_summary": "Following a frantic search for Ross's illegal monkey, Marcel, which left Phoebe accidentally tranquilized, the group traced a box of bananas to their neighbor, Mr. Heckles. After finding Marcel dressed in a pink dress, the animal control officer, Luisa, arrived and trapped the monkey. Luisa, harboring a high school grudge against Rachel, initially refused to release Marcel. However, Rachel successfully blackmailed Luisa by threatening to report her for shooting Phoebe with the tranquilizer dart, forcing Luisa to return the monkey. Back at the apartment, the crisis resolves into a tender moment between Ross and Rachel. Ross apologizes for his earlier anger and praises Rachel for saving Marcel. As they share a bottle of wine, the emotional atmosphere shifts from frantic chaos to intimate warmth, with Ross tentatively bringing up their relationship as they reflect on how passionate their argument had become."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 232,
+    "timestamp_range": "00:09:55 - 00:11:25",
+    "batch_summary": "Just as Ross and Rachel share an intimate moment and Ross begins to confess his feelings, Rachel's ex-fianc\te bursts in, declaring he cannot marry Mindy because he is still in love with Rachel. A frustrated Ross walks away, leaving Rachel stunned. Later, at the coffee shop, the rest of the group reminisces about high school while looking at Monica's old photo album. The lighthearted conversation ends when Phoebe's tranquilized butt cheek suddenly wakes up, causing her to jump up in discomfort.",
+    "cumulative_summary": "Following a frantic search for Ross's illegal monkey, Marcel, which left Phoebe accidentally tranquilized, the group traced a box of bananas to their neighbor, Mr. Heckles. After finding Marcel dressed in a pink dress, the animal control officer, Luisa, arrived and trapped the monkey. Luisa, harboring a high school grudge against Rachel, initially refused to release Marcel. However, Rachel successfully blackmailed Luisa by threatening to report her for shooting Phoebe with the tranquilizer dart, forcing Luisa to return the monkey. Back at the apartment, the crisis resolves into a tender moment between Ross and Rachel. As Ross tentatively brings up their relationship, Rachel's ex-fianc\te suddenly bursts in to declare his love for Rachel, ruining the intimate moment and leaving Ross frustrated. Later, at the coffee shop, Monica, Chandler, Joey, and Phoebe look through Monica's old photo album and reminisce about high school. The lighthearted gathering is interrupted when Phoebe's tranquilized butt cheek painfully wakes up, prompting her to jump up and walk away."
+  }
+]

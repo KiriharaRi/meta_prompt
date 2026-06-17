@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:40",
+    "batch_summary": "In the living room, Ross, Rachel, and Chandler playfully tease Monica about her extreme neatness and control issues, culminating in Chandler describing a condensation ring on a wooden table, which causes Monica to panic. Ross jokes that she is turning into her mother. The lighthearted teasing is interrupted when Joey enters with exciting news: his agent has landed him a role in an upcoming Al Pacino movie. The group celebrates Joey's big break as he enthusiastically quotes Pacino.",
+    "cumulative_summary": "In a lively living room gathering, Ross, Rachel, and Chandler playfully test Monica's obsessive-compulsive tendencies. They present hypothetical scenarios, such as delaying a bill payment or buying the wrong laundry detergent, which Monica insists she can handle. However, when Chandler describes a cold glass leaving a condensation ring on a wooden table without a coaster, Monica loses her composure and panics. Ross jokingly compares her to her mother, highlighting her uptight nature. The lighthearted teasing is interrupted when Joey enters the room with thrilling news. He has just off the phone with his agent, who secured him a role in a new Al Pacino movie. Overjoyed, the group erupts in celebration for Joey, who enthusiastically recites famous Pacino lines to mark the monumental step in his acting career."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:40 - 00:03:31",
+    "batch_summary": "Joey reveals that his role in the Al Pacino film is actually as Pacino's butt double for a shower scene. Despite his friends' relentless teasing and puns, Joey defends it as his big break. Later, on the day of the shoot, Joey prepares by borrowing Monica's moisturizer and tweezers. Ignoring Monica's warning, Chandler opens the bathroom door while Joey is prepping and is instantly traumatized by what he sees, screaming in horror.",
+    "cumulative_summary": "During a lively gathering, Ross, Rachel, and Chandler playfully test Monica's obsessive-compulsive tendencies, causing her to panic over a hypothetical condensation ring. The lighthearted teasing is interrupted when Joey excitedly announces he landed a role in a new Al Pacino movie. However, the celebration turns to relentless amusement when Joey reveals the catch: he is actually Pacino's butt double for a shower scene. Despite his friends' endless jokes and puns, Joey proudly defends the gig as his big break. On the day of the shoot, Joey prepares by borrowing Monica's moisturizer and tweezers to groom himself. Monica warns Chandler not to go into the bathroom, but Chandler ignores her and opens the door, only to scream in horror and run out traumatized by whatever preparation Joey is performing."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:31 - 00:05:12",
+    "batch_summary": "Chandler excitedly prepares breakfast for Aurora, who spent the night, though he mentions a tight timeline before \"Ethan\" arrives. Meanwhile, Joey arrives on set for his Al Pacino butt-double shoot. Eager to make a good impression, Joey tries to bring dramatic depth to the shower scene. However, his artistic choice to \"clench\" to convey his character's grief is quickly shut down by the director, who criticizes his performance.",
+    "cumulative_summary": "During a lively gathering, the friends tease Monica about her obsessive-compulsive tendencies before Joey excitedly announces he landed a role in a new Al Pacino movie. The celebration turns to amusement when Joey reveals he is actually Pacino's butt double for a shower scene. After a traumatizing grooming session in Monica's bathroom, Joey heads to the set. Meanwhile, Chandler happily prepares breakfast for his new love interest, Aurora, who spent the night, though he notes a strict time limit before someone named Ethan arrives. On the film set, Joey is eager to prove his acting chops and tries to inject dramatic depth into the shower scene by clenching to convey the character's grief. However, his artistic choices are immediately shut down by the director, who bluntly criticizes his performance and demands he stop clenching."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:12 - 00:06:43",
+    "batch_summary": "On the movie set, Joey's attempt to portray \"quiet desperation\" through his body language backfires, further testing the director's patience. Meanwhile, Chandler's romantic morning with Aurora takes a complicated turn when she rushes off to meet another man. Chandler is stunned to learn that in addition to her husband Rick and boyfriend Ethan, Aurora has started seeing a new man named Andrew, leaving Chandler to navigate her crowded love life.",
+    "cumulative_summary": "During a lively gathering, the friends tease Monica about her obsessive-compulsive tendencies before Joey excitedly announces he landed a role as Al Pacino's butt double. However, Joey's determination to bring artistic depth to the shower scene by portraying \"quiet desperation\" only frustrates the director. Meanwhile, Chandler enjoys a romantic morning with his new love interest, Aurora. The mood shifts when Aurora abruptly prepares to leave, prompting Chandler to ask about her other relationships. He is astonished to discover that Aurora is not only married to Rick and dating Ethan, but has also recently started seeing a new man named Andrew. Despite the absurdity of sharing her with three other men, Chandler tries to process his place in Aurora's highly unconventional and crowded love life."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:43 - 00:08:18",
+    "batch_summary": "Chandler confronts Aurora, asking her to leave her other partners so they can be exclusive. Aurora resists, preferring their obligation-free connection. Chandler explains his internal conflict between enjoying the casual relationship and wanting something deeper. Ultimately, he chooses his emotional well-being and decides to end things. After a bittersweet final kiss, Aurora leaves, leaving Chandler alone but resolved.",
+    "cumulative_summary": "During a lively gathering, the friends tease Monica about her obsessive-compulsive tendencies before Joey excitedly announces he landed a role as Al Pacino's butt double. However, Joey's determination to bring artistic depth to the shower scene by portraying \"quiet desperation\" only frustrates the director. Meanwhile, Chandler enjoys a romantic morning with his new love interest, Aurora. The mood shifts when Aurora abruptly prepares to leave, prompting Chandler to ask about her other relationships. He is astonished to discover that Aurora is married, dating another man, and recently started seeing a third. Despite trying to process this unconventional arrangement, Chandler ultimately confronts Aurora, asking her to be exclusive. When Aurora refuses to give up her other partners, Chandler opens up about his internal conflict between his desire for casual fun and his need for emotional depth. Choosing his emotional well-being, Chandler decides to end the relationship. After a bittersweet final embrace and kiss, Aurora departs, leaving Chandler to cope with the breakup."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:18 - 00:10:01",
+    "batch_summary": "Following his breakup with Aurora, Chandler receives some playful questioning from Ross about why he ended things with someone so attractive. The focus shifts when Joey arrives with bad news: he was fired from his role as Al Pacino's butt double for over-acting. Feeling discouraged after years of struggling, Joey worries about letting everyone down. However, his friends rally around him, with Phoebe offering heartfelt encouragement that his true big break is still ahead.",
+    "cumulative_summary": "During a lively gathering, the friends tease Monica about her obsessive-compulsive tendencies before Joey excitedly announces he landed a role as Al Pacino's butt double. Meanwhile, Chandler enjoys a romance with Aurora, only to discover she has multiple partners. Choosing his emotional well-being, Chandler ends the relationship, leaving him to cope with the breakup while Ross questions his decision to let go of someone so attractive. The mood shifts when Joey returns with the disappointing news that he was fired from the movie for over-acting with his backside. Feeling defeated after years of struggling in minor plays, Joey worries about embarrassing himself to his family and friends. However, the group rallies to comfort him, with Phoebe offering heartfelt reassurance that this was not his only shot and that major success still lies ahead for him."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 276,
+    "timestamp_range": "00:10:01 - 00:12:07",
+    "batch_summary": "After Joey and Phoebe share a warm embrace, Monica tries to prove she is not obsessive-compulsive by casually leaving her shoes in the living room. However, she lies awake in bed agonizing over the mess, hilariously debating whether to retrieve them in secret. The night ends on a lighthearted note as the rest of the group winds down by playfully singing and dancing together in the living room.",
+    "cumulative_summary": "During a lively gathering, the friends tease Monica about her obsessive-compulsive tendencies before Joey excitedly announces he landed a role as Al Pacino's butt double. Meanwhile, Chandler ends his romance with Aurora upon discovering she has multiple partners, choosing his emotional well-being over her attractiveness. The mood shifts when Joey returns with the disappointing news that he was fired for over-acting with his backside. Feeling defeated, Joey is comforted by his friends, particularly Phoebe, who reassures him of his future success. Attempting to defy her neat-freak reputation, Monica casually leaves her shoes in the living room before bed. However, she lies awake agonizing over the mess, hilariously debating whether to retrieve them in secret. The night ends on a warm, lighthearted note as the remaining friends playfully sing and dance together in the living room."
+  }
+]

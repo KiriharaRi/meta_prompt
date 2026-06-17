@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:57",
+    "batch_summary": "In a coffee shop, the group debates the importance of kissing. The women insist a first kiss reveals everything, while the men compare it to an opening act before the main event. Rachel warns that neglecting kissing will lead to loneliness. Later, Ross is at the museum where his colleague Marsha makes a pointed comment about his ex-wife, Carol, who appears outside an exhibit.",
+    "cumulative_summary": "The film opens with the six friends in a coffee shop. They have a humorous debate about the significance of kissing, with the women championing its importance and the men viewing it as a preliminary step. The scene establishes their contrasting perspectives on relationships. Afterwards, Ross is at the Museum of Prehistoric History, where a colleague, Marsha, humorously projects modern relationship issues onto a cave-person display. Their conversation takes a personal turn when she points out Ross's ex-wife, Carol, who has just arrived at the museum."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:57 - 00:03:50",
+    "batch_summary": "At the museum, Ross awkwardly reunites with his ex-wife Carol. Their tense, stilted conversation is interrupted when she reveals she's pregnant, leaving him stunned. The scene shifts to the apartment where the rest of the friends are lounging, with Monica tidying and Chandler delivering a self-deprecating joke, providing a lighthearted counterpoint to Ross's bombshell.",
+    "cumulative_summary": "The film opens with the six friends debating kissing in a coffee shop, establishing their contrasting relationship views. Later, Ross is at the museum where a colleague jokes about his personal life before he's confronted by his ex-wife, Carol. Their reunion is filled with awkward humor until Carol delivers a major revelation: she is pregnant. Ross is left shocked and motionless. The narrative then briefly shifts to the apartment, where the other friends are relaxing, with Monica cleaning and Chandler making a joke, creating a tonal contrast to the emotional bombshell Ross just received."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:50 - 00:05:51",
+    "batch_summary": "In the apartment, Monica is frantic about her parents' visit, leading to teasing from the group about her perfectionism and the favoritism they show Ross. The lighthearted tension is briefly broken by a joke about their neighbor, Ugly Naked Guy. The mood shifts when Rachel bursts in, panicking because she's lost her engagement ring and must return it to her ex-fiancé, Barry. The friends attempt to calm her down and help her search, highlighting her guilt and anxiety over the aborted wedding.",
+    "cumulative_summary": "The film opens with the six friends debating kissing in a coffee shop, establishing their contrasting relationship views. Later, Ross is confronted at the museum by his ex-wife, Carol, who reveals she is pregnant, leaving him shocked. The narrative then shifts to the apartment where Monica is anxiously preparing for her parents' visit, prompting jokes about her perfectionism and her parents' clear favoritism toward Ross. The relaxed atmosphere is interrupted when Rachel arrives in a panic, having lost her engagement ring that she needs to return to her ex-fiancé Barry. The friends try to soothe her guilt and help her search, balancing the film's tone between Rachel's personal crisis and the earlier emotional bombshell Ross received."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:51 - 00:07:30",
+    "batch_summary": "The friends' chaotic search for Rachel's engagement ring culminates when Phoebe finds it in the lasagna. Ross arrives, emotionally drained, and reveals to everyone that Carol is pregnant. The moment shifts the group's focus, as Chandler tries to offer perspective and Monica gently inquires about his role in the situation. Ross explains Carol and her partner Susan want him involved, but the choice is his, adding a layer of melancholy as Phoebe notes she misses Carol.",
+    "cumulative_summary": "After establishing their differing views on relationships, the friends are jolted by two major events. Ross is shocked when his ex-wife Carol announces she is pregnant. Meanwhile, Rachel panics over losing her engagement ring, leading to a frantic group search that ends with Phoebe finding it in Monica's lasagna. Ross's somber arrival reveals the pregnancy to everyone, shifting the group's tone to supportive concern as he explains Carol and Susan want him involved but will respect his choice. The narrative balances Rachel's crisis with Ross's life-changing revelation, deepening the emotional stakes for both characters."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:30 - 00:09:13",
+    "batch_summary": "The group reacts to Ross's news with a mix of humor and empathy, as Chandler and Joey crack jokes while Rachel and Phoebe offer more serious support. Ross expresses deep uncertainty about his impending fatherhood, acknowledging it's inevitable. The scene shifts to Monica's parents' apartment, where Judy's offhand comments about Monica's career and setting her up with someone highlight the family's awkward dynamics and Monica's frustration with her mother's lack of understanding.",
+    "cumulative_summary": "After Ross's ex-wife Carol revealed she is pregnant, his friends showed supportive concern. In the current moments, they process the news with a blend of lighthearted banter and genuine care, while Ross grapples with the reality that he will be a father. Meanwhile, a visit to Monica's parents' apartment exposes Judy's well-meaning but oblivious meddling in Monica's career and personal life, adding a layer of familial tension to the group's ongoing emotional adjustments."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:13 - 00:11:32",
+    "batch_summary": "During a tense family dinner, Monica's parents continue their pattern of well-meaning but hurtful comments. Jack's attempt to console Monica backfires, comparing her to a 'cow' who is 'content' and lacks ambition, while Judy remains oblivious. Monica, feeling misunderstood, subtly pressures Ross to reveal his news about Carol to redirect her parents' focus, showing her frustration. Ross, overwhelmed by the family dynamics, finally stands up, preparing to explain the situation with his ex-wife.",
+    "cumulative_summary": "After Ross's ex-wife Carol revealed her pregnancy, his friends offered supportive concern. In a subsequent visit to Monica's parents' apartment, familial tension intensifies. During dinner, Jack's clumsy attempts to comfort Monica inadvertently diminish her ambitions, comparing her to a 'content' cow, while Judy remains casually oblivious. Feeling stifled and misunderstood, Monica nudges Ross to share his own major news about Carol to deflect attention. The atmosphere is thick with passive-aggression and unspoken frustration, culminating in Ross standing up, compelled to finally address his separation from Carol amid the chaotic family scene."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 250,
+    "timestamp_range": "00:11:32 - 00:11:58",
+    "batch_summary": "Ross finally reveals his separation news to his parents, stating plainly that his ex-wife Carol is a lesbian, living with a woman named Susan, and pregnant with his child. He adds that Carol and Susan plan to raise the baby together. Judy and Jack are visibly stunned and speechless, their reactions conveying profound shock and discomfort. The scene ends on a tense, silent note of overwhelmed realization.",
+    "cumulative_summary": "Amidst mounting familial tension at Monica's parents' apartment, Ross is compelled to share his personal crisis. He stands and reveals that his ex-wife Carol is a lesbian, living with a woman named Susan, and pregnant with his child, which they intend to raise together. His parents, Jack and Judy, are left in stunned, silent disbelief, their shocked reactions highlighting the gravity of the news. This disclosure occurs after earlier scenes of passive-aggressive family dynamics, marking a pivotal moment of raw, uncomfortable truth amidst the chaotic family gathering."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:46",
+    "batch_summary": "While attending a hockey game with Joey and Chandler, Ross is struck in the face by a stray puck. The trio heads to the emergency room, where they encounter an unhelpful receptionist, Nurse Sizemore, who forces a pained Ross to fill out paperwork and wait. Meanwhile, back at the apartment, a somber mood hangs over Phoebe, Monica, and Rachel as they contemplate their lack of life plans, only to be interrupted by the arrival of the pizza delivery.",
+    "cumulative_summary": "During an indoor ice hockey game, Joey's enthusiastic cheering is cut short when a stray puck flies into the stands and strikes Ross directly in the face. Clenching his nose in pain, Ross is escorted by Joey and Chandler to a nearby hospital emergency room. There, Chandler attempts to ease the tension with sarcastic complaints about a candy bar, but the receptionist, Nurse Sizemore, remains unimpressed and unsympathetic. Despite Ross's obvious pain and \"dented\" face, she insists they fill out paperwork and wait their turn. Meanwhile, a starkly different, melancholic atmosphere fills the girls' apartment. Phoebe lies on the floor while Monica and Rachel recline in despair, listening to sad music. Rachel apologizes for bringing everyone down, prompting Monica to admit that she, too, lacks a solid plan for her life. Their existential dread is temporarily paused when the intercom buzzes, signaling the arrival of their pizza."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:46 - 00:03:25",
+    "batch_summary": "The girls' pizza delivery arrives, but they discover a mix-up: they have received the order of White House advisor George Stephanopoulos, who lives across the street. Monica eagerly keeps the pizza, and the girls' gloomy mood quickly shifts to excitement. Armed with binoculars, Monica, Rachel, and Phoebe gather on the balcony to spy on their handsome neighbor, who is reportedly wearing only a towel, finding a thrilling distraction from their existential dread.",
+    "cumulative_summary": "During an indoor ice hockey game, Ross is struck in the face by a stray puck and rushed to the emergency room by Joey and Chandler, where they face an unsympathetic receptionist. Meanwhile, a melancholic atmosphere fills the girls' apartment as Monica, Rachel, and Phoebe wallow in existential dread about their lives. Their gloom is interrupted by a pizza delivery mix-up. They discover they have received the order of White House advisor George Stephanopoulos, who lives across the street. Monica eagerly keeps the pizza, and the girls' despair quickly turns to excitement. Armed with binoculars, they gather on the balcony to spy on their handsome neighbor, who is reportedly wearing only a towel, bringing a playful and thrilling distraction to their evening."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:25 - 00:05:26",
+    "batch_summary": "Back at the apartment, Phoebe's spying reveals a woman in George Stephanopoulos's apartment eating their pizza, sparking outrage. Later, the girls drink on the balcony and playfully speculate about George's personality. Meanwhile, at the hospital, Chandler unsuccessfully tries to charm the receptionist to speed up Ross's treatment. To pass the time, Joey convinces Ross to push him in a wheelchair, leading to a comical mishap when Ross accidentally crashes into a heavily bandaged patient.",
+    "cumulative_summary": "During an indoor ice hockey game, Ross is struck in the face by a stray puck and rushed to the emergency room by Joey and Chandler. While waiting, Chandler unsuccessfully tries to charm an unsympathetic receptionist to speed up Ross's treatment. To pass the time, Joey convinces Ross to push him in a wheelchair, resulting in an awkward collision with a heavily bandaged patient. Meanwhile, a melancholic atmosphere in the girls' apartment is lifted by a pizza delivery mix-up. Discovering they received the order of White House advisor George Stephanopoulos, Monica, Rachel, and Phoebe eagerly spy on his apartment. Their excitement turns to humorous outrage when Phoebe spots another woman eating the pizza. Undeterred, the girls drink on the balcony and playfully speculate about George's personality and love life, finding a thrilling distraction from their existential dread."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:26 - 00:07:29",
+    "batch_summary": "Back at the apartment, Rachel, Monica, and Phoebe playfully analyze the guys' romantic personalities, contrasting Joey's simple nature and Chandler's hidden sophistication with Ross's potential \"smoothness,\" much to Monica's disgust. Meanwhile, at the hospital, Chandler and Joey grow tired of Ross's nostalgic pining over the first time he slept with his ex-wife, Carol. Chandler loudly and insensitively brings up Carol leaving Ross for another woman, prompting a sarcastic retort from Ross.",
+    "cumulative_summary": "During an indoor ice hockey game, Ross is struck in the face by a stray puck and rushed to the emergency room by Joey and Chandler. While waiting, Chandler unsuccessfully tries to charm an unsympathetic receptionist, and Joey gets into a wheelchair collision. Meanwhile, a pizza delivery mix-up lifts the girls' spirits, leading Monica, Rachel, and Phoebe to spy on White House advisor George Stephanopoulos. This transitions into a playful discussion analyzing the romantic personalities of Joey, Chandler, and Ross. Back at the hospital, Ross's nostalgic pining over the first time he slept with his ex-wife, Carol, deeply annoys Joey and Chandler. When Chandler loudly brings up Carol leaving Ross for another woman, Ross sarcastically reprimands him for broadcasting his personal life to the entire hospital."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 162,
+    "timestamp_range": "00:07:29 - 00:07:33",
+    "batch_summary": "In a quiet, vulnerable moment following their argument, Ross looks down and begins to share details about his first intimate experience with Carol with Chandler. Visibly dejected and lost in his memories, he keeps his gaze lowered and looks away as he speaks, highlighting his lingering heartbreak and inability to move past his failed marriage.",
+    "cumulative_summary": "During an indoor ice hockey game, Ross is struck in the face by a stray puck and rushed to the emergency room by Joey and Chandler. While waiting, Chandler unsuccessfully tries to charm an unsympathetic receptionist, and Joey gets into a wheelchair collision. Meanwhile, a pizza delivery mix-up lifts the girls' spirits, leading Monica, Rachel, and Phoebe to spy on White House advisor George Stephanopoulos. Back at the hospital, Ross's nostalgic pining over his ex-wife, Carol, deeply annoys Joey and Chandler. After Chandler loudly brings up Carol leaving Ross for another woman, Ross sarcastically reprimands him for broadcasting his personal life. However, the tension softens into a quiet, vulnerable moment as a dejected Ross looks away and begins to share the intimate details of his first time with Carol with Chandler, unable to shake his lingering heartbreak."
+  }
+]

@@ -1,0 +1,481 @@
+{
+  "version": "domain_pool_v2",
+  "target_region": "IPL",
+  "curation_status": "draft",
+  "source_model": "gemini-3.5-flash",
+  "proposal_runs": 5,
+  "metadata": {
+    "generation_parameters": {
+      "provider": "gemini",
+      "temperature": 0.2,
+      "proposal_runs": 5
+    },
+    "required_domain_ids": [],
+    "confirmation_instructions": "Review curated_domains and rejected_or_merged_domains, then set curation_status to 'confirmed' before passing this pool to make-region-schema --domain-pool."
+  },
+  "candidate_domains": [
+    {
+      "domain_id": "run_1_spatial_attention_and_perspective",
+      "definition": "The viewer's tracking of spatial layouts, relative positions of characters or objects, and shifts in spatial perspective or focus of attention within the scene.",
+      "region_relevance": "The inferior parietal lobule (IPL), including areas A39 and A40, is a core component of the dorsal and ventral attention networks, crucial for spatial orienting, tracking spatial relationships, and updating egocentric/allocentric reference frames.",
+      "scoreability_note": "Scored by evaluating how much the text description details changes in spatial layouts, movement of objects/characters relative to each other, and shifts in visual attention or camera perspective.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_action_simulation_and_tool_use",
+      "definition": "The viewer's cognitive simulation and comprehension of goal-directed physical actions, manual interactions with objects, or bodily movements performed by characters.",
+      "region_relevance": "Parts of the IPL (especially A40 and somatomotor-associated divisions) are heavily involved in action observation, understanding tool-use gestures, and mapping observed actions onto the viewer's own motor system.",
+      "scoreability_note": "Scored based on the density and complexity of physical actions, manual manipulation of objects, or tool use described in the text.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_social_intent_and_narrative_update",
+      "definition": "The viewer's inference of characters' hidden intentions, beliefs, or social dynamics, and the integration of these social cues to update their understanding of the narrative.",
+      "region_relevance": "The temporoparietal junction (TPJ), which overlaps significantly with posterior IPL (A39), is a key node for Theory of Mind, social cognition, and reorienting attention to behaviorally relevant or unexpected social/narrative events.",
+      "scoreability_note": "Scored by looking for descriptions of social interactions, non-verbal cues indicating hidden motives, or sudden shifts in narrative context that require the viewer to re-evaluate character intentions.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_2_action_simulation_and_tool_tracking",
+      "definition": "The viewer's cognitive tracking and implicit simulation of physical actions, manual manipulations, and tool use performed by characters on screen.",
+      "region_relevance": "The supramarginal gyrus (A40) within the inferior parietal lobule is heavily implicated in action observation, motor resonance, and representing the pragmatics of tool use and object manipulation.",
+      "scoreability_note": "Can be reliably scored from text descriptions detailing manual tasks, precise physical movements, or characters interacting with objects and tools.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_social_intention_inference",
+      "definition": "The viewer's active inference of characters' underlying intentions, beliefs, and interpersonal dynamics from their verbal and non-verbal behavior.",
+      "region_relevance": "The angular gyrus (A39) is a core node of the Theory of Mind and default mode networks, critical for decoding social cues, perspective-taking, and inferring mental states.",
+      "scoreability_note": "Can be scored by evaluating the presence of social interactions, conflicting goals, subtext, or strategic deception described in the scene text.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_spatial_layout_and_navigation_tracking",
+      "definition": "The viewer's tracking of the spatial relationships, environmental boundaries, and physical navigation of characters within the scene's layout.",
+      "region_relevance": "The inferior parietal lobule (A39/A40) plays a key role in spatial attention, egocentric mapping, and tracking spatial coordinates during visual exploration of environments.",
+      "scoreability_note": "Can be scored based on descriptions of movement through space, changes in setting, spatial orientation, and the layout of the physical environment.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_narrative_causal_integration",
+      "definition": "The viewer's integration of immediate scene events with the broader narrative context to update their understanding of the story's causal progression.",
+      "region_relevance": "The angular gyrus (A39) acts as a semantic and episodic integration hub, crucial for narrative comprehension, linking events over time, and constructing coherent situation models.",
+      "scoreability_note": "Can be scored by assessing how much the scene requires the viewer to connect current actions to past plot points, motives, or future consequences.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_3_action_and_tool_tracking",
+      "definition": "The viewer's tracking and mental simulation of goal-directed physical actions, manual manipulations, and tool use performed by characters, including the physical mechanics and immediate motor intentions of these actions.",
+      "region_relevance": "The inferior parietal lobule (specifically supramarginal areas like A40) is a core component of the action-observation and mirror neuron systems, heavily involved in representing manual gestures, tool-use schemas, and motor planning.",
+      "scoreability_note": "Can be scored by identifying descriptions of characters manipulating objects, using tools, performing precise physical tasks, or engaging in coordinated manual activities.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_social_intent_attribution",
+      "definition": "The viewer's cognitive attribution of mental states, beliefs, hidden motives, and social intentions to characters, particularly when interpreting non-verbal cues, subtext, or discrepancies between a character's actions and their internal states.",
+      "region_relevance": "The temporoparietal junction (TPJ) extending into the angular gyrus (A39) is a primary hub of the default mode and mentalizing networks, critical for Theory of Mind and inferring others' perspectives.",
+      "scoreability_note": "Can be scored based on narrative situations involving deception, strategic social interactions, unspoken tension, or scenes where the viewer must infer a character's hidden agenda.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_narrative_salience_detection",
+      "definition": "The viewer's detection of sudden, unexpected shifts in the narrative flow, abrupt environmental changes, or highly salient events that disrupt the current focus and demand attentional reorienting.",
+      "region_relevance": "The ventral attention network, which includes parts of the inferior parietal lobule (such as A40c and A39rv), is specialized for bottom-up, stimulus-driven attentional reorienting to behaviorally relevant or unexpected events.",
+      "scoreability_note": "Can be scored by identifying sudden plot twists, unexpected entries of characters, abrupt changes in the setting, or sudden disruptions in the ongoing action.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_spatial_relational_mapping",
+      "definition": "The viewer's tracking of the spatial layout of the scene, the relative positions of characters and key objects, and their movements through physical environments.",
+      "region_relevance": "The superior and inferior parietal regions (including A7 and A39) are key nodes in the dorsal visual stream, responsible for spatial attention, egocentric mapping, and tracking spatial relationships during dynamic visual scenes.",
+      "scoreability_note": "Can be scored by analyzing descriptions of characters navigating complex environments, changes in physical proximity between characters, or tracking the trajectory of moving objects.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_4_spatial_coordination_and_navigation",
+      "definition": "The viewer's mental tracking of the physical layout, spatial relationships, and movement trajectories of characters and objects within the scene's environment.",
+      "region_relevance": "Associated with dorsal attention and visual peripheral subdivisions of the IPL (such as A39c and A39rd), which support spatial attention, coordinate transformation, and tracking motion.",
+      "scoreability_note": "Highly scoreable from text descriptions of character movements, spatial settings, object placements, and camera perspectives.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_goal_directed_action_decoding",
+      "definition": "The viewer's cognitive simulation and inference of the immediate physical goals, motor intentions, and tool-use actions executed by characters.",
+      "region_relevance": "Linked to somatomotor-associated IPL regions (such as A40rd and A39rv) that form part of the action-observation network, critical for understanding the kinematics and instrumental goals of others' actions.",
+      "scoreability_note": "Can be scored by identifying descriptions of manual tasks, tool manipulation, reaching, and physical interactions with the environment.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_social_perspective_integration",
+      "definition": "The viewer's tracking and integration of characters' mental states, intentions, beliefs, and interpersonal dynamics, requiring the viewer to adopt or infer different social perspectives.",
+      "region_relevance": "Maps onto the temporoparietal junction (TPJ) area of the IPL (ventral attention/default networks, such as A39rv and A40c), which is central to Theory of Mind and social narrative processing.",
+      "scoreability_note": "Scoreable based on narrative descriptions of dialogue, social interactions, hidden motives, and perspective shifts.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_attentional_reorienting_events",
+      "definition": "The viewer's cognitive reorienting of attention triggered by unexpected narrative events, sudden sensory changes, or highly salient cues in the scene.",
+      "region_relevance": "Mediated by the ventral attention network nodes within the IPL (such as A40c and A39rv), which are specialized for bottom-up, stimulus-driven attentional capture and reorienting.",
+      "scoreability_note": "Scoreable by identifying sudden interruptions, unexpected actions, abrupt visual/auditory changes, or surprising narrative developments in the text.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_5_action_and_tool_resonance",
+      "definition": "The viewer's cognitive tracking and mental simulation of goal-directed physical actions, manual manipulations, or tool-use executed by characters. This captures the viewer's implicit understanding of the physical mechanics, effort, and motor intentions behind the observed actions.",
+      "region_relevance": "The supramarginal gyrus (A40) and associated somatomotor/dorsal attention networks in the IPL are heavily implicated in action observation, tool-use representation, and motor resonance.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing physical interactions, manual tasks, tool usage, or complex bodily movements.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_social_perspective_tracking",
+      "definition": "The viewer's cognitive tracking of characters' mental states, beliefs, hidden motives, and interpersonal dynamics. This represents the viewer's active inference of 'Theory of Mind' elements as they decode why characters act or speak in specific ways.",
+      "region_relevance": "The angular gyrus (A39), particularly within the default mode and ventral attention networks of the IPL, is a core hub of the Theory of Mind and social cognition networks.",
+      "scoreability_note": "Scoreable from narrative descriptions highlighting deception, conflicting motives, unspoken intentions, or complex social interactions.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_narrative_event_integration",
+      "definition": "The viewer's cognitive integration of current scene details with prior narrative context, especially during transitions, shifts in perspective, or when updating their mental model of the story.",
+      "region_relevance": "The IPL (specifically the temporoparietal junction and angular gyrus) is crucial for episodic memory retrieval, narrative comprehension, and updating situational schemas when new information is presented.",
+      "scoreability_note": "Scoreable by analyzing text descriptions for narrative shifts, callbacks to earlier events, sudden revelations, or changes in setting/timeline that require the viewer to update their understanding.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_salience_attention_reorienting",
+      "definition": "The viewer's experience of sudden, unexpected, or highly salient events that disrupt the ongoing narrative flow and demand a reorienting of attention.",
+      "region_relevance": "The temporoparietal junction (TPJ) within the IPL is a key node of the ventral attention network, responsible for stimulus-driven, bottom-up attentional reorienting.",
+      "scoreability_note": "Scoreable from descriptions of sudden, disruptive, or highly unexpected occurrences in the scene that break the established pattern.",
+      "source_run": 5
+    }
+  ],
+  "curated_domains": [
+    {
+      "domain_id": "spatial_layout_and_perspective_tracking",
+      "definition": "The viewer's tracking of spatial layouts, relative positions of characters or objects, and shifts in spatial perspective or physical navigation within the scene.",
+      "region_relevance": "The inferior parietal lobule (IPL), including areas A39 and A40, is a core component of the dorsal and ventral attention networks, crucial for spatial orienting, tracking spatial relationships, and updating egocentric/allocentric reference frames.",
+      "scoreability_note": "Scored by evaluating how much the text description details changes in spatial layouts, movement of objects/characters relative to each other, and shifts in visual attention, camera perspective, or physical navigation.",
+      "source_domain_ids": [
+        "run_1_spatial_attention_and_perspective",
+        "run_2_spatial_layout_and_navigation_tracking",
+        "run_3_spatial_relational_mapping",
+        "run_4_spatial_coordination_and_navigation"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Merged all spatial attention, layout, and navigation tracking domains across runs into a single robust domain representing IPL's role in spatial processing and coordinate transformation."
+    },
+    {
+      "domain_id": "action_simulation_and_tool_tracking",
+      "definition": "The viewer's cognitive simulation and tracking of goal-directed physical actions, manual interactions with objects, or tool use performed by characters.",
+      "region_relevance": "Parts of the IPL (especially supramarginal gyrus, A40) are heavily involved in action observation, motor resonance, and representing the pragmatics of tool use and object manipulation.",
+      "scoreability_note": "Scored based on the density and complexity of physical actions, manual manipulation of objects, or tool use described in the text.",
+      "source_domain_ids": [
+        "run_1_action_simulation_and_tool_use",
+        "run_2_action_simulation_and_tool_tracking",
+        "run_3_action_and_tool_tracking",
+        "run_4_goal_directed_action_decoding",
+        "run_5_action_and_tool_resonance"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Consolidated all action observation, tool use, and motor simulation domains across runs into a single domain reflecting IPL's role in the action-observation network."
+    },
+    {
+      "domain_id": "social_perspective_and_intention_tracking",
+      "definition": "The viewer's active inference of characters' underlying intentions, beliefs, hidden motives, and interpersonal dynamics from their verbal and non-verbal behavior.",
+      "region_relevance": "The temporoparietal junction (TPJ) extending into the angular gyrus (A39) is a primary hub of the default mode and mentalizing networks, critical for Theory of Mind and inferring others' perspectives.",
+      "scoreability_note": "Scored by evaluating the presence of social interactions, conflicting goals, subtext, strategic deception, or scenes where the viewer must infer a character's hidden agenda.",
+      "source_domain_ids": [
+        "run_1_social_intent_and_narrative_update",
+        "run_2_social_intention_inference",
+        "run_3_social_intent_attribution",
+        "run_4_social_perspective_integration",
+        "run_5_social_perspective_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all Theory of Mind, social perspective-taking, and intention attribution domains across runs into a single domain representing IPL's (specifically TPJ/A39) role in social cognition."
+    },
+    {
+      "domain_id": "narrative_causal_integration",
+      "definition": "The viewer's cognitive integration of immediate scene events with the broader narrative context to update their mental model of the story's causal progression.",
+      "region_relevance": "The angular gyrus (A39) acts as a semantic and episodic integration hub, crucial for narrative comprehension, linking events over time, and constructing coherent situation models.",
+      "scoreability_note": "Scored by assessing how much the scene requires the viewer to connect current actions to past plot points, motives, or future consequences, or update situational schemas.",
+      "source_domain_ids": [
+        "run_2_narrative_causal_integration",
+        "run_5_narrative_event_integration"
+      ],
+      "source_runs": [
+        2,
+        5
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Merged narrative integration and causal progression domains into a single domain reflecting the angular gyrus's role as a semantic and episodic integration hub."
+    },
+    {
+      "domain_id": "attentional_reorienting_and_salience_detection",
+      "definition": "The viewer's cognitive reorienting of attention triggered by unexpected narrative events, sudden sensory changes, or highly salient cues that disrupt the ongoing flow.",
+      "region_relevance": "The ventral attention network, which includes parts of the inferior parietal lobule (such as A40c and A39rv), is specialized for bottom-up, stimulus-driven attentional reorienting to behaviorally relevant or unexpected events.",
+      "scoreability_note": "Scored by identifying sudden plot twists, unexpected entries of characters, abrupt changes in the setting, or sudden disruptions in the ongoing action.",
+      "source_domain_ids": [
+        "run_3_narrative_salience_detection",
+        "run_4_attentional_reorienting_events",
+        "run_5_salience_attention_reorienting"
+      ],
+      "source_runs": [
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 3,
+      "consolidation_rationale": "Merged all bottom-up attentional reorienting and salience detection domains across runs into a single domain representing the ventral attention network's role in the IPL."
+    }
+  ],
+  "rejected_or_merged_domains": [
+    {
+      "domain_id": "run_1_spatial_attention_and_perspective",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified spatial layout and perspective tracking domain.",
+      "source_domain_ids": [
+        "run_1_spatial_attention_and_perspective"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "spatial_layout_and_perspective_tracking"
+    },
+    {
+      "domain_id": "run_1_action_simulation_and_tool_use",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified action simulation and tool tracking domain.",
+      "source_domain_ids": [
+        "run_1_action_simulation_and_tool_use"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "action_simulation_and_tool_tracking"
+    },
+    {
+      "domain_id": "run_1_social_intent_and_narrative_update",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified social perspective and intention tracking domain.",
+      "source_domain_ids": [
+        "run_1_social_intent_and_narrative_update"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "social_perspective_and_intention_tracking"
+    },
+    {
+      "domain_id": "run_2_action_simulation_and_tool_tracking",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified action simulation and tool tracking domain.",
+      "source_domain_ids": [
+        "run_2_action_simulation_and_tool_tracking"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "action_simulation_and_tool_tracking"
+    },
+    {
+      "domain_id": "run_2_social_intention_inference",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified social perspective and intention tracking domain.",
+      "source_domain_ids": [
+        "run_2_social_intention_inference"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "social_perspective_and_intention_tracking"
+    },
+    {
+      "domain_id": "run_2_spatial_layout_and_navigation_tracking",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified spatial layout and perspective tracking domain.",
+      "source_domain_ids": [
+        "run_2_spatial_layout_and_navigation_tracking"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "spatial_layout_and_perspective_tracking"
+    },
+    {
+      "domain_id": "run_2_narrative_causal_integration",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified narrative causal integration domain.",
+      "source_domain_ids": [
+        "run_2_narrative_causal_integration"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "narrative_causal_integration"
+    },
+    {
+      "domain_id": "run_3_action_and_tool_tracking",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified action simulation and tool tracking domain.",
+      "source_domain_ids": [
+        "run_3_action_and_tool_tracking"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "action_simulation_and_tool_tracking"
+    },
+    {
+      "domain_id": "run_3_social_intent_attribution",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified social perspective and intention tracking domain.",
+      "source_domain_ids": [
+        "run_3_social_intent_attribution"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "social_perspective_and_intention_tracking"
+    },
+    {
+      "domain_id": "run_3_narrative_salience_detection",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified attentional reorienting and salience detection domain.",
+      "source_domain_ids": [
+        "run_3_narrative_salience_detection"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "attentional_reorienting_and_salience_detection"
+    },
+    {
+      "domain_id": "run_3_spatial_relational_mapping",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified spatial layout and perspective tracking domain.",
+      "source_domain_ids": [
+        "run_3_spatial_relational_mapping"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "spatial_layout_and_perspective_tracking"
+    },
+    {
+      "domain_id": "run_4_spatial_coordination_and_navigation",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified spatial layout and perspective tracking domain.",
+      "source_domain_ids": [
+        "run_4_spatial_coordination_and_navigation"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "spatial_layout_and_perspective_tracking"
+    },
+    {
+      "domain_id": "run_4_goal_directed_action_decoding",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified action simulation and tool tracking domain.",
+      "source_domain_ids": [
+        "run_4_goal_directed_action_decoding"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "action_simulation_and_tool_tracking"
+    },
+    {
+      "domain_id": "run_4_social_perspective_integration",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified social perspective and intention tracking domain.",
+      "source_domain_ids": [
+        "run_4_social_perspective_integration"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "social_perspective_and_intention_tracking"
+    },
+    {
+      "domain_id": "run_4_attentional_reorienting_events",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified attentional reorienting and salience detection domain.",
+      "source_domain_ids": [
+        "run_4_attentional_reorienting_events"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "attentional_reorienting_and_salience_detection"
+    },
+    {
+      "domain_id": "run_5_action_and_tool_resonance",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified action simulation and tool tracking domain.",
+      "source_domain_ids": [
+        "run_5_action_and_tool_resonance"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "action_simulation_and_tool_tracking"
+    },
+    {
+      "domain_id": "run_5_social_perspective_tracking",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified social perspective and intention tracking domain.",
+      "source_domain_ids": [
+        "run_5_social_perspective_tracking"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "social_perspective_and_intention_tracking"
+    },
+    {
+      "domain_id": "run_5_narrative_event_integration",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified narrative causal integration domain.",
+      "source_domain_ids": [
+        "run_5_narrative_event_integration"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "narrative_causal_integration"
+    },
+    {
+      "domain_id": "run_5_salience_attention_reorienting",
+      "decision": "MERGED",
+      "reason": "Consolidated into a unified attentional reorienting and salience detection domain.",
+      "source_domain_ids": [
+        "run_5_salience_attention_reorienting"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "attentional_reorienting_and_salience_detection"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:49",
+    "batch_summary": "The six friends gather at Central Perk coffee shop. Their conversation humorously debates what's better about being a man versus a woman, with Ross championing the bra-from-sleeve trick and Joey joking about women seeing breasts. Phoebe then somberly notes guys can do mean things without caring. Later, Chandler reveals his dread of Saturday date nights, confessing his fear of breaking up with women, which he describes as an awkward, cowardly act involving passing notes and running away.",
+    "cumulative_summary": "In their first appearance, the six friends—Ross, Joey, Chandler, Phoebe, Monica, and Rachel—are at Central Perk coffee shop. Their banter humorously contrasts male and female advantages, from Ross's bra maneuver to Joey's observation about breasts. The tone shifts when Phoebe points out how men can be mean without remorse, leaving the group momentarily silent. Later, Chandler laments his empty Saturday night plans, leading to a confession about his crippling fear of breaking up with women, which he imagines as a nerve-wracking ordeal of passing notes and fleeing. This establishes the group's dynamic mix of comedy and vulnerability."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:49 - 00:03:27",
+    "batch_summary": "Chandler's fear of breakups continues as Joey advises him to 'just stop calling' and Phoebe offers to break up with him together. Phoebe also reveals she's planning to break up with Tony. Rachel is upset after her father tried to bribe her with a Mercedes to move back home, revealing his doubts about her independence. The group's support contrasts with her frustration. Later, Joey is visibly flustered when his ex-girlfriend Angela enters, struggling to act cool before finally rushing over to her.",
+    "cumulative_summary": "The six friends—Ross, Joey, Chandler, Phoebe, Monica, and Rachel—are at Central Perk. Their banter mixes humor with vulnerability, from Ross's bra maneuver to Joey's observation about breasts, and Phoebe noting how men can be mean without remorse. Chandler's crippling fear of breaking up is highlighted; he worries about confrontation, while Joey advises just stopping calls and Phoebe offers solidarity. Phoebe also plans to break up with Tony because it's not fun. Rachel is distressed after her father tried to bribe her with a Mercedes to move home, expressing his doubts about her self-sufficiency. The group shows support. Joey, meanwhile, is flustered by his ex-girlfriend Angela's entrance, trying to appear cool before finally going to talk to her."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:27 - 00:05:00",
+    "batch_summary": "Joey approaches his ex-girlfriend Angela at the counter, complimenting her appearance in a flirtatious exchange. Meanwhile, Ross awkwardly tries to ask Rachel out by fabricating a rat problem in his building's laundry room to join her and Monica, which she accepts. Angela then rebuffs Joey, revealing she's now with Bob, a 'sophisticated' man with a 'real job,' and dismisses Joey's acting career.",
+    "cumulative_summary": "The six friends—Ross, Joey, Chandler, Phoebe, Monica, and Rachel—are at Central Perk. Their banter mixes humor with vulnerability, from Ross's bra maneuver to Joey's observation about breasts, and Phoebe noting how men can be mean without remorse. Chandler's crippling fear of breaking up is highlighted, while Phoebe plans to break up with Tony. Rachel is distressed after her father tried to bribe her to move home, expressing his doubts about her self-sufficiency, with the group showing support. Joey, flustered by his ex Angela's entrance, approaches her for a flirtatious exchange, but she rebuffs him, revealing she's now with Bob, a 'sophisticated' man with a 'real job,' and dismissing Joey's acting career. Ross, meanwhile, awkwardly tries to ask Rachel out by fabricating a rat problem in his building's laundry room to join her and Monica for laundry, and she accepts."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:00 - 00:06:54",
+    "batch_summary": "Joey tries to win back Angela by offering to set up her 'sophisticated' brother Bob with Monica, but Monica initially refuses, citing Joey's poor matchmaking history. Joey confesses his deep regret over breaking up with Angela, calling her a 'one of a kind' snowflake, and Monica agrees to help him. Meanwhile, Ross confirms to Chandler that Monica won't join them, meaning it will just be him and Rachel for their fabricated laundry date.",
+    "cumulative_summary": "The six friends are at Central Perk, mixing humor and vulnerability. Rachel is distressed after her father's doubts about her self-sufficiency, while Phoebe plans to break up with Tony. Joey is flustered when his ex Angela enters with her new, 'sophisticated' boyfriend Bob, who dismisses Joey's acting career. In this batch, Joey tries to win Angela back by offering to set up her brother Bob with Monica, but Monica initially refuses. Joey emotionally confesses his regret over the breakup, calling Angela unique, and Monica agrees to help him. Meanwhile, Ross, having fabricated a rat problem to join Rachel for laundry, confirms to Chandler that Monica won't come, setting up a solo date with Rachel."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:54 - 00:08:29",
+    "batch_summary": "Chandler helps a nervous Ross prepare for his 'date' with Rachel by pointing out the need to clean up and present himself better, highlighting Ross's rusty dating skills. Meanwhile, Monica and Joey meet at a restaurant to discuss Bob, but Joey reveals he's never actually met him. Their conversation is interrupted by the arrival of an attractive blonde woman, shifting the focus.",
+    "cumulative_summary": "The six friends continue their Central Perk dynamics into the evening. Ross, having fabricated a rat problem to join Rachel for laundry, gets dating advice from Chandler about his upcoming solo 'date,' revealing his nervousness. Simultaneously, Joey and Monica meet at a restaurant so Monica can assess Bob before their set-up date, but Joey admits he's never met him. Their plan is disrupted by the arrival of an attractive blonde woman Joey knows. Meanwhile, Rachel remains distressed over her father's doubts, and Phoebe plans a breakup, maintaining the episode's mix of humor and vulnerability."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:29 - 00:10:10",
+    "batch_summary": "At the coffee shop, Chandler meets Janice to break up with her, but her cheerful recounting of a bad day and thoughtful gift of Bullwinkle socks makes it difficult. Despite his awkward attempts, he delays the breakup, using coffee as an excuse to retreat. Phoebe observes, providing dry commentary.",
+    "cumulative_summary": "The six friends navigate personal dramas. Ross fabricates a rat problem to join Rachel for laundry, getting dating advice from a nervous Chandler. Monica meets Joey to assess his friend Bob, but Joey admits he never met him; their plan is disrupted by an attractive woman Joey knows. Rachel is distressed over her father's doubts, while Phoebe plans a breakup. At the coffee shop, Chandler meets Janice to end things, but her upbeat mood and gift of Bullwinkle socks complicate his plan, causing him to stall and seek refuge at the counter."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 276,
+    "timestamp_range": "00:10:10 - 00:11:37",
+    "batch_summary": "Chandler confides in Phoebe that he failed to break up with Janice, showing off the Bullwinkle socks she gave him. Meanwhile, Rachel's laundry plans are disrupted by an aggressive woman who steals her washing machine based on a 'no suds, no save' rule. Ross arrives to find Rachel in a confrontation, and she explains the situation to him.",
+    "cumulative_summary": "The six friends navigate personal dramas. Ross fabricates a rat problem to join Rachel for laundry, getting dating advice from a nervous Chandler. Monica meets Joey to assess his friend Bob, but Joey admits he never met him; their plan is disrupted by an attractive woman Joey knows. Rachel is distressed over her father's doubts, while Phoebe plans a breakup. At the coffee shop, Chandler fails to break up with Janice, who gifts him Bullwinkle socks, and later confides this failure to Phoebe. In the laundromat, Rachel's attempt to do laundry is hijacked by an aggressive woman, and Ross arrives to witness her frustration."
+  }
+]

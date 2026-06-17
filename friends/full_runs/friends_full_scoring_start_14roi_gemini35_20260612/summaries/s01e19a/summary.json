@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:45",
+    "batch_summary": "At Central Perk, Rachel struggles with her waitressing duties before Monica delivers her mail. Rachel is shocked to find a country club newsletter announcing the engagement of her ex-fianc\t, Barry, and her former maid of honor, Mindy. Later, at the apartment, Ross eats takeout and shows off his pet monkey Marcel's training progress, prompting a sarcastic remark from Rachel.",
+    "cumulative_summary": "At the Central Perk coffee shop, Rachel Green struggles with her waitressing duties, humorously listing tea flavors to the wrong customer. Monica Geller arrives with the mail, delivering a country club newsletter sent by Rachel's mother. Rachel is shocked to discover that her ex-fianc\t, Barry—whom she famously left at the altar—is now engaged to her former maid of honor, Mindy. Monica offers some lighthearted comfort before leaving Rachel to process the news. Later that evening in the apartment, Ross Geller eats Chinese takeout while showing off his pet monkey, Marcel, who is learning to fetch food. Rachel, still processing her day, makes a sarcastic joke about Marcel's behavioral progress, maintaining a humorous yet slightly cynical tone."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:45 - 00:03:38",
+    "batch_summary": "Rachel confides in Ross about her desire for a partner who is both a best friend and physically exciting, contrasting her safe relationship with Barry against her passionate fling with Paolo. Ross agrees and begins to hint that he could be that person for her. However, their intimate moment is abruptly interrupted when Chandler, Joey, Phoebe, and Monica return from the movies, with Joey loudly complaining about the lack of female nudity in the film.",
+    "cumulative_summary": "At the Central Perk coffee shop, Rachel Green struggles with her waitressing duties before Monica Geller delivers a country club newsletter revealing that Rachel's ex-fiancé, Barry, is engaged to her former maid of honor, Mindy. Later at the apartment, while Ross Geller shows off his pet monkey, Marcel, Rachel processes her feelings. She confides in Ross, admitting she isn't truly happy for Barry and laments her love life. Rachel explains she wants a partner who is both a best friend and physically thrilling, contrasting the safe but passionless Barry with the purely physical Paolo. Ross, harboring deep feelings for Rachel, softly agrees and begins to hint that he could be that perfect match. However, just as he is about to make his move, their intimate moment is interrupted when Chandler, Joey, Phoebe, and Monica return from a movie. Joey immediately breaks the tension by loudly complaining about the film's lack of female nudity, restoring the group's usual comedic dynamic."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:38 - 00:05:39",
+    "batch_summary": "Ross arranges for Rachel to babysit his monkey, Marcel, the following day. Later, over pizza, Ross confides in Chandler and Joey about his plan to \"woo\" Rachel that evening with a bottle of wine, convinced he is the ideal partner she is searching for. While his friends tease him for his old-fashioned approach, Rachel spends her day at the apartment bonding with Marcel, playfully explaining soap opera plotlines to him.",
+    "cumulative_summary": "At Central Perk, Rachel Green struggles with her waitressing duties before learning her ex-fiancé, Barry, is engaged to her former maid of honor. Seeking comfort, Rachel confides in Ross Geller about her desire for a partner who is both a best friend and physically thrilling. Sensing an opportunity, Ross prepares to make his move, but the group interrupts them. Undeterred, Ross arranges for Rachel to babysit his monkey, Marcel, the following day. Over pizza, Ross shares his plan to \"woo\" Rachel that evening with Chandler and Joey, who playfully tease him for his old-fashioned romantic optimism. Meanwhile, back at the apartment, Rachel spends her day bonding with Marcel, happily explaining soap opera plotlines to the attentive pet, unaware of Ross's impending romantic gesture."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:39 - 00:07:08",
+    "batch_summary": "While babysitting, Rachel discovers Marcel has pooped in one of Monica's shoes. After jokingly leaving the shoe in the hallway as a gift for Barry, Rachel gets distracted by her soap opera and realizes Marcel has vanished. When Joey, Chandler, Monica, and Phoebe arrive, Rachel frantically confesses that she lost the monkey. The group's concern quickly mixes with comedic tension as Monica becomes obsessed with finding out exactly which of her favorite shoes was ruined.",
+    "cumulative_summary": "At Central Perk, Rachel Green confides in Ross Geller about her romantic desires. Seizing the chance to woo her, Ross arranges for Rachel to babysit his monkey, Marcel. While Rachel initially bonds with the pet, disaster strikes when Marcel poops in one of Monica's shoes. Rachel jokingly leaves the shoe in the hallway as a gift for her ex-fiancé, Barry, but her distraction with a soap opera allows Marcel to escape. When Joey, Chandler, Monica, and Phoebe arrive at the apartment, a frantic Rachel confesses that she has lost the monkey. While the group absorbs the shocking news, Monica becomes hilariously fixated on discovering which of her favorite shoes was ruined, setting off a chaotic search for Ross's beloved pet."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:08 - 00:08:32",
+    "batch_summary": "Panicking that Ross will return soon, Rachel urges the group to find Marcel. Monica organizes a search, sending Joey and Chandler to the lower floors while she and Phoebe search the upper levels, leaving a terrified Rachel behind. Monica and Phoebe's search leads them to their eccentric neighbor, Mr. Heckles, who is unhelpful and demands a missing waffle. Meanwhile, a distracted Rachel calls for help but accidentally mixes up Marcel's description with a sandwich order.",
+    "cumulative_summary": "At Central Perk, Rachel Green confides in Ross Geller about her romantic desires. Seizing the chance to woo her, Ross arranges for Rachel to babysit his monkey, Marcel. While Rachel initially bonds with the pet, disaster strikes when Marcel poops in one of Monica's shoes. Rachel jokingly leaves the shoe in the hallway as a gift for her ex-fiancé, Barry, but her distraction with a soap opera allows Marcel to escape. When the group learns of the escape, Monica organizes a building-wide search. She sends Joey and Chandler to the lower floors, while she and Phoebe search the upper levels, leaving a panicked Rachel behind to wait by the phone. Monica and Phoebe's search leads them to their eccentric neighbor, Mr. Heckles, who is entirely unhelpful and bizarrely demands a missing waffle. Meanwhile, a frantic Rachel tries to call for help but accidentally mixes up Marcel's physical description with a sandwich order, dreading the moment Ross returns to discover his beloved pet is missing."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:32 - 00:10:12",
+    "batch_summary": "Ross returns to the apartment in high spirits with a bottle of wine, hoping to discuss his romantic feelings with Rachel. Sensing his intentions and consumed by guilt, a panicked Rachel tries to deflect by suggesting an impromptu trip to Newark. When Ross persists, Rachel finally breaks down and confesses that she lost Marcel. Devastated and angry, Ross reacts with shock and frustration, pacing the room and scolding her for failing a simple task, while Marcel is shown outside on a nearby balcony, completely oblivious.",
+    "cumulative_summary": "At Central Perk, Rachel Green confides in Ross Geller about her romantic desires. Seizing the chance to woo her, Ross arranges for Rachel to babysit his monkey, Marcel. While Rachel initially bonds with the pet, disaster strikes when Marcel escapes while Rachel is distracted by a soap opera. Monica organizes a building-wide search, leaving a panicked Rachel behind to wait by the phone. When Ross returns in high spirits with a bottle of wine, hoping to discuss his romantic feelings, Rachel desperately tries to deflect. Unable to keep the secret any longer, she tearfully confesses that she lost Marcel. Ross is devastated and furious, pacing the apartment and scolding Rachel for her carelessness. Meanwhile, unbeknownst to either of them, Marcel is safely sitting on a nearby balcony eating food, while the search for him continues."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 267,
+    "timestamp_range": "00:10:12 - 00:11:25",
+    "batch_summary": "As Ross continues to scold Rachel, the buzzer rings, revealing Rachel called Animal Control. Ross is horrified and explains that Marcel is an illegal exotic pet who will be confiscated if found. Panicked, Rachel tries to cover up her mistake when the officer arrives, frantically lying that the monkey was actually a cat. Ross holds her tight to support the ruse just as other searchers return, heightening the tension.",
+    "cumulative_summary": "At Central Perk, Rachel Green confides in Ross Geller about her romantic desires. Seizing the chance to woo her, Ross arranges for Rachel to babysit his monkey, Marcel. However, Marcel escapes while Rachel is distracted. When Ross returns, hoping to share his romantic feelings, a panicked Rachel confesses she lost the monkey, prompting an angry outburst from Ross. The situation escalates when Animal Control arrives, a service Rachel called in her panic. Ross reveals that Marcel is an illegal exotic pet and will be confiscated if caught. Desperate to fix her mistake, Rachel frantically tries to convince the officer that the call was a misunderstanding and that they actually lost a cat, while Ross holds her tight to maintain the cover-up as the search continues."
+  }
+]

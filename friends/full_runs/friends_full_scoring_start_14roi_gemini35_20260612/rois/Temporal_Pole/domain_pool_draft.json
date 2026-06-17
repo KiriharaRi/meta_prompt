@@ -1,0 +1,438 @@
+{
+  "version": "domain_pool_v2",
+  "target_region": "Temporal_Pole",
+  "curation_status": "draft",
+  "source_model": "gemini-3.5-flash",
+  "proposal_runs": 5,
+  "metadata": {
+    "generation_parameters": {
+      "provider": "gemini",
+      "temperature": 0.2,
+      "proposal_runs": 5
+    },
+    "required_domain_ids": [],
+    "confirmation_instructions": "Review curated_domains and rejected_or_merged_domains, then set curation_status to 'confirmed' before passing this pool to make-region-schema --domain-pool."
+  },
+  "candidate_domains": [
+    {
+      "domain_id": "run_1_social_relationship_tracking",
+      "definition": "The viewer's tracking and updating of the social bonds, hierarchies, alliances, or conflicts between characters as they unfold in the narrative.",
+      "region_relevance": "The temporal pole is a critical hub for social semantic memory and person-specific knowledge, enabling the integration of social history and relational dynamics.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing character interactions, dialogue, changes in relational status, or expressions of interpersonal attitudes.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_character_intent_inference",
+      "definition": "The viewer's active inference of a character's underlying motivations, hidden agendas, beliefs, or emotional states that drive their current behavior.",
+      "region_relevance": "The temporal pole works in tandem with the mentalizing network to store and retrieve abstract social concepts and apply them to interpret individual behavior.",
+      "scoreability_note": "Scoreable by identifying scenes where characters act with ambiguous, deceptive, or highly strategic motives that require the viewer to read between the lines.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_narrative_theme_integration",
+      "definition": "The viewer's cognitive synthesis of ongoing events to grasp the broader thematic, moral, or situational context of the scene (e.g., recognizing a betrayal, a sacrifice, or a turning point).",
+      "region_relevance": "The temporal pole acts as a semantic association engine that binds complex narrative threads and emotional tones into a coherent, high-level conceptual representation.",
+      "scoreability_note": "Scoreable based on the presence of key narrative transitions, thematic revelations, or scenes that resolve or complicate long-term plotlines.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_socio_moral_appraisal",
+      "definition": "The viewer's evaluative judgment of the moral, ethical, or social appropriateness of a character's actions and decisions within the story's context.",
+      "region_relevance": "The temporal pole is strongly implicated in socio-emotional processing and moral cognition, linking abstract social rules with affective value.",
+      "scoreability_note": "Scoreable by identifying narrative moments involving moral dilemmas, transgressions, acts of altruism, or violations of social norms.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_2_social_script_tracking",
+      "definition": "The viewer's tracking and integration of abstract social concepts, relationship dynamics, and cultural or situational scripts that govern character interactions.",
+      "region_relevance": "The temporal pole (especially lateral areas like A38l) acts as a semantic hub for social knowledge, enabling the integration of abstract social concepts and scripts during narrative comprehension.",
+      "scoreability_note": "Can be scored by identifying scenes with complex social dynamics, violations of social norms, or shifts in relationship status described in text.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_narrative_schema_integration",
+      "definition": "The viewer's cognitive synthesis of immediate scene events with the broader, long-term narrative context, historical character relationships, and overarching plot schemas.",
+      "region_relevance": "The anterior temporal lobe and temporal pole are critical for narrative comprehension, linking incoming linguistic and visual information over extended timescales to construct a coherent mental model of the story.",
+      "scoreability_note": "Can be scored based on how much a scene relies on prior narrative context versus being a self-contained sensory event.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_socio_emotional_appraisal",
+      "definition": "The viewer's evaluative appraisal of the emotional and moral significance of a social interaction, including the assessment of interpersonal tension, empathy, or ethical conflict.",
+      "region_relevance": "The medial temporal pole (A38m) and connections to the amygdala/orbital cortex are heavily involved in coupling social semantic knowledge with emotional valence and personal relevance.",
+      "scoreability_note": "Can be scored by evaluating the presence of morally charged decisions, interpersonal conflicts, or emotionally resonant social situations in the text.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_3_social_concept_appraisal",
+      "definition": "The viewer's appraisal of abstract social concepts, moral values, or interpersonal dynamics (such as loyalty, betrayal, or social hierarchy) illustrated by the characters' actions and relationships in the segment.",
+      "region_relevance": "The temporal pole (specifically A38 and anterior temporal areas) is a critical hub for social semantic representation, storing abstract social concepts and guiding moral and interpersonal appraisals.",
+      "scoreability_note": "Easily scored from text descriptions by identifying when characters engage in actions that violate or uphold social norms, display complex relationship dynamics, or when the narrative highlights abstract themes like honor, deceit, or class differences.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_person_identity_integration",
+      "definition": "The viewer's tracking and integration of specific character identities, biographical details, and personal histories as they are revealed, referenced, or updated in the narrative.",
+      "region_relevance": "The temporal pole acts as a semantic portal for unique entity recognition and person-knowledge, linking faces, names, and biographical facts to form a unified representation of a specific individual.",
+      "scoreability_note": "Can be scored by tracking the density of biographical disclosures, references to a character's past, or scenes where a character's established identity or reputation is central to the viewer's understanding of the scene.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_narrative_coherence_linking",
+      "definition": "The viewer's cognitive effort to integrate the current scene's events with prior narrative context, resolving how new information fits into the overarching plot, character motivations, or causal chains.",
+      "region_relevance": "The anterior temporal lobe is heavily implicated in narrative comprehension and propositional integration, building a coherent mental model of a story over extended timescales.",
+      "scoreability_note": "Scored by evaluating the degree to which a segment relies on past plot points, introduces twists that recontextualize prior events, or requires the viewer to bridge temporal or spatial gaps in the story.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_4_social_concept_resonance",
+      "definition": "The viewer's cognitive appraisal of abstract social concepts and moral themes (such as loyalty, betrayal, hierarchy, or altruism) illustrated by the characters' interactions. The viewer maps the concrete actions on screen to generalized social schemas.",
+      "region_relevance": "The temporal pole (especially lateral A38l) is heavily implicated in social-semantic processing, serving as a hub that links perceptual inputs to abstract social concepts and relational schemas.",
+      "scoreability_note": "Can be scored by identifying scenes where interpersonal dynamics clearly exemplify specific social values, violations of norms, or relational shifts.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_person_schema_retrieval",
+      "definition": "The viewer's retrieval and integration of biographical knowledge, personality traits, and past narrative history associated with specific characters on screen. This represents the viewer's active maintenance of 'who' the characters are and how their current behavior fits their established profile.",
+      "region_relevance": "The temporal pole is a critical node for person-identity nodes (PINs), integrating face, voice, and biographical semantic memory to recognize and track familiar individuals.",
+      "scoreability_note": "Scoreable by analyzing the presence of recurring characters, references to their background, or scenes that require the viewer to recall a character's history to understand their current actions.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_interpersonal_subtext_inference",
+      "definition": "The viewer's mentalizing effort to infer the unstated intentions, hidden motives, and psychological states of characters during social interactions. The viewer decodes the subtext of dialogue and behavior to understand the underlying social maneuvering.",
+      "region_relevance": "The temporal pole, particularly in connection with the mentalizing network (including aSTS), supports the attribution of mental states by providing the social-conceptual scripts necessary to interpret complex interpersonal behavior.",
+      "scoreability_note": "Highly scoreable in scenes featuring deception, negotiation, unspoken tension, or strategic communication where the literal words do not match the characters' actual goals.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_socio_emotional_valuation",
+      "definition": "The viewer's affective appraisal of the social atmosphere, evaluating the warmth, hostility, intimacy, or tension of the interpersonal environment. The viewer integrates social cues to determine the emotional stakes of the relationship.",
+      "region_relevance": "The temporal pole acts as an association hub connecting high-level social perception with the limbic system, crucial for assigning emotional value to social stimuli and situations.",
+      "scoreability_note": "Scoreable from descriptions of the emotional tone of interactions, physical proximity, expressions of empathy or hostility, and the overall relational climate of the scene.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_5_social_relationship_tracking",
+      "definition": "The viewer's tracking and updating of the interpersonal bonds, social hierarchies, alliances, or conflicts between characters as they unfold in the narrative.",
+      "region_relevance": "The temporal pole (specifically A38 and anterior superior temporal areas) acts as a semantic hub for social concepts, integrating abstract social knowledge with specific narrative contexts.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing character dialogue, cooperative actions, confrontations, or shifts in relational dynamics.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_character_identity_synthesis",
+      "definition": "The viewer's retrieval and integration of unique, person-specific knowledge (such as a character's history, traits, motives, and past behaviors) to interpret their current actions and significance in the scene.",
+      "region_relevance": "The temporal pole is critical for face-name association, unique entity recognition, and retrieving biographical/person-specific semantic memory.",
+      "scoreability_note": "Scoreable by identifying when key characters with established backstories are active, or when their actions require referencing prior narrative events.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_socio_emotional_appraisal",
+      "definition": "The viewer's appraisal of the emotional significance, moral undertones, or interpersonal tension of a social scenario, grounded in the characters' expressions, dialogue, and situational stakes.",
+      "region_relevance": "The temporal pole connects high-level sensory association areas with limbic structures, facilitating the emotional coloring of complex social information.",
+      "scoreability_note": "Scoreable based on textual cues of social tension, emotional vulnerability, moral conflict, or shared warmth between characters.",
+      "source_run": 5
+    }
+  ],
+  "curated_domains": [
+    {
+      "domain_id": "social_relationship_and_script_tracking",
+      "definition": "The viewer's tracking and updating of the social bonds, hierarchies, alliances, conflicts, and abstract social scripts or concepts that govern character interactions as they unfold in the narrative.",
+      "region_relevance": "The temporal pole acts as a semantic hub for social knowledge, enabling the integration of abstract social concepts, scripts, and relational dynamics during narrative comprehension.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing character interactions, dialogue, changes in relational status, or expressions of interpersonal attitudes.",
+      "source_domain_ids": [
+        "run_1_social_relationship_tracking",
+        "run_2_social_script_tracking",
+        "run_5_social_relationship_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        5
+      ],
+      "proposal_frequency": 3,
+      "consolidation_rationale": "Merged recurring domains tracking social relationships and abstract social scripts into a single coherent domain focused on the viewer's tracking of interpersonal dynamics and social structures."
+    },
+    {
+      "domain_id": "person_identity_and_schema_integration",
+      "definition": "The viewer's retrieval, tracking, and integration of unique, person-specific knowledge, including biographical details, personality traits, and past narrative history associated with specific characters, to interpret their current actions and significance.",
+      "region_relevance": "The temporal pole is a critical node for person-identity nodes (PINs) and unique entity recognition, integrating face, voice, and biographical semantic memory to recognize and track familiar individuals.",
+      "scoreability_note": "Scoreable by tracking the presence of recurring characters, references to their background, or scenes that require the viewer to recall a character's history to understand their current actions.",
+      "source_domain_ids": [
+        "run_3_person_identity_integration",
+        "run_4_person_schema_retrieval",
+        "run_5_character_identity_synthesis"
+      ],
+      "source_runs": [
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 3,
+      "consolidation_rationale": "Consolidated domains focusing on character identity, biographical retrieval, and person-specific schemas into a unified domain representing how the viewer maintains and updates knowledge about specific individuals."
+    },
+    {
+      "domain_id": "interpersonal_intent_and_subtext_inference",
+      "definition": "The viewer's active inference of a character's underlying motivations, unstated intentions, hidden agendas, beliefs, or psychological states driving their behavior, particularly by decoding the subtext of dialogue and social maneuvering.",
+      "region_relevance": "The temporal pole works in tandem with the mentalizing network to store and retrieve abstract social concepts and scripts necessary to interpret complex, ambiguous, or deceptive interpersonal behavior.",
+      "scoreability_note": "Highly scoreable in scenes featuring deception, negotiation, unspoken tension, or strategic communication where characters act with ambiguous or highly strategic motives.",
+      "source_domain_ids": [
+        "run_1_character_intent_inference",
+        "run_4_interpersonal_subtext_inference"
+      ],
+      "source_runs": [
+        1,
+        4
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Merged character intent inference and interpersonal subtext inference to capture the viewer's mentalizing effort in decoding hidden motives and unstated social dynamics."
+    },
+    {
+      "domain_id": "socio_moral_and_emotional_appraisal",
+      "definition": "The viewer's evaluative and affective appraisal of the moral, ethical, or social appropriateness of characters' actions, alongside the emotional significance, tension, warmth, or hostility of the social atmosphere.",
+      "region_relevance": "The temporal pole is heavily implicated in socio-emotional processing and moral cognition, linking abstract social rules and semantic concepts with affective value and limbic structures.",
+      "scoreability_note": "Scoreable by identifying narrative moments involving moral dilemmas, transgressions, acts of altruism, or scenes with high emotional resonance, social tension, or relational climate shifts.",
+      "source_domain_ids": [
+        "run_1_socio_moral_appraisal",
+        "run_2_socio_emotional_appraisal",
+        "run_3_social_concept_appraisal",
+        "run_4_social_concept_resonance",
+        "run_4_socio_emotional_valuation",
+        "run_5_socio_emotional_appraisal"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Combined multiple overlapping runs addressing socio-moral appraisal, social concept resonance, and socio-emotional valuation into a single robust domain representing the viewer's evaluative and affective appraisal of social scenarios."
+    },
+    {
+      "domain_id": "narrative_schema_and_coherence_integration",
+      "definition": "The viewer's cognitive synthesis of immediate scene events with the broader, long-term narrative context, overarching plot schemas, and thematic or moral concepts to construct a coherent mental model of the story.",
+      "region_relevance": "The anterior temporal lobe and temporal pole act as a semantic association engine that binds complex narrative threads, propositional information, and emotional tones over extended timescales.",
+      "scoreability_note": "Scored based on how much a scene relies on prior narrative context, introduces key transitions or thematic revelations, or requires the viewer to bridge temporal or spatial gaps.",
+      "source_domain_ids": [
+        "run_1_narrative_theme_integration",
+        "run_2_narrative_schema_integration",
+        "run_3_narrative_coherence_linking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3
+      ],
+      "proposal_frequency": 3,
+      "consolidation_rationale": "Merged narrative theme integration, schema integration, and coherence linking into a single domain capturing the viewer's high-level integration of narrative events over time."
+    }
+  ],
+  "rejected_or_merged_domains": [
+    {
+      "domain_id": "run_1_social_relationship_tracking",
+      "decision": "merged",
+      "reason": "Merged into a unified social relationship and script tracking domain to reduce redundancy across runs.",
+      "source_domain_ids": [
+        "run_1_social_relationship_tracking"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "social_relationship_and_script_tracking"
+    },
+    {
+      "domain_id": "run_2_social_script_tracking",
+      "decision": "merged",
+      "reason": "Merged into a unified social relationship and script tracking domain to reduce redundancy across runs.",
+      "source_domain_ids": [
+        "run_2_social_script_tracking"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "social_relationship_and_script_tracking"
+    },
+    {
+      "domain_id": "run_5_social_relationship_tracking",
+      "decision": "merged",
+      "reason": "Merged into a unified social relationship and script tracking domain to reduce redundancy across runs.",
+      "source_domain_ids": [
+        "run_5_social_relationship_tracking"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "social_relationship_and_script_tracking"
+    },
+    {
+      "domain_id": "run_3_person_identity_integration",
+      "decision": "merged",
+      "reason": "Consolidated into a single person identity and schema integration domain to capture character-specific knowledge tracking.",
+      "source_domain_ids": [
+        "run_3_person_identity_integration"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "person_identity_and_schema_integration"
+    },
+    {
+      "domain_id": "run_4_person_schema_retrieval",
+      "decision": "merged",
+      "reason": "Consolidated into a single person identity and schema integration domain to capture character-specific knowledge tracking.",
+      "source_domain_ids": [
+        "run_4_person_schema_retrieval"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "person_identity_and_schema_integration"
+    },
+    {
+      "domain_id": "run_5_character_identity_synthesis",
+      "decision": "merged",
+      "reason": "Consolidated into a single person identity and schema integration domain to capture character-specific knowledge tracking.",
+      "source_domain_ids": [
+        "run_5_character_identity_synthesis"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "person_identity_and_schema_integration"
+    },
+    {
+      "domain_id": "run_1_character_intent_inference",
+      "decision": "merged",
+      "reason": "Merged with interpersonal subtext inference to represent the viewer's mentalizing and intent decoding.",
+      "source_domain_ids": [
+        "run_1_character_intent_inference"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "interpersonal_intent_and_subtext_inference"
+    },
+    {
+      "domain_id": "run_4_interpersonal_subtext_inference",
+      "decision": "merged",
+      "reason": "Merged with character intent inference to represent the viewer's mentalizing and intent decoding.",
+      "source_domain_ids": [
+        "run_4_interpersonal_subtext_inference"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "interpersonal_intent_and_subtext_inference"
+    },
+    {
+      "domain_id": "run_1_socio_moral_appraisal",
+      "decision": "merged",
+      "reason": "Grouped into a broad socio-moral and emotional appraisal domain to capture evaluative processes.",
+      "source_domain_ids": [
+        "run_1_socio_moral_appraisal"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "socio_moral_and_emotional_appraisal"
+    },
+    {
+      "domain_id": "run_2_socio_emotional_appraisal",
+      "decision": "merged",
+      "reason": "Grouped into a broad socio-moral and emotional appraisal domain to capture evaluative processes.",
+      "source_domain_ids": [
+        "run_2_socio_emotional_appraisal"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "socio_moral_and_emotional_appraisal"
+    },
+    {
+      "domain_id": "run_3_social_concept_appraisal",
+      "decision": "merged",
+      "reason": "Grouped into a broad socio-moral and emotional appraisal domain to capture evaluative processes.",
+      "source_domain_ids": [
+        "run_3_social_concept_appraisal"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "socio_moral_and_emotional_appraisal"
+    },
+    {
+      "domain_id": "run_4_social_concept_resonance",
+      "decision": "merged",
+      "reason": "Grouped into a broad socio-moral and emotional appraisal domain to capture evaluative processes.",
+      "source_domain_ids": [
+        "run_4_social_concept_resonance"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "socio_moral_and_emotional_appraisal"
+    },
+    {
+      "domain_id": "run_4_socio_emotional_valuation",
+      "decision": "merged",
+      "reason": "Grouped into a broad socio-moral and emotional appraisal domain to capture evaluative processes.",
+      "source_domain_ids": [
+        "run_4_socio_emotional_valuation"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "socio_moral_and_emotional_appraisal"
+    },
+    {
+      "domain_id": "run_5_socio_emotional_appraisal",
+      "decision": "merged",
+      "reason": "Grouped into a broad socio-moral and emotional appraisal domain to capture evaluative processes.",
+      "source_domain_ids": [
+        "run_5_socio_emotional_appraisal"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "socio_moral_and_emotional_appraisal"
+    },
+    {
+      "domain_id": "run_1_narrative_theme_integration",
+      "decision": "merged",
+      "reason": "Consolidated into a single narrative schema and coherence integration domain to represent high-level story comprehension.",
+      "source_domain_ids": [
+        "run_1_narrative_theme_integration"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "narrative_schema_and_coherence_integration"
+    },
+    {
+      "domain_id": "run_2_narrative_schema_integration",
+      "decision": "merged",
+      "reason": "Consolidated into a single narrative schema and coherence integration domain to represent high-level story comprehension.",
+      "source_domain_ids": [
+        "run_2_narrative_schema_integration"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "narrative_schema_and_coherence_integration"
+    },
+    {
+      "domain_id": "run_3_narrative_coherence_linking",
+      "decision": "merged",
+      "reason": "Consolidated into a single narrative schema and coherence integration domain to represent high-level story comprehension.",
+      "source_domain_ids": [
+        "run_3_narrative_coherence_linking"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "narrative_schema_and_coherence_integration"
+    }
+  ]
+}

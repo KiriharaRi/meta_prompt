@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:51",
+    "batch_summary": "After Ross abruptly leaves a coffee shop where Phoebe and Rachel are present, the focus shifts to Chandler and Joey's apartment. Joey is furious with Chandler for insulting and making fun of a bracelet he gave him. Despite Chandler's defense that wearing it proved his friendship, Joey storms into his bedroom. Attempting to apologize, Chandler promises never to take the bracelet off, only to realize he has lost it. He frantically searches the room and uses couch cushions to dramatically express his regret to Joey.",
+    "cumulative_summary": "The story begins in a coffee shop where Ross abruptly leaves a conversation with an unseen woman, passing by Phoebe and a motionless Rachel behind the counter. Meanwhile, tension rises at the apartment between Chandler and Joey. Joey is deeply hurt and angry because Chandler insulted and mocked a bracelet Joey had gifted him. Chandler tries to defend himself, arguing that his willingness to wear the hated bracelet actually proves the strength of their friendship, but Joey is unmoved and storms into his bedroom. Desperate to make amends, Chandler knocks on Joey's door and promises never to take the bracelet off again. However, he suddenly realizes the bracelet is missing from his wrist. As Chandler frantically searches the living room floor, Joey opens the door. In a dramatic display of remorse, Chandler kneels and holds up couch cushions as a biblical symbol of his deep sorrow and regret, hoping to earn Joey's forgiveness."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:51 - 00:03:26",
+    "batch_summary": "After Joey shuts the door on Chandler, the scene shifts to the Geller parents' apartment. Ross arrives and encourages Monica to ask their parents for a loan. Monica reluctantly confesses to Jack and Judy that she was fired from her job. While Judy is shocked, Jack remains supportive, assuming Monica has a healthy savings account from her paychecks. Monica nervously plays along with his assumption, hiding the fact that she is broke, while Jack affectionately offers financial help if needed.",
+    "cumulative_summary": "The story begins with tension between Chandler and Joey after Chandler insults a bracelet Joey gifted him. Despite Chandler's dramatic attempts to apologize, he realizes he has lost the bracelet, and an unforgiving Joey shuts the door on him. Meanwhile, Ross and Monica visit their parents, Jack and Judy Geller. Ross, recovering from his own emotional distress, pressures Monica to ask their parents for a loan. Monica reluctantly confesses that she was fired from her job. While Judy reacts with shock, Jack confidently defends Monica, assuming she has diligently saved ten percent of her paychecks. Too embarrassed to admit she has no savings, Monica nervously plays along with her father's assumption. Jack affectionately assures her that they are there to help her financially if she ever needs it."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:26 - 00:05:02",
+    "batch_summary": "At the coffee shop, Chandler laments spending $400 to replace Joey's lost bracelet, only for Rachel to reveal that Gunther found the original. When Joey arrives, Chandler quickly covers by gifting him the duplicate, declaring them \"bracelet buddies\" to Joey's delight. Meanwhile, Ross helps Monica out of her financial bind by writing her a loan check. Monica playfully teases him about his dinosaur-themed checks, calling him a \"cheaposaurus.\"",
+    "cumulative_summary": "The story begins with tension between Chandler and Joey after Chandler loses a bracelet Joey gifted him. To fix things, Chandler spends $400 on a replacement, only for Rachel to immediately find the original. When Joey walks in, Chandler quickly covers by gifting him the duplicate, enthusiastically declaring them \"bracelet buddies\" to Joey's absolute delight. Meanwhile, Monica struggles with unemployment. After hiding her financial troubles from her parents, she turns to Ross for help. Ross generously agrees to lend her the money, writing her a check. Despite her gratitude, Monica cannot help but playfully tease Ross about his dinosaur-themed checks, calling him a \"cheaposaurus.\""
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:02 - 00:06:37",
+    "batch_summary": "After Monica thanks Ross for the loan, the group discovers an old videotape. They play it and find home video footage of Monica and Rachel getting ready for their high school prom. The video reveals a teenage Rachel before her nose job and a significantly heavier teenage Monica. Chandler and Joey tease them mercilessly, joking about Monica's size and Rachel's nose, while Rachel and Monica playfully defend their younger selves in a lighthearted, nostalgic moment.",
+    "cumulative_summary": "The story begins with tension between Chandler and Joey after Chandler loses a bracelet Joey gifted him. To fix things, Chandler buys an expensive replacement, only for Rachel to find the original. Chandler covers by gifting Joey the duplicate, delighting him as they become \"bracelet buddies.\" Meanwhile, an unemployed Monica secretly borrows money from Ross, playfully teasing him about his dinosaur-themed checks before sincerely thanking him. The group's attention soon shifts when they discover and play an old videotape of Monica and Rachel preparing for their high school prom. The home video reveals a teenage Rachel before her nose job and a significantly heavier teenage Monica. Chandler and Joey tease them mercilessly about their past appearances, sparking a wave of nostalgic embarrassment and lighthearted banter among the friends."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:37 - 00:08:30",
+    "batch_summary": "As the prom video continues, the friends are delighted to see a young Ross on screen sporting an afro and mustache, prompting relentless teasing from Joey and Chandler. The footage reveals a sweet moment where young Ross tries to comfort and help Rachel with her dress. Meanwhile, Monica's date, Roy Gublik, arrives, but Rachel's date, Chip, is nowhere to be found, leaving a teenage Rachel in a panic about going to the prom alone. The present-day group laughs and reminisces over these embarrassing yet fond high school memories.",
+    "cumulative_summary": "The story begins with tension between Chandler and Joey after Chandler loses a bracelet Joey gifted him. To fix things, Chandler buys an expensive replacement, only for Rachel to find the original. Chandler covers by gifting Joey the duplicate, delighting him as they become \"bracelet buddies.\" Meanwhile, an unemployed Monica secretly borrows money from Ross, playfully teasing him about his dinosaur-themed checks before sincerely thanking him. The group's attention soon shifts when they discover and play an old videotape of Monica and Rachel preparing for their high school prom. The home video reveals a teenage Rachel before her nose job and a significantly heavier teenage Monica. Chandler and Joey tease them mercilessly about their past appearances, sparking a wave of nostalgic embarrassment and lighthearted banter among the friends. As the video continues, a young Ross appears on screen sporting an afro and mustache, drawing relentless teasing from Joey and Chandler. The footage shows a sweet, awkward interaction where young Ross tries to comfort Rachel and help with her dress. While Monica's date, Roy, arrives, Rachel's date, Chip, is late, leaving a teenage Rachel in a panic about going to the prom alone."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:30 - 00:10:18",
+    "batch_summary": "The prom video reveals Ross's parents convincing him to take Rachel to the prom. Ross eagerly gets dressed in a tuxedo and grabs flowers, only for Chip to arrive at the last second. Rachel leaves, completely unaware of Ross's gesture, leaving him heartbroken at the top of the stairs. In the present, Ross is deeply embarrassed and tries to stop the tape, but the group watches in silence. Deeply moved by this revelation of his secret, long-held devotion, present-day Rachel stands up and walks toward Ross.",
+    "cumulative_summary": "The story begins with tension between Chandler and Joey after Chandler loses a bracelet Joey gifted him, which is resolved when Chandler buys a duplicate. Meanwhile, Monica secretly borrows money from Ross. The group's attention shifts to an old home video of Monica and Rachel preparing for their high school prom, prompting teasing about their teenage appearances. As the video continues, Rachel's date is late, prompting Ross's parents to convince a young Ross to step in. Ross eagerly dresses in a tuxedo, but just as he is ready, Rachel's date arrives and she leaves, completely unaware of Ross's gesture. The video captures a heartbroken young Ross left standing alone with flowers. In the present day, Ross is mortified and tries to stop the tape, but the friends watch in stunned silence. Deeply touched by this revelation of Ross's long-standing devotion, present-day Rachel slowly stands up and walks toward him."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 260,
+    "timestamp_range": "00:10:18 - 00:11:45",
+    "batch_summary": "Moved by the video, Rachel walks over to Ross and kisses him passionately, cementing their relationship as their friends watch happily. After they embrace, the home video continues playing, showing a sweet moment of young Monica dancing with her father. However, the tape suddenly cuts to an intimate, dimly lit bedroom scene of her parents, leaving present-day Monica completely horrified as she quickly walks away.",
+    "cumulative_summary": "The story begins with tension between Chandler and Joey after Chandler loses a bracelet Joey gifted him, which is resolved when Chandler buys a duplicate. Meanwhile, Monica secretly borrows money from Ross. The group's attention shifts to an old home video of Monica and Rachel preparing for their high school prom, prompting teasing about their teenage appearances. As the video continues, Rachel's date is late, prompting Ross's parents to convince a young Ross to step in. Ross eagerly dresses in a tuxedo, but just as he is ready, Rachel's date arrives and she leaves, completely unaware of Ross's gesture. The video captures a heartbroken young Ross left standing alone with flowers. In the present day, Ross is mortified, but a deeply touched Rachel walks over and kisses him passionately, finally uniting the two as their friends watch in delight. The emotional moment is humorously interrupted as the home video continues, transitioning from a sweet dance between young Monica and her father to an unexpectedly intimate recording of her parents, leaving present-day Monica utterly horrified."
+  }
+]

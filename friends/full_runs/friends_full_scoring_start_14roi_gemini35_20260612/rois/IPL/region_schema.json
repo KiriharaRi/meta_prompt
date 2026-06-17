@@ -1,0 +1,751 @@
+{
+  "version": "region_schema_v1",
+  "target_region": "IPL",
+  "functional_hypothesis": "The Inferior Parietal Lobule (IPL), encompassing areas A39 and A40, is a highly heterogeneous region situated at the intersection of multiple functional networks, including the dorsal and ventral attention networks, the default mode network (DMN), and the somatomotor network. Consequently, predicting IPL activity during naturalistic movie viewing requires a multi-dimensional feature schema that captures: (1) spatial layout and perspective tracking (dorsal attention network, involved in spatial orienting and egocentric/allocentric updating); (2) action simulation and tool tracking (somatomotor/parietal areas, involved in action observation and tool manipulation); (3) social perspective and intention tracking (TPJ/angular gyrus, key hubs of the mentalizing network); (4) narrative causal integration (angular gyrus, acting as a semantic and episodic integration hub); and (5) attentional reorienting and salience detection (ventral attention network, specialized for stimulus-driven reorienting to unexpected events). By annotating movie descriptions along these dimensions, we can model the diverse cognitive processes that drive IPL activity.",
+  "scoring_instruction": "For each movie description segment, assign a score from 0 to 10 for each of the 15 dimensions. A score of 0 indicates that the feature is completely absent or cannot be inferred from the text. A score of 10 indicates that the feature is extremely prominent, detailed, or central to the scene. Scores should be assigned based on the explicit text and highly direct, immediate inferences that a typical viewer would make while watching the scene. Do not extrapolate far beyond the provided text. Ensure that each dimension is scored independently, even if they are conceptually related.",
+  "selection_rules": [
+    {
+      "networks": [],
+      "sub_regions": [],
+      "hemispheres": [],
+      "label_ids": [
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": "spatial_layout_and_perspective_tracking",
+      "definition": "The viewer's tracking of spatial layouts, relative positions of characters or objects, and shifts in spatial perspective or physical navigation within the scene.",
+      "region_relevance": "The inferior parietal lobule (IPL), including areas A39 and A40, is a core component of the dorsal and ventral attention networks, crucial for spatial orienting, tracking spatial relationships, and updating egocentric/allocentric reference frames.",
+      "scoreability_note": "Scored by evaluating how much the text description details changes in spatial layouts, movement of objects/characters relative to each other, and shifts in visual attention, camera perspective, or physical navigation.",
+      "source_domain_ids": [
+        "run_1_spatial_attention_and_perspective",
+        "run_2_spatial_layout_and_navigation_tracking",
+        "run_3_spatial_relational_mapping",
+        "run_4_spatial_coordination_and_navigation"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Merged all spatial attention, layout, and navigation tracking domains across runs into a single robust domain representing IPL's role in spatial processing and coordinate transformation."
+    },
+    {
+      "domain_id": "action_simulation_and_tool_tracking",
+      "definition": "The viewer's cognitive simulation and tracking of goal-directed physical actions, manual interactions with objects, or tool use performed by characters.",
+      "region_relevance": "Parts of the IPL (especially supramarginal gyrus, A40) are heavily involved in action observation, motor resonance, and representing the pragmatics of tool use and object manipulation.",
+      "scoreability_note": "Scored based on the density and complexity of physical actions, manual manipulation of objects, or tool use described in the text.",
+      "source_domain_ids": [
+        "run_1_action_simulation_and_tool_use",
+        "run_2_action_simulation_and_tool_tracking",
+        "run_3_action_and_tool_tracking",
+        "run_4_goal_directed_action_decoding",
+        "run_5_action_and_tool_resonance"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Consolidated all action observation, tool use, and motor simulation domains across runs into a single domain reflecting IPL's role in the action-observation network."
+    },
+    {
+      "domain_id": "social_perspective_and_intention_tracking",
+      "definition": "The viewer's active inference of characters' underlying intentions, beliefs, hidden motives, and interpersonal dynamics from their verbal and non-verbal behavior.",
+      "region_relevance": "The temporoparietal junction (TPJ) extending into the angular gyrus (A39) is a primary hub of the default mode and mentalizing networks, critical for Theory of Mind and inferring others' perspectives.",
+      "scoreability_note": "Scored by evaluating the presence of social interactions, conflicting goals, subtext, strategic deception, or scenes where the viewer must infer a character's hidden agenda.",
+      "source_domain_ids": [
+        "run_1_social_intent_and_narrative_update",
+        "run_2_social_intention_inference",
+        "run_3_social_intent_attribution",
+        "run_4_social_perspective_integration",
+        "run_5_social_perspective_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all Theory of Mind, social perspective-taking, and intention attribution domains across runs into a single domain representing IPL's (specifically TPJ/A39) role in social cognition."
+    },
+    {
+      "domain_id": "narrative_causal_integration",
+      "definition": "The viewer's cognitive integration of immediate scene events with the broader narrative context to update their mental model of the story's causal progression.",
+      "region_relevance": "The angular gyrus (A39) acts as a semantic and episodic integration hub, crucial for narrative comprehension, linking events over time, and constructing coherent situation models.",
+      "scoreability_note": "Scored by assessing how much the scene requires the viewer to connect current actions to past plot points, motives, or future consequences, or update situational schemas.",
+      "source_domain_ids": [
+        "run_2_narrative_causal_integration",
+        "run_5_narrative_event_integration"
+      ],
+      "source_runs": [
+        2,
+        5
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Merged narrative integration and causal progression domains into a single domain reflecting the angular gyrus's role as a semantic and episodic integration hub."
+    },
+    {
+      "domain_id": "attentional_reorienting_and_salience_detection",
+      "definition": "The viewer's cognitive reorienting of attention triggered by unexpected narrative events, sudden sensory changes, or highly salient cues that disrupt the ongoing flow.",
+      "region_relevance": "The ventral attention network, which includes parts of the inferior parietal lobule (such as A40c and A39rv), is specialized for bottom-up, stimulus-driven attentional reorienting to behaviorally relevant or unexpected events.",
+      "scoreability_note": "Scored by identifying sudden plot twists, unexpected entries of characters, abrupt changes in the setting, or sudden disruptions in the ongoing action.",
+      "source_domain_ids": [
+        "run_3_narrative_salience_detection",
+        "run_4_attentional_reorienting_events",
+        "run_5_salience_attention_reorienting"
+      ],
+      "source_runs": [
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 3,
+      "consolidation_rationale": "Merged all bottom-up attentional reorienting and salience detection domains across runs into a single domain representing the ventral attention network's role in the IPL."
+    }
+  ],
+  "active_domain_ids": [
+    "spatial_layout_and_perspective_tracking",
+    "action_simulation_and_tool_tracking",
+    "social_perspective_and_intention_tracking",
+    "narrative_causal_integration",
+    "attentional_reorienting_and_salience_detection"
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "egocentric_navigation_and_movement",
+      "definition": "Tracking physical movement through space from a character's perspective or egocentric reference frame.",
+      "domain": "spatial_layout_and_perspective_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "character running through a corridor",
+        "first-person point-of-view movement",
+        "navigating a crowded street",
+        "climbing up a narrow staircase"
+      ],
+      "graded_anchors": {
+        "0": "No physical movement or navigation is mentioned.",
+        "1": "A character takes a single step or makes a minor shift in posture.",
+        "2": "A character walks across a small, static room.",
+        "3": "A character moves from one room to another within a familiar house.",
+        "4": "A character walks down a street, turning a corner.",
+        "5": "A character actively navigates a moderately complex space, like a supermarket aisle.",
+        "6": "A character runs through a winding corridor, dodging obstacles.",
+        "7": "A character navigates a highly complex, unfamiliar environment like a dense forest or maze.",
+        "8": "A fast-paced chase scene where a character is rapidly navigating through changing urban environments.",
+        "9": "An intense, continuous first-person navigation through a collapsing building or hazardous obstacle course.",
+        "10": "A highly detailed, rapid, and complex multi-stage navigation through an intricate, shifting three-dimensional space from an active egocentric perspective."
+      },
+      "calibration_examples": [
+        {
+          "scene": "John sits quietly at his desk, reading a book under a dim lamp.",
+          "score": 0
+        },
+        {
+          "scene": "Sarah runs frantically down the narrow, twisting alleyways of the old city, turning sharp corners and leaping over crates to escape her pursuer.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Score based on how clearly the text describes a character's physical movement, direction, and navigation through an environment.",
+      "exclusion_note": "Do not score static descriptions of layouts or movements of objects that do not involve a character's navigation."
+    },
+    {
+      "dimension_id": "allocentric_spatial_layout_and_relative_position",
+      "definition": "Tracking the relative positions of multiple characters, objects, and landmarks within a stable spatial layout.",
+      "domain": "spatial_layout_and_perspective_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "description of object placement",
+        "relative distance between characters",
+        "spatial arrangement of a room",
+        "mapping out a location"
+      ],
+      "graded_anchors": {
+        "0": "No spatial layout or relative positions are described.",
+        "1": "A single object is mentioned as being near a character.",
+        "2": "Two characters are described as standing next to each other.",
+        "3": "A simple room layout is described, such as a table in the center and chairs around it.",
+        "4": "The relative positions of three or four key elements in a scene are clearly outlined.",
+        "5": "A detailed description of a crime scene, showing where the body, weapon, and furniture are positioned.",
+        "6": "A complex spatial arrangement of a dinner party, detailing who sits where and the layout of the table.",
+        "7": "A tactical map-like description of a battlefield or room, detailing multiple positions and distances.",
+        "8": "A highly detailed architectural description of a multi-room layout with characters positioned in different zones.",
+        "9": "An intricate description of a complex machinery control room, detailing the exact relative positions of dozens of screens, levers, and operators.",
+        "10": "An extremely dense, precise spatial mapping of a complex multi-layered environment, detailing the exact coordinates, distances, and relative positions of all characters and objects."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The camera focuses closely on Mary's face as she speaks.",
+          "score": 0
+        },
+        {
+          "scene": "The classroom is arranged with the teacher's desk at the front left, three rows of student desks facing the blackboard, a bookshelf lining the back wall, and a large window on the right side.",
+          "score": 7
+        }
+      ],
+      "scoreability_note": "Score based on the density of spatial prepositions and descriptions of where things/people are located relative to each other.",
+      "exclusion_note": "Do not score egocentric movement or camera movements unless they explicitly clarify the static layout of the scene."
+    },
+    {
+      "dimension_id": "camera_perspective_and_viewpoint_shifts",
+      "definition": "Tracking shifts in visual perspective, camera angles, zoom levels, or viewpoint changes within the scene.",
+      "domain": "spatial_layout_and_perspective_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "camera pans across",
+        "extreme close-up",
+        "bird's-eye view",
+        "sudden cut to a different angle"
+      ],
+      "graded_anchors": {
+        "0": "No camera movement or perspective shifts are described.",
+        "1": "A minor mention of a character looking at something, implying a slight shift.",
+        "2": "A simple cut between two talking characters (shot-reverse shot).",
+        "3": "The camera pans slightly to follow a character walking across a room.",
+        "4": "A clear shift from a wide shot of a landscape to a medium shot of a character.",
+        "5": "A dynamic camera movement, such as tracking a character from behind as they walk.",
+        "6": "A dramatic shift in perspective, such as cutting from a character's face to a bird's-eye view of the city.",
+        "7": "A continuous, complex tracking shot that moves through walls and changes angles fluidly.",
+        "8": "Rapidly cutting between multiple distinct viewpoints (e.g., security cameras, first-person, and overhead shots) during an action sequence.",
+        "9": "An extremely disorienting sequence of rapid camera rotations, extreme zooms, and inverted angles.",
+        "10": "A highly complex, continuous, and multi-layered sequence of camera perspective shifts, combining crane shots, first-person views, and extreme focal length changes to map a complex scene."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The scene is a static shot of a painting on a wall.",
+          "score": 0
+        },
+        {
+          "scene": "The camera starts with an extreme close-up of an eye, then rapidly zooms out, spinning 180 degrees to reveal a bird's-eye view of the entire bustling metropolis.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on explicit descriptions of camera movements, angles, and visual framing shifts.",
+      "exclusion_note": "Do not score physical movement of characters unless it directly causes or is described in terms of a camera perspective shift."
+    },
+    {
+      "dimension_id": "manual_tool_use_and_object_manipulation",
+      "definition": "Tracking fine motor control, manual interactions with objects, and the functional use of tools.",
+      "domain": "action_simulation_and_tool_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "writing with a pen",
+        "cutting with scissors",
+        "unlocking a door with a key",
+        "assembling a device"
+      ],
+      "graded_anchors": {
+        "0": "No manual interaction or tool use is mentioned.",
+        "1": "A character passively holds an object, like a glass of water.",
+        "2": "A character picks up a phone or opens a book.",
+        "3": "A character writes a quick note with a pen or unlocks a door.",
+        "4": "A character chops vegetables with a knife or pours a drink carefully.",
+        "5": "A character performs a moderately complex manual task, like changing a lightbulb or tying a complex knot.",
+        "6": "A character uses a tool to repair a simple mechanical device, like replacing a bicycle chain.",
+        "7": "A character performs a highly skilled manual task, like playing a complex piano piece or carving wood.",
+        "8": "A surgeon performing a delicate procedure with multiple medical instruments.",
+        "9": "A character rapidly and precisely assembling a complex, multi-part firearm or mechanism under extreme time pressure.",
+        "10": "An extremely detailed, step-by-step description of a master craftsman or technician manipulating highly specialized tools to perform micro-level adjustments on an intricate device."
+      },
+      "calibration_examples": [
+        {
+          "scene": "David stands in the hallway, waiting for the elevator.",
+          "score": 0
+        },
+        {
+          "scene": "With steady hands, the technician uses a soldering iron and tweezers to carefully attach a tiny microchip to the circuit board, avoiding nearby delicate capacitors.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Score based on the specificity and complexity of hand-object interactions and tool usage described.",
+      "exclusion_note": "Do not score general body movements (like walking) or passive holding of objects without active manipulation."
+    },
+    {
+      "dimension_id": "gross_motor_coordination_and_locomotion",
+      "definition": "Tracking large-scale body movements, physical coordination, and locomotion involving the whole body.",
+      "domain": "action_simulation_and_tool_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "running a marathon",
+        "climbing a rock wall",
+        "wrestling or fighting",
+        "dancing a choreography"
+      ],
+      "graded_anchors": {
+        "0": "No gross motor movement is described.",
+        "1": "A character stands up from a chair.",
+        "2": "A character walks slowly across a flat surface.",
+        "3": "A character climbs a short flight of stairs.",
+        "4": "A character jogs or performs a simple physical task like lifting a box.",
+        "5": "A character swims across a pool or climbs a ladder.",
+        "6": "A character performs a coordinated dance routine or a series of gymnastic stretches.",
+        "7": "A character engages in a physical struggle, like wrestling or a fistfight.",
+        "8": "A character performs high-intensity parkour, leaping across rooftops and climbing walls.",
+        "9": "An intense, highly coordinated martial arts sequence involving multiple acrobatic moves, dodges, and strikes.",
+        "10": "An extraordinarily complex, high-stakes physical performance requiring extreme whole-body coordination, such as a high-wire walk across a canyon during strong winds."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Lisa sits on the couch, watching television.",
+          "score": 0
+        },
+        {
+          "scene": "The stuntman leaps from the moving train, rolls across the gravel slope, quickly regains his footing, and sprints to jump over a high chain-link fence.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Score based on the intensity, complexity, and description of whole-body physical actions.",
+      "exclusion_note": "Do not score fine manual manipulation or purely passive transportation (like riding in a car)."
+    },
+    {
+      "dimension_id": "goal_directed_action_sequences",
+      "definition": "Tracking a sequence of physical actions organized to achieve a specific, immediate physical goal.",
+      "domain": "action_simulation_and_tool_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "preparing a complex meal",
+        "setting up a campsite",
+        "breaking into a safe",
+        "disarming a bomb"
+      ],
+      "graded_anchors": {
+        "0": "No goal-directed physical action sequence is present.",
+        "1": "A character performs a single step, like reaching for a cup to drink.",
+        "2": "A character performs two sequential steps, like opening a fridge and grabbing milk.",
+        "3": "A character makes a simple sandwich (getting bread, spreading butter, adding cheese).",
+        "4": "A character packs a suitcase, selecting and folding clothes systematically.",
+        "5": "A character sets up a tent, laying out the tarp, inserting poles, and securing stakes.",
+        "6": "A character systematically searches a room for a hidden key, checking drawers, under rugs, and behind books.",
+        "7": "A character carefully disassembles a laptop to replace the hard drive, keeping track of screws and cables.",
+        "8": "A character executes a precise, multi-step break-in sequence: cutting a wire, bypassing a lock, and cracking a safe.",
+        "9": "A character disarms a complex explosive device, following a highly specific, high-stakes sequence of cutting wires and unscrewing panels.",
+        "10": "An incredibly intricate, highly detailed, and perfectly executed sequence of physical actions to construct a complex survival shelter and water filtration system from raw wilderness materials."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Tom is thinking about what he wants to do tomorrow.",
+          "score": 0
+        },
+        {
+          "scene": "To disarm the device, she first unscrews the outer casing, carefully clips the blue wire while holding the detonator steady, bypasses the secondary pressure plate, and extracts the blasting cap.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on the logical progression of multiple physical steps aimed at a clear physical outcome.",
+      "exclusion_note": "Do not score abstract planning or social goals; the steps must be physical actions."
+    },
+    {
+      "dimension_id": "theory_of_mind_and_mentalizing",
+      "definition": "Inferring characters' hidden thoughts, beliefs, knowledge states, or emotional perspectives.",
+      "domain": "social_perspective_and_intention_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "realizing someone is lying",
+        "wondering what another thinks",
+        "misunderstanding someone's intent",
+        "empathizing with a secret struggle"
+      ],
+      "graded_anchors": {
+        "0": "No mentalizing or perspective-taking is described.",
+        "1": "A character notices another's basic mood (e.g., 'she looked happy').",
+        "2": "A character wonders briefly why someone is quiet.",
+        "3": "A character realizes that another person does not know a simple fact.",
+        "4": "A character tries to understand why their friend is acting distant.",
+        "5": "A character actively contemplates another's hidden motives during a conversation.",
+        "6": "A complex situation where character A knows that character B is mistaken about character C's intentions.",
+        "7": "A tense negotiation where each party is actively modeling the other's hidden thresholds and reservation prices.",
+        "8": "A deep psychological drama scene where a character must deduce a complex web of unexpressed grief and hidden motives in a family member.",
+        "9": "A highly intricate mental chess match where a detective reconstructs the exact thought process and psychological blind spots of a killer.",
+        "10": "An extraordinary level of nested mentalizing, where the text describes a character manipulating another by predicting exactly how that person will misinterpret a third person's secret beliefs."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The sun rises over the empty desert.",
+          "score": 0
+        },
+        {
+          "scene": "Julian realizes that Sophia is only pretending to be angry to make him feel guilty, but he decides to play along so she doesn't know he has figured out her strategy.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on how much the text requires or describes the tracking of internal mental states of others.",
+      "exclusion_note": "Do not score simple descriptions of basic emotions (e.g., 'he was sad') without cognitive perspective-taking."
+    },
+    {
+      "dimension_id": "interpersonal_conflict_and_strategic_deception",
+      "definition": "Tracking lies, hidden agendas, manipulation, and social tension arising from conflicting goals.",
+      "domain": "social_perspective_and_intention_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "telling a lie",
+        "manipulating a conversation",
+        "hidden agenda",
+        "confronting a betrayer"
+      ],
+      "graded_anchors": {
+        "0": "No interpersonal conflict or deception is present.",
+        "1": "A minor, polite disagreement about a trivial topic.",
+        "2": "A character tells a small white lie to avoid hurting feelings.",
+        "3": "An open, honest argument between two characters about a shared problem.",
+        "4": "A character hides a small secret, causing slight awkwardness in conversation.",
+        "5": "A character actively manipulates a conversation to steer attention away from their mistakes.",
+        "6": "A tense dinner scene filled with passive-aggressive remarks and hidden hostility.",
+        "7": "A character systematically lies to an investigator, carefully constructing a false alibi on the spot.",
+        "8": "A high-stakes corporate betrayal where a character secretly undermines their partner while pretending to support them.",
+        "9": "An intense interrogation scene where a spy uses psychological manipulation and calculated half-truths to extract information without revealing their own identity.",
+        "10": "A masterclass in strategic deception, where multiple characters engage in a complex web of mutual manipulation, blackmail, and double-crossing, with every line of dialogue carrying heavy subtext."
+      },
+      "calibration_examples": [
+        {
+          "scene": "They agree to meet at 5 PM and say goodbye warmly.",
+          "score": 0
+        },
+        {
+          "scene": "During the interrogation, Agent Miller calmly feeds the suspect false details about the evidence, watching for micro-expressions to confirm his suspicions while hiding the fact that the police actually have no leads.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Score based on the presence of strategic deception, subtext, and conflicting social motives.",
+      "exclusion_note": "Do not score physical fights or simple, honest disagreements."
+    },
+    {
+      "dimension_id": "non_verbal_social_cue_decoding",
+      "definition": "Interpreting body language, facial expressions, eye contact, and vocal tone to infer social dynamics.",
+      "domain": "social_perspective_and_intention_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "noticing a forced smile",
+        "interpreting a glance",
+        "detecting a tremor in a voice",
+        "reading body posture"
+      ],
+      "graded_anchors": {
+        "0": "No non-verbal social cues are described.",
+        "1": "A character smiles or frowns.",
+        "2": "A character nods to show agreement.",
+        "3": "A character notices someone crossing their arms, suggesting defensiveness.",
+        "4": "A character detects a slight hesitation in another's voice before they answer.",
+        "5": "A character reads a complex mix of guilt and relief in another's fleeting facial expression.",
+        "6": "A silent exchange of glances between two characters across a crowded room, conveying a shared secret.",
+        "7": "A detailed description of a character analyzing another's micro-expressions, posture shifts, and breathing patterns to detect nervousness.",
+        "8": "A tense standoff where every tiny movement—a twitch of the hand, a shift in gaze, a swallow—is loaded with social meaning and threat assessment.",
+        "9": "An intricate scene where a character decodes a highly sophisticated, silent language of gestures, eye movements, and posture during a high-society event to map out alliances.",
+        "10": "An extraordinarily dense description of non-verbal communication where a character reads a complex, multi-layered narrative of deception, submission, and hidden desire purely through a sequence of subtle physical cues."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The wind blows the curtains gently.",
+          "score": 0
+        },
+        {
+          "scene": "She watched his hands clench slightly, his eyes darting to the exit for a fraction of a second, and the subtle tightening of his jaw, confirming he was terrified despite his calm words.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Score based on the density and significance of non-verbal cues described as being observed and interpreted.",
+      "exclusion_note": "Do not score physical actions that have no social or communicative meaning."
+    },
+    {
+      "dimension_id": "cross_scene_causal_linking",
+      "definition": "Connecting current events to past occurrences or future consequences in the plot to maintain narrative coherence.",
+      "domain": "narrative_causal_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "recalling a past clue",
+        "realizing the consequence of an earlier action",
+        "connecting two seemingly unrelated events",
+        "foreshadowing a future event"
+      ],
+      "graded_anchors": {
+        "0": "No cross-scene causal linking is required; the scene is entirely self-contained.",
+        "1": "A character briefly mentions a past event of minor relevance.",
+        "2": "A character uses an object acquired in the previous scene.",
+        "3": "A character references a conversation from earlier in the day, explaining their current mood.",
+        "4": "The scene reveals the direct consequence of a decision made by a character in a previous chapter.",
+        "5": "A character connects a newly discovered clue to a mysterious event that happened much earlier in the story.",
+        "6": "A major plot revelation occurs where a seemingly minor detail from the beginning of the movie is shown to be the key to the mystery.",
+        "7": "The narrative cuts between two timelines, showing how actions in the past directly shape and cause events in the present.",
+        "8": "A complex sequence where multiple storylines converge, revealing that all previous events were orchestrated by a single hidden cause.",
+        "9": "A massive narrative twist that forces the viewer to completely re-evaluate the causal chain of the entire movie up to this point.",
+        "10": "An incredibly complex, non-linear narrative integration where every action in the scene is causally linked to multiple past and future events across a highly intricate, multi-layered plot structure."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man eats an apple in silence.",
+          "score": 0
+        },
+        {
+          "scene": "As Arthur looks at the old pocket watch, he suddenly realizes that the stranger who gave it to him twenty years ago was actually his own son traveling back in time to prevent the accident.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on how much the scene requires the viewer to integrate information across different times or scenes.",
+      "exclusion_note": "Do not score simple chronological progressions without causal connections (e.g., 'then he went to bed')."
+    },
+    {
+      "dimension_id": "character_motive_and_goal_updating",
+      "definition": "Updating the mental model of a character's long-term motives, goals, and allegiances based on new narrative information.",
+      "domain": "narrative_causal_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "revealing a hidden motive",
+        "changing alliances",
+        "discovering a betrayal",
+        "re-evaluating a character's past actions"
+      ],
+      "graded_anchors": {
+        "0": "No motive or goal updating is present.",
+        "1": "A character expresses a minor, temporary preference.",
+        "2": "A character decides to change their plan for the evening.",
+        "3": "A character reveals a simple, expected motive for their actions (e.g., doing it for money).",
+        "4": "A character's loyalty is slightly questioned, suggesting they might have a hidden motive.",
+        "5": "A major revelation shows that a character we thought was a villain is actually acting out of a noble, hidden motive.",
+        "6": "A character undergoes a significant shift in allegiance, turning from an ally to an enemy.",
+        "7": "A deep dive into a character's backstory that completely redefines their long-term goals and explains their complex behavior.",
+        "8": "A double-agent revelation where a character's true, multi-layered allegiances and long-term manipulative goals are laid bare.",
+        "9": "A profound character transformation or betrayal that completely shatters the viewer's previous understanding of their moral core and ultimate objectives.",
+        "10": "An extremely complex narrative shift where the motives and goals of multiple key characters are simultaneously updated, revealing a highly intricate web of shifting alliances and deep-seated psychological drives."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The detective walks into the office and sits down.",
+          "score": 0
+        },
+        {
+          "scene": "In a shocking turn, the mentor reveals he was the one who engineered the crisis all along, not to destroy the city, but to force the hero to unlock his true potential.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Score based on how much the scene shifts the viewer's understanding of a character's underlying drive or moral alignment.",
+      "exclusion_note": "Do not score temporary, short-term goals (like wanting a glass of water)."
+    },
+    {
+      "dimension_id": "situational_schema_revision",
+      "definition": "Revising the overall understanding of the story's context, setting, rules, or reality based on narrative shifts.",
+      "domain": "narrative_causal_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "discovering a dream sequence",
+        "uncovering a massive conspiracy",
+        "realizing the genre has shifted",
+        "learning a fundamental rule of the world is false"
+      ],
+      "graded_anchors": {
+        "0": "No situational schema revision is required.",
+        "1": "A character learns a minor detail about their environment.",
+        "2": "A character realizes they are in the wrong room.",
+        "3": "A character discovers a small secret about the town they live in.",
+        "4": "A significant shift, such as discovering that a trusted institution is corrupt.",
+        "5": "A major twist revealing that the characters are not in a normal city, but a highly controlled simulation.",
+        "6": "The revelation that the protagonist has been hallucinating or dreaming a significant portion of the events.",
+        "7": "A profound shift where the rules of the narrative world are rewritten (e.g., introducing time travel or supernatural elements into a grounded drama).",
+        "8": "A massive, mind-bending twist that reveals the entire setting is a post-apocalyptic wasteland rather than a historical period.",
+        "9": "A complete paradigm shift where the viewer must reconstruct their entire understanding of the movie's reality, timeline, and ontological rules.",
+        "10": "An extraordinary, multi-layered schema revision where the narrative simultaneously collapses multiple levels of reality, forcing a total cognitive restructuring of the entire story's framework."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The family enjoys a quiet dinner together.",
+          "score": 0
+        },
+        {
+          "scene": "The protagonist wakes up in a high-tech laboratory, realizing that his entire life, family, and memories of the last forty years were merely a simulated training program.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on the scale of the cognitive shift required to understand the scene's context.",
+      "exclusion_note": "Do not score minor updates to local information (like finding out a room is locked)."
+    },
+    {
+      "dimension_id": "unexpected_sensory_or_environmental_shocks",
+      "definition": "Sudden, highly salient sensory or environmental events that disrupt the ongoing flow and force an immediate reorienting of attention.",
+      "domain": "attentional_reorienting_and_salience_detection",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "sudden explosion",
+        "loud crash",
+        "flash of light",
+        "abrupt collapse of a structure"
+      ],
+      "graded_anchors": {
+        "0": "No sensory or environmental shocks occur.",
+        "1": "A minor, expected sound, like a clock ticking.",
+        "2": "A slightly louder sound, like a door closing firmly.",
+        "3": "A sudden phone ring or a knock at the door that startles a character.",
+        "4": "A glass dropping and shattering on the floor.",
+        "5": "A sudden, loud thunderclap accompanied by a flash of lightning that cuts the power.",
+        "6": "A car crash occurring suddenly in the background of a conversation.",
+        "7": "A sudden, violent explosion nearby that throws characters to the ground.",
+        "8": "A massive, catastrophic structural collapse of a building during an earthquake.",
+        "9": "An overwhelming, multi-sensory bombardment of sudden explosions, blinding flashes, and deafening alarms that completely disorients the characters and viewer.",
+        "10": "An extraordinarily intense, instantaneous, and catastrophic environmental shockwave that completely obliterates the scene's setting and violently disrupts all ongoing cognitive and physical activity."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The characters talk quietly in a library.",
+          "score": 0
+        },
+        {
+          "scene": "Without warning, a massive explosion rips through the storefront, shattering the windows and sending a wave of fire and debris screaming across the street.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Score based on the suddenness, intensity, and disruptive nature of sensory events described.",
+      "exclusion_note": "Do not score gradual environmental changes or expected sensory events."
+    },
+    {
+      "dimension_id": "abrupt_narrative_interruptions",
+      "definition": "Sudden, unexpected narrative events or character actions that abruptly disrupt the ongoing action or conversation.",
+      "domain": "attentional_reorienting_and_salience_detection",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "sudden entry of an armed intruder",
+        "unexpected phone call with shocking news",
+        "abrupt physical interruption",
+        "sudden arrest"
+      ],
+      "graded_anchors": {
+        "0": "No narrative interruptions occur.",
+        "1": "A character pauses briefly to take a breath.",
+        "2": "A minor interruption, like a waiter delivering food.",
+        "3": "A character's sentence is cut off by another character speaking.",
+        "4": "A phone rings, interrupting an intimate conversation.",
+        "5": "A character suddenly bursts into the room with urgent, unexpected news.",
+        "6": "An ongoing peaceful meeting is abruptly shut down by the sudden arrival of the police.",
+        "7": "An armed intruder suddenly smashes through the door during a quiet family dinner.",
+        "8": "A character is suddenly and unexpectedly shot or attacked in the middle of a calm, friendly dialogue.",
+        "9": "A massive, completely unexpected plot twist that instantly halts the current scene and shifts the entire narrative trajectory in a fraction of a second.",
+        "10": "An extraordinary, instantaneous, and total disruption of the narrative flow by a highly shocking, paradigm-shattering event that completely derails all ongoing character actions and plotlines."
+      },
+      "calibration_examples": [
+        {
+          "scene": "They continue their meeting until it naturally concludes.",
+          "score": 0
+        },
+        {
+          "scene": "As they are laughing and sharing a toast, a sniper bullet suddenly shatters the window and strikes Arthur, instantly ending the conversation in chaos.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Score based on how abruptly the ongoing narrative flow is broken by an unexpected event.",
+      "exclusion_note": "Do not score expected transitions or planned events."
+    },
+    {
+      "dimension_id": "salient_cue_detection",
+      "definition": "Noticing a highly relevant, unexpected, or threatening object, detail, or cue that demands immediate attention.",
+      "domain": "attentional_reorienting_and_salience_detection",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "spotting a hidden weapon",
+        "noticing a bloodstain",
+        "detecting a shadow moving",
+        "finding a critical piece of evidence"
+      ],
+      "graded_anchors": {
+        "0": "No salient cues are detected.",
+        "1": "A character notices a common object, like a book on a table.",
+        "2": "A character spots a misplaced item, like keys on the wrong counter.",
+        "3": "A character notices a slightly unusual detail, like a light left on.",
+        "4": "A character spots a hidden camera or a small clue in a room.",
+        "5": "A character suddenly notices a drop of blood on the floor.",
+        "6": "A character spots the outline of a gun concealed under someone's jacket.",
+        "7": "A character notices a shadow moving stealthily outside the window.",
+        "8": "A character suddenly realizes a bomb countdown timer is ticking under their seat.",
+        "9": "A highly dramatic moment where a character spots a tiny, critical detail that reveals a trusted friend is actually the killer.",
+        "10": "An intense, high-stakes realization triggered by the sudden detection of a highly salient, life-threatening cue that completely reorients all immediate behavior and attention."
+      },
+      "calibration_examples": [
+        {
+          "scene": "He looks around the clean, empty hotel room.",
+          "score": 0
+        },
+        {
+          "scene": "While shaking hands, she suddenly spots a unique, snake-shaped ring on his finger—the exact same ring worn by her father's murderer.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on the suddenness and significance of a specific cue being noticed by a character or the viewer.",
+      "exclusion_note": "Do not score general observation of expected objects in the environment."
+    }
+  ],
+  "metadata": {
+    "domain_pool": {
+      "source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/IPL/domain_pool_auto_confirmed.json",
+      "content_sha256": "c299543ade516532be8c7cfca459bd214d55ea14c54a520099ab49d3ab961fec",
+      "version": "domain_pool_v2",
+      "target_region": "IPL",
+      "curation_status": "confirmed",
+      "proposal_runs": 5,
+      "curated_domain_ids": [
+        "spatial_layout_and_perspective_tracking",
+        "action_simulation_and_tool_tracking",
+        "social_perspective_and_intention_tracking",
+        "narrative_causal_integration",
+        "attentional_reorienting_and_salience_detection"
+      ]
+    },
+    "source_provider": "gemini",
+    "source_model": "gemini-3.5-flash",
+    "fixed_roi_definition": {
+      "roi_id": "IPL",
+      "display_name": "inferior parietal lobule",
+      "theoretical_role": "Multisensory integration, attentional reorienting, and spatial or symbolic cognition.",
+      "selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146
+          ]
+        }
+      ]
+    }
+  }
+}

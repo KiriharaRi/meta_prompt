@@ -1,0 +1,50 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:53",
+    "batch_summary": "At the Moondance Diner, Monica, wearing a ridiculous costume, tries to plan a fancy birthday party for Rachel, but Ross, Joey, and Phoebe push back against her strict planning. Later at the coffee shop, the group discusses the guest list. Joey tries to ban Shannon Cooper by claiming she steals, but Chandler exposes that Joey actually ghosted her. Rachel then arrives, exhausted and complaining about her graduation from hell.",
+    "cumulative_summary": "The friends gather at the Moondance Diner, where Monica, sporting a curly blonde wig and padded breasts, attempts to organize a sophisticated birthday party for Rachel. However, Ross, Joey, and Phoebe rebel against her elaborate plans and committees, preferring a simpler celebration. The scene shifts to their usual coffee shop, where the group reviews the guest list. When Monica suggests inviting Shannon Cooper, Joey objects, claiming she is a thief. Chandler quickly exposes the truth: Joey simply slept with Shannon and never called her back, a fact Joey jokingly tries to deny before admitting to it. Finally, a stressed Rachel arrives, complaining that her graduation was an absolute nightmare, which Chandler meets with a characteristic joke."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:53 - 00:03:45",
+    "batch_summary": "Rachel explains that her graduation nightmare was caused by her divorced parents having a loud fight during the ceremony. To avoid drama, the group decides not to invite both parents to Rachel's birthday, but Phoebe admits she already invited Rachel's mother. Later, as the friends prepare a \"birthday flan\" at the apartment, Rachel's father, Dr. Leonard Green, unexpectedly arrives. Monica desperately tries to turn him away to prevent a parental clash, but he notices the party setup.",
+    "cumulative_summary": "The friends gather at the Moondance Diner, where Monica attempts to organize a sophisticated birthday party for Rachel, though the group prefers a simpler celebration. While reviewing the guest list at the coffee shop, Joey makes excuses to avoid inviting past flings. A stressed Rachel arrives and explains that her sister's graduation was ruined by her divorced parents loudly fighting during the ceremony. To avoid a repeat performance, the group decides not to invite both parents to Rachel's upcoming party, only for Phoebe to reveal she has already invited Rachel's mother. Later, while preparing a \"birthday flan\" at the apartment, the friends are startled when Rachel's father, Dr. Leonard Green, unexpectedly shows up. Monica frantically tries to turn him away to prevent a disastrous parental confrontation, but Dr. Green spots the party decorations, complicating their plans."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:45 - 00:05:37",
+    "batch_summary": "When Rachel's mother, Sandra, unexpectedly arrives at the apartment while Dr. Green is still there, chaos ensues. Monica slams the door in Sandra's face to buy time, while Joey and Chandler quickly escort Dr. Green into the bedroom. After letting Sandra in, the group frantically works to keep the divorced parents separated. Chandler intercepts Sandra's coat to prevent her from entering the bedroom, and Phoebe drags Sandra to the bathroom to keep her occupied, leaving Monica in a state of sheer panic.",
+    "cumulative_summary": "The friends gather at the Moondance Diner to plan Rachel's birthday party. To avoid a repeat of Rachel's sister's ruined graduation, they decide to keep Rachel's divorced parents apart, but Phoebe accidentally invites her mother, Sandra. Things escalate when Rachel's father, Dr. Green, unexpectedly arrives at the apartment. When Sandra shows up shortly after, Monica slams the door in her face to buy time. Joey and Chandler quickly usher Dr. Green into the bedroom, while Chandler intercepts Sandra to prevent her from going inside. To keep the parents from crossing paths, Phoebe drags Sandra to the bathroom under the guise of being \"gal pals.\" Monica is left in a state of sheer panic, desperately trying to maintain the separation and prevent a disastrous confrontation."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:37 - 00:07:07",
+    "batch_summary": "To keep Rachel's divorced parents separated, the friends decide to split the celebration into two distinct parties across the hall. Joey and Chandler usher Dr. Green to their apartment, designating Monica's place as a \"staging area\" before directing incoming guests to the respective apartments. As Monica frantically tries to balance the guest lists, she spots Ross and Rachel returning from a romantic birthday dinner. The couple shares a sweet moment in the hallway, completely unaware of the chaotic, double-party scheme awaiting them inside.",
+    "cumulative_summary": "The friends plan Rachel's birthday party, aiming to keep her divorced parents, Sandra and Dr. Green, apart. However, chaos ensues when both parents unexpectedly arrive at Monica's apartment. To prevent a disastrous confrontation, the group frantically improvises. Phoebe distracts Sandra in the bathroom, while Joey and Chandler usher Dr. Green into the bedroom. Realizing they cannot keep this up, the friends decide to split the celebration into two separate parties across the hall. Joey and Chandler guide Dr. Green to their apartment, claiming Monica's place is merely a \"staging area,\" and begin dividing the arriving guests between the two venues. As Monica struggles to manage the chaotic setup, Ross and Rachel return from a romantic birthday dinner. Sharing a sweet, loving moment in the hallway, they remain completely oblivious to the frantic, double-party scheme awaiting them inside."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:07 - 00:09:24",
+    "batch_summary": "Rachel is surprised with two separate parties: one with her mother at Monica's, and another with her father at Joey and Chandler's. Realizing both parents are present, Rachel panics but decides to manage the situation by keeping them apart. Ross tries to comfort her, while Chandler reveals Monica made a birthday flan instead of a cake. Meanwhile, Joey and Chandler's party gets wild, with Joey setting up an indoor volleyball court. Rachel tasks Ross with keeping her father occupied while she visits her mother.",
+    "cumulative_summary": "The friends plan Rachel's birthday party, aiming to keep her divorced parents, Sandra and Dr. Green, apart. However, chaos ensues when both parents unexpectedly arrive at Monica's apartment. To prevent a disastrous confrontation, the friends decide to split the celebration into two separate parties across the hall. When Ross and Rachel return, Rachel is treated to two consecutive surprise parties: one with her mother at Monica's, and another with her father at Joey and Chandler's. Upon realizing both parents are present, Rachel panics but resolves to keep them separated. Ross offers support, while Chandler mentions Monica's unconventional birthday flan. Across the hall, Joey and Chandler's party turns wild, complete with an indoor volleyball court that ruins Chandler's lamp. To keep the peace, Rachel asks Ross to entertain her father while she spends time with her mother, warning him to avoid any awkward conversations about their relationship."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 234,
+    "timestamp_range": "00:09:24 - 00:11:14",
+    "batch_summary": "At Monica's apartment, Monica's controlling behavior and strict rules about marker caps make her party incredibly dull. When Gunther tries to escape, Phoebe promises to create a diversion to help him flee. Meanwhile, across the hall, Ross attempts to bond with Rachel's father, Dr. Green. After a highly awkward exchange about vascular surgery and dead dinosaurs, Ross eagerly escapes to fetch Dr. Green a neat Scotch, desperate to break the painful tension.",
+    "cumulative_summary": "The friends split Rachel's birthday celebration into two separate parties across the hall to keep her divorced parents, Sandra and Dr. Green, apart. While Joey and Chandler's party turns wild, Monica's gathering becomes stifling due to her obsessive rules and controlling behavior. When a desperate Gunther tries to leave, Phoebe promises to create a diversion to help him escape Monica's tyranny. Meanwhile, Ross attempts to fulfill Rachel's request to entertain her father. However, the conversation quickly turns incredibly awkward when Ross makes a clumsy joke about dead dinosaurs in response to Dr. Green's grim medical update. Desperate to break the painful tension, Ross eagerly escapes the room under the guise of fetching Dr. Green a neat Scotch, leaving the difficult father-in-law figure behind."
+  }
+]

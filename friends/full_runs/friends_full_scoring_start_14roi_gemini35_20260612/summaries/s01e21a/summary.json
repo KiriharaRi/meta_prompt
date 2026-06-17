@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:35",
+    "batch_summary": "Monica's lunch with her critical mother ends in embarrassment when her credit card is denied, forcing her mother to pay. Later, back at the apartment, Monica discusses her stolen credit card with her friends. While reviewing the thief's extravagant charges, Chandler mocks a $70 \"Wonder mop\" purchase, only for Monica to admit she bought it herself. The lighthearted tension is briefly interrupted when Ross has to stop his pet monkey, Marcel, from humping a lamp.",
+    "cumulative_summary": "During a tense lunch, Monica tries to prove her independence to her highly critical mother by insisting on paying the bill. However, her attempt backfires when her credit card is denied, forcing her mother to smugly cover the cost. Back at the apartment, Monica reviews her credit card statement with her friends—Chandler, Joey, Ross, Phoebe, and Rachel—revealing that her card number was stolen. As they marvel at the thief's reckless spending, Chandler mocks a $70 \"Wonder mop\" purchase, only for Monica to sheepishly admit that she was the one who bought it. The group's discussion is interrupted when Ross has to reprimand his pet monkey, Marcel, for humping a living room lamp. This sequence establishes Monica's insecurities regarding her mother and career, while highlighting the humorous, supportive, and chaotic dynamic of her friend group."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:35 - 00:03:23",
+    "batch_summary": "Ross's monkey, Marcel, continues to cause chaos by humping Rachel's Curious George doll, despite Ross's insistence that it is just a phase. Later that night, Monica obsessively reviews her stolen credit card statement, expressing deep envy to Rachel that the thief is living a much more exciting, artistic, and mother-free life than her. Meanwhile, at the coffee shop, Joey and Chandler brainstorm neutral stage names for Joey's acting career.",
+    "cumulative_summary": "During a tense lunch, Monica tries to prove her independence to her highly critical mother by insisting on paying the bill, but her credit card is denied. Back at the apartment, Monica and her friends—Chandler, Joey, Ross, Phoebe, and Rachel—discover her card was stolen. The group's discussion is interrupted by Ross's pet monkey, Marcel, whose persistent humping behavior escalates to ruining Rachel's Curious George doll, despite Ross's defense that it is just a phase. Later that night, Monica obsessively analyzes the thief's credit card statement. She tearfully confesses to Rachel that the thief is living the exciting, artistic, and mother-free life she has always wanted. Meanwhile, Joey and Chandler brainstorm neutral stage names at the coffee shop to help Joey's acting career."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:23 - 00:05:05",
+    "batch_summary": "At the coffee shop, Joey tries to find a more mature stage name and unwittingly settles on \"Joseph Stalin,\" completely oblivious to the dictator's identity despite Chandler's sarcastic jokes. Meanwhile, back at the apartment, Monica takes matters into her own hands to track down her credit card thief. She calls a facility where the thief registered for classes, fabricating a head injury to trick them into revealing the schedule.",
+    "cumulative_summary": "During a tense lunch, Monica's attempt to prove her independence to her critical mother fails when her credit card is declined, leading her and her friends to discover it was stolen. While Ross deals with his monkey Marcel's disruptive behavior, Monica becomes obsessed with the thief's exciting lifestyle. Meanwhile, Joey and Chandler brainstorm stage names at the coffee shop, resulting in Joey unwittingly choosing \"Joseph Stalin\" as his new moniker, oblivious to Chandler's sarcastic musical theater jokes. Driven by curiosity and envy, Monica decides to track the thief down. She calls a facility where the thief registered for classes, fabricating a head injury to trick them into revealing the schedule."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:05 - 00:06:53",
+    "batch_summary": "Driven by her obsession, Monica drags Rachel and Phoebe to a tap dancing class to track down the credit card thief. Although her friends warn her that she is losing control, they join her at the studio. The strict instructor forces them to participate rather than observe. As the class begins, Monica struggles with the choreography while trying to spot the thief, Phoebe enthusiastically dances in her own erratic style, and Rachel struggles with her coordination.",
+    "cumulative_summary": "During a tense lunch, Monica's attempt to prove her independence to her critical mother fails when her credit card is declined, leading her and her friends to discover it was stolen. While Ross deals with his monkey Marcel's disruptive behavior, Monica becomes obsessed with the thief's exciting lifestyle. Driven by curiosity and envy, Monica tracks the thief to a tap dancing class, fabricating a head injury to get the schedule. Accompanied by a skeptical Rachel and Phoebe, who worry about her growing obsession, Monica arrives at the dance studio. The strict instructor forces them to participate rather than observe. As the class begins, Monica struggles with the choreography while scanning the room for her target. Meanwhile, Phoebe embraces the dance with wild, erratic movements, and Rachel finds herself completely uncoordinated."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:53 - 00:08:38",
+    "batch_summary": "In the tap class, Phoebe partners with Rachel, leaving Monica to be paired with a latecomer who turns out to be the credit card thief. The thief introduces herself as \"Monana,\" claiming it is Dutch. When Monica is caught off guard by a Dutch phrase, she quickly claims to be \"Pennsylvania Dutch,\" and the two begin dancing together. Meanwhile, Ross returns from the vet and glumly informs Joey and Chandler that his monkey, Marcel, has officially reached sexual maturity, explaining his persistent humping behavior.",
+    "cumulative_summary": "During a tense lunch, Monica's attempt to prove her independence to her critical mother fails when her credit card is declined, leading her and her friends to discover it was stolen. While Ross deals with his monkey Marcel's disruptive behavior, Monica becomes obsessed with the thief's exciting lifestyle. Driven by curiosity, Monica tracks the thief to a tap dancing class, accompanied by a skeptical Rachel and Phoebe. When the instructor forces everyone to partner up, Phoebe quickly pairs with Rachel, leaving Monica to be partnered with a late arrival. Shockingly, the latecomer is the thief herself, who introduces herself as \"Monana\" and claims it is Dutch. Monica narrowly avoids blowing her cover by claiming she is \"Pennsylvania Dutch,\" and the two begin dancing together. Meanwhile, back at Central Perk, Ross returns from the vet with disappointing news for Joey and Chandler: Marcel's disruptive humping behavior is not a passing phase, but rather a sign that the monkey has officially reached sexual maturity."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:38 - 00:10:23",
+    "batch_summary": "At Central Perk, Ross shares the devastating news that he must give up Marcel. The vet warned that without regular mating opportunities, Marcel's sexual maturity will cause him to become increasingly aggressive and violent. Heartbroken, Ross explains that he is applying to various zoos, hoping for a major facility like San Diego, though a \"party zoo\" in Miami seems like a more realistic possibility. Joey and Chandler offer humorous support as Ross faces the painful reality of parting with his pet.",
+    "cumulative_summary": "After Monica's credit card is stolen, she tracks the thief to a tap-dancing class with Rachel and Phoebe. Driven by curiosity about the thief's exciting lifestyle, Monica ends up partnering with her, narrowly avoiding blowing her cover by introducing herself as \"Pennsylvania Dutch\" to the thief, \"Monana.\" Meanwhile, Ross receives devastating news from the vet regarding his monkey, Marcel. Because Marcel has reached sexual maturity, he will become increasingly aggressive and violent unless he has regular access to other monkeys. Realizing he can no longer keep his beloved pet, a heartbroken Ross decides he must find a zoo for Marcel. With Joey and Chandler offering humorous comfort, Ross begins the difficult process of applying to various facilities, hoping for a top-tier location like San Diego, while considering a more likely option in Miami."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 269,
+    "timestamp_range": "00:10:23 - 00:11:50",
+    "batch_summary": "Monica and Phoebe reveal to the group that instead of turning the credit card thief in, they took her to lunch. Despite Ross's outrage, Monica defends the thief's vibrant spirit. Later, at the apartment, Monica and the thief bond over a wild escapade where they got kicked out of a hotel. Monica is thrilled by her uncharacteristic, rebellious streak, while Rachel heads off to her shift at the coffee shop, playfully lamenting her own less-exciting routine.",
+    "cumulative_summary": "After Monica's credit card is stolen, she, Rachel, and Phoebe track the thief to a tap-dancing class. Fascinated by the thief's exciting lifestyle, Monica adopts the alias \"Monana\" to befriend her. Instead of calling the police, Monica and Phoebe take the thief to lunch, drawing incredulity from Ross, who insists she is just a criminal. However, Monica is captivated by the woman's vibrant spirit. Later, at the apartment, Monica and the thief bond over a wild prank that gets them kicked out of a hotel, leaving the usually rule-abiding Monica thrilled by her newfound rebelliousness. Meanwhile, Ross faces the heartbreaking reality of having to find a new home for his monkey, Marcel, who has reached sexual maturity and is becoming aggressive. Supported by Chandler and Joey, Ross begins the difficult process of applying to various zoos, hoping to secure a spot at a top-tier facility like San Diego."
+  }
+]

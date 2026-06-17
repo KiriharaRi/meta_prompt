@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:41",
+    "batch_summary": "In a coffee shop, Rachel clumsily serves Monica a hot cider with a pencil instead of a cinnamon stick. Meanwhile, at his office, Chandler is summoned to his boss's office, nervously denying any involvement in office pranks. Later, Phoebe rushes into the coffee shop to announce Chandler is arriving with big news. Chandler enters and happily reveals to his friends that he has been promoted to processing supervisor, prompting a warm celebration from the group.",
+    "cumulative_summary": "The story begins in a coffee shop where Rachel is working, showing her clumsy side when she accidentally serves Monica a hot cider with an eraser-tipped pencil instead of a cinnamon stick. The scene shifts to Chandler at his corporate office, where he is summoned to his boss's office. Fearing he is in trouble for office pranks, Chandler nervously defends himself to a colleague before heading in. Later that evening, Phoebe bursts into the coffee shop to alert the group that Chandler is on his way with major news. When Chandler arrives, he excitedly announces to his friends—including Ross, Monica, and Joey—that he has been promoted to processing supervisor. The group reacts with joy and applause, celebrating his unexpected career advancement."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:41 - 00:03:15",
+    "batch_summary": "Chandler shocks his friends by announcing he is quitting his job instead of accepting the promotion, refusing to let a \"temp\" job define his career. While he admits he has no backup plan, Phoebe shares that her massage client, Steve, is opening a restaurant and looking for a head chef to design an eclectic menu. Although Phoebe initially suggests the role to Chandler, Monica is immediately excited by the opportunity, hoping to land the head chef position herself.",
+    "cumulative_summary": "The story begins in a coffee shop where Rachel is working, showing her clumsy side when she accidentally serves Monica a hot cider with an eraser-tipped pencil instead of a cinnamon stick. Later, Chandler is summoned to his boss's office, fearing he is in trouble. Instead, he receives a promotion to processing supervisor. However, Chandler shocks his friends by announcing he is quitting, refusing to let a five-year \"temp\" job define his career. While Chandler admits he has no backup plan, Phoebe mentions that her massage client, Steve, is opening a restaurant and needs a head chef to create an eclectic menu. Although Phoebe humorously suggests the job to Chandler first, Monica is instantly thrilled by the prospect, eager to take on the culinary opportunity."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:15 - 00:04:53",
+    "batch_summary": "After Chandler officially declines the chef position, Phoebe presents the opportunity to Monica. Seeking a new direction, Chandler prepares to visit a career counselor, confessing his deep anxiety about lacking a career dream—a feeling Rachel relates to. In contrast, Monica returns home ecstatic after a successful meeting with Steve. She eagerly plans an audition dinner to secure the head chef job, asking Phoebe to join and help win him over.",
+    "cumulative_summary": "The story begins with Rachel working clumsily at the coffee shop and Chandler unexpectedly receiving a promotion. Refusing to stay in a \"temp\" career, Chandler quits his job. When Phoebe mentions her massage client, Steve, is opening a restaurant, Chandler declines the head chef role, leaving Monica thrilled to pursue it. Seeking direction, Chandler prepares to see a career counselor, admitting his anxiety over lacking a life dream, a feeling Rachel shares. Meanwhile, Monica returns home ecstatic after a successful meeting with Steve. She announces she will host an audition dinner to secure the head chef position and asks Phoebe to attend for moral support."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:53 - 00:06:33",
+    "batch_summary": "As Monica anxiously plans her audition dinner menu with Rachel and Phoebe, Ross arrives seeking date spot recommendations for his upcoming date with Celia, an insect curator. Joey enthusiastically assures Ross that his pet monkey, Marcel, will act as a \"chick magnet\" to help him win her over. However, the plan backfires hilariously during the date when Marcel clings to a screaming Celia's head, forcing a panicked Ross to try and defuse the chaotic situation with a banana.",
+    "cumulative_summary": "The story begins with Chandler quitting his job to find a real career, while Monica eagerly prepares to audition for a head chef position at a new restaurant owned by Phoebe's client, Steve. As Monica anxiously plans her audition menu with Rachel and Phoebe, Ross seeks advice for his upcoming date with Celia, an insect curator. Joey confidently advises Ross that his pet monkey, Marcel, will serve as the ultimate \"chick magnet\" to help seal the deal. However, the romantic evening quickly devolves into chaos when they return to Ross's apartment. Instead of being charmed, Celia is terrified when Marcel climbs onto her head and aggressively pulls her hair, leaving Ross desperately trying to soothe her and coax the monkey away with a banana."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:33 - 00:08:21",
+    "batch_summary": "After Ross rescues Celia from Marcel, the focus shifts to Monica's apartment. Monica anxiously tests her audition menu on Joey, who is less than thrilled with her salmon mousse. Meanwhile, Chandler returns from a grueling eight-hour career aptitude test, only to discover that he is ideally suited for the exact data processing job he just quit. Disappointed that he isn't destined for a cooler career, Chandler is comforted by Rachel and Monica, who offers him a tiny amuse-bouche to cheer him up.",
+    "cumulative_summary": "The story begins with Chandler quitting his job to find a new career, while Monica prepares to audition for a head chef position at a restaurant owned by Phoebe's client, Steve. Meanwhile, Ross's date with Celia goes awry when his monkey, Marcel, attacks her hair, though Ross manages to safely retrieve the pet. Back at the apartment, Monica anxiously tests her audition menu on a skeptical Joey. Chandler then returns from a grueling eight-hour career aptitude test, only to receive the disappointing news that he is ideally suited for the exact data processing career he just left. Feeling discouraged about his lack of \"cool\" prospects, Chandler is comforted by Rachel and Monica, who serves him a tiny French pre-appetizer to lift his spirits."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:21 - 00:09:58",
+    "batch_summary": "Monica hires a professional waitress for her crucial audition dinner, offending Rachel who feels slighted by not being asked. Monica tries to justify her choice, prompting sarcastic remarks from Rachel, while Chandler lightens the mood by joking about his own waitressing past. Meanwhile, Ross's date with Celia takes an unexpected turn when, during a romantic moment on the couch, she asks him to talk dirty to her, leaving him visibly flustered and unprepared.",
+    "cumulative_summary": "The story begins with Chandler quitting his job to find a new career, while Monica prepares to audition for a head chef position at a restaurant owned by Phoebe's client, Steve. Meanwhile, Ross's date with Celia goes awry when his monkey, Marcel, attacks her hair. Back at the apartment, Chandler learns from an aptitude test that he is best suited for the exact data processing career he just left. As Monica finalizes her audition dinner plans, she inadvertently offends Rachel by hiring a professional waitress instead of her, leading to sarcastic tension that Chandler tries to diffuse. Later, Ross gets a second chance with Celia at his apartment. However, their romantic evening takes an awkward turn when Celia suddenly demands that Ross talk dirty to her, leaving him completely flustered and unprepared."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:58 - 00:11:24",
+    "batch_summary": "Panicking under pressure to talk dirty to Celia, Ross blurts out \"vulva,\" resulting in an awkward evening of just cuddling. The next day, Ross confides in Joey about his struggle with dirty talk. Joey, trying to be a supportive friend, offers to let Ross practice on him. Despite his initial reluctance, Ross closes his eyes and begins to awkwardly describe a scenario to Joey, attempting to build his confidence.",
+    "cumulative_summary": "The story begins with Chandler quitting his job to find a new career, while Monica prepares to audition for a head chef position at a restaurant owned by Phoebe's client, Steve. Meanwhile, Ross's date with Celia goes awry when his monkey, Marcel, attacks her hair. Back at the apartment, Chandler learns from an aptitude test that he is best suited for the exact data processing career he just left. As Monica finalizes her audition dinner plans, she inadvertently offends Rachel by hiring a professional waitress instead of her, leading to sarcastic tension that Chandler tries to diffuse. Later, Ross gets a second chance with Celia at his apartment. However, their romantic evening takes an awkward turn when Celia suddenly demands that Ross talk dirty to her. Panicking under pressure, Ross blurts out \"vulva,\" resulting in an awkward evening of just cuddling. The next day, Ross confides in Joey about his struggle with dirty talk. Joey, trying to be a supportive friend, offers to let Ross practice on him. Despite his initial reluctance, Ross closes his eyes and begins to awkwardly describe a scenario to Joey."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 288,
+    "timestamp_range": "00:11:24 - 00:11:44",
+    "batch_summary": "In this segment, the awkward practice session between Ross and Joey continues. When Ross gets uncomfortable and tries to stop, Joey takes the initiative to demonstrate how to talk dirty. Joey delivers a surprisingly passionate and intense line to Ross, leaving Ross completely stunned and staring blankly in silence. The scene highlights the comedic tension and the lengths Joey will go to help his friend.",
+    "cumulative_summary": "The story begins with Chandler quitting his job, while Monica prepares for a head chef audition, causing tension with Rachel by hiring a professional waitress. Meanwhile, Ross's date with Celia goes awry when his monkey, Marcel, attacks her hair. Later, Ross gets a second chance with Celia, but things turn awkward when she demands he talk dirty to her. Panicking, Ross fails miserably. The next day, Ross confides in Joey, who offers to let Ross practice dirty talk on him. When Ross struggles and tries to back out of the awkward exercise, Joey takes charge to demonstrate. Joey delivers an intensely passionate line to Ross, leaving Ross completely stunned and speechless in a moment of hilarious tension."
+  }
+]

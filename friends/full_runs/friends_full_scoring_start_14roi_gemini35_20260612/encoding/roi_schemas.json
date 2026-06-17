@@ -1,0 +1,18 @@
+{
+  "roi_schemas": {
+    "DLPFC": "../rois/DLPFC/region_schema.json",
+    "VMPFC": "../rois/VMPFC/region_schema.json",
+    "OFC": "../rois/OFC/region_schema.json",
+    "ACC": "../rois/ACC/region_schema.json",
+    "PCC": "../rois/PCC/region_schema.json",
+    "Precuneus": "../rois/Precuneus/region_schema.json",
+    "IPL": "../rois/IPL/region_schema.json",
+    "SMG": "../rois/SMG/region_schema.json",
+    "AG": "../rois/AG/region_schema.json",
+    "TPJ": "../rois/TPJ/region_schema.json",
+    "pSTS": "../rois/pSTS/region_schema.json",
+    "FFA": "../rois/FFA/region_schema.json",
+    "Insula": "../rois/Insula/region_schema.json",
+    "Temporal_Pole": "../rois/Temporal_Pole/region_schema.json"
+  }
+}

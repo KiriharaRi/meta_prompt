@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:43",
+    "batch_summary": "In a bustling laundromat, Ross stands up to an aggressive woman who tries to take Rachel's washing machine. Rachel is deeply impressed by his assertiveness, admitting she struggles to stand up for herself. As they prepare to wash, Ross notices Rachel's confusion and she confesses to being a \"laundry virgin\" who has never done her own wash. Ross playfully reassures her and steps in to guide her through the process, fostering a warm, flirtatious connection between them.",
+    "cumulative_summary": "In a brightly lit laundromat, Ross and Rachel's laundry day turns into a moment of bonding and lighthearted flirtation. When an aggressive woman attempts to take over Rachel's washing machine, Ross steps in assertively, defending the machine and successfully turning the woman away. Rachel is highly impressed by his confidence, admitting that she struggles with standing up for herself in everyday situations. As they prepare to start, Ross offers her a strong German detergent called \"Uber Weiss\" and notices her confusion about separating clothes. Rachel playfully confesses that she is a \"laundry virgin\" who has never actually done her own laundry before. Ross warmly reassures her, joking that he will use the \"gentle cycle\" on her, and steps in to guide her through the process. The encounter highlights Ross's protective nature and Rachel's vulnerability, deepening their connection in a charming, comedic setting."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:43 - 00:03:23",
+    "batch_summary": "At the laundromat, Ross gets hilariously flustered when Rachel asks for advice on washing her underwear. Meanwhile, Joey and Monica are on a double date with Angela and Bob. Joey attempts to subtly sabotage Bob's relationship with Angela by pointing out her odd eating habits. However, the scheme takes an unexpected turn when Bob confides in Joey that Monica is \"too much\" for him in bed, leaving Joey completely stunned.",
+    "cumulative_summary": "In a brightly lit laundromat, Ross and Rachel's laundry day turns into a moment of bonding. After Ross defends Rachel's washing machine from an aggressive woman, he guides her through the basics of sorting laundry. However, Ross becomes hilariously flustered when Rachel asks for advice on washing her underwear. Meanwhile, the scene shifts to a double date at a restaurant with Monica, Joey, Angela, and Bob. Joey attempts to subtly sabotage Bob's relationship with Angela by making odd remarks about her eating habits. The scheme takes an unexpected turn at the bar when Bob confides in Joey, admitting that while Monica is great, their relationship won't last because she is \"too much\" for him in bed. This shocking revelation leaves Joey completely stunned, adding a layer of comedic tension to the group's night out."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:23 - 00:05:12",
+    "batch_summary": "During the double date, Monica raves to Angela about Bob's incredible performance in bed, unaware of the awkwardness it causes. Meanwhile, at the coffee shop, Phoebe encourages Chandler to quickly break up with Janice. Chandler delivers the news, but Janice accuses him of having a fear of commitment, which he defensively denies. Back at the laundromat, Rachel shares a heartfelt moment with Ross, expressing that conquering her laundry makes her feel capable of taking on any challenge in her new independent life.",
+    "cumulative_summary": "At a laundromat, Ross helps Rachel navigate her first laundry day, leading to a sweet bonding moment where Rachel expresses that mastering this chore makes her feel capable of anything. Meanwhile, the double date with Monica, Joey, Angela, and Bob grows more awkward. After Bob confides in Joey that Monica is \"too much\" for him sexually, Monica unknowingly boasts to Angela in the restroom about how incredible Bob is in bed. Elsewhere, at the coffee shop, Phoebe pumps up Chandler to break up with Janice. Chandler tries to end things quickly, but Janice immediately attributes the breakup to his deep-seated fear of commitment, prompting a defensive and panicked denial from Chandler."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:12 - 00:07:09",
+    "batch_summary": "At the laundromat, Ross and Rachel's celebration is cut short when Ross reveals a stray red sock has turned all of Rachel's white clothes pink. Rachel spirals into self-doubt, fearing she cannot survive on her own. Meanwhile, at the double date, Monica pulls Joey aside to complain about the incredibly awkward and bizarre dynamic of the evening, though Joey tries to defend the situation even as Angela and Bob openly make out.",
+    "cumulative_summary": "At the laundromat, Ross helps Rachel navigate her first laundry day, but their sweet bonding moment is cut short when a stray red sock turns all of Rachel's white clothes pink. This mishap sends Rachel into a spiral of self-doubt, making her fear her father was right about her inability to live independently. Meanwhile, the double date with Monica, Joey, Angela, and Bob grows increasingly awkward. After Bob confides in Joey that Monica is too much for him, and Monica unknowingly boasts to Angela about Bob's prowess, Monica pulls Joey aside to complain about the bizarre dynamic. Despite Joey's attempts to downplay the weirdness, the awkwardness peaks as Angela and Bob openly make out. Elsewhere, Chandler struggles to break up with Janice, who panics him by attributing the split to his fear of commitment."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:09 - 00:09:15",
+    "batch_summary": "Monica discovers Joey's scheme to break up Angela and Bob so they can date them respectively. Agreeing to the plan, Monica begins flirting heavily with Bob. Meanwhile, Chandler's breakup with Janice goes horribly wrong when he accidentally hits her in the eye during an animated explanation. Panicking and over-caffeinated, Chandler flees to Phoebe for help. Phoebe tries to calm him down before stepping in to handle a crying Janice herself.",
+    "cumulative_summary": "At the laundromat, Ross helps Rachel through her first laundry day, but a stray red sock turns her white clothes pink, triggering Rachel's self-doubt about her independence. Meanwhile, the double date with Monica, Joey, Angela, and Bob takes a scheming turn. After realizing Joey's plan to split the couple up so they can date them respectively, Monica agrees to help and begins flirting with Bob. Elsewhere, Chandler's attempt to break up with Janice goes from bad to worse. While using animated hand gestures to explain their differences, Chandler accidentally hits Janice in the eye. Overwhelmed by panic and too much espresso, Chandler flees to Phoebe for support. Phoebe attempts to soothe the hyperactive Chandler before stepping in to compassionately handle the crying Janice herself."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:15 - 00:11:19",
+    "batch_summary": "After Phoebe smoothly handles Janice, Chandler is amazed and suggests they always break up together. Back at the laundromat, Rachel overcomes her self-doubt by fiercely defending her laundry cart against an aggressive woman. Exhilarated by her victory, Rachel impulsively kisses a stunned Ross, who is so dazed he trips and injures himself. Later at the coffee shop, Ross nurses his head with an ice pack next to Rachel, while Monica and Joey return to triumphantly announce they successfully split up Angela and Bob.",
+    "cumulative_summary": "At the laundromat, Ross helps Rachel through her first laundry day, but a stray red sock turns her clothes pink, triggering her self-doubt. Meanwhile, Chandler's attempt to break up with Janice goes awry when he accidentally hits her in the eye, prompting him to flee to Phoebe for help. After Phoebe smoothly handles the breakup, an amazed Chandler suggests they always break up together. Back at the laundromat, Rachel overcomes her insecurity by fiercely defending her laundry cart against an aggressive woman. Exhilarated by her victory, Rachel impulsively kisses a stunned Ross, who is so dazed he trips and injures himself. Later at the coffee shop, Ross nurses his head with an ice pack next to Rachel. Meanwhile, Monica and Joey return to triumphantly announce they successfully split up Angela and Bob to claim them for themselves, while Chandler is left to grieve his relationship."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 242,
+    "timestamp_range": "00:11:19 - 00:11:29",
+    "batch_summary": "Chandler ecstatically celebrates his newfound freedom by running past the coffee shop window and shouting joyfully. Inside, Phoebe humorously reminds the group that she was the one who actually had to break up with Janice for him. Meanwhile, Ross, still nursing his head injury with an ice pack, reacts with a subtle, tight-lipped smile, wrapping up the chaotic day of relationship milestones and mishaps.",
+    "cumulative_summary": "At the laundromat, Ross helps Rachel through her first laundry day, but a stray red sock turns her clothes pink, triggering her self-doubt. Meanwhile, Chandler's attempt to break up with Janice goes awry when he accidentally hits her in the eye, prompting him to flee to Phoebe for help. After Phoebe smoothly handles the breakup, an amazed Chandler suggests they always break up together. Back at the laundromat, Rachel overcomes her insecurity by fiercely defending her laundry cart against an aggressive woman. Exhilarated by her victory, Rachel impulsively kisses a stunned Ross, who is so dazed he trips and injures himself. Later at the coffee shop, Monica and Joey return to triumphantly announce they successfully split up Angela and Bob to claim them for themselves. Chandler then ecstatically celebrates his freedom outside the window, while Phoebe humorously reminds the group that she did the hard work of breaking up with Janice. Ross, still nursing his head injury, looks on with a subtle smile."
+  }
+]

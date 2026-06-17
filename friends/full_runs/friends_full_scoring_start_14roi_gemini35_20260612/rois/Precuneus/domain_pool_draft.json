@@ -1,0 +1,427 @@
+{
+  "version": "domain_pool_v2",
+  "target_region": "Precuneus",
+  "curation_status": "draft",
+  "source_model": "gemini-3.5-flash",
+  "proposal_runs": 5,
+  "metadata": {
+    "generation_parameters": {
+      "provider": "gemini",
+      "temperature": 0.2,
+      "proposal_runs": 5
+    },
+    "required_domain_ids": [],
+    "confirmation_instructions": "Review curated_domains and rejected_or_merged_domains, then set curation_status to 'confirmed' before passing this pool to make-region-schema --domain-pool."
+  },
+  "candidate_domains": [
+    {
+      "domain_id": "run_1_spatial_perspective_tracking",
+      "definition": "The viewer's tracking of the physical layout, spatial relationships, and egocentric or allocentric perspective of characters within the scene's environment, including updating the mental map of where characters are relative to each other and their surroundings.",
+      "region_relevance": "The precuneus is a key node in visuospatial processing, mental imagery, and egocentric-to-allocentric spatial coordinate transformation.",
+      "scoreability_note": "Highly scoreable from descriptions of character movements, camera perspective shifts, spatial layouts, and physical navigation within a scene.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_narrative_situation_integration",
+      "definition": "The viewer's cognitive integration of the current scene events with past narrative history, tracking long-term plot developments, character motivations, and thematic continuity across time.",
+      "region_relevance": "The precuneus is a core hub of the Default Mode Network (DMN) and is heavily implicated in narrative comprehension, situational model updating, and integrating information over long temporal windows.",
+      "scoreability_note": "Scoreable by assessing how much the current scene relies on prior knowledge, references past events, or advances ongoing multi-scene plotlines.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_social_mentalizing",
+      "definition": "The viewer's active inference of characters' unexpressed thoughts, hidden motives, beliefs, and psychological states based on their actions, expressions, and dialogue.",
+      "region_relevance": "The precuneus, as part of the mentalizing network, is consistently activated during Theory of Mind tasks and the attribution of mental states to others.",
+      "scoreability_note": "Scoreable from text descriptions detailing subtext, deceptive behavior, unspoken tension, or scenes requiring the viewer to read between the lines of character interactions.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_self_referential_resonance",
+      "definition": "The viewer's retrieval of personal memories, familiar real-world schemas, or self-referential concepts triggered by the situations, relationships, or dilemmas presented on screen.",
+      "region_relevance": "The precuneus is central to autobiographical memory retrieval, self-referential processing, and comparing external stimuli to internal personal experiences.",
+      "scoreability_note": "Scoreable by evaluating the degree to which a scene depicts highly relatable, common life milestones, universal human experiences, or emotionally resonant personal dilemmas.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_2_spatial_perspective_tracking",
+      "definition": "The viewer's mental simulation and tracking of the physical layout, spatial relationships, and environmental configurations within a scene, including the translation of camera perspectives into a coherent egocentric or allocentric mental map.",
+      "region_relevance": "The precuneus (specifically medial parietal areas like A7m and adjacent parieto-occipital regions) is a primary neural hub for visuospatial imagery, spatial coordinate transformation, and egocentric-to-allocentric mapping.",
+      "scoreability_note": "Easily scoreable from text descriptions detailing the physical environment, character movements, camera angles, and spatial transitions between locations.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_narrative_event_integration",
+      "definition": "The viewer's cognitive process of linking the current scene's events to the broader narrative history, updating their mental model of the story, and integrating temporal or causal connections across different parts of the movie.",
+      "region_relevance": "As a core node of the default mode network (including areas like A31 and A23), the precuneus is heavily involved in narrative comprehension, episodic memory retrieval, and the continuous updating of situational models over long time scales.",
+      "scoreability_note": "Scoreable by evaluating how much a scene relies on prior plot points, introduces long-term consequences, or requires the viewer to recall past events to understand the current context.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_social_perspective_taking",
+      "definition": "The viewer's active simulation of a character's internal mental states, intentions, beliefs, or hidden knowledge, especially when the viewer must adopt a character's point of view or track differing levels of awareness between characters.",
+      "region_relevance": "The precuneus is consistently recruited during Theory of Mind tasks, perspective-taking, and social attribution, working in concert with other default mode regions to process complex social dynamics.",
+      "scoreability_note": "Scoreable from descriptions of interpersonal conflict, non-verbal cues, deceptive behavior, or scenes where the viewer is invited to empathize with or infer a character's private thoughts.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_3_narrative_context_retrieval",
+      "definition": "The viewer's active retrieval and integration of prior narrative details, backstory, or character histories to make sense of the current scene's events and dialogue.",
+      "region_relevance": "The precuneus is a central hub for episodic memory retrieval and narrative integration, showing increased activity when current stimuli must be contextualized using past information.",
+      "scoreability_note": "Can be scored by identifying when a scene contains callbacks, references to off-screen events, or requires linking current actions to previously established character motivations.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_spatial_scene_mapping",
+      "definition": "The viewer's mental construction and tracking of the physical environment, including the spatial layout, boundaries, and relative positions of characters and objects.",
+      "region_relevance": "The precuneus is heavily implicated in spatial imagery, egocentric-to-allocentric translation, and maintaining a coherent cognitive map of the immediate environment.",
+      "scoreability_note": "Can be scored in scenes with dynamic movement, complex multi-room settings, or action sequences where spatial orientation is critical to understanding the narrative.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_character_perspective_tracking",
+      "definition": "The viewer's cognitive tracking of a character's internal mental state, intentions, or point of view, particularly when navigating complex social dynamics or hidden motives.",
+      "region_relevance": "The precuneus is a key component of the default mode and mentalizing networks, supporting theory of mind and the simulation of others' perspectives.",
+      "scoreability_note": "Can be scored in scenes involving subtext, strategic social interactions, or moments where a character's internal conflict is implied rather than stated.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_4_narrative_context_integration",
+      "definition": "The viewer's cognitive integration of ongoing events with prior narrative context, tracking how current actions resolve or complicate established plotlines over long timescales.",
+      "region_relevance": "The precuneus acts as a major temporal integration hub within the default mode network, crucial for accumulating information over minutes to build a coherent narrative.",
+      "scoreability_note": "Scoreable by analyzing the degree to which a scene relies on, references, or advances long-term plot points and character histories described in the text.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_spatial_layout_mentalizing",
+      "definition": "The viewer's mental reconstruction of the physical environment, tracking the spatial arrangement of characters, objects, and boundaries within the scene.",
+      "region_relevance": "The precuneus is a key node for egocentric-to-allocentric spatial translation and mental imagery of physical environments.",
+      "scoreability_note": "Scoreable by evaluating the density of spatial descriptions, movement trajectories, and environmental layouts detailed in the text.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_social_perspective_taking",
+      "definition": "The viewer's active inference of characters' unexpressed thoughts, beliefs, and intentions, allowing the viewer to understand why characters act the way they do.",
+      "region_relevance": "The precuneus is consistently activated during theory-of-mind tasks, particularly when viewers must infer complex social dynamics and adopt others' perspectives.",
+      "scoreability_note": "Scoreable by assessing the complexity of social interactions, subtext, and the necessity of inferring characters' internal states from the text.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_experiential_self_projection",
+      "definition": "The viewer's projection of their own self-schema, personal memories, or familiar life experiences onto the characters' situations to make sense of their actions and emotions.",
+      "region_relevance": "The precuneus is central to self-referential thought, autobiographical memory retrieval, and first-person perspective simulation.",
+      "scoreability_note": "Scoreable by identifying highly relatable human scenarios, introspective dilemmas, or emotionally resonant themes in the scene description.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_5_narrative_continuity_tracking",
+      "definition": "The viewer's tracking and integration of ongoing narrative events, establishing how the current scene connects to past events, character histories, and overarching plotlines. This involves synthesizing temporal sequences and recognizing shifts in time, location, or context.",
+      "region_relevance": "The precuneus is a core hub of the default mode network and is heavily implicated in continuous narrative integration, event segmentation, and linking incoming sensory information with long-term episodic memory structures.",
+      "scoreability_note": "Highly scoreable from text descriptions by identifying references to past plot points, flashbacks, temporal jumps, or scenes that require integrating information across long narrative arcs.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_spatial_perspective_mapping",
+      "definition": "The viewer's mental reconstruction and tracking of the physical layout, spatial relationships, and egocentric/allocentric perspectives within the scene. This includes mapping where characters are relative to each other, tracking movement through physical environments, and visualizing off-screen spaces.",
+      "region_relevance": "The precuneus plays a critical role in spatial processing, mental imagery, and translating between egocentric (viewer/character-centered) and allocentric (world-centered) spatial frameworks.",
+      "scoreability_note": "Scoreable by analyzing descriptions of physical movement, spatial layouts, camera perspectives, and character orientations within a scene.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_social_perspective_taking",
+      "definition": "The viewer's cognitive simulation of characters' internal mental states, intentions, beliefs, and hidden motivations, particularly when characters have conflicting perspectives or when there is a gap between what a character knows and what the viewer knows.",
+      "region_relevance": "The precuneus is a key node in the mentalizing/Theory of Mind network, active during tasks requiring perspective-taking, empathy, and inferring the psychological states of others.",
+      "scoreability_note": "Scoreable based on narrative descriptions detailing characters' unexpressed thoughts, deceptive actions, misunderstandings, or complex interpersonal dynamics that require the viewer to infer underlying motives.",
+      "source_run": 5
+    }
+  ],
+  "curated_domains": [
+    {
+      "domain_id": "spatial_perspective_tracking",
+      "definition": "The viewer's mental reconstruction and tracking of the physical layout, spatial relationships, and egocentric or allocentric perspectives within the scene's environment, including updating the mental map of where characters and objects are relative to each other and their surroundings.",
+      "region_relevance": "The precuneus is a key node in visuospatial processing, mental imagery, and egocentric-to-allocentric spatial coordinate transformation.",
+      "scoreability_note": "Highly scoreable from descriptions of character movements, camera perspective shifts, spatial layouts, and physical navigation within a scene.",
+      "source_domain_ids": [
+        "run_1_spatial_perspective_tracking",
+        "run_2_spatial_perspective_tracking",
+        "run_3_spatial_scene_mapping",
+        "run_4_spatial_layout_mentalizing",
+        "run_5_spatial_perspective_mapping"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all spatial mapping and perspective tracking domains across all five runs, as they describe the same underlying cognitive process of tracking physical layouts and spatial coordinates."
+    },
+    {
+      "domain_id": "narrative_context_integration",
+      "definition": "The viewer's cognitive integration of the current scene events with prior narrative context, tracking long-term plot developments, character histories, and thematic continuity across time.",
+      "region_relevance": "The precuneus is a core hub of the Default Mode Network (DMN) and is heavily implicated in narrative comprehension, episodic memory retrieval, and integrating information over long temporal windows.",
+      "scoreability_note": "Scoreable by assessing how much the current scene relies on prior knowledge, references past events, or advances ongoing multi-scene plotlines.",
+      "source_domain_ids": [
+        "run_1_narrative_situation_integration",
+        "run_2_narrative_event_integration",
+        "run_3_narrative_context_retrieval",
+        "run_4_narrative_context_integration",
+        "run_5_narrative_continuity_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all narrative integration, context retrieval, and continuity tracking domains across all five runs, as they all capture the viewer's temporal integration of story events."
+    },
+    {
+      "domain_id": "social_perspective_taking",
+      "definition": "The viewer's active inference of characters' unexpressed thoughts, hidden motives, beliefs, and psychological states based on their actions, expressions, and dialogue.",
+      "region_relevance": "The precuneus, as part of the mentalizing network, is consistently activated during Theory of Mind tasks and the attribution of mental states to others.",
+      "scoreability_note": "Scoreable from text descriptions detailing subtext, deceptive behavior, unspoken tension, or scenes requiring the viewer to read between the lines of character interactions.",
+      "source_domain_ids": [
+        "run_1_social_mentalizing",
+        "run_2_social_perspective_taking",
+        "run_3_character_perspective_tracking",
+        "run_4_social_perspective_taking",
+        "run_5_social_perspective_taking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all social mentalizing and perspective-taking domains across all five runs, as they all represent the viewer's cognitive simulation of characters' internal mental states."
+    },
+    {
+      "domain_id": "self_referential_projection",
+      "definition": "The viewer's retrieval of personal memories, familiar real-world schemas, or self-referential concepts triggered by the situations, relationships, or dilemmas presented on screen.",
+      "region_relevance": "The precuneus is central to autobiographical memory retrieval, self-referential processing, and comparing external stimuli to internal personal experiences.",
+      "scoreability_note": "Scoreable by evaluating the degree to which a scene depicts highly relatable, common life milestones, universal human experiences, or emotionally resonant personal dilemmas.",
+      "source_domain_ids": [
+        "run_1_self_referential_resonance",
+        "run_4_experiential_self_projection"
+      ],
+      "source_runs": [
+        1,
+        4
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Merged self-referential resonance and experiential self-projection from runs 1 and 4, as they both capture the viewer's projection of their own self-schema and autobiographical memories onto the narrative."
+    }
+  ],
+  "rejected_or_merged_domains": [
+    {
+      "domain_id": "run_1_spatial_perspective_tracking",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single spatial tracking domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_1_spatial_perspective_tracking"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "spatial_perspective_tracking"
+    },
+    {
+      "domain_id": "run_2_spatial_perspective_tracking",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single spatial tracking domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_2_spatial_perspective_tracking"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "spatial_perspective_tracking"
+    },
+    {
+      "domain_id": "run_3_spatial_scene_mapping",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single spatial tracking domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_3_spatial_scene_mapping"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "spatial_perspective_tracking"
+    },
+    {
+      "domain_id": "run_4_spatial_layout_mentalizing",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single spatial tracking domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_4_spatial_layout_mentalizing"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "spatial_perspective_tracking"
+    },
+    {
+      "domain_id": "run_5_spatial_perspective_mapping",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single spatial tracking domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_5_spatial_perspective_mapping"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "spatial_perspective_tracking"
+    },
+    {
+      "domain_id": "run_1_narrative_situation_integration",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single narrative context integration domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_1_narrative_situation_integration"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "narrative_context_integration"
+    },
+    {
+      "domain_id": "run_2_narrative_event_integration",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single narrative context integration domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_2_narrative_event_integration"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "narrative_context_integration"
+    },
+    {
+      "domain_id": "run_3_narrative_context_retrieval",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single narrative context integration domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_3_narrative_context_retrieval"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "narrative_context_integration"
+    },
+    {
+      "domain_id": "run_4_narrative_context_integration",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single narrative context integration domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_4_narrative_context_integration"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "narrative_context_integration"
+    },
+    {
+      "domain_id": "run_5_narrative_continuity_tracking",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single narrative context integration domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_5_narrative_continuity_tracking"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "narrative_context_integration"
+    },
+    {
+      "domain_id": "run_1_social_mentalizing",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single social perspective-taking domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_1_social_mentalizing"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "social_perspective_taking"
+    },
+    {
+      "domain_id": "run_2_social_perspective_taking",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single social perspective-taking domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_2_social_perspective_taking"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "social_perspective_taking"
+    },
+    {
+      "domain_id": "run_3_character_perspective_tracking",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single social perspective-taking domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_3_character_perspective_tracking"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "social_perspective_taking"
+    },
+    {
+      "domain_id": "run_4_social_perspective_taking",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single social perspective-taking domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_4_social_perspective_taking"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "social_perspective_taking"
+    },
+    {
+      "domain_id": "run_5_social_perspective_taking",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single social perspective-taking domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_5_social_perspective_taking"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "social_perspective_taking"
+    },
+    {
+      "domain_id": "run_1_self_referential_resonance",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single self-referential projection domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_1_self_referential_resonance"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "self_referential_projection"
+    },
+    {
+      "domain_id": "run_4_experiential_self_projection",
+      "decision": "MERGED",
+      "reason": "Consolidated into a single self-referential projection domain to eliminate redundancy across runs.",
+      "source_domain_ids": [
+        "run_4_experiential_self_projection"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "self_referential_projection"
+    }
+  ]
+}

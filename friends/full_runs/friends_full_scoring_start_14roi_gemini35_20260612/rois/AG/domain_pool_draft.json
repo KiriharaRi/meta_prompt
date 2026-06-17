@@ -1,0 +1,469 @@
+{
+  "version": "domain_pool_v2",
+  "target_region": "AG",
+  "curation_status": "draft",
+  "source_model": "gemini-3.5-flash",
+  "proposal_runs": 5,
+  "metadata": {
+    "generation_parameters": {
+      "provider": "gemini",
+      "temperature": 0.2,
+      "proposal_runs": 5
+    },
+    "required_domain_ids": [],
+    "confirmation_instructions": "Review curated_domains and rejected_or_merged_domains, then set curation_status to 'confirmed' before passing this pool to make-region-schema --domain-pool."
+  },
+  "candidate_domains": [
+    {
+      "domain_id": "run_1_social_mentalizing",
+      "definition": "The viewer's active inference of characters' unstated mental states, beliefs, hidden motives, intentions, or interpersonal dynamics based on dialogue, body language, and situational context.",
+      "region_relevance": "The angular gyrus (specifically A39) is a core node of the Theory of Mind (ToM) / mentalizing network, heavily involved in representing others' beliefs, intentions, and social relationships.",
+      "scoreability_note": "Can be scored by identifying segments where characters interact with hidden agendas, unspoken tension, or where the viewer must infer what a character knows or believes versus what is actually happening.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_narrative_situation_model_updating",
+      "definition": "The viewer's cognitive integration of ongoing events with prior plot points, tracking causal connections, and updating their overall mental model of the story's situation.",
+      "region_relevance": "AG acts as a high-level semantic integration hub, crucial for narrative comprehension, linking incoming information with long-term episodic context, and maintaining a coherent situation model.",
+      "scoreability_note": "High when scenes reveal crucial plot connections, resolve mysteries, or require the viewer to synthesize multiple threads of information; low during simple, isolated sensory or action sequences.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_semantic_expectancy_violation",
+      "definition": "The viewer's detection of unexpected events, incongruous actions, or statements that violate established narrative expectations, social norms, or physical reality within the movie's context.",
+      "region_relevance": "AG is sensitive to semantic expectancy violations, prediction errors in social/narrative contexts, and reorienting attention to unexpected but highly relevant information (ventral attention network overlap).",
+      "scoreability_note": "Easily scored from text descriptions highlighting plot twists, bizarre character behaviors, shocking revelations, or surreal events that defy the viewer's current expectations.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_2_narrative_event_integration",
+      "definition": "The viewer's cognitive tracking and integration of ongoing narrative events, including the detection of shifts in time, location, or situational context, and the synthesis of current actions with prior story knowledge.",
+      "region_relevance": "The angular gyrus (AG) is a key hub in the default mode network (DMN) and is heavily implicated in high-level narrative comprehension, integrating information over long timescales, and processing event boundaries.",
+      "scoreability_note": "Easily scoreable from text descriptions by identifying when a scene transitions, when new narrative threads are introduced, or when the viewer must recall past events to understand the current situation.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_social_intent_attribution",
+      "definition": "The viewer's active inference of characters' hidden motives, beliefs, unexpressed thoughts, or interpersonal dynamics that are not explicitly stated but must be deduced from dialogue, body language, and context.",
+      "region_relevance": "AG (especially A39) is a core component of the mentalizing/Theory of Mind network, crucial for representing others' mental states and social relationships.",
+      "scoreability_note": "Scoreable by analyzing text descriptions for subtext, deception, strategic social interactions, or moments where characters hold conflicting beliefs or hidden agendas.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_semantic_concept_association",
+      "definition": "The viewer's retrieval and activation of abstract semantic concepts, metaphors, or symbolic meanings triggered by the objects, dialogue, or situations depicted in the scene.",
+      "region_relevance": "The angular gyrus acts as a major multimodal semantic integration hub, linking perceptual inputs to rich, abstract conceptual knowledge and metaphorical meaning.",
+      "scoreability_note": "Scoreable by evaluating the density of symbolic imagery, metaphorical dialogue, or culturally loaded concepts in the scene description that require abstract interpretation.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_spatial_temporal_tracking",
+      "definition": "The viewer's mental construction and tracking of the physical layout, spatial relationships, and temporal sequence of the depicted environment and actions.",
+      "region_relevance": "AG is situated at the junction of visual, auditory, and somatosensory cortices, playing a critical role in egocentric and allocentric spatial mapping, spatial attention, and temporal sequencing.",
+      "scoreability_note": "Scoreable based on the complexity of the physical setting, movement of characters through space, and the necessity for the viewer to maintain a mental map of the environment.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_3_narrative_coherence_tracking",
+      "definition": "The viewer's cognitive tracking and integration of ongoing narrative threads, causal connections, and temporal sequences across scenes to maintain a coherent mental model of the story.",
+      "region_relevance": "The Angular Gyrus (A39) is a key hub of the default mode network and semantic system, essential for high-level narrative comprehension and integrating information over extended timescales.",
+      "scoreability_note": "Can be scored by assessing whether a scene requires the viewer to link current events to past plot points, resolve narrative gaps, or update their overall understanding of the storyline.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_social_intent_attribution",
+      "definition": "The viewer's active inference of characters' hidden motives, beliefs, goals, and mental states (Theory of Mind) based on their actions, dialogue, and non-verbal cues.",
+      "region_relevance": "The Angular Gyrus, particularly near the temporoparietal junction (TPJ/A39), is a critical node for social cognition, perspective-taking, and mentalizing.",
+      "scoreability_note": "Can be scored by identifying scenes involving deception, unstated motives, or complex interpersonal dynamics where the viewer must infer what characters are thinking or planning.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_semantic_anomaly_resolution",
+      "definition": "The viewer's detection and cognitive resolution of unexpected, incongruous, or metaphorical events, dialogue, or visual elements that violate established real-world or narrative-specific expectations.",
+      "region_relevance": "The Angular Gyrus is heavily involved in semantic integration, processing metaphorical language, and resolving conceptual violations or unexpected context shifts.",
+      "scoreability_note": "Can be scored by identifying moments of surrealism, unexpected plot twists, metaphorical dialogue, or actions that break conventional social/physical norms, requiring the viewer to re-interpret the context.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_spatial_perspective_mapping",
+      "definition": "The viewer's mental mapping of the spatial relationships, relative positions, and movements of characters and key objects within the scene's environment, especially during transitions or complex spatial layouts.",
+      "region_relevance": "The Angular Gyrus (A39) plays a key role in spatial cognition, egocentric-to-allocentric transformation, and representing spatial configurations.",
+      "scoreability_note": "Can be scored by analyzing descriptions of character movements, camera pans that reveal spatial layouts, or scenes where the relative physical positioning of characters/objects is critical to understanding the action.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_4_narrative_coherence_tracking",
+      "definition": "The viewer's ongoing cognitive integration of plot events, causal links, and character motivations across scenes to maintain a coherent mental model of the story.",
+      "region_relevance": "The angular gyrus (AG) is a key node of the default mode network and semantic network, essential for high-level narrative comprehension, integrating information over extended timescales, and constructing continuous situational schemas.",
+      "scoreability_note": "Can be scored by analyzing text descriptions for the density of causal connections, references to past events, or the introduction of plot-critical information that requires updating the overall story model.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_social_intent_attribution",
+      "definition": "The viewer's active inference of characters' hidden motives, beliefs, alliances, or mental states based on their subtle behaviors, dialogue, or situational context.",
+      "region_relevance": "AG, particularly at the temporoparietal junction (TPJ) boundary, is heavily implicated in Theory of Mind (ToM) and social cognition, specifically in decoding intentions, perspective-taking, and mentalizing.",
+      "scoreability_note": "Scoreable by identifying scenes with rich interpersonal dynamics, subtext, deception, or situations where the viewer must track what different characters know or believe.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_spatial_temporal_reorientation",
+      "definition": "The viewer's cognitive adjustment and updating of their mental map when the movie shifts across different physical locations, timelines, or narrative frames (such as flashbacks or parallel editing).",
+      "region_relevance": "AG plays a critical role in spatial and temporal frame-of-reference processing, mapping egocentric/allocentric space, and updating situational schemas during transitions.",
+      "scoreability_note": "Easily scored based on the presence of scene cuts, jumps in time, shifts in setting, or transitions between reality and subjective states described in the text.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_semantic_anomaly_resolution",
+      "definition": "The viewer's effort to make sense of unexpected, metaphorical, or highly unusual events, dialogue, or visual juxtapositions that violate standard real-world expectations or established narrative rules.",
+      "region_relevance": "AG is highly sensitive to semantic violations, metaphor comprehension, and the integration of incongruent concepts into a meaningful context.",
+      "scoreability_note": "Scoreable by identifying surreal elements, highly metaphorical dialogue, unexpected plot twists, or bizarre character actions that require the viewer to re-interpret the scene's meaning.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_5_narrative_event_integration",
+      "definition": "The viewer's active cognitive integration of the current scene's events with previously established plot points, tracking how new information updates the overarching story arc and causal chain.",
+      "region_relevance": "The angular gyrus (AG), particularly within the default mode network (e.g., A39c, A39rd), is a critical hub for high-level semantic integration and narrative comprehension, supporting the construction of a continuous mental model over long timescales.",
+      "scoreability_note": "Can be scored by analyzing text descriptions for the presence of plot-pivotal revelations, references to past events, or scenes that resolve/advance long-term narrative questions.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_social_mentalizing_inference",
+      "definition": "The viewer's attribution of unexpressed mental states, hidden motives, beliefs, or emotional conflicts to characters, especially when there is a gap between a character's overt behavior and their internal reality.",
+      "region_relevance": "The angular gyrus and adjacent temporoparietal junction (TPJ) are core components of the theory-of-mind network, heavily engaged when viewers infer the thoughts, intentions, and perspectives of social agents.",
+      "scoreability_note": "Can be scored by identifying scenes with high social complexity, subtext, deception, dramatic irony, or multi-character negotiations in the text.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_situation_boundary_updating",
+      "definition": "The viewer's tracking of shifts in the spatial, temporal, or situational context of the narrative, requiring them to update their mental representation of 'where' and 'when' the action is occurring.",
+      "region_relevance": "AG is involved in spatial-temporal orientation and episodic memory retrieval, playing a key role in detecting event boundaries and updating situation models during narrative transitions.",
+      "scoreability_note": "Can be scored by identifying explicit changes in location, time jumps, flashbacks, or transitions between parallel storylines within the scene descriptions.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_semantic_schema_evaluation",
+      "definition": "The viewer's appraisal of how well the events, objects, or behaviors in a scene conform to real-world schemas or established narrative rules, including the detection of surprising, incongruous, or novel elements.",
+      "region_relevance": "AG is highly sensitive to semantic expectancy, conceptual associations, and schema violations, showing differential activation when incoming information challenges established semantic frameworks.",
+      "scoreability_note": "Can be scored by assessing the degree of novelty, absurdity, surrealism, or unexpected twists described in the text relative to common real-world or genre-specific expectations.",
+      "source_run": 5
+    }
+  ],
+  "curated_domains": [
+    {
+      "domain_id": "social_mentalizing",
+      "definition": "The viewer's active inference of characters' unstated mental states, beliefs, hidden motives, intentions, or interpersonal dynamics based on dialogue, body language, and situational context.",
+      "region_relevance": "The angular gyrus (specifically A39) is a core node of the Theory of Mind (ToM) / mentalizing network, heavily involved in representing others' beliefs, intentions, and social relationships.",
+      "scoreability_note": "Can be scored by identifying segments where characters interact with hidden agendas, unspoken tension, or where the viewer must infer what a character knows or believes versus what is actually happening.",
+      "source_domain_ids": [
+        "run_1_social_mentalizing",
+        "run_2_social_intent_attribution",
+        "run_3_social_intent_attribution",
+        "run_4_social_intent_attribution",
+        "run_5_social_mentalizing_inference"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all social cognition, mentalizing, and intent attribution domains across all five runs into a single robust domain. This represents a core function of the AG (especially at the TPJ boundary)."
+    },
+    {
+      "domain_id": "narrative_coherence_integration",
+      "definition": "The viewer's cognitive integration of ongoing events with prior plot points, tracking causal connections, and updating their overall mental model of the story's situation.",
+      "region_relevance": "AG acts as a high-level semantic integration hub and key node of the default mode network (DMN), crucial for narrative comprehension, linking incoming information with long-term episodic context, and maintaining a coherent situation model.",
+      "scoreability_note": "High when scenes reveal crucial plot connections, resolve mysteries, or require the viewer to synthesize multiple threads of information; low during simple, isolated sensory or action sequences.",
+      "source_domain_ids": [
+        "run_1_narrative_situation_model_updating",
+        "run_2_narrative_event_integration",
+        "run_3_narrative_coherence_tracking",
+        "run_4_narrative_coherence_tracking",
+        "run_5_narrative_event_integration"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged narrative integration, coherence tracking, and situation model updating domains across all five runs. These represent the high-level semantic and episodic integration functions of the AG during continuous narrative processing."
+    },
+    {
+      "domain_id": "semantic_schema_and_anomaly_resolution",
+      "definition": "The viewer's appraisal of how well events, dialogue, or visual elements conform to real-world schemas or established narrative rules, including the detection and cognitive resolution of unexpected, incongruous, or metaphorical elements.",
+      "region_relevance": "The angular gyrus is heavily involved in semantic integration, processing metaphorical language, and resolving conceptual violations or unexpected context shifts (semantic expectancy violations).",
+      "scoreability_note": "Can be scored by identifying moments of surrealism, unexpected plot twists, metaphorical dialogue, or actions that break conventional social/physical norms, requiring the viewer to re-interpret the context.",
+      "source_domain_ids": [
+        "run_1_semantic_expectancy_violation",
+        "run_2_semantic_concept_association",
+        "run_3_semantic_anomaly_resolution",
+        "run_4_semantic_anomaly_resolution",
+        "run_5_semantic_schema_evaluation"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Combined semantic expectancy violation, concept association, anomaly resolution, and schema evaluation into a single domain focused on semantic schema processing and resolving violations, which is a well-established function of the AG."
+    },
+    {
+      "domain_id": "spatial_temporal_situation_tracking",
+      "definition": "The viewer's mental construction, tracking, and updating of the physical layout, spatial relationships, and temporal sequence of the depicted environment, especially during transitions, scene cuts, or shifts in setting.",
+      "region_relevance": "AG is situated at the junction of visual, auditory, and somatosensory cortices, playing a critical role in egocentric and allocentric spatial mapping, spatial attention, temporal sequencing, and updating situational schemas during transitions.",
+      "scoreability_note": "Scoreable based on the complexity of the physical setting, movement of characters through space, and the presence of scene cuts, jumps in time, or shifts in setting that require the viewer to update their spatial-temporal frame of reference.",
+      "source_domain_ids": [
+        "run_2_spatial_temporal_tracking",
+        "run_3_spatial_perspective_mapping",
+        "run_4_spatial_temporal_reorientation",
+        "run_5_situation_boundary_updating"
+      ],
+      "source_runs": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Merged spatial-temporal tracking, perspective mapping, reorientation, and situation boundary updating. This captures the AG's role in spatial-temporal frame-of-reference processing and event boundary detection."
+    }
+  ],
+  "rejected_or_merged_domains": [
+    {
+      "domain_id": "run_1_social_mentalizing",
+      "decision": "MERGED",
+      "reason": "Merged into 'social_mentalizing' to consolidate all Theory of Mind and social inference domains across runs.",
+      "source_domain_ids": [
+        "run_1_social_mentalizing"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "social_mentalizing"
+    },
+    {
+      "domain_id": "run_2_social_intent_attribution",
+      "decision": "MERGED",
+      "reason": "Merged into 'social_mentalizing' to consolidate all Theory of Mind and social inference domains across runs.",
+      "source_domain_ids": [
+        "run_2_social_intent_attribution"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "social_mentalizing"
+    },
+    {
+      "domain_id": "run_3_social_intent_attribution",
+      "decision": "MERGED",
+      "reason": "Merged into 'social_mentalizing' to consolidate all Theory of Mind and social inference domains across runs.",
+      "source_domain_ids": [
+        "run_3_social_intent_attribution"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "social_mentalizing"
+    },
+    {
+      "domain_id": "run_4_social_intent_attribution",
+      "decision": "MERGED",
+      "reason": "Merged into 'social_mentalizing' to consolidate all Theory of Mind and social inference domains across runs.",
+      "source_domain_ids": [
+        "run_4_social_intent_attribution"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "social_mentalizing"
+    },
+    {
+      "domain_id": "run_5_social_mentalizing_inference",
+      "decision": "MERGED",
+      "reason": "Merged into 'social_mentalizing' to consolidate all Theory of Mind and social inference domains across runs.",
+      "source_domain_ids": [
+        "run_5_social_mentalizing_inference"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "social_mentalizing"
+    },
+    {
+      "domain_id": "run_1_narrative_situation_model_updating",
+      "decision": "MERGED",
+      "reason": "Merged into 'narrative_coherence_integration' to consolidate narrative tracking and situation model updating.",
+      "source_domain_ids": [
+        "run_1_narrative_situation_model_updating"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "narrative_coherence_integration"
+    },
+    {
+      "domain_id": "run_2_narrative_event_integration",
+      "decision": "MERGED",
+      "reason": "Merged into 'narrative_coherence_integration' to consolidate narrative tracking and situation model updating.",
+      "source_domain_ids": [
+        "run_2_narrative_event_integration"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "narrative_coherence_integration"
+    },
+    {
+      "domain_id": "run_3_narrative_coherence_tracking",
+      "decision": "MERGED",
+      "reason": "Merged into 'narrative_coherence_integration' to consolidate narrative tracking and situation model updating.",
+      "source_domain_ids": [
+        "run_3_narrative_coherence_tracking"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "narrative_coherence_integration"
+    },
+    {
+      "domain_id": "run_4_narrative_coherence_tracking",
+      "decision": "MERGED",
+      "reason": "Merged into 'narrative_coherence_integration' to consolidate narrative tracking and situation model updating.",
+      "source_domain_ids": [
+        "run_4_narrative_coherence_tracking"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "narrative_coherence_integration"
+    },
+    {
+      "domain_id": "run_5_narrative_event_integration",
+      "decision": "MERGED",
+      "reason": "Merged into 'narrative_coherence_integration' to consolidate narrative tracking and situation model updating.",
+      "source_domain_ids": [
+        "run_5_narrative_event_integration"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "narrative_coherence_integration"
+    },
+    {
+      "domain_id": "run_1_semantic_expectancy_violation",
+      "decision": "MERGED",
+      "reason": "Merged into 'semantic_schema_and_anomaly_resolution' to consolidate semantic schema evaluation and anomaly resolution.",
+      "source_domain_ids": [
+        "run_1_semantic_expectancy_violation"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "semantic_schema_and_anomaly_resolution"
+    },
+    {
+      "domain_id": "run_2_semantic_concept_association",
+      "decision": "MERGED",
+      "reason": "Merged into 'semantic_schema_and_anomaly_resolution' to consolidate semantic schema evaluation and anomaly resolution.",
+      "source_domain_ids": [
+        "run_2_semantic_concept_association"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "semantic_schema_and_anomaly_resolution"
+    },
+    {
+      "domain_id": "run_3_semantic_anomaly_resolution",
+      "decision": "MERGED",
+      "reason": "Merged into 'semantic_schema_and_anomaly_resolution' to consolidate semantic schema evaluation and anomaly resolution.",
+      "source_domain_ids": [
+        "run_3_semantic_anomaly_resolution"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "semantic_schema_and_anomaly_resolution"
+    },
+    {
+      "domain_id": "run_4_semantic_anomaly_resolution",
+      "decision": "MERGED",
+      "reason": "Merged into 'semantic_schema_and_anomaly_resolution' to consolidate semantic schema evaluation and anomaly resolution.",
+      "source_domain_ids": [
+        "run_4_semantic_anomaly_resolution"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "semantic_schema_and_anomaly_resolution"
+    },
+    {
+      "domain_id": "run_5_semantic_schema_evaluation",
+      "decision": "MERGED",
+      "reason": "Merged into 'semantic_schema_and_anomaly_resolution' to consolidate semantic schema evaluation and anomaly resolution.",
+      "source_domain_ids": [
+        "run_5_semantic_schema_evaluation"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "semantic_schema_and_anomaly_resolution"
+    },
+    {
+      "domain_id": "run_2_spatial_temporal_tracking",
+      "decision": "MERGED",
+      "reason": "Merged into 'spatial_temporal_situation_tracking' to consolidate spatial-temporal mapping and situation boundary updating.",
+      "source_domain_ids": [
+        "run_2_spatial_temporal_tracking"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "spatial_temporal_situation_tracking"
+    },
+    {
+      "domain_id": "run_3_spatial_perspective_mapping",
+      "decision": "MERGED",
+      "reason": "Merged into 'spatial_temporal_situation_tracking' to consolidate spatial-temporal mapping and situation boundary updating.",
+      "source_domain_ids": [
+        "run_3_spatial_perspective_mapping"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "spatial_temporal_situation_tracking"
+    },
+    {
+      "domain_id": "run_4_spatial_temporal_reorientation",
+      "decision": "MERGED",
+      "reason": "Merged into 'spatial_temporal_situation_tracking' to consolidate spatial-temporal mapping and situation boundary updating.",
+      "source_domain_ids": [
+        "run_4_spatial_temporal_reorientation"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "spatial_temporal_situation_tracking"
+    },
+    {
+      "domain_id": "run_5_situation_boundary_updating",
+      "decision": "MERGED",
+      "reason": "Merged into 'spatial_temporal_situation_tracking' to consolidate spatial-temporal mapping and situation boundary updating.",
+      "source_domain_ids": [
+        "run_5_situation_boundary_updating"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "spatial_temporal_situation_tracking"
+    }
+  ]
+}

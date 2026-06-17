@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:45",
+    "batch_summary": "In a coffee shop, Rachel awkwardly escapes her waitress duties with Ross by pretending to look for a coffee pot. Meanwhile, at the apartment, a cynical Phoebe vents to Monica and Richard about unexpectedly tragic movie endings. To restore her faith in humanity, Monica lends her a copy of It's a Wonderful Life. Shortly after, Chandler arrives to recruit Richard for a game, which Richard reveals is actually the basketball playoffs.",
+    "cumulative_summary": "The story begins in a coffee shop where Rachel, eager to avoid work, makes a clumsy excuse to Ross about needing a coffee pot and quickly flees. The scene shifts to the apartment, where Phoebe arrives in a pessimistic mood, venting to Monica and Richard about how supposedly uplifting movies like Charlotte's Web and Pride of the Yankees actually have devastatingly sad endings. Hoping to cheer her up and restore her faith in humanity, Monica lends Phoebe a VHS tape of It's a Wonderful Life, assuring her that happiness is guaranteed. Meanwhile, Chandler drops by to invite Richard to hang out, jokingly referring to a high-stakes game of pickup sticks, which Richard clarifies is actually the basketball playoffs."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:45 - 00:03:30",
+    "batch_summary": "Monica becomes frustrated when Richard chooses to hang out with her friends instead of spending his limited free time with her, prompting a characteristically bleak response from a pessimistic Phoebe. Meanwhile, Rachel is panicked to discover that Ross has already mapped out the next twenty years of their lives, including their future children's names. This leads to a tense confrontation, as Rachel struggles with Ross's intense long-term expectations after only six weeks of dating.",
+    "cumulative_summary": "The story begins with Rachel avoiding Ross at the coffee shop, while Phoebe vents to Monica and Richard about the depressing endings of supposedly uplifting movies. To cheer her up, Monica lends Phoebe a tape of It's a Wonderful Life. Meanwhile, Richard joins Chandler and Joey for the basketball playoffs, leaving Monica frustrated that he is spending his limited free time away from her. When Monica vents, a still-pessimistic Phoebe offers bleak relationship advice. The tension escalates when Rachel confronts Ross about his overwhelming long-term planning. Despite only dating for six weeks, Ross has already mapped out the next twenty years of their lives, including living in Scarsdale and naming their future children. Rachel, panicked by this rapid pace, argues that she prefers to focus on immediate plans like dinner dates, highlighting a major clash in their relationship expectations."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:30 - 00:05:18",
+    "batch_summary": "Rachel explains to Ross that she fears having her future pre-planned, drawing parallels to her past relationship with Barry. Ross counters that he cannot stop planning because he is certain they will end up together. Accepting their differences, they confess their love for the first time and share a passionate kiss. Meanwhile, Phoebe returns \"It's a Wonderful Life\" to Monica, admitting she turned it off early because it was too depressing. Elsewhere, Richard bonds further with Joey and Chandler, impressing them with his foosball skills.",
+    "cumulative_summary": "The story begins with Rachel avoiding Ross, while Phoebe vents about depressing movie endings. To cheer her up, Monica lends Phoebe a tape of It's a Wonderful Life. Meanwhile, Richard joins Chandler and Joey for the basketball playoffs, leaving Monica frustrated by his absence. The tension escalates when Rachel confronts Ross about his overwhelming twenty-year plan for their future, which panics her. However, their confrontation leads to a breakthrough: Rachel explains her need for independence after her past with Barry, while Ross firmly asserts his commitment to their future. Accepting their differences, they confess their love for the first time and share a kiss. Meanwhile, Phoebe's pessimism remains unbroken as she returns the movie tape to Monica, having turned it off early because she found it too depressing. Finally, Richard continues to bond with Chandler and Joey, thoroughly impressing them with his foosball skills and further cementing his place in the friend group."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:18 - 00:07:12",
+    "batch_summary": "Richard continues to bond with Joey and Chandler over foosball, but the dynamic shifts when Monica interrupts them for dinner. While apologizing for hogging Richard's time, Joey accidentally reveals that they view Richard as a cool father figure rather than a peer. Chandler frantically tries to cover up the slip by claiming \"dad\" is slang for \"buddy,\" but the awkwardness remains. Richard and Monica leave for a romantic evening, leaving a slightly embarrassed Joey and Chandler to playfully bicker over the misunderstanding.",
+    "cumulative_summary": "The story begins with Rachel avoiding Ross, while Phoebe vents about depressing movie endings. To cheer her up, Monica lends Phoebe a tape of It's a Wonderful Life, though Phoebe's pessimism remains unbroken when she returns it early. Meanwhile, Rachel and Ross confront their differing views on the future, ultimately confessing their love and sharing a kiss. At the same time, Richard bonds with Chandler and Joey over basketball and foosball. However, the dynamic shifts when Monica interrupts their game for dinner. In an attempt to praise Richard, Joey accidentally reveals that they view him as a cool father figure rather than a peer. Chandler frantically tries to explain away the comment by claiming \"dad\" is slang for \"buddy,\" but Richard is left amused and slightly awkwarded out. Richard and Monica depart for a romantic evening, leaving Joey and Chandler to playfully bicker over the embarrassing slip-up."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:12 - 00:08:44",
+    "batch_summary": "In the hallway, Richard admits to Monica that the \"dad\" comment made him feel old, but Monica lovingly reassures him and teases his poor foosball skills. Meanwhile, Ross teaches Rachel how to change baby Ben's diaper. After successfully completing the task, Rachel is stunned when Ben speaks his very first word, \"Hi.\" Overjoyed and shocked, she frantically calls out to Ross to share the milestone.",
+    "cumulative_summary": "The story begins with Rachel avoiding Ross, while Phoebe vents about depressing movie endings. To cheer her up, Monica lends Phoebe a tape of It's a Wonderful Life, though Phoebe's pessimism remains unbroken. Meanwhile, Rachel and Ross confront their differing views on the future, ultimately confessing their love and sharing a kiss. At the same time, Richard bonds with Chandler and Joey over basketball and foosball, but a slip of the tongue reveals they view him as a \"dad\" figure. In the hallway, Richard admits this made him feel old, but Monica lovingly reassures him. Later, Ross teaches Rachel how to change baby Ben's diaper. After successfully completing the task, Rachel is shocked and ecstatic when Ben speaks his very first word, \"Hi,\" and she eagerly calls Ross over to share the milestone."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:44 - 00:10:34",
+    "batch_summary": "Ross is disappointed to have missed Ben's first word, \"Hi,\" but his spirits lift when Carol and Susan arrive to pick up the baby. As they prepare to leave, Ben speaks again, saying \"Bye\" directly to Ross. Overjoyed and emotional, Ross celebrates witnessing this milestone. Later, Phoebe watches Sesame Street with Ben, cautiously reassuring him that a buried character is eventually found, maintaining her anxious protective streak over happy endings.",
+    "cumulative_summary": "The story begins with Rachel avoiding Ross, while Phoebe vents about depressing movie endings. To cheer her up, Monica lends Phoebe a tape of It's a Wonderful Life, though Phoebe's pessimism remains unbroken. Meanwhile, Rachel and Ross confront their differing views on the future, ultimately confessing their love and sharing a kiss. At the same time, Richard bonds with Chandler and Joey, who accidentally reveal they view him as a father figure, though Monica later reassures him. Later, Ross teaches Rachel how to change baby Ben's diaper, leading to Ben speaking his first word, \"Hi.\" Although Ross is initially disappointed to have missed it, his spirits soar when Carol and Susan arrive to pick up the baby, and Ben clearly says \"Bye\" to him. An emotional Ross celebrates this milestone before the baby departs. Finally, Phoebe babysits Ben and watches Sesame Street with him, cautiously reassuring the infant that a buried puppet is eventually found, continuing her humorous obsession with protecting others from sad endings."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 248,
+    "timestamp_range": "00:10:34 - 00:11:08",
+    "batch_summary": "While babysitting baby Ben, Phoebe continues her anxious but humorous attempt to shield him from sad television moments. As they watch Sesame Street, she nervously warns him about the \"rough going\" ahead, finding comfort in the fact that the alphabet at least ends well. When Ernie begins searching for a missing Bert on screen, a worried Phoebe pulls Ben close for comfort, expressing how glad she is to have him there as they face the suspense together.",
+    "cumulative_summary": "The story begins with Rachel avoiding Ross, while Phoebe vents about depressing movie endings. To cheer her up, Monica lends Phoebe a tape of It's a Wonderful Life, though Phoebe's pessimism remains unbroken. Meanwhile, Rachel and Ross confront their differing views on the future, ultimately confessing their love and sharing a kiss. At the same time, Richard bonds with Chandler and Joey, who accidentally reveal they view him as a father figure, though Monica later reassures him. Later, Ross teaches Rachel how to change baby Ben's diaper, leading to Ben speaking his first word, \"Hi.\" Although Ross is initially disappointed to have missed it, his spirits soar when Carol and Susan arrive to pick up the baby, and Ben clearly says \"Bye\" to him. An emotional Ross celebrates this milestone before the baby departs. Finally, Phoebe babysits Ben and watches Sesame Street with him. Cautiously reassuring the infant about the \"rough going\" in the show, she finds solace in the alphabet's happy ending. When Ernie begins searching for a missing Bert, a nervous Phoebe pulls Ben close for comfort, grateful for his company."
+  }
+]

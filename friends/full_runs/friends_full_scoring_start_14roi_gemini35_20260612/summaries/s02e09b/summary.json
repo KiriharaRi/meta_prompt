@@ -1,0 +1,26 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:56",
+    "batch_summary": "In snowy New York, Phoebe prepares to drive Joey and Chandler to meet her father for the first time. However, Chandler quickly flees the taxi after discovering his seat has no seatbelt because paramedics previously cut it. Meanwhile, at Monica's apartment, Rachel complains about the intense heat. While trying to prove he is not obsessive, Ross attempts to turn down the radiator but accidentally snaps the control knob off, leaving the heat stuck on.",
+    "cumulative_summary": "In a snowy New York City decorated for Christmas, Phoebe prepares for a major life milestone: driving to meet her father for the first time. She picks up Joey and Chandler in her taxi cab to accompany her on the two-hour journey. However, the trip hits an immediate snag when Chandler discovers his seat is missing a seatbelt—which Phoebe casually explains was cut out by paramedics. Terrified for his safety, Chandler promptly abandons the ride. Meanwhile, back at the apartment, Monica is busy baking while Ross anxiously tries to convince her that he is not obsessive. When a sweltering Rachel complains about the apartment's intense heat, Monica asks Ross to turn it down. Eager to prove himself, Ross attempts to adjust the radiator but accidentally snaps the control knob completely off, leaving the heater stuck on and creating a new problem for the group."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:56 - 00:03:28",
+    "batch_summary": "Back at the apartment, Ross fails to fix the broken radiator. Rachel calls the building super, Mr. Treeger, who refuses to fix it before their party unless they tip him—a demand Monica stubbornly rejects despite the soaring heat. Meanwhile, Phoebe, Joey, and Chandler arrive at her father's house. Although Chandler has rejoined the trip, the momentum stalls when they park; Phoebe is overcome with anxiety and finds herself unable to step out of the taxi to finally meet her father.",
+    "cumulative_summary": "In a snowy New York City, Phoebe prepares to meet her father for the first time, embarking on a road trip in her taxi with Joey and Chandler. Although Chandler initially panics over a missing seatbelt, he remains in the cab as they successfully reach their destination. However, once parked outside her father's house, Phoebe is paralyzed by anxiety and cannot bring herself to leave the vehicle. Meanwhile, back at the sweltering apartment, Ross's attempt to prove he is not obsessive backfires completely when he accidentally breaks the radiator control knob off. With the heat trapped on high, Rachel calls the building super, Mr. Treeger, for help. When Treeger hints at a tip to resolve the issue before their holiday party, Monica stubbornly refuses to be blackmailed. As the apartment continues to bake, the friends face a ridiculously overheated apartment, while Phoebe faces her deep-seated fears of confrontation and rejection on the snowy streets outside."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 88,
+    "timestamp_range": "00:03:28 - 00:03:56",
+    "batch_summary": "Outside her father's house, Phoebe remains frozen with anxiety in the taxi, unable to bring herself to go inside despite telling Joey and Chandler she is ready. Meanwhile, back at the apartment, Monica and Rachel's holiday party transforms into a tropical Christmas due to the broken radiator. Guests are forced to strip down to summer clothing to cope with the sweltering heat, and a heavily sweating Ross tries to socialize under the oppressive conditions.",
+    "cumulative_summary": "In a snowy New York City, Phoebe embarks on a road trip with Joey and Chandler to meet her father for the first time. However, once parked outside his decorated house, Phoebe is paralyzed by anxiety and remains frozen in the taxi, unable to step out. Meanwhile, back at the apartment, Ross's attempt to fix the radiator backfires, breaking the control knob and trapping the heat on high. Because Monica refuses to tip the building super, Mr. Treeger, to resolve the issue, the apartment continues to bake. This forces Monica and Rachel to host a bizarre tropical Christmas party where guests must strip down to summer clothes to survive the sweltering heat. As a heavily sweating Ross struggles to socialize in the oppressive warmth, Phoebe continues to battle her deep-seated fears of confrontation and rejection in the snowy driveway outside."
+  }
+]

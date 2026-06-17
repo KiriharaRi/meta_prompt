@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:26",
+    "batch_summary": "Late at night, Joey and his friends eagerly buy newspapers to read the reviews of his latest acting role as a king. To Joey's devastation, the critics universally pan his performance, calling it \"disturbingly unskilled.\" Feeling defeated after ten years of trying to make it as an actor, Joey declares he wants to quit. Back at the apartment, the group tries to comfort him as he contemplates alternative careers. Later, Ross arrives home from work and is thrilled to discover that Monica's boyfriend, \"Fun Bobby,\" is visiting.",
+    "cumulative_summary": "Late at night, Joey rushes to a newsstand with Rachel, Monica, Phoebe, Chandler, and Ross to read the reviews for his recent stage performance as a king. Despite his friends' initial teasing about his lack of underwear on stage, Joey is eager for feedback. However, the reviews are brutally harsh, calling his acting \"disturbingly unskilled\" and celebrating his character's beheading. Devastated by the critical failure and questioning his ten-year acting career, a defeated Joey announces his decision to quit acting. Back at the apartment, the supportive group tries to comfort Joey as he humorously reflects on failed childhood career aspirations like becoming a veterinarian. The somber mood shifts slightly when Ross arrives home from a tough day at the museum and excitedly notices a jacket belonging to \"Fun Bobby.\" Monica confirms his presence just as Fun Bobby himself emerges from the hallway, bringing a spark of excitement to the apartment."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:26 - 00:04:18",
+    "batch_summary": "Fun Bobby brings high energy to the apartment, playfully lifting Joey to cheer him up before sharing a kiss with Monica and leaving. Monica expresses hope for their rekindled relationship, sharing plans for a romantic cabin weekend. However, the mood shifts when Rachel calculates their wine consumption. The group realizes they drank very little, meaning Fun Bobby consumed nearly three entire bottles of wine by himself, leaving everyone stunned and Monica quickly on the defensive.",
+    "cumulative_summary": "Late at night, Joey and his friends read brutally harsh reviews of his latest play, leaving him devastated and ready to quit acting. Back at the apartment, the group tries to comfort him until Monica's boyfriend, \"Fun Bobby,\" arrives and injects energy into the room. Fun Bobby playfully lifts Joey to cheer him up before leaving. Afterward, an optimistic Monica expresses hope for their rekindled romance, sharing plans for an upcoming weekend getaway. However, the lighthearted atmosphere shifts to quiet concern when Rachel notices they went through five bottles of wine. After calculating their individual drinks, the group collectively realizes that Fun Bobby drank the vast majority of the alcohol himself, leaving a defensive Monica to downplay his heavy drinking."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:04:18 - 00:06:19",
+    "batch_summary": "After the group points out Fun Bobby's constant drinking, Joey asks Monica if she has ever seen him sober. Later at the coffee shop, Bobby tries to spike his coffee, prompting Monica to gently confront him about his alcohol consumption. Bobby admits he has a problem and has made excuses in the past. Touched by Monica's concern, he promises to quit drinking, leading to a warm, supportive embrace between the couple.",
+    "cumulative_summary": "Late at night, Joey and his friends read brutally harsh reviews of his latest play, leaving him devastated. Back at the apartment, Monica's boyfriend, \"Fun Bobby,\" arrives and injects energy into the room, cheering Joey up. Afterward, an optimistic Monica expresses hope for their rekindled romance. However, the atmosphere shifts when the group realizes Bobby drank the vast majority of their wine. After the friends point out Bobby's pattern of constant drinking, Joey asks Monica if she has ever seen him sober. Although initially defensive, Monica is forced to face reality at the coffee shop when Bobby tries to spike his coffee with a flask. She gently but honestly confronts him about his drinking habits. To her relief, Bobby admits he has a problem and agrees to quit drinking, touched by her genuine concern for his well-being."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:06:19 - 00:07:49",
+    "batch_summary": "At the coffee shop, Joey excitedly announces he has landed an audition for Days of Our Lives, prompting celebratory banter among the friends. Fun Bobby offers a toast from his flask. Meanwhile, Rachel reveals she has an upcoming date. When Joey asks if she is still angry with Ross over the list he made, Rachel admits she is no longer mad, but rather feels completely indifferent toward him.",
+    "cumulative_summary": "After Joey is devastated by harsh reviews of his play, Monica's boyfriend, 'Fun Bobby,' cheers him up, though his heavy drinking soon concerns the group. Monica confronts Bobby, who agrees to quit drinking. Later at the coffee shop, Joey joyfully announces he has landed an audition for Days of Our Lives, prompting celebrations where Bobby offers a toast from his flask. Meanwhile, Rachel reveals she has an upcoming date. When Joey asks if she is still angry with Ross over the list he made, Rachel admits she is no longer mad, but rather feels completely indifferent toward him, signaling a cold shift in their relationship."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:49 - 00:09:42",
+    "batch_summary": "Rachel insists to her friends that she will never date Ross, only to immediately introduce her new date, Russ, who looks remarkably like Ross, leaving everyone stunned. Meanwhile, Joey visits his agent, Estelle, to share that he got a callback for Days of Our Lives. However, he expresses concern that the casting director was hitting on him and hinting at a quid pro quo for the role, prompting Estelle to call and investigate.",
+    "cumulative_summary": "After Joey is devastated by harsh reviews of his play, Monica's boyfriend, 'Fun Bobby,' cheers him up, though his heavy drinking soon concerns the group. Monica confronts Bobby, who agrees to quit drinking. Later, Joey lands an audition for Days of Our Lives. Meanwhile, Rachel insists she is completely indifferent toward Ross and will never date him. However, she immediately shocks her friends by introducing her new date, Russ, who is a dead ringer for Ross. Joey later visits his agent, Estelle, with good news about a callback for the soap opera, but he admits to feeling uncomfortable because the casting director seemed to suggest he would only get the part if he slept with her. Estelle immediately calls to investigate the situation."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:42 - 00:11:35",
+    "batch_summary": "Estelle confirms Joey's fears by telling him he must sleep with the casting director to secure the role. Meanwhile, Monica's boyfriend, Bobby, has successfully sobered up, but the group quickly realizes that \"Fun Bobby\" is incredibly boring without alcohol. After Bobby shares a tedious story about searching for a hammer, Monica and Chandler lament his new, dull personality, leaving Monica exasperated.",
+    "cumulative_summary": "After Joey is devastated by harsh reviews of his play, Monica's boyfriend, \"Fun Bobby,\" cheers him up, though his heavy drinking soon concerns the group. Monica confronts Bobby, who agrees to quit drinking. Meanwhile, Rachel insists she is indifferent toward Ross, yet shocks her friends by dating Russ, a dead ringer for Ross. Joey lands an audition for Days of Our Lives but worries the casting director expects sexual favors. When Joey visits his agent, Estelle, she calls to investigate and bluntly confirms that he will indeed have to sleep with the casting director to get the part. At Central Perk, Monica and the group discover a disappointing side effect of Bobby's sobriety: without alcohol, \"Fun Bobby\" is incredibly dull. After Bobby bores them with a tedious story about searching for a hammer, Monica is left exasperated by his new, ridiculously boring personality."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 244,
+    "timestamp_range": "00:11:35 - 00:11:53",
+    "batch_summary": "Monica expresses her growing anxiety and guilt to Rachel and Phoebe regarding her relationship with the newly sober, boring Bobby. Realizing she is the one who pushed him to quit drinking, she feels trapped and responsible, lamenting that she cannot break up with him now despite his incredibly dull personality.",
+    "cumulative_summary": "After Joey is devastated by harsh reviews of his play, Monica's boyfriend, \"Fun Bobby,\" cheers him up, though his heavy drinking soon concerns the group. Monica confronts Bobby, who agrees to quit drinking. Meanwhile, Rachel insists she is indifferent toward Ross, yet shocks her friends by dating Russ, a dead ringer for Ross. Joey lands an audition for Days of Our Lives but worries the casting director expects sexual favors, which his agent Estelle bluntly confirms. At Central Perk, Monica and the group discover a disappointing side effect of Bobby's sobriety: without alcohol, \"Fun Bobby\" is incredibly dull. After Bobby bores them with a tedious story, Monica is left exasperated by his new, ridiculously boring personality. Feeling trapped and guilty because she was the one who pushed him to get sober, Monica confesses to Rachel and Phoebe that she feels she can no longer break up with him, despite facing a lifetime of his tedious stories."
+  }
+]

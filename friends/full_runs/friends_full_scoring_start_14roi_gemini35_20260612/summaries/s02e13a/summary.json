@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:47",
+    "batch_summary": "On a bustling movie set where Ross's monkey Marcel is starring, the friends gather. Rachel learns of Marcel's high-profile status, while Joey enlists Phoebe in a dramatic, fake scene to catch the director's eye. Meanwhile, Chandler wanders the set making jokes until he is approached by Susie Moss, a makeup artist who recognizes him as her classmate from the fourth grade.",
+    "cumulative_summary": "On a busy movie set where Ross's monkey, Marcel, is starring in a film, the friends experience the chaotic production environment. Rachel is amazed to learn that Marcel has achieved major star status, comparable to Sybil Shepard. Eager to get noticed by the director, Joey drags Phoebe into an impromptu, overly dramatic performance about a fake flesh-eating virus to show off his acting skills. Meanwhile, Chandler wanders the set cracking jokes to extras in hazmat suits and camouflage. His amusement is interrupted when he crosses paths with Susie Moss, a makeup artist working on the production. Susie recognizes Chandler and reminds him that they were classmates back in the fourth grade, recalling her childhood habit of carrying animal crackers like a purse. Chandler is surprised but pleased as he finally remembers her, setting the stage for a nostalgic reunion amidst the movie set chaos."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:47 - 00:03:27",
+    "batch_summary": "Chandler and Susie Moss continue catching up, but Susie brings up a humiliating childhood incident where Chandler pulled up her skirt during a school play. Despite the awkward memory, the two share a flirtatious rapport. Meanwhile, Monica spots action star Jean-Claude Van Damme on set and is immediately starstruck. Too nervous to approach him herself, she sends Rachel to tell him she thinks he is cute. However, when Rachel approaches Van Damme, he playfully turns his attention and charm onto Rachel instead.",
+    "cumulative_summary": "On a busy movie set where Ross's monkey, Marcel, is starring in a film, the friends experience the chaotic production environment. Eager to get noticed, Joey and Phoebe perform an over-the-top scene, while Chandler wanders the set. Chandler runs into Susie Moss, a makeup artist and former fourth-grade classmate. As they catch up, Susie playfully confronts him about a humiliating childhood prank where he pulled up her skirt during a school play. Despite the awkward memory, a flirtatious spark remains between them. Meanwhile, Monica is thrilled to spot action star Jean-Claude Van Damme on set. Too intimidated to approach him herself, she begs Rachel to go over and tell him she thinks he is cute. Rachel reluctantly agrees, but when she delivers the message, Van Damme bypasses Monica's interest and begins flirting directly with Rachel instead, leaving her pleasantly surprised."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:27 - 00:05:18",
+    "batch_summary": "On the movie set, Jean-Claude Van Damme continues to flirt with Rachel, ignoring her attempts to redirect him to Monica. When Rachel reports back, Monica graciously gives her permission to go out with him, prompting Rachel to eagerly accept his invitation. Meanwhile, Chandler and Susie Moss share a playful conversation about their childhood. Susie flirtatiously prompts Chandler to ask her out, and they set a date for dinner, leaving Chandler thrilled but stunned by her parting tease about his underwear.",
+    "cumulative_summary": "On a busy movie set, the friends navigate a chaotic production environment. Monica, thrilled to spot action star Jean-Claude Van Damme, begs Rachel to tell him she thinks he is cute. However, Van Damme bypasses Monica's interest and flirts directly with Rachel. Although Rachel tries to redirect him, Van Damme persists in asking her out. When Rachel confesses this to Monica, Monica graciously gives her blessing, prompting Rachel to eagerly accept the date. Meanwhile, Chandler catches up with Susie Moss, a makeup artist and former classmate he once humiliated in school. Despite their awkward past, a strong flirtatious spark remains. After some playful banter about their childhood, Susie coaxes Chandler into asking her out. They agree to meet for a date, leaving Chandler stunned but excited when Susie teasingly hints at getting back at him for his childhood prank."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:18 - 00:07:01",
+    "batch_summary": "Back at Central Perk, Rachel gushes about her exciting date with Jean-Claude Van Damme, fueling Monica's growing resentment and passive-aggressive behavior. Phoebe also calls Rachel out for her betrayal. Meanwhile, Joey is annoyed when Ross cancels their racquetball plans to spend time with his former pet monkey, Marcel. Finally, an ecstatic Chandler arrives to rave about his incredible date with Susie Moss, sharing how she suggested hooking up in an elevator, leaving him thrilled and completely smitten.",
+    "cumulative_summary": "On a busy movie set, Monica begs Rachel to help her get the attention of action star Jean-Claude Van Damme. However, Van Damme flirts directly with Rachel instead. Though Monica initially gives her blessing, Rachel's subsequent date with the star—and her bragging about it at Central Perk—fuels Monica's deep resentment and passive-aggressive behavior, which Phoebe also calls out. Meanwhile, Joey is left annoyed when Ross cancels their racquetball plans to spend time with his former pet monkey, Marcel. Elsewhere, Chandler goes on a date with his former classmate Susie Moss, whom he once humiliated in school. Despite Susie's teasing hints of revenge, their date is a massive success. Chandler returns to the group ecstatic and exhausted, eagerly sharing how Susie suggested hooking up in an elevator, leaving him completely smitten and thrilled by their intense chemistry."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:01 - 00:08:38",
+    "batch_summary": "Chandler's romance with Susie Moss takes a provocative turn when she convinces him to wear her underwear to their dinner date, hinting that she will go without. A smitten Chandler eagerly agrees. Meanwhile, Ross prepares a bizarrely elaborate welcome-home dinner for his former pet monkey, Marcel, complete with music, candles, and a mealworm-infused banana cake, prompting Joey to mock his eccentric expectations for the evening.",
+    "cumulative_summary": "On a movie set, Rachel's date with action star Jean-Claude Van Damme sparks deep resentment from Monica, straining their friendship. Meanwhile, Chandler's romance with his former classmate Susie Moss intensifies. During a passionate moment before their dinner date, Susie playfully convinces a smitten Chandler to wear her underwear to the restaurant, hinting at her own lack of undergarments. Elsewhere, Ross's obsession with his former pet monkey, Marcel, reaches new heights. After canceling racquetball plans with Joey, Ross meticulously prepares a bizarrely romantic welcome-home dinner for the monkey, complete with music, candles, and a mealworm-infused banana cake. Joey watches the elaborate preparations with amusement, questioning Ross's eccentric expectations for his reunion with Marcel."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:38 - 00:10:20",
+    "batch_summary": "Ross's romantic reunion plans are ruined when Marcel cancels due to work commitments, leaving Ross heartbroken. Joey offers awkward but sweet comfort. Meanwhile, Phoebe attempts to mediate the conflict between Monica and Rachel over Jean-Claude Van Damme. Rachel defends her actions, claiming she had a \"green light,\" but Monica accuses her of betrayal. The argument quickly devolves from heated accusations into a childish physical altercation as the two begin flicking each other in frustration.",
+    "cumulative_summary": "On a movie set, Rachel's date with action star Jean-Claude Van Damme sparks deep resentment from Monica. When Phoebe tries to mediate their conflict, Rachel claims she had a \"green light,\" but Monica accuses her of betrayal. The argument quickly devolves into a childish physical fight as they begin flicking each other. Meanwhile, Chandler's romance with Susie Moss intensifies, leading to him wearing her underwear to dinner. Elsewhere, Ross's obsession with his former pet monkey, Marcel, culminates in him preparing a bizarrely romantic welcome-home dinner. However, Ross's plans are ruined when Marcel cancels due to work commitments. A disappointed Ross finds awkward comfort in Joey as they share a prolonged handhold."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:10:20 - 00:11:47",
+    "batch_summary": "Rachel and Monica's childish argument escalates into a full-blown physical wrestling match on the living room floor. Fed up, Phoebe physically intervenes by grabbing both of them by their ears to force a truce. Rachel and Monica finally reach an agreement where Rachel will stop seeing Jean-Claude Van Damme so Monica can date him instead. Later, the group dines at a restaurant, where a lonely Ross tags along, and Chandler struggles with the extreme discomfort of wearing Susie's underwear.",
+    "cumulative_summary": "On a movie set, Rachel's date with action star Jean-Claude Van Damme sparks deep resentment from Monica. Their childish bickering quickly escalates into a physical wrestling match on the living room floor. Fed up, Phoebe physically intervenes by grabbing both of them by their ears to force a truce. The rivals finally reach an agreement: Rachel will stop seeing Van Damme so Monica can date him instead. Meanwhile, after Ross's romantic welcome-home dinner plans with his former pet monkey, Marcel, are ruined by a last-minute cancellation, he tags along with the rest of the group for dinner. At the restaurant, Chandler struggles with extreme discomfort while wearing Susie Moss's underwear, trying to keep his composure in front of Susie, Joey, and a lonely Ross."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 285,
+    "timestamp_range": "00:11:47 - 00:12:07",
+    "batch_summary": "At the restaurant, Joey tries to flatter Susie about her job, hoping for a casting connection, but she quickly shuts him down by revealing she has nothing to do with casting. As the group looks over their menus, Chandler's preoccupation with Susie's underwear continues. He leans in and whispers a suggestive comment to her about wanting to put ice in his mouth to cool down, highlighting his ongoing discomfort and flirtatious tension.",
+    "cumulative_summary": "On a movie set, Rachel's date with action star Jean-Claude Van Damme sparks deep resentment from Monica. Their childish bickering quickly escalates into a physical wrestling match on the living room floor. Fed up, Phoebe physically intervenes by grabbing both of them by their ears to force a truce. The rivals finally reach an agreement: Rachel will stop seeing Van Damme so Monica can date him instead. Meanwhile, after Ross's romantic welcome-home dinner plans with his former pet monkey, Marcel, are ruined by a last-minute cancellation, he tags along with the rest of the group for dinner. At the restaurant, Chandler struggles with extreme discomfort while wearing Susie Moss's underwear, trying to keep his composure in front of Susie, Joey, and a lonely Ross. Joey attempts to network with Susie about her job, but she quickly clarifies she has no influence over casting. Meanwhile, Chandler's distraction peaks as he leans in to whisper a suggestive comment to Susie about needing ice, unable to focus on anything but his current predicament."
+  }
+]

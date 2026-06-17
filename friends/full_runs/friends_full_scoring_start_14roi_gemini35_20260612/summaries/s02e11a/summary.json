@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:36",
+    "batch_summary": "Ross hands off his baby son to his ex-wife Carol and her partner Susan, who shock him with the news that they are getting married. Though Ross awkwardly tries to act supportive and claims he is happy for them, his tense behavior and a mishap with a folding chair reveal his true distress. Later, Ross joins Joey and Chandler, where Joey excitedly discusses his upcoming television debut on Days of Our Lives.",
+    "cumulative_summary": "In an awkward but comedic encounter, Ross returns his baby son to his ex-wife Carol and her partner Susan. The situation quickly grows tense when Carol reveals that she and Susan are getting married. Although Carol extends an invitation to the wedding while offering him an easy way out, Ross desperately tries to prove he is fine with the news. He insists he is happy for them, but his forced enthusiasm and a clumsy incident where he gets his finger stuck in a baby seat betray his deep discomfort. After Carol and Susan leave, the scene shifts to another apartment where Ross hangs out with Chandler and Joey. The mood lightens as Joey enthusiastically shares his excitement about landing a role and appearing on the soap opera Days of Our Lives."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:36 - 00:03:09",
+    "batch_summary": "Monica excitedly announces she has been asked to cater Carol and Susan's wedding after their original caterer is injured. Despite needing the money, she checks in with Ross, who remains deeply bitter and insists he will not attend. Chandler playfully teases Ross for his cynicism, while Joey jokes about Carol's sexuality. Soon, Rachel rushes in just in time to watch Joey's upcoming appearance on Days of Our Lives, where Joey humorously explains a bizarre acting technique he learned on set.",
+    "cumulative_summary": "In an awkward but comedic encounter, Ross returns his baby son to his ex-wife Carol and her partner Susan, who reveal they are getting married. Though Ross desperately tries to act fine with the news, his forced enthusiasm fails to hide his deep discomfort. Later, hanging out with Chandler and Joey, the mood lightens as Joey shares his excitement about landing a role on Days of Our Lives. The group's dynamic shifts when Monica excitedly announces she has been hired to cater Carol and Susan's wedding. While Monica is thrilled for the income, her news prompts Ross to double down on his bitterness, flatly refusing to attend the ceremony. Chandler playfully teases Ross's sour attitude, and Joey cracks jokes about the situation. The tension diffuses when Rachel rushes in to watch Joey's soap opera debut. As they gather around the TV, Joey proudly shares a bizarre \"smell the fart\" acting technique he learned on set, leaving his friends amused and bewildered."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:09 - 00:04:47",
+    "batch_summary": "Joey explains his \"smell the fart\" acting technique to his friends, demonstrating how he uses an intense pause to remember lines. The group watches his debut on Days of Our Lives as Dr. Drake Ramoray, where he successfully pulls off the trick, earning laughs and praise from Chandler and Ross. As Ross and Chandler prepare to leave for work, Phoebe arrives at the apartment looking visibly upset, hinting at a new conflict.",
+    "cumulative_summary": "After Ross reluctantly learns of his ex-wife Carol's upcoming wedding to Susan, the tension in the group is relieved when Monica is hired to cater the event, despite Ross's bitter refusal to attend. The mood lightens further as the friends gather to watch Joey's soap opera debut on Days of Our Lives. Joey explains his \"smell the fart\" acting technique—using an intense, paused expression to remember lines—and the group hilariously watches him execute it on screen as Dr. Drake Ramoray. After celebrating Joey's success, Ross and Chandler prepare to leave for work, but the lighthearted atmosphere shifts when Phoebe arrives at the apartment looking visibly distressed, signaling that something is wrong."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:47 - 00:06:38",
+    "batch_summary": "Phoebe shocks the group by revealing that an elderly client, Mrs. Adelman, died on her massage table, and she believes the woman's spirit has entered her body. Meanwhile, at the coffee shop, Rachel is highly anxious about an upcoming visit from her mother, fearing her mom will judge her life choices after calling off her wedding to Barry. Phoebe's eccentric behavior continues as she claims to hear the deceased woman's thoughts, adding a bizarre and humorous tension to the friends' conversations.",
+    "cumulative_summary": "After Ross reluctantly learns of his ex-wife Carol's upcoming wedding, the group's tension is relieved when Monica is hired to cater the event, and they later gather to celebrate Joey's soap opera debut on Days of Our Lives. However, the lighthearted atmosphere shifts when a distressed Phoebe arrives and reveals that an elderly client, Mrs. Adelman, died on her massage table. Bizarrely, Phoebe believes the woman's spirit has possessed her body. Later at the coffee shop, Rachel expresses intense anxiety over her mother's upcoming visit, fearing her mom will judge her life since she called off her wedding to Barry. Meanwhile, Phoebe's eccentric behavior continues as she claims to hear the deceased client's thoughts in her head, adding a humorous layer of supernatural absurdity to Rachel's real-world worries."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:38 - 00:08:23",
+    "batch_summary": "Rachel's mother, Sandra, arrives at Central Perk, bringing a mix of warmth and mild condescension. Sandra meets the group, making a playful dig at Monica's past and expressing surprise at Rachel's job. Surprisingly, Sandra reveals she is incredibly proud of Rachel's independence, contrasting it with her own life of dependency. However, tension arises when Sandra expects Rachel to skip work for a shopping day. Meanwhile, Phoebe's eccentric behavior continues as she compares Sandra to a woman named Evelyn Dermer, hinting at her ongoing possession.",
+    "cumulative_summary": "After Ross reluctantly learns of his ex-wife Carol's upcoming wedding, the group's tension is relieved when Monica is hired to cater the event, and they later gather to celebrate Joey's soap opera debut on Days of Our Lives. However, the lighthearted atmosphere shifts when a distressed Phoebe arrives and reveals that an elderly client, Mrs. Adelman, died on her massage table. Bizarrely, Phoebe believes the woman's spirit has possessed her body. Later at the coffee shop, Rachel expresses intense anxiety over her mother's upcoming visit, fearing her mom will judge her life since she called off her wedding to Barry. When her mother, Sandra, finally arrives, Rachel is relieved to find her supportive. Sandra expresses immense pride in Rachel's independence, admitting she never had a career of her own. However, Sandra's upper-class expectations clash with Rachel's working-class reality when she expects Rachel to skip her shift for a spa day. Meanwhile, Phoebe's bizarre behavior persists as she claims Sandra reminds her of Evelyn Dermer."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:23 - 00:10:29",
+    "batch_summary": "After Phoebe's eccentricities continue, Rachel and her mother, Sandra, share a private moment in the apartment. Rachel explains how much happier she is living independently. In a shocking twist, Sandra reveals that Rachel's independence has inspired her to consider leaving Rachel's father. Stunned and physically sickened by the news, Rachel struggles to process the revelation. Monica briefly interrupts with catering ideas, but the tension remains high as Sandra explains how she has spent her entire marriage on autopilot, leaving Rachel deeply unsettled.",
+    "cumulative_summary": "After Ross reluctantly learns of his ex-wife Carol's upcoming wedding, Monica is hired to cater the event, and the friends celebrate Joey's soap opera debut. The mood shifts when Phoebe arrives, claiming she is possessed by the spirit of a deceased client. Meanwhile, Rachel anxiously awaits a visit from her mother, Sandra. Though initially relieved by Sandra's supportive attitude toward her new independence, Rachel's relief quickly turns to shock. During a heart-to-heart in the apartment, Sandra confesses that seeing Rachel's happy, self-reliant lifestyle has inspired her to consider leaving Rachel's father. Stunned and deeply distressed by this sudden revelation, Rachel struggles to comprehend her mother's confession, while Sandra explains that she has spent her entire married life feeling like she was on autopilot."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 274,
+    "timestamp_range": "00:10:29 - 00:12:06",
+    "batch_summary": "Sandra explains to Rachel that she wants an adventurous life like hers, but \"with money,\" leaving Rachel stunned. Later at Central Perk, Rachel vents to her friends about her parents' quiet, unexpected split. Monica tries to comfort Rachel by suggesting her mother's decision is a form of flattery, though Rachel wishes she had just copied her haircut instead. Chandler attempts to offer humorous, albeit unhelpful, advice about parental divorce before the segment ends.",
+    "cumulative_summary": "After Ross reluctantly learns of his ex-wife Carol's upcoming wedding, Monica is hired to cater the event, and the friends celebrate Joey's soap opera debut. The mood shifts when Phoebe arrives, claiming she is possessed. Meanwhile, Rachel's mother, Sandra, visits and drops a bombshell: inspired by Rachel's independence, she plans to leave Rachel's father. Sandra explains she wants an adventurous life like Rachel's, but \"with money,\" leaving Rachel stunned. At Central Perk, Rachel vents to her friends about her parents' quiet, non-communicative marriage. Monica tries to comfort Rachel by suggesting her mother's decision is a flattering imitation of her self-reliance, though Rachel remains distressed. Chandler then chimes in with his own cynical, humorous perspective on parental divorce."
+  }
+]

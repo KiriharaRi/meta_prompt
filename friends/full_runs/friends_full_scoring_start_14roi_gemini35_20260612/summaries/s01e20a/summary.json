@@ -1,0 +1,50 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:51",
+    "batch_summary": "In Monica's apartment, the friends debate snack mascots before spotting a neighbor with a telescope, followed by \"Ugly Naked Guy\" using gravity boots. Later at Central Perk, Chandler raves about an incredible first date but refuses to call the woman to avoid seeming needy. Despite Joey's support for waiting, Monica and Phoebe pressure him. Phoebe forces Chandler to call, but he only reaches her answering machine, prompting a sarcastic remark.",
+    "cumulative_summary": "The story begins in Monica's apartment, where the close-knit group of friends—Monica, Chandler, Joey, Phoebe, and Ross—are hanging out and debating trivial topics like snack mascots. Their banter is interrupted when Monica spots a neighbor looking at them with a telescope. However, their disgust quickly turns to curiosity when Phoebe notices \"Ugly Naked Guy\" wearing gravity boots, prompting everyone to crowd around the window. Later, at Central Perk, Chandler enthusiastically describes a perfect first date where he felt he could truly be himself. Despite his excitement, he resists calling her back immediately to avoid appearing needy, a strategy Joey supports. Monica and Phoebe are exasperated by this dating game, and Phoebe ultimately forces a phone into Chandler's hand. Reluctantly, Chandler dials her number, only to get her answering machine, which he covers up with a quick, sarcastic joke to his friends."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:51 - 00:03:34",
+    "batch_summary": "While Chandler defends his phone-call strategy, Phoebe spots Rachel outside talking to a man. Rachel enters Central Perk carrying a shopping bag and happily reveals she just went on a lavish date with Barry, the fiancé she previously left at the altar. Despite Ross's anxious questioning, Rachel admits she couldn't bring herself to break things off because seeing him was too comfortable and familiar, prompting concern and disbelief from Monica and the rest of the group.",
+    "cumulative_summary": "The story begins in Monica's apartment, where the friends hang out before moving to Central Perk. There, Chandler debates dating etiquette and resists calling a girl back to avoid appearing needy. After reluctantly calling and getting her answering machine, Chandler defends his awkwardness with phone messages. Meanwhile, Phoebe spots Rachel outside talking to a man. Rachel soon enters the coffee shop carrying shopping bags and happily reveals she just went on a lavish date with Barry, the fiancé she famously left at the altar. Despite Ross's anxious questioning about whether she finally broke things off, Rachel admits she couldn't do it because seeing Barry felt too comfortable and familiar. This revelation leaves Ross dismayed and Monica deeply concerned about Rachel's regression."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:34 - 00:05:15",
+    "batch_summary": "After Monica reminds Rachel that Barry is engaged to her ex-best friend, Rachel promises to end things. However, she instead hooks up with Barry in his dental chair. Meanwhile, Chandler spends two hours meticulously scripting and rehearsing a voicemail for Danielle. With Ross's impatient help, Chandler finally leaves the message, awkwardly clinking a bowl to pretend he is at a busy restaurant.",
+    "cumulative_summary": "The story begins with Chandler obsessing over dating etiquette and resisting calling a girl back to avoid appearing needy. Meanwhile, Rachel returns from a lavish date with Barry, the fiancé she left at the altar. Although Ross is dismayed and Monica reminds Rachel that Barry is now engaged to her ex-best friend, Rachel promises to end the relationship. However, when she visits Barry's dental office, she succumbs to temptation and hooks up with him instead. Back at the apartment, Chandler spends two hours meticulously scripting and rehearsing a voicemail for Danielle. With Ross's impatient assistance, Chandler finally leaves the message, awkwardly clinking a bowl to simulate the background noise of a busy restaurant to make himself seem busy."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:15 - 00:06:47",
+    "batch_summary": "Back at the apartment, the friends spot a neighbor spying on them with a telescope, prompting Joey to admit he dislikes being watched while cooking naked. Meanwhile, in the dental office, Rachel and Barry get dressed after their tryst. Rachel expresses guilt over Barry's fiancée, Mindy, but Barry dismisses the relationship, offering to break off the engagement and inviting Rachel on a weekend trip to Aruba—the destination of their aborted honeymoon.",
+    "cumulative_summary": "The story begins with Chandler obsessing over dating etiquette, eventually leaving a meticulously rehearsed voicemail for Danielle with Ross's help. Meanwhile, Rachel returns from a date with her ex-fiancé Barry, promising Monica she will end things since Barry is now engaged to her ex-best friend, Mindy. However, Rachel succumbs to temptation and hooks up with Barry at his dental office. Immediately after, Rachel feels conflicted about Mindy, but Barry minimizes his commitment, offering to call off the engagement. He impulsively invites Rachel on a weekend getaway to Aruba—the destination of their failed honeymoon. Back at the apartment, the rest of the friends deal with a neighbor spying on them with a telescope, which prompts Joey to reveal his bizarre habit of cooking naked, much to Chandler and Ross's bewilderment."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:47 - 00:10:22",
+    "batch_summary": "After retrieving her forgotten bra from Barry's office, Rachel confesses to her friends that she had sex with Barry in his dental chair. Ross reacts with intense defensiveness, comparing her situation to his feelings for his ex-wife Carol before storming out. Meanwhile, Chandler eagerly answers the phone hoping for Danielle, but it is Mindy calling Rachel. Feeling guilty, Rachel awkwardly congratulates Mindy on her engagement to Barry and reluctantly invites her to meet up the next day.",
+    "cumulative_summary": "The story begins with Chandler obsessing over dating etiquette, eventually leaving a voicemail for Danielle with Ross's help. Meanwhile, Rachel returns from a date with her ex-fiancé Barry, promising Monica she will end things since Barry is now engaged to her ex-best friend, Mindy. However, Rachel succumbs to temptation and hooks up with Barry at his dental office. After retrieving her forgotten bra, Rachel confesses to her friends that she had sex with Barry in his dental chair. This confession triggers a defensive, jealous reaction from Ross, who storms out after comparing Rachel's situation to his own lingering feelings for his ex-wife, Carol. Chandler's hopes of hearing from Danielle are dashed when he answers a phone call from Mindy instead. A guilt-ridden Rachel awkwardly congratulates Mindy on her engagement to Barry and reluctantly agrees to meet with her the following day, setting up a tense confrontation."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 227,
+    "timestamp_range": "00:10:22 - 00:11:25",
+    "batch_summary": "Rachel's anxiety peaks after her call with Mindy, prompting her to try and warn Barry. However, her attempt backfires when Mindy answers Barry's phone instead, forcing Rachel into another awkward conversation. Meanwhile, Chandler's agonizing wait for Danielle's call continues. When the phone finally rings, Monica snatches it away first, leaving a dejected Chandler to lament his misery.",
+    "cumulative_summary": "The story begins with Chandler obsessing over dating etiquette, eventually leaving a voicemail for Danielle with Ross's help. Meanwhile, Rachel returns from a date with her ex-fiancé Barry, promising Monica she will end things since Barry is now engaged to her ex-best friend, Mindy. However, Rachel succumbs to temptation and hooks up with Barry at his dental office. After retrieving her forgotten bra, Rachel confesses to her friends that she had sex with Barry in his dental chair. This confession triggers a defensive, jealous reaction from Ross, who storms out after comparing Rachel's situation to his own lingering feelings for his ex-wife, Carol. Chandler's hopes of hearing from Danielle are dashed when he answers a phone call from Mindy instead. A guilt-ridden Rachel awkwardly congratulates Mindy on her engagement to Barry and reluctantly agrees to meet with her the following day. Rachel's anxiety peaks, and her attempt to warn Barry backfires when Mindy answers his phone instead. Meanwhile, Chandler's agonizing wait for Danielle's call continues, only for Monica to snatch the phone when it finally rings, leaving him utterly dejected."
+  }
+]

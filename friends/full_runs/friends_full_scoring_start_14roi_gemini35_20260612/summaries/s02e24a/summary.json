@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:50",
+    "batch_summary": "At Central Perk, Joey shares that he auditioned for director Warren Beatty, but was told he is a \"bad kisser\" after kissing a male actor for the role. Distressed by this critique and facing a callback on Monday, Joey asks the girls in the group to kiss him so he can practice. While Monica and Rachel refuse, Phoebe steps up to help her friend, preparing to kiss him to help him improve his technique.",
+    "cumulative_summary": "At the Central Perk coffee shop, Joey reveals to his friends—Chandler, Monica, Ross, Rachel, and Phoebe—that he recently auditioned for a role directed by Warren Beatty. Although Joey successfully performed a kiss with another male actor during the audition, Beatty gave him feedback that he is a \"good actor, bad kisser.\" Deeply offended and concerned because he has a callback on Monday to show his kissing skills again, Joey desperately asks the girls in the group to kiss him so he can figure out what he is doing wrong. While Monica and Rachel immediately decline, Phoebe generously volunteers to help, noting she has kissed him before and is willing to do it again to support her friend."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:50 - 00:03:49",
+    "batch_summary": "Phoebe kisses Joey and declares him a great kisser, leading Monica to suggest Joey's issue is kissing men. When Joey eyes Ross and Chandler for practice, both flatly refuse. Later, Rachel reluctantly tries on a hideous, puffy pink maid-of-honor dress for her ex-fiancé Barry's wedding to Mindy, determined to attend to face her past. Meanwhile, Chandler arrives in yesterday's clothes, happily revealing he stayed up all night talking to a woman on the internet, earning some lighthearted teasing from Richard.",
+    "cumulative_summary": "At the Central Perk coffee shop, Joey seeks help after being told he is a bad kisser at an audition. After Phoebe kisses him and deems him excellent, Monica suggests his issue is tensing up with men. However, both Ross and Chandler refuse to help him practice. Later, Rachel reluctantly models a puffy, bright pink maid-of-honor dress for her ex-fiancé Barry's upcoming wedding to Mindy. Despite Ross's skepticism and her friends' teasing, Rachel is determined to attend to face her past. Meanwhile, Chandler arrives wearing the same clothes from the night before, revealing he stayed up all night chatting with a woman online, which earns him some playful teasing from Richard."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:49 - 00:05:32",
+    "batch_summary": "Chandler shares how his online love interest challenged him to drop his sarcastic defense mechanism, which unnerves his friends. After Richard leaves, Monica admits to Phoebe that she is terrified to ask Richard about their future, despite finding him dreamy. Chandler teases Rachel about her pink dress again, prompting Ross to quickly comfort her. Later, Richard is seen warmly playing peek-a-boo with a baby, hinting at Monica's deeper desires for a future.",
+    "cumulative_summary": "At the Central Perk coffee shop, Joey seeks help after being told he is a bad kisser at an audition. After Phoebe kisses him and deems him excellent, Monica suggests his issue is tensing up with men. However, both Ross and Chandler refuse to help him practice. Meanwhile, Rachel reluctantly models a puffy, bright pink maid-of-honor dress for her ex-fianc\u0000\u0019e Barry's upcoming wedding to Mindy, determined to face her past despite her friends' teasing. Chandler, wearing the same clothes from the night before, reveals he stayed up all night chatting with a woman online. He explains that she challenged him to drop his sarcastic defense mechanism, which unnerves his friends. After Richard leaves, Monica admits to Phoebe that she is terrified to ask Richard about their future, claiming they are just living in the moment. Chandler continues to tease Rachel about her dress, forcing Ross to quickly comfort her. Later, Richard is seen warmly playing peek-a-boo with a baby in front of a smitten Monica, highlighting her unspoken desires for their future."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:32 - 00:07:18",
+    "batch_summary": "Monica finally musters the courage to ask Richard about their future together. While Richard enthusiastically confirms that Monica is his future, proposing a dream life in France, a major conflict arises when Monica brings up having children. Richard admits that while he loves kids, he does not want to raise more children at his age and be 70 when they go to college. Although Richard expresses his deep love for her, Monica is left quietly devastated by their incompatible desires.",
+    "cumulative_summary": "At the Central Perk coffee shop, Joey seeks help after being told he is a bad kisser at an audition, but Ross and Chandler refuse to help him practice. Meanwhile, Rachel reluctantly models a puffy, bright pink maid-of-honor dress for her ex-fianc\u0000e Barry's upcoming wedding to Mindy, determined to face her past despite her friends' teasing. Chandler reveals he stayed up all night chatting with a woman online who challenged him to drop his sarcastic defense mechanism. Meanwhile, after seeing Richard warmly play with a baby, Monica finally musters the courage to ask him about their future. Although Richard lovingly assures Monica that she is his future, proposing a dream life in France, a major conflict arises when Monica brings up having children. Richard admits that he does not want to raise more children at his age and be 70 when they go to college. Although Richard expresses his deep love for her, Monica is left quietly devastated by their incompatible desires, casting a shadow over their relationship."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:18 - 00:09:03",
+    "batch_summary": "Monica tries to deflect her serious baby discussion with Richard by joking about the distant future before leaving to say goodbye to him. Meanwhile, Joey continues his desperate search for a kissing partner, but both Chandler and Ross firmly reject him. Rachel arrives in her ridiculous pink maid-of-honor dress alongside Ross in a tuxedo. Finally, Chandler happily chats with his online love interest, though Phoebe and Ross tease him that his \"cyber chick\" could actually be a man.",
+    "cumulative_summary": "At the Central Perk coffee shop, Joey seeks help after being told he is a bad kisser, but his friends refuse to help him practice. Meanwhile, Rachel reluctantly prepares to model a puffy, bright pink maid-of-honor dress for her ex-fianc\te Barry's wedding to Mindy. After seeing Richard play with a baby, Monica confronts him about having children. Richard admits he does not want more kids at his age, leaving Monica devastated. Monica tries to deflect this painful reality with jokes about the distant future before heading out to say goodbye to him. Meanwhile, Joey's desperate attempts to get Chandler or Ross to kiss him for practice are repeatedly shut down. Rachel finally debuts her ridiculous pink dress, enduring teasing from Chandler. Finally, Chandler enjoys a sweet online connection with a woman he met in a chatroom, sharing virtual hand-holding and mutual interests, though Phoebe and Ross playfully warn him that his mysterious \"cyber chick\" could be anyone—even a giant guy."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:03 - 00:10:50",
+    "batch_summary": "Chandler is devastated to discover his online love interest is married after she reveals her husband is having an affair. Meanwhile, at Barry and Mindy's wedding, Monica and Richard awkwardly try to ignore their impending breakup over having children. Rachel panics about being judged at the venue where she previously abandoned Barry, but Ross comforts her just as the wedding coordinator calls them to line up.",
+    "cumulative_summary": "At the Central Perk coffee shop, Joey's search for a kissing partner to help him practice is repeatedly shut down by his friends. Meanwhile, Monica is devastated after Richard admits he does not want more children, leading her to try and deflect the painful reality with jokes before they head to Barry and Mindy's wedding. At the wedding venue, Monica and Richard awkwardly try to ignore their impending breakup, while Rachel panics in her ridiculous pink bridesmaid dress, terrified of being judged at the very place she once escaped her own wedding. Ross gently reassures her just as they are called to line up. Back at the apartment, Chandler's excitement over his sweet online connection turns to disappointment when Phoebe and Joey help him discover that his \"cyber chick\" is actually a married woman whose husband is having an affair."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 252,
+    "timestamp_range": "00:10:50 - 00:11:22",
+    "batch_summary": "After a brief kiss with Ross, Rachel confidently heads into the wedding, completely unaware that her pink skirt is tucked into her underwear. After suffering an incredibly embarrassing moment in front of the guests, including Barry's uncle, she rushes back to the hallway. A humiliated Rachel confronts Ross for not warning her beforehand, wishing he had shouted it out rather than letting her walk in exposed.",
+    "cumulative_summary": "At the Central Perk coffee shop, Joey's search for a kissing partner to help him practice is repeatedly shut down by his friends. Meanwhile, Monica is devastated after Richard admits he does not want more children, leading her to try and deflect the painful reality with jokes before they head to Barry and Mindy's wedding. At the wedding venue, Monica and Richard awkwardly try to ignore their impending breakup, while Rachel panics in her ridiculous pink bridesmaid dress, terrified of being judged. Ross gently reassures her, but after a brief kiss, Rachel heads into the ceremony unaware that her skirt is tucked into her underwear. Following a highly embarrassing entrance witnessed by the guests, a mortified Rachel retreats to the hallway to confront Ross for not warning her about the wardrobe malfunction. Meanwhile, Chandler's excitement over his sweet online connection turns to disappointment when Phoebe and Joey help him discover that his \"cyber chick\" is actually a married woman."
+  }
+]

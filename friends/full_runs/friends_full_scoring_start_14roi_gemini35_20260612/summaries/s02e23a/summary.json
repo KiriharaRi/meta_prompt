@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:55",
+    "batch_summary": "In a bustling coffee shop, Monica and Chandler playfully bicker over the last muffin, which Monica claims by licking it. Phoebe arrives with exciting news: her Navy \"submarine guy,\" Ryan, is visiting New York for two weeks. However, the mood shifts when Ross announces his son Ben has chickenpox. While the others have had it, Phoebe realizes she has never been infected, only to discover spots on her arm. Later, Monica and Richard are seen together in a bedroom.",
+    "cumulative_summary": "The story begins in a lively coffee shop where Monica and Chandler engage in a playful dispute over the last banana nut muffin. Monica tries to claim it by licking the top, but Chandler undeterred takes a bite anyway. The group's attention shifts when Phoebe arrives to enthusiastically announce that her recurring romantic interest, a Navy sailor named Ryan, is coming to New York for a two-week visit. The excitement is quickly dampened when Ross arrives with the news that his son, Ben, has contracted the chickenpox. While Rachel, Monica, and Joey confirm they are immune, Phoebe realizes she has never had the virus. To her horror, she looks down and discovers spots already forming on her arm. The scene then transitions to Monica's bedroom, where Monica and Richard are seen wearing robes, hinting at their ongoing relationship."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:55 - 00:03:59",
+    "batch_summary": "In Monica's bedroom, Richard tries to help by making the bed, but Monica's obsessive-compulsive tendencies compel her to remake it. When Richard catches her, she explains her precise rules for duvet alignment and flower patterns. Richard's loving acceptance of her quirks only deepens her affection, and she playfully offers to teach him how to fold toilet paper. Meanwhile, Chandler offers Joey an entry-level processor job at his office to help him out financially, assuring him that no experience is necessary.",
+    "cumulative_summary": "The story begins in a coffee shop where Monica and Chandler playfully fight over a muffin, before Phoebe excitedly announces a visit from her Navy sailor, Ryan. However, the mood shifts when Ross reveals his son has chickenpox, and Phoebe discovers she has contracted it too. Meanwhile, Monica and Richard's relationship deepens in her apartment. After Richard makes the bed, Monica's obsessive-compulsive tendencies drive her to secretly remake it. When Richard catches her, she explains her strict rules for duvet tags and flower patterns. Instead of being put off, Richard's warm acceptance of her quirks only makes Monica love him more. Later, the focus shifts to Chandler's office, where Chandler offers Joey an entry-level processing job to help him make ends meet, reassuring a hesitant Joey that he does not need prior experience to do the work."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:59 - 00:05:51",
+    "batch_summary": "Chandler advises Joey to use his acting skills to play the role of a data processor, which Joey immediately puts into practice when meeting a coworker. Meanwhile, Rachel and Monica try to comfort a self-conscious Phoebe, whose face is covered in chickenpox spots. When her Navy boyfriend, Ryan, arrives with flowers, Phoebe tries to hide her condition behind a veil and warns him to keep his distance, but Ryan is unfazed and asks if it is chickenpox or smallpox.",
+    "cumulative_summary": "The story begins with Monica and Chandler playfully fighting over a muffin, before Phoebe excitedly announces a visit from her Navy sailor, Ryan. However, Phoebe soon contracts chickenpox from Ross's son. Meanwhile, Monica and Richard's relationship deepens as Richard warmly accepts Monica's obsessive-compulsive quirks. To help Joey make ends meet, Chandler offers him an entry-level processing job, advising him to use his acting skills to play the part. Joey immediately puts this advice to use, adopting an exaggerated 'processor' persona when meeting a coworker. Back at the apartment, Rachel and Monica try to cover Phoebe's chickenpox spots with makeup, but Phoebe still feels hideous. When Ryan finally arrives with flowers, Phoebe tries to hide her face under a veil and warns him to stay back because she has the pox. Ryan, unfazed, simply asks whether it is chickenpox or smallpox."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:51 - 00:07:46",
+    "batch_summary": "Phoebe reveals her chickenpox-covered face to Ryan, who is briefly startled by a coincidental flash of lightning but quickly recovers. Despite learning that Ryan has never had chickenpox himself, the two share a romantic embrace and kiss, with Ryan refusing to let the virus keep them apart after eight months at sea. Meanwhile, Joey starts his new processing job, finding it surprisingly simple as he tells Chandler it just involves moving numbers between columns.",
+    "cumulative_summary": "The story begins with Monica and Chandler playfully fighting over a muffin, before Phoebe excitedly announces a visit from her Navy sailor, Ryan. However, Phoebe soon contracts chickenpox. Meanwhile, Monica and Richard's relationship deepens, and Chandler helps Joey secure an entry-level processing job. When Ryan arrives, Phoebe tries to hide her spots under a veil. After she reveals her face, Ryan is briefly startled by a coincidental flash of lightning but quickly reassures her. Despite learning that Ryan has never had chickenpox himself, the two share a passionate kiss, with Ryan refusing to let the illness keep them apart after eight months at sea. Meanwhile, Joey begins his first day at the office, happily reporting to Chandler that the job is as simple as moving numbers between columns."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:46 - 00:09:23",
+    "batch_summary": "At his new office job, Joey takes his acting seriously by creating an elaborate backstory for his \"character,\" Joseph the processing guy, complete with an imaginary wife and kids. Chandler is highly amused and bewildered by Joey's commitment to the bit. Meanwhile, Ryan has indeed caught the chickenpox from Phoebe. Covered in calamine lotion, the itchy couple tries to distract themselves with a game of Monopoly, though Phoebe struggles to resist the urge to scratch.",
+    "cumulative_summary": "The story begins with Monica and Chandler playfully fighting over a muffin, before Phoebe excitedly announces a visit from her Navy sailor, Ryan. However, Phoebe soon contracts chickenpox. Meanwhile, Monica and Richard's relationship deepens, and Chandler helps Joey secure an entry-level processing job. When Ryan arrives, he refuses to let Phoebe's illness keep them apart, resulting in him catching the chickenpox as well. Now both covered in soothing lotion, the itchy couple tries to distract themselves with a game of Monopoly, struggling to resist the urge to scratch. Meanwhile, Joey embraces his new office job by treating it as an acting role. He hilariously invents an elaborate backstory for his \"character,\" Joseph the processing guy, complete with an imaginary wife and children. Chandler is left utterly bewildered by Joey's bizarre commitment to his office persona, sarcastically commenting on his imaginary family planning."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:23 - 00:11:00",
+    "batch_summary": "Phoebe and Ryan's resolve crumbles under the intense itch of chickenpox. After trying to resist, they give in to temptation and vigorously scratch each other, only to be caught in a compromising, back-to-back scratching frenzy by visitors. A comical argument ensues when Ryan blames Phoebe. Meanwhile, at his new office, Joey continues to live out his elaborate fantasy, inviting a coworker on a fictional boat trip with his imaginary wife, Karen, while a bewildered Chandler looks on.",
+    "cumulative_summary": "The story begins with Monica and Chandler playfully fighting over a muffin, before Phoebe excitedly announces a visit from her Navy sailor, Ryan. However, Phoebe soon contracts chickenpox. Meanwhile, Monica and Richard's relationship deepens, and Chandler helps Joey secure an entry-level processing job. When Ryan arrives, he refuses to let Phoebe's illness keep them apart, resulting in him catching the chickenpox as well. Now both covered in soothing lotion, the itchy couple tries to distract themselves with a game of Monopoly, struggling to resist the urge to scratch. Eventually, their resolve crumbles, and they give in to a frantic, back-to-back scratching frenzy, only to be caught in the act by shocked visitors. Meanwhile, Joey fully embraces his new office job by treating it as an acting role. He hilariously invents an elaborate backstory for his \"character,\" Joseph, complete with an imaginary wife, Karen, and children. Joey even goes so far as to invite a coworker on a fictional boat trip, leaving Chandler utterly bewildered by Joey's bizarre commitment to his office persona."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 248,
+    "timestamp_range": "00:11:00 - 00:11:18",
+    "batch_summary": "Chandler continues to mock Joey's elaborate office persona, sarcastically commenting on the imaginary boat trip. However, Joey remains fully committed to his act. A coworker even approaches Joey, addressing him respectfully as \"Mr. Douglas,\" which Joey accepts without hesitation. This interaction highlights how deeply Joey has immersed himself in his fictional corporate identity, leaving Chandler both amused and exasperated as the scene cuts to black.",
+    "cumulative_summary": "The story begins with Monica and Chandler playfully fighting over a muffin, before Phoebe excitedly announces a visit from her Navy sailor, Ryan. However, Phoebe and Ryan both contract chickenpox, leading to a frantic, back-to-back scratching frenzy that shocks their visitors. Meanwhile, Joey fully embraces his new entry-level processing job by treating it as an acting role. He hilariously invents an elaborate backstory for his \"character,\" Joseph, complete with an imaginary family and a fictional boat trip, leaving Chandler utterly bewildered. Joey's commitment to the bit escalates even further when a coworker respectfully addresses him as \"Mr. Douglas.\" Instead of correcting him, Joey seamlessly plays along, accepting a folder and cementing his bizarre corporate persona while Chandler watches in sarcastic disbelief."
+  }
+]

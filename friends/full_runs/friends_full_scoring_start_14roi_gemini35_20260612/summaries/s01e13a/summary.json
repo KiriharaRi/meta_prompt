@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:53",
+    "batch_summary": "Chandler accidentally walks in on a half-naked Rachel in their apartment, leading to an awkward encounter where he points out her blanket is too see-through. Later at Central Perk, Monica introduces her friends to her new boyfriend, Roger, a psychiatrist whom everyone seems to like. However, tension remains high between Rachel and Chandler; when Rachel refuses to serve him, Ross learns that Chandler accidentally saw Rachel naked, leaving her deeply upset and hostile toward him.",
+    "cumulative_summary": "The story begins with an awkward domestic mishap when Chandler enters the apartment and accidentally walks in on Rachel, who is only wearing a towel. Both scream in shock, and though Rachel tries to cover herself with a crocheted blanket, Chandler embarrassingly points out that the loose weave still reveals her chest. Later, at the Central Perk coffee shop, Monica introduces her friends to her new boyfriend, Roger, a charming psychiatrist. While Phoebe and Rachel gush over Roger after he leaves, the tension between Rachel and Chandler quickly resurfaces. Working her shift at the coffee house, Rachel coldly refuses to take Chandler's order. When a confused Ross asks what is going on, Chandler defends himself, explaining that seeing Rachel naked was a complete accident. Despite his apologies, Rachel remains deeply upset and hostile, setting up a lingering conflict between the two friends."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:53 - 00:03:13",
+    "batch_summary": "At Central Perk, Rachel tries to drop the subject of the towel incident, but Chandler's awkward attempt to compliment her only worsens the tension. The atmosphere shifts when Phoebe's new boyfriend, Roger, a psychiatrist, begins analyzing Chandler. Roger suggests that Chandler uses humor to mask deep-seated intimacy issues and correctly guesses that he is an only child whose parents divorced before puberty, leaving Chandler visibly shaken and uncomfortable under the sudden psychological scrutiny.",
+    "cumulative_summary": "The story begins when Chandler accidentally walks in on Rachel wearing only a towel. Despite his apologies, Rachel remains deeply upset and hostile, refusing to take his order at Central Perk. When Rachel tries to drop the subject, Chandler's awkward attempt to compliment her body only worsens the tension. The atmosphere shifts dramatically when Phoebe's new boyfriend, Roger, a psychiatrist, begins analyzing Chandler. Roger suggests that Chandler uses humor as a defense mechanism to mask deep-seated intimacy issues. He then correctly guesses that Chandler is an only child whose parents divorced before puberty. This sudden, accurate psychological dissection leaves Chandler visibly shaken and uncomfortable, turning the group's lighthearted banter into an awkward and tense confrontation."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:13 - 00:05:05",
+    "batch_summary": "Joey's father, Joey Sr., arrives in town and makes several awkward social blunders at Central Perk, leaving the group uncomfortable while Chandler remains too stunned by Roger's analysis to joke. Later, at Joey's apartment, Joey catches his father on the phone with another woman. Joey Sr. confesses that he has been having an affair with a pet mortician for six years, leaving Joey shocked and deeply disappointed by his father's infidelity.",
+    "cumulative_summary": "The story begins when Chandler accidentally walks in on Rachel wearing only a towel, causing tension. The atmosphere shifts when Phoebe's psychiatrist boyfriend, Roger, analyzes Chandler's defense mechanisms and childhood trauma, leaving him deeply shaken. The awkwardness deepens when Joey's father, Joey Sr., arrives in town and makes several social blunders at Central Perk, including asking Ross about his ex-wife. Chandler is too stunned by Roger's analysis to defuse the tension with humor. Later, at Joey's apartment, Joey catches his father on the phone with another woman. Joey Sr. confesses that he has been having an affair with a pet mortician for six years. Joey is left shocked and deeply disappointed by his father's secret life, adding a new layer of emotional tension to the group's dynamics."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:05 - 00:06:39",
+    "batch_summary": "Joey Sr. confesses to Joey that he is deeply in love with both his mistress and Joey's mother. Distraught, Joey seeks comfort from his friends, who discuss the painful realization that parents are flawed individuals. Meanwhile, the lingering tension between Chandler and Rachel resurfaces when Rachel catches Chandler staring at her chest, prompting an awkward confrontation that Ross tries to defuse.",
+    "cumulative_summary": "The tension begins when Chandler accidentally sees Rachel in a towel, which is compounded when Phoebe's psychiatrist boyfriend, Roger, deeply shakes Chandler with a harsh psychological analysis. Meanwhile, Joey's father, Joey Sr., arrives in town and is caught by Joey having a six-year affair. Joey Sr. confesses that he is in love with both his mistress and Joey's mother, leaving Joey devastated. Seeking comfort from the group, Joey's situation prompts a discussion about the painful realization that parents are flawed human beings. The group's awkward dynamics worsen when Rachel catches Chandler staring at her chest, reigniting the tension from the towel incident and prompting an awkward confrontation that Ross attempts to defuse."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:39 - 00:08:20",
+    "batch_summary": "Ross jokingly suggests Chandler show Rachel his \"peepee\" to resolve the towel incident, a \"tit for tat\" idea Rachel supports but Chandler rejects. Soon after, Phoebe's psychiatrist boyfriend, Roger, arrives. Despite Ross defending him initially, Roger quickly turns his harsh analytical skills on Ross. He suggests Ross subconsciously sabotaged his marriage to a lesbian to make his sister Monica feel like less of a failure to their parents. This leaves Ross deeply unsettled and defensive, while Monica is intrigued.",
+    "cumulative_summary": "The tension begins when Chandler accidentally sees Rachel in a towel, which is compounded when Phoebe's psychiatrist boyfriend, Roger, deeply shakes Chandler with a harsh psychological analysis. Meanwhile, Joey's father, Joey Sr., arrives in town and is caught by Joey having a six-year affair. Joey Sr. confesses that he is in love with both his mistress and Joey's mother, leaving Joey devastated. Seeking comfort from the group, Joey's situation prompts a discussion about the painful realization that parents are flawed human beings. The group's awkward dynamics worsen when Rachel catches Chandler staring at her chest, prompting Ross to jokingly suggest a \"tit for tat\" resolution where Chandler exposes himself to Rachel. The tension shifts when Roger arrives and begins analyzing Ross. Roger suggests that Ross subconsciously married a lesbian to sabotage his own marriage, thereby preventing his sister Monica from feeling like a failure in their parents' eyes. While Monica is intrigued by this theory, Ross is left deeply unsettled and defensive, highlighting Roger's knack for alienating the group."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:20 - 00:10:12",
+    "batch_summary": "Roger's psychological probing continues to cause friction. He sparks a sibling argument between Ross and Monica over parental favoritism, and later reduces Rachel to tears over childhood memories before making an insensitive comment to Monica about her eating habits. This prompts Monica and Ross to unite in their hatred of him. Meanwhile, Joey and Chandler encounter a woman waiting in their hallway, only to discover she is Joey Sr.'s mistress waiting for \"Big Joey,\" adding to Joey's distress.",
+    "cumulative_summary": "The tension begins when Chandler accidentally sees Rachel in a towel, which is compounded when Phoebe's psychiatrist boyfriend, Roger, deeply shakes Chandler with a harsh psychological analysis. Meanwhile, Joey's father, Joey Sr., arrives in town and is caught by Joey having a six-year affair. Seeking comfort from the group, Joey's situation prompts a discussion about the painful realization that parents are flawed human beings. The group's awkward dynamics worsen when Roger begins analyzing Ross, sparking a heated sibling argument between Ross and Monica over parental favoritism. Roger then reduces Rachel to tears over childhood memories before making an insensitive parting comment to Monica about her eating habits, prompting Monica and Ross to unite in their hatred of him. The situation takes another awkward turn when Joey and Chandler encounter a woman waiting in their hallway, only to discover she is Joey Sr.'s mistress waiting for \"Big Joey,\" further complicating Joey's family crisis."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 274,
+    "timestamp_range": "00:10:12 - 00:11:37",
+    "batch_summary": "Joey and Chandler meet Joey Sr.'s mistress, Ronnie, a quirky taxidermist who returns Joey Sr.'s forgotten hairpiece. Chandler tries to diffuse the immense awkwardness with jokes, but the tension peaks when Joey Sr. arrives. Ronnie decides to leave to catch her train, but Joey Sr. insists she stay at the apartment, leaving Joey staring in silent, angry disbelief at his father's audacity.",
+    "cumulative_summary": "The tension in the group peaks when Phoebe's psychiatrist boyfriend, Roger, alienates everyone with harsh psychological analyses, prompting Monica and Ross to unite in their hatred of him. Meanwhile, Joey's family crisis deepens when he catches his father, Joey Sr., having a long-term affair. The situation becomes incredibly awkward when Joey and Chandler meet Joey Sr.'s mistress, Ronnie, in their hallway. Ronnie, a quirky taxidermist, enters their apartment to return Joey Sr.'s forgotten hairpiece. Despite Chandler's humorous attempts to break the ice, the atmosphere remains highly strained. When Joey Sr. arrives, Ronnie tries to leave to catch her train, but Joey Sr. insists she stay the night at Joey and Chandler's apartment. Joey is left staring in silent, angry disbelief at his father's complete disregard for his feelings, further straining their relationship."
+  }
+]

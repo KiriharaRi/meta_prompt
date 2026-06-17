@@ -1,0 +1,500 @@
+{
+  "version": "domain_pool_v2",
+  "target_region": "pSTS",
+  "curation_status": "draft",
+  "source_model": "gemini-3.5-flash",
+  "proposal_runs": 5,
+  "metadata": {
+    "generation_parameters": {
+      "provider": "gemini",
+      "temperature": 0.2,
+      "proposal_runs": 5
+    },
+    "required_domain_ids": [],
+    "confirmation_instructions": "Review curated_domains and rejected_or_merged_domains, then set curation_status to 'confirmed' before passing this pool to make-region-schema --domain-pool."
+  },
+  "candidate_domains": [
+    {
+      "domain_id": "run_1_social_interaction_tracking",
+      "definition": "The viewer's tracking and integration of interpersonal dynamics, communicative exchanges, and relational shifts between characters as they unfold in the scene.",
+      "region_relevance": "The pSTS (including cpSTS and rpSTS) is a core node for social perception, heavily involved in processing dynamic social interactions, dialogue flow, and tracking how agents relate to one another.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing who is interacting, the nature of their dialogue, turn-taking, and changes in their immediate social alignment or conflict.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_biological_motion_and_action_intent",
+      "definition": "The viewer's perception and interpretation of physical movements, gestures, eye contact, and bodily actions performed by characters, specifically regarding the immediate goals or intentions behind those movements.",
+      "region_relevance": "The pSTS is highly sensitive to biological motion, hand gestures, head turns, and eye gaze, mapping physical movements to inferred agentic goals.",
+      "scoreability_note": "Scoreable by identifying descriptions of physical actions, gaze shifts, facial movements, and manual gestures in the text.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_mental_state_attribution",
+      "definition": "The viewer's cognitive inference of characters' hidden mental states, including their beliefs, secret motives, knowledge gaps, or unexpressed feelings, to make sense of their behavior.",
+      "region_relevance": "The pSTS (especially cpSTS/rpSTS bordering TPJ) is a key component of the mentalizing network, activated when viewers must infer what characters are thinking or planning.",
+      "scoreability_note": "Scoreable from narrative contexts where characters act on false beliefs, hide information, or have conflicting internal motivations that the viewer must actively deduce.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_audiovisual_congruence_and_speech_integration",
+      "definition": "The viewer's integration of spoken language, vocal tone, and auditory cues with corresponding visual expressions, mouth movements, and environmental context.",
+      "region_relevance": "The pSTS is a classic multisensory integration hub, particularly for combining auditory speech signals with visual speech (lip reading) and non-verbal vocalizations.",
+      "scoreability_note": "Scoreable by analyzing descriptions of dialogue delivery, voice tone (e.g., whispering, shouting), visible speech, and sound effects paired with visual actions.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_2_social_interaction_tracking",
+      "definition": "The viewer's tracking and integration of interpersonal dynamics, including communicative gestures, body language, eye contact, and turn-taking between characters.",
+      "region_relevance": "The pSTS (both cpSTS and rpSTS) is a core hub for biological motion perception, face processing, and decoding social interactions from visual and auditory cues.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing who is talking to whom, physical proximity, gestures, and gaze direction.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_mental_state_attribution",
+      "definition": "The viewer's active inference of characters' hidden intentions, beliefs, knowledge states, or motivations based on their actions and the narrative context.",
+      "region_relevance": "The pSTS, particularly at the junction with the temporoparietal junction (TPJ), is heavily recruited during Theory of Mind tasks and mentalizing about others' goals.",
+      "scoreability_note": "Scoreable by identifying moments where characters act on false beliefs, hide information, or display ambiguous motives that require the viewer to infer their underlying mental states.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_audiovisual_speech_integration",
+      "definition": "The viewer's integration of spoken dialogue with corresponding visual cues, such as lip movements, facial expressions, and vocal inflections.",
+      "region_relevance": "The pSTS is a classic multisensory integration area, specifically critical for binding auditory speech signals with visual speech (lip-reading) and facial affect.",
+      "scoreability_note": "Easily scoreable by identifying segments with active on-screen dialogue, close-ups of speaking faces, or mismatches between voice and visual expression.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_action_intentionality_appraisal",
+      "definition": "The viewer's appraisal of physical actions or movements as goal-directed and intentional versus accidental or purely mechanical.",
+      "region_relevance": "The cpSTS is highly sensitive to biological motion and specifically responds more strongly when actions are perceived as having a clear, goal-directed purpose.",
+      "scoreability_note": "Scoreable by analyzing descriptions of physical movements, tool use, or bodily actions and determining if they are directed toward a specific narrative goal.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_3_biological_motion_appraisal",
+      "definition": "The viewer's perceptual tracking and interpretation of dynamic human movements, such as gait, head turns, and hand gestures, as meaningful biological actions rather than inanimate motion.",
+      "region_relevance": "The posterior superior temporal sulcus (pSTS), including cpSTS and rpSTS, is a core node of the action-observation network, specifically tuned to biological motion and the visual analysis of human body movements.",
+      "scoreability_note": "Can be scored by identifying descriptions of physical actions, bodily gestures, and active movement of human characters in the scene.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_audio_visual_speech_integration",
+      "definition": "The viewer's integration of spoken language (auditory stream) with visible mouth movements, facial expressions, and conversational gestures (visual stream) to comprehend face-to-face communication.",
+      "region_relevance": "The pSTS is a well-established multisensory integration hub, critical for binding auditory speech signals with corresponding visual facial movements.",
+      "scoreability_note": "Highly scoreable from descriptions of face-to-face dialogue, close-up shots of speaking characters, and explicit conversational exchanges.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_social_attention_tracking",
+      "definition": "The viewer's tracking of where characters are directing their attention, inferred from eye gaze, head orientation, and pointing gestures, to establish shared focus or joint attention.",
+      "region_relevance": "The pSTS is highly sensitive to eye gaze direction and social attention cues, playing a key role in processing where others are looking and what they are attending to.",
+      "scoreability_note": "Scoreable based on descriptions of characters looking at specific objects, staring at other characters, or pointing to direct attention.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_implied_social_intention_inference",
+      "definition": "The viewer's inference of a character's immediate social goals, motives, or hidden agendas behind their overt actions and dialogue during an interaction.",
+      "region_relevance": "The pSTS, working in concert with the temporoparietal junction, is crucial for mentalizing and decoding the social intentions and goals implied by dynamic behavioral cues.",
+      "scoreability_note": "Scoreable from narrative descriptions that depict subtext, strategic interactions, deception, or goal-directed social maneuvers.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_4_social_interaction_tracking",
+      "definition": "The viewer's tracking and integration of active communication, turn-taking, and relational dynamics between two or more characters in a scene.",
+      "region_relevance": "The pSTS (including cpSTS and rpSTS) is a core hub for social perception, processing dynamic social interactions, conversational exchanges, and communicative gestures.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing who is speaking to whom, conversational turn-taking, physical proximity, and interactive gestures.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_intentional_action_attribution",
+      "definition": "The viewer's inference of the immediate goals, motives, or underlying intentions behind a character's physical movements, biological motion, or object-directed actions.",
+      "region_relevance": "The caudal pSTS (cpSTS) is heavily implicated in biological motion perception and the action-observation network, decoding the intentionality behind observed physical actions.",
+      "scoreability_note": "Scoreable by identifying descriptions of physical actions, gaze shifts, or tool-use where the character's immediate objective or motive must be inferred by the viewer.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_social_tension_appraisal",
+      "definition": "The viewer's affective appraisal of interpersonal conflict, emotional distance, or relational alignment between characters, grounded in non-verbal cues, tone, and narrative subtext.",
+      "region_relevance": "The rostral pSTS (rpSTS) and associated ventral attention networks process socially salient changes, emotional expressions, and the affective significance of social interactions.",
+      "scoreability_note": "Scoreable based on textual descriptions of arguments, awkward silences, confrontational body language, or expressions of warmth and hostility.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_multisensory_communication_integration",
+      "definition": "The viewer's integration of concurrent auditory speech cues and visual bodily/facial expressions to comprehend the full meaning of a character's communication.",
+      "region_relevance": "The pSTS is a classic multisensory integration area, crucial for binding auditory language with visual facial and body movements.",
+      "scoreability_note": "Scoreable by identifying scenes with rich face-to-face dialogue, emphatic gesturing, or situations where visual expressions modify or clarify spoken words.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_5_biological_motion_tracking",
+      "definition": "The viewer's visual tracking and integration of biological movements, including facial expressions, eye gaze shifts, hand gestures, and body posture, to parse human actions.",
+      "region_relevance": "The pSTS (including cpSTS) is a classic hub for biological motion perception, responding strongly to dynamic faces, eyes, and body parts.",
+      "scoreability_note": "Scored based on textual descriptions of physical movements, facial expressions, gaze directions, and bodily gestures.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_communicative_intent_integration",
+      "definition": "The viewer's integration of auditory speech cues and visual communicative signals (like lip movements and gestures) to comprehend face-to-face dialogue and social exchanges.",
+      "region_relevance": "The pSTS (including rpSTS and aSTS) plays a key role in multisensory integration, particularly matching auditory speech with visual mouth movements and gestures.",
+      "scoreability_note": "Scored from descriptions of characters speaking, arguing, whispering, or using non-verbal signals to communicate.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_agency_and_goal_inference",
+      "definition": "The viewer's cognitive attribution of agency, intentionality, and immediate goals to the actions performed by characters or entities in the scene.",
+      "region_relevance": "The pSTS is heavily involved in distinguishing intentional biological actions from accidental or mechanical movements, and tracking goal-directed behavior.",
+      "scoreability_note": "Scored by identifying descriptions of deliberate actions, goal-oriented tasks, or unexpected physical behaviors that prompt the viewer to question intent.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_social_perspective_taking",
+      "definition": "The viewer's mental simulation and inference of characters' internal mental states, beliefs, knowledge, or hidden motives that explain their behavior in the narrative.",
+      "region_relevance": "The pSTS, as part of the mentalizing/Theory of Mind network, is recruited when viewers must infer what characters are thinking, believing, or planning.",
+      "scoreability_note": "Scored from narrative contexts involving secrets, misunderstandings, strategic deception, or complex social dynamics where characters' thoughts must be inferred.",
+      "source_run": 5
+    }
+  ],
+  "curated_domains": [
+    {
+      "domain_id": "social_interaction_tracking",
+      "definition": "The viewer's tracking and integration of interpersonal dynamics, communicative exchanges, turn-taking, and relational shifts between characters as they unfold in the scene.",
+      "region_relevance": "The pSTS is a core node for social perception, heavily involved in processing dynamic social interactions, dialogue flow, and tracking how agents relate to one another.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing who is interacting, the nature of their dialogue, turn-taking, and changes in their immediate social alignment or conflict.",
+      "source_domain_ids": [
+        "run_1_social_interaction_tracking",
+        "run_2_social_interaction_tracking",
+        "run_4_social_interaction_tracking",
+        "run_4_social_tension_appraisal"
+      ],
+      "source_runs": [
+        1,
+        2,
+        4
+      ],
+      "proposal_frequency": 3,
+      "consolidation_rationale": "Consolidated multiple runs of social interaction tracking and social tension appraisal into a single robust domain focusing on the viewer's tracking of interpersonal dynamics and relational shifts."
+    },
+    {
+      "domain_id": "biological_motion_and_action_intent_appraisal",
+      "definition": "The viewer's perceptual tracking and interpretation of dynamic human movements (such as gestures, gait, head turns, and eye gaze) and the immediate appraisal of these actions as goal-directed or intentional.",
+      "region_relevance": "The pSTS (including cpSTS) is a classic hub for biological motion perception and the action-observation network, decoding the intentionality behind observed physical actions.",
+      "scoreability_note": "Scoreable by identifying descriptions of physical actions, bodily gestures, gaze shifts, and goal-oriented tasks where the character's immediate objective must be inferred.",
+      "source_domain_ids": [
+        "run_1_biological_motion_and_action_intent",
+        "run_2_action_intentionality_appraisal",
+        "run_3_biological_motion_appraisal",
+        "run_4_intentional_action_attribution",
+        "run_5_biological_motion_tracking",
+        "run_5_agency_and_goal_inference"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged biological motion tracking, action intentionality, and agency/goal inference into a single domain, as they represent the same underlying pSTS process of mapping physical movements to inferred agentic goals."
+    },
+    {
+      "domain_id": "mental_state_attribution_and_perspective_taking",
+      "definition": "The viewer's cognitive inference of characters' hidden mental states, including their beliefs, secret motives, knowledge gaps, or unexpressed feelings, to make sense of their behavior.",
+      "region_relevance": "The pSTS (especially cpSTS/rpSTS bordering TPJ) is a key component of the mentalizing network, activated when viewers must infer what characters are thinking or planning.",
+      "scoreability_note": "Scoreable from narrative contexts where characters act on false beliefs, hide information, or have conflicting internal motivations that the viewer must actively deduce.",
+      "source_domain_ids": [
+        "run_1_mental_state_attribution",
+        "run_2_mental_state_attribution",
+        "run_3_implied_social_intention_inference",
+        "run_5_social_perspective_taking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Consolidated mental state attribution, social perspective taking, and implied social intention inference into a single domain representing Theory of Mind processes in the pSTS/TPJ border."
+    },
+    {
+      "domain_id": "audiovisual_speech_and_communication_integration",
+      "definition": "The viewer's multisensory integration of spoken language, vocal tone, and auditory cues with corresponding visual expressions, mouth movements, and communicative gestures.",
+      "region_relevance": "The pSTS is a classic multisensory integration hub, particularly for combining auditory speech signals with visual speech (lip reading) and non-verbal vocalizations.",
+      "scoreability_note": "Scoreable by analyzing descriptions of dialogue delivery, voice tone, visible speech, and sound effects paired with visual actions.",
+      "source_domain_ids": [
+        "run_1_audiovisual_congruence_and_speech_integration",
+        "run_2_audiovisual_speech_integration",
+        "run_3_audio_visual_speech_integration",
+        "run_4_multisensory_communication_integration",
+        "run_5_communicative_intent_integration"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all runs of audiovisual speech and communication integration into a single domain focusing on the multisensory binding of auditory and visual communicative signals."
+    },
+    {
+      "domain_id": "social_attention_and_gaze_tracking",
+      "definition": "The viewer's tracking of where characters are directing their attention, inferred from eye gaze, head orientation, and pointing gestures, to establish shared focus or joint attention.",
+      "region_relevance": "The pSTS is highly sensitive to eye gaze direction and social attention cues, playing a key role in processing where others are looking and what they are attending to.",
+      "scoreability_note": "Scoreable based on descriptions of characters looking at specific objects, staring at other characters, or pointing to direct attention.",
+      "source_domain_ids": [
+        "run_3_social_attention_tracking"
+      ],
+      "source_runs": [
+        3
+      ],
+      "proposal_frequency": 1,
+      "consolidation_rationale": "Retained as a distinct domain because tracking eye gaze and joint attention is a highly specialized pSTS function that is functionally distinct from general biological motion or conversational tracking."
+    }
+  ],
+  "rejected_or_merged_domains": [
+    {
+      "domain_id": "run_1_social_interaction_tracking",
+      "decision": "merged",
+      "reason": "Merged into a consolidated social interaction tracking domain to reduce redundancy across runs.",
+      "source_domain_ids": [
+        "run_1_social_interaction_tracking"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "social_interaction_tracking"
+    },
+    {
+      "domain_id": "run_1_biological_motion_and_action_intent",
+      "decision": "merged",
+      "reason": "Merged into a consolidated biological motion and action intent appraisal domain.",
+      "source_domain_ids": [
+        "run_1_biological_motion_and_action_intent"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "biological_motion_and_action_intent_appraisal"
+    },
+    {
+      "domain_id": "run_1_mental_state_attribution",
+      "decision": "merged",
+      "reason": "Merged into a consolidated mental state attribution and perspective taking domain.",
+      "source_domain_ids": [
+        "run_1_mental_state_attribution"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "mental_state_attribution_and_perspective_taking"
+    },
+    {
+      "domain_id": "run_1_audiovisual_congruence_and_speech_integration",
+      "decision": "merged",
+      "reason": "Merged into a consolidated audiovisual speech and communication integration domain.",
+      "source_domain_ids": [
+        "run_1_audiovisual_congruence_and_speech_integration"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "audiovisual_speech_and_communication_integration"
+    },
+    {
+      "domain_id": "run_2_social_interaction_tracking",
+      "decision": "merged",
+      "reason": "Merged into a consolidated social interaction tracking domain to reduce redundancy across runs.",
+      "source_domain_ids": [
+        "run_2_social_interaction_tracking"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "social_interaction_tracking"
+    },
+    {
+      "domain_id": "run_2_mental_state_attribution",
+      "decision": "merged",
+      "reason": "Merged into a consolidated mental state attribution and perspective taking domain.",
+      "source_domain_ids": [
+        "run_2_mental_state_attribution"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "mental_state_attribution_and_perspective_taking"
+    },
+    {
+      "domain_id": "run_2_audiovisual_speech_integration",
+      "decision": "merged",
+      "reason": "Merged into a consolidated audiovisual speech and communication integration domain.",
+      "source_domain_ids": [
+        "run_2_audiovisual_speech_integration"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "audiovisual_speech_and_communication_integration"
+    },
+    {
+      "domain_id": "run_2_action_intentionality_appraisal",
+      "decision": "merged",
+      "reason": "Merged into a consolidated biological motion and action intent appraisal domain.",
+      "source_domain_ids": [
+        "run_2_action_intentionality_appraisal"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "biological_motion_and_action_intent_appraisal"
+    },
+    {
+      "domain_id": "run_3_biological_motion_appraisal",
+      "decision": "merged",
+      "reason": "Merged into a consolidated biological motion and action intent appraisal domain.",
+      "source_domain_ids": [
+        "run_3_biological_motion_appraisal"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "biological_motion_and_action_intent_appraisal"
+    },
+    {
+      "domain_id": "run_3_audio_visual_speech_integration",
+      "decision": "merged",
+      "reason": "Merged into a consolidated audiovisual speech and communication integration domain.",
+      "source_domain_ids": [
+        "run_3_audio_visual_speech_integration"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "audiovisual_speech_and_communication_integration"
+    },
+    {
+      "domain_id": "run_3_social_attention_tracking",
+      "decision": "merged",
+      "reason": "Retained and formalized as a distinct curated domain for tracking eye gaze and joint attention.",
+      "source_domain_ids": [
+        "run_3_social_attention_tracking"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "social_attention_and_gaze_tracking"
+    },
+    {
+      "domain_id": "run_3_implied_social_intention_inference",
+      "decision": "merged",
+      "reason": "Merged into a consolidated mental state attribution and perspective taking domain.",
+      "source_domain_ids": [
+        "run_3_implied_social_intention_inference"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "mental_state_attribution_and_perspective_taking"
+    },
+    {
+      "domain_id": "run_4_social_interaction_tracking",
+      "decision": "merged",
+      "reason": "Merged into a consolidated social interaction tracking domain to reduce redundancy across runs.",
+      "source_domain_ids": [
+        "run_4_social_interaction_tracking"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "social_interaction_tracking"
+    },
+    {
+      "domain_id": "run_4_intentional_action_attribution",
+      "decision": "merged",
+      "reason": "Merged into a consolidated biological motion and action intent appraisal domain.",
+      "source_domain_ids": [
+        "run_4_intentional_action_attribution"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "biological_motion_and_action_intent_appraisal"
+    },
+    {
+      "domain_id": "run_4_social_tension_appraisal",
+      "decision": "merged",
+      "reason": "Merged into a consolidated social interaction tracking domain as it represents a specific affective dimension of tracking social dynamics.",
+      "source_domain_ids": [
+        "run_4_social_tension_appraisal"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "social_interaction_tracking"
+    },
+    {
+      "domain_id": "run_4_multisensory_communication_integration",
+      "decision": "merged",
+      "reason": "Merged into a consolidated audiovisual speech and communication integration domain.",
+      "source_domain_ids": [
+        "run_4_multisensory_communication_integration"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "audiovisual_speech_and_communication_integration"
+    },
+    {
+      "domain_id": "run_5_biological_motion_tracking",
+      "decision": "merged",
+      "reason": "Merged into a consolidated biological motion and action intent appraisal domain.",
+      "source_domain_ids": [
+        "run_5_biological_motion_tracking"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "biological_motion_and_action_intent_appraisal"
+    },
+    {
+      "domain_id": "run_5_communicative_intent_integration",
+      "decision": "merged",
+      "reason": "Merged into a consolidated audiovisual speech and communication integration domain.",
+      "source_domain_ids": [
+        "run_5_communicative_intent_integration"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "audiovisual_speech_and_communication_integration"
+    },
+    {
+      "domain_id": "run_5_agency_and_goal_inference",
+      "decision": "merged",
+      "reason": "Merged into a consolidated biological motion and action intent appraisal domain.",
+      "source_domain_ids": [
+        "run_5_agency_and_goal_inference"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "biological_motion_and_action_intent_appraisal"
+    },
+    {
+      "domain_id": "run_5_social_perspective_taking",
+      "decision": "merged",
+      "reason": "Merged into a consolidated mental state attribution and perspective taking domain.",
+      "source_domain_ids": [
+        "run_5_social_perspective_taking"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "mental_state_attribution_and_perspective_taking"
+    }
+  ]
+}

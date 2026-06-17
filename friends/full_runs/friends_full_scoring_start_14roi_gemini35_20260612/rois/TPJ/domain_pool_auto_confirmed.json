@@ -1,0 +1,484 @@
+{
+  "version": "domain_pool_v2",
+  "target_region": "TPJ",
+  "curation_status": "confirmed",
+  "source_model": "gemini-3.5-flash",
+  "proposal_runs": 5,
+  "metadata": {
+    "generation_parameters": {
+      "provider": "gemini",
+      "temperature": 0.2,
+      "proposal_runs": 5
+    },
+    "required_domain_ids": [],
+    "confirmation_instructions": "Review curated_domains and rejected_or_merged_domains, then set curation_status to 'confirmed' before passing this pool to make-region-schema --domain-pool.",
+    "confirmation_mode": "auto_pilot",
+    "confirmed_by": "run-multi-roi-pilot",
+    "manual_review_required_before_final_claims": true,
+    "draft_source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/TPJ/domain_pool_draft.json"
+  },
+  "candidate_domains": [
+    {
+      "domain_id": "run_1_social_mentalizing",
+      "definition": "The viewer's active inference of characters' unobservable mental states, including their beliefs, hidden motives, knowledge gaps, or secret intentions, based on behavioral cues, dialogue, or situational context.",
+      "region_relevance": "The temporoparietal junction (TPJ) is the primary hub of the mentalizing network (Theory of Mind), crucial for representing others' cognitive states and distinguishing between self and other perspectives.",
+      "scoreability_note": "Highly scoreable from text descriptions that detail characters acting on false beliefs, hiding information, or engaging in strategic deception, requiring the viewer to track who knows what.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_social_interaction_appraisal",
+      "definition": "The viewer's tracking and appraisal of the dynamic social relationships, alliances, conflicts, or communicative exchanges occurring between two or more characters in a scene.",
+      "region_relevance": "TPJ is sensitive to social context, communicative intent, and the interactive dynamics between agents, processing social stimuli beyond isolated individuals.",
+      "scoreability_note": "Easily scored by identifying scenes with multi-character dialogues, non-verbal social coordination, confrontations, or collaborative actions described in the text.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_narrative_expectancy_reorienting",
+      "definition": "The viewer's cognitive reorienting or updating of their narrative model when unexpected events, sudden plot twists, or surprising character actions violate prior expectations established by the scene.",
+      "region_relevance": "As a key node in the ventral attention network, the TPJ is heavily involved in stimulus-driven attention reorienting and detecting behaviorally relevant, unexpected changes in the environment or narrative flow.",
+      "scoreability_note": "Scoreable by identifying moments in the text where an unexpected event occurs, a character behaves in a highly surprising manner, or a sudden shift in the narrative direction is introduced.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_1_empathic_perspective_taking",
+      "definition": "The viewer's cognitive simulation and appraisal of a character's emotional perspective or subjective experience, particularly when the character faces moral dilemmas, distress, or complex social predicaments.",
+      "region_relevance": "TPJ supports perspective-taking and the cognitive components of empathy, allowing the viewer to project themselves into another's situation to understand their affective state.",
+      "scoreability_note": "Scoreable from descriptions of characters experiencing high-stakes emotional situations, moral conflicts, or vulnerability, prompting the viewer to evaluate the character's internal experience.",
+      "source_run": 1
+    },
+    {
+      "domain_id": "run_2_mental_state_attribution",
+      "definition": "The viewer's cognitive attribution of internal mental states—such as beliefs, desires, knowledge, or ignorance—to characters, particularly when these states must be inferred from non-verbal cues, ambiguous behavior, or subtext.",
+      "region_relevance": "The temporoparietal junction (TPJ) is the primary cortical hub for Theory of Mind (ToM), specifically recruited when viewers represent and reason about the mental states of others.",
+      "scoreability_note": "Can be scored by identifying scenes where characters act on false beliefs, hide information, or express subtle cues that require the viewer to interpret their inner thoughts rather than relying on explicit dialogue.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_narrative_expectancy_violation",
+      "definition": "The viewer's detection of unexpected events, sudden character actions, or abrupt environmental changes that violate current narrative expectations and demand cognitive reorientation.",
+      "region_relevance": "TPJ is a core component of the ventral attention network, activated during stimulus-driven reorienting when expectations are violated or when highly salient, behaviorally relevant events occur.",
+      "scoreability_note": "Easily scored by identifying sudden plot turns, unexpected character arrivals, or shocking revelations in the text description that disrupt the established scene flow.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_social_alignment_appraisal",
+      "definition": "The viewer's tracking and appraisal of social relationships, alliances, conflicts, or power dynamics between characters as they interact.",
+      "region_relevance": "TPJ, particularly the right temporoparietal junction, is heavily involved in processing social interactions, tracking social networks, and evaluating cooperative versus competitive behaviors.",
+      "scoreability_note": "Scoreable by analyzing descriptions of dialogue, body language, and actions that signal cooperation, betrayal, dominance, or submission among characters.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_2_epistemic_gap_tracking",
+      "definition": "The viewer's tracking of discrepancies in knowledge, such as when the viewer possesses information that a character lacks (dramatic irony), or when one character is keeping a secret from another.",
+      "region_relevance": "TPJ is crucial for representing divergent perspectives and distinguishing between one's own knowledge state and the knowledge states of others.",
+      "scoreability_note": "Scoreable by identifying scenes where information is asymmetric, such as a character walking into a trap the viewer knows about, or a character lying while the viewer knows the truth.",
+      "source_run": 2
+    },
+    {
+      "domain_id": "run_3_mental_state_attribution",
+      "definition": "The viewer's active inference of characters' hidden mental states, including their beliefs, knowledge, ignorance, secret intentions, or unexpressed desires, based on their actions, dialogue, and context.",
+      "region_relevance": "The temporoparietal junction (TPJ), particularly within the default mode and ventral attention networks (e.g., rpSTS, A39rv), is the primary hub for theory of mind and mentalizing, crucial for representing others' cognitive states and tracking divergent perspectives.",
+      "scoreability_note": "Highly scoreable from text descriptions that detail characters acting on incomplete information, hiding secrets, or when the viewer must track who knows what in a scene.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_social_agency_and_interaction",
+      "definition": "The viewer's tracking of social dynamics, communicative intent, and the coordination or conflict of agency between two or more interacting entities.",
+      "region_relevance": "TPJ is sensitive to social interactions, biological motion, and the detection of agency, processing how individuals respond to, influence, and coordinate with one another.",
+      "scoreability_note": "Easily scored by identifying scenes with active dialogue, non-verbal social exchanges, cooperative tasks, or interpersonal confrontations described in the text.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_narrative_expectancy_violation",
+      "definition": "The viewer's detection of unexpected events, sudden shifts in a character's behavior, or narrative transitions that violate prior expectations and require reorienting attention.",
+      "region_relevance": "As a key node of the ventral attention network (often labeled under Ventral Attention in Yeo7), the TPJ is recruited during stimulus-driven reorienting and the processing of unexpected, salient changes in the environment or narrative flow.",
+      "scoreability_note": "Can be scored by identifying plot twists, sudden interruptions, unexpected actions, or abrupt changes in the scene's direction described in the text.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_3_moral_and_normative_appraisal",
+      "definition": "The viewer's appraisal of characters' actions against social norms, moral standards, or fairness, including the evaluation of blame, intentional harm, or altruism.",
+      "region_relevance": "TPJ is heavily implicated in moral reasoning, specifically in integrating a character's intent with the outcome of their actions to make moral judgments.",
+      "scoreability_note": "Scoreable from descriptions of characters making ethical choices, violating social norms, committing acts of betrayal, or demonstrating selflessness.",
+      "source_run": 3
+    },
+    {
+      "domain_id": "run_4_mental_state_attribution",
+      "definition": "The viewer's active tracking and inference of a character's internal mental states, including their hidden beliefs, knowledge gaps, secret intentions, or unexpressed desires, based on narrative context and behavioral cues.",
+      "region_relevance": "The temporoparietal junction (TPJ) is the primary hub of the mentalizing network, consistently engaged when the brain processes others' cognitive states, beliefs, and intentions.",
+      "scoreability_note": "Highly scoreable from text descriptions that detail what characters know versus what is actually happening, such as instances of deception, dramatic irony, or strategic planning.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_social_interaction_tracking",
+      "definition": "The viewer's appraisal of the interpersonal dynamics, cooperative or competitive alignment, and shifting social relationships between two or more interacting characters.",
+      "region_relevance": "TPJ is heavily involved in processing dynamic social scenes, communicative intent, and the relational context of actions within a social group.",
+      "scoreability_note": "Easily scored by identifying scenes with dialogue, joint actions, conflicts, or collaborative efforts described in the text.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_narrative_reorienting",
+      "definition": "The viewer's cognitive adjustment and attention reorienting triggered by unexpected events, sudden plot twists, or actions that violate established expectations within the scene.",
+      "region_relevance": "As a key component of the ventral attention network, the TPJ is critical for stimulus-driven attentional reorienting to salient, unexpected, or behaviorally relevant environmental changes.",
+      "scoreability_note": "Can be scored by identifying moments in the text description where sudden, unexpected events occur or where a character acts completely out of character.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_4_moral_appraisal",
+      "definition": "The viewer's evaluation of characters' actions against social norms, moral standards, or ethical expectations, including judgments of blame, fairness, or justification.",
+      "region_relevance": "TPJ is heavily implicated in moral reasoning, specifically in integrating a character's intent with the outcome of their actions to make moral judgments.",
+      "scoreability_note": "Scoreable based on textual descriptions of actions that violate or uphold social/moral codes, such as betrayal, self-sacrifice, harm, or rule-breaking.",
+      "source_run": 4
+    },
+    {
+      "domain_id": "run_5_social_agency_attribution",
+      "definition": "The viewer's tracking and attribution of intentionality, beliefs, desires, or hidden motives to characters, particularly when their actions deviate from expected social norms or require inferring unstated goals.",
+      "region_relevance": "The temporoparietal junction (TPJ), particularly within the ventral attention and default mode networks (e.g., rpSTS, A39rv), is the primary cortical hub for mentalizing, theory of mind, and attributing agency to social actors.",
+      "scoreability_note": "Can be reliably scored from text descriptions by identifying instances where characters act with ambiguous motives, engage in deception, or perform actions that require the viewer to infer their underlying mental states.",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_narrative_perspective_tracking",
+      "definition": "The viewer's cognitive tracking of the distribution of information and beliefs across different characters, including the detection of dramatic irony or shifts in whose perspective dominates the narrative segment.",
+      "region_relevance": "TPJ is critical for representing multiple, potentially conflicting points of view and distinguishing between different agents' knowledge states (e.g., self vs. other, or character A vs. character B).",
+      "scoreability_note": "Scoreable by analyzing text descriptions for situations where there is a mismatch in knowledge (e.g., a character is unaware of a hidden threat that the viewer and another character are aware of).",
+      "source_run": 5
+    },
+    {
+      "domain_id": "run_5_salience_driven_attention_reorienting",
+      "definition": "The viewer's cognitive reorienting triggered by sudden, unexpected narrative shifts, abrupt entries of characters, or surprising events that disrupt the established context and demand a reallocation of attention.",
+      "region_relevance": "As a key component of the ventral attention network (including A40c and rpSTS), the TPJ is heavily involved in bottom-up, stimulus-driven attention reorienting to behaviorally relevant, unexpected occurrences.",
+      "scoreability_note": "Easily scored from descriptions that capture sudden plot twists, unexpected physical actions, or abrupt transitions that break the continuity of the viewer's current expectations.",
+      "source_run": 5
+    }
+  ],
+  "curated_domains": [
+    {
+      "domain_id": "mental_state_attribution",
+      "definition": "The viewer's active inference and tracking of characters' internal, unobservable mental states—including their beliefs, hidden motives, knowledge gaps, secret intentions, or subjective emotional perspectives—based on behavioral cues, dialogue, or situational context.",
+      "region_relevance": "The temporoparietal junction (TPJ) is the primary cortical hub of the mentalizing network (Theory of Mind), crucial for representing others' cognitive states, distinguishing between self and other perspectives, and simulating others' internal experiences.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing characters acting on incomplete information, hiding secrets, experiencing complex internal dilemmas, or engaging in strategic deception, requiring the viewer to infer their inner thoughts.",
+      "source_domain_ids": [
+        "run_1_social_mentalizing",
+        "run_2_mental_state_attribution",
+        "run_3_mental_state_attribution",
+        "run_4_mental_state_attribution",
+        "run_5_social_agency_attribution",
+        "run_1_empathic_perspective_taking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all mentalizing, theory of mind, social agency attribution, and empathic perspective-taking domains across all five runs. These domains share a core functional mechanism (inferring internal cognitive/affective states of characters) and rely on the same behavioral and contextual evidence."
+    },
+    {
+      "domain_id": "epistemic_perspective_tracking",
+      "definition": "The viewer's cognitive tracking of the asymmetric distribution of information, knowledge, and beliefs across different characters or between the characters and the viewer (such as dramatic irony, secret-keeping, or tracking who knows what).",
+      "region_relevance": "TPJ is critical for representing divergent, potentially conflicting points of view and distinguishing between different agents' knowledge states (e.g., character A vs. character B, or self vs. other).",
+      "scoreability_note": "Scoreable by identifying scenes with clear information asymmetry, such as a character walking into a trap known only to the viewer, or a character lying while the viewer knows the truth.",
+      "source_domain_ids": [
+        "run_2_epistemic_gap_tracking",
+        "run_5_narrative_perspective_tracking"
+      ],
+      "source_runs": [
+        2,
+        5
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Consolidated domains focusing specifically on the tracking of knowledge discrepancies, dramatic irony, and perspective distribution. While related to mentalizing, this represents a distinct, highly scoreable cognitive process of tracking information boundaries and perspective divergence, which is a well-established function of the TPJ."
+    },
+    {
+      "domain_id": "social_interaction_appraisal",
+      "definition": "The viewer's tracking and appraisal of the dynamic social relationships, alliances, conflicts, power dynamics, or communicative exchanges occurring between two or more interacting characters.",
+      "region_relevance": "TPJ is sensitive to social context, communicative intent, and the interactive dynamics between agents, processing social stimuli beyond isolated individuals.",
+      "scoreability_note": "Easily scored by identifying scenes with multi-character dialogues, non-verbal social coordination, confrontations, or collaborative actions described in the text.",
+      "source_domain_ids": [
+        "run_1_social_interaction_appraisal",
+        "run_2_social_alignment_appraisal",
+        "run_3_social_agency_and_interaction",
+        "run_4_social_interaction_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Merged all domains focusing on tracking social interactions, alignment, and agency across runs 1-4. These domains all require the viewer to evaluate interpersonal dynamics and relationships rather than individual mental states in isolation."
+    },
+    {
+      "domain_id": "narrative_expectancy_reorienting",
+      "definition": "The viewer's cognitive reorienting or updating of their narrative model when unexpected events, sudden plot twists, abrupt character entries, or surprising actions violate prior expectations established by the scene.",
+      "region_relevance": "As a key node in the ventral attention network, the TPJ is heavily involved in stimulus-driven attention reorienting and detecting behaviorally relevant, unexpected changes in the environment or narrative flow.",
+      "scoreability_note": "Scoreable by identifying moments in the text where an unexpected event occurs, a character behaves in a highly surprising manner, or a sudden shift in the narrative direction is introduced.",
+      "source_domain_ids": [
+        "run_1_narrative_expectancy_reorienting",
+        "run_2_narrative_expectancy_violation",
+        "run_3_narrative_expectancy_violation",
+        "run_4_narrative_reorienting",
+        "run_5_salience_driven_attention_reorienting"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged all domains related to narrative expectancy violation, reorienting, and salience-driven attention across all five runs. They represent the same underlying cognitive process of updating narrative models in response to unexpected events, mapped to the TPJ's role in the ventral attention network."
+    },
+    {
+      "domain_id": "moral_and_normative_appraisal",
+      "definition": "The viewer's appraisal of characters' actions against social norms, moral standards, or ethical expectations, including evaluations of blame, intentional harm, betrayal, or altruism.",
+      "region_relevance": "TPJ is heavily implicated in moral reasoning, specifically in integrating a character's intent (mentalizing) with the outcome of their actions to make moral judgments.",
+      "scoreability_note": "Scoreable from descriptions of characters making ethical choices, violating social norms, committing acts of betrayal, or demonstrating selflessness.",
+      "source_domain_ids": [
+        "run_3_moral_and_normative_appraisal",
+        "run_4_moral_appraisal"
+      ],
+      "source_runs": [
+        3,
+        4
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Consolidated moral appraisal domains from runs 3 and 4. This is a distinct, high-level cognitive process supported by the TPJ that integrates theory of mind with normative evaluation."
+    }
+  ],
+  "rejected_or_merged_domains": [
+    {
+      "domain_id": "run_1_social_mentalizing",
+      "decision": "merged",
+      "reason": "Consolidated into the unified mental_state_attribution domain to represent the core Theory of Mind processes.",
+      "source_domain_ids": [
+        "run_1_social_mentalizing"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "mental_state_attribution"
+    },
+    {
+      "domain_id": "run_1_social_interaction_appraisal",
+      "decision": "merged",
+      "reason": "Consolidated into the unified social_interaction_appraisal domain to capture multi-agent dynamics.",
+      "source_domain_ids": [
+        "run_1_social_interaction_appraisal"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "social_interaction_appraisal"
+    },
+    {
+      "domain_id": "run_1_narrative_expectancy_reorienting",
+      "decision": "merged",
+      "reason": "Consolidated into the unified narrative_expectancy_reorienting domain to capture ventral attention network functions.",
+      "source_domain_ids": [
+        "run_1_narrative_expectancy_reorienting"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "narrative_expectancy_reorienting"
+    },
+    {
+      "domain_id": "run_1_empathic_perspective_taking",
+      "decision": "merged",
+      "reason": "Merged into mental_state_attribution as cognitive perspective-taking is a core component of mentalizing.",
+      "source_domain_ids": [
+        "run_1_empathic_perspective_taking"
+      ],
+      "source_runs": [
+        1
+      ],
+      "merged_into": "mental_state_attribution"
+    },
+    {
+      "domain_id": "run_2_mental_state_attribution",
+      "decision": "merged",
+      "reason": "Consolidated into the unified mental_state_attribution domain.",
+      "source_domain_ids": [
+        "run_2_mental_state_attribution"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "mental_state_attribution"
+    },
+    {
+      "domain_id": "run_2_narrative_expectancy_violation",
+      "decision": "merged",
+      "reason": "Consolidated into the unified narrative_expectancy_reorienting domain.",
+      "source_domain_ids": [
+        "run_2_narrative_expectancy_violation"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "narrative_expectancy_reorienting"
+    },
+    {
+      "domain_id": "run_2_social_alignment_appraisal",
+      "decision": "merged",
+      "reason": "Consolidated into the unified social_interaction_appraisal domain.",
+      "source_domain_ids": [
+        "run_2_social_alignment_appraisal"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "social_interaction_appraisal"
+    },
+    {
+      "domain_id": "run_2_epistemic_gap_tracking",
+      "decision": "merged",
+      "reason": "Consolidated into the epistemic_perspective_tracking domain to focus on knowledge asymmetry.",
+      "source_domain_ids": [
+        "run_2_epistemic_gap_tracking"
+      ],
+      "source_runs": [
+        2
+      ],
+      "merged_into": "epistemic_perspective_tracking"
+    },
+    {
+      "domain_id": "run_3_mental_state_attribution",
+      "decision": "merged",
+      "reason": "Consolidated into the unified mental_state_attribution domain.",
+      "source_domain_ids": [
+        "run_3_mental_state_attribution"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "mental_state_attribution"
+    },
+    {
+      "domain_id": "run_3_social_agency_and_interaction",
+      "decision": "merged",
+      "reason": "Consolidated into the unified social_interaction_appraisal domain.",
+      "source_domain_ids": [
+        "run_3_social_agency_and_interaction"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "social_interaction_appraisal"
+    },
+    {
+      "domain_id": "run_3_narrative_expectancy_violation",
+      "decision": "merged",
+      "reason": "Consolidated into the unified narrative_expectancy_reorienting domain.",
+      "source_domain_ids": [
+        "run_3_narrative_expectancy_violation"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "narrative_expectancy_reorienting"
+    },
+    {
+      "domain_id": "run_3_moral_and_normative_appraisal",
+      "decision": "merged",
+      "reason": "Consolidated into the unified moral_and_normative_appraisal domain.",
+      "source_domain_ids": [
+        "run_3_moral_and_normative_appraisal"
+      ],
+      "source_runs": [
+        3
+      ],
+      "merged_into": "moral_and_normative_appraisal"
+    },
+    {
+      "domain_id": "run_4_mental_state_attribution",
+      "decision": "merged",
+      "reason": "Consolidated into the unified mental_state_attribution domain.",
+      "source_domain_ids": [
+        "run_4_mental_state_attribution"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "mental_state_attribution"
+    },
+    {
+      "domain_id": "run_4_social_interaction_tracking",
+      "decision": "merged",
+      "reason": "Consolidated into the unified social_interaction_appraisal domain.",
+      "source_domain_ids": [
+        "run_4_social_interaction_tracking"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "social_interaction_appraisal"
+    },
+    {
+      "domain_id": "run_4_narrative_reorienting",
+      "decision": "merged",
+      "reason": "Consolidated into the unified narrative_expectancy_reorienting domain.",
+      "source_domain_ids": [
+        "run_4_narrative_reorienting"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "narrative_expectancy_reorienting"
+    },
+    {
+      "domain_id": "run_4_moral_appraisal",
+      "decision": "merged",
+      "reason": "Consolidated into the unified moral_and_normative_appraisal domain.",
+      "source_domain_ids": [
+        "run_4_moral_appraisal"
+      ],
+      "source_runs": [
+        4
+      ],
+      "merged_into": "moral_and_normative_appraisal"
+    },
+    {
+      "domain_id": "run_5_social_agency_attribution",
+      "decision": "merged",
+      "reason": "Consolidated into the unified mental_state_attribution domain.",
+      "source_domain_ids": [
+        "run_5_social_agency_attribution"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "mental_state_attribution"
+    },
+    {
+      "domain_id": "run_5_narrative_perspective_tracking",
+      "decision": "merged",
+      "reason": "Consolidated into the epistemic_perspective_tracking domain.",
+      "source_domain_ids": [
+        "run_5_narrative_perspective_tracking"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "epistemic_perspective_tracking"
+    },
+    {
+      "domain_id": "run_5_salience_driven_attention_reorienting",
+      "decision": "merged",
+      "reason": "Consolidated into the unified narrative_expectancy_reorienting domain.",
+      "source_domain_ids": [
+        "run_5_salience_driven_attention_reorienting"
+      ],
+      "source_runs": [
+        5
+      ],
+      "merged_into": "narrative_expectancy_reorienting"
+    }
+  ]
+}

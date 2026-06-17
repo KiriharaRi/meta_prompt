@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:44",
+    "batch_summary": "In their apartment, Ross and Chandler are watching TV when an answering machine message plays. A woman named Jade is looking for \"Bob,\" admitting she is drunk, naked, and wants to meet up. Seizing the opportunity, Chandler intercepts the call and pretends to be Bob. He learns Jade is an aerobics instructor whose legs are featured on a James Bond poster. Thrilled by this revelation, Chandler eagerly agrees to meet her the next afternoon, with Ross silently cheering him on.",
+    "cumulative_summary": "In their apartment kitchen, Ross and Chandler are hanging out, watching Spanish wrestling on television while Ross laments missing Julie. Chandler explains his new phone-screening strategy to avoid looking like he has no life. The routine is interrupted when a message plays on the answering machine from a woman named Jade. She is looking for a man named Bob, confessing that she is currently drunk, naked, and hoping to rekindle their past relationship. Seizing the moment, Chandler impulsively grabs the phone and pretends to be Bob. As they chat, Jade reveals she is an aerobics instructor whose legs are featured on a new James Bond poster. Both Chandler and Ross are ecstatic over this discovery. Chandler covers the phone to declare his love for Jade before returning to the call and eagerly setting up a date to meet her the following afternoon."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:44 - 00:03:19",
+    "batch_summary": "Chandler finalizes his date with Jade at Central Perk, revealing his scheme to Ross: when \"Bob\" stands her up, Chandler will swoop in to comfort her. Ross jokingly calls him \"pure evil.\" Later, Ross calls Julie in New Mexico, prompting the group to say hello. Rachel then tries to collect $62 from everyone for Ross's birthday expenses, which sparks financial concerns from Phoebe and Joey, highlighting the group's differing financial situations.",
+    "cumulative_summary": "While hanging out in their apartment, Chandler intercepts a wrong-number call from a woman named Jade, who is looking for her ex, Bob. Pretending to be Bob, Chandler schedules a date with her at Central Perk. He reveals his manipulative plan to Ross: when Bob fails to show up, Chandler will swoop in as a comforting stranger. Ross jokingly calls him \"pure evil.\" Later, Ross calls his girlfriend Julie in New Mexico, and the group gathers to say hello. Rachel then attempts to collect $62 from everyone for Ross's upcoming birthday expenses, which include a concert, a gift, and a cake. This steep cost immediately triggers financial anxiety for Phoebe and Joey, highlighting a growing economic disparity and tension among the friends."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:19 - 00:05:09",
+    "batch_summary": "Chandler leaves to execute his plan with Jade, ignoring Ross's doubts. Meanwhile, Joey, Phoebe, and Rachel bond over their shared financial anxieties, feeling that their wealthier friends do not understand their budget constraints. Their worries are compounded when Monica arrives to announce her promotion to head lunch chef and head of purchasing. When Monica enthusiastically suggests celebrating at a nice restaurant, Joey, Phoebe, and Rachel are left dreading the cost, highlighting the growing economic divide within the group.",
+    "cumulative_summary": "After intercepting a wrong-number call from a woman named Jade, Chandler decides to go through with his manipulative plan to meet her, despite Ross's skepticism. Meanwhile, the steep $62 cost for Ross's upcoming birthday party prompts an honest discussion between Rachel, Joey, and Phoebe. They realize they share a deep anxiety about their finances and feel that Chandler, Ross, and Monica do not understand their lower incomes. This economic tension is immediately exacerbated when Monica arrives home to celebrate her promotion to head lunch chef and head of purchasing. When she excitedly suggests going out to \"someplace nice\" to celebrate, the cash-strapped trio is left dreading the impending expense, further highlighting the growing financial divide among the friends."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:09 - 00:06:31",
+    "batch_summary": "At the coffee shop, Ross tries to persuade Chandler to tell Jade the truth instead of manipulating her. Despite Ross's warnings that he might be ruining her chance at true happiness, Chandler approaches Jade. However, instead of confessing, Chandler plays the role of a sympathetic stranger. He comforts her for being stood up by \"Bob,\" offering tissues and presenting himself as a sensitive guy. Jade is charmed by his gesture, and Chandler successfully inserts himself into her life under false pretenses.",
+    "cumulative_summary": "After intercepting a wrong-number call from a woman named Jade, Chandler decides to meet her despite Ross's skepticism. Meanwhile, a steep $62 cost for Ross's birthday party prompts Rachel, Joey, and Phoebe to discuss their financial anxieties, which are worsened when Monica suggests an expensive dinner to celebrate her new promotion. Back at the coffee shop, Ross makes a final attempt to convince Chandler to tell Jade the truth. Ignoring Ross's warnings about ruining her potential happiness, Chandler approaches Jade's table. Instead of confessing his deception, he plays the part of a sensitive, sympathetic stranger comforting her for being stood up by \"Bob.\" Charmed by his apparent kindness and offer of tissues, Jade smiles, and Chandler successfully inserts himself into her life under false pretenses, leaving Ross watching in disbelief."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:31 - 00:08:26",
+    "batch_summary": "The friends gather at an expensive restaurant to celebrate Monica's promotion, but Rachel, Phoebe, and Joey are immediately stressed by the high menu prices. Chandler arrives late, boasting about his date with Jade, and admits to Ross that he gave her Ross's phone number to keep up his \"Bob\" deception. When ordering, the financial divide deepens as Monica and Ross order lavishly, while a cash-strapped Joey tries to negotiate a cheaper price for a modified pizza with a sarcastic waiter.",
+    "cumulative_summary": "After intercepting a wrong-number call, Chandler successfully inserts himself into Jade's life under false pretenses, leaving Ross skeptical. Meanwhile, financial anxieties mount for Rachel, Joey, and Phoebe over the costs of Ross's birthday and Monica's promotion. The tension peaks when the group gathers at an expensive restaurant to celebrate Monica's new role as head lunch chef. While Monica and Ross order lavish meals, Rachel, Phoebe, and Joey are intimidated by the steep prices, leading Joey to awkwardly ask the waiter for a discount on a modified pizza. Chandler arrives late, happily boasting about his afternoon with Jade, but Ross reveals she already left a message on his machine. Chandler confesses he gave her Ross's number to sustain his \"Bob\" deception. The celebratory dinner highlights both Chandler's escalating lies and the growing financial divide among the friends."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:26 - 00:10:12",
+    "batch_summary": "At the restaurant, Rachel and Phoebe order minimal, cheap items to save money. After dinner, Ross calculates the bill, suggesting they split it evenly among five of them to cover Monica's celebratory meal, bringing the total to $33.50 each. Phoebe strongly objects, pointing out that she, Rachel, and Joey barely ate anything. Ross tries to defuse the tension by suggesting everyone just pay for what they ordered, but the financial divide and underlying resentment among the friends remain palpable.",
+    "cumulative_summary": "After intercepting a wrong-number call, Chandler inserts himself into Jade's life under false pretenses, leaving Ross skeptical. Meanwhile, financial anxieties mount for Rachel, Joey, and Phoebe over the costs of Ross's birthday and Monica's promotion. The tension peaks when the group gathers at an expensive restaurant to celebrate Monica's new role. While Monica, Ross, and Chandler order full meals, Rachel and Phoebe try to save money by ordering only a side salad and cucumber soup. When the bill arrives, Ross calculates that they should split it five ways to cover Monica's share, bringing the cost to $33.50 each. Phoebe strongly objects, highlighting the unfairness since she, Rachel, and Joey barely ate. Although Ross quickly suggests they just pay for what they ordered, the awkward confrontation exposes the deep financial divide and growing resentment within the group."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 261,
+    "timestamp_range": "00:10:12 - 00:11:17",
+    "batch_summary": "Following the awkward dinner bill confrontation, Monica asks what is really going on. Although Rachel is hesitant to speak up to avoid making everyone uncomfortable, Ross and Chandler encourage honesty. Joey takes the lead and directly addresses the elephant in the room, explaining that he, Rachel, and Phoebe feel that the others do not understand that they simply do not have as much money. Ross receptively agrees to discuss the issue, but the conversation is cut short as Rachel begins to elaborate.",
+    "cumulative_summary": "After intercepting a wrong-number call, Chandler inserts himself into Jade's life under false pretenses. Meanwhile, financial anxieties mount for Rachel, Joey, and Phoebe over the costs of Ross's birthday and Monica's promotion. The tension peaks at an expensive celebratory dinner when Ross suggests splitting the bill equally, prompting a strong objection from Phoebe. Sensing the lingering tension, Monica asks what is wrong. Though Rachel is hesitant to make everyone uncomfortable, Ross and Chandler encourage them to speak. Joey finally voices their frustration, directly stating that he, Rachel, and Phoebe do not have as much money as the other three. Ross receptively agrees to discuss the issue, but the conversation is cut short just as Rachel begins to elaborate, leaving the group's financial divide out in the open."
+  }
+]

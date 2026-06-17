@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:47",
+    "batch_summary": "Monica proudly shares her unconventional stock market success with Joey and a friend. Phoebe then arrives with news that her estranged father's dog is recovering from injuries but needs stitches. Reluctant to call her father herself, Phoebe accepts Joey's offer to make the call on her behalf, under the condition that he doesn't mention her. Joey dials the number and hilariously adopts a deep, raspy voice when a woman answers the phone.",
+    "cumulative_summary": "In the apartment kitchen, Monica excitedly shares her modest stock market gains with Joey and their friend in a grey t-shirt, explaining her humorous, unconventional methods for picking stocks. The lighthearted atmosphere shifts slightly when Phoebe arrives with an update on her estranged father's dog. Although the dog is recovering and will be fine despite needing stitches, Phoebe is highly anxious about calling her father to deliver the news, fearing how to explain both her identity and the dog's injury. Eager to help, Joey volunteers to make the phone call for her, promising to keep Phoebe's identity a secret. As Monica anxiously watches the phone line due to her stock trading, Joey dials the number. When a woman answers, Joey hilariously adopts an overly dramatic, deep, and raspy voice to greet \"Mrs. Buffay,\" setting up a comical attempt to handle the delicate situation."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:47 - 00:03:37",
+    "batch_summary": "Joey finishes his bizarre, ransom-style phone call to Phoebe's stepmother, leaving his friends bewildered by his dramatic voice. Later, Chandler and Ross struggle with terrible instant cappuccino at home to avoid the coffee house. When Joey offers to escort them there after his niece's christening, Ross refuses. Tired of being intimidated, Ross insists they stand up to the bullies, viewing a potential beating as a manly rite of passage, though Chandler remains highly skeptical.",
+    "cumulative_summary": "In the apartment kitchen, Monica shares her unconventional stock market methods before Phoebe arrives, anxious about calling her estranged father regarding his injured dog. Joey volunteers to make the call but hilariously delivers a dramatic, ransom-style message in a raspy voice, promising the dog's safe return. Later, Ross and Chandler are shown drinking terrible instant cappuccino at home to avoid the coffee house. When Joey offers to escort them there later for protection, Ross refuses. Tired of hiding, Ross insists they return to the coffee house and stand up to the bullies who intimidated them. Despite Joey pointing out that Ross has never been in a real fight, Ross argues that getting beaten up could be a necessary, manly rite of passage, a prospect Chandler meets with humorous reluctance."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:37 - 00:05:12",
+    "batch_summary": "Chandler reluctantly agrees to join Ross in facing the bullies, pausing only to change his underwear. Meanwhile, a desperate Monica reveals she lost all her money in the stock market. Unable to borrow $100 from Rachel, Monica realizes she must take a humiliating diner job involving costumes. Elsewhere, Phoebe returns the injured dog to its owner, defending her actions while offering eccentric advice about the dog's protective cone.",
+    "cumulative_summary": "In the apartment, Monica's unconventional stock market methods end in disaster, leaving her broke. Desperate to avoid a humiliating diner job requiring a ridiculous costume, she begs Rachel for a $100 loan, but Rachel cannot help. Meanwhile, Phoebe, anxious about her estranged father's injured dog, personally returns the pet to its owner. She defends her vegetarian nature while offering eccentric advice about the dog's protective cone. At the same time, Ross and Chandler grow tired of hiding from the coffee house bullies. Although Joey warns them about Ross's lack of fighting experience, Ross views the confrontation as a manly rite of passage. Chandler reluctantly agrees to join him, pausing only to change into clean underwear in case of a hospital visit."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:12 - 00:06:37",
+    "batch_summary": "At her father's house, Phoebe asks for Frank, only to meet her half-brother, Frank Jr. She learns that their father, Frank Sr., abandoned the family four years ago. As Phoebe prepares to leave, Frank Jr. catches up with her on the sidewalk. Phoebe reveals their genetic connection, and the two share a bittersweet, quirky moment bonding over their father's eccentric love for stilts.",
+    "cumulative_summary": "After Monica's stock market disaster leaves her broke and Ross and Chandler prepare to confront coffee house bullies, Phoebe's quest to find her estranged father takes an unexpected turn. While returning his injured dog, she asks for Frank, only to discover that her father, Frank Sr., abandoned his family four years ago. Instead, she meets her half-brother, Frank Jr. After Phoebe reveals their genetic connection, the two share a bittersweet moment on the sidewalk, bonding over their father's eccentric love for stilts. This discovery adds emotional weight to Phoebe's journey, even as Monica faces financial desperation and the guys prepare for their manly rite of passage against the bullies."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:37 - 00:08:09",
+    "batch_summary": "Phoebe and her half-brother, Frank Jr., warmly bond over their new sibling connection, agreeing to keep in touch and sharing a lighthearted moment about their father's stilt mishaps. Meanwhile, Ross and Chandler attempt to stand their ground against the bullies at the coffee house. However, their anxiety gets the better of them. After hastily chugging their scalding hot coffee to prove a point, they burn their mouths and quickly flee the scene, cutting short their manly stand.",
+    "cumulative_summary": "Following Monica's financial troubles and Phoebe's search for her father, Phoebe's meeting with her half-brother, Frank Jr., turns into a heartwarming connection. The two embrace their new sibling relationship, agreeing to keep in touch and sharing a laugh over their father's eccentricities. Meanwhile, Ross and Chandler attempt to confront the coffee house bullies by standing their ground at Central Perk. However, their bravado quickly crumbles under intense anxiety. In a desperate bid to prove their point and leave quickly, they chug their scalding hot coffee, burning their mouths before hastily fleeing the shop. This leaves Phoebe with a promising new family bond, while the guys' attempt at a manly confrontation ends in a comical retreat."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:09 - 00:09:55",
+    "batch_summary": "Outside Central Perk, Ross and Chandler confront the bullies, Arthur and Carl, to stand their ground. Before fighting, they negotiate bizarre rules, including putting their watches and keys in a hat and banning hits to the face or below the waist. However, before any punches are thrown, thieves steal the hat containing their belongings. The four men team up to chase the thieves down the street, leaving Chandler exhausted but thrilled by the unexpected adrenaline rush.",
+    "cumulative_summary": "Following Monica's financial troubles and Phoebe's heartwarming connection with her half-brother, Frank Jr., Ross and Chandler make another attempt to stand their ground against the coffee house bullies, Arthur and Carl. Outside Central Perk, the confrontation quickly devolves into a comical negotiation of fight rules, leading them to ban hits to the face and groin, and to place their watches and keys in a hat. However, before any punches can be thrown, thieves steal the hat containing their valuables. This forces the rivals to unite and chase after the culprits down the street. The shared pursuit ultimately defuses the hostility, leaving Chandler exhausted but exhilarated by the wild turn of events."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 277,
+    "timestamp_range": "00:09:55 - 00:11:40",
+    "batch_summary": "After the chase, Ross and Chandler bond with Arthur and Carl. Although they declare a truce, Arthur refuses to return Chandler's hat. Chandler comically snatches it and runs, sparking another chase. Later, the friends visit Monica at her new job at a retro diner, where she wears a ridiculous costume and blonde wig. When Chandler plays 'Y.M.C.A.' on the jukebox, Monica and the staff are forced to perform a choreographed dance on the counter, much to her friends' amusement.",
+    "cumulative_summary": "Following Monica's financial troubles, Ross and Chandler attempt to stand their ground against coffee house bullies Arthur and Carl. A comical negotiation of fight rules is interrupted when thieves steal their valuables, forcing the rivals to unite in a chase. Afterward, the group bonds over the shared pursuit. Although a truce is reached, Arthur refuses to return Chandler's hat, prompting Chandler to snatch it and flee, starting another chase. Later, the friends visit Monica at her new job at a retro-themed diner, where she is forced to wear a ridiculous blonde wig and costume. When Chandler plays 'Y.M.C.A.' on the jukebox, Monica and the rest of the staff reluctantly perform a choreographed dance on the counter, much to the amusement of her laughing friends."
+  }
+]

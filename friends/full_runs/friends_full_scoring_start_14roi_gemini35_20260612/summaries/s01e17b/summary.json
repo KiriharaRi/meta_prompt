@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:30",
+    "batch_summary": "In the apartment, Rachel receives a phone call from her father. To distract him, she blurts out a wild confession about having sex on his bed in college, only to frantically backtrack and blame Monica's \"drunkenness\" when Monica interrupts. Meanwhile, the rest of the group—Monica, Chandler, Ross, and Phoebe—play a board game and debate made-up words. The lighthearted chaos peaks when Ross's pet monkey steals the TV remote, leaving a Spanish cartoon playing on the screen.",
+    "cumulative_summary": "The story begins in a lively apartment where Rachel receives a phone call from her father. Anxious and pacing, she makes a shocking confession about her college years to him, only to immediately regret it. As she frantically tries to backtrack and explain herself, Monica interrupts to ask about a misplaced item. To cover her tracks, Rachel quickly tells her father that Monica is just drunk, leaving Monica annoyed. Meanwhile, the rest of the friends—Monica, Chandler, Ross, and Phoebe—try to ignore the phone drama by playing a board game. They get into a humorous debate over whether \"scrunchie\" is a valid word, with Chandler jokingly defending his own made-up words. The comedic atmosphere escalates when a small monkey jumps onto the couch and steals the television remote, changing the channel to a Spanish cartoon, much to the amusement and mild frustration of the group."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:30 - 00:02:34",
+    "batch_summary": "Rachel wraps up the call with her father only to receive another call from the hospital admissions office. Panicking over a potential issue with their forms, she frantically hands the phone to Monica. Monica learns they simply forgot to sign a document and must return to the hospital, leaving Rachel stressed and regretting their scheme. Meanwhile, the rest of the group continues their word game until Joey arrives, prompting Ross to ask if a certain someone has called yet.",
+    "cumulative_summary": "The story begins in a lively apartment where Rachel receives a phone call from her father, making a confession she immediately regrets. To cover her tracks, she tells her father that Monica is drunk, while the rest of the friends play a board game and deal with a mischievous pet monkey. The tension rises when Rachel receives a second call from the hospital admissions office. Panicking over a potential issue with their medical forms, Rachel frantically begs Monica to take the call. Monica discovers they simply forgot to sign a document and must return to the hospital, leaving Rachel stressed and regretting their scheme. Meanwhile, Chandler, Phoebe, and Ross continue their humorous word game until Joey arrives, prompting Ross to anxiously ask if a certain woman has called him yet."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:02:34 - 00:04:19",
+    "batch_summary": "Joey complains to Phoebe that her twin sister, Ursula, stood him up and is dodging his calls. Phoebe visits Ursula at the restaurant where she works as a waitress. Despite Ursula's distracted and forgetful behavior with customers, the sisters share a brief, slightly awkward birthday exchange. Phoebe gifts Ursula a Judy Jetson thermos, and Ursula surprises Phoebe with a gift of her own, chalking it up to their \"twin thing.\"",
+    "cumulative_summary": "The story begins in a lively apartment where Rachel receives a phone call from her father, making a confession she immediately regrets. To cover her tracks, she tells her father that Monica is drunk, while the rest of the friends play a board game and deal with a mischievous pet monkey. The tension rises when Rachel receives a second call from the hospital admissions office. Panicking over a potential issue with their medical forms, Rachel frantically begs Monica to take the call. Monica discovers they simply forgot to sign a document and must return to the hospital, leaving Rachel stressed and regretting their scheme. Meanwhile, Chandler, Phoebe, and Ross continue their humorous word game until Joey arrives. Joey reveals that Phoebe's twin sister, Ursula, stood him up and has been dodging his calls. Seeking to address the situation, Phoebe visits Ursula at the restaurant where she works. Despite Ursula's distracted waitressing, the sisters share a brief birthday exchange, swapping gifts and highlighting their complicated but connected twin dynamic."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:19 - 00:05:52",
+    "batch_summary": "During their birthday meeting, Phoebe is dismayed to learn that Ursula has unilaterally ended things with Joey without actually telling him, carelessly assuming he will just figure it out. Ursula's self-absorbed nature is further highlighted by her terrible waitressing. Meanwhile, Monica and Rachel return to the hospital to fix their medical forms. To maintain their insurance cover-up, Monica pretends she made a mistake and put the wrong name again, leading the blunt admissions receptionist to call her stupid.",
+    "cumulative_summary": "The story begins in a lively apartment where Rachel lies to her father to cover her tracks, while the friends deal with a mischievous pet monkey. When a hospital call threatens to expose Rachel and Monica's medical insurance swap, they are forced to return to the hospital. There, Monica must play dumb and endure being called stupid by a blunt receptionist to keep their scheme alive. Meanwhile, Joey reveals he was stood up by Phoebe's twin sister, Ursula. Phoebe visits Ursula at her restaurant, where they exchange identical birthday gifts. However, Phoebe is dismayed to learn that Ursula has casually ended her relationship with Joey without actually telling him, selfishly assuming he will just figure it out on his own."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:05:52 - 00:07:28",
+    "batch_summary": "At the hospital, Monica and Rachel successfully maintain their insurance ruse, using the opportunity to apologize for past insults and strengthen their bond. Meanwhile, Chandler and Ross discuss Ross's anxieties about fatherhood while playing Scrabble. The mood shifts to panic when they realize Ross's pet monkey, Marcel, has swallowed the letter \"K\" tile. Desperate, Ross and Chandler rush Marcel to the same hospital, where they run into Rachel and Monica.",
+    "cumulative_summary": "The story begins with Rachel and Monica pulling off a risky medical insurance swap. At the hospital, Monica plays dumb to keep the scheme alive, which leads to a heartfelt waiting-room reconciliation where she and Rachel apologize for past insults. Meanwhile, Joey is heartbroken after being stood up by Phoebe's twin sister, Ursula. When Phoebe confronts Ursula, she is dismayed to learn her sister casually ended the relationship without telling Joey. Back at the apartment, Chandler tries to address Ross's anxieties about fatherhood during a game of Scrabble. However, the mood shifts to panic when they realize Ross's pet monkey, Marcel, has swallowed the letter \"K\" tile. With the animal hospital too far away, Ross and Chandler rush the choking monkey to the regular hospital, where they unexpectedly run into Rachel and Monica."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:07:28 - 00:09:05",
+    "batch_summary": "At the hospital, Ross desperately pleads for Marcel's treatment, convincing a doctor named Mitchell to help, who unexpectedly recognizes Rachel and Monica. Meanwhile, at the coffee shop, Ursula meets with Joey to officially end their relationship. When Joey asks why, she blames his close friendship with Phoebe, ultimately forcing him to choose between them, knowing Joey's loyalty to Phoebe will end things.",
+    "cumulative_summary": "The story begins with Rachel and Monica pulling off a risky medical insurance swap. At the hospital, Monica plays dumb to keep the scheme alive, leading to a heartfelt waiting-room reconciliation with Rachel. Meanwhile, Joey is heartbroken after being stood up by Phoebe's twin sister, Ursula. Back at the apartment, Chandler tries to ease Ross's anxieties about fatherhood, but panic strikes when Ross's pet monkey, Marcel, swallows a Scrabble tile. Ross and Chandler rush Marcel to the hospital, where Ross desperately begs the staff to treat his pet. A sympathetic doctor named Mitchell agrees to help, who turns out to know Rachel and Monica. Meanwhile, Ursula meets Joey at the coffee shop to break off their relationship. When Joey presses for a reason, Ursula blames his friendship with Phoebe and issues an ultimatum, forcing Joey to choose Phoebe over her."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:05 - 00:11:11",
+    "batch_summary": "Phoebe pretends to be her twin sister, Ursula, to give Joey a gentle breakup. Unaware of the switch, Joey tells \"Ursula\" how beautiful she is and kisses her goodbye, leaving both of them deeply moved. Later, at the hospital, the friends gather around Ross and Marcel. The doctor successfully removes the swallowed Scrabble tiles, and Marcel is out of danger. As Marcel wakes up and holds Ross's finger, Chandler reassures Ross that his protective actions prove he is ready for fatherhood, bringing a heartwarming conclusion to the group's ordeal.",
+    "cumulative_summary": "The story begins with Rachel and Monica pulling off a risky medical insurance swap, leading to a heartfelt waiting-room reconciliation. Meanwhile, Joey is heartbroken after being stood up by Phoebe's twin sister, Ursula. Back at the apartment, Chandler tries to ease Ross's anxieties about fatherhood, but panic strikes when Ross's pet monkey, Marcel, swallows a Scrabble tile. Ross and Chandler rush Marcel to the hospital, where a sympathetic doctor agrees to help. To spare Joey's feelings after Ursula callously breaks things off, Phoebe pretends to be her twin to give him a gentle, loving farewell. Joey, unaware of the ruse, shares a tender goodbye kiss with her. Later, the friends gather at the hospital where the doctor successfully removes the swallowed tiles from Marcel. As the monkey wakes up and grasps Ross's finger, Chandler reassures a relieved Ross that his protective instincts prove he is ready to be a father, bringing a heartwarming resolution to the group's chaotic day."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 294,
+    "timestamp_range": "00:11:11 - 00:11:59",
+    "batch_summary": "Back at the apartment, Chandler, Monica, Ross, and Rachel unpack takeout food when Joey joins them. The lighthearted atmosphere is capped off when Ross's monkey, Marcel, scampers across the sofa and grabs the TV remote. Rachel and Ross jokingly point out that Marcel seems to like television, prompting warm laughter from the entire group before the scene fades to black.",
+    "cumulative_summary": "The story begins with Rachel and Monica pulling off a risky medical insurance swap, leading to a heartfelt waiting-room reconciliation. Meanwhile, Joey is heartbroken after being stood up by Phoebe's twin sister, Ursula. To spare his feelings, Phoebe pretends to be Ursula to give him a gentle, loving farewell kiss. Back at the apartment, Chandler tries to ease Ross's anxieties about fatherhood, but panic strikes when Ross's pet monkey, Marcel, swallows a Scrabble tile. Ross and Chandler rush Marcel to the hospital, where a sympathetic doctor successfully removes the tile. Chandler reassures a relieved Ross that his protective instincts prove he is ready to be a father. Later, the friends gather back at the apartment to unpack takeout. Joey joins the group just as Marcel scampers across the sofa and grabs the TV remote. Ross and Rachel joke about the monkey's newfound interest in television, bringing a warm, lighthearted end to their chaotic day."
+  }
+]

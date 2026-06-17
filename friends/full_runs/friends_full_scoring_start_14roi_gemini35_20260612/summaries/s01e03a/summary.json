@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:52",
+    "batch_summary": "In a coffee shop, Phoebe discusses a date with the group. Rachel is surprised when Monica and Joey explain the hidden meanings behind common dating breakup phrases, with humorous examples from Chandler. Ross humorously recounts a childhood story about his dog going to a farm, leading to the comic revelation that the dog was likely put to sleep. The scene shifts to Chandler helping Joey rehearse a dramatic acting scene, showcasing their supportive friendship.",
+    "cumulative_summary": "The story opens in a coffee shop with the friends Ross, Monica, Joey, Chandler, Phoebe, and Rachel. Phoebe shares her disappointment about a date, prompting the group to humorously decode common breakup lines. This leads to a comedic moment where Ross realizes his childhood story about his family dog 'going to a farm' was likely a euphemism for euthanasia. Later, Chandler assists Joey in rehearsing a dramatic death scene for an acting role, highlighting their camaraderie."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:52 - 00:03:22",
+    "batch_summary": "Joey and Chandler continue rehearsing Joey's dramatic death scene, focusing on his character's smoking habit. The session is comedic as Joey fumbles with a cigarette and lighter. Chandler, showing surprising personal knowledge, demonstrates how to smoke 'correctly,' which triggers an intense craving in himself. He briefly struggles with his own urge to smoke again, revealing a past addiction, before helping Joey nail the mannerism for his audition.",
+    "cumulative_summary": "The friends are gathered in a coffee shop. Earlier, they humorously decoded breakup lines, leading Ross to a sad realization about his childhood dog. The focus then shifts to Joey and Chandler rehearsing Joey's dramatic death scene for an acting role. In the current scene, their practice over a character's smoking habit becomes a comedic struggle. Joey fumbles with the props, while Chandler's expert coaching reveals his own past nicotine addiction, adding a layer of personal vulnerability to their supportive friendship."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:22 - 00:05:02",
+    "batch_summary": "The group transitions to a coffee shop where they humorously debate a rumor about a correlation between hand size and anatomy, leading to self-conscious examination. Rachel serves them drinks, which they secretly swap when her back is turned. Phoebe arrives, upset about an extra $500 in her bank account, which she sees as a hassle rather than a gift.",
+    "cumulative_summary": "The friends are gathered in a coffee shop. Earlier, they humorously decoded breakup lines, leading Ross to a sad realization about his childhood dog. The focus then shifts to Joey and Chandler rehearsing Joey's dramatic death scene for an acting role. In the current scene, their practice over a character's smoking habit becomes a comedic struggle. Joey fumbles with the props, while Chandler's expert coaching reveals his own past nicotine addiction, adding a layer of personal vulnerability to their supportive friendship. The group then moves to a coffee shop where they humorously debate a rumor about hand size, leading to self-conscious examination. Rachel serves drinks, which they secretly swap. Phoebe arrives, upset about an unexpected bank surplus, viewing it as an inconvenience."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:02 - 00:06:39",
+    "batch_summary": "Phoebe explains her moral dilemma about the bank surplus, comparing it to a 'karmic debt' that would ruin any enjoyment. Chandler then reveals he's smoking again, shocking the group after three years of being smoke-free. Despite their protests, he relents and puts out the cigarette in Phoebe's mug, ruining her drink. Later, Monica prepares for a date with Alan, but fiercely refuses to let the group meet him, referencing a disastrous past incident with someone named Steve.",
+    "cumulative_summary": "The friends, still in their usual social hangout, shift from decoding breakup lines and rehearsing Joey's death scene to Phoebe's ethical crisis over an unexpected bank surplus, which she sees as unearned 'karmic debt.' The mood darkens when Chandler relapses into smoking after three years, shocking the group before he puts out his cigarette in Phoebe's mug. The scene transitions to Monica eagerly preparing for a date with Alan, but she fiercely refuses to introduce him to the group, alluding to a previous disastrous experience with a friend named Steve, leaving everyone curious and rejected."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:39 - 00:08:42",
+    "batch_summary": "Monica remains adamant about not introducing her date Alan to the friends, confiding in coworker Paula that they overwhelm her suitors. The group reluctantly promises to behave when she finally agrees to let them meet him, but Chandler is banished to the rainy balcony due to his smoking relapse. Phoebe returns with good news: the bank has corrected its error, crediting her $500 and giving her a free football phone, leaving her with $1,000 total and delighting the group.",
+    "cumulative_summary": "The friends are dealing with various personal dramas: Monica fiercely resists introducing her new date, Alan, to the group, fearing they'll scare him off as they have past suitors. After confiding in a coworker, she reluctantly agrees to let them meet him if they promise to behave, though Chandler is relegated to the balcony due to his recent smoking relapse. Meanwhile, Phoebe resolves her ethical crisis when the bank corrects its error, crediting her $500 and giving her a football phone, leaving her with a total of $1,000. The group's mood shifts between tension over Monica's date and amusement at Phoebe's windfall."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:42 - 00:10:02",
+    "batch_summary": "Monica nervously introduces her date, Alan, to the group, asking them to behave. After he leaves, she braces for their criticism, but to her surprise, they enthusiastically reveal they loved him, with Ross unable to even pretend to mock him. The mood shifts from tense anticipation to joyful celebration and acceptance.",
+    "cumulative_summary": "The friends navigate personal dramas: Monica fears her new date, Alan, will be scared off by the group, like past suitors. After confiding in a coworker, she reluctantly arranges a meeting, relegating a smoking-relapsed Chandler to the balcony. Meanwhile, Phoebe's ethical crisis resolves when the bank credits her $500 and a football phone, totaling $1,000. Tension builds as Alan arrives for the introduction, but the group's reaction completely defies Monica's expectations. After he leaves, she prepares for mockery, only for them to enthusiastically declare they loved him, with Ross unable to even feign criticism, transforming the atmosphere from anxiety to elated acceptance."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 273,
+    "timestamp_range": "00:10:02 - 00:11:43",
+    "batch_summary": "Following Alan's departure, the friends enthusiastically praise him, with Joey admiring his crooked smile and Phoebe connecting it to a nursery rhyme. Ross declares Alan a 'yardstick' for future boyfriends, while Rachel suggests the relationship is serious. Chandler jokes he'd marry him for his Hasselhoff impression. Later at Central Perk, the group returns from a softball game, cheering and crediting Alan's superlative performance for their win, solidifying their unanimous acceptance.",
+    "cumulative_summary": "The friends navigate personal dramas: Monica fears her new date, Alan, will be scared off by the group. After his introduction, the group's reaction defies her expectations, as they enthusiastically declare they loved him, transforming the atmosphere from anxiety to elated acceptance. In the following scene, they praise his quirks and personality, with Ross calling him a 'yardstick' for future boyfriends. Their positive feelings are reinforced when they return from a softball game, cheering their victory and crediting Alan's incredible, multi-position performance, cementing his status as a universally approved figure among the friends."
+  }
+]

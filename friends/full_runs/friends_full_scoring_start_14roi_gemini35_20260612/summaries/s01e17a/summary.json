@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:15",
+    "batch_summary": "In a hospital waiting room, Rachel realizes she cannot afford treatment without health insurance and convinces a reluctant Monica to let her use her identity. Monica successfully commits insurance fraud by lying to the receptionist to get new forms. Later, at a coffee shop, Ross shares a dream about playing football with his child with Chandler and Joey.",
+    "cumulative_summary": "While waiting in a hospital, Rachel discovers she does not have health insurance and worries about the high cost of her medical treatment. Desperate, she suggests using Monica's insurance. Although Monica is initially hesitant and warns her that this constitutes insurance fraud, she relents after seeing Rachel in pain. Monica approaches the hospital receptionist and successfully lies, claiming she mistakenly filled out her own details on Rachel's paperwork to get a new form. Later, the scene shifts to a coffee shop where Ross, Chandler, and Joey are hanging out. Ross opens up to his friends, sharing a dream he had about playing football with his child."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:15 - 00:02:59",
+    "batch_summary": "Ross details his anxiety-inducing dream where he throws his baby like a football, expressing his deep fears about becoming a father. Chandler reassures him of his parenting potential, while Joey offers a humorous sports-themed take. The conversation shifts when Joey reveals he is taking Ursula out to the expensive Rainbow Room tonight. Ross reminds him that tonight is also Phoebe's birthday, leaving Joey stunned by the scheduling conflict.",
+    "cumulative_summary": "While waiting in a hospital, Rachel discovers she does not have health insurance and worries about the high cost of her medical treatment. Desperate, she convinces Monica to commit insurance fraud by using Monica's details on the paperwork. Later, at the coffee shop, Ross opens up to Chandler and Joey about a bizarre dream where he throws his baby like a football, expressing his deep anxiety about becoming a father. Chandler reassures Ross that he is responsible and will make a great dad. The conversation shifts when Joey reveals he is taking Ursula to the expensive Rainbow Room tonight. Ross quickly points out that tonight is also Phoebe's birthday, leaving Joey stunned as he slowly processes the scheduling conflict."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:02:59 - 00:04:33",
+    "batch_summary": "Joey decides to prioritize his date with Ursula over Phoebe's birthday, despite Ross warning him of a potential backlash. Meanwhile, at the hospital, Rachel and Monica successfully maintain their insurance fraud ruse while meeting two doctors, Dr. Mitchell and Dr. Rosie. Rachel accidentally flirts with Dr. Mitchell, leading the doctors to ask them out on a double date. Back at the apartment, Monica is anxious about dating the doctors, fearing they will get caught, while Rachel remains excited.",
+    "cumulative_summary": "While waiting in a hospital, Rachel discovers she does not have health insurance and convinces Monica to commit insurance fraud by using Monica's identity. While there, they meet two doctors, Dr. Mitchell and Dr. Rosie. Rachel accidentally flirts with Dr. Mitchell, which leads to the doctors asking them out on a double date. Back at the apartment, Monica worries that dating the doctors is too risky after their fraud, but Rachel is excited. Meanwhile, Ross opens up to Chandler and Joey about his anxieties regarding fatherhood. The conversation shifts when Joey reveals he scheduled an expensive date with Ursula on Phoebe's birthday. Despite Ross warning him that Phoebe will be furious, Joey decides to prioritize Ursula, hoping Phoebe will understand."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:33 - 00:06:06",
+    "batch_summary": "The friends gather at the apartment to throw Phoebe a surprise birthday party. Before she arrives, Ross is accidentally startled by the hiding guests and drops her birthday cake, crushing it so it reads \"Happy birthday, Pee.\" When Phoebe arrives, she is thrilled by the surprise and cheerfully accepts her new \"nickname\" from the ruined cake. However, she quickly notices Joey's absence, prompting Chandler to awkwardly distract her, as Joey is out on his date with Ursula.",
+    "cumulative_summary": "While waiting in a hospital, Rachel discovers she does not have health insurance and convinces Monica to commit insurance fraud by using Monica's identity. This leads to a double date with two cute doctors, which Monica worries is too risky. Meanwhile, Joey decides to prioritize an expensive date with Phoebe's twin sister, Ursula, on Phoebe's birthday, despite Ross's warnings. Back at the apartment, the friends gather to throw Phoebe a surprise party. Before she arrives, Ross is startled by the hiding guests and drops her birthday cake, crushing it so it reads \"Happy birthday, Pee.\" When Phoebe arrives, she is thrilled by the surprise and cheerfully embraces her new \"nickname.\" However, she quickly notices Joey's absence, forcing Chandler to awkwardly distract her to cover for Joey's date with Ursula."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:06 - 00:07:50",
+    "batch_summary": "Ross dines with his father, seeking reassurance about his impending fatherhood. Initially distracted by mundane topics like sundried tomatoes, his father admits he wasn't around much when Ross was young. However, when Ross asks when he finally felt like a father, his dad shares a heartwarming memory of holding newborn Ross in the hospital for the first time. This bonding moment offers Ross some comfort as he prepares for his own journey into parenthood.",
+    "cumulative_summary": "While waiting in a hospital, Rachel discovers she does not have health insurance and convinces Monica to commit insurance fraud by using Monica's identity. This leads to a double date with two cute doctors, which Monica worries is too risky. Meanwhile, Joey decides to prioritize an expensive date with Phoebe's twin sister, Ursula, on Phoebe's birthday, despite Ross's warnings. Back at the apartment, the friends gather to throw Phoebe a surprise party, where Ross accidentally ruins her cake. When Phoebe arrives, she is thrilled by the surprise but notices Joey's absence, forcing Chandler to awkwardly cover for him. Seeking guidance on his own impending parenthood, Ross meets his father for dinner. Although his father initially deflects with trivial conversation, Ross asks when he truly started to feel like a father. His dad shares a touching, candid memory of holding newborn Ross in the hospital, providing Ross with a moment of reassurance and connection."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:07:50 - 00:09:17",
+    "batch_summary": "Ross's father finishes his heartwarming story, reassuring Ross about fatherhood before they resume their dinner. Meanwhile, the two cute doctors, Jeffrey and Michael, arrive at the apartment for their double date. Because of the insurance fraud, Monica forces Rachel to pretend to be her, leading to immediate awkwardness. In the kitchen, Rachel suggests confessing their real identities, but Monica refuses out of fear of getting caught, causing a tense argument while the doctors wait in the living room.",
+    "cumulative_summary": "While waiting in a hospital, Rachel discovers she does not have health insurance and convinces Monica to commit insurance fraud by using Monica's identity. Meanwhile, Joey prioritizes a date with Phoebe's twin sister, Ursula, on Phoebe's birthday, leaving Chandler to cover for his absence at Phoebe's surprise party. Seeking guidance on impending parenthood, Ross dines with his father, who shares a touching memory of holding newborn Ross that provides much-needed reassurance. Back at the apartment, the double date begins when the two cute doctors arrive. Because of the insurance swap, Monica forces Rachel to pretend to be her, leading to immediate awkwardness. In the kitchen, Rachel suggests confessing their real identities, but Monica refuses out of fear of legal trouble, sparking a tense argument while their dates wait in the living room."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:17 - 00:11:17",
+    "batch_summary": "In the kitchen, Monica and Rachel's argument peaks when Monica compares Rachel to her mother. Joining their doctor dates, Jeffrey and Michael, the women must maintain their swapped identities. However, their anger boils over into passive-aggressive retaliation. Monica, acting as Rachel, portrays her as selfish and spoiled for running out on her wedding. Rachel retaliates by acting as Monica, claiming she loves to boss people around as a chef and admitting to shoplifting. The double date quickly devolves into a tense, petty battle of insults disguised as self-disclosures, leaving the doctors bewildered.",
+    "cumulative_summary": "While waiting in a hospital, Rachel convinces Monica to commit insurance fraud by swapping identities. Meanwhile, Joey skips Phoebe's birthday to date her twin, Ursula, leaving Chandler to cover for him, and Ross finds reassurance about fatherhood from his own dad. Back at the apartment, the double date with two cute doctors, Jeffrey and Michael, begins under the false identities. After a heated kitchen argument where Monica compares Rachel to her mother, the women join their dates. Forced to maintain the swap, their mutual anger erupts into passive-aggressive warfare. Monica, posing as Rachel, describes herself as selfish and spoiled for fleeing her wedding. Rachel retaliates under Monica's name, claiming she loves to boss people around as a chef and falsely confessing to shoplifting. The double date quickly devolves into a tense, petty battle of insults, leaving the doctors thoroughly bewildered by their dates' bizarre behavior."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 296,
+    "timestamp_range": "00:11:17 - 00:11:59",
+    "batch_summary": "The passive-aggressive battle between Rachel and Monica escalates as they trade increasingly embarrassing personal secrets under each other's names, including childhood bed-wetting and high school weight issues. The doctors, Michael and Jeffrey, can only watch in awkward silence, drinking to cope with the bizarre tension. The uncomfortable double date is interrupted when the phone rings, and Michael answers it, threatening to expose their identity swap.",
+    "cumulative_summary": "While waiting in a hospital, Rachel convinces Monica to commit insurance fraud by swapping identities. Meanwhile, Joey skips Phoebe's birthday to date her twin, Ursula, leaving Chandler to cover for him, and Ross finds reassurance about fatherhood from his own dad. Back at the apartment, the double date with two cute doctors, Jeffrey and Michael, begins under the false identities. After a heated kitchen argument where Monica compares Rachel to her mother, the women join their dates. Forced to maintain the swap, their mutual anger erupts into passive-aggressive warfare. Monica, posing as Rachel, describes herself as selfish and spoiled for fleeing her wedding. Rachel retaliates under Monica's name, claiming she loves to boss people around as a chef and falsely confessing to shoplifting. The petty battle of insults escalates as they trade embarrassing secrets about bed-wetting and high school weight, leaving the bewildered doctors drinking in awkward silence. The tense evening is suddenly interrupted when the phone rings and Michael answers it, threatening to inadvertently expose their identity swap."
+  }
+]

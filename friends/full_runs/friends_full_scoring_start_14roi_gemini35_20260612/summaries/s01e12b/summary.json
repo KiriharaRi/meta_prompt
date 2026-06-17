@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:38",
+    "batch_summary": "At the coffee shop, Ross and the guys urge Phoebe to tell Rachel some difficult news, which Phoebe fears will make Rachel hate her. Meanwhile, Chandler and Joey bicker humorously while shopping for furniture, struggling to agree on a style. Later, Phoebe visits Rachel's apartment, where Rachel is packing for a weekend trip with Paolo. Steeling herself, Phoebe sits Rachel down to finally deliver the mysterious news.",
+    "cumulative_summary": "In the coffee shop, Ross, Chandler, and Joey urge Phoebe to fulfill her moral obligation and tell Rachel some difficult news, despite Phoebe's fears that Rachel will hate her for it. Meanwhile, Chandler and Joey head to a furniture store to pick out new pieces, resulting in a humorous bickering match over patio furniture, bird-patterned chairs, and ladybug designs. Back at the apartment, Rachel is excitedly packing multiple suitcases for a weekend getaway with Paolo. Phoebe arrives and, seeing Rachel's excitement, hesitates but ultimately prepares herself to have the serious, dreaded conversation with her friend."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:38 - 00:03:15",
+    "batch_summary": "Phoebe sits Rachel down and cleverly uses her delicious homemade oatmeal raisin cookies to establish her absolute honesty. Once Rachel is convinced, Phoebe delivers the shocking news that Paolo made a pass at her, leaving Rachel completely stunned. Meanwhile, Chandler and Joey proudly debut their new purchase—a foosball table—to Monica and Ross, choosing game-room fun over a practical dining table. Back in the apartment, a shell-shocked Rachel quietly tries to process the devastating revelation.",
+    "cumulative_summary": "In the coffee shop, the guys urge Phoebe to tell Rachel some difficult news about Paolo. Meanwhile, Chandler and Joey go furniture shopping, which leads to a humorous bickering match. Back at the apartment, Rachel excitedly packs for a weekend getaway with Paolo, unaware of the impending revelation. When Phoebe arrives, she hesitates but prepares herself for the tough conversation. To establish her absolute honesty, Phoebe offers Rachel one of her legendary oatmeal raisin cookies. Once Rachel agrees they are the best, proving Phoebe never lies, Phoebe drops the bombshell: Paolo made a pass at her. Rachel is left completely stunned and shell-shocked by the betrayal. Meanwhile, Chandler and Joey's shopping trip ends with them proudly bringing home a foosball table instead of a dining table. Despite Monica's skepticism about where they will eat, the guys enthusiastically embrace their new game table, deciding they will simply eat over the sink."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:15 - 00:04:52",
+    "batch_summary": "Following the shocking revelation about Paolo, Phoebe comforts a devastated Rachel with a thermos of milk. Rachel expresses deep embarrassment and regret for having gushed about Paolo, while Phoebe feels guilty for introducing them. However, they quickly realize that Paolo is the one to blame, mutually labeling him a \"pig man.\" Although Rachel mourns the loss of her relationship, Phoebe helps her understand how his charm and good looks blinded her to his true nature.",
+    "cumulative_summary": "In the coffee shop, the guys urge Phoebe to tell Rachel that Paolo made a pass at her. Back at the apartment, an excited Rachel is packing for a getaway when Phoebe arrives. To establish her honesty, Phoebe offers Rachel a cookie before dropping the bombshell. Rachel is left completely stunned by the betrayal. Meanwhile, Chandler and Joey buy a foosball table instead of a dining table, much to Monica's skepticism. Following the revelation, Phoebe comforts a devastated Rachel with a thermos of milk. Rachel expresses deep embarrassment and regret for having gushed about Paolo, while Phoebe feels guilty for introducing them. However, they quickly realize that Paolo is the one to blame, mutually labeling him a \"pig man.\" Although Rachel mourns the loss of her relationship, Phoebe helps her understand how his charm and good looks blinded her to his true nature."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:52 - 00:06:43",
+    "batch_summary": "After Phoebe comforts a grieving Rachel, she joins the group at the apartment, where Monica dominates a foosball game. Learning that Paolo is currently at Rachel's, Joey and Chandler enthusiastically urge Ross to \"swoop in\" and comfort her, pitching him as the perfect, reliable \"anti-Paolo.\" Meanwhile, Rachel takes decisive action by throwing Paolo's clothes off the balcony, leaving her friends to watch their dramatic, gesture-filled confrontation from afar.",
+    "cumulative_summary": "After Phoebe comforts a devastated Rachel over Paolo's betrayal, she joins the rest of the group, who are playing foosball on Chandler and Joey's new table. Upon learning that Paolo is currently at Rachel's apartment, Joey and Chandler eagerly encourage Ross to \"swoop in\" and position himself as the supportive, reliable \"anti-Paolo.\" Ross is hesitant but intrigued by the prospect of finally winning Rachel over. Meanwhile, Rachel takes decisive action by furiously throwing Paolo's clothes off the balcony. As Monica, Phoebe, and Ross watch from across the way, Rachel and Paolo engage in a highly animated, dramatic confrontation, marking the chaotic end of their relationship."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:43 - 00:08:37",
+    "batch_summary": "Paolo arrives to say goodbye, receiving a cold shoulder from Phoebe, a parting meal from Monica, and a slammed door from Ross. Seizing his chance to comfort a devastated Rachel, Ross convinces the others to let him go to the balcony alone. There, Rachel tearfully laments that her relationship with Paolo was only supposed to be a casual, fun fling and shouldn't hurt this much. Ross tenderly pulls her into a comforting embrace, holding her close as she rests her head on his chest.",
+    "cumulative_summary": "After Phoebe comforts a devastated Rachel over Paolo's betrayal, Joey and Chandler encourage Ross to \"swoop in\" as the supportive \"anti-Paolo.\" Rachel then takes decisive action, throwing Paolo's clothes off the balcony and ending their relationship in a dramatic confrontation. When Paolo stops by to say goodbye, Phoebe ignores him, Monica hands him leftover food despite her anger, and Ross abruptly slams the door on him. Seizing the opportunity to be there for Rachel, Ross convinces Monica and Phoebe to let him comfort her alone. He joins Rachel on the balcony, where she tearfully admits she never expected a casual fling to hurt so deeply. Ross steps in to comfort her, pulling her into a warm, tender embrace as she rests her head on his chest, finally getting his chance to be her supportive rock."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:37 - 00:10:15",
+    "batch_summary": "On the balcony, Ross tries to hint at his feelings, but Rachel declares she is completely done with men, leaving Ross disappointed despite her calling him \"great.\" Back inside, Ross tries to convince Rachel not to swear off dating entirely. However, the conversation takes a shocking turn when Rachel casually mentions Ross's future \"little boy,\" accidentally revealing the gender of his unborn baby before Ross himself even knew.",
+    "cumulative_summary": "After Phoebe comforts a devastated Rachel over Paolo's betrayal, Joey and Chandler encourage Ross to \"swoop in\" as the supportive \"anti-Paolo.\" Rachel then takes decisive action, throwing Paolo's clothes off the balcony and ending their relationship. Seizing the opportunity to be there for Rachel, Ross convinces Monica and Phoebe to let him comfort her alone on the balcony. However, his romantic hopes are quickly dashed when Rachel declares she is completely swearing off men, relegating Ross to the friend zone despite calling him \"great.\" Back inside, Ross tries to persuade Rachel to keep her heart open, but the conversation takes an unexpected turn. Rachel accidentally slips up and mentions Ross's future \"little boy,\" stunning Ross with the sudden revelation of his unborn baby's gender, which he did not yet know."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 276,
+    "timestamp_range": "00:10:15 - 00:11:41",
+    "batch_summary": "Rachel's slip-up is confirmed, leaving Ross stunned but overjoyed to learn he is having a son. After the group celebrates the news, the scene shifts to a late-night foosball match. Monica dominates Chandler and Joey in a shutout. Despite it being 2:30 AM, Monica aggressively demands another game, prompting Chandler to playfully carry her out of their apartment so he and Joey can finally play in peace.",
+    "cumulative_summary": "After Rachel ends her relationship with Paolo, Ross's attempt to romance her on the balcony fails when she swears off men. However, back inside, Rachel accidentally reveals that Ross is having a baby boy. Once the initial shock wears off, Ross is overcome with joy, celebrating the news with his ecstatic friends. Later that night, the focus shifts to a competitive foosball game in Chandler and Joey's apartment. Monica completely dominates the guys, securing a shutout. Despite it being 2:30 AM, an overly competitive Monica refuses to leave and begs for another match. To finally get some peace, Chandler physically carries Monica out of the apartment, allowing him and Joey to eagerly resume playing foosball by themselves."
+  }
+]

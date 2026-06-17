@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:38",
+    "batch_summary": "In a restaurant, Erika and Joey share a playful, affectionate moment. Meanwhile, at a library, Phoebe performs a hilariously inappropriate song about adult relationships to a group of children, shocking her friends Chandler, Monica, and Rachel. Despite the awkward lyrics, the library coordinator, Rob, praises her honesty but requests more child-friendly songs about barnyard animals. The two share a mutual attraction, leading to a kiss and a potential date. Afterward, Monica is caught by a young girl while sneakily pocketing an item from a tray.",
+    "cumulative_summary": "The story begins with Erika and Joey sharing a lighthearted, romantic moment at a restaurant, where Erika playfully kisses Joey's hand. The scene then shifts to a library, where Phoebe performs a song for a group of children. However, her lyrics are hilariously inappropriate, advising the kids against sleeping with people just to be liked. While her friends Chandler, Monica, and Rachel watch in stunned silence, the children enthusiastically sing along. Afterward, the library coordinator, Rob, commends Phoebe's honesty but gently suggests she stick to simpler topics like barnyard animals in the future. Sparking an immediate connection, Phoebe and Rob share a kiss, and Phoebe asks him out on a date. Finally, the focus shifts to Monica, who is caught red-handed by a young girl while sneakily pocketing a pink item from a tray."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:38 - 00:03:14",
+    "batch_summary": "After Monica quickly bribes the young girl who caught her stealing, the focus shifts to Ross at the zoo. Ross confronts an eccentric Zoo Keeper about his missing monkey, only to discover a shocking conspiracy. The keeper reveals that the zoo lied about the monkey's death to cover up an inside-job theft. Despite the keeper's dramatic distractions, Ross presses for answers and learns that an administrator named Lipson is involved in the cover-up.",
+    "cumulative_summary": "The story begins with Erika and Joey sharing a romantic moment at a restaurant, followed by Phoebe performing hilariously inappropriate songs for children at a library. Despite her wild lyrics, the library coordinator, Rob, is charmed by her honesty, leading to a kiss and a date. Meanwhile, Monica is caught pocketing an item by a young girl, whom she quickly bribes to keep quiet. The focus then shifts to Ross, who visits the zoo to inquire about his former pet monkey. There, an eccentric Zoo Keeper reveals a shocking conspiracy: the zoo lied about the monkey's death to cover up an inside-job theft. Despite the keeper's dramatic tangents about bats and possums, Ross learns that an administrator named Lipson is involved in the cover-up, setting Ross on a mission to uncover the truth about his beloved pet."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:14 - 00:05:04",
+    "batch_summary": "Ross outsmarts the Zoo Keeper, who accidentally reveals that Ross's monkey is now a famous mascot for \"Monkeyshine Beer.\" Ross decides to contact the beer company to track him down. Meanwhile, Phoebe shocks the gang and children alike with another brutally honest song about how hamburgers are made. Later, while watching Joey's soap opera, the gang is interrupted by Erika, Joey's obsessive fan, who arrives at the apartment fully believing Joey is his fictional neurosurgeon character, Dr. Drake Ramoray, after seeing him on television.",
+    "cumulative_summary": "The story begins with Erika and Joey sharing a romantic moment, followed by Phoebe performing hilariously inappropriate songs for children. Despite her wild lyrics, the library coordinator, Rob, is charmed by her, leading to a date. Meanwhile, Monica bribes a young girl to keep quiet after being caught pocketing an item. Ross visits the zoo to find his former pet monkey, Marcel. After outsmarting a corrupt zoo keeper who tries to bribe him, Ross discovers that Marcel has become a famous mascot for \"Monkeyshine Beer\" and plans to contact the company. Back at the library, Phoebe continues her streak of brutally honest children's songs, singing about how cows become hamburgers to the shock of her friends. Finally, while the gang watches Joey on his soap opera, Joey's obsessive fan Erika arrives at his apartment. She is completely convinced that Joey is actually his fictional character, Dr. Drake Ramoray, marveling at how quickly he traveled from the show's setting to his home."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:04 - 00:06:49",
+    "batch_summary": "Joey tries to break things off with his obsessive fan, Erika, by confessing that he is just an actor playing Dr. Drake Ramoray. However, Erika is unable to grasp the concept of television. To help Joey out of the situation, Ross convinces Erika that Joey is actually Drake's evil twin, Hans. Rachel and Monica enthusiastically play along with the ruse, accusing \"Hans\" of betraying them and throwing glasses of water in Joey's face to make the act convincing.",
+    "cumulative_summary": "The story begins with Erika and Joey sharing a romantic moment, followed by Phoebe performing hilariously inappropriate songs for children. Meanwhile, Monica bribes a young girl to keep quiet after being caught pocketing an item. Ross visits the zoo to find his former pet monkey, Marcel, discovering he has become a famous mascot for \"Monkeyshine Beer.\" Back at the apartment, Joey's obsessive fan, Erika, arrives, completely convinced Joey is actually his soap opera character, Dr. Drake Ramoray. When Joey tries to break things off by confessing he is just an actor, Erika is unable to grasp the concept of television. To rescue Joey from his delusional fan, Ross steps in and convinces Erika that Joey is actually Drake's evil twin, Hans. Rachel and Monica enthusiastically play along with the ruse, accusing \"Hans\" of betraying them and throwing glasses of water in Joey's face to make the act convincing."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:49 - 00:08:42",
+    "batch_summary": "Chandler joins the ruse against Joey's \"evil twin\" Hans by throwing water in his face. Playing along, Joey convinces Erika to leave for Salem to find the \"real\" Dr. Drake Ramoray, ending her obsession with a final kiss. Meanwhile, Phoebe learns from Rob that she has been fired from her library singing gig due to parental complaints about her brutally honest lyrics. Refusing to compromise her artistic integrity or sing sanitized children's songs, Phoebe proudly defends her style.",
+    "cumulative_summary": "The story begins with Erika and Joey sharing a romantic moment, followed by Phoebe performing hilariously inappropriate songs for children. Meanwhile, Monica bribes a young girl to keep quiet after being caught pocketing an item. Ross visits the zoo to find his former pet monkey, Marcel, discovering he has become a famous mascot for \"Monkeyshine Beer.\" Back at the apartment, Joey's obsessive fan, Erika, arrives, completely convinced Joey is actually his soap opera character, Dr. Drake Ramoray. To rescue Joey from his delusional fan, Ross, Rachel, Monica, and Chandler convince Erika that Joey is actually Drake's evil twin, Hans, throwing water in his face to sell the act. Joey successfully sends Erika off to Salem to find the \"real\" Drake, ending her obsession. Later, Phoebe learns from Rob that she has been fired from her library gig due to parental complaints about her brutally honest lyrics. Refusing to compromise her artistic integrity or sing sanitized children's songs, Phoebe proudly defends her unique musical style."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:42 - 00:10:35",
+    "batch_summary": "Ross reveals that Marcel is in New York filming a movie, prompting the gang to visit the set. Despite a skeptical security guard blocking their path, Monica spots Marcel on a trainer's shoulder. Meanwhile, Phoebe's reputation as \"the truth-telling singing lady\" draws a large crowd of children to Central Perk, where she performs another hilariously honest song about bisexuality to an appreciative young audience.",
+    "cumulative_summary": "After Joey successfully tricks his obsessive fan Erika into leaving, Ross discovers his former pet monkey, Marcel, is in New York filming a movie. Excited to reunite, the gang visits the film set, where they must bypass a skeptical security guard to catch a glimpse of the animal star. Meanwhile, Phoebe's refusal to sanitize her music after being fired from the library pays off. A crowd of children tracks her down at Central Perk, eager to hear the \"truth-telling singing lady.\" She delights her young audience with an unfiltered song about bisexuality, proving her artistic integrity remains intact."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 269,
+    "timestamp_range": "00:10:35 - 00:12:07",
+    "batch_summary": "On the movie set, Ross successfully gets Marcel's attention by singing \"The Lion Sleeps Tonight\" with Joey and Chandler. The monkey joyfully reunites with Ross, climbing onto his shoulder. However, the sweet reunion is short-lived. When Ross later tries to present Marcel with his old stuffed toy, \"Harry Elephante,\" the now-famous monkey coldly rejects it. A crew member explains that Marcel is under immense pressure due to his newfound movie stardom, leaving Rachel to wonder just how famous the monkey has become.",
+    "cumulative_summary": "After Joey successfully tricks his obsessive fan Erika into leaving, Ross discovers his former pet monkey, Marcel, is in New York filming a movie. Excited to reunite, the gang visits the film set. When Marcel initially fails to recognize Ross, Ross, Joey, and Chandler sing \"The Lion Sleeps Tonight,\" prompting a heartwarming reunion. However, the joy is fleeting; when Ross later offers Marcel his favorite stuffed animal, \"Harry Elephante,\" the monkey dismissively drops it. A crew member explains that Marcel is stressed by the pressures of movie stardom, prompting Rachel to ask just how big of a celebrity the monkey has become. Meanwhile, Phoebe's refusal to sanitize her music after being fired from the library pays off. A crowd of children tracks her down at Central Perk, eager to hear the \"truth-telling singing lady.\" She delights her young audience with an unfiltered song about bisexuality, proving her artistic integrity remains intact."
+  }
+]

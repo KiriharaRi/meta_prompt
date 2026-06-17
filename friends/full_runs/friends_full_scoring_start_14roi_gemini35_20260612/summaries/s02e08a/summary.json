@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:15",
+    "batch_summary": "Rachel excitedly shares the romantic details of her kiss with Ross to Monica and Phoebe, who celebrate enthusiastically. In contrast, Ross gives Joey and Chandler a brief, blunt summary of the same event. Later at the coffee shop, Chandler shows off his new laptop while Monica searches for a job. When Ross arrives, he admits that despite the great kiss, he is plagued by guilt after seeing his girlfriend Julie's saline solution at home, realizing the complicated situation he has created.",
+    "cumulative_summary": "Rachel returns to the apartment to excitedly announce to Monica and Phoebe that Ross kissed her. The three women celebrate with ecstatic jumping and wine, as Rachel vividly describes the romantic and intense details of the encounter. Meanwhile, Ross recounts the same kiss to Chandler and Joey in a hilariously brief and straightforward manner over pizza. Later at the coffee shop, Chandler proudly shows off his expensive new laptop, which he admits he will only use for games, while Monica struggles to find a new cooking job. The mood shifts when Ross arrives, visibly stressed. Although he initially thought the night was great, he explains that returning home to find his girlfriend Julie's saline solution on his nightstand triggered a wave of intense guilt, leaving him deeply conflicted about his feelings and the complicated romantic dilemma he now faces."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:15 - 00:03:47",
+    "batch_summary": "Ross expresses his deep conflict to his friends, torn between his stable relationship with Julie and his decade-long dream of being with Rachel. The tension peaks when both Rachel and Julie arrive at the coffee shop, leading to an incredibly awkward encounter. Ross tries to overcompensate by acting overly affectionate with Julie, while Joey nearly exposes the saline solution dilemma. The atmosphere becomes hilariously strained when Phoebe takes the stage to perform a pointed new song about a love triangle titled \"Two of Them Kissed Last Night.\"",
+    "cumulative_summary": "After Rachel and Ross share a romantic kiss, Rachel ecstatically celebrates with Monica and Phoebe, while Ross recounts the event to Chandler and Joey with hilarious brevity. However, Ross's excitement quickly turns to intense guilt when he spots his girlfriend Julie's saline solution, triggering a major romantic dilemma. At the coffee shop, Ross agonizingly debates his choices between his stable relationship with Julie and his decade-long dream of being with Rachel. The tension peaks when both women arrive, forcing Ross into an awkward, overcompensating display of affection toward Julie. Joey nearly exposes Ross's panic by asking Julie about her contact lenses, and the atmosphere becomes hilariously strained when Phoebe takes the stage. She performs a pointedly timed song about a love triangle titled \"Two of Them Kissed Last Night,\" leaving the conflicted trio trapped in an incredibly uncomfortable moment."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:47 - 00:05:20",
+    "batch_summary": "Phoebe's awkward song about the love triangle intensifies as she sings about \"Neil\" choosing between \"Betty\" and \"Luli,\" leaving Ross and Rachel visibly uncomfortable. Meanwhile, Monica interviews for a job with Mr. Rastatter. The position involves creating recipes for \"Mockolate,\" a synthetic chocolate substitute. During the interview, Monica is forced to taste-test the product, struggling to maintain a polite smile despite its clearly terrible taste.",
+    "cumulative_summary": "Following Rachel and Ross's romantic kiss, Ross is plagued by guilt over his girlfriend Julie, leading to an agonizing dilemma. The tension peaks at the coffeehouse when Phoebe performs a pointed song about a love triangle. Phoebe's performance reaches a hilariously awkward climax as she sings about \"Neil\" choosing between \"Betty\" and \"Luli,\" leaving Ross and Rachel visibly strained. Meanwhile, Monica interviews for a job with Mr. Rastatter, who introduces her to \"Mockolate\"—a synthetic chocolate substitute. Desperate to make a good impression, Monica tastes the product and struggles to maintain a polite smile despite its clearly terrible flavor."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:20 - 00:06:51",
+    "batch_summary": "Monica manages to swallow the terrible, bubbling \"Mockolate\" and lands the job creating Thanksgiving-themed recipes for Mr. Rastatter. Back at the apartment, she and Phoebe brainstorm ideas like \"Pilgrim Mockolate Mousse.\" The mood shifts when Rachel arrives home, anxious and disappointed to find that Ross hasn't called yet. Rachel fears this silence means Ross has chosen to stay with Julie, leaving her in suspense.",
+    "cumulative_summary": "Following Rachel and Ross's romantic kiss, Ross is plagued by guilt over his girlfriend Julie, leading to an agonizing dilemma. The tension peaks at the coffeehouse when Phoebe performs a pointed song about a love triangle, leaving Ross and Rachel visibly strained. Meanwhile, Monica interviews for a job with Mr. Rastatter, who introduces her to \"Mockolate\"—a synthetic chocolate substitute. Despite its terrible, bubbling texture and lingering aftertaste, Monica politely fakes enthusiasm and lands the job of creating Thanksgiving-themed recipes. Back at the apartment, Monica and Phoebe brainstorm ideas like \"Pilgrim Mockolate Mousse.\" However, the lighthearted mood quickly shifts when Rachel arrives home. Anxious and disappointed to learn that Ross has not called, Rachel fears that his silence means he has decided to stay with Julie, leaving the future of their relationship highly uncertain."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:51 - 00:08:54",
+    "batch_summary": "Rachel anxiously imagines Ross choosing Julie, while Phoebe offers humorous comfort. Meanwhile, Ross is in a panic over his dilemma. Chandler mocks his \"struggle\" but suggests making a pros and cons list on his laptop to help him decide. They start listing Rachel's cons, with Ross pointing out that she is a bit spoiled and \"just a waitress,\" unlike Julie, who shares his passion for paleontology.",
+    "cumulative_summary": "Following Rachel and Ross's romantic kiss, Ross is plagued by guilt over his girlfriend Julie, leading to an agonizing dilemma. While Monica deals with her new job creating recipes for \"Mockolate,\" Rachel grows increasingly anxious, fearing Ross will choose Julie. Her fears are realized in her mind as she imagines them married, though Phoebe tries to lighten the mood. Meanwhile, Ross seeks advice from Chandler and Joey. Chandler playfully mocks Ross's \"problem\" before suggesting they logically compare the two women using a pros and cons list on his laptop. As they brainstorm Rachel's cons, Ross reluctantly points out that she can be spoiled and is \"just a waitress,\" contrasting her with Julie, with whom he shares a career in paleontology. This analytical approach highlights Ross's deep conflict as he struggles to make a definitive choice between his long-time crush and his current girlfriend."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:54 - 00:10:33",
+    "batch_summary": "Ross concludes his list-making by realizing Julie's only flaw is that she is not Rachel. Meanwhile, Monica's Mockolate creations prove to be a culinary disaster for Rachel and Phoebe. After a difficult and emotional breakup with Julie, a somber Ross returns to the apartment. When Rachel walks in, Ross reveals he has just come back from Julie's, leaving Rachel stunned and hopeful as she realizes he chose her.",
+    "cumulative_summary": "Following Rachel and Ross's romantic kiss, Ross is plagued by guilt over his girlfriend Julie, leading to an agonizing dilemma. While Monica deals with her new job creating recipes for \"Mockolate,\" Rachel grows increasingly anxious, fearing Ross will choose Julie. Meanwhile, Ross seeks advice from Chandler and Joey, who suggest making a pros and cons list to compare the two women. While brainstorming Rachel's flaws, Ross realizes Julie's only real con is that she is not Rachel. Back at Monica's, her Mockolate recipes turn out to be a disgusting failure. Ultimately, Ross makes his decision and undergoes a painful breakup with Julie. When he returns to the apartment, Rachel walks in and learns that Ross has just come back from Julie's, leaving her stunned and hopeful as she realizes he has chosen her."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 256,
+    "timestamp_range": "00:10:33 - 00:11:21",
+    "batch_summary": "Joey excitedly reveals to Rachel that Ross broke up with Julie, prompting a joyful realization. Urged on by Joey, Ross approaches Rachel and tenderly confesses that it has always been her. Rachel smiles and wraps her arms tightly around him in a passionate embrace. Chandler and Joey watch on happily as the new couple finally unites, bringing a long-awaited, romantic resolution to Ross and Rachel's complicated relationship.",
+    "cumulative_summary": "Following Rachel and Ross's romantic kiss, Ross is plagued by guilt over his girlfriend Julie, leading to an agonizing dilemma. While Monica deals with her new job creating recipes for \"Mockolate,\" Rachel grows increasingly anxious, fearing Ross will choose Julie. Meanwhile, Ross seeks advice from Chandler and Joey, who suggest making a pros and cons list to compare the two women. While brainstorming Rachel's flaws, Ross realizes Julie's only real con is that she is not Rachel. Ultimately, Ross makes his decision and undergoes a painful breakup with Julie. When he returns to the apartment, Rachel learns the truth when Joey excitedly reveals that Ross broke up with Julie. Urged by his friends, Ross approaches Rachel and tenderly confesses that it has always been her. Rachel smiles and embraces him tightly, bringing a long-awaited, romantic resolution to their complicated relationship as Chandler and Joey watch on happily."
+  }
+]

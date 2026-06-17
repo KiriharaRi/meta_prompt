@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:09",
+    "batch_summary": "Phoebe recaps Ross's long-standing love for Rachel and how Rachel, finally learning of his feelings, rushed to the airport to greet him. However, Rachel's romantic expectations are shattered when Ross arrives from Beijing with his new girlfriend, Julie. In her shock and haste to escape, Rachel clumsily falls and cuts her forehead. Trying to save face, she greets them warmly but awkwardly hands her welcome flowers to Julie, mistakenly welcoming the New York native to \"our country\" before using a flower to stop her own bleeding.",
+    "cumulative_summary": "In a recap of events, Phoebe Buffay explains that Ross has harbored a lifelong crush on Rachel, but various obstacles kept them apart. After Chandler accidentally revealed Ross's feelings, a thrilled Rachel rushed to the airport to meet Ross upon his return from a dig in China. However, the romantic reunion takes a painful turn when Ross steps off the plane hand-in-hand with a new girlfriend, Julie. Heartbroken and shocked, Rachel tries to flee the scene but clumsily trips over a seating barrier, injuring her forehead. When Ross spots her, Rachel attempts to mask her distress with over-the-top enthusiasm. She warmly hugs Ross and is introduced to Julie. In an awkward attempt to hide her original intentions, Rachel hands her bouquet of flowers to Julie, welcoming her to \"our country,\" only for Julie to reveal she is actually from New York. To cover her embarrassment and tend to her injury, Rachel plucks a flower from the bouquet to press against her bleeding forehead."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:09 - 00:03:50",
+    "batch_summary": "Back at the apartment, Monica, Phoebe, Chandler, and Joey eagerly await Rachel's romantic reunion with Ross. However, Rachel bursts in frantic, injured, and out of breath, trying to explain that Ross has returned with another woman named Julie. Before she can fully confront Chandler for revealing Ross's feelings, Ross and Julie walk through the door. Ross introduces Julie to the shocked group, who try to process the awkward situation while Julie politely introduces herself despite her travel exhaustion.",
+    "cumulative_summary": "Phoebe Buffay recalls Ross's lifelong crush on Rachel, which was finally revealed to Rachel by Chandler. Thrilled, Rachel rushed to the airport to meet Ross returning from China, only to find him hand-in-hand with his new girlfriend, Julie. Heartbroken and clumsy, Rachel tripped and injured her forehead, awkwardly greeting the couple before fleeing. Meanwhile, back at the apartment, Monica, Phoebe, Chandler, and Joey celebrate Rachel's grand romantic gesture, unaware of the disaster. Rachel suddenly bursts in, frantic and bandaged, desperately trying to explain that Ross is not alone. Before she can fully confront Chandler for his role in the mess, Ross and Julie arrive at the apartment. Ross introduces Julie to his stunned friends, creating an incredibly awkward atmosphere as the group tries to process the sudden turn of events while Julie politely introduces herself despite her exhaustion."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:50 - 00:05:53",
+    "batch_summary": "Rachel's heartbreak and jealousy boil over as she bitterly interrupts Ross and Julie's travel story with sarcastic remarks. After the couple leaves, the scene shifts to Central Perk, where Rachel remains furious with Chandler, refusing to let him speak to Ross. Meanwhile, Chandler questions Ross about his sudden change of heart. Ross explains that he chose to move on with Julie because he believed a relationship with Rachel was an impossible dream, unaware of how close they actually came to being together.",
+    "cumulative_summary": "Phoebe recalls Ross's lifelong crush on Rachel, which Chandler recently revealed. Thrilled, Rachel rushed to the airport to meet Ross, only to find him returning from China with his new girlfriend, Julie. Heartbroken and injured from a clumsy fall, Rachel fled back to the apartment. When Ross and Julie arrived to introduce themselves, the atmosphere turned incredibly tense. Rachel's jealousy boiled over as she bitterly spoiled the couple's travel story and made sarcastic remarks about their romance. After Ross and Julie left, the scene shifted to Central Perk, where a devastated Rachel refused to let Chandler speak to Ross. Meanwhile, Chandler questioned Ross about his sudden shift in feelings. Ross confessed that he chose to move on with Julie because he believed a relationship with Rachel was an impossible dream, completely unaware of Rachel's true feelings and her missed airport gesture."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:54 - 00:07:59",
+    "batch_summary": "Ross thanks Chandler for encouraging him to pursue Julie, believing Rachel only saw him as a friend. Rachel quickly sends Ross away to interrogate Chandler about their conversation. Chandler reluctantly reveals that Ross is genuinely happy with Julie, leaving Rachel heartbroken. Meanwhile, back at the apartment, Monica asks Phoebe to cut her hair after seeing her successful work on the guys. However, Phoebe refuses, humorously pointing out Monica's extreme control-freak nature.",
+    "cumulative_summary": "Phoebe recalls Ross's lifelong crush on Rachel, which Chandler recently revealed. Thrilled, Rachel rushed to the airport to meet Ross, only to find him returning from China with his new girlfriend, Julie. Heartbroken, Rachel fled back to the apartment, where a tense introduction only fueled her jealousy. Later at Central Perk, Ross confesses to Chandler that he moved on with Julie because he believed a relationship with Rachel was an impossible dream. Ross even thanks Chandler for encouraging him to pursue Julie. Desperate for answers, Rachel sends Ross away to interrogate Chandler, who gently breaks the news that Ross is genuinely happy, leaving Rachel devastated. Meanwhile, the scene shifts back to the apartment, where Monica asks Phoebe for a haircut after seeing her successful work on the guys. However, Phoebe quickly refuses, humorously pointing out Monica's notorious control-freak personality."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:59 - 00:09:36",
+    "batch_summary": "Rachel's jealousy intensifies when Julie calls the apartment, prompting Rachel to dramatically demand who gave Julie their phone number. Meanwhile, Chandler asks for tailor recommendations, leading to a humorous exchange as Joey struggles with basic math while recommending his family tailor. Rachel's misery deepens when she is forced to sit and watch Ross engage in an incredibly mushy, lovey-dovey phone call with Julie, highlighting her painful position on the sidelines of his new romance.",
+    "cumulative_summary": "Phoebe recalls Ross's lifelong crush on Rachel, which Chandler recently revealed. Thrilled, Rachel rushed to the airport to meet Ross, only to find him returning from China with his new girlfriend, Julie. Heartbroken, Rachel fled back to the apartment, where a tense introduction only fueled her jealousy. Later, Ross confessed to Chandler that he moved on with Julie because he believed a relationship with Rachel was impossible. After Chandler confirmed Ross's genuine happiness, a devastated Rachel returned to the apartment. Her jealousy peaks when Julie calls the apartment, prompting Rachel to dramatically demand who shared their phone number. Meanwhile, Chandler seeks a tailor recommendation, leading to a humorous exchange with Joey, who struggles to remember when he got his first suit. Rachel's misery only deepens when she is forced to sit and watch Ross engage in an incredibly mushy, lovey-dovey phone call with Julie, highlighting her painful position on the sidelines of his new romance."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:36 - 00:11:30",
+    "batch_summary": "Rachel's jealousy boils over when she interrupts Ross's mushy phone call with Julie. Distraught, she breaks down to Monica, lamenting how Ross has suddenly become the \"great guy\" she can't have, before fleeing the apartment. The next morning, Joey finally remembers his suit age, and Phoebe refuses to cut Monica's hair. Rachel returns, sheepishly admitting to the group that she did a \"stupid thing\" the previous night.",
+    "cumulative_summary": "After learning of Ross's long-term crush, Rachel rushed to the airport only to find him returning from China with his new girlfriend, Julie. Heartbroken and jealous, Rachel struggled to cope, especially when Ross confessed to Chandler that he had moved on. Rachel's misery peaked while watching Ross on a mushy phone call with Julie. Unable to bear it, she interrupted the call and broke down to Monica, lamenting that Ross is now the \"great guy\" she cannot have, before fleeing the apartment. Meanwhile, Joey finally remembered he was sixteen when he got his first suit, and Phoebe hesitated to cut Monica's hair. The next morning, a sheepish Rachel returned to the apartment, asking her friends to close their eyes before confessing that she did something stupid the night before."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 246,
+    "timestamp_range": "00:11:30 - 00:11:50",
+    "batch_summary": "Rachel reveals her \"stupid\" mistake by introducing her Italian ex-boyfriend, Paolo, who steps out of her room in a robe. The friends, including Monica, Phoebe, Joey, and Chandler, watch in stunned silence as Rachel quickly ushers a laughing Paolo away, declaring that everyone has now seen him. This impulsive rebound highlights Rachel's desperate attempt to cope with her heartbreak over Ross and Julie.",
+    "cumulative_summary": "After learning of Ross's long-term crush, Rachel rushed to the airport only to find him returning from China with his new girlfriend, Julie. Heartbroken and jealous, Rachel struggled to cope, especially when Ross confessed to Chandler that he had moved on. Rachel's misery peaked while watching Ross on a mushy phone call with Julie. Unable to bear it, she broke down to Monica, lamenting that Ross is now the \"great guy\" she cannot have, before fleeing the apartment. The next morning, a sheepish Rachel returned to the apartment, asking her friends to close their eyes before confessing that she did something stupid the night before. She then reveals her mistake: she spent the night with her Italian ex-boyfriend, Paolo. As a half-dressed Paolo steps out of her room to greet the group, Monica, Phoebe, Joey, and Chandler stare in stunned silence. Rachel quickly ushers him away, acknowledging the awkwardness of her impulsive rebound as she tries to cope with her heartbreak."
+  }
+]

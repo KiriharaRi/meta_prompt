@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:45",
+    "batch_summary": "Chandler joins his friends—Ross, Joey, Monica, Rachel, and Phoebe—and reveals he broke up with his girlfriend over her large nostrils. Monica criticizes his superficiality, while Joey defends him with a story about a woman with an \"Adam's apple,\" leading the group to gently correct his anatomical misunderstanding. Later, Phoebe challenges Chandler's dating history, but their conversation is interrupted by their eccentric downstairs neighbor, Mr. Heckles, who complains about them making too much noise.",
+    "cumulative_summary": "In Monica's apartment, the close-knit group of friends—Monica, Rachel, Phoebe, Ross, Joey, and Chandler—gather together. Chandler arrives and announces his latest breakup with a woman named Joan, citing her supposedly massive nostrils as the reason. Monica calls him out for constantly rejecting women over superficial flaws. Joey attempts to defend Chandler by sharing a past dating experience with a woman who had a large \"Adam's apple,\" prompting Ross and Chandler to hilariously inform a confused Joey that women do not have Adam's apples. As the group continues to tease Chandler about his absurd dealbreakers in the kitchen, they are interrupted by a knock at the door. It is their eccentric downstairs neighbor, Mr. Heckles, who grumpily complains that their \"stomping\" is disturbing his birds, despite the group insisting they are not making any noise."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:45 - 00:03:14",
+    "batch_summary": "After dismissing Mr. Heckles, the friends tease Chandler by imitating his nasal-voiced ex, Janice. Their laughter is interrupted by Mr. Heckles thumping his broom from below. Monica, Joey, and Rachel stomp back in retaliation until the noise stops, celebrating their victory. However, the mood turns somber when they discover Mr. Heckles has died. The building superintendent, Mr. Treeger, reveals Heckles was found dead with a broom in his hand, leaving the group shocked and guilt-ridden.",
+    "cumulative_summary": "In Monica's apartment, the close-knit group of friends—Monica, Rachel, Phoebe, Ross, Joey, and Chandler—gather together. Chandler's latest breakup prompts the group to tease him about his superficial dealbreakers, leading to a hilarious discussion about Adam's apples and his nasal-voiced ex, Janice. Their fun is briefly interrupted by their eccentric downstairs neighbor, Mr. Heckles, who complains about their noise. After Monica politely dismisses him, the group resumes their teasing. When Mr. Heckles begins thumping his broom against the ceiling in protest, Monica, Joey, and Rachel defiantly stomp back until the noise stops, triumphantly believing they won the feud. However, their celebration is cut short when they step into the hallway to find paramedics wheeling Mr. Heckles away on a stretcher. The building superintendent, Mr. Treeger, reveals that Heckles passed away and was found with a broom in his hand. The sudden tragedy leaves the friends shocked, uncomfortable, and grappling with guilt over their final, petty interaction with their late neighbor."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:14 - 00:05:00",
+    "batch_summary": "Following Mr. Heckles' sudden death, the friends return to the apartment, where Phoebe tries to guide his spirit to the light. This prompts a discussion about her eccentric beliefs, culminating in her revealing she does not believe in evolution, dismissing it as \"too easy.\" Ross, a passionate scientist, is deeply offended and tries to argue that evolution is an indisputable scientific fact like gravity. However, Phoebe hilariously derails his argument by questioning gravity as well, leaving Ross utterly flabbergasted.",
+    "cumulative_summary": "After their eccentric neighbor Mr. Heckles suddenly passes away following a petty noise dispute, the guilt-ridden friends return to Monica's apartment. Phoebe attempts to guide Heckles' spirit \"into the light,\" which quickly transitions the somber mood into a hilarious debate about her unconventional beliefs. When Phoebe casually admits she does not believe in evolution, dismissing Darwin's theory as \"too easy,\" Ross is deeply offended. As a scientist, Ross passionately argues that evolution is an absolute scientific fact, comparing it to gravity. However, his frantic attempt to convince her backfires when Phoebe reveals she also doubts gravity, leaving Ross completely flabbergasted and setting up an intense clash of worldviews."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:00 - 00:06:48",
+    "batch_summary": "Phoebe's bizarre gravity theories are interrupted when Mr. Heckles' attorney arrives, revealing that Heckles left all his earthly possessions—which turn out to be worthless junk—to the \"noisy girls,\" Monica and Rachel. While cleaning out his incredibly cluttered apartment, the friends are overwhelmed by the mess, and Joey finds a magnifying dome. Meanwhile, Ross refuses to drop the evolution debate, passionately confronting Phoebe with fossil evidence while she remains completely unfazed.",
+    "cumulative_summary": "After their eccentric neighbor Mr. Heckles passes away, the friends return to Monica's apartment, where Phoebe's unconventional beliefs spark a heated debate. When Phoebe admits she doubts both evolution and gravity, a flabbergasted Ross is determined to prove her wrong. Their clash of worldviews is temporarily interrupted by the arrival of Heckles' attorney, who reveals that Heckles left all his earthly possessions to the \"noisy girls,\" Monica and Rachel. Expecting something meaningful, the friends instead find his apartment filled with worthless, cluttered junk. While Joey amuses himself with a magnifying glass dome and the others complain about the mess, Ross refuses to let the debate go. Surrounded by Heckles' old belongings, Ross passionately confronts Phoebe with fossil evidence of evolution, but she remains delightfully unfazed, continuing to dismiss his scientific arguments."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:48 - 00:08:26",
+    "batch_summary": "Ross's fossil explanation fails to convince Phoebe, who instead wonders who planted the fossils, leaving him speechless. Meanwhile, Chandler discovers Mr. Heckles' \"Big Book of Grievances,\" which contains amusingly petty complaints about Joey and Chandler. Nearby, Rachel tries to claim a tacky shell lamp from Heckles' junk, but Monica's refusal sparks a deeper argument. Rachel accuses Monica of still viewing the apartment solely as her own, highlighting underlying roommate tensions.",
+    "cumulative_summary": "After their eccentric neighbor Mr. Heckles passes away, his attorney reveals he left all his cluttered belongings to Monica and Rachel. While sorting through the junk, a heated debate erupts when Phoebe admits she doubts evolution, prompting a determined Ross to present fossil evidence. However, Phoebe remains unfazed, leaving Ross speechless by questioning who planted the fossils. Meanwhile, Chandler discovers Heckles' \"Big Book of Grievances,\" which contains amusingly petty complaints about Joey and Chandler's daily lives. The lighthearted mood shifts to tension when Rachel tries to keep a tacky shell lamp. Monica's stubborn refusal prompts a deeper confrontation, as Rachel accuses Monica of still viewing the apartment as strictly her own rather than a shared home."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:26 - 00:10:04",
+    "batch_summary": "Rachel walks off to place her lamp, leaving Monica frustrated. Meanwhile, Ross continues his crusade to prove evolution to Phoebe using troll dolls to explain opposable thumbs. Phoebe remains unfazed, playfully suggesting alien overlords instead, and confronts Ross about his obsessive need to always be right. In Heckles' apartment, Joey finds Heckles' high school yearbook. Chandler is shocked to discover that Heckles was voted class clown, just like him. As a thumping noise starts from above, Chandler begins to fear he is turning into their eccentric late neighbor.",
+    "cumulative_summary": "After their eccentric neighbor Mr. Heckles passes away, his attorney reveals he left all his cluttered belongings to Monica and Rachel. While sorting through the junk, a heated debate erupts when Phoebe admits she doubts evolution, prompting a determined Ross to present fossil evidence. However, Phoebe remains unfazed, leaving Ross speechless by questioning who planted the fossils. Meanwhile, Chandler discovers Heckles' \"Big Book of Grievances,\" which contains amusingly petty complaints about Joey and Chandler's daily lives. The lighthearted mood shifts to tension when Rachel tries to keep a tacky shell lamp. Monica's stubborn refusal prompts a deeper confrontation, as Rachel accuses Monica of still viewing the apartment as strictly her own rather than a shared home. After Rachel walks off to place her controversial shell lamp, Ross resumes his debate with Phoebe. Using troll dolls to demonstrate opposable thumbs, Ross tries to prove evolution, but Phoebe counters with alien theories and challenges Ross's obsessive need to always be right. Meanwhile, in Heckles' apartment, Joey uncovers the late neighbor's high school yearbook. Reading through it, Phoebe and Chandler are surprised to learn that Heckles was once a normal, well-liked student who was voted class clown. This revelation deeply unnerves Chandler, who realizes he shared the exact same superlative in high school. When a rhythmic thumping begins from the ceiling, Chandler starts to sympathize with Heckles' old complaints, sparking a growing anxiety that he is destined to become just like his eccentric, lonely late neighbor."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 275,
+    "timestamp_range": "00:10:04 - 00:11:31",
+    "batch_summary": "Chandler's anxiety intensifies as he discovers more similarities between himself and Mr. Heckles, including playing the clarinet. After a sleepless night, Chandler sifts through Heckles' old photos of ex-girlfriends and realizes the late neighbor rejected women for petty flaws, just like Chandler does. Terrified by this revelation, Chandler panics, convinced he is on a fast track to \"Aloneville\" and destined to die lonely and bitter just like Heckles, despite Joey's attempts to reassure him.",
+    "cumulative_summary": "After eccentric neighbor Mr. Heckles passes away, leaving his cluttered belongings to Monica and Rachel, the friends sort through his apartment. While Ross and Phoebe engage in a heated debate over evolution, Chandler discovers Heckles' \"Big Book of Grievances\" and high school yearbook. To his horror, Chandler learns he shares uncanny similarities with Heckles, including being voted class clown and playing the clarinet. Chandler's anxiety spirals into a full-blown panic after a sleepless night spent examining Heckles' old photos. He discovers that Heckles rejected women for incredibly petty reasons—a habit Chandler painfully recognizes in himself. Convinced he is on the same path to \"Aloneville\" and destined to die lonely, Chandler fears his future is set in stone, despite Joey's attempts to calm him down."
+  }
+]

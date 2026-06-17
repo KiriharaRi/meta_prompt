@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:47",
+    "batch_summary": "In an apartment, Joey tries to help a reluctant Ross practice talking dirty for a woman he likes. After some coaxing, Ross turns his back to Joey and begins awkwardly reciting intimate phrases. While Ross is mid-sentence, Chandler walks in unnoticed and amusedly listens to the dirty talk. When Ross turns around and spots Chandler, he freezes in embarrassment, followed quickly by Joey. Chandler playfully prompts Ross to finish his sentence, leaving the two friends in stunned silence.",
+    "cumulative_summary": "In an apartment, Joey attempts to coach a hesitant Ross on how to talk dirty to a woman he is interested in. Despite Ross's initial reluctance, Joey coaxes him into practicing. To make it easier, Ross turns his back to Joey and begins awkwardly delivering intimate, suggestive lines. Unbeknownst to them, Chandler walks into the apartment and stands silently, highly amused by the bizarre scene unfolding before him. As Ross builds up his dirty talk, describing running his tongue over a body until it trembles, he turns around and freezes upon spotting Chandler. Joey turns next and is equally stunned. Chandler, enjoying the awkwardness, playfully prompts Ross to finish his sentence, leaving both Ross and Joey standing in embarrassed, speechless silence."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:47 - 00:03:47",
+    "batch_summary": "Chandler playfully teases Joey and Ross about their awkward moment before receiving a persistent call from his former boss, Mr. Kostelik. Despite Chandler's insistence that he wants a meaningful career rather than just money, the escalating salary offers wear him down, and he reluctantly accepts the job. Later, Chandler proudly shows Phoebe his spacious new office, complete with a window view that unfortunately includes a man peeing outside, before eagerly demonstrating his new desk and intercom.",
+    "cumulative_summary": "In an apartment, Joey attempts to coach a hesitant Ross on how to talk dirty to a woman. Unbeknownst to them, Chandler walks in and overhears Ross's awkward delivery. Chandler playfully teases them about the bizarre scene before Joey deflects by mentioning that Chandler's former employer has been calling repeatedly. When the phone rings again, Chandler answers a call from his old boss, Mr. Kostelik. Although Chandler insists he wants a meaningful career rather than just a paycheck, the increasingly generous financial offers wear down his resolve, and he reluctantly agrees to return to his old job. Soon after, Chandler takes Phoebe to see his impressive new office. While admiring the view from his large window, they are amused and disgusted to spot a man peeing outside. Undeterred, Chandler excitedly shows Phoebe his spacious desk and intercom, embracing his return to corporate life."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:47 - 00:05:21",
+    "batch_summary": "In his new office, Chandler tries to impress Phoebe by using his intercom to summon his cold assistant, Helen. Meanwhile, Monica is left in a bind when her waitress bails on an event. She desperately tries to recruit Rachel, who initially refuses until Monica uses guilt and a generous offer of $20 an hour to convince her. Later that evening, Rachel, dressed in a waitress uniform, welcomes Phoebe and her friend Steve to Monica's apartment for the catered event.",
+    "cumulative_summary": "After Joey awkwardly coaches Ross on talking dirty, Chandler returns to his lucrative corporate job, excitedly showing Phoebe his spacious new office and testing out his intercom with his cold assistant, Helen. Meanwhile, Monica faces a catering crisis when her waitress bails at the last minute. Desperate for help, she tries to hire Rachel, who initially declines to go \"walk around.\" However, after Monica guilt-trips her about providing a home after her failed wedding and raises the offer to $20 an hour, Rachel reluctantly agrees. Later that evening, a dressed-up Rachel acts as the greeter at Monica's apartment, welcoming Phoebe and her guest, Steve, to the dinner event."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:21 - 00:07:07",
+    "batch_summary": "At the dinner event, Phoebe secretly informs Rachel that Steve smoked marijuana in the cab on the way over. Steve's high state quickly becomes apparent as he complains of dry mouth and behaves erratically. Although he enthusiastically praises Monica's rock shrimp ravioli, his behavior grows increasingly bizarre. When Monica mentions that onion tartlets are up next, Steve becomes hilariously fixated on repeating the word \"tartlets\" until it loses all meaning, leaving Monica and Rachel to navigate his unpredictable, drug-induced state.",
+    "cumulative_summary": "After Joey awkwardly coaches Ross on talking dirty, Chandler returns to his corporate job, showing Phoebe his new office. Meanwhile, Monica faces a catering crisis and convinces a reluctant Rachel to help her waitress for a potential client, Steve. When Phoebe and Steve arrive at Monica's apartment, Phoebe secretly reveals to Rachel that Steve smoked marijuana in the cab. Steve's high state quickly becomes obvious through his dry mouth and erratic behavior. Although he enthusiastically praises Monica's rock shrimp ravioli, his drug-induced state takes a bizarre turn when Monica mentions the upcoming onion tartlets. Steve becomes hilariously fixated on the word \"tartlets,\" repeating it until he declares the word has lost all meaning, leaving Monica to nervously manage her unpredictable client."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:07 - 00:09:00",
+    "batch_summary": "In Monica's kitchen, Steve's drug-induced munchies take over as he raids her cabinets, eating a dry taco shell and demanding to make macaroni and cheese. Monica tries to manage him, but things escalate when she attempts to confiscate his gummy bears. The bag tears, spilling them into a bowl, prompting Steve to hilariously try to \"save\" them with Sugar-O's. Pushed to her limit by his chaotic behavior, Monica abruptly ends the dinner, though she struggles to articulate a proper analogy for his disrespect.",
+    "cumulative_summary": "After Joey awkwardly coaches Ross on talking dirty, Chandler returns to his corporate job, showing Phoebe his new office. Meanwhile, Monica faces a catering crisis and convinces a reluctant Rachel to help her waitress for a potential client, Steve. When Phoebe and Steve arrive, Phoebe secretly reveals to Rachel that Steve smoked marijuana in the cab. Steve's high state quickly becomes obvious through his erratic behavior and fixation on the word \"tartlets.\" The situation deteriorates further when Steve raids Monica's kitchen cabinets, eating raw taco shells and demanding macaroni and cheese. When Monica tries to confiscate his gummy bears, the bag tears, spilling them into a bowl. Steve hilariously tries to \"rescue\" them by pouring Sugar-O's cereal over them. Pushed to her limit by his chaotic, drug-induced antics, Monica finally loses her patience and abruptly declares that the dinner is over, struggling to find the right words to express her frustration to her ruined potential client."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:00 - 00:10:54",
+    "batch_summary": "After confronting the high Steve, Monica abandons him at the emergency room when he eats a kitchen magnet. At Central Perk, her friends comfort her over the lost catering opportunity. Meanwhile, Ross boasts to Joey about his overly elaborate, literary dirty talk with Celia, which exhausted them so much they only cuddled. Finally, as the group wonders where Chandler is, he is shown still stuck working late at his corporate office.",
+    "cumulative_summary": "After Joey awkwardly coaches Ross on talking dirty, Chandler returns to his corporate job. Meanwhile, Monica's catering audition for Steve, a potential client, goes disastrously wrong due to his drug-induced behavior. After Steve eats a kitchen magnet, Monica abandons him at the emergency room and laments the lost opportunity to her supportive friends at Central Perk. Meanwhile, Ross boasts to Joey that his dirty talk with Celia was so elaborately plotted and exhausting that they ended up just cuddling. Finally, as the gang plans a movie night, Chandler is shown still stuck working late at his corporate office."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 262,
+    "timestamp_range": "00:10:54 - 00:11:50",
+    "batch_summary": "Chandler continues to struggle with the stress of his corporate job, aggressively asserting himself on a phone call before collapsing into his chair in exhaustion. Meanwhile, Phoebe gives Steve, Monica's disastrous former catering client, a highly intense and painful massage. Using her elbows with extreme force, she ignores his groans of pain until he finally admits he wants to throw up, bringing the session to an abrupt and uncomfortable end.",
+    "cumulative_summary": "After Joey awkwardly coaches Ross on talking dirty, Chandler returns to his corporate job. Meanwhile, Monica's catering audition for Steve, a potential client, goes disastrously wrong due to his drug-induced behavior. After Steve eats a kitchen magnet, Monica abandons him at the emergency room and laments the lost opportunity to her supportive friends at Central Perk. Meanwhile, Ross boasts to Joey that his dirty talk with Celia was so elaborately plotted and exhausting that they ended up just cuddling. Back at his corporate office, Chandler struggles with the stress of his job, aggressively asserting himself on a phone call before collapsing in exhaustion. Finally, Phoebe gives the eccentric Steve a highly intense and painful massage. Using her elbows with extreme force, she ignores his groans of pain until he admits he wants to throw up, bringing their session to an abrupt and uncomfortable end."
+  }
+]

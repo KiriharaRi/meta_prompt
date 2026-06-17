@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:54",
+    "batch_summary": "In a comedic yet tense confrontation, Joey insists his father, Joey Sr., and his girlfriend, Gloria, stay at his apartment under his strict rules, forbidding them from sleeping together. Joey rearranges the sleeping arrangements, forcing himself and a sarcastic Chandler to share a hide-a-bed. Privately, Joey demands his father either end the six-year affair or confess to his mother. Later that night, Chandler is left highly uncomfortable as Joey strips down to his underwear to sleep.",
+    "cumulative_summary": "Joey's father, Joey Sr., and his girlfriend, Gloria, arrive at Joey's apartment, sparking a tense but humorous family dispute. To prevent them from sleeping together, Joey insists they stay under his roof, enforcing strict rules. He rearranges the living situation: Joey Sr. takes Joey's room, Gloria stays in Chandler's room, and Joey and Chandler are relegated to the living room's pull-out sofa. Once they are alone, Joey confronts his father, firmly demanding that he either end his six-year affair with Gloria or come clean to Joey's mother. The night ends on a comedic note as Joey and Chandler share the cramped hide-a-bed, with Joey making Chandler deeply uncomfortable by stripping down to his underwear to get comfortable."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:54 - 00:03:48",
+    "batch_summary": "While sharing the hide-a-bed, Joey confides in Chandler about his fear of inheriting his father's unfaithful habits. Chandler reassures Joey of his strength and integrity, though he quickly rebuffs Joey's attempt to cuddle. The next morning, Joey Sr.'s mistress, Ronni, arrives at Monica's apartment to use the shower. Learning that Chandler is occupying Joey's bathroom, Rachel eagerly rushes over to Joey's apartment to use theirs, greeting Joey Sr. in the kitchen.",
+    "cumulative_summary": "Joey's father, Joey Sr., and his mistress arrive at Joey's apartment, sparking a tense family dispute. To prevent them from sleeping together, Joey insists they stay under his roof, relegating himself and Chandler to the living room's cramped pull-out sofa. While sharing the bed, Joey opens up to Chandler about his fear of inheriting his father's unfaithfulness. Chandler warmly reassures Joey of his integrity, though he quickly rejects Joey's physical gratitude. The next morning, the mistress, Ronni, visits Monica's apartment to use the shower while Chandler occupies theirs. Seizing the opportunity, Rachel rushes over to Joey's apartment to use his bathroom, greeting Joey Sr. as he reads the morning paper."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:48 - 00:05:50",
+    "batch_summary": "Rachel's attempt to get even with Chandler backfires when she accidentally barges in on a showering Joey instead. Meanwhile, at Central Perk, the gang reluctantly confesses to Phoebe that they dislike her highly analytical boyfriend, Roger. Back at the apartment, Joey's mother, Gloria, unexpectedly visits. Instead of being grateful, she angrily reprimands Joey for interfering in his father's affair, revealing she has known about the infidelity all along and preferred the status quo.",
+    "cumulative_summary": "Joey's father, Joey Sr., and his mistress, Ronni, spark a tense situation by staying at Joey's apartment. Hoping to catch Chandler off-guard in the bathroom as payback, Rachel barges in, only to accidentally surprise a showering Joey instead. Meanwhile, at Central Perk, the gang awkwardly confesses to Phoebe that they strongly dislike her overly analytical boyfriend, Roger. Back at the apartment, Joey's mother, Gloria, arrives unexpectedly. Rather than being upset with her husband, she angrily confronts Joey for interfering. Gloria reveals she has known about the affair all along and preferred the status quo, leaving Joey stunned by his family's complicated dynamics."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:50 - 00:07:35",
+    "batch_summary": "Gloria explains to a bewildered Joey that his father's affair has actually made him happier and more attentive at home. Meanwhile, Ronni also expresses her desire to return to the previous status quo, explaining that Joey Sr.'s guilt made him a more loving partner. Realizing his well-intentioned interference only complicated things, Joey apologizes. The tense situation softens as Ronni comforts Joey, and he sweetly reassures her of her beauty compared to his mother, restoring a bizarre sense of harmony.",
+    "cumulative_summary": "Joey's father, Joey Sr., and his mistress, Ronni, spark a tense situation by staying at Joey's apartment. Hoping to catch Chandler off-guard in the bathroom as payback, Rachel barges in, only to accidentally surprise a showering Joey instead. Meanwhile, at Central Perk, the gang awkwardly confesses to Phoebe that they dislike her overly analytical boyfriend, Roger. Back at the apartment, Joey's mother, Gloria, arrives unexpectedly. Rather than being upset with her husband, she angrily confronts Joey for interfering. Gloria explains to her bewildered son that the affair has actually made Joey Sr. happier and easier to live with. Ronni similarly expresses her frustration with Joey's interference, explaining that his father's guilt had made him a more attentive and loving partner to her as well. Realizing his attempt to do the \"right thing\" has only disrupted everyone's bizarrely functional arrangement, Joey apologizes. The tension diffuses as Ronni warmly comforts him, and Joey sweetly reassures her of her beauty, leaving him to accept his family's unconventional relationships."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:35 - 00:09:23",
+    "batch_summary": "At Central Perk, Phoebe reluctantly confesses to Roger that her friends find him \"intense and creepy.\" Initially calm, Roger quickly turns defensive and launches into a harsh, condescending tirade. He attacks the group's \"codependent, emotionally stunted\" dynamic and mocks their habit of sitting in the coffee house. Phoebe is left stunned and dismayed by his mean-spirited outburst. Meanwhile, back at the apartment, the gang asks Joey about his conversation with his father.",
+    "cumulative_summary": "Joey's father, Joey Sr., and his mistress, Ronni, spark a tense situation by staying at Joey's apartment. Hoping to catch Chandler off-guard in the bathroom as payback, Rachel accidentally surprises a showering Joey instead. Meanwhile, the gang confesses to Phoebe that they dislike her overly analytical boyfriend, Roger. After Joey's mother, Gloria, unexpectedly arrives, she and Ronni explain that the affair actually makes Joey Sr. a happier, more attentive partner. Realizing his interference disrupted a bizarrely functional arrangement, Joey apologizes and accepts his family's unconventional relationship. Later, at Central Perk, Phoebe gently breaks the news to Roger that her friends find him \"intense and creepy.\" Roger reacts with immediate hostility, unleashing a scathing, condescending rant that mocks the group's codependency, emotional stuntness, and coffee house habits, leaving Phoebe stunned by his mean-spirited outburst. Back at the apartment, the friends gather for pizza and ask Joey how his talk with his father went."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:23 - 00:10:58",
+    "batch_summary": "Joey updates the group on his parents' bizarre arrangement, philosophically accepting that he must let them make their own mistakes. Chandler jokes about his own dysfunctional parents. Phoebe then arrives and reveals she broke up with Roger, admitting that despite his good qualities, she simply hates him. Later, Joey enthusiastically prepares to get revenge on Rachel for accidentally seeing him naked, launching his \"booby payback express.\"",
+    "cumulative_summary": "Joey's father, Joey Sr., and his mistress, Ronni, spark tension by staying at Joey's apartment. Hoping to catch Chandler off-guard in the bathroom as payback, Rachel accidentally surprises a showering Joey instead. Meanwhile, the gang confesses to Phoebe that they dislike her overly analytical boyfriend, Roger. After Joey's mother, Gloria, unexpectedly arrives, she and Ronni explain that the affair actually makes Joey Sr. a happier, more attentive partner. Realizing his interference disrupted a bizarrely functional arrangement, Joey apologizes and accepts his family's unconventional relationship. Later, at Central Perk, Phoebe gently breaks the news to Roger that her friends find him \"intense and creepy.\" Roger reacts with immediate hostility, unleashing a scathing, condescending rant that mocks the group's codependency, leaving Phoebe stunned. Back at the apartment, Joey shares his philosophical acceptance of his parents' choices with the group. Phoebe then arrives and announces she broke up with Roger because she ultimately hates him. Finally, Joey eagerly plots his \"booby payback express\" to get even with Rachel for seeing him naked."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 253,
+    "timestamp_range": "00:10:58 - 00:11:37",
+    "batch_summary": "Joey's plan for revenge against Rachel backfires when he accidentally barges in on Monica in the bathroom instead. Seeking her own payback, Monica later sneaks into Joey's apartment and pulls back the shower curtain, expecting to catch Joey off-guard. Instead, she is horrified to find Joey's father, Joey Sr., in the shower. The awkward encounter ends the cycle of bathroom surprises on a hilariously uncomfortable note.",
+    "cumulative_summary": "Joey's father, Joey Sr., and his mistress, Ronni, spark tension by staying at Joey's apartment. Hoping to catch Chandler off-guard in the bathroom as payback, Rachel accidentally surprises a showering Joey instead. Meanwhile, Phoebe breaks up with her intense, condescending boyfriend, Roger, after her friends confess their dislike for him. Joey ultimately accepts his family's unconventional living arrangement, but remains determined to get \"booby payback\" on Rachel. However, his revenge plot backfires when he accidentally barges in on Monica in the bathroom instead. Seeking her own retaliation, Monica later sneaks into the bathroom to catch Joey off-guard. To her horror, she pulls back the shower curtain only to find Joey Sr. instead, bringing the chain of awkward bathroom surprises to a hilariously uncomfortable climax."
+  }
+]

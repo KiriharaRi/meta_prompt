@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:47",
+    "batch_summary": "In their apartment, a depressed Chandler laments his fear of dying alone, worrying he threw away his chance at love over a petty pronunciation pet peeve. Joey tries to comfort him but offers little reassurance about future holiday plans, prompting Chandler to take action. After Chandler leaves, Joey humorously plays with ceramic figurines. Determined to change his fate, Chandler makes a phone call to his ex-girlfriend Janice, who reacts with her signature shock.",
+    "cumulative_summary": "In their apartment, Chandler spirals into a dramatic existential crisis, expressing deep fears of ending up alone while his friends move on to marriage and family life. He even worries that he previously sabotaged his own happiness by dumping a woman over her pronunciation of the word \"supposedly.\" Though Joey tries to cheer him up by offering to buy him breakfast, he inadvertently worsens Chandler's anxiety by failing to promise him holiday invitations in the future, offering only a yearly Super Bowl gathering instead. Spurred by the bleak prospect of his future, Chandler resolves not to let this happen and abruptly leaves. While Joey stays behind, humorously mocking the word \"supposedly\" with ceramic figurines, Chandler heads to the kitchen to take matters into his own hands. He dials a number and makes a call, which is answered by his ex-girlfriend Janice, who responds with her iconic, shocked exclamation of \"Oh, my God!\""
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:47 - 00:03:20",
+    "batch_summary": "At the coffee shop, Chandler defends calling Janice to his skeptical friends, declaring her his last chance at love. However, when Janice arrives, Chandler is shocked to discover she is heavily pregnant and married. Janice playfully admits she wanted to see his face in person rather than telling him over the phone, leaving Chandler defeated. Meanwhile, back at the apartment, Monica tries to get Rachel to play 'hide the lamp' to get rid of an ugly seashell lamp, but Rachel firmly tells her to let it go.",
+    "cumulative_summary": "Spiraling into a dramatic existential crisis about ending up alone, Chandler decides to take matters into his own hands and calls his ex-girlfriend, Janice. At the coffee shop, he defends his decision to his skeptical friends, declaring Janice his last chance at happiness. However, his hopes are instantly dashed when Janice arrives heavily pregnant and happily married. She playfully admits she only agreed to meet in person to see the shock on his face, leaving Chandler defeated. Meanwhile, back at the apartment, Monica tries to coax Rachel into playing 'hide the lamp' to get rid of an unsightly seashell-covered lamp, but Rachel firmly tells her to let it go."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:20 - 00:05:12",
+    "batch_summary": "After Monica and Rachel exchange quick barbs over the seashell lamp, Ross arrives with a briefcase of fossils to prove evolution to Phoebe. Phoebe challenges his scientific certainty, arguing that history has proven \"bright minds\" wrong before. She pressures him to admit there is a tiny chance he could be wrong. When Ross finally concedes to a \"teeny tiny possibility,\" Phoebe hilariously turns on him, expressing disappointment that he abandoned his belief system so easily, leaving Ross completely stunned.",
+    "cumulative_summary": "Spiraling into an existential crisis, Chandler contacts his ex-girlfriend Janice, hoping she is his last chance at happiness. However, his hopes are dashed when she arrives heavily pregnant and happily married, leaving him defeated. Meanwhile, back at the apartment, Monica fails to convince Rachel to get rid of an unsightly seashell-covered lamp. The focus then shifts to Ross, who arrives with a briefcase of fossils to prove the absolute truth of evolution to Phoebe. Phoebe challenges his scientific certainty, arguing that historical consensus has been wrong before, and pressures him to admit there is a tiny chance he could be mistaken. When Ross finally concedes that a \"teeny tiny possibility\" exists, Phoebe hilariously turns on him, expressing deep disappointment that he abandoned his core belief system so easily, leaving Ross completely bewildered."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:12 - 00:07:04",
+    "batch_summary": "After Ross leaves, Monica accidentally shatters Rachel's hated seashell lamp, sparking immediate accusations of sabotage. Meanwhile, Chandler's existential crisis deepens. Reeling from his encounter with Janice, he dramatically declares he is destined to die alone and hilariously plans a future as a 'crazy snake man' to cope with his isolation, prompting Monica to step in and reassure him.",
+    "cumulative_summary": "Spiraling into an existential crisis, Chandler contacts his ex-girlfriend Janice, hoping she is his last chance at happiness. However, his hopes are dashed when she arrives heavily pregnant and happily married, leaving him defeated. Meanwhile, Ross fails to convince Phoebe of the absolute truth of evolution and leaves the apartment bewildered after she turns his own concession against him. Shortly after, Monica accidentally shatters Rachel's hated seashell lamp, sparking immediate accusations of sabotage from Rachel. Chandler's despair over Janice then intensifies as he dramatically rants to the group about his fear of dying alone. He hilariously envisions a future where he becomes an eccentric 'crazy snake man' to cope with his isolation, prompting Monica to step in and reassure him that he will eventually find love."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:04 - 00:09:00",
+    "batch_summary": "Chandler admits to self-sabotaging his relationships, but the girls comfort him, pointing out that his willingness to reach out to Janice proves he is ready for commitment. Terrified by this realization, Chandler panics and flees. Meanwhile, Monica attempts to mend fences with Rachel after breaking her lamp by gifting her a quirky doll clock. Rachel accepts the peace offering, easing the tension between the roommates.",
+    "cumulative_summary": "Spiraling into an existential crisis, Chandler contacts his ex-girlfriend Janice, only to find her happily married and pregnant. After he dramatically rants about his fear of dying alone, Monica, Rachel, and Phoebe comfort him. Chandler admits to self-sabotaging his relationships, but the girls reassure him that reaching out to Janice proves he is genuinely ready for commitment and intimacy. Terrified by this realization, Chandler panics and flees. Meanwhile, following Ross's failed debate with Phoebe over evolution, Monica tries to make amends with Rachel for accidentally shattering her beloved seashell lamp. Monica gifts Rachel a quirky doll clock she knows she likes, which Rachel happily accepts, successfully easing the tension between the roommates."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:00 - 00:10:49",
+    "batch_summary": "Chandler proudly announces he has a date with a coworker, Allison, proving he is overcoming his superficial relationship hang-ups. Meanwhile, the group helps clear out their deceased neighbor Mr. Heckles' apartment. Monica tries to lead a respectful moment of silence, but her magnifying glass antics cause the group to laugh. As everyone heads inside, Chandler stays behind in the hallway. After a broom falls from the empty apartment, Chandler shares a quiet, poignant moment of closure, saying a final, respectful goodbye to Mr. Heckles.",
+    "cumulative_summary": "Spiraling into an existential crisis, Chandler contacts his ex-girlfriend Janice, only to find her happily married and pregnant. After he dramatically rants about his fear of dying alone, his friends comfort him, helping him realize he is ready for commitment. Determined to grow, Chandler takes a step forward by asking out a coworker, Allison, resolving to look past minor physical flaws. Meanwhile, the friends help clear out the apartment of their late neighbor, Mr. Heckles. Monica attempts to lead a solemn tribute to Heckles, but her magnifying glass antics break the tension, causing the group to laugh. Left alone in the hallway after the others head inside, Chandler experiences a poignant moment of connection and closure. After a broom falls from the empty apartment, Chandler picks it up and bids a quiet, respectful farewell to Mr. Heckles, promising to try and keep the noise down."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 254,
+    "timestamp_range": "00:10:49 - 00:11:31",
+    "batch_summary": "Chandler goes on his date with his coworker, Allison, at a coffee shop. Despite his earlier resolution to overlook minor physical flaws, he immediately becomes hilariously fixated on the unusually large size of her head. As Allison talks, Chandler's frantic inner monologue attempts to list five things he likes about her, but he repeatedly fails to get past her \"big head,\" highlighting his ongoing struggle with commitment and superficiality.",
+    "cumulative_summary": "Spiraling into an existential crisis, Chandler contacts his ex-girlfriend Janice, only to find her happily married and pregnant. After a dramatic rant about his fear of dying alone, his friends comfort him, helping him realize he is ready for commitment. Determined to grow, Chandler resolves to look past minor physical flaws and asks out his coworker, Allison. Meanwhile, the friends help clear out the apartment of their late neighbor, Mr. Heckles. After a poignant moment of closure where Chandler bids a quiet farewell to Heckles, he takes the step to go on his date with Allison at a coffee shop. However, his resolve is immediately tested. Despite trying to focus on her positive traits, Chandler becomes hilariously and obsessively distracted by the size of Allison's head. His frantic inner monologue reveals that despite his desire to change, he still struggles to overcome his superficial hang-ups, leaving his journey toward commitment hilariously stalled."
+  }
+]

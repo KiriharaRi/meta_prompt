@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:33",
+    "batch_summary": "In a Las Vegas wedding chapel, Chandler and Monica's wedding plans are interrupted when a heavily intoxicated Ross and Rachel burst out, having just impulsively married. Joey and Phoebe arrive shortly after, having received a message about the wedding. As the group processes the shocking news, Chandler attributes the marriage to extreme drunkenness rather than a rekindled romance. The scene ends on a comedic note when Phoebe falsely claims Vegas marriages aren't legally binding elsewhere, only for Monica to correct her.",
+    "cumulative_summary": "Inside a Las Vegas wedding chapel, Chandler and Monica are on the verge of getting married when they are stunned to see a highly intoxicated Ross and Rachel run out of the ceremony room, celebrating their own impulsive marriage. Shortly after, Joey and Phoebe burst in, hoping to catch the wedding after receiving a message from the couple. The group is left in disbelief, with Chandler jokingly remarking that Ross and Rachel's marriage is the result of extreme drunkenness rather than a genuine relationship. The situation takes a humorous turn when Phoebe confidently asserts that marriages performed in Las Vegas are not legally binding in the rest of the world, a misconception that Monica quickly and firmly corrects, leaving the group to face the reality of their friends' sudden legal union."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:33 - 00:03:13",
+    "batch_summary": "After Phoebe sheepishly retreats upon learning Las Vegas marriages are legally binding, the scene shifts to the next morning. Rachel wakes up hungover in a messy hotel room, shocked to find marker drawings on her face. Her shock turns to panic when she pulls back the covers and discovers a shirtless Ross in bed with her, also covered in marker. Both are horrified and confused, realizing they are naked in bed together with no memory of what transpired the night before.",
+    "cumulative_summary": "Inside a Las Vegas wedding chapel, Chandler and Monica are stunned to see a highly intoxicated Ross and Rachel run out of the ceremony room, celebrating their impulsive marriage. When Phoebe confidently asserts that Las Vegas marriages are not legally binding, Monica quickly corrects her, prompting a shocked Phoebe to quickly retreat. The next morning, the consequences of the wild night unfold in a messy hotel room. Rachel wakes up hungover and is horrified to see marker drawings on her face in the mirror. Her panic intensifies when she pulls back the bedsheets to find a shirtless Ross sleeping beside her, also sporting marker drawings. As they both wake up and realize they are naked in bed together, they are left completely bewildered and alarmed, with no memory of what actually happened between them the night before."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:13 - 00:05:03",
+    "batch_summary": "In their hotel room, a relieved Ross and Rachel piece together their blurry night, concluding they did not have sex or do anything stupid, unaware of the \"Just Married\" ink written on Ross's back. Meanwhile, at the hotel buffet, a depressed Joey reveals his movie was canceled. To avoid a lonely drive back to New York in Phoebe's borrowed cab, he convinces her to join him on a road trip to \"renew\" their friendship. Monica and Chandler then join them at the restaurant.",
+    "cumulative_summary": "Inside a Las Vegas wedding chapel, Chandler and Monica are stunned to see a highly intoxicated Ross and Rachel run out of the ceremony room, celebrating their impulsive marriage. The next morning, Rachel and Ross wake up naked and hungover with marker drawings on their faces, completely bewildered with no memory of the night before. After piecing together their blurry memories, they relievedly conclude they did not have sex or do anything stupid, remaining blissfully unaware of the \"Just Married\" message written on Ross's back. Meanwhile, at the hotel buffet, Joey reveals to Phoebe that his movie has been officially canceled. Facing a lonely drive back to New York in Phoebe's borrowed cab, Joey convinces her to join him on a road trip to \"renew\" their friendship, which she happily accepts just as Monica and Chandler arrive."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:03 - 00:06:42",
+    "batch_summary": "At the hotel buffet, Chandler confides in Joey that he and Monica almost got married, but seeing Ross and Rachel made him realize they are moving too fast. He worries about breaking Monica's heart, leading Joey to offer some terrible advice. Meanwhile, Monica confesses the exact same anxiety to Phoebe, fearing that telling Chandler it is too soon will crush him. When the group reunites at the table, Monica quickly covers up her secret conversation.",
+    "cumulative_summary": "Inside a Las Vegas wedding chapel, Chandler and Monica are stunned to see a highly intoxicated Ross and Rachel run out of the ceremony room, celebrating their impulsive marriage. The next morning, Rachel and Ross wake up naked and hungover with marker drawings on their faces, completely bewildered with no memory of the night before. After piecing together their blurry memories, they relievedly conclude they did not have sex or do anything stupid, remaining blissfully unaware of the \"Just Married\" message written on Ross's back. Meanwhile, at the hotel buffet, Joey reveals to Phoebe that his movie has been officially canceled. Facing a lonely drive back to New York in Phoebe's borrowed cab, Joey convinces her to join him on a road trip to \"renew\" their friendship, which she happily accepts just as Monica and Chandler arrive. Once there, both Chandler and Monica secretly harbor the same anxiety: they feel they are moving too fast after almost getting married. Chandler confides in Joey about his cold feet, while Monica confesses her identical fears to Phoebe. Unaware of their mutual feelings, both struggle with how to tell the other without causing heartbreak."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:42 - 00:08:17",
+    "batch_summary": "At the breakfast table, Ross and Rachel join the group, completely oblivious to their wedding the night before. When Chandler asks about their wild night, Rachel insists nothing happened, prompting Chandler to drop the bombshell that they actually got married. Shocked and horrified, Ross and Rachel slowly recall the chapel, but Ross argues they shouldn't have been allowed to marry while drunk. Realizing the truth, Rachel declares they need a divorce lawyer, prompting Chandler to joke about Ross's extensive experience with divorces.",
+    "cumulative_summary": "Inside a Las Vegas wedding chapel, Chandler and Monica are stunned to see a highly intoxicated Ross and Rachel run out of the ceremony room, celebrating their impulsive marriage. The next morning, Rachel and Ross wake up naked and hungover with marker drawings on their faces, completely bewildered with no memory of the night before. Meanwhile, Joey and Phoebe plan a road trip back to New York, while Monica and Chandler secretly harbor mutual anxieties about moving too fast after almost getting married. When Ross and Rachel join the group for breakfast, they are completely oblivious to their new marital status. Chandler drops the bombshell that they got married the previous night, leaving both Ross and Rachel shocked and horrified. After realizing that Vegas chapels indeed allow drunk marriages, a panicked Rachel decides they must find a divorce lawyer, prompting Chandler to tease Ross about his history of divorces."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:17 - 00:10:05",
+    "batch_summary": "At breakfast, Ross defends himself against the group's relentless teasing about his multiple divorces, insisting that he and Rachel will get an annulment instead. Phoebe jokingly labels him the \"divorce guy.\" Later, on the casino floor, Monica and Chandler address their near-marriage. After reaffirming their love, they decide not to rush into anything and agree to leave their marriage plans up to fate, waiting for a clear sign before taking the plunge.",
+    "cumulative_summary": "After learning of their drunken Las Vegas wedding, a panicked Rachel and Ross face relentless teasing from the group about Ross's history of divorces. Ross defensively insists they will get an annulment rather than a third divorce, despite Phoebe jokingly labeling him the \"divorce guy.\" Meanwhile, Monica and Chandler find a quiet moment on the casino floor to address their own near-marriage. Reaffirming their love for one another, they admit they are hesitant to rush into such a massive commitment. Drawing inspiration from their craps game the night before, Monica suggests they leave their future up to fate, agreeing not to get married unless they receive a clear sign."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 272,
+    "timestamp_range": "00:10:05 - 00:11:32",
+    "batch_summary": "Monica and Chandler agree that rolling an eight at the craps table will be their sign to marry. When Monica rolls an \"easy eight,\" both panic and quickly make excuses that it was the \"wrong kind of eight\" to avoid the commitment. Walking to the elevator, they agree they would need a clear-cut sign from fate to marry, only for the doors to open and reveal a priest. Meanwhile, Phoebe drives a sleeping Joey back home in a taxi.",
+    "cumulative_summary": "After learning of Rachel and Ross's drunken Las Vegas wedding, the group teases Ross about his divorces, prompting him to seek an annulment. Meanwhile, Monica and Chandler address their own near-marriage. Hesitant to rush into a massive commitment, they decide to leave their future to fate, agreeing that rolling an eight at the craps table will be their sign to marry. When Monica actually rolls an \"easy eight,\" both panic and quickly excuse it as the \"wrong kind of eight\" to avoid the wedding. However, as they walk to the elevator, agreeing that they would need a truly undeniable sign from fate, the doors slide open to reveal a priest standing inside. Elsewhere, Phoebe drives a sleeping Joey back home in a taxi."
+  }
+]

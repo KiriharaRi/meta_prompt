@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:58",
+    "batch_summary": "After a disastrous party makes Chandler feel unattractive, Phoebe accidentally insults his weight. Seeking a project while unemployed, Monica offers to help Chandler get in shape. Despite his initial reluctance and self-consciousness about wearing spandex, Chandler agrees. The two begin their workout regimen, but Chandler quickly struggles to keep up with Monica's high-energy pace during their first outdoor jog.",
+    "cumulative_summary": "After returning from a disastrous party where he felt completely invisible, Chandler questions his attractiveness to his friends Ross, Rachel, Monica, and Phoebe. Phoebe tries to reassure him but accidentally insults his weight, suggesting he has put on some \"insulation.\" Seizing an opportunity for a new project while unemployed, Monica offers to become Chandler's personal trainer and help him get back in shape. Though reluctant and self-conscious about his appearance—especially after Monica teases him about his tight spandex shorts—Chandler agrees to the partnership. Their training begins with an outdoor jog through the city streets, where Monica's intense, energetic pace immediately leaves a heavily breathing Chandler struggling to keep up."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:58 - 00:03:30",
+    "batch_summary": "Monica uses a playful bribe to motivate an exhausted Chandler during sit-ups, but the intense training leaves him incredibly sore. At Central Perk, Chandler complains to Joey about Monica's relentless, round-the-clock coaching, though he feels too guilty to quit since she is unemployed. Meanwhile, Phoebe arrives and shares her frustration about her new boyfriend, Scott, who refuses to get physical, prompting Joey to speculate about Scott's sexuality.",
+    "cumulative_summary": "After feeling invisible at a party, Chandler accepts Monica's offer to be his personal trainer to help him get back in shape. However, Monica's intense training regimen quickly pushes him to his limits. From grueling outdoor jogs to rapid sit-ups motivated by playful bribes, Chandler is left incredibly sore and exhausted. At Central Perk, he complains to Joey about Monica's relentless, round-the-clock coaching, but feels too guilty to quit because training him is her only project while unemployed. Meanwhile, Phoebe joins them and discusses her frustration with her new boyfriend, Scott, who refuses to take their relationship to a physical level despite a romantic date. This leads Joey to humorously speculate about Scott's sexual orientation."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:30 - 00:05:05",
+    "batch_summary": "At Central Perk, Phoebe defends her boyfriend Scott's interest, insisting she felt a physical spark while dancing. Meanwhile, Monica continues to push an exhausted Chandler, scheduling a racquetball game. After spotting Ross and Julie kissing outside, Rachel insists she is over her jealousy and moving on, especially since Monica set her up on a date. However, her bitter remarks betray her true feelings. Finally, Ross and Julie arrive and excitedly announce they are getting a cat together, further testing Rachel's composure.",
+    "cumulative_summary": "After feeling invisible at a party, Chandler accepts Monica's offer to be his personal trainer, but her intense, round-the-clock regimen quickly leaves him exhausted and sore. Meanwhile, Phoebe discusses her frustration with her boyfriend, Scott, who refuses to get physical. Despite Joey's speculation about Scott's sexuality, Phoebe insists she felt a spark while dancing. The tension shifts to Rachel when she spots Ross and Julie kissing outside Central Perk. Although Rachel claims she is moving on and excited for a blind date set up by Monica, her aggressive comments reveal her lingering jealousy. This jealousy is put to the test when Ross and Julie enter the coffee shop and happily announce they are taking a major step in their relationship by getting a cat together."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:05 - 00:06:27",
+    "batch_summary": "Rachel reacts with passive-aggressive sarcasm to Ross and Julie's news about getting a cat, even accidentally trying to leave the coffee shop with her serving tray. She then goes on her blind date with Michael, a nervous divorcé. However, Rachel is completely consumed by her jealousy over Ross. Instead of engaging with Michael, she distracts him by asking how long cats live, growing increasingly bitter when he estimates they can live up to 16 years.",
+    "cumulative_summary": "After feeling invisible at a party, Chandler accepts Monica's offer to be his personal trainer, but her intense regimen quickly leaves him exhausted. Meanwhile, Phoebe discusses her frustration with her boyfriend, Scott, who refuses to get physical. The tension shifts to Rachel when she spots Ross and Julie kissing outside Central Perk. Although Rachel claims she is moving on, her jealousy is put to the test when Ross and Julie announce they are getting a cat together. Rachel reacts with passive-aggressive sarcasm before rushing off to her blind date with Michael, a nervous divorcé. However, Rachel is too consumed by jealousy to focus on her date. She completely derails their conversation by obsessing over the lifespan of cats, leaving Michael bewildered while she drinks bitterly."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:27 - 00:08:16",
+    "batch_summary": "Rachel's blind date with Michael continues to spiral as she remains completely fixated on Ross and Julie getting a cat, even asking Michael about his own past pet-sharing experiences. Meanwhile, at Central Perk, Phoebe confides in Joey about her insecurities regarding her boyfriend Scott's lack of physical intimacy. Joey reassures her of her attractiveness and advises her to talk to Scott directly. Outside, a bizarre encounter unfolds as Chandler runs up to Ross and a woman, only to get slapped in the face.",
+    "cumulative_summary": "After feeling invisible at a party, Chandler accepts Monica's intense personal training regimen, which quickly exhausts him. Meanwhile, Rachel's jealousy over Ross and Julie getting a cat completely derails her blind date with Michael. Despite Michael's attempts to connect, Rachel remains utterly consumed by the situation, even asking her date about his own history with shared pets. At Central Perk, Phoebe confides in Joey about her insecurities regarding her boyfriend Scott's lack of physical intimacy, fearing he does not find her sexy. Joey warmly reassures her of her appeal and advises her to communicate directly with Scott. The atmosphere takes a bizarre turn when Chandler runs up to Ross and an unidentified woman outside the coffee shop, only to be abruptly slapped across the face."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:16 - 00:09:56",
+    "batch_summary": "During their disastrous blind date, Michael asks for the check, admitting he is not having fun due to Rachel's distraction. Rachel confesses her struggle to get over Ross, Julie, and their new cat. Drawing from his own divorce experience, Michael suggests that Rachel needs closure to move on. This revelation strikes a chord with Rachel, who enthusiastically agrees that finding closure is exactly what she needs to finally tell Ross she is over him.",
+    "cumulative_summary": "After feeling invisible at a party, Chandler accepts Monica's intense personal training regimen, which quickly exhausts him. Meanwhile, Phoebe confides in Joey about her boyfriend Scott's lack of physical intimacy, and Joey reassures her of her appeal. Outside the coffee shop, Chandler is abruptly slapped by an unidentified woman next to Ross. Meanwhile, Rachel's jealousy over Ross and Julie getting a cat completely derails her blind date with Michael. Unable to focus, Rachel spends the date obsessing over Ross, prompting Michael to ask for the check. When Rachel laments her inability to move on, Michael, drawing from his own divorce, suggests that she needs closure. This advice resonates deeply with Rachel, who realizes that finding closure is the key to finally letting go of her feelings for Ross."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:56 - 00:11:16",
+    "batch_summary": "Determined to find closure, Rachel impulsively borrows a cell phone from a reluctant diner at the next table. She calls Ross and, reaching his answering machine, leaves a rambling message. She insists she is completely over him, congratulates him on his new cat, and even suggests he name it \"Michael\" after her date. This awkward and desperate attempt to prove her indifference only highlights her unresolved feelings.",
+    "cumulative_summary": "After feeling invisible at a party, Chandler accepts Monica's intense personal training regimen, which quickly exhausts him. Meanwhile, Phoebe confides in Joey about her boyfriend Scott's lack of physical intimacy. Outside the coffee shop, Chandler is abruptly slapped by an unidentified woman next to Ross. Meanwhile, Rachel's jealousy over Ross and Julie getting a cat completely derails her blind date with Michael. Unable to focus, Rachel spends the date obsessing over Ross, prompting Michael to suggest she needs closure to move on. Taking this advice to heart, Rachel impulsively borrows a cell phone from a reluctant diner at a nearby table to call Ross. Reaching his answering machine, she leaves a rambling, awkward message. She insists she is completely over him, congratulates him on his new cat, and even suggests he name it \"Michael\" after her date, inadvertently revealing just how unresolved her feelings actually are."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 302,
+    "timestamp_range": "00:11:16 - 00:12:18",
+    "batch_summary": "Rachel dramatically concludes her voicemail to Ross, declaring she has \"closure\" before tossing the borrowed phone into an ice bucket. The next morning, Monica relentlessly pushes Chandler to continue his workout regimen. Despite Chandler's desperate protests that Sunday is a day of rest, Monica refuses to let him quit, declaring herself the \"energy train\" and aggressively pushing him to lose three more pounds.",
+    "cumulative_summary": "After feeling invisible at a party, Chandler accepts Monica's intense personal training regimen, which quickly exhausts him. Meanwhile, Phoebe confides in Joey about her boyfriend Scott's lack of physical intimacy, and Chandler is abruptly slapped by an unidentified woman. Rachel's jealousy over Ross and Julie getting a cat completely derails her blind date with Michael. Taking Michael's advice to seek closure, Rachel impulsively calls Ross's answering machine. She leaves a rambling, awkward message declaring she is completely over him, dramatically tossing the borrowed phone into an ice bucket to seal her \"closure.\" The following Sunday morning, Monica's relentless training regimen reaches a comical peak. Despite Chandler's desperate protests that Sunday is a day of rest, Monica refuses to let him quit, aggressively declaring herself the \"energy train\" and forcing him to keep pushing to lose three more pounds."
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "command": "summarize-descriptions",
+  "descriptions": "friends/description/downloaded_refine_descriptions/mv_friends_s01e01a/descriptions/refined_description.md",
+  "summary_file": "friends/demo/mimo_summary_smoke/s01e01a/summary.json",
+  "metadata_file": "friends/demo/mimo_summary_smoke/s01e01a/summary_metadata.json",
+  "provider": "packyapi",
+  "model": "mimo-v2.5-pro",
+  "summary_batch_size": 40,
+  "n_segments": 333,
+  "n_batches": 9,
+  "generated_at": "2026-06-01T08:05:01.147114+00:00",
+  "prompt_contract": {
+    "batch_summary_words": "50-100",
+    "cumulative_summary_words": "100-200",
+    "summary_schema": "fallen_notebook_batch_summary_array"
+  }
+}

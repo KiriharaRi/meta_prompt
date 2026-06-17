@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:36",
+    "batch_summary": "In Monica's apartment, Rachel confesses to the group that she spent the night with her ex, Paolo, despite having dumped him for hitting on Phoebe. Monica tries to comfort a regretful Rachel. The tension escalates when Ross arrives with a new date, only for Paolo to walk in shortly after. Ross is visibly shaken to learn Paolo is back, though he denies it is a problem. Meanwhile, Phoebe immediately warns Paolo to keep his hands off her. Sensing the awkward atmosphere, Chandler makes a quick exit to get his pants altered.",
+    "cumulative_summary": "The story begins in Monica's apartment, where Rachel reveals to her friends—Monica, Joey, Chandler, and Phoebe—that she spent the previous night with her ex-boyfriend, Paolo. The group is shocked, reminding her that she originally dumped him for hitting on Phoebe. While Monica tries to reassure a self-deprecating Rachel that she is just sad, the situation grows more complicated when Ross arrives with a new date, happily announcing they were delayed by \"touching.\" The mood shifts instantly when Paolo himself walks through the door. A highly uncomfortable Ross learns that Paolo and Rachel are back together, though he awkwardly insists he is fine with it. Phoebe wastes no time warning Paolo to keep his hands to himself, highlighting his sleazy reputation. Feeling the mounting, palpable tension in the room, Chandler decides to make a swift exit under the guise of getting his pants altered, leaving the rest of the group to navigate the awkward romantic entanglements."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:36 - 00:03:19",
+    "batch_summary": "After a brief exchange between Chandler and Joey, the focus shifts to Monica getting a haircut from Phoebe. Phoebe demands Monica trust her and avoid being bossy. However, as the haircut progresses, Monica is horrified to find her hair cut extremely short and jagged. The tension peaks when they realize Phoebe confused actress Demi Moore with actor Dudley Moore, leaving Monica with a disastrous, masculine haircut. Phoebe panics and apologizes profusely as Monica stares in disbelief at her ruined hair.",
+    "cumulative_summary": "The story begins in Monica's apartment, where Rachel reveals she spent the night with her sleazy ex-boyfriend, Paolo. The group is shocked, and the tension peaks when Ross arrives with a new date, only to be devastated by Paolo's sudden appearance. While Chandler makes a swift exit to escape the awkwardness, Monica decides to let Phoebe cut her hair. Phoebe agrees on the condition that Monica refrains from being controlling. However, the haircut quickly turns into a disaster. As Monica watches in horror, her hair is cut into a short, jagged style. The root of the mistake is soon revealed: Phoebe confused actress Demi Moore with actor Dudley Moore. Upon realizing she has been given a haircut meant for an older male actor, Monica reacts with sheer panic and anger, while a horrified Phoebe desperately tries to apologize for the catastrophic mix-up."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:19 - 00:05:02",
+    "batch_summary": "Monica's despair over her Dudley Moore haircut deepens as Phoebe finally realizes her mistake. Meanwhile, Chandler experiences an incredibly awkward and invasive inseam measurement at a tailor shop. Back at the apartment, Phoebe treats Monica's hair disaster like a medical emergency, keeping her isolated from Rachel, whose hair is \"too good,\" but allowing Ross to visit. Joey checks in on Rachel, who insists she is doing okay despite the lingering tension from her night with Paolo.",
+    "cumulative_summary": "The story begins in Monica's apartment, where Rachel reveals she spent the night with her ex-boyfriend, Paolo, causing tension when Ross arrives with a new date. To escape the awkwardness, Chandler visits a tailor, where he undergoes an uncomfortably invasive inseam measurement. Meanwhile, Monica lets Phoebe cut her hair, which turns into a disaster when Phoebe confuses Demi Moore with Dudley Moore. Devastated by her jagged, masculine haircut, Monica hides in despair. Phoebe treats the hair disaster like a medical emergency, keeping Monica isolated in her room. She bans Rachel from entering because her hair is \"too good,\" but allows Ross to visit. Outside the room, Joey checks in on Rachel, who insists she is doing okay despite the lingering emotional fallout from her night with Paolo."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:02 - 00:06:58",
+    "batch_summary": "Joey comforts a depressed Rachel, who feels she has hit rock bottom seeing Ross with Julie. Joey urges her to confess her feelings, reminding her of Ross's decade-long love for her. Meanwhile, Chandler returns to the apartment in a rage and confronts Joey about his tailor, Frankie. With Ross listening in, Chandler explains that the tailor inappropriately touched him during his inseam measurement, describing a highly unprofessional \"cupping\" incident that leaves Joey stunned.",
+    "cumulative_summary": "The story begins in Monica's apartment, where Rachel's night with Paolo causes tension when Ross arrives with his new girlfriend, Julie. To escape, Chandler visits Joey's tailor, while Monica suffers a disastrous haircut from Phoebe. While Monica hides in despair, Joey comforts a depressed Rachel. She admits she feels lower than rock bottom seeing Ross with Julie, prompting Joey to urge her to confess her feelings, reminding her of Ross's decade-long love for her. Meanwhile, Chandler returns to the apartment in a rage. He confronts Joey, with Ross listening in, revealing that Joey's trusted tailor, Frankie, inappropriately touched him during his inseam measurement. Joey is left stunned as Chandler describes the tailor's highly unprofessional \"cupping\" technique."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:58 - 00:08:35",
+    "batch_summary": "Joey initially defends his tailor's measuring techniques, but Ross quickly clarifies that such touching only happens in prison. A horrified Joey finally realizes he has been violated for years and retreats to make coffee. Later, the group gathers in the kitchen, where Chandler and Phoebe try to comfort Monica over her terrible haircut, though Chandler cannot resist making jokes. As Ross prepares to leave, he crosses paths with Rachel just as she enters the apartment.",
+    "cumulative_summary": "The story begins in Monica's apartment, where Rachel's night with Paolo causes tension when Ross arrives with his new girlfriend, Julie. To escape, Chandler visits Joey's tailor, while Monica suffers a disastrous haircut from Phoebe. While Monica hides in despair, Joey comforts a depressed Rachel, urging her to confess her feelings to Ross. Meanwhile, Chandler returns in a rage, revealing that Joey's trusted tailor, Frankie, inappropriately touched him. Joey initially defends the tailor's methods as standard practice, but Ross flatly points out that such touching only occurs in prison. A horrified Joey slowly realizes the truth and retreats in shock. Later, the friends gather in the kitchen to discuss Monica's disastrous haircut. While Phoebe and Ross try to reassure her, Chandler continues to tease her about the bad style. The mood shifts as Ross gets up to leave, crossing paths with Rachel just as she walks through the door."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:35 - 00:10:36",
+    "batch_summary": "While Joey remains in shock over his tailor, Rachel pulls Ross aside to talk. She explains that her night with Paolo was a mistake and they are not back together. Ross passionately tells Rachel she deserves someone who truly appreciates her beauty, humor, and sweetness. However, just as Rachel's hopes rise, Ross ruins the moment by comparing this ideal love to his relationship with Julie. Disheartened, Rachel hides her true feelings and ends the conversation.",
+    "cumulative_summary": "The story begins in Monica's apartment, where Rachel's night with Paolo causes tension when Ross arrives with his new girlfriend, Julie. To escape, Chandler visits Joey's tailor, while Monica suffers a disastrous haircut. Chandler returns in a rage, revealing that Joey's tailor inappropriately touched him, leaving Joey in shock. Encouraged by Joey to confess her feelings to Ross, Rachel stops Ross outside for a private chat. She explains that her night with Paolo was a mistake and they are not back together. Ross passionately tells Rachel she deserves someone who truly appreciates her beauty, humor, and sweetness. However, just as Rachel's hopes rise, Ross completely misreads the situation and ruins the moment by comparing this ideal love to his relationship with Julie. Devastated by the mention of Julie, Rachel decides to hide her true feelings and ends the conversation, leaving her love for Ross unconfessed."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 265,
+    "timestamp_range": "00:10:36 - 00:11:50",
+    "batch_summary": "Ross and Rachel share a brief, bittersweet hug before Ross departs, leaving Rachel watching him wistfully. Meanwhile, Joey finally realizes Chandler was telling the truth about his tailor's inappropriate measuring tactics after a phone call with his father. Later at Central Perk, Phoebe prepares to give another haircut. Seeking clarification on her client's request for an \"Andie MacDowell\" style, she consults Rachel, who confidently but incorrectly swaps the actress's identity with actor Roddy McDowall from Planet of the Apes, setting up another potential haircut disaster.",
+    "cumulative_summary": "The story begins in Monica's apartment, where Rachel's night with Paolo causes tension when Ross arrives with his new girlfriend, Julie. To escape, Chandler visits Joey's tailor, while Monica suffers a disastrous haircut from Phoebe. Chandler returns in a rage, revealing that Joey's tailor inappropriately touched him, leaving Joey in shock. Encouraged by Joey to confess her feelings, Rachel stops Ross outside. Ross passionately tells Rachel she deserves someone who truly appreciates her, but ruins the moment by comparing this ideal love to his relationship with Julie. Devastated, Rachel hides her true feelings, and the two share a brief, bittersweet hug before Ross leaves. Back inside, Joey calls his father and finally realizes Chandler was right about the tailor's inappropriate methods. Later at Central Perk, Phoebe prepares to cut another client's hair. Trying to avoid another disaster, Phoebe asks Rachel to clarify what an \"Andie MacDowell\" haircut looks like. However, Rachel confidently but incorrectly tells her that Andie MacDowell is the male actor from Planet of the Apes, setting Phoebe up for yet another hilarious styling mishap."
+  }
+]

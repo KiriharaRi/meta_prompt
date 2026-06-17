@@ -1,0 +1,17 @@
+{
+  "command": "summarize-descriptions",
+  "descriptions": "friends/description/downloaded_refine_descriptions/mv_friends_s02e12b/descriptions/refined_description.md",
+  "summary_file": "friends/demo/multi_roi_pilot_vertex_gemini35_14roi_s01s02_20260607/summaries/s02e12b/summary.json",
+  "metadata_file": "friends/demo/multi_roi_pilot_vertex_gemini35_14roi_s01s02_20260607/summaries/s02e12b/summary_metadata.json",
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_batch_size": 40,
+  "n_segments": 270,
+  "n_batches": 7,
+  "generated_at": "2026-06-11T10:41:15.087486+00:00",
+  "prompt_contract": {
+    "batch_summary_words": "50-100",
+    "cumulative_summary_words": "100-200",
+    "summary_schema": "fallen_notebook_batch_summary_array"
+  }
+}

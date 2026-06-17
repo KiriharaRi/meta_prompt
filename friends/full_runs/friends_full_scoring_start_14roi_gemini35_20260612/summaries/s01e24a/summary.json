@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:32",
+    "batch_summary": "At Central Perk, Ross eagerly shows Joey and Chandler numerous photos of his baby, Ben, though the guys find it tedious. When Monica, Phoebe, and Rachel arrive, they enthusiastically join in. Rachel and Ross share a brief, intimate moment while admiring a photo, which Chandler awkwardly interrupts. Afterward, Joey asks Chandler to lend him money again, prompting Chandler to jokingly remind Joey of his massive, mounting debt.",
+    "cumulative_summary": "In the Central Perk coffee shop, Ross proudly shares a massive collection of photos of his baby, Ben, falling asleep. While Joey and Chandler find the repetitive pictures tedious, the atmosphere brightens when Monica, Phoebe, and Rachel arrive and enthusiastically crowd around to look. While admiring a photo, Rachel shares a close, flirtatious moment with Ross, suggesting he must want to kiss the baby all over, leading to an intimate look between them. Chandler awkwardly interrupts the tension with a strange noise before walking away. Shortly after, Joey approaches Chandler to borrow money yet again. Chandler jokingly points out that, including past expenses like waffles, Joey now owes him \"17 jillion dollars,\" but still prepares to help his friend out."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:32 - 00:03:21",
+    "batch_summary": "Joey reveals he is earning money to pay Chandler back by participating in an NYU fertility study, prompting relentless teasing from the group about his \"contributions.\" Later, at Monica's apartment, the friends prepare for a barbecue. Joey and Chandler arrive with grilling supplies, playfully acting like cavemen, before Monica informs Joey that his date, Melanie, will be running late.",
+    "cumulative_summary": "At the Central Perk coffee shop, Ross proudly shares photos of his baby, Ben, leading to a brief, flirtatious moment between him and Rachel. After Chandler awkwardly breaks the tension, Joey approaches him to borrow more money. To prove he can pay Chandler back, Joey reveals he is participating in an NYU fertility study for $700, which prompts a wave of relentless, good-natured teasing from the group about his \"contributions.\" Later, the focus shifts to Monica's apartment as she and Phoebe prepare for a barbecue. Joey and Chandler arrive with grilling supplies, playfully joking around like cavemen. Before they can start, Monica delivers a message to Joey that his date, Melanie, is going to be late."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:21 - 00:05:15",
+    "batch_summary": "At Monica's apartment, Joey admits he hasn't told his date, Melanie, about the fertility study. He explains that he must remain celibate for another week to get paid, despite Melanie's advances. Meanwhile, Ross arrives with a duffel bag and unexpectedly announces he is leaving for China for a week on a museum business trip. After leaving his itinerary and a photo for baby Ben with Monica, Ross asks if Rachel is around so he can wish her a happy birthday before his departure.",
+    "cumulative_summary": "At the Central Perk coffee shop, Ross proudly shares photos of his baby, Ben, leading to a brief, flirtatious moment between him and Rachel. After Chandler awkwardly breaks the tension, Joey approaches him to borrow more money. To prove he can pay Chandler back, Joey reveals he is participating in an NYU fertility study for $700, which prompts a wave of relentless, good-natured teasing from the group about his \"contributions.\" Later, at Monica's apartment, Joey admits he hasn't told his date, Melanie, about the study. He explains that he must remain celibate for another week to get paid, despite Melanie's advances. Meanwhile, Ross arrives with a duffel bag and unexpectedly announces he is leaving for China for a week on a museum business trip. After leaving his itinerary and a photo for baby Ben with Monica, Ross asks if Rachel is around so he can wish her a happy birthday before his departure."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:15 - 00:06:51",
+    "batch_summary": "Ross learns from Monica that Rachel is out on a date with a guy named Carl, sparking immediate jealousy. Before leaving for China, Ross joins Chandler and Joey on the balcony to say goodbye. His friends advise him to move on from Rachel, pointing out her apparent lack of romantic interest. Ross reluctantly agrees and hands Chandler a birthday gift to give to Rachel in his absence. After a warm, supportive hug from Joey, Ross departs for his trip.",
+    "cumulative_summary": "At Central Perk, Ross shares baby photos, sparking a brief flirtatious moment with Rachel. Meanwhile, Joey reveals he is participating in a lucrative NYU fertility study requiring temporary celibacy, which he hides from his date, Melanie. Later, Ross arrives at Monica's apartment to announce an unexpected week-long business trip to China. When he asks for Rachel to wish her a happy birthday, Monica reveals she is out on a date with a man named Carl. Visibly jealous, Ross joins Chandler and Joey on the balcony to say goodbye. His friends gently urge him to move on from Rachel, given her apparent lack of romantic interest. Accepting their advice, Ross hands Chandler a birthday present to give to Rachel on his behalf. After a heartfelt, supportive hug from Joey, Ross departs for his trip, leaving his feelings for Rachel unresolved."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:51 - 00:08:44",
+    "batch_summary": "At Rachel's birthday party, Melanie shares details about her fruit basket business. Meanwhile, Joey confides in Monica about his struggle to maintain celibacy for his fertility study, as Melanie expects intimacy. Monica cryptically advises him to \"be there for her,\" leaving Joey thoroughly confused. Later, Rachel opens her gifts, receiving a fruit basket from Melanie, a Scrabble game from Chandler, and a Dr. Seuss book from Joey, which he fondly claims helped him through difficult times.",
+    "cumulative_summary": "At Central Perk, Ross shares baby photos, sparking a brief flirtatious moment with Rachel. Meanwhile, Joey reveals he is participating in a lucrative NYU fertility study requiring temporary celibacy, which he hides from his date, Melanie. Later, Ross departs for a week-long business trip to China, leaving a birthday present for Rachel with Chandler after his friends advise him to move on. At Rachel's birthday party, Melanie talks about her fruit basket business while Joey confides in Monica about his struggle to maintain celibacy. Monica cryptically suggests he \"be there\" for Melanie, leaving him confused. The celebration continues as Rachel opens her gifts, receiving a fruit basket from Melanie, a Scrabble game from Chandler, and a Dr. Seuss book from Joey, who claims it got him through tough times."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:44 - 00:10:28",
+    "batch_summary": "During Rachel's birthday party, she opens Ross's gift to find a beautiful antique pin she had admired months ago, deeply touching her that he remembered. While discussing the expensive gesture, Chandler accidentally lets slip that Ross is in love with Rachel, comparing it to when Ross bought an expensive gift for Carol. Despite Chandler's frantic attempts to backtrack, Rachel realizes the truth and is left completely stunned by the revelation of Ross's feelings.",
+    "cumulative_summary": "At Central Perk, Ross and Rachel share a flirtatious moment before Ross leaves for a week-long trip to China, leaving her a birthday gift. Meanwhile, Joey struggles with celibacy for a fertility study while dating Melanie. At Rachel's birthday party, after opening various gifts, Rachel unwraps Ross's present to find an antique pin she had admired months ago. Deeply touched by his thoughtfulness, she is amazed he remembered. However, the atmosphere shifts dramatically when Chandler accidentally lets slip that Ross is in love with Rachel, comparing the gesture to an expensive gift Ross once bought for Carol. Despite Chandler's panicked attempts to backtrack, Rachel is left utterly shocked as she finally realizes Ross's true feelings for her."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:10:28 - 00:12:12",
+    "batch_summary": "Following Chandler's slip, Rachel is stunned to learn about Ross's long-standing feelings. Despite Chandler's attempts to downplay the situation, the group discusses the revelation, and Joey confirms Ross is desperately in love with her. Realizing she cannot wait a week for his return from China, Rachel decides she must talk to him immediately. With only 45 minutes before his flight departs, and despite mixed advice from the group about what she will say, Rachel grabs her things and rushes to the airport to catch him.",
+    "cumulative_summary": "At Central Perk, Ross leaves for a trip to China, leaving Rachel a birthday gift. At her party, Rachel is deeply touched to unwrap an antique pin from Ross, but the mood shifts when Chandler accidentally reveals Ross is in love with her. Stunned by this sudden revelation, Rachel processes the news with the group, who confirm Ross's deep feelings. Realizing she cannot wait a week for his return, Rachel decides she must speak to him immediately. Learning his flight doesn't leave for another 45 minutes, she ignores Chandler and Joey's warnings about breaking his heart and rushes to the airport, determined to confront her feelings before he departs."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 295,
+    "timestamp_range": "00:12:12 - 00:12:46",
+    "batch_summary": "After a humorous parting joke from Chandler, Rachel rushes out of the apartment and heads straight to the airport. Meanwhile, Ross is at the ticketing counter practicing his Chinese with an agent. Just before he can board, Rachel arrives out of breath and calls his name. Ross turns around, completely stunned and speechless to see her standing there, setting the stage for a dramatic confrontation.",
+    "cumulative_summary": "At Central Perk, Ross leaves for a trip to China, leaving Rachel a birthday gift. At her party, Rachel is deeply touched to unwrap an antique pin from Ross, but the mood shifts when Chandler accidentally reveals Ross is in love with her. Stunned by this sudden revelation, Rachel processes the news with the group, who confirm Ross's deep feelings. Realizing she cannot wait a week for his return, Rachel decides she must speak to him immediately. Ignoring Chandler and Joey's warnings, she rushes to the airport. Meanwhile, Ross is at the ticketing counter practicing his Chinese with an agent. Just before he can board, Rachel arrives out of breath and calls his name. Ross turns around, completely stunned and speechless to see her standing there, setting the stage for a dramatic confrontation."
+  }
+]

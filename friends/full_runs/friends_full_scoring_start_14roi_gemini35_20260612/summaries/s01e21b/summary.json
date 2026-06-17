@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:40",
+    "batch_summary": "Rachel heads out to her coffee shop job with sarcastic enthusiasm. Meanwhile, in the kitchen, Monica's friend tries to convince her to audition for the Broadway musical Cats. Monica declines due to stage fright, leading to a humorous exchange about Monica's fake Amish background and how the movie Dead Poets Society inspired her friend to live without fear. Later, the group—including Chandler, Ross, Rachel, Phoebe, and a pet monkey—gathers in another apartment, where Ross reacts with distress to a piece of paper.",
+    "cumulative_summary": "The story begins with Rachel leaving her apartment for work, sarcastically lamenting her job pouring coffee for strangers. In the kitchen, Monica is buttering bread when a female friend enters and enthusiastically proposes they audition for an open call of the Broadway show Cats. Monica immediately refuses, admitting she suffers from severe stage fright. This prompts a lighthearted, humorous conversation where Monica jokes about her supposed Amish upbringing and being shunned for using a blow dryer. The friend explains that her own fearlessness was sparked by the sheer boredom she felt watching Dead Poets Society, which made her realize she didn't want to waste any more of her life. Monica jokingly advises her to avoid Mrs. Doubtfire next. Later, the scene shifts to another apartment where the main group—including Chandler, Ross, Rachel, Phoebe, and a small pet monkey—is gathered. The lighthearted mood shifts slightly as Ross looks at a piece of paper and sighs in distress, hinting at an upcoming conflict."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:40 - 00:03:14",
+    "batch_summary": "Ross is devastated to learn that Scranton Zoo, his safety option, has rejected his pet monkey, Marcel. While Rachel comforts him, Joey arrives with the hilarious realization that his chosen stage name, Joseph Stalin, belonged to a ruthless dictator. After rejecting Chandler's suggestions and Phoebe's joke name \"Flame Boy,\" Joey continues his search. Meanwhile, Ross meets with Dr. Baldharar at Central Perk to discuss a potential new home for Marcel at an \"interactive wildlife experience.\"",
+    "cumulative_summary": "The story begins with Rachel leaving for work and Monica refusing to audition for the Broadway show Cats due to severe stage fright. Later, the friends gather in an apartment where Ross's distress is explained: his pet monkey, Marcel, has been rejected by their safety zoo in Scranton. While Rachel comforts a worried Ross, Joey enters with the shocking realization that his chosen stage name, Joseph Stalin, belonged to a brutal dictator. After Joey rejects Chandler's teasing suggestions and Phoebe's joke name \"Flame Boy,\" the focus shifts back to Marcel's relocation. Ross meets with Dr. Baldharar at Central Perk to discuss a potential new home for Marcel, which Baldharar cryptically describes as an \"interactive wildlife experience\" rather than a standard zoo."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:14 - 00:05:03",
+    "batch_summary": "Ross's meeting with Dr. Baldharar takes a bizarre turn when the doctor asks if Marcel can handle weapons, revealing his \"wildlife experience\" is an illegal animal fighting ring. Fortunately, Joey and Chandler arrive with great news: the San Diego Zoo has accepted Marcel. Ross happily rejects Baldharar's final, shady offer. Later, a tipsy Monica returns to the apartment, boasting to Rachel about crashing an embassy party and kissing either an archbishop or a chef.",
+    "cumulative_summary": "The story begins with Rachel leaving for work and Monica refusing to audition for the Broadway show Cats due to severe stage fright. Later, the friends gather in an apartment where Ross's distress is explained: his pet monkey, Marcel, has been rejected by their safety zoo in Scranton. While Rachel comforts a worried Ross, Joey enters with the shocking realization that his chosen stage name, Joseph Stalin, belonged to a brutal dictator. After Joey rejects Chandler's teasing suggestions and Phoebe's joke name \"Flame Boy,\" the focus shifts back to Marcel's relocation. Ross meets with Dr. Baldharar at Central Perk to discuss a potential new home for Marcel. However, Baldharar's bizarre questions about Marcel's ability to fight with weapons reveal that his \"wildlife experience\" is actually an illegal animal fighting ring. Fortunately, Joey and Chandler arrive with the wonderful news that the San Diego Zoo has accepted Marcel. Relieved, Ross happily rejects Baldharar's shady offer. Later, back at the apartment, Rachel is surprised when a seemingly intoxicated Monica returns home, excitedly boasting about crashing an embassy party and kissing either an archbishop or a chef."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:03 - 00:06:34",
+    "batch_summary": "A heavily intoxicated Monica returns home, drinking straight from the faucet and dismissing Rachel's worries about her missing work. Rejecting her usual responsible persona, Monica proudly declares her new, carefree identity as \"Monana\" and plans to skip work for the circus. However, the fun is interrupted when Rachel hands her a call from the credit card company. Monica is shocked to learn from the representative that the police have arrested \"Monica,\" meaning her identity thief has been caught.",
+    "cumulative_summary": "The story begins with Rachel leaving for work and Monica refusing to audition for a Broadway show due to stage fright. Meanwhile, Ross faces distress when his pet monkey, Marcel, is rejected by a safety zoo. After avoiding a shady animal fighting ring recruiter, Ross is relieved when Joey and Chandler secure Marcel a spot at the San Diego Zoo. The focus then shifts to Monica, who returns home heavily intoxicated after crashing an embassy party. Dismissing Rachel's warnings about losing her restaurant job, Monica rejects her usual responsible self, adopting a carefree alter-ego named \"Monana.\" Her wild escapade is cut short, however, when she receives a call from her credit card company. To her utter shock, the representative informs her that the police have officially arrested \"Monica,\" revealing that her identity thief has finally been caught."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:34 - 00:08:08",
+    "batch_summary": "Monica visits her arrested identity thief at Rikers Island. Revealing her true identity, Monica surprisingly thanks the woman for inspiring her to live a more adventurous, carefree life as \"Monana.\" However, the thief grounds Monica with the harsh, unglamorous reality of prison life. She insists that Monica will inevitably return to her naturally responsible, structured self, leaving Monica to reflect on the end of her wild alter-ego phase.",
+    "cumulative_summary": "The story begins with Rachel leaving for work and Monica refusing to audition for a Broadway show due to stage fright. Meanwhile, Ross faces distress when his pet monkey, Marcel, is rejected by a safety zoo. After avoiding a shady animal fighting ring recruiter, Ross is relieved when Joey and Chandler secure Marcel a spot at the San Diego Zoo. The focus then shifts to Monica, who adopts a carefree, wild alter-ego named \"Monana\" after crashing an embassy party. Her escapades are cut short when she learns her identity thief has been arrested. Seeking closure, Monica visits the thief at Rikers Island. Instead of harboring anger, Monica surprisingly thanks the woman for helping her break out of her shell and experience a more adventurous life. However, the thief quickly grounds Monica with the harsh realities of prison, insisting that Monica is destined to return to her naturally responsible, structured self. Monica is left to face the end of her wild phase and accept who she truly is."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:08 - 00:09:57",
+    "batch_summary": "Following her conversation with the identity thief, Monica decides to embrace a bit of spontaneity by impulsively joining a tap dancing class, despite her lack of skill. Meanwhile, the gang gathers at the airport to say an emotional and humorous farewell to Ross's monkey, Marcel, before his flight to the San Diego Zoo. Phoebe shares a poem, Chandler offers life advice, Joey expresses his hunger, and Rachel presents a teddy bear, highlighting the group's deep affection for the pet.",
+    "cumulative_summary": "The story begins with Rachel leaving for work and Monica refusing to audition for a Broadway show due to stage fright. Meanwhile, Ross faces distress when his pet monkey, Marcel, is rejected by a safety zoo, but Joey and Chandler successfully secure him a spot at the San Diego Zoo. Seeking adventure, Monica adopts a carefree alter-ego named \"Monana\" after her identity is stolen. Although her wild phase ends after visiting the thief in prison, Monica decides to keep a touch of spontaneity alive by impulsively joining a tap-dancing class. Finally, the entire gang gathers at the airport to bid a bittersweet and humorous farewell to Marcel before his flight to San Diego. Phoebe, Chandler, Joey, and Rachel each offer parting gifts and words of advice, highlighting their close bond as they prepare to send the beloved monkey off to his new home."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 274,
+    "timestamp_range": "00:09:57 - 00:11:50",
+    "batch_summary": "At the airport, Ross asks for a private moment to say a heartfelt goodbye to Marcel. However, the emotional farewell is hilariously cut short when Marcel starts humping Ross's leg, prompting a frustrated Ross to quickly hand him over to the gate agent. After Marcel's departure, the scene shifts to Joey auditioning for the role of Mercutio in a play, where he humorously introduces himself using the prank name \"Holden McGroin.\"",
+    "cumulative_summary": "The story begins with Rachel leaving for work and Monica refusing to audition for a Broadway show due to stage fright. Meanwhile, Ross faces distress when his pet monkey, Marcel, is rejected by a safety zoo, but Joey and Chandler successfully secure him a spot at the San Diego Zoo. Seeking adventure, Monica adopts a carefree alter-ego named \"Monana\" after her identity is stolen, eventually finding a balance by joining a tap-dancing class. Finally, the gang gathers at the airport to bid a bittersweet farewell to Marcel. After the group presents their parting gifts, Ross asks for a private moment to express his love, but the heartfelt goodbye is hilariously cut short when Marcel begins humping his leg. A frustrated Ross quickly hands Marcel over to the flight attendant, and the gang watches him leave. Later, Joey attends a theater audition for the role of Mercutio, humorously introducing himself to the director under the prank pseudonym \"Holden McGroin.\""
+  }
+]

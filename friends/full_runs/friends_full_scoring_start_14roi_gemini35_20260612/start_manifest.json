@@ -1,0 +1,375 @@
+{
+  "kind": "friends_full_scoring_start_snapshot",
+  "created_at": "2026-06-12T07:45:51+00:00",
+  "source_output_root": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_14roi_s01s02_20260607",
+  "snapshot_root": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612",
+  "copy_policy": {
+    "copied": [
+      "rois",
+      "summaries",
+      "encoding",
+      "reuse_manifest.json",
+      "existing rois/*/scores"
+    ],
+    "excluded": [
+      ".DS_Store"
+    ]
+  },
+  "fixed_schema_assets": {
+    "roi_count": 14,
+    "roi_ids": [
+      "ACC",
+      "AG",
+      "DLPFC",
+      "FFA",
+      "IPL",
+      "Insula",
+      "OFC",
+      "PCC",
+      "Precuneus",
+      "SMG",
+      "TPJ",
+      "Temporal_Pole",
+      "VMPFC",
+      "pSTS"
+    ],
+    "artifact_count": 42,
+    "artifacts": [
+      {
+        "roi_id": "ACC",
+        "path": "rois/ACC/domain_pool_draft.json",
+        "sha256": "381596bf61be9dea225eba166baf797e4cbe06d6ef205704e3211d77f85c04be"
+      },
+      {
+        "roi_id": "ACC",
+        "path": "rois/ACC/domain_pool_auto_confirmed.json",
+        "sha256": "7ad79a67a953c19a505b599a11cc74a05cf75b5e8944d7f2641f9734bfad1766"
+      },
+      {
+        "roi_id": "ACC",
+        "path": "rois/ACC/region_schema.json",
+        "sha256": "ed5d48334c0808dc76c20b395e1104661d5cce7e1aee8c9ade68010f2ac5556d"
+      },
+      {
+        "roi_id": "AG",
+        "path": "rois/AG/domain_pool_draft.json",
+        "sha256": "6bb41f7a16ce11d2e501c62cfed683b900104c0b51eb97bc03cfd88daffade64"
+      },
+      {
+        "roi_id": "AG",
+        "path": "rois/AG/domain_pool_auto_confirmed.json",
+        "sha256": "6b3f5aad29c13e97315177b39b79548be5e6b5214bd8de797ea3d61722b3eacf"
+      },
+      {
+        "roi_id": "AG",
+        "path": "rois/AG/region_schema.json",
+        "sha256": "2c48e5ea652d419b1ebecb4e1cd58d2d1c65507e9308431ac145afdd5728883a"
+      },
+      {
+        "roi_id": "DLPFC",
+        "path": "rois/DLPFC/domain_pool_draft.json",
+        "sha256": "ba2b143e5d85575e513ff4cdeee0944d98f7e9d19e0c888043583d62ce632b7d"
+      },
+      {
+        "roi_id": "DLPFC",
+        "path": "rois/DLPFC/domain_pool_auto_confirmed.json",
+        "sha256": "e75ee19c150a14fc299bf30482580ab29d05574c4639d5fd82c6a71e92786157"
+      },
+      {
+        "roi_id": "DLPFC",
+        "path": "rois/DLPFC/region_schema.json",
+        "sha256": "b587f7f741743d0fb716db3ca7ca70b9c4bd9a956489d38b7e8c7f46fdad96aa"
+      },
+      {
+        "roi_id": "FFA",
+        "path": "rois/FFA/domain_pool_draft.json",
+        "sha256": "475b03de79c8ef0fbc1a0c8f2ebde5781346eafc4b6d3ece2b03554fd2822791"
+      },
+      {
+        "roi_id": "FFA",
+        "path": "rois/FFA/domain_pool_auto_confirmed.json",
+        "sha256": "faf17ad4d61b1844dbb9a9b0a74a42b8d2b47b4ef8be0d5b2f30d14b3dfd8aec"
+      },
+      {
+        "roi_id": "FFA",
+        "path": "rois/FFA/region_schema.json",
+        "sha256": "794f26e048e799b376591436dd09abc30c1e91145bf2c6991228a103b1a46cca"
+      },
+      {
+        "roi_id": "IPL",
+        "path": "rois/IPL/domain_pool_draft.json",
+        "sha256": "9d9053459ed6d41545dffed4a9f485145e45e2cbe71275c1d825dffa716f0d76"
+      },
+      {
+        "roi_id": "IPL",
+        "path": "rois/IPL/domain_pool_auto_confirmed.json",
+        "sha256": "c299543ade516532be8c7cfca459bd214d55ea14c54a520099ab49d3ab961fec"
+      },
+      {
+        "roi_id": "IPL",
+        "path": "rois/IPL/region_schema.json",
+        "sha256": "3985dcc9b0748a11f87cba0da66072a3561b3a57f7fdcc1d1ea0c9010e8044a9"
+      },
+      {
+        "roi_id": "Insula",
+        "path": "rois/Insula/domain_pool_draft.json",
+        "sha256": "bc1f07ab1e735512f0f82e95f8768133a3ed1b19a4ce693027ee4347fe80f1b8"
+      },
+      {
+        "roi_id": "Insula",
+        "path": "rois/Insula/domain_pool_auto_confirmed.json",
+        "sha256": "4dafbbe2898a6e67fee31ebc3bacc9b01501016715cd8af09ef953591cd11e2f"
+      },
+      {
+        "roi_id": "Insula",
+        "path": "rois/Insula/region_schema.json",
+        "sha256": "f6877f60502aba95f28311518a03ed30ed52e4f141b7147c14196e6ebc982c21"
+      },
+      {
+        "roi_id": "OFC",
+        "path": "rois/OFC/domain_pool_draft.json",
+        "sha256": "dacdd12ffdf2494a931a3fab9eb06c168e582317e262d14eaa25aca899787fd5"
+      },
+      {
+        "roi_id": "OFC",
+        "path": "rois/OFC/domain_pool_auto_confirmed.json",
+        "sha256": "3b6e538aebf741dce96a483766fccfbdcb791d77d007eccfa7218bb2e334ba5b"
+      },
+      {
+        "roi_id": "OFC",
+        "path": "rois/OFC/region_schema.json",
+        "sha256": "a122d179e4030f69f0fe11565ee876aeee76b5bde75a408176e74eb72ef475aa"
+      },
+      {
+        "roi_id": "PCC",
+        "path": "rois/PCC/domain_pool_draft.json",
+        "sha256": "4b0a6f94aabc650fe4a813ba9d4b2abc58c0948be9a0912d3299544a513878ff"
+      },
+      {
+        "roi_id": "PCC",
+        "path": "rois/PCC/domain_pool_auto_confirmed.json",
+        "sha256": "1e4e7bd4782463aa40df9c7f41160811f9bac43962b9c00669400a3c0762227e"
+      },
+      {
+        "roi_id": "PCC",
+        "path": "rois/PCC/region_schema.json",
+        "sha256": "e327f4e0e6e9f718e9c6252981131efe6bddbd821a1d3eb7af4029161c7a9790"
+      },
+      {
+        "roi_id": "Precuneus",
+        "path": "rois/Precuneus/domain_pool_draft.json",
+        "sha256": "a9b40876127e075c7b5c07d41abbfb266f2599d8ac02da2a0ae16d778c75aed1"
+      },
+      {
+        "roi_id": "Precuneus",
+        "path": "rois/Precuneus/domain_pool_auto_confirmed.json",
+        "sha256": "cc50153748a49c0815f913d5fdb50cd9c587f8442b52d4e7338d9d7896adbe14"
+      },
+      {
+        "roi_id": "Precuneus",
+        "path": "rois/Precuneus/region_schema.json",
+        "sha256": "3e08384cdf80e0e30b20944dbc4f101ab09b902304394db932bef98f06cbca15"
+      },
+      {
+        "roi_id": "SMG",
+        "path": "rois/SMG/domain_pool_draft.json",
+        "sha256": "82c327f2e599e81228c302fbe838dbdbf258e2d44abc98b159f5297d44539821"
+      },
+      {
+        "roi_id": "SMG",
+        "path": "rois/SMG/domain_pool_auto_confirmed.json",
+        "sha256": "bc57f85e0a2d64b16b4108d8c79f0b275bad3821746a2fd691006367646fb865"
+      },
+      {
+        "roi_id": "SMG",
+        "path": "rois/SMG/region_schema.json",
+        "sha256": "bfb3f8dca0b15ea4b1f39e60e6d7b20d5817dfc6373752e9005dff9adac1aeae"
+      },
+      {
+        "roi_id": "TPJ",
+        "path": "rois/TPJ/domain_pool_draft.json",
+        "sha256": "298b87ef618e3433012410719dcad0e83c639e13972e421ba13e8b8ea10f0082"
+      },
+      {
+        "roi_id": "TPJ",
+        "path": "rois/TPJ/domain_pool_auto_confirmed.json",
+        "sha256": "a26d2847530a2a639afb10238b9013bc5d3c0ee7e450a832c22703799388502c"
+      },
+      {
+        "roi_id": "TPJ",
+        "path": "rois/TPJ/region_schema.json",
+        "sha256": "d38576712384e638f7da011eeca4d80e8ba944375c4fff9706bb07fbb1f406c0"
+      },
+      {
+        "roi_id": "Temporal_Pole",
+        "path": "rois/Temporal_Pole/domain_pool_draft.json",
+        "sha256": "03aebee968889d2949861c45e66fd6f10e15471ab20806fb2748f9fe4d0d28e2"
+      },
+      {
+        "roi_id": "Temporal_Pole",
+        "path": "rois/Temporal_Pole/domain_pool_auto_confirmed.json",
+        "sha256": "9fc361fdfb60c759c4f31dc494342b4118df3d71750b8a361fda5a6c5ffe8e2a"
+      },
+      {
+        "roi_id": "Temporal_Pole",
+        "path": "rois/Temporal_Pole/region_schema.json",
+        "sha256": "4f760bbfba0d9b137ca95562e764c4ce9c2ee3024d6595c31ace8d54bbd64585"
+      },
+      {
+        "roi_id": "VMPFC",
+        "path": "rois/VMPFC/domain_pool_draft.json",
+        "sha256": "342017163833c4be6269666b608d14d2c83b6bee4eb6c3d31c698a5726d1bff2"
+      },
+      {
+        "roi_id": "VMPFC",
+        "path": "rois/VMPFC/domain_pool_auto_confirmed.json",
+        "sha256": "9caa78d6298021a705d022102a644cfb2a33a59f5e6bd1c77131ff56be6ad115"
+      },
+      {
+        "roi_id": "VMPFC",
+        "path": "rois/VMPFC/region_schema.json",
+        "sha256": "363b03be50367d9726320334511fe63c7c18a2e0b6ad3e98b6b304d843fc524a"
+      },
+      {
+        "roi_id": "pSTS",
+        "path": "rois/pSTS/domain_pool_draft.json",
+        "sha256": "8c145ec8797c97fdce52d3218805fd2ef38bba48226cc88d2b6b53b4eeb28c12"
+      },
+      {
+        "roi_id": "pSTS",
+        "path": "rois/pSTS/domain_pool_auto_confirmed.json",
+        "sha256": "9fdca4474258c95799d7efbbfba4bcc97f91976ac78dc3d0c7ccc2c960c56f13"
+      },
+      {
+        "roi_id": "pSTS",
+        "path": "rois/pSTS/region_schema.json",
+        "sha256": "ab8f85015b07733a30d4ef62e4057f73ec8dbd39368125a32a2393235f0bd5b6"
+      }
+    ]
+  },
+  "coverage": {
+    "summary_episode_count": 88,
+    "summary_episodes": [
+      "s01e01a",
+      "s01e01b",
+      "s01e02a",
+      "s01e02b",
+      "s01e03a",
+      "s01e03b",
+      "s01e04a",
+      "s01e04b",
+      "s01e05a",
+      "s01e05b",
+      "s01e06a",
+      "s01e06b",
+      "s01e11a",
+      "s01e11b",
+      "s01e12a",
+      "s01e12b",
+      "s01e13a",
+      "s01e13b",
+      "s01e14a",
+      "s01e14b",
+      "s01e15a",
+      "s01e15b",
+      "s01e16a",
+      "s01e16b",
+      "s01e17a",
+      "s01e17b",
+      "s01e18a",
+      "s01e18b",
+      "s01e19a",
+      "s01e19b",
+      "s01e20a",
+      "s01e20b",
+      "s01e21a",
+      "s01e21b",
+      "s01e22a",
+      "s01e22b",
+      "s01e23a",
+      "s01e23b",
+      "s01e24a",
+      "s01e24b",
+      "s02e01a",
+      "s02e01b",
+      "s02e02a",
+      "s02e02b",
+      "s02e03a",
+      "s02e03b",
+      "s02e04a",
+      "s02e04b",
+      "s02e05a",
+      "s02e05b",
+      "s02e06a",
+      "s02e06b",
+      "s02e07a",
+      "s02e07b",
+      "s02e08a",
+      "s02e08b",
+      "s02e09a",
+      "s02e09b",
+      "s02e10a",
+      "s02e10b",
+      "s02e11a",
+      "s02e11b",
+      "s02e12a",
+      "s02e12b",
+      "s02e13a",
+      "s02e13b",
+      "s02e14a",
+      "s02e14b",
+      "s02e15a",
+      "s02e15b",
+      "s02e16a",
+      "s02e16b",
+      "s02e17a",
+      "s02e17b",
+      "s02e18a",
+      "s02e18b",
+      "s02e19a",
+      "s02e19b",
+      "s02e20a",
+      "s02e20b",
+      "s02e21a",
+      "s02e21b",
+      "s02e22a",
+      "s02e22b",
+      "s02e23a",
+      "s02e23b",
+      "s02e24a",
+      "s02e24b"
+    ],
+    "complete_score_job_count": 140,
+    "complete_score_episodes": [
+      "s01e01a",
+      "s01e02a",
+      "s01e03a",
+      "s01e05a",
+      "s01e06a",
+      "s02e01a",
+      "s02e02a",
+      "s02e03a",
+      "s02e04a",
+      "s02e05a"
+    ],
+    "partial_score_jobs": []
+  },
+  "encoding_status": {
+    "status": "partial_from_pilot",
+    "note": "Encoding outputs were copied from the small-scale S01/S02 pilot and must be regenerated after full Friends scoring is complete.",
+    "sample_count": 10,
+    "sample_ids": [
+      "sub-01_s01e01a",
+      "sub-01_s01e05a",
+      "sub-01_s01e06a",
+      "sub-01_s01e03a",
+      "sub-01_s02e01a",
+      "sub-01_s02e02a",
+      "sub-01_s02e03a",
+      "sub-01_s02e04a",
+      "sub-01_s01e02a",
+      "sub-01_s02e05a"
+    ]
+  },
+  "next_step_note": "Use this directory as the output_root for full Friends scoring; existing score jobs can resume/skip through score-descriptions resume semantics, then rerun manifest and encoding after all target episodes are scored."
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:37",
+    "batch_summary": "In Monica's apartment, Joey warns the group that a neighborhood peeper has returned. Meanwhile, Rachel anxiously prepares to meet her estranged best friend, Mindy, feeling guilty about being the other woman. Joey teases her about childhood camp memories before walking her out. Left behind, Chandler obsessively waits for a call from his date, Danielle. Despite Monica's advice, Chandler struggles with his pride before ultimately caving and calling Danielle himself, awkwardly fabricating an excuse about his phone being turned off.",
+    "cumulative_summary": "In the apartment, Joey alerts Chandler and Monica that the neighborhood peeper has returned. Soon after, Rachel arrives, visibly anxious about an upcoming meeting with her childhood best friend, Mindy, whom she hasn't spoken to in seven months. Rachel expresses deep guilt, feeling like the other woman in Mindy's life, while Joey playfully teases her about a camp memory where Mindy taught her how to kiss. After Joey and Rachel leave, Chandler is left obsessing over a woman named Danielle. He anxiously awaits her call after their first date, refusing to call her himself to preserve his pride. However, after some light teasing from Monica, Chandler quickly loses his resolve. He climbs onto a chair and calls Danielle, awkwardly lying that he had accidentally turned his phone off to explain why they hadn't connected."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:37 - 00:03:17",
+    "batch_summary": "Chandler is thrilled when Danielle promises to call him back, celebrating with an awkward victory dance. Meanwhile, Rachel nervously meets her childhood friend Mindy at Central Perk. Expecting a confrontation, Rachel is relieved when Mindy instead asks her to be her maid of honor. However, the relief is short-lived; a tearful Mindy confesses she suspects her fiancé, Barry, is having an affair with someone in the city, leaving a guilty Rachel stunned.",
+    "cumulative_summary": "After Joey alerts Chandler and Monica to the neighborhood peeper's return, Chandler obsessively awaits a call from his date, Danielle. Overcoming his pride, Chandler calls her and is thrilled when she promises to call him back, celebrating with a goofy victory dance. Meanwhile, Rachel anxiously prepares to meet her childhood best friend, Mindy, feeling immense guilt over her secret involvement with Mindy's fiancé, Barry. When they meet at Central Perk, Rachel is shocked and relieved when Mindy asks her to be her maid of honor. However, the relief quickly turns to panic when a tearful Mindy confesses she suspects Barry is cheating on her with someone in the city. Rachel is left stunned, harboring the secret that she is the other woman."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:17 - 00:05:00",
+    "batch_summary": "Mindy confesses to Rachel that she and Barry had an affair while Barry was engaged to Rachel. Rachel then reveals that she is the one Barry is currently cheating on Mindy with, using her Chanel perfume to prove it. Realizing they have both been duped by Barry, the two friends reconcile and share an emotional hug. Meanwhile, Chandler's obsessive waiting for Danielle's call reaches a fever pitch, only for Joey to casually walk in and announce that their apartment phone is actually broken.",
+    "cumulative_summary": "After Joey alerts Chandler and Monica to the neighborhood peeper's return, Chandler obsessively awaits a call from his date, Danielle. Overcoming his pride, Chandler calls her and is thrilled when she promises to call him back. However, his agonizing wait by the phone is hilariously undercut when Joey later reveals their apartment phone is actually broken. Meanwhile, Rachel meets her childhood best friend, Mindy, at Central Perk. Feeling immense guilt over her secret involvement with Mindy's fiancé, Barry, Rachel is shocked when Mindy asks her to be her maid of honor. The situation escalates when Mindy confesses she suspects Barry is cheating, and reveals that she and Barry actually had an affair while he was engaged to Rachel. Realizing they have both been duped by the same man, Rachel reveals she is the current other woman using her Chanel perfume. Instead of fighting, the two friends find solidarity in their shared foolishness and share a tearful, apologetic hug, leaving Barry's web of lies completely exposed to them both."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:00 - 00:06:36",
+    "batch_summary": "Chandler is horrified to realize he accidentally turned his phone off, fulfilling his own lie to Danielle. Meanwhile, Joey tracks down the neighborhood peeper, Sydney, only to discover she is a woman. When Joey calls to confront her, the conversation takes an unexpected turn. Instead of being defensive, Sydney flatters Joey about his physique and compliments Monica, comparing her to Ingrid Bergman in a green dress. Monica is instantly flattered, defusing the tension of being watched.",
+    "cumulative_summary": "After Rachel and her childhood friend Mindy bond over discovering Barry's mutual betrayal, the focus shifts back to the apartment. Chandler is horrified to realize he accidentally turned his phone off, ironically making his excuse to Danielle a reality. Meanwhile, Joey obtains the name of the neighborhood peeper, Sydney, and calls to confront her. To the group's surprise, Sydney is a woman. What begins as a confrontation quickly turns into a flattering exchange; Sydney compliments Joey's physique and tells him that Monica looked like Ingrid Bergman in her green dress. Monica is instantly flattered, completely defusing the tension of being watched."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:36 - 00:08:20",
+    "batch_summary": "Back at the apartment, Monica waves to Sydney, while Chandler is embarrassed when Sydney questions his leave-in conditioner routine. Meanwhile, Rachel and Mindy confront Barry at his dental office to break up with him. A desperate Barry tries to win Mindy back, claiming he always loved her, but Rachel exposes that they slept together twice in his dental chair. As Barry begs Mindy for another chance and offers a trip to Aruba, Rachel mocks his repetitive vacation spots before a dental emergency interrupts them.",
+    "cumulative_summary": "After Rachel and Mindy bond over Barry's mutual betrayal, the focus shifts back to the apartment. Joey's confrontation with their neighborhood peeper, Sydney, turns friendly. Monica happily waves to Sydney, while Chandler is embarrassed when Sydney questions his leave-in conditioner routine. Meanwhile, Rachel and Mindy head to Barry's dental office to jointly break up with him. Barry desperately tries to win Mindy back, claiming he always loved her, but Rachel derails his defense by revealing they slept together twice in his dental chair. As Barry begs Mindy for another chance and offers a trip to Aruba, Rachel mocks his lack of originality before a dental emergency interrupts the confrontation."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:20 - 00:10:12",
+    "batch_summary": "After Barry leaves to handle a dental emergency, Mindy shocks Rachel by revealing she still intends to marry him to become a doctor's wife, even asking Rachel to be her maid of honor. Back at the apartment, Rachel reflects on her past choice to leave Barry at the altar, realizing with absolute certainty that she made the right decision. Monica comforts her with a warm embrace, and the friends later reunite at the coffee shop.",
+    "cumulative_summary": "After Rachel and Mindy bond over Barry's mutual betrayal, they confront him at his dental office. Although Rachel exposes their recent trysts to derail Barry's desperate pleas, a dental emergency abruptly interrupts the argument. Once Barry leaves, Mindy shocks Rachel by revealing she still intends to marry him just to become a doctor's wife, even asking Rachel to be her maid of honor. Back at the apartment, Rachel confides in Monica that witnessing Barry's true nature has finally erased any lingering doubts about running out on her own wedding. Confident she made the right choice, Rachel embraces Monica before joining the rest of the gang at the coffee shop."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 276,
+    "timestamp_range": "00:10:12 - 00:11:25",
+    "batch_summary": "At the coffee shop, Danielle surprises Chandler by showing up in person. She explains she had his wrong number and wanted to make sure he was okay, suggesting they get together again. After she leaves, the group congratulates Chandler on securing a second date. However, Chandler immediately dismisses Danielle as \"needy\" for checking on him. Exasperated by his self-sabotaging attitude, the group groans and playfully pelts him with crumpled napkins.",
+    "cumulative_summary": "After Rachel and Mindy bond over Barry's mutual betrayal, they confront him at his dental office. Although Rachel exposes their recent trysts to derail Barry's desperate pleas, a dental emergency abruptly interrupts the argument. Once Barry leaves, Mindy shocks Rachel by revealing she still intends to marry him just to become a doctor's wife, even asking Rachel to be her maid of honor. Back at the apartment, Rachel confides in Monica that witnessing Barry's true nature has finally erased any lingering doubts about running out on her own wedding. Confident she made the right choice, Rachel embraces Monica before joining the rest of the gang at the coffee shop. There, the focus shifts to Chandler when Danielle, a woman he has been seeing, arrives in person. She explains she had the wrong phone number and wanted to ensure he was alright, leading to plans for a second date. However, as soon as Danielle departs, Chandler's insecurities flare up, and he dismisses her caring gesture as overly \"needy.\" Frustrated by his immediate self-sabotage, the rest of the gang groans and playfully pelts him with napkins."
+  }
+]

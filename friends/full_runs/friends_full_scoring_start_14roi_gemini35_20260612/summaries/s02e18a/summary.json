@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:40",
+    "batch_summary": "The friends gather to watch Joey's soap opera, reacting dramatically to a shocking plot twist where his character, Drake, reveals he is his love interest's half-brother. Joey enthusiastically shares the show's upcoming, outlandish storylines with the group. Later, Chandler tries to get Phoebe to play foosball, but she refuses, humorously criticizing the game as a grotesque violation of the plastic players' human rights.",
+    "cumulative_summary": "In the apartment, Chandler, Joey, Monica, Rachel, and Phoebe gather to watch Joey's soap opera. Rachel questions the characters' obsession with money, but the group is quickly captivated by a dramatic on-screen twist: Joey's character, Drake, reveals he is actually his love interest's half-brother. After Ross arrives, Joey excitedly details the show's upcoming, bizarre plotlines, which involve separating Siamese twins and searching for a cursed giant emerald in Venezuela. Later, the scene shifts as Chandler tries to persuade Phoebe to play a game of foosball. Phoebe flatly refuses, humorously arguing that foosball is a grotesque human rights violation because the armless plastic players are permanently fused to a steel bar."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:40 - 00:03:11",
+    "batch_summary": "Phoebe encourages Chandler to bond with his new roommate, Eddie. When Eddie walks in, Phoebe invites him for a beer but immediately makes a ridiculous excuse about a \"Green Eggs and Ham\" discussion group to leave them alone. After an awkward start, Chandler and Eddie begin to bond over beers, sharing laughs and stories about past breakups, realizing they actually have a good time together.",
+    "cumulative_summary": "In the apartment, Chandler, Joey, Monica, Rachel, and Phoebe gather to watch Joey's soap opera. Rachel questions the characters' obsession with money, but the group is quickly captivated by a dramatic on-screen twist: Joey's character, Drake, reveals he is actually his love interest's half-brother. After Ross arrives, Joey excitedly details the show's upcoming, bizarre plotlines, which involve separating Siamese twins and searching for a cursed giant emerald in Venezuela. Later, Chandler tries to persuade Phoebe to play foosball, but she refuses, calling it a human rights violation. Instead, Phoebe encourages Chandler to bond with his new roommate, Eddie. When Eddie appears, Phoebe invites him for a beer but immediately abandons them with a ridiculous excuse about a Dr. Seuss discussion group. Left alone, Chandler and Eddie overcome an awkward start and begin bonding over beers, laughing together as they swap stories about past relationships."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:11 - 00:04:47",
+    "batch_summary": "Chandler's bonding session with Eddie takes an awkward turn when Eddie dramatically describes a painful breakup with his ex, Tilly, leaving Chandler deeply unsettled. Later, at the coffee shop, Phoebe finishes a musical performance for the group. As they prepare to leave, Monica suggests she and Richard spend the night at her apartment, prompting a teasing reaction from Ross. Phoebe then delivers a well-meaning but embarrassing speech, declaring Richard her favorite of all the many men Monica has dated.",
+    "cumulative_summary": "In the apartment, the friends gather to watch Joey's soap opera, captivated by its dramatic twists. Later, Phoebe refuses to play foosball with Chandler, instead pushing him to bond with his new roommate, Eddie. Though Chandler and Eddie initially connect over beers, the mood turns awkward when Eddie dramatically describes a painful breakup with his ex, Tilly, leaving Chandler deeply unsettled. Afterward, the group gathers at the coffee shop to watch Phoebe perform. As they prepare to head home, Monica suggests she and Richard spend the night at her apartment, prompting a teasing reaction from Ross. Phoebe then delivers a well-meaning but embarrassing speech, declaring Richard her favorite of all the many men Monica has dated, which Richard graciously accepts."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:47 - 00:06:14",
+    "batch_summary": "Richard playfully teases Monica about her dating history, prompting Monica to nervously downplay Phoebe's comments. Meanwhile, Eddie's ex-girlfriend, Tilly, arrives at Chandler's apartment to return a fish tank. When Eddie returns, an incredibly tense and silent standoff ensues between the exes. Tilly quickly departs, leaving Chandler increasingly uneasy about his eccentric new roommate's intense behavior.",
+    "cumulative_summary": "In the apartment, the friends gather to watch Joey's soap opera, captivated by its dramatic twists. Later, Phoebe refuses to play foosball with Chandler, instead pushing him to bond with his new roommate, Eddie. Though Chandler and Eddie initially connect over beers, the mood turns awkward when Eddie dramatically describes a painful breakup with his ex, Tilly, leaving Chandler deeply unsettled. Afterward, the group gathers at the coffee shop to watch Phoebe perform. Monica suggests she and Richard spend the night at her apartment, prompting a teasing reaction from Ross. Phoebe then delivers an embarrassing speech declaring Richard her favorite of Monica's many boyfriends. Richard playfully teases Monica about this, while Ross jokingly declares Phoebe \"dead.\" Meanwhile, Chandler's unease with Eddie intensifies when Tilly arrives at their apartment to return a fish tank. When Eddie returns, an incredibly tense and silent standoff ensues before Tilly quickly departs, leaving Chandler even more unsettled by Eddie's erratic behavior."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:14 - 00:08:03",
+    "batch_summary": "Chandler's roommate Eddie bizarrely accuses him of sleeping with his ex-girlfriend, Tilly, leaving Chandler stunned. Meanwhile, Joey proudly shows Phoebe his feature in Soap Opera Digest, boasting that he writes many of his own lines. Phoebe warns him about angering the writers, which Joey dismisses. However, a furious writer reads the interview and immediately writes Joey's character falling down an elevator shaft. Joey is left in disbelief when he receives the script, realizing his character's life is in jeopardy.",
+    "cumulative_summary": "After Chandler and Eddie's awkward bonding, Chandler's unease with his new roommate intensifies when Eddie's ex, Tilly, drops off a fish tank, leading to a tense standoff. Eddie's instability peaks when he bizarrely accuses Chandler of sleeping with Tilly. Meanwhile, after Phoebe performs at the coffee shop and embarrasses Monica in front of Richard, Joey proudly shows Phoebe his feature in Soap Opera Digest. He boasts that he writes many of his own lines, dismissing Phoebe's warnings about angering the show's writers. Joey's arrogance backfires when a furious writer reads the interview and immediately scripts Joey's character falling down an elevator shaft, leaving Joey in disbelief when he receives the script."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:03 - 00:09:57",
+    "batch_summary": "Joey is left in shock and denial after receiving the script that kills off his character. Meanwhile, Monica and Richard face an awkward conversation about their past partners. Monica is stunned to learn Richard has only been with two women, prompting her to evasively avoid sharing her own number. Observing their struggle, Ross and Rachel lightheartedly discuss Rachel's own short list of past relationships, highlighting the contrast in the couples' dynamics.",
+    "cumulative_summary": "After Chandler and Eddie's awkward bonding, Chandler's unease with his roommate intensifies when Eddie bizarrely accuses him of sleeping with his ex, Tilly. Meanwhile, Joey's arrogance backfires after he boasts in an interview about writing his own lines. A furious writer scripts Joey's character falling down an elevator shaft, leaving Joey in devastated denial when he receives the script. Elsewhere, Monica and Richard navigate an awkward conversation about their romantic histories. When Richard reveals he has only been with two women, a panicked Monica desperately avoids sharing her own number. Observing their struggle, Ross and Rachel playfully discuss Rachel's own short list of past partners, grateful to avoid the awkwardness currently plaguing Monica and Richard."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 270,
+    "timestamp_range": "00:09:57 - 00:11:24",
+    "batch_summary": "Rachel tries to reassure a jealous Ross about her past relationship with Paolo, but accidentally makes things worse by describing it as \"meaningless, animal sex.\" Meanwhile, Chandler's roommate troubles escalate when Eddie bizarrely accuses him of not only sleeping with his ex-girlfriend Tilly but also killing his imaginary fish, Buddy. Realizing Eddie is completely unstable, Chandler backs away from the confrontation in alarm.",
+    "cumulative_summary": "After Chandler and Eddie's awkward bonding, Chandler's unease with his roommate intensifies when Eddie bizarrely accuses him of sleeping with his ex, Tilly. This confrontation escalates dramatically when Eddie also accuses Chandler of killing his imaginary fish, Buddy, leaving Chandler alarmed by Eddie's growing instability. Meanwhile, Joey's arrogance backfires after he boasts in an interview about writing his own lines, leading a furious writer to script his character falling down an elevator shaft. Elsewhere, Monica and Richard navigate an awkward conversation about their romantic histories, prompting Ross and Rachel to playfully discuss Rachel's own short list of past partners. However, Rachel's attempt to reassure a jealous Ross about her ex, Paolo, backfires hilariously when she accidentally describes their past relationship as \"meaningless, animal sex.\""
+  }
+]

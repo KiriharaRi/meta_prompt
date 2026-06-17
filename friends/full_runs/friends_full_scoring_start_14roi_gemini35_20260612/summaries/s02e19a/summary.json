@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:39",
+    "batch_summary": "Chandler wakes up in terror to find his eccentric roommate, Eddie, watching him sleep. When Eddie unsettlingly reveals he has secretly watched and hidden from Chandler on previous nights, a disturbed Chandler demands that Eddie move out immediately. Eddie reluctantly agrees to leave by the next day. After Eddie exits, Chandler blows a raspberry, only for Eddie to call him out from the hallway. Later, the scene transitions to a coffee shop where Rachel, Monica, and Joey gather.",
+    "cumulative_summary": "Chandler's night takes a creepy turn when he wakes up to find his roommate, Eddie, sitting by his bed and watching him sleep. When Chandler demands to know why, Eddie unsettlingly explains that it makes him feel peaceful. The situation escalates when Eddie admits to hiding behind the door on previous nights to watch Chandler undetected. Terrified and fed up, Chandler demands that Eddie move out of the apartment immediately. Eddie defensively agrees to pack up and leave for his brother's basement by the time Chandler returns from work the next day. As Eddie exits, Chandler blows a childish raspberry, but is instantly unnerved when Eddie calls out that he heard it. The scene then transitions to a local coffee shop during the day, where Rachel, wearing her apron, approaches Monica on the sofa just as Joey walks in, shifting the focus to the broader group of friends."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:39 - 00:03:20",
+    "batch_summary": "At the coffee shop, Joey remains surprisingly upbeat after losing his job, showing off a new hat and using sophisticated vocabulary he learned from Chandler's word-of-the-day toilet paper. After Joey steps away, Phoebe joins Monica and Rachel, enthusiastically introducing them to a feminist self-help book called Be Your Own Windkeeper. Phoebe explains the book's concepts of female empowerment, describing women as wind-goddesses whose power is stolen by men, leaving Rachel intrigued by the philosophy.",
+    "cumulative_summary": "After Chandler demands his creepy roommate Eddie move out for secretly watching him sleep, the focus shifts to the local coffee shop. Joey arrives in surprisingly high spirits despite his recent job loss, showing off a new hat and boasting about his acting credentials using vocabulary learned from Chandler's word-of-the-day toilet paper. Once Joey steps away, Phoebe joins Monica and Rachel, introducing them to an empowering self-help book titled Be Your Own Windkeeper. Phoebe passionately explains the book's metaphorical concepts, describing women as wind-goddesses and men as lightning bearers who steal their power. While Monica compares the book's lore to The Hobbit, Rachel is deeply intrigued by the message of female empowerment."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:20 - 00:05:22",
+    "batch_summary": "At the coffee shop, Monica and Rachel find the self-help book highly relatable, though Phoebe hilariously misinterprets Joey's offer of a cruller through the book's metaphorical lens. Later, Joey visits his eccentric agent, Estelle, who is unfazed by his recent firing. However, Joey is insulted when she offers him a minor, two-line audition as a cab driver, feeling it is a step backward from his role as a neurosurgeon. Despite Estelle's advice to take any job, Joey proudly refuses.",
+    "cumulative_summary": "After Chandler demands his creepy roommate Eddie move out, Joey remains in high spirits despite his recent job loss. At the coffee shop, Phoebe introduces Monica and Rachel to an empowering self-help book, Be Your Own Windkeeper. The women find its metaphors highly relatable to their past relationships, even humorously applying its \"lightning bearer\" critique to Joey when he offers them a pastry. Seeking new acting opportunities, Joey visits his eccentric agent, Estelle. Although she is not angry about his firing, Joey is insulted when she offers him a minor, two-line audition as a cab driver on Another World. Feeling it is a major step backward from his previous role as a neurosurgeon, Joey proudly rejects the audition, ignoring Estelle's advice to take any job he can get."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:22 - 00:06:51",
+    "batch_summary": "After Joey leaves his agent's office, the focus shifts back to Central Perk, where Rachel is deeply moved by the self-help book Be Your Own Windkeeper. When Ross arrives to take her to a movie, Rachel rebels against his schedule. Using the book's terminology, she accuses Ross of stealing her wind and demands room to grow. Monica enthusiastically supports her, while Ross is left utterly bewildered and speechless by Rachel's sudden, metaphor-laden confrontation.",
+    "cumulative_summary": "After Chandler demands his creepy roommate Eddie move out, Joey remains in high spirits despite his recent job loss. At the coffee shop, Phoebe introduces Monica and Rachel to an empowering self-help book, Be Your Own Windkeeper. Seeking new acting opportunities, Joey visits his eccentric agent, Estelle, but proudly rejects a minor audition she offers, ignoring her advice to take any job he can get. Meanwhile, Rachel becomes deeply absorbed in the self-help book, feeling it mirrors her own life. When Ross arrives at Central Perk to take her to a movie, Rachel decides to stand her ground against his rigid timetable. She confronts him using the book's metaphors, accusing him of stealing her wind and demanding the freedom to grow. While Monica cheers on Rachel's newfound assertiveness, Ross is left completely bewildered and speechless by her sudden, metaphor-heavy defiance."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:51 - 00:08:25",
+    "batch_summary": "Rachel leaves Ross bewildered after trying to assert her independence, though she struggles not to apologize. Meanwhile, Joey receives a massive credit card bill, revealing he owes thousands of dollars for his extravagant purchases, including expensive animal statues. Ross points out that the terrifying figure is only the minimum payment. To help pay off his debt, Ross urges Joey to reconsider the minor acting audition he previously rejected, but Joey remains stubborn about taking such a small role.",
+    "cumulative_summary": "After Chandler demands his creepy roommate Eddie move out, Joey remains in high spirits despite his recent job loss. At the coffee shop, Phoebe introduces Monica and Rachel to an empowering self-help book, Be Your Own Windkeeper. Rachel becomes deeply absorbed in it, using its metaphors to confront Ross about stealing her wind and demanding her independence before walking out. Meanwhile, Ross and Joey discuss the bizarre book at Joey's apartment, but their focus quickly shifts when Joey opens his mail to find an astronomical Visa bill. He owes thousands of dollars for his extravagant apartment decor, including expensive porcelain animal statues. When Ross points out that the shocking total is merely the minimum payment, he urges Joey to swallow his pride and take the minor television audition he previously dismissed. However, Joey remains reluctant to accept a two-line role despite his dire financial situation."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:25 - 00:10:19",
+    "batch_summary": "Ross tries to inject financial reality into Joey's situation, pointing out his $2,300 debt. However, Joey reacts defensively, stubbornly insisting his past success as Dr. Drake Ramoray guarantees future stardom. Meanwhile, Chandler returns home to find that his eccentric roommate Eddie has completely ignored his eviction demand. Instead, Eddie is busy dehydrating fruit and has bought a new goldfish to replace their previous pet, which Chandler dryly notes was actually a Pepperidge Farm cracker.",
+    "cumulative_summary": "After Chandler demands his creepy roommate Eddie move out, Joey faces financial ruin following his recent job loss. At the coffee shop, Phoebe introduces Monica and Rachel to a self-help book, prompting Rachel to confront Ross about her independence. Meanwhile, Ross tries to help Joey manage an astronomical Visa bill from his extravagant apartment decor. When Ross urges Joey to swallow his pride and take a minor two-line audition, Joey reacts defensively. Clinging to his past fame as Dr. Drake Ramoray, Joey stubbornly insists that another big break is just around the corner, leaving Ross frustrated. Meanwhile, Chandler's living situation remains a nightmare. Upon returning home, he is shocked to find that Eddie has completely ignored the eviction demand. Instead, Eddie is happily dehydrating fruit and has bought a new goldfish to replace their previous pet, which Chandler points out was actually a Pepperidge Farm cracker."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 270,
+    "timestamp_range": "00:10:19 - 00:11:51",
+    "batch_summary": "Chandler's frustration peaks as Eddie completely ignores his eviction, obsessively dehydrating fruit instead. Meanwhile, Joey laments his career loss to Gunther, only to be stunned when Gunther reveals his own past soap opera role. Later, a deeply paranoid Chandler sleeps on Monica's couch and wakes up screaming when she walks by, terrified of being watched in his sleep.",
+    "cumulative_summary": "After Chandler demands his creepy roommate Eddie move out, Joey faces financial ruin following his recent job loss. While Ross tries to help Joey manage his massive debts, Joey stubbornly refuses a minor audition, clinging to his past fame. At Central Perk, Joey laments his career to Gunther, only to be stunned when Gunther reveals he is also a former soap opera actor. Meanwhile, Chandler's living situation becomes a nightmare. Eddie completely ignores the eviction, obsessing over dehydrating fruit instead of moving. The psychological toll of Eddie's bizarre behavior leaves Chandler deeply paranoid; while sleeping on Monica's couch, he wakes up screaming in terror when she walks past, convinced he is being watched."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:31",
+    "batch_summary": "In a kitchen during a gathering, Monica and Richard share a flirtatious moment before Monica's mother, Judy, and brother, Ross, interrupt. Judy suggests Richard's son should date Monica, prompting Monica to reveal she is already seeing someone. When questioned, Monica describes her new boyfriend—a handsome, sweet doctor—while exchanging loving glances with Richard. Judy suddenly realizes that Richard is the mystery man. Shocked by the revelation, Judy immediately calls out for her husband, Jack, to join them in the kitchen.",
+    "cumulative_summary": "During a social gathering, Monica and Richard share a quiet, flirtatious moment in a brightly lit kitchen. Their intimacy is interrupted when Monica's mother, Judy, and brother, Ross, enter. Unaware of their relationship, Judy suggests that Richard's son should ask Monica out. This prompts Monica to confess that she is already seeing someone. When Judy presses for details about this \"mystery man,\" Monica describes him as a handsome, sweet, and successful doctor. As Monica and Richard exchange warm, knowing smiles, Judy suddenly connects the dots and realizes that Richard is the man Monica is dating. Stunned and alarmed by the revelation of their relationship, Judy immediately calls out to her husband, Jack, to come into the kitchen, setting up an awkward family confrontation."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:31 - 00:03:16",
+    "batch_summary": "Jack Geller enters the kitchen, and Judy reveals Monica and Richard's relationship. Jack is shocked, mistakenly believing Richard was seeing a \"twinkie in the city,\" only for Monica to reveal she is that woman. Monica passionately defends her feelings for Richard before the awkward confrontation is interrupted by Jack's birthday cake. Meanwhile, at a tattoo parlor, Rachel proudly shows off her new heart tattoo, only to discover a panicked Phoebe chickened out of getting her own, leaving Rachel feeling betrayed.",
+    "cumulative_summary": "During a social gathering, Monica and Richard's secret relationship is exposed to Monica's parents. After Judy connects the dots, she calls her husband, Jack, into the kitchen. Jack is stunned by the news, initially believing Richard was seeing a \"twinkie in the city,\" only for Monica to reveal she is that woman. Monica passionately defends her love for Richard during the awkward family confrontation, which is abruptly interrupted by guests bringing in Jack's birthday cake. Later, the scene shifts to a tattoo parlor where Rachel happily shows off her new hip tattoo. However, she quickly realizes that Phoebe chickened out of getting her own tattoo, leading to a humorous confrontation between the two friends."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:16 - 00:04:55",
+    "batch_summary": "At the tattoo parlor, Rachel sarcastically confronts Phoebe for chickening out, demonstrating the mild pain of a tattoo by pinching her. Meanwhile, Joey returns to the apartment to apologize to Chandler, bringing a gift of plastic spoons. However, the lighthearted mood shifts when Joey mentions using them in his \"new place.\" Chandler is stunned to learn that Joey was serious about moving out to live alone and grow, leaving Chandler deeply hurt.",
+    "cumulative_summary": "During a social gathering, Monica and Richard's secret relationship is exposed to Monica's parents, leading to an awkward family confrontation that is abruptly interrupted by birthday celebrations. Later, at a tattoo parlor, Rachel happily gets a hip tattoo but is annoyed to discover that Phoebe chickened out. Rachel sarcastically confronts Phoebe, pinching her to demonstrate the pain level. Meanwhile, Joey returns to the apartment to reconcile with Chandler, bringing a gift of plastic spoons. However, the lighthearted mood quickly shifts when Joey reveals he is still planning to move out to experience living alone and grow. Chandler, who had assumed their previous argument was just a temporary fight, is left stunned and deeply hurt by the realization that his best friend is actually leaving."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:55 - 00:06:35",
+    "batch_summary": "As Joey prepares to move out, he and Chandler bicker over ownership of their shared foosball table, leading Chandler to challenge Joey to a high-stakes game. Meanwhile, Monica and Richard share a tender moment before Rachel and Phoebe return from the tattoo parlor. Rachel proudly displays her new hip tattoo, but Phoebe's attempt to show off her own \"tattoo\" backfires when it is revealed to be nothing more than a tiny blue dot, exposing her fear of the needle once again.",
+    "cumulative_summary": "After Monica and Richard's secret relationship is awkwardly exposed to her parents, the couple shares a tender moment back home. Meanwhile, Joey's decision to move out leaves Chandler deeply hurt. To settle who keeps their shared foosball table, Chandler challenges Joey to a game, though the tension is briefly cut by a joke about Joey's sisters. Later, Rachel and Phoebe return from the tattoo parlor. While Rachel proudly shows off her tasteful new hip tattoo to Monica and Richard, Phoebe tries to pass off a tiny blue dot as her own tattoo. Rachel quickly exposes Phoebe's lie, revealing that she panicked and fled the chair the moment the needle touched her skin."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:35 - 00:07:59",
+    "batch_summary": "Phoebe hilariously defends her tiny dot tattoo, claiming it represents the Earth as seen by her mother in heaven, but Rachel remains skeptical. When Ross arrives and learns about Rachel's new tattoo, she shows it to him. Ross finds the hip tattoo incredibly sexy, sparking a sweet, flirtatious moment between the two. They share an intimate connection, and Rachel takes Ross's hand as they head off together, while Monica and Richard embrace in the kitchen.",
+    "cumulative_summary": "After Monica and Richard's secret relationship is exposed to her parents, the couple shares a tender moment back home. Meanwhile, Joey's decision to move out leaves Chandler deeply hurt, leading to a tense foosball game to decide who keeps the table. Later, Rachel and Phoebe return from the tattoo parlor. While Rachel proudly shows off her tasteful new hip tattoo, Phoebe tries to pass off a tiny blue dot as her own, hilariously claiming it represents the Earth as seen by her mother in heaven. Rachel quickly calls her out for chickening out. When Ross arrives, he is surprised to learn about Rachel's new ink. After Rachel shows him the tattoo on her hip, Ross finds it incredibly sexy, sparking a sweet, flirtatious moment between them. The two share a warm connection and hold hands, while Monica and Richard embrace in the background."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:07:59 - 00:09:45",
+    "batch_summary": "Chandler wins the tense foosball game to claim the table, but the victory feels hollow as Joey prepares to move out. The gang gathers to help Joey pack, sharing bittersweet memories, including Rachel discovering Joey had been using her bra to fling water balloons. As they load the moving truck, Chandler offers to help Joey move the foosball table. In a touching gesture of reconciliation, Joey lets Chandler keep the table, teasingly telling him he needs the practice.",
+    "cumulative_summary": "After Monica and Richard's relationship is exposed, the couple shares a tender moment. Meanwhile, Joey's decision to move out leaves Chandler deeply hurt, leading to a tense foosball game that Chandler ultimately wins to claim the table. Later, Rachel and Phoebe return from the tattoo parlor, where Rachel's new hip tattoo sparks a sweet, flirtatious moment with Ross. Soon, the entire group gathers to help Joey pack up his apartment. Amidst the bittersweet atmosphere, Rachel hilariously discovers Joey had been using her bra as a water balloon launcher. As the final boxes are loaded onto the truck, Chandler offers to help Joey move the foosball table. In a touching gesture of reconciliation, Joey tells Chandler to keep the table, teasingly noting that he needs the practice, leaving the two friends on warmer terms as Joey prepares for his move."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:45 - 00:11:32",
+    "batch_summary": "Joey and Chandler share a poignant, emotional goodbye before Joey officially moves out. After a warm embrace, Joey leaves Chandler alone in his quiet apartment. Meanwhile, Monica's father, Jack, visits her after stopping by Richard's apartment. Although Jack intended to confront Richard, he admits he got distracted watching a game and drinking beer on tap. Ultimately, Jack offers Monica his gentle, albeit distracted, blessing, hoping she knows what she is doing, which Monica sweetly reassures him she does.",
+    "cumulative_summary": "After Monica and Richard's relationship is exposed, the couple shares a tender moment. Meanwhile, Joey's decision to move out leaves Chandler deeply hurt, though they reconcile when Joey generously lets Chandler keep their foosball table. In a poignant final goodbye, the two best friends share a warm embrace before Joey officially departs, leaving Chandler alone in the quiet apartment. Meanwhile, Monica's father, Jack, drops by after visiting Richard. Although Jack intended to confront Richard about the relationship, he hilariously admits he got distracted watching a game and enjoying beer on tap at Richard's apartment. Despite never actually discussing Monica, Jack tenderly tells her he hopes she knows what she is doing. Monica softly reassures him that she does, sharing a sweet moment with her father as she notices he is wearing the tie she bought him."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 290,
+    "timestamp_range": "00:11:32 - 00:11:51",
+    "batch_summary": "Monica playfully questions her father, Jack, about his mysterious hat, which he admits he does not recognize. The humor continues when Jack questions a nearby couple's pairing, prompting Ross to step in and deliver a hilarious reality check about their relationship. Jack's oblivious and indifferent reaction highlights his eccentric charm, maintaining the lighthearted, comedic tone of the family gathering.",
+    "cumulative_summary": "After Monica and Richard's relationship is exposed, the couple shares a tender moment. Meanwhile, Joey's decision to move out leaves Chandler deeply hurt, though they reconcile when Joey generously lets Chandler keep their foosball table. In a poignant final goodbye, the two best friends share a warm embrace before Joey officially departs, leaving Chandler alone. Meanwhile, Monica's father, Jack, drops by. Although Jack intended to confront Richard about the relationship, he hilariously admits he got distracted watching a game and enjoying beer at Richard's apartment. After sharing a tender moment with Monica, the tone turns comedic as Monica questions Jack about his mysterious hat. The humor peaks when Jack questions a nearby couple's pairing, prompting Ross to step in with a hilarious reality check about their relationship. Jack's oblivious and indifferent reaction highlights his eccentric charm, ending the family gathering on a lighthearted and amusing note."
+  }
+]

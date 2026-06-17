@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:50",
+    "batch_summary": "After complaining to Monica about people watching him sleep, Chandler returns home to find his eccentric roommate, Eddie, dehydrating fruit and water balloons. Pushed to his limit, Chandler demands that Eddie move out immediately. Although shocked, Eddie agrees to leave, dramatically storming out with his fish tank. Meanwhile, Joey attends a script reading where he is corrected by a casting director over a misread line about a taxi fare.",
+    "cumulative_summary": "In a tense opening, Chandler angrily confronts Monica about people watching him sleep. Returning to his own apartment, Chandler's frustration peaks when he finds his bizarre roommate, Eddie, dehydrating unusual items like water balloons. Unable to tolerate Eddie's eccentric behavior any longer, Chandler demands that he pack up and move out immediately. Eddie is caught off guard by the sudden eviction but ultimately agrees to go, making a dramatic exit while carrying his splashing fish tank to ensure its safety. Elsewhere, Joey is seen at a script reading or audition, struggling slightly with his lines as he is corrected by a casting director over a specific dollar amount in the dialogue."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:50 - 00:03:38",
+    "batch_summary": "Joey's audition goes from bad to worse as he tries to salvage his performance by bragging about his \"medical acting\" experience on Days of our Lives. After misreading \"bridge\" as \"budge,\" he abruptly exits in embarrassment. Meanwhile, back at the apartment, Monica, Rachel, and Phoebe take a metaphorical \"goddess quiz.\" The quiz quickly devolves into playful bickering as the women tease each other about their past relationship missteps and questionable dating choices.",
+    "cumulative_summary": "Following Chandler's angry confrontation with Monica about being watched while sleeping, he successfully evicts his eccentric roommate, Eddie, who makes a dramatic exit with his fish tank. Meanwhile, Joey's audition goes from bad to worse. Despite trying to salvage his reading by boasting about his \"medical acting\" background on Days of our Lives, he misreads \"bridge\" as \"budge\" and abruptly walks out in embarrassment. Back at the apartment, Rachel, Monica, and Phoebe take a metaphorical \"goddess quiz.\" The quiz quickly sparks playful bickering as the women tease each other about their past romantic missteps, including Phoebe's history with a \"puppet guy\" and Monica's first date with Paul."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:38 - 00:05:23",
+    "batch_summary": "The girls' \"goddess quiz\" turns hostile when Rachel and Monica argue over a high school crush, leading Rachel to reveal that Phoebe slept with Monica's ex, Jason Hurley, right after their breakup. After trading bizarre insults, the three storm off. Meanwhile, Joey's financial troubles peak as movers repossess his furniture. Ross arrives to apologize for his previous judgment, admitting he projected his own need for security onto Joey.",
+    "cumulative_summary": "Following Chandler's eviction of his eccentric roommate Eddie and Joey's disastrous audition, the girls' playful \"goddess quiz\" quickly turns hostile. Rachel and Monica argue over a high school crush, prompting Rachel to reveal that Phoebe slept with Monica's ex-boyfriend, Jason Hurley, shortly after their breakup. The revelation sparks a heated exchange of bizarre insults, leaving the trio deeply divided. Meanwhile, Joey's financial reality sets in as movers begin repossessing his expensive furniture. Ross arrives during the repossession to apologize for his previous judgment, admitting he was projecting his own need for security onto Joey."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:23 - 00:06:52",
+    "batch_summary": "Ross praises Joey's artistic integrity, only for Joey to admit he actually failed the cab driver audition. As movers repossess Joey's expensive belongings, Joey is devastated to lose his plastic parrot. Discovering the parrot costs $1,200, Ross instead buys back Joey's $200 white ceramic dog statue as a supportive gift. Later at Central Perk, Rachel attempts to mend fences with Monica and Phoebe by bringing them unsolicited chocolate cakes on the house.",
+    "cumulative_summary": "Following Chandler's eviction of Eddie and Joey's disastrous audition, the girls' playful \"goddess quiz\" turns hostile, leaving Rachel, Monica, and Phoebe deeply divided over past betrayals. Meanwhile, Joey's financial reality sets in as movers repossess his expensive furniture. Ross arrives to apologize for his previous judgment and tries to encourage Joey, who confesses he failed his latest audition. To comfort Joey during the repossession, Ross tries to save his beloved plastic parrot. Upon learning it costs $1,200, Ross instead buys back a $200 ceramic dog statue as a supportive gift, which deeply touches Joey. Later at Central Perk, Rachel takes the first step toward mending her fractured friendship with Monica and Phoebe by bringing them unsolicited chocolate cakes on the house."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:52 - 00:08:50",
+    "batch_summary": "Rachel, Monica, and Phoebe officially reconcile, putting their dispute behind them with a group hug. Meanwhile, Chandler's relief over evicting Eddie is short-lived when Eddie returns to Central Perk carrying a stolen mannequin head. Completely detached from reality, Eddie behaves as if he and Chandler just returned from a fun road trip to Las Vegas, leaving Chandler utterly bewildered by his roommate's persistent delusions.",
+    "cumulative_summary": "Following Chandler's eviction of Eddie and Joey's financial struggles, the girls' \"goddess quiz\" feud is resolved when Rachel's peace offering leads to a heartfelt reconciliation and group hug with Monica and Phoebe. Meanwhile, Ross supports a struggling Joey by buying back his ceramic dog statue. However, Chandler's relief over evicting his eccentric roommate is short-lived. Eddie returns to Central Perk carrying a stolen mannequin head, completely detached from reality. He cheerfully fabricates a story about a recent road trip to Las Vegas he supposedly took with Chandler, leaving Chandler utterly bewildered by Eddie's persistent delusions and refusal to acknowledge the eviction."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:50 - 00:10:39",
+    "batch_summary": "Chandler and Joey successfully evict the delusional Eddie by gaslighting him. When Eddie tries to enter the apartment, Chandler pretends not to know him and claims Joey has been his roommate for years. Confused, Eddie apologizes and leaves. With Eddie finally gone, Joey officially moves back in, admitting that while he had to return for financial reasons, this apartment is his true home. Chandler warmly welcomes him back, and the two friends share a heartfelt embrace.",
+    "cumulative_summary": "Following Chandler's eviction of Eddie and Joey's financial struggles, the girls' \"goddess quiz\" feud is resolved when Rachel's peace offering leads to a heartfelt reconciliation and group hug with Monica and Phoebe. Meanwhile, Ross supports a struggling Joey by buying back his ceramic dog statue. However, Chandler's relief over evicting his eccentric roommate is short-lived when Eddie returns, completely detached from reality. To finally rid himself of Eddie, Chandler teams up with Joey. When Eddie tries to enter the apartment, Chandler pretends they have never met and claims Joey has lived there for years. Bewildered by their united front, Eddie believes he has the wrong apartment and leaves for good. With the eccentric roommate gone, Joey officially moves back into the apartment. Although Joey admits his return is partly due to financial necessity, he confesses that this is where he truly belongs. Chandler warmly welcomes him home, and the two best friends celebrate their reunion with a heartfelt embrace."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 264,
+    "timestamp_range": "00:10:39 - 00:11:51",
+    "batch_summary": "Following Joey's return, he and Chandler celebrate by playing foosball with a cantaloupe. Later, they haul the large ceramic dog statue back into the apartment, realizing they must display it whenever Ross visits since he bought it back for Joey. Joey explains the statue was once part of a larger 'ceramic zoo' collection, admitting it looks tacky on its own. Chandler humorously treats the statue like a real pet, commanding it to stay as they settle back into their roommate routine.",
+    "cumulative_summary": "Following Chandler's eviction of Eddie and Joey's financial struggles, the girls' 'goddess quiz' feud is resolved when Rachel's peace offering leads to a heartfelt reconciliation and group hug with Monica and Phoebe. Meanwhile, Ross supports a struggling Joey by buying back his ceramic dog statue. To finally rid himself of his eccentric roommate Eddie, Chandler teams up with Joey to trick Eddie into believing he has the wrong apartment. With Eddie gone, Joey officially moves back in, and the best friends celebrate their reunion. Settling back into their old routine, they play foosball using a cantaloupe as a ball. They also haul the large ceramic dog statue back into the apartment, agreeing they must display it whenever Ross visits. Joey explains the statue was originally part of a 'ceramic zoo' collection, which now looks tacky on its own. Chandler playfully treats the statue like a real pet, commanding it to stay, cementing their joyful return to normal roommate life."
+  }
+]

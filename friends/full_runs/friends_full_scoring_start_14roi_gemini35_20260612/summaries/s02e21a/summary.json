@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:55",
+    "batch_summary": "In the living room, Monica's obsessive watching of a stock with her initials prompts Rachel to suggest she needs a job. Meanwhile, Phoebe interprets a series of bizarre coincidences as signs urging her to finally meet her father, ultimately deciding to go see him. Later, Chandler and Ross return exhausted to the coffee shop after playing racquetball, where they run into Carl and Arthur.",
+    "cumulative_summary": "The group gathers in the living room, where Monica's obsessive watching of a stock with her initials (MEG) prompts Rachel to suggest she needs a job, leading Joey to mention an interview lead. Meanwhile, Phoebe interprets a series of humorous coincidences—including a buffet, \"Frank's\" hot dogs, and a mention of hamburgers—as signs urging her to finally go meet her father, whom she previously chickened out of seeing. Spurred by these \"signs,\" Phoebe resolves to make the trip. Later, Chandler and Ross return exhausted to the coffee shop carrying their racquetball gear, where they encounter Carl and Arthur."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:55 - 00:03:39",
+    "batch_summary": "At the coffee shop, Carl and Arthur bully Chandler and Ross, with Arthur stealing Chandler's baseball cap under the guise of a joke. When Chandler and Ross try to retrieve it, Ross's embarrassing explanation of the hat's sentimental value backfires, and the two back down from the confrontation. Meanwhile, back at the apartment, Joey explains to Rachel that they must accompany Phoebe on her trip to meet her father, as she becomes incredibly vulnerable during these emotional searches.",
+    "cumulative_summary": "The group gathers in the living room, where Monica's obsessive stock-watching prompts Rachel to suggest she get a job, leading Joey to offer an interview lead. Meanwhile, Phoebe interprets a series of food-related coincidences as signs urging her to finally meet her father. Spurred by these signs, she resolves to make the trip. Back at the apartment, Joey explains to Rachel that they must accompany Phoebe to offer support, as she becomes incredibly vulnerable during these emotional searches. Meanwhile, Chandler and Ross's return to the coffee shop takes a tense turn when they are confronted by two bullies, Carl and Arthur, who claim their seats. Arthur mockingly steals Chandler's baseball cap. When Chandler and Ross attempt to retrieve it, Ross's embarrassing explanation of the hat's sentimental value only worsens the situation. Intimidated by the bullies' aggression, Chandler and Ross ultimately back down and leave without the hat."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:39 - 00:05:26",
+    "batch_summary": "Monica returns from a disappointing interview at a 50s-themed restaurant, refusing to take a demeaning job despite having only $127 left. Meanwhile, a defeated Ross and Chandler return to the apartment, recounting their encounter with the coffee shop bullies. While Rachel comforts Ross, Joey offers to help retrieve Chandler's stolen hat, but Chandler declines. Inspired by a minor rise in her stock, Monica impulsively decides to invest her remaining money in the stock market, ignoring Ross's warnings about her lack of financial experience.",
+    "cumulative_summary": "The group gathers as Monica's obsessive stock-watching prompts her to seek a job, while Phoebe decides to find her father after receiving food-related signs. Meanwhile, Chandler and Ross are bullied at the coffee shop, losing Chandler's hat to two aggressive men. Back at the apartment, Monica returns from a humiliating interview at a 50s-themed diner, refusing to take the job despite having only $127 left. Ross and Chandler return defeated, and while Rachel comforts Ross, Chandler dejectedly rejects Joey's offer to fight for his hat. Seeing that her stock has gone up, Monica impulsively decides to invest her remaining savings in the market, ignoring Ross's warnings about her lack of experience."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:26 - 00:07:22",
+    "batch_summary": "Monica sells off her remaining stock, while Phoebe, accompanied by Rachel and Joey, arrives at her birth father's house. However, Phoebe's nervous attempt to meet him is hilariously thwarted when an aggressive little dog attacks her leg, forcing her to retreat to the taxi. Inside, the trio tries unsuccessfully to distract the dog with Joey's sandwich. Meanwhile, back at the coffee shop, Chandler and Ross try to move past their bullying ordeal with some lighthearted banter.",
+    "cumulative_summary": "After Monica's obsessive stock-watching prompts her to invest her remaining savings, she ultimately decides to sell her shares. Meanwhile, Phoebe sets out to find her birth father, accompanied by Rachel and Joey in a taxi. Upon arriving at his suburban home, Phoebe's nervous anticipation is cut short when an aggressive little dog attacks her leg, forcing her to flee back into the cab. Despite their attempts to distract the animal with Joey's sandwich, they remain trapped inside. Back at the coffee shop, Chandler and Ross, still recovering from being bullied and losing Chandler's hat to two aggressive men, try to find comfort in their usual spot, with Chandler attempting to make light of the situation."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:22 - 00:09:09",
+    "batch_summary": "At the coffee shop, the two bullies, Arthur and Carl, confront Ross and Chandler to demand their couch back. Chandler's attempts at humor fail to de-escalate the tension. Fed up, Ross calls over Gunther, who tells the bullies to back off. However, this intervention backfires when Arthur and Carl, insulted that Ross \"told on\" them, challenge the two friends to step outside for a physical fight, leaving Ross and Chandler terrified.",
+    "cumulative_summary": "After Monica's stock-market venture ends and Phoebe, Rachel, and Joey find themselves trapped in a taxi by an aggressive dog outside Phoebe's birth father's house, trouble brews back at the coffee shop. The two bullies, Arthur and Carl, confront Ross and Chandler, demanding they vacate the couch. When Chandler's jokes fail to defuse the situation, an annoyed Ross calls Gunther over to intervene. Although Gunther temporarily defuses the situation, the bullies are insulted that Ross \"told on\" them. Consequently, they challenge Ross and Chandler to a physical fight outside, leaving the two friends terrified and facing an escalating conflict."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:09 - 00:10:58",
+    "batch_summary": "Ross and Chandler refuse to fight the bullies, who ban them from Central Perk in exchange. Meanwhile, parked outside her birth father's house, Phoebe opens up to Rachel and Joey about her anxieties regarding her lack of family. Deciding she is not ready, she starts the taxi to head home, only to accidentally run over the aggressive dog guarding the house, leaving the trio in absolute shock.",
+    "cumulative_summary": "After Monica's stock-market venture ends, trouble brews at the coffee shop when bullies Arthur and Carl challenge Ross and Chandler to a fight. Refusing to resort to violence, Ross and Chandler are instead banned from Central Perk by the bullies. Meanwhile, Phoebe, Rachel, and Joey remain parked in a taxi outside Phoebe's birth father's house. Phoebe opens up about her anxieties regarding her estranged family and decides she is not ready to meet her father. However, as she starts the taxi to head home, she accidentally runs over the aggressive dog guarding the threshold, leaving the trio in absolute shock."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 253,
+    "timestamp_range": "00:10:58 - 00:11:40",
+    "batch_summary": "Back at the apartment, Monica dives back into the stock market, enthusiastically purchasing shares of SGJ over the phone. Celebrating a quick seventeen-dollar profit before breakfast, she boasts about her financial savvy to Rachel and Joey. While Rachel playfully teases Monica's new \"Wall Street\" persona, Joey humorously defends his own finances by pointing out the money he saved by eating breakfast at home. The atmosphere is lighthearted and energetic as Monica prepares to explain her trading strategy.",
+    "cumulative_summary": "After Monica's initial stock-market venture, trouble brews at the coffee shop when bullies Arthur and Carl ban Ross and Chandler from Central Perk. Meanwhile, Phoebe, Rachel, and Joey face a stressful situation outside Phoebe's birth father's house, culminating in Phoebe accidentally running over the family's guard dog. Back at the apartment, the mood lightens as Monica dives right back into the stock market. Pacing the living room, she enthusiastically buys shares of SGJ and celebrates making a quick seventeen dollars before breakfast. Rachel playfully mocks Monica's intense new \"Wall Street\" attitude, while Joey humorously argues that he saved money just by eating breakfast at home. Despite their teasing, Monica remains determined to explain her new financial strategy to her friends, shifting the narrative focus back to her ambitious trading endeavors."
+  }
+]
