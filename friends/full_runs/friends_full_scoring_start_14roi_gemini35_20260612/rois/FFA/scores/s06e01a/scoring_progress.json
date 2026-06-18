@@ -1,7 +1,7 @@
 {
   "command": "score-descriptions",
   "status": "complete",
-  "updated_at": "2026-06-16T18:06:37+00:00",
+  "updated_at": "2026-06-17T14:29:30+00:00",
   "total_segments": 273,
   "completed_segments": 273,
   "next_segment_id": 273,
@@ -27,9 +27,9 @@
     "gt_emotion_column": "情绪值"
   },
   "source_paths": {
-    "descriptions": "D:\\Doc\\meta_prompt\\friends\\description\\downloaded_refine_descriptions\\mv_friends_s06e01a\\descriptions\\refined_description.md",
-    "region_schema": "D:\\Doc\\meta_prompt\\friends\\output\\rois\\FFA\\region_schema.json",
-    "summary_file": "D:\\Doc\\meta_prompt\\friends\\output\\summaries\\s06e01a\\summary.json",
+    "descriptions": "/Users/kiriharari/codex_paper/meta_prompt/friends/description/downloaded_refine_descriptions/mv_friends_s06e01a/descriptions/refined_description.md",
+    "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/FFA/region_schema.json",
+    "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s06e01a/summary.json",
     "gt_dir": null
   },
   "scoring_warnings": {

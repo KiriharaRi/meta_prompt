@@ -1,0 +1,41 @@
+{
+  "command": "score-descriptions",
+  "status": "complete",
+  "updated_at": "2026-06-17T08:56:25+00:00",
+  "total_segments": 258,
+  "completed_segments": 258,
+  "next_segment_id": 258,
+  "completed_batches": 7,
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "run_signature": {
+    "descriptions_sha256": "c5efe2f2d6be73ed96576acd30e3a1e25510f77337161ce7a9e6aa2700dabbfa",
+    "region_schema_sha256": "b587f7f741743d0fb716db3ca7ca70b9c4bd9a956489d38b7e8c7f46fdad96aa",
+    "summary_file_sha256": "e2e32418cf101d4aa4343b609c003fed58b200c1346837295ab32e64e89c75ea",
+    "provider": "aihubmix",
+    "model": "gemini-3.5-flash",
+    "scoring_batch_size": 40,
+    "local_buffer_size": 10,
+    "tr_s": 1.49,
+    "alignment": "overlap_weighted",
+    "total_trs": null,
+    "gt_dir": null,
+    "gt_file_pattern": "*.csv",
+    "gt_time_column": "视频时间(s)",
+    "gt_emotion_column": "情绪值"
+  },
+  "source_paths": {
+    "descriptions": "/Users/kiriharari/codex_paper/meta_prompt/friends/description/downloaded_refine_descriptions/mv_friends_s01e11a/descriptions/refined_description.md",
+    "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/DLPFC/region_schema.json",
+    "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s01e11a/summary.json",
+    "gt_dir": null
+  },
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  }
+}

@@ -1,106 +1,106 @@
 {
   "primary_metric": "mean_subject_mean_test_pearson",
   "n_subjects": 1,
-  "mean_subject_mean_test_pearson": 0.1542246744817429,
-  "median_subject_mean_test_pearson": 0.1542246744817429,
-  "mean_subject_median_test_pearson": 0.136867875887846,
+  "mean_subject_mean_test_pearson": 0.1851977718935396,
+  "median_subject_mean_test_pearson": 0.1851977718935396,
+  "mean_subject_median_test_pearson": 0.1753468446515037,
   "roi_summaries": {
     "ACC": {
       "roi_id": "ACC",
       "primary_metric": "mean_subject_mean_test_pearson",
-      "mean_subject_mean_test_pearson": 0.08653270945055654,
-      "median_subject_mean_test_pearson": 0.08653270945055654,
+      "mean_subject_mean_test_pearson": 0.17828208267491308,
+      "median_subject_mean_test_pearson": 0.17828208267491308,
       "n_subjects": 1
     },
     "AG": {
       "roi_id": "AG",
       "primary_metric": "mean_subject_mean_test_pearson",
-      "mean_subject_mean_test_pearson": 0.17778328327803927,
-      "median_subject_mean_test_pearson": 0.17778328327803927,
+      "mean_subject_mean_test_pearson": 0.2283685980351949,
+      "median_subject_mean_test_pearson": 0.2283685980351949,
       "n_subjects": 1
     },
     "DLPFC": {
       "roi_id": "DLPFC",
       "primary_metric": "mean_subject_mean_test_pearson",
-      "mean_subject_mean_test_pearson": 0.18521192073792078,
-      "median_subject_mean_test_pearson": 0.18521192073792078,
+      "mean_subject_mean_test_pearson": 0.17836738066200253,
+      "median_subject_mean_test_pearson": 0.17836738066200253,
       "n_subjects": 1
     },
     "FFA": {
       "roi_id": "FFA",
       "primary_metric": "mean_subject_mean_test_pearson",
-      "mean_subject_mean_test_pearson": 0.15845223969050087,
-      "median_subject_mean_test_pearson": 0.15845223969050087,
+      "mean_subject_mean_test_pearson": 0.21329532135418572,
+      "median_subject_mean_test_pearson": 0.21329532135418572,
       "n_subjects": 1
     },
     "IPL": {
       "roi_id": "IPL",
       "primary_metric": "mean_subject_mean_test_pearson",
-      "mean_subject_mean_test_pearson": 0.19496604892276148,
-      "median_subject_mean_test_pearson": 0.19496604892276148,
+      "mean_subject_mean_test_pearson": 0.24514183698609635,
+      "median_subject_mean_test_pearson": 0.24514183698609635,
       "n_subjects": 1
     },
     "Insula": {
       "roi_id": "Insula",
       "primary_metric": "mean_subject_mean_test_pearson",
-      "mean_subject_mean_test_pearson": 0.14063058121690872,
-      "median_subject_mean_test_pearson": 0.14063058121690872,
+      "mean_subject_mean_test_pearson": 0.17933743284295833,
+      "median_subject_mean_test_pearson": 0.17933743284295833,
       "n_subjects": 1
     },
     "OFC": {
       "roi_id": "OFC",
       "primary_metric": "mean_subject_mean_test_pearson",
-      "mean_subject_mean_test_pearson": 0.18013408021398922,
-      "median_subject_mean_test_pearson": 0.18013408021398922,
+      "mean_subject_mean_test_pearson": 0.1703174291463753,
+      "median_subject_mean_test_pearson": 0.1703174291463753,
       "n_subjects": 1
     },
     "PCC": {
       "roi_id": "PCC",
       "primary_metric": "mean_subject_mean_test_pearson",
-      "mean_subject_mean_test_pearson": 0.16658001160424682,
-      "median_subject_mean_test_pearson": 0.16658001160424682,
+      "mean_subject_mean_test_pearson": 0.20032295572374717,
+      "median_subject_mean_test_pearson": 0.20032295572374717,
       "n_subjects": 1
     },
     "Precuneus": {
       "roi_id": "Precuneus",
       "primary_metric": "mean_subject_mean_test_pearson",
-      "mean_subject_mean_test_pearson": 0.14187349111371186,
-      "median_subject_mean_test_pearson": 0.14187349111371186,
+      "mean_subject_mean_test_pearson": 0.13122557307227078,
+      "median_subject_mean_test_pearson": 0.13122557307227078,
       "n_subjects": 1
     },
     "SMG": {
       "roi_id": "SMG",
       "primary_metric": "mean_subject_mean_test_pearson",
-      "mean_subject_mean_test_pearson": 0.2121488145674837,
-      "median_subject_mean_test_pearson": 0.2121488145674837,
+      "mean_subject_mean_test_pearson": 0.26191507593699775,
+      "median_subject_mean_test_pearson": 0.26191507593699775,
       "n_subjects": 1
     },
     "TPJ": {
       "roi_id": "TPJ",
       "primary_metric": "mean_subject_mean_test_pearson",
-      "mean_subject_mean_test_pearson": 0.16734536600049071,
-      "median_subject_mean_test_pearson": 0.16734536600049071,
+      "mean_subject_mean_test_pearson": 0.22783147446162472,
+      "median_subject_mean_test_pearson": 0.22783147446162472,
       "n_subjects": 1
     },
     "Temporal_Pole": {
       "roi_id": "Temporal_Pole",
       "primary_metric": "mean_subject_mean_test_pearson",
-      "mean_subject_mean_test_pearson": 0.11530038522622935,
-      "median_subject_mean_test_pearson": 0.11530038522622935,
+      "mean_subject_mean_test_pearson": 0.1697150295183644,
+      "median_subject_mean_test_pearson": 0.1697150295183644,
       "n_subjects": 1
     },
     "VMPFC": {
       "roi_id": "VMPFC",
       "primary_metric": "mean_subject_mean_test_pearson",
-      "mean_subject_mean_test_pearson": 0.14497593715654394,
-      "median_subject_mean_test_pearson": 0.14497593715654394,
+      "mean_subject_mean_test_pearson": 0.15231503862225465,
+      "median_subject_mean_test_pearson": 0.15231503862225465,
       "n_subjects": 1
     },
     "pSTS": {
       "roi_id": "pSTS",
       "primary_metric": "mean_subject_mean_test_pearson",
-      "mean_subject_mean_test_pearson": 0.07407074038476064,
-      "median_subject_mean_test_pearson": 0.07407074038476064,
+      "mean_subject_mean_test_pearson": 0.156788222809591,
+      "median_subject_mean_test_pearson": 0.156788222809591,
       "n_subjects": 1
     }
   },
@@ -108,17 +108,17 @@
     {
       "subject_id": "sub-01",
       "best_alpha": 10000.0,
-      "mean_test_pearson": 0.1542246744817429,
-      "median_test_pearson": 0.136867875887846,
+      "mean_test_pearson": 0.1851977718935396,
+      "median_test_pearson": 0.1753468446515037,
       "n_retained_parcels": 86,
-      "n_test_trs": 450,
+      "n_test_trs": 1812,
       "roi_summaries": {
         "ACC": {
           "subject_id": "sub-01",
           "roi_id": "ACC",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.08653270945055654,
-          "median_test_pearson": 0.07242482279391418,
+          "mean_test_pearson": 0.17828208267491308,
+          "median_test_pearson": 0.17066304309508004,
           "n_total_selected_parcels": 8,
           "n_retained_parcels": 8
         },
@@ -126,8 +126,8 @@
           "subject_id": "sub-01",
           "roi_id": "AG",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.17778328327803927,
-          "median_test_pearson": 0.14942281487607906,
+          "mean_test_pearson": 0.2283685980351949,
+          "median_test_pearson": 0.17132161378990718,
           "n_total_selected_parcels": 6,
           "n_retained_parcels": 6
         },
@@ -135,8 +135,8 @@
           "subject_id": "sub-01",
           "roi_id": "DLPFC",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.18521192073792078,
-          "median_test_pearson": 0.16976945367335577,
+          "mean_test_pearson": 0.17836738066200253,
+          "median_test_pearson": 0.1843632865632422,
           "n_total_selected_parcels": 10,
           "n_retained_parcels": 10
         },
@@ -144,8 +144,8 @@
           "subject_id": "sub-01",
           "roi_id": "FFA",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.15845223969050087,
-          "median_test_pearson": 0.13794610212991304,
+          "mean_test_pearson": 0.21329532135418572,
+          "median_test_pearson": 0.2169110575206406,
           "n_total_selected_parcels": 4,
           "n_retained_parcels": 4
         },
@@ -153,8 +153,8 @@
           "subject_id": "sub-01",
           "roi_id": "IPL",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.19496604892276148,
-          "median_test_pearson": 0.14942281487607906,
+          "mean_test_pearson": 0.24514183698609635,
+          "median_test_pearson": 0.17132161378990718,
           "n_total_selected_parcels": 12,
           "n_retained_parcels": 12
         },
@@ -162,8 +162,8 @@
           "subject_id": "sub-01",
           "roi_id": "Insula",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.14063058121690872,
-          "median_test_pearson": 0.15440253671855386,
+          "mean_test_pearson": 0.17933743284295833,
+          "median_test_pearson": 0.17813972006689902,
           "n_total_selected_parcels": 12,
           "n_retained_parcels": 12
         },
@@ -171,8 +171,8 @@
           "subject_id": "sub-01",
           "roi_id": "OFC",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.18013408021398922,
-          "median_test_pearson": 0.16650486276877863,
+          "mean_test_pearson": 0.1703174291463753,
+          "median_test_pearson": 0.17205358047266228,
           "n_total_selected_parcels": 12,
           "n_retained_parcels": 12
         },
@@ -180,8 +180,8 @@
           "subject_id": "sub-01",
           "roi_id": "PCC",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.16658001160424682,
-          "median_test_pearson": 0.14105822438412166,
+          "mean_test_pearson": 0.20032295572374717,
+          "median_test_pearson": 0.17895519860448442,
           "n_total_selected_parcels": 6,
           "n_retained_parcels": 6
         },
@@ -189,8 +189,8 @@
           "subject_id": "sub-01",
           "roi_id": "Precuneus",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.14187349111371186,
-          "median_test_pearson": 0.1256161370139097,
+          "mean_test_pearson": 0.13122557307227078,
+          "median_test_pearson": 0.09650379479651011,
           "n_total_selected_parcels": 8,
           "n_retained_parcels": 8
         },
@@ -198,8 +198,8 @@
           "subject_id": "sub-01",
           "roi_id": "SMG",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.2121488145674837,
-          "median_test_pearson": 0.18837718878214374,
+          "mean_test_pearson": 0.26191507593699775,
+          "median_test_pearson": 0.26708127078447885,
           "n_total_selected_parcels": 6,
           "n_retained_parcels": 6
         },
@@ -207,8 +207,8 @@
           "subject_id": "sub-01",
           "roi_id": "TPJ",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.16734536600049071,
-          "median_test_pearson": 0.13518973542191293,
+          "mean_test_pearson": 0.22783147446162472,
+          "median_test_pearson": 0.17671689686902373,
           "n_total_selected_parcels": 20,
           "n_retained_parcels": 20
         },
@@ -216,8 +216,8 @@
           "subject_id": "sub-01",
           "roi_id": "Temporal_Pole",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.11530038522622935,
-          "median_test_pearson": 0.09668755892569408,
+          "mean_test_pearson": 0.1697150295183644,
+          "median_test_pearson": 0.16022632789213995,
           "n_total_selected_parcels": 4,
           "n_retained_parcels": 4
         },
@@ -225,8 +225,8 @@
           "subject_id": "sub-01",
           "roi_id": "VMPFC",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.14497593715654394,
-          "median_test_pearson": 0.14668968353177175,
+          "mean_test_pearson": 0.15231503862225465,
+          "median_test_pearson": 0.13428008612215278,
           "n_total_selected_parcels": 8,
           "n_retained_parcels": 8
         },
@@ -234,8 +234,8 @@
           "subject_id": "sub-01",
           "roi_id": "pSTS",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.07407074038476064,
-          "median_test_pearson": 0.1136291501913946,
+          "mean_test_pearson": 0.156788222809591,
+          "median_test_pearson": 0.158815921119293,
           "n_total_selected_parcels": 4,
           "n_retained_parcels": 4
         }

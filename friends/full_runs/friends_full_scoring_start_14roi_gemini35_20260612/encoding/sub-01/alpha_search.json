@@ -5,92 +5,92 @@
   "rows": [
     {
       "alpha": 0.01,
-      "mean_val_pearson": 0.18586262279890778,
-      "n_val_trs": 471,
+      "mean_val_pearson": 0.16417717210684202,
+      "n_val_trs": 466,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 0.03,
-      "mean_val_pearson": 0.18586494295247485,
-      "n_val_trs": 471,
+      "mean_val_pearson": 0.1641784628540586,
+      "n_val_trs": 466,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 0.1,
-      "mean_val_pearson": 0.18587305545205313,
-      "n_val_trs": 471,
+      "mean_val_pearson": 0.1641829769145967,
+      "n_val_trs": 466,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 0.3,
-      "mean_val_pearson": 0.18589616563631978,
-      "n_val_trs": 471,
+      "mean_val_pearson": 0.16419584395639092,
+      "n_val_trs": 466,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 1.0,
-      "mean_val_pearson": 0.18597627269909528,
-      "n_val_trs": 471,
+      "mean_val_pearson": 0.16424053280320408,
+      "n_val_trs": 466,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 3.0,
-      "mean_val_pearson": 0.18619892442138272,
-      "n_val_trs": 471,
+      "mean_val_pearson": 0.16436542594332407,
+      "n_val_trs": 466,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 10.0,
-      "mean_val_pearson": 0.18691879905172842,
-      "n_val_trs": 471,
+      "mean_val_pearson": 0.16477535715750427,
+      "n_val_trs": 466,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 30.0,
-      "mean_val_pearson": 0.18864832217417069,
-      "n_val_trs": 471,
+      "mean_val_pearson": 0.16579112360869802,
+      "n_val_trs": 466,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 100.0,
-      "mean_val_pearson": 0.19303297204830905,
-      "n_val_trs": 471,
+      "mean_val_pearson": 0.16850507595918465,
+      "n_val_trs": 466,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 300.0,
-      "mean_val_pearson": 0.20089598854926682,
-      "n_val_trs": 471,
+      "mean_val_pearson": 0.1737147458290333,
+      "n_val_trs": 466,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 1000.0,
-      "mean_val_pearson": 0.21493789810859917,
-      "n_val_trs": 471,
+      "mean_val_pearson": 0.18387729551153675,
+      "n_val_trs": 466,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 3000.0,
-      "mean_val_pearson": 0.2309624279615291,
-      "n_val_trs": 471,
+      "mean_val_pearson": 0.1969633120911871,
+      "n_val_trs": 466,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 10000.0,
-      "mean_val_pearson": 0.24519881058775245,
-      "n_val_trs": 471,
+      "mean_val_pearson": 0.21105057055914872,
+      "n_val_trs": 466,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     }

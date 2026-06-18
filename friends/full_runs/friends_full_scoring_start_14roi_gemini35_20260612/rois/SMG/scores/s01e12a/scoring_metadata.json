@@ -1,0 +1,98 @@
+{
+  "n_segments": 241,
+  "n_trs": 471,
+  "tr_s": 1.49,
+  "alignment": "overlap_weighted",
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s01e12a/summary.json",
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  },
+  "gt": null,
+  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/SMG/region_schema.json",
+  "feature_names": [
+    "manual_manipulation_and_tool_use",
+    "complex_motor_planning_and_sequencing",
+    "forceful_physical_interaction",
+    "sudden_sensory_shocks_and_disruptions",
+    "unexpected_narrative_intrusions",
+    "rapid_spatial_and_perspective_shifts",
+    "dialogue_density_and_tempo",
+    "phonetic_and_articulatory_emphasis",
+    "verbal_working_memory_load",
+    "dramatic_irony_and_privileged_knowledge",
+    "character_misunderstanding_and_false_belief",
+    "egocentric_bias_overcoming",
+    "vicarious_pain_and_injury",
+    "tactile_and_somatic_contact",
+    "visceral_bodily_distress"
+  ],
+  "feature_metadata": [
+    {
+      "dimension_id": "manual_manipulation_and_tool_use",
+      "domain": "action_and_tool_simulation"
+    },
+    {
+      "dimension_id": "complex_motor_planning_and_sequencing",
+      "domain": "action_and_tool_simulation"
+    },
+    {
+      "dimension_id": "forceful_physical_interaction",
+      "domain": "action_and_tool_simulation"
+    },
+    {
+      "dimension_id": "sudden_sensory_shocks_and_disruptions",
+      "domain": "attentional_reorienting_and_spatial_salience"
+    },
+    {
+      "dimension_id": "unexpected_narrative_intrusions",
+      "domain": "attentional_reorienting_and_spatial_salience"
+    },
+    {
+      "dimension_id": "rapid_spatial_and_perspective_shifts",
+      "domain": "attentional_reorienting_and_spatial_salience"
+    },
+    {
+      "dimension_id": "dialogue_density_and_tempo",
+      "domain": "verbal_phonological_tracking"
+    },
+    {
+      "dimension_id": "phonetic_and_articulatory_emphasis",
+      "domain": "verbal_phonological_tracking"
+    },
+    {
+      "dimension_id": "verbal_working_memory_load",
+      "domain": "verbal_phonological_tracking"
+    },
+    {
+      "dimension_id": "dramatic_irony_and_privileged_knowledge",
+      "domain": "perspective_discrepancy_resolution"
+    },
+    {
+      "dimension_id": "character_misunderstanding_and_false_belief",
+      "domain": "perspective_discrepancy_resolution"
+    },
+    {
+      "dimension_id": "egocentric_bias_overcoming",
+      "domain": "perspective_discrepancy_resolution"
+    },
+    {
+      "dimension_id": "vicarious_pain_and_injury",
+      "domain": "somatic_and_pain_resonance"
+    },
+    {
+      "dimension_id": "tactile_and_somatic_contact",
+      "domain": "somatic_and_pain_resonance"
+    },
+    {
+      "dimension_id": "visceral_bodily_distress",
+      "domain": "somatic_and_pain_resonance"
+    }
+  ]
+}
