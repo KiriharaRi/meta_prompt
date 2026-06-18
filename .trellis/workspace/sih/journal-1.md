@@ -273,7 +273,10 @@ Completed remaining Fallen vmPFC segment scoring analysis, recorded resumed scor
 
 ### Main Changes
 
-(Add details)
+- Added Friends pass24 sweep configs for S1 scoring batches, plus3/plus4 encoding runs, and train-size sweep configs.
+- Tracked 14 newly scored S1 episodes across 14 ROIs under the Friends full run output root.
+- Tracked the final 28-episode encoding outputs with `s01e02a` as validation and `s06e01a/s06e01b/s06e03a/s06e03b` as test.
+- Cleared the stale Trellis current-task runtime pointer for the missing `06-16-friends-pass24-encoding-sweep` task directory.
 
 ### Git Commits
 
@@ -285,7 +288,9 @@ Completed remaining Fallen vmPFC segment scoring analysis, recorded resumed scor
 
 ### Testing
 
-- [OK] (Add test results)
+- [OK] Verified `s01e15b` scoring completion across 14 ROIs with 477 TR rows and zero warnings.
+- [OK] Reran encoding for 23 train / 1 val / 4 test episodes; final `mean_subject_mean_test_pearson` is 0.1851977718935396.
+- [OK] Confirmed Trellis current task now resolves to none after stale runtime cleanup.
 
 ### Status
 
@@ -1113,6 +1118,40 @@ Aligned ROI encoding features to fMRI raw TR trim, kept scoring unchanged, added
 | Hash | Message |
 |------|---------|
 | `abeac4d` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
+
+
+## Session 33: Friends pass24 encoding sweep
+
+**Date**: 2026-06-18
+**Task**: Friends pass24 encoding sweep
+**Branch**: `main`
+
+### Summary
+
+整理 Friends pass24 scoring/encoding sweep：记录配置、14 个新增 S1 episode 的 14 ROI scoring 输出、28 episode encoding 输出；最终 s06 四集 test mean Pearson 为 0.1851977718935396，并清理 stale Trellis current-task 指针。
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `adaaa3e` | (see git log) |
+| `08ee061` | (see git log) |
 
 ### Testing
 
