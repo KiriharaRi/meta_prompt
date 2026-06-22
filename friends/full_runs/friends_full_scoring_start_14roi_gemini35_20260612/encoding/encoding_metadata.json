@@ -990,7 +990,7 @@
       "sample_id": "sub-01_s01e02a",
       "subject_id": "sub-01",
       "feature_set_name": "roi_scores",
-      "split": "val",
+      "split": "train",
       "roi_features": {
         "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s01e02a/tr_features.jsonl",
         "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s01e02a/tr_features.jsonl",
@@ -1103,151 +1103,6 @@
       "line_number": 5
     },
     {
-      "sample_id": "sub-01_s02e01a",
-      "subject_id": "sub-01",
-      "feature_set_name": "roi_scores",
-      "split": "train",
-      "roi_features": {
-        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s02e01a/tr_features.jsonl",
-        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s02e01a/tr_features.jsonl",
-        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s02e01a/tr_features.jsonl",
-        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s02e01a/tr_features.jsonl",
-        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s02e01a/tr_features.jsonl",
-        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s02e01a/tr_features.jsonl",
-        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s02e01a/tr_features.jsonl",
-        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s02e01a/tr_features.jsonl",
-        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s02e01a/tr_features.jsonl",
-        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s02e01a/tr_features.jsonl",
-        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s02e01a/tr_features.jsonl",
-        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s02e01a/tr_features.jsonl",
-        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s02e01a/tr_features.jsonl",
-        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s02e01a/tr_features.jsonl"
-      },
-      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
-      "h5_dataset": "ses-010_task-s02e01a",
-      "feature_trim_start_tr": 0,
-      "feature_trim_end_tr": 0,
-      "fmri_trim_start_tr": 5,
-      "fmri_trim_end_tr": 5,
-      "line_number": 6
-    },
-    {
-      "sample_id": "sub-01_s02e02a",
-      "subject_id": "sub-01",
-      "feature_set_name": "roi_scores",
-      "split": "train",
-      "roi_features": {
-        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s02e02a/tr_features.jsonl",
-        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s02e02a/tr_features.jsonl",
-        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s02e02a/tr_features.jsonl",
-        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s02e02a/tr_features.jsonl",
-        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s02e02a/tr_features.jsonl",
-        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s02e02a/tr_features.jsonl",
-        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s02e02a/tr_features.jsonl",
-        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s02e02a/tr_features.jsonl",
-        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s02e02a/tr_features.jsonl",
-        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s02e02a/tr_features.jsonl",
-        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s02e02a/tr_features.jsonl",
-        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s02e02a/tr_features.jsonl",
-        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s02e02a/tr_features.jsonl",
-        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s02e02a/tr_features.jsonl"
-      },
-      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
-      "h5_dataset": "ses-011_task-s02e02a",
-      "feature_trim_start_tr": 0,
-      "feature_trim_end_tr": 0,
-      "fmri_trim_start_tr": 5,
-      "fmri_trim_end_tr": 5,
-      "line_number": 7
-    },
-    {
-      "sample_id": "sub-01_s02e03a",
-      "subject_id": "sub-01",
-      "feature_set_name": "roi_scores",
-      "split": "train",
-      "roi_features": {
-        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s02e03a/tr_features.jsonl",
-        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s02e03a/tr_features.jsonl",
-        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s02e03a/tr_features.jsonl",
-        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s02e03a/tr_features.jsonl",
-        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s02e03a/tr_features.jsonl",
-        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s02e03a/tr_features.jsonl",
-        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s02e03a/tr_features.jsonl",
-        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s02e03a/tr_features.jsonl",
-        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s02e03a/tr_features.jsonl",
-        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s02e03a/tr_features.jsonl",
-        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s02e03a/tr_features.jsonl",
-        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s02e03a/tr_features.jsonl",
-        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s02e03a/tr_features.jsonl",
-        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s02e03a/tr_features.jsonl"
-      },
-      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
-      "h5_dataset": "ses-011_task-s02e03a",
-      "feature_trim_start_tr": 0,
-      "feature_trim_end_tr": 0,
-      "fmri_trim_start_tr": 5,
-      "fmri_trim_end_tr": 5,
-      "line_number": 8
-    },
-    {
-      "sample_id": "sub-01_s02e04a",
-      "subject_id": "sub-01",
-      "feature_set_name": "roi_scores",
-      "split": "train",
-      "roi_features": {
-        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s02e04a/tr_features.jsonl",
-        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s02e04a/tr_features.jsonl",
-        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s02e04a/tr_features.jsonl",
-        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s02e04a/tr_features.jsonl",
-        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s02e04a/tr_features.jsonl",
-        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s02e04a/tr_features.jsonl",
-        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s02e04a/tr_features.jsonl",
-        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s02e04a/tr_features.jsonl",
-        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s02e04a/tr_features.jsonl",
-        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s02e04a/tr_features.jsonl",
-        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s02e04a/tr_features.jsonl",
-        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s02e04a/tr_features.jsonl",
-        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s02e04a/tr_features.jsonl",
-        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s02e04a/tr_features.jsonl"
-      },
-      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
-      "h5_dataset": "ses-011_task-s02e04a",
-      "feature_trim_start_tr": 0,
-      "feature_trim_end_tr": 0,
-      "fmri_trim_start_tr": 5,
-      "fmri_trim_end_tr": 5,
-      "line_number": 9
-    },
-    {
-      "sample_id": "sub-01_s02e05a",
-      "subject_id": "sub-01",
-      "feature_set_name": "roi_scores",
-      "split": "train",
-      "roi_features": {
-        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s02e05a/tr_features.jsonl",
-        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s02e05a/tr_features.jsonl",
-        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s02e05a/tr_features.jsonl",
-        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s02e05a/tr_features.jsonl",
-        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s02e05a/tr_features.jsonl",
-        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s02e05a/tr_features.jsonl",
-        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s02e05a/tr_features.jsonl",
-        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s02e05a/tr_features.jsonl",
-        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s02e05a/tr_features.jsonl",
-        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s02e05a/tr_features.jsonl",
-        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s02e05a/tr_features.jsonl",
-        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s02e05a/tr_features.jsonl",
-        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s02e05a/tr_features.jsonl",
-        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s02e05a/tr_features.jsonl"
-      },
-      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
-      "h5_dataset": "ses-011_task-s02e05a",
-      "feature_trim_start_tr": 0,
-      "feature_trim_end_tr": 0,
-      "fmri_trim_start_tr": 5,
-      "fmri_trim_end_tr": 5,
-      "line_number": 10
-    },
-    {
       "sample_id": "sub-01_s01e01b",
       "subject_id": "sub-01",
       "feature_set_name": "roi_scores",
@@ -1274,7 +1129,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 11
+      "line_number": 6
     },
     {
       "sample_id": "sub-01_s01e02b",
@@ -1303,7 +1158,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 12
+      "line_number": 7
     },
     {
       "sample_id": "sub-01_s01e03b",
@@ -1332,7 +1187,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 13
+      "line_number": 8
     },
     {
       "sample_id": "sub-01_s01e05b",
@@ -1361,7 +1216,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 14
+      "line_number": 9
     },
     {
       "sample_id": "sub-01_s01e06b",
@@ -1390,7 +1245,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 15
+      "line_number": 10
     },
     {
       "sample_id": "sub-01_s01e11a",
@@ -1419,7 +1274,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 16
+      "line_number": 11
     },
     {
       "sample_id": "sub-01_s01e11b",
@@ -1448,7 +1303,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 17
+      "line_number": 12
     },
     {
       "sample_id": "sub-01_s01e12a",
@@ -1477,7 +1332,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 18
+      "line_number": 13
     },
     {
       "sample_id": "sub-01_s01e12b",
@@ -1506,7 +1361,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 19
+      "line_number": 14
     },
     {
       "sample_id": "sub-01_s01e13a",
@@ -1535,7 +1390,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 20
+      "line_number": 15
     },
     {
       "sample_id": "sub-01_s01e13b",
@@ -1564,7 +1419,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 21
+      "line_number": 16
     },
     {
       "sample_id": "sub-01_s01e14a",
@@ -1593,7 +1448,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 22
+      "line_number": 17
     },
     {
       "sample_id": "sub-01_s01e14b",
@@ -1622,7 +1477,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 23
+      "line_number": 18
     },
     {
       "sample_id": "sub-01_s01e15b",
@@ -1651,7 +1506,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 24
+      "line_number": 19
     },
     {
       "sample_id": "sub-01_s01e16a",
@@ -1680,7 +1535,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 25
+      "line_number": 20
     },
     {
       "sample_id": "sub-01_s01e16b",
@@ -1709,7 +1564,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 26
+      "line_number": 21
     },
     {
       "sample_id": "sub-01_s01e17a",
@@ -1738,7 +1593,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 27
+      "line_number": 22
     },
     {
       "sample_id": "sub-01_s01e17b",
@@ -1767,7 +1622,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 28
+      "line_number": 23
     },
     {
       "sample_id": "sub-01_s01e18a",
@@ -1796,7 +1651,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 29
+      "line_number": 24
     },
     {
       "sample_id": "sub-01_s01e18b",
@@ -1825,7 +1680,442 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
+      "line_number": 25
+    },
+    {
+      "sample_id": "sub-01_s01e15a",
+      "subject_id": "sub-01",
+      "feature_set_name": "roi_scores",
+      "split": "train",
+      "roi_features": {
+        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s01e15a/tr_features.jsonl",
+        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s01e15a/tr_features.jsonl",
+        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s01e15a/tr_features.jsonl",
+        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s01e15a/tr_features.jsonl",
+        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s01e15a/tr_features.jsonl",
+        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s01e15a/tr_features.jsonl",
+        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s01e15a/tr_features.jsonl",
+        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s01e15a/tr_features.jsonl",
+        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s01e15a/tr_features.jsonl",
+        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s01e15a/tr_features.jsonl",
+        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s01e15a/tr_features.jsonl",
+        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s01e15a/tr_features.jsonl",
+        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s01e15a/tr_features.jsonl",
+        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s01e15a/tr_features.jsonl"
+      },
+      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
+      "h5_dataset": "ses-007_task-s01e15a",
+      "feature_trim_start_tr": 0,
+      "feature_trim_end_tr": 0,
+      "fmri_trim_start_tr": 5,
+      "fmri_trim_end_tr": 5,
+      "line_number": 26
+    },
+    {
+      "sample_id": "sub-01_s01e19a",
+      "subject_id": "sub-01",
+      "feature_set_name": "roi_scores",
+      "split": "train",
+      "roi_features": {
+        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s01e19a/tr_features.jsonl",
+        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s01e19a/tr_features.jsonl",
+        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s01e19a/tr_features.jsonl",
+        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s01e19a/tr_features.jsonl",
+        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s01e19a/tr_features.jsonl",
+        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s01e19a/tr_features.jsonl",
+        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s01e19a/tr_features.jsonl",
+        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s01e19a/tr_features.jsonl",
+        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s01e19a/tr_features.jsonl",
+        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s01e19a/tr_features.jsonl",
+        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s01e19a/tr_features.jsonl",
+        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s01e19a/tr_features.jsonl",
+        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s01e19a/tr_features.jsonl",
+        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s01e19a/tr_features.jsonl"
+      },
+      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
+      "h5_dataset": "ses-008_task-s01e19a",
+      "feature_trim_start_tr": 0,
+      "feature_trim_end_tr": 0,
+      "fmri_trim_start_tr": 5,
+      "fmri_trim_end_tr": 5,
+      "line_number": 27
+    },
+    {
+      "sample_id": "sub-01_s01e19b",
+      "subject_id": "sub-01",
+      "feature_set_name": "roi_scores",
+      "split": "train",
+      "roi_features": {
+        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s01e19b/tr_features.jsonl",
+        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s01e19b/tr_features.jsonl",
+        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s01e19b/tr_features.jsonl",
+        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s01e19b/tr_features.jsonl",
+        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s01e19b/tr_features.jsonl",
+        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s01e19b/tr_features.jsonl",
+        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s01e19b/tr_features.jsonl",
+        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s01e19b/tr_features.jsonl",
+        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s01e19b/tr_features.jsonl",
+        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s01e19b/tr_features.jsonl",
+        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s01e19b/tr_features.jsonl",
+        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s01e19b/tr_features.jsonl",
+        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s01e19b/tr_features.jsonl",
+        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s01e19b/tr_features.jsonl"
+      },
+      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
+      "h5_dataset": "ses-008_task-s01e19b",
+      "feature_trim_start_tr": 0,
+      "feature_trim_end_tr": 0,
+      "fmri_trim_start_tr": 5,
+      "fmri_trim_end_tr": 5,
+      "line_number": 28
+    },
+    {
+      "sample_id": "sub-01_s01e20a",
+      "subject_id": "sub-01",
+      "feature_set_name": "roi_scores",
+      "split": "train",
+      "roi_features": {
+        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s01e20a/tr_features.jsonl",
+        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s01e20a/tr_features.jsonl",
+        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s01e20a/tr_features.jsonl",
+        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s01e20a/tr_features.jsonl",
+        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s01e20a/tr_features.jsonl",
+        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s01e20a/tr_features.jsonl",
+        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s01e20a/tr_features.jsonl",
+        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s01e20a/tr_features.jsonl",
+        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s01e20a/tr_features.jsonl",
+        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s01e20a/tr_features.jsonl",
+        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s01e20a/tr_features.jsonl",
+        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s01e20a/tr_features.jsonl",
+        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s01e20a/tr_features.jsonl",
+        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s01e20a/tr_features.jsonl"
+      },
+      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
+      "h5_dataset": "ses-009_task-s01e20a",
+      "feature_trim_start_tr": 0,
+      "feature_trim_end_tr": 0,
+      "fmri_trim_start_tr": 5,
+      "fmri_trim_end_tr": 5,
+      "line_number": 29
+    },
+    {
+      "sample_id": "sub-01_s01e20b",
+      "subject_id": "sub-01",
+      "feature_set_name": "roi_scores",
+      "split": "train",
+      "roi_features": {
+        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s01e20b/tr_features.jsonl",
+        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s01e20b/tr_features.jsonl",
+        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s01e20b/tr_features.jsonl",
+        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s01e20b/tr_features.jsonl",
+        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s01e20b/tr_features.jsonl",
+        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s01e20b/tr_features.jsonl",
+        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s01e20b/tr_features.jsonl",
+        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s01e20b/tr_features.jsonl",
+        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s01e20b/tr_features.jsonl",
+        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s01e20b/tr_features.jsonl",
+        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s01e20b/tr_features.jsonl",
+        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s01e20b/tr_features.jsonl",
+        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s01e20b/tr_features.jsonl",
+        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s01e20b/tr_features.jsonl"
+      },
+      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
+      "h5_dataset": "ses-009_task-s01e20b",
+      "feature_trim_start_tr": 0,
+      "feature_trim_end_tr": 0,
+      "fmri_trim_start_tr": 5,
+      "fmri_trim_end_tr": 5,
       "line_number": 30
+    },
+    {
+      "sample_id": "sub-01_s01e21a",
+      "subject_id": "sub-01",
+      "feature_set_name": "roi_scores",
+      "split": "train",
+      "roi_features": {
+        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s01e21a/tr_features.jsonl",
+        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s01e21a/tr_features.jsonl",
+        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s01e21a/tr_features.jsonl",
+        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s01e21a/tr_features.jsonl",
+        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s01e21a/tr_features.jsonl",
+        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s01e21a/tr_features.jsonl",
+        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s01e21a/tr_features.jsonl",
+        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s01e21a/tr_features.jsonl",
+        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s01e21a/tr_features.jsonl",
+        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s01e21a/tr_features.jsonl",
+        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s01e21a/tr_features.jsonl",
+        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s01e21a/tr_features.jsonl",
+        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s01e21a/tr_features.jsonl",
+        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s01e21a/tr_features.jsonl"
+      },
+      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
+      "h5_dataset": "ses-009_task-s01e21a",
+      "feature_trim_start_tr": 0,
+      "feature_trim_end_tr": 0,
+      "fmri_trim_start_tr": 5,
+      "fmri_trim_end_tr": 5,
+      "line_number": 31
+    },
+    {
+      "sample_id": "sub-01_s01e21b",
+      "subject_id": "sub-01",
+      "feature_set_name": "roi_scores",
+      "split": "train",
+      "roi_features": {
+        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s01e21b/tr_features.jsonl",
+        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s01e21b/tr_features.jsonl",
+        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s01e21b/tr_features.jsonl",
+        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s01e21b/tr_features.jsonl",
+        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s01e21b/tr_features.jsonl",
+        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s01e21b/tr_features.jsonl",
+        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s01e21b/tr_features.jsonl",
+        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s01e21b/tr_features.jsonl",
+        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s01e21b/tr_features.jsonl",
+        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s01e21b/tr_features.jsonl",
+        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s01e21b/tr_features.jsonl",
+        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s01e21b/tr_features.jsonl",
+        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s01e21b/tr_features.jsonl",
+        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s01e21b/tr_features.jsonl"
+      },
+      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
+      "h5_dataset": "ses-009_task-s01e21b",
+      "feature_trim_start_tr": 0,
+      "feature_trim_end_tr": 0,
+      "fmri_trim_start_tr": 5,
+      "fmri_trim_end_tr": 5,
+      "line_number": 32
+    },
+    {
+      "sample_id": "sub-01_s01e22a",
+      "subject_id": "sub-01",
+      "feature_set_name": "roi_scores",
+      "split": "train",
+      "roi_features": {
+        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s01e22a/tr_features.jsonl",
+        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s01e22a/tr_features.jsonl",
+        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s01e22a/tr_features.jsonl",
+        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s01e22a/tr_features.jsonl",
+        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s01e22a/tr_features.jsonl",
+        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s01e22a/tr_features.jsonl",
+        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s01e22a/tr_features.jsonl",
+        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s01e22a/tr_features.jsonl",
+        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s01e22a/tr_features.jsonl",
+        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s01e22a/tr_features.jsonl",
+        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s01e22a/tr_features.jsonl",
+        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s01e22a/tr_features.jsonl",
+        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s01e22a/tr_features.jsonl",
+        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s01e22a/tr_features.jsonl"
+      },
+      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
+      "h5_dataset": "ses-009_task-s01e22a",
+      "feature_trim_start_tr": 0,
+      "feature_trim_end_tr": 0,
+      "fmri_trim_start_tr": 5,
+      "fmri_trim_end_tr": 5,
+      "line_number": 33
+    },
+    {
+      "sample_id": "sub-01_s01e22b",
+      "subject_id": "sub-01",
+      "feature_set_name": "roi_scores",
+      "split": "train",
+      "roi_features": {
+        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s01e22b/tr_features.jsonl",
+        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s01e22b/tr_features.jsonl",
+        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s01e22b/tr_features.jsonl",
+        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s01e22b/tr_features.jsonl",
+        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s01e22b/tr_features.jsonl",
+        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s01e22b/tr_features.jsonl",
+        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s01e22b/tr_features.jsonl",
+        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s01e22b/tr_features.jsonl",
+        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s01e22b/tr_features.jsonl",
+        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s01e22b/tr_features.jsonl",
+        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s01e22b/tr_features.jsonl",
+        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s01e22b/tr_features.jsonl",
+        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s01e22b/tr_features.jsonl",
+        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s01e22b/tr_features.jsonl"
+      },
+      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
+      "h5_dataset": "ses-009_task-s01e22b",
+      "feature_trim_start_tr": 0,
+      "feature_trim_end_tr": 0,
+      "fmri_trim_start_tr": 5,
+      "fmri_trim_end_tr": 5,
+      "line_number": 34
+    },
+    {
+      "sample_id": "sub-01_s01e23a",
+      "subject_id": "sub-01",
+      "feature_set_name": "roi_scores",
+      "split": "train",
+      "roi_features": {
+        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s01e23a/tr_features.jsonl",
+        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s01e23a/tr_features.jsonl",
+        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s01e23a/tr_features.jsonl",
+        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s01e23a/tr_features.jsonl",
+        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s01e23a/tr_features.jsonl",
+        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s01e23a/tr_features.jsonl",
+        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s01e23a/tr_features.jsonl",
+        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s01e23a/tr_features.jsonl",
+        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s01e23a/tr_features.jsonl",
+        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s01e23a/tr_features.jsonl",
+        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s01e23a/tr_features.jsonl",
+        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s01e23a/tr_features.jsonl",
+        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s01e23a/tr_features.jsonl",
+        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s01e23a/tr_features.jsonl"
+      },
+      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
+      "h5_dataset": "ses-010_task-s01e23a",
+      "feature_trim_start_tr": 0,
+      "feature_trim_end_tr": 0,
+      "fmri_trim_start_tr": 5,
+      "fmri_trim_end_tr": 5,
+      "line_number": 35
+    },
+    {
+      "sample_id": "sub-01_s02e01a",
+      "subject_id": "sub-01",
+      "feature_set_name": "roi_scores",
+      "split": "val",
+      "roi_features": {
+        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s02e01a/tr_features.jsonl",
+        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s02e01a/tr_features.jsonl",
+        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s02e01a/tr_features.jsonl",
+        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s02e01a/tr_features.jsonl",
+        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s02e01a/tr_features.jsonl",
+        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s02e01a/tr_features.jsonl",
+        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s02e01a/tr_features.jsonl",
+        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s02e01a/tr_features.jsonl",
+        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s02e01a/tr_features.jsonl",
+        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s02e01a/tr_features.jsonl",
+        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s02e01a/tr_features.jsonl",
+        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s02e01a/tr_features.jsonl",
+        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s02e01a/tr_features.jsonl",
+        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s02e01a/tr_features.jsonl"
+      },
+      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
+      "h5_dataset": "ses-010_task-s02e01a",
+      "feature_trim_start_tr": 0,
+      "feature_trim_end_tr": 0,
+      "fmri_trim_start_tr": 5,
+      "fmri_trim_end_tr": 5,
+      "line_number": 36
+    },
+    {
+      "sample_id": "sub-01_s02e02a",
+      "subject_id": "sub-01",
+      "feature_set_name": "roi_scores",
+      "split": "val",
+      "roi_features": {
+        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s02e02a/tr_features.jsonl",
+        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s02e02a/tr_features.jsonl",
+        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s02e02a/tr_features.jsonl",
+        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s02e02a/tr_features.jsonl",
+        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s02e02a/tr_features.jsonl",
+        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s02e02a/tr_features.jsonl",
+        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s02e02a/tr_features.jsonl",
+        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s02e02a/tr_features.jsonl",
+        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s02e02a/tr_features.jsonl",
+        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s02e02a/tr_features.jsonl",
+        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s02e02a/tr_features.jsonl",
+        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s02e02a/tr_features.jsonl",
+        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s02e02a/tr_features.jsonl",
+        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s02e02a/tr_features.jsonl"
+      },
+      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
+      "h5_dataset": "ses-011_task-s02e02a",
+      "feature_trim_start_tr": 0,
+      "feature_trim_end_tr": 0,
+      "fmri_trim_start_tr": 5,
+      "fmri_trim_end_tr": 5,
+      "line_number": 37
+    },
+    {
+      "sample_id": "sub-01_s02e03a",
+      "subject_id": "sub-01",
+      "feature_set_name": "roi_scores",
+      "split": "val",
+      "roi_features": {
+        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s02e03a/tr_features.jsonl",
+        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s02e03a/tr_features.jsonl",
+        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s02e03a/tr_features.jsonl",
+        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s02e03a/tr_features.jsonl",
+        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s02e03a/tr_features.jsonl",
+        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s02e03a/tr_features.jsonl",
+        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s02e03a/tr_features.jsonl",
+        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s02e03a/tr_features.jsonl",
+        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s02e03a/tr_features.jsonl",
+        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s02e03a/tr_features.jsonl",
+        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s02e03a/tr_features.jsonl",
+        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s02e03a/tr_features.jsonl",
+        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s02e03a/tr_features.jsonl",
+        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s02e03a/tr_features.jsonl"
+      },
+      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
+      "h5_dataset": "ses-011_task-s02e03a",
+      "feature_trim_start_tr": 0,
+      "feature_trim_end_tr": 0,
+      "fmri_trim_start_tr": 5,
+      "fmri_trim_end_tr": 5,
+      "line_number": 38
+    },
+    {
+      "sample_id": "sub-01_s02e04a",
+      "subject_id": "sub-01",
+      "feature_set_name": "roi_scores",
+      "split": "val",
+      "roi_features": {
+        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s02e04a/tr_features.jsonl",
+        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s02e04a/tr_features.jsonl",
+        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s02e04a/tr_features.jsonl",
+        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s02e04a/tr_features.jsonl",
+        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s02e04a/tr_features.jsonl",
+        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s02e04a/tr_features.jsonl",
+        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s02e04a/tr_features.jsonl",
+        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s02e04a/tr_features.jsonl",
+        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s02e04a/tr_features.jsonl",
+        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s02e04a/tr_features.jsonl",
+        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s02e04a/tr_features.jsonl",
+        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s02e04a/tr_features.jsonl",
+        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s02e04a/tr_features.jsonl",
+        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s02e04a/tr_features.jsonl"
+      },
+      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
+      "h5_dataset": "ses-011_task-s02e04a",
+      "feature_trim_start_tr": 0,
+      "feature_trim_end_tr": 0,
+      "fmri_trim_start_tr": 5,
+      "fmri_trim_end_tr": 5,
+      "line_number": 39
+    },
+    {
+      "sample_id": "sub-01_s02e05a",
+      "subject_id": "sub-01",
+      "feature_set_name": "roi_scores",
+      "split": "val",
+      "roi_features": {
+        "ACC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/ACC/scores/s02e05a/tr_features.jsonl",
+        "AG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/AG/scores/s02e05a/tr_features.jsonl",
+        "DLPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/DLPFC/scores/s02e05a/tr_features.jsonl",
+        "FFA": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/FFA/scores/s02e05a/tr_features.jsonl",
+        "IPL": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/IPL/scores/s02e05a/tr_features.jsonl",
+        "Insula": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Insula/scores/s02e05a/tr_features.jsonl",
+        "OFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/OFC/scores/s02e05a/tr_features.jsonl",
+        "PCC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/PCC/scores/s02e05a/tr_features.jsonl",
+        "Precuneus": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Precuneus/scores/s02e05a/tr_features.jsonl",
+        "SMG": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/SMG/scores/s02e05a/tr_features.jsonl",
+        "TPJ": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/TPJ/scores/s02e05a/tr_features.jsonl",
+        "Temporal_Pole": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/Temporal_Pole/scores/s02e05a/tr_features.jsonl",
+        "VMPFC": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/VMPFC/scores/s02e05a/tr_features.jsonl",
+        "pSTS": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../rois/pSTS/scores/s02e05a/tr_features.jsonl"
+      },
+      "h5_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/../../../BN/sub-01/BN_246.h5",
+      "h5_dataset": "ses-011_task-s02e05a",
+      "feature_trim_start_tr": 0,
+      "feature_trim_end_tr": 0,
+      "fmri_trim_start_tr": 5,
+      "fmri_trim_end_tr": 5,
+      "line_number": 40
     },
     {
       "sample_id": "sub-01_s06e01a",
@@ -1854,7 +2144,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 31
+      "line_number": 41
     },
     {
       "sample_id": "sub-01_s06e01b",
@@ -1883,7 +2173,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 32
+      "line_number": 42
     },
     {
       "sample_id": "sub-01_s06e03a",
@@ -1912,7 +2202,7 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 33
+      "line_number": 43
     },
     {
       "sample_id": "sub-01_s06e03b",
@@ -1941,15 +2231,15 @@
       "feature_trim_end_tr": 0,
       "fmri_trim_start_tr": 5,
       "fmri_trim_end_tr": 5,
-      "line_number": 34
+      "line_number": 44
     }
   ],
   "subjects": [
     {
       "subject_id": "sub-01",
       "best_alpha": 10000.0,
-      "mean_test_pearson": 0.19168122270174712,
-      "median_test_pearson": 0.18647850918980788,
+      "mean_test_pearson": 0.19581513507019482,
+      "median_test_pearson": 0.19172457333767776,
       "n_retained_parcels": 86,
       "n_test_trs": 1812,
       "roi_summaries": {
@@ -1957,8 +2247,8 @@
           "subject_id": "sub-01",
           "roi_id": "ACC",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.1860747242092297,
-          "median_test_pearson": 0.17439475101927637,
+          "mean_test_pearson": 0.1900883000393116,
+          "median_test_pearson": 0.18482253700557993,
           "n_total_selected_parcels": 8,
           "n_retained_parcels": 8
         },
@@ -1966,8 +2256,8 @@
           "subject_id": "sub-01",
           "roi_id": "AG",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.2352058990179983,
-          "median_test_pearson": 0.18713384895302942,
+          "mean_test_pearson": 0.24497451087480152,
+          "median_test_pearson": 0.20263335608171248,
           "n_total_selected_parcels": 6,
           "n_retained_parcels": 6
         },
@@ -1975,8 +2265,8 @@
           "subject_id": "sub-01",
           "roi_id": "DLPFC",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.18476382833544516,
-          "median_test_pearson": 0.19887597783620525,
+          "mean_test_pearson": 0.191632410842932,
+          "median_test_pearson": 0.1918295266450194,
           "n_total_selected_parcels": 10,
           "n_retained_parcels": 10
         },
@@ -1984,8 +2274,8 @@
           "subject_id": "sub-01",
           "roi_id": "FFA",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.21772117527528048,
-          "median_test_pearson": 0.2211175796024713,
+          "mean_test_pearson": 0.2323618750598884,
+          "median_test_pearson": 0.23483267451353856,
           "n_total_selected_parcels": 4,
           "n_retained_parcels": 4
         },
@@ -1993,8 +2283,8 @@
           "subject_id": "sub-01",
           "roi_id": "IPL",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.2534363981622188,
-          "median_test_pearson": 0.1993098849233087,
+          "mean_test_pearson": 0.25901347480213144,
+          "median_test_pearson": 0.203334733153188,
           "n_total_selected_parcels": 12,
           "n_retained_parcels": 12
         },
@@ -2002,8 +2292,8 @@
           "subject_id": "sub-01",
           "roi_id": "Insula",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.18144839250620579,
-          "median_test_pearson": 0.1842192607844085,
+          "mean_test_pearson": 0.18433984138522455,
+          "median_test_pearson": 0.1841426501986635,
           "n_total_selected_parcels": 12,
           "n_retained_parcels": 12
         },
@@ -2011,8 +2301,8 @@
           "subject_id": "sub-01",
           "roi_id": "OFC",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.17497839661319536,
-          "median_test_pearson": 0.1668343383158365,
+          "mean_test_pearson": 0.1780229002914505,
+          "median_test_pearson": 0.16566684534204545,
           "n_total_selected_parcels": 12,
           "n_retained_parcels": 12
         },
@@ -2020,8 +2310,8 @@
           "subject_id": "sub-01",
           "roi_id": "PCC",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.2106549646714412,
-          "median_test_pearson": 0.1884138959686491,
+          "mean_test_pearson": 0.21906440974223837,
+          "median_test_pearson": 0.19637526412674672,
           "n_total_selected_parcels": 6,
           "n_retained_parcels": 6
         },
@@ -2029,8 +2319,8 @@
           "subject_id": "sub-01",
           "roi_id": "Precuneus",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.1443880834098965,
-          "median_test_pearson": 0.11174269109876246,
+          "mean_test_pearson": 0.14535799547779238,
+          "median_test_pearson": 0.12774243752925324,
           "n_total_selected_parcels": 8,
           "n_retained_parcels": 8
         },
@@ -2038,8 +2328,8 @@
           "subject_id": "sub-01",
           "roi_id": "SMG",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.2716668973064392,
-          "median_test_pearson": 0.28683608003810596,
+          "mean_test_pearson": 0.2730524387294614,
+          "median_test_pearson": 0.2882464432001664,
           "n_total_selected_parcels": 6,
           "n_retained_parcels": 6
         },
@@ -2047,8 +2337,8 @@
           "subject_id": "sub-01",
           "roi_id": "TPJ",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.23567212923282366,
-          "median_test_pearson": 0.1993098849233087,
+          "mean_test_pearson": 0.23885820430012877,
+          "median_test_pearson": 0.2007890031138524,
           "n_total_selected_parcels": 20,
           "n_retained_parcels": 20
         },
@@ -2056,8 +2346,8 @@
           "subject_id": "sub-01",
           "roi_id": "Temporal_Pole",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.1765812259227208,
-          "median_test_pearson": 0.16662187480753973,
+          "mean_test_pearson": 0.1800964587850287,
+          "median_test_pearson": 0.1670587718925809,
           "n_total_selected_parcels": 4,
           "n_retained_parcels": 4
         },
@@ -2065,8 +2355,8 @@
           "subject_id": "sub-01",
           "roi_id": "VMPFC",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.15158322943703667,
-          "median_test_pearson": 0.1308579788839144,
+          "mean_test_pearson": 0.1536998441630578,
+          "median_test_pearson": 0.13130948552303506,
           "n_total_selected_parcels": 8,
           "n_retained_parcels": 8
         },
@@ -2074,8 +2364,8 @@
           "subject_id": "sub-01",
           "roi_id": "pSTS",
           "primary_metric": "mean_test_pearson",
-          "mean_test_pearson": 0.17129296518933823,
-          "median_test_pearson": 0.17130924382755822,
+          "mean_test_pearson": 0.1676529021208093,
+          "median_test_pearson": 0.1688309845707046,
           "n_total_selected_parcels": 4,
           "n_retained_parcels": 4
         }

@@ -5,9 +5,9 @@
   "alignment": "overlap_weighted",
   "scoring_batch_size": 40,
   "local_buffer_size": 10,
-  "provider": "gemini",
+  "provider": "aihubmix",
   "model": "gemini-3.5-flash",
-  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/summaries/s01e03a/summary.json",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s01e03a/summary.json",
   "scoring_warnings": {
     "warning_count": 0,
     "reason_counts": {},
@@ -15,7 +15,7 @@
     "zero_filled_segments": 0
   },
   "gt": null,
-  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/ACC/region_schema.json",
+  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/ACC/region_schema.json",
   "feature_names": [
     "narrative_conflict_and_dilemma",
     "expectancy_violation_and_surprise",
