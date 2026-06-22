@@ -8,8 +8,8 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-1.md`
-- **Total Sessions**: 33
-- **Last Active**: 2026-06-18
+- **Total Sessions**: 34
+- **Last Active**: 2026-06-22
 <!-- @@@/auto:current-status -->
 
 ---
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-1.md` | ~1161 | Active |
+| `journal-1.md` | ~1200 | Active |
 <!-- @@@/auto:active-documents -->
 
 ---
@@ -29,6 +29,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 34 | 2026-06-22 | Friends scoring and encoding sweep wrap-up | `09e9984`, `b6e5385` | `main` |
 | 33 | 2026-06-18 | Friends pass24 encoding sweep | `adaaa3e`, `08ee061` | `main` |
 | 32 | 2026-06-16 | Encoding raw TR alignment | `abeac4d` | `main` |
 | 31 | 2026-06-14 | AIHubMix Gemini SDK migration | `4914e9d` | `main` |

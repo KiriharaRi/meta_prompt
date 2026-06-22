@@ -1164,3 +1164,37 @@ Aligned ROI encoding features to fMRI raw TR trim, kept scoring unchanged, added
 ### Next Steps
 
 - None - task complete
+
+
+## Session 34: Friends scoring and encoding sweep wrap-up
+
+**Date**: 2026-06-22
+**Task**: Friends scoring and encoding sweep wrap-up
+**Branch**: `main`
+
+### Summary
+
+Completed Friends scoring/encoding sweep outputs, tracked pass sweep configs/progress and plus10 encoding results, and produced the weekly PPT summary for train-size and validation-split effects.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `09e9984` | (see git log) |
+| `b6e5385` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
