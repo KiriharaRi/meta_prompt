@@ -313,7 +313,10 @@ Added a manifest-driven H5 fMRI Ridge encoding stage, documented the new encodin
 
 ### Main Changes
 
-(Add details)
+- Added `configs/friends_train_size_sweep_20260617/s01_train_s02_val.json`.
+- Ran a 14-ROI encoding experiment with 25 S01 train episodes, 5 S02 validation episodes, and 4 S06 test episodes.
+- Preserved ignored encoding outputs under `friends/analysis/train_size_sweep_20260617/s01_train_s02_val/encoding/`.
+- Reported overall test Pearson `0.191285`, median test Pearson `0.186196`, selected alpha `10000`, and ROI-level metrics.
 
 ### Git Commits
 
@@ -324,7 +327,9 @@ Added a manifest-driven H5 fMRI Ridge encoding stage, documented the new encodin
 
 ### Testing
 
-- [OK] (Add test results)
+- [OK] `uv run python -m brain_region_pipeline run-multi-roi-pilot --config configs/friends_train_size_sweep_20260617/s01_train_s02_val.json --dry-run`
+- [OK] `uv run python -m compileall brain_region_pipeline tests`
+- [OK] `uv run python -m unittest discover -s tests -p 'test_*.py'` (101 tests)
 
 ### Status
 
@@ -1186,6 +1191,39 @@ Completed Friends scoring/encoding sweep outputs, tracked pass sweep configs/pro
 |------|---------|
 | `09e9984` | (see git log) |
 | `b6e5385` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
+
+
+## Session 35: Friends S01 train S02 validation encoding
+
+**Date**: 2026-06-22
+**Task**: Friends S01 train S02 validation encoding
+**Branch**: `main`
+
+### Summary
+
+Ran Friends 14-ROI encoding with S01 episodes as train, S02 episodes as validation, and S06 episodes as test; added the split config and reported fMRI prediction performance.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `e3d30b4` | (see git log) |
 
 ### Testing
 
