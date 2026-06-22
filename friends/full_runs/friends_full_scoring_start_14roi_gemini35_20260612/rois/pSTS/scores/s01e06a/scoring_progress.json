@@ -1,20 +1,20 @@
 {
   "command": "score-descriptions",
   "status": "complete",
-  "updated_at": "2026-06-05T17:45:16+00:00",
+  "updated_at": "2026-06-18T09:53:31+00:00",
   "total_segments": 280,
   "completed_segments": 280,
   "next_segment_id": 280,
   "completed_batches": 7,
   "scoring_batch_size": 40,
   "local_buffer_size": 10,
-  "provider": "gemini",
+  "provider": "aihubmix",
   "model": "gemini-3.5-flash",
   "run_signature": {
     "descriptions_sha256": "4dd628b52fc9621cc69ba77eb5273f7039cb85e53df2c36cb8a323a7b7e6848c",
     "region_schema_sha256": "ab8f85015b07733a30d4ef62e4057f73ec8dbd39368125a32a2393235f0bd5b6",
     "summary_file_sha256": "0763f4dd9456fd5a3d376c25041a2ea388900033e18ea81cb16fb953bbd9dc5b",
-    "provider": "gemini",
+    "provider": "aihubmix",
     "model": "gemini-3.5-flash",
     "scoring_batch_size": 40,
     "local_buffer_size": 10,
@@ -28,8 +28,8 @@
   },
   "source_paths": {
     "descriptions": "/Users/kiriharari/codex_paper/meta_prompt/friends/description/downloaded_refine_descriptions/mv_friends_s01e06a/descriptions/refined_description.md",
-    "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/pSTS/region_schema.json",
-    "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/summaries/s01e06a/summary.json",
+    "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/pSTS/region_schema.json",
+    "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s01e06a/summary.json",
     "gt_dir": null
   },
   "scoring_warnings": {
