@@ -1,0 +1,7 @@
+{"_example": "Fill with {\"file\": \"<path>\", \"reason\": \"<why>\"}. Put spec/research files only — no code paths. Run `python3 .trellis/scripts/get_context.py --mode packages` to list available specs. Delete this line once real entries are added."}
+{"file": "friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/group_summary.json", "reason": "plus5 encoding result metrics"}
+{"file": "friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/roi_encoding_manifest.jsonl", "reason": "manifest verifies 24 train 1 val 4 test split"}
+{"file": "friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding_sweeps_20260618/combined_summary.md", "reason": "train-size and validation-choice encoding sweep summary"}
+{"file": "friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding_sweeps_20260618/combined_summary.json", "reason": "machine-readable combined encoding sweep results"}
+{"file": "friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding_sweeps_20260618/train_size_summary.csv", "reason": "train-size sweep CSV summary"}
+{"file": "friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding_sweeps_20260618/val_choice_summary.csv", "reason": "validation-choice sweep CSV summary"}

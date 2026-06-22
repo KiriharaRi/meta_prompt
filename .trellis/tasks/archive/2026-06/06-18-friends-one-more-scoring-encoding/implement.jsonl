@@ -1,0 +1,7 @@
+{"_example": "Fill with {\"file\": \"<path>\", \"reason\": \"<why>\"}. Put spec/research files only — no code paths. Run `python3 .trellis/scripts/get_context.py --mode packages` to list available specs. Delete this line once real entries are added."}
+{"file": "configs/friends_s1_1_scoring_20260618.json", "reason": "one-episode scoring config for s01e16a"}
+{"file": "configs/friends_s1s2_s06_plus5_encoding_20260618.json", "reason": "encoding config with s01e16a added to train split"}
+{"file": "configs/friends_s1_3_scoring_20260618.json", "reason": "three-episode scoring config for s01e16b/s01e17a/s01e17b"}
+{"file": "configs/friends_s1s2_s06_plus8_encoding_20260618.json", "reason": "encoding config with three additional train episodes"}
+{"file": "configs/friends_s1_2_scoring_20260618.json", "reason": "two-episode scoring config for s01e18a/s01e18b"}
+{"file": "configs/friends_s1s2_s06_plus10_encoding_20260618.json", "reason": "encoding config with s01e18a/s01e18b added to train"}
