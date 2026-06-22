@@ -8,7 +8,7 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-1.md`
-- **Total Sessions**: 35
+- **Total Sessions**: 36
 - **Last Active**: 2026-06-22
 <!-- @@@/auto:current-status -->
 
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-1.md` | ~1233 | Active |
+| `journal-1.md` | ~1273 | Active |
 <!-- @@@/auto:active-documents -->
 
 ---
@@ -29,6 +29,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 36 | 2026-06-22 | Friends plus10 scoring and train-size sweep | `005b5b7`, `4e6bc76`, `6e7435f` | `main` |
 | 35 | 2026-06-22 | Friends S01 train S02 validation encoding | `e3d30b4` | `main` |
 | 34 | 2026-06-22 | Friends scoring and encoding sweep wrap-up | `09e9984`, `b6e5385` | `main` |
 | 33 | 2026-06-18 | Friends pass24 encoding sweep | `adaaa3e`, `08ee061` | `main` |

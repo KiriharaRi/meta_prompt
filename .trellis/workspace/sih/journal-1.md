@@ -1236,3 +1236,38 @@ Ran Friends 14-ROI encoding with S01 episodes as train, S02 episodes as validati
 ### Next Steps
 
 - None - task complete
+
+
+## Session 36: Friends plus10 scoring and train-size sweep
+
+**Date**: 2026-06-22
+**Task**: Friends plus10 scoring and train-size sweep
+**Branch**: `main`
+
+### Summary
+
+Added the Friends plus10 scoring/encoding outputs, committed fresh train-size sweep configs, added the no-SEM Friends-vs-Tribe plotting helper, verified tests and artifacts, then archived the task.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `005b5b7` | (see git log) |
+| `4e6bc76` | (see git log) |
+| `6e7435f` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
