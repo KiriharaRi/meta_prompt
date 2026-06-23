@@ -15,9 +15,10 @@ unrelated changes.
 
 ## Forbidden Patterns
 
-- Do not make `brain_region_pipeline` import from `test_pipeline`. The current
-  package boundary is scoring-only; old validation or experiment code must stay
-  separate until a new encoding design is specified.
+- Do not make `brain_region_pipeline` import from `test_pipeline` or legacy
+  experiment folders. The maintained package boundary is the current CLI-backed
+  schema-design, scoring, atlas, encoding, and pilot workflow; old validation or
+  experiment code must stay separate unless a workflow explicitly adopts it.
 - Do not expose an incomplete CLI command as a retained feature. If a command is
   deferred, remove the parser entry and add a test that it is unavailable.
 - Do not silently change serialized JSON field names, feature vector ordering, or
@@ -48,7 +49,7 @@ For changes to `brain_region_pipeline`, run:
 
 ```bash
 uv run python -m unittest discover -s tests -p 'test_*.py'
-uv run python -m compileall brain_region_pipeline tests
+uv run python -m compileall brain_region_pipeline tests scripts
 ```
 
 When a CLI command is removed or added, also check the top-level CLI help and
@@ -305,9 +306,8 @@ Pilot configs may include:
 - Regression tests that Gemini client creation passes SDK retry options and
   `generate_structured_json(...)` does not add a second application-level retry
   loop.
-- Standard validation:
-  `uv run python -m unittest discover -s tests -p 'test_*.py'` and
-  `uv run python -m compileall brain_region_pipeline tests`.
+- Run the standard backend validation from Testing Requirements after the
+  scenario-specific tests.
 
 ### 7. Wrong vs Correct
 
@@ -339,7 +339,7 @@ payload = generate_structured_json(
 ### 1. Scope / Trigger
 
 - Trigger: changes touching `score-descriptions`, `runner.py`,
-  `region_schema_scorer.py`, `scoring_checkpoint.py`, segment-score JSONL
+  `region_schema_scorer.py`, `scoring/checkpoint.py`, segment-score JSONL
   contracts, or long-running scoring recovery behavior.
 - This is a cross-layer contract: CLI flags, runner orchestration, scorer batch
   IDs, JSONL rows, progress metadata, README, and tests must stay aligned.
@@ -369,7 +369,7 @@ uv run python -m brain_region_pipeline score-descriptions \
 - `region_schema_scorer.py` owns LLM prompts and batch scoring only. It should
   return `SegmentRegionScore` rows with stable `segment_id` and `batch_idx`, but
   must not write checkpoint files.
-- `scoring_checkpoint.py` owns output-policy checks, input signatures, progress
+- `scoring/checkpoint.py` owns output-policy checks, input signatures, progress
   payloads, and resume validation.
 - During scoring, only `segment_region_scores.jsonl`,
   `scoring_warnings.jsonl`, and `scoring_progress.json` are written
@@ -395,8 +395,8 @@ uv run python -m brain_region_pipeline score-descriptions \
 - Resume score rows missing `segment_id` or `batch_idx` -> `ValueError`.
 - Resume score rows that are non-contiguous, duplicated, out of order, have a
   partial batch, or do not match the current descriptions/schema -> `ValueError`.
-- Complete score rows but missing final derived outputs -> resume skips Gemini
-  and regenerates only final outputs.
+- Complete score rows but missing final derived outputs -> resume skips LLM
+  generation and regenerates only final outputs.
 
 ### 5. Good/Base/Bad Cases
 
@@ -405,8 +405,8 @@ uv run python -m brain_region_pipeline score-descriptions \
   the same command with `--resume` starts at batch 20 and writes final outputs
   after all scores are complete.
 - Base: all segment scores are already committed, but final TR files are absent
-  because alignment crashed; `--resume` skips Gemini and regenerates derived
-  outputs from committed scores.
+  because alignment crashed; `--resume` skips LLM generation and regenerates
+  derived outputs from committed scores.
 - Bad: an output dir contains old score rows and the user reruns without
   `--resume` or `--overwrite`. Silent overwrite or mixed output is forbidden.
 
@@ -418,11 +418,10 @@ uv run python -m brain_region_pipeline score-descriptions \
 - Interrupted run resumes from committed batches and does not rescore earlier
   rows.
 - Resume rejects changed scoring config or input signature.
-- Complete score rows with missing final outputs skip Gemini and finalize from
-  disk.
-- Required validation still passes:
-  `uv run python -m unittest discover -s tests -p 'test_*.py'` and
-  `uv run python -m compileall brain_region_pipeline tests`.
+- Complete score rows with missing final outputs skip LLM generation and
+  finalize from disk.
+- Run the standard backend validation from Testing Requirements after the
+  scenario-specific tests.
 
 ### 7. Wrong vs Correct
 
@@ -431,7 +430,7 @@ uv run python -m brain_region_pipeline score-descriptions \
 ```text
 score-descriptions
 # runner holds all scores in memory and writes segment_region_scores.jsonl only
-# after the last Gemini batch returns
+# after the last LLM batch returns
 ```
 
 #### Correct
@@ -590,10 +589,9 @@ Pilot configs may include encoding-time fMRI trim settings:
   non-contiguous `tr_index` rejected before model fitting.
 - CLI help exposes `fit-roi-encoding` and `run-multi-roi-pilot`.
 - Pilot dry-run validates ROI definitions, episode paths, H5 datasets, and
-  prints scoring job scale without calling Gemini.
-- Required validation still passes:
-  `uv run python -m unittest discover -s tests -p 'test_*.py'` and
-  `uv run python -m compileall brain_region_pipeline tests`.
+  prints scoring job scale without calling the configured LLM.
+- Run the standard backend validation from Testing Requirements after the
+  scenario-specific tests.
 
 ### 7. Wrong vs Correct
 
@@ -704,9 +702,8 @@ Fixed ROI definitions may use 1-based Brainnetome label ids:
   `label_ids`.
 - Encoding tests must use Brainnetome/Yeo CSV fixtures, not legacy atlas txt
   fixtures.
-- Required validation still passes:
-  `uv run python -m unittest discover -s tests -p 'test_*.py'` and
-  `uv run python -m compileall brain_region_pipeline tests`.
+- Run the standard backend validation from Testing Requirements after the
+  scenario-specific tests.
 
 ### 7. Wrong vs Correct
 
@@ -740,10 +737,26 @@ Fixed ROI definitions may use 1-based Brainnetome label ids:
 
 ### 2. Signatures
 
-- `uv run python -m brain_region_pipeline make-domain-pool --atlas-labels <labels.txt> --target-region <region> --output-file <domain_pool.json> [--model <model>] [--proposal-runs <n>]`
-- `uv run python -m brain_region_pipeline make-region-schema --atlas-labels <labels.txt> --target-region <region> --domain-pool <confirmed_domain_pool.json> --output-file <region_schema.json> [--model <model>]`
-- `score-descriptions` consumes `region_schema_v1.json`; domain pools never flow
-  directly into scoring or encoding.
+```bash
+uv run python -m brain_region_pipeline make-domain-pool \
+  --atlas-labels <atlas.csv> \
+  --target-region <region> \
+  --output-file <domain_pool.json> \
+  [--provider aihubmix|packyapi|gemini] \
+  [--model <model>] \
+  [--proposal-runs <n>]
+
+uv run python -m brain_region_pipeline make-region-schema \
+  --atlas-labels <atlas.csv> \
+  --target-region <region> \
+  --domain-pool <confirmed_domain_pool.json> \
+  --output-file <region_schema.json> \
+  [--provider aihubmix|packyapi|gemini] \
+  [--model <model>]
+```
+
+`score-descriptions` consumes `region_schema_v1.json`; domain pools never flow
+directly into scoring or encoding.
 
 ### 3. Contracts
 
@@ -891,9 +904,8 @@ numeric dimensions when the split captures distinct target-region variables.
 - Dimension metadata round-trips through `DimensionSpec`.
 - Scorer prompt renders `domain`, `trigger_list`, `graded_anchors`,
   `calibration_examples`, `scoreability_note`, and `exclusion_note`.
-- Required validation still passes:
-  `uv run python -m unittest discover -s tests -p 'test_*.py'` and
-  `uv run python -m compileall brain_region_pipeline tests`.
+- Run the standard backend validation from Testing Requirements after the
+  scenario-specific tests.
 
 ### 7. Wrong vs Correct
 
@@ -931,15 +943,22 @@ columns.
 
 ### 2. Signatures
 
-- `uv run python -m brain_region_pipeline summarize-descriptions --descriptions <description.md> --output-file <summary.json>`
+```bash
+uv run python -m brain_region_pipeline summarize-descriptions \
+  --descriptions <description.md> \
+  --output-file <summary.json> \
+  [--provider aihubmix|packyapi|gemini] \
+  [--model <model>]
+```
 
 ### 3. Contracts
 
 - The first version processes one description file per invocation. It does not
   perform directory batch generation or resume partial summaries.
-- The CLI does not expose `--model` or batch-size flags. It uses the pipeline
-  default Gemini model from `GenerationConfig` and a fixed summary batch size of
-  40 description segments.
+- The CLI exposes shared `--provider` and `--model` generation flags but does
+  not expose batch-size flags. It uses the pipeline default generation
+  provider/model from `GenerationConfig` and a fixed summary batch size of 40
+  description segments.
 - `description_io.py` must parse both blank-line separated timestamp blocks and
   Friends-style Markdown files where timestamped segments appear on consecutive
   lines after metadata such as `**Movie:**` and `---`.
@@ -959,7 +978,7 @@ columns.
 
 - no parsed description segments -> `ValueError`
 - `summary_batch_size < 1` -> `ValueError`
-- Gemini generation failure for any batch -> `RuntimeError` with batch context
+- LLM generation failure for any batch -> `RuntimeError` with batch context
 - missing or empty `batch_summary` -> `ValueError`
 - missing or empty `cumulative_summary` -> `ValueError`
 
@@ -982,7 +1001,7 @@ columns.
 - Summary generator test covers rolling use of prior `cumulative_summary`, row
   indexes, and `timestamp_range`.
 - CLI test covers `summary.json`, `summary_metadata.json`, fixed batch size of
-  40, and absence of `--model` in help.
+  40, and presence of `--provider` / `--model` in help.
 - Empty input test verifies fail-fast behavior.
 
 ### 7. Wrong vs Correct
@@ -1022,7 +1041,24 @@ uv run python -m brain_region_pipeline score-descriptions \
 
 ### 2. Signatures
 
-- `uv run python -m brain_region_pipeline score-descriptions --descriptions <description.txt> --region-schema <region_schema.json> --output-dir <out_dir> [--summary-file <summary.json>] [--scoring-batch-size 40] [--local-buffer-size 10] [--gt-dir <csv_dir>] [--gt-file-pattern '*.csv'] [--gt-time-column '视频时间(s)'] [--gt-emotion-column '情绪值'] [--model <model>] [--tr-s 1.49] [--total-trs <n>] [--alignment overlap_weighted|repeat]`
+```bash
+uv run python -m brain_region_pipeline score-descriptions \
+  --descriptions <description.txt> \
+  --region-schema <region_schema.json> \
+  --output-dir <out_dir> \
+  [--summary-file <summary.json>] \
+  [--scoring-batch-size 40] \
+  [--local-buffer-size 10] \
+  [--gt-dir <csv_dir>] \
+  [--gt-file-pattern '*.csv'] \
+  [--gt-time-column '视频时间(s)'] \
+  [--gt-emotion-column '情绪值'] \
+  [--provider aihubmix|packyapi|gemini] \
+  [--model <model>] \
+  [--tr-s 1.49] \
+  [--total-trs <n>] \
+  [--alignment overlap_weighted|repeat]
+```
 
 ### 3. Contracts
 
