@@ -1271,3 +1271,37 @@ Added the Friends plus10 scoring/encoding outputs, committed fresh train-size sw
 ### Next Steps
 
 - None - task complete
+
+
+## Session 37: Friends next10 scoring and encoding prep
+
+**Date**: 2026-06-23
+**Task**: Friends next10 scoring and encoding prep
+**Branch**: `main`
+
+### Summary
+
+Prepared the Friends next10 scoring/encoding outputs and cleaned backend quality guideline drift before archiving the task.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `dee34c2` | (see git log) |
+| `df9d1e7` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
