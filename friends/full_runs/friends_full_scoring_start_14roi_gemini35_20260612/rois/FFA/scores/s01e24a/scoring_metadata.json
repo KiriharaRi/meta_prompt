@@ -1,0 +1,98 @@
+{
+  "n_segments": 296,
+  "n_trs": 515,
+  "tr_s": 1.49,
+  "alignment": "overlap_weighted",
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s01e24a/summary.json",
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  },
+  "gt": null,
+  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/FFA/region_schema.json",
+  "feature_names": [
+    "face_close_up_prominence",
+    "multiple_faces_density",
+    "face_framing_and_visibility",
+    "new_character_introduction",
+    "recurring_character_recognition",
+    "character_distinction_and_comparison",
+    "gaze_direction_and_eye_contact",
+    "micro_expression_and_subtle_reaction",
+    "intense_emotional_expression",
+    "human_agent_action",
+    "social_interaction_engagement",
+    "animate_vs_inanimate_contrast",
+    "fine_grained_object_discrimination",
+    "text_reading_and_symbol_decoding",
+    "complex_visual_pattern_analysis"
+  ],
+  "feature_metadata": [
+    {
+      "dimension_id": "face_close_up_prominence",
+      "domain": "face_presence_and_salience"
+    },
+    {
+      "dimension_id": "multiple_faces_density",
+      "domain": "face_presence_and_salience"
+    },
+    {
+      "dimension_id": "face_framing_and_visibility",
+      "domain": "face_presence_and_salience"
+    },
+    {
+      "dimension_id": "new_character_introduction",
+      "domain": "character_identity_tracking"
+    },
+    {
+      "dimension_id": "recurring_character_recognition",
+      "domain": "character_identity_tracking"
+    },
+    {
+      "dimension_id": "character_distinction_and_comparison",
+      "domain": "character_identity_tracking"
+    },
+    {
+      "dimension_id": "gaze_direction_and_eye_contact",
+      "domain": "facial_expression_and_gaze_decoding"
+    },
+    {
+      "dimension_id": "micro_expression_and_subtle_reaction",
+      "domain": "facial_expression_and_gaze_decoding"
+    },
+    {
+      "dimension_id": "intense_emotional_expression",
+      "domain": "facial_expression_and_gaze_decoding"
+    },
+    {
+      "dimension_id": "human_agent_action",
+      "domain": "animacy_and_social_presence"
+    },
+    {
+      "dimension_id": "social_interaction_engagement",
+      "domain": "animacy_and_social_presence"
+    },
+    {
+      "dimension_id": "animate_vs_inanimate_contrast",
+      "domain": "animacy_and_social_presence"
+    },
+    {
+      "dimension_id": "fine_grained_object_discrimination",
+      "domain": "subordinate_visual_expertise"
+    },
+    {
+      "dimension_id": "text_reading_and_symbol_decoding",
+      "domain": "subordinate_visual_expertise"
+    },
+    {
+      "dimension_id": "complex_visual_pattern_analysis",
+      "domain": "subordinate_visual_expertise"
+    }
+  ]
+}

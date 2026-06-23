@@ -5,91 +5,91 @@
   "rows": [
     {
       "alpha": 0.01,
-      "mean_val_pearson": 0.17373930769847512,
+      "mean_val_pearson": 0.19196260634415788,
       "n_val_trs": 2220,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 0.03,
-      "mean_val_pearson": 0.1737401061236029,
+      "mean_val_pearson": 0.19196322529220813,
       "n_val_trs": 2220,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 0.1,
-      "mean_val_pearson": 0.17374289937844287,
+      "mean_val_pearson": 0.19196539083009384,
       "n_val_trs": 2220,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 0.3,
-      "mean_val_pearson": 0.17375086957142988,
+      "mean_val_pearson": 0.1919715714109632,
       "n_val_trs": 2220,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 1.0,
-      "mean_val_pearson": 0.17377864365761742,
+      "mean_val_pearson": 0.19199312631667514,
       "n_val_trs": 2220,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 3.0,
-      "mean_val_pearson": 0.17385698834568872,
+      "mean_val_pearson": 0.1920540677273593,
       "n_val_trs": 2220,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 10.0,
-      "mean_val_pearson": 0.1741205114303443,
+      "mean_val_pearson": 0.19226043863988834,
       "n_val_trs": 2220,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 30.0,
-      "mean_val_pearson": 0.174801693321571,
+      "mean_val_pearson": 0.19280183337747436,
       "n_val_trs": 2220,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 100.0,
-      "mean_val_pearson": 0.17670122343386432,
+      "mean_val_pearson": 0.19434846014142518,
       "n_val_trs": 2220,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 300.0,
-      "mean_val_pearson": 0.18040774561476963,
+      "mean_val_pearson": 0.1974372353534169,
       "n_val_trs": 2220,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 1000.0,
-      "mean_val_pearson": 0.18761565392726356,
+      "mean_val_pearson": 0.20352062906460125,
       "n_val_trs": 2220,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 3000.0,
-      "mean_val_pearson": 0.19693910906768966,
+      "mean_val_pearson": 0.2112906874065079,
       "n_val_trs": 2220,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
     },
     {
       "alpha": 10000.0,
-      "mean_val_pearson": 0.20730403920075,
+      "mean_val_pearson": 0.21955295065488709,
       "n_val_trs": 2220,
       "n_defined_parcels": 86,
       "n_total_parcels": 86
