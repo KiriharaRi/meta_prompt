@@ -1340,3 +1340,36 @@ Completed Friends round2 scoring/encoding outputs, documented scoring warning re
 ### Next Steps
 
 - None - task complete
+
+
+## Session 39: Deepen Friends pilot artifact graph
+
+**Date**: 2026-06-25
+**Task**: Deepen Friends pilot artifact graph
+**Branch**: `main`
+
+### Summary
+
+Extracted Friends pilot artifact graph into PilotArtifacts, migrated the serial pilot runner to use it, updated tests, and synced the backend directory spec.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `2c7f50a` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete

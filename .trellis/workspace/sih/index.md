@@ -8,7 +8,7 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-1.md`
-- **Total Sessions**: 38
+- **Total Sessions**: 39
 - **Last Active**: 2026-06-25
 <!-- @@@/auto:current-status -->
 
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-1.md` | ~1342 | Active |
+| `journal-1.md` | ~1375 | Active |
 <!-- @@@/auto:active-documents -->
 
 ---
@@ -29,6 +29,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 39 | 2026-06-25 | Deepen Friends pilot artifact graph | `2c7f50a` | `main` |
 | 38 | 2026-06-25 | Friends round2 scoring and encoding | `2f6e30d`, `38a8378`, `b68bef4` | `main` |
 | 37 | 2026-06-23 | Friends next10 scoring and encoding prep | `dee34c2`, `df9d1e7` | `main` |
 | 36 | 2026-06-22 | Friends plus10 scoring and train-size sweep | `005b5b7`, `4e6bc76`, `6e7435f` | `main` |
