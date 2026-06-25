@@ -1472,3 +1472,36 @@ Moved schema-design stage runners from CLI-shaped args to typed input objects, u
 ### Next Steps
 
 - None - task complete
+
+
+## Session 43: Remove CLI-shaped encoding interface
+
+**Date**: 2026-06-25
+**Task**: Remove CLI-shaped encoding interface
+**Branch**: `main`
+
+### Summary
+
+Replaced the encoding runner's CLI-shaped args boundary with RoiEncodingInput, updated CLI and Friends pilot adapters, added staged/concurrent regression tests, and verified the backend suite.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `48cb04b` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
