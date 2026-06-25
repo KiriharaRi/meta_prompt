@@ -6,6 +6,7 @@ import tempfile
 import unittest
 from contextlib import redirect_stdout
 from pathlib import Path
+from unittest.mock import patch
 
 import h5py
 import numpy as np
@@ -21,7 +22,12 @@ from brain_region_pipeline.core.config import (
 )
 from brain_region_pipeline.encoding.manifest import load_roi_encoding_manifest
 from brain_region_pipeline.pilot.artifacts import PilotArtifacts
-from brain_region_pipeline.pilot.runner import load_pilot_config
+from brain_region_pipeline.pilot.runner import (
+    _run_domain_pools,
+    _run_schemas,
+    load_pilot_config,
+)
+from brain_region_pipeline.schema_design.runner import DomainPoolInput, RegionSchemaInput
 from brain_region_pipeline.schema_design.domain_models import CuratedDomain
 from brain_region_pipeline.schema_design.schema_models import DimensionSpec, RegionFeatureSchema
 
@@ -340,6 +346,118 @@ class MultiRoiEncodingTests(unittest.TestCase):
 
         self.assertIn("Dry-run multi-ROI pilot plan", stdout.getvalue())
         self.assertIn("DLPFC=2", stdout.getvalue())
+
+    def test_staged_pilot_runs_schema_design_with_typed_inputs(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            labels = root / "brainnetome.csv"
+            roi_file = root / "roi_defs.json"
+            config_file = root / "pilot.json"
+            h5_file = root / "bold.h5"
+            _write_labels(labels)
+            for name in ("train.md", "val.md", "test.md"):
+                (root / name).write_text("00:00 - 00:01  Test segment.", encoding="utf-8")
+            with h5py.File(h5_file, "w") as handle:
+                handle.create_dataset("train", data=np.zeros((4, 4), dtype=np.float32))
+                handle.create_dataset("val", data=np.zeros((4, 4), dtype=np.float32))
+                handle.create_dataset("test", data=np.zeros((4, 4), dtype=np.float32))
+            roi_file.write_text(
+                json.dumps(
+                    {
+                        "rois": [
+                            {
+                                "roi_id": "ROI_A",
+                                "display_name": "ROI A",
+                                "selection_rules": [
+                                    {
+                                        "label_ids": [1, 2],
+                                        "networks": [],
+                                        "sub_regions": [],
+                                        "hemispheres": [],
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                ),
+                encoding="utf-8",
+            )
+            config_file.write_text(
+                json.dumps(
+                    {
+                        "roi_definitions": roi_file.name,
+                        "atlas_labels": labels.name,
+                        "h5_file": h5_file.name,
+                        "output_root": "pilot_out",
+                        "subject_id": "sub-01",
+                        "rois": ["ROI_A"],
+                        "episodes": [
+                            {
+                                "episode_id": "train_ep",
+                                "split": "train",
+                                "descriptions": "train.md",
+                                "h5_dataset": "train",
+                            },
+                            {
+                                "episode_id": "val_ep",
+                                "split": "val",
+                                "descriptions": "val.md",
+                                "h5_dataset": "val",
+                            },
+                            {
+                                "episode_id": "test_ep",
+                                "split": "test",
+                                "descriptions": "test.md",
+                                "h5_dataset": "test",
+                            },
+                        ],
+                    },
+                ),
+                encoding="utf-8",
+            )
+
+            config = load_pilot_config(config_file)
+            rois = select_roi_definitions(
+                load_roi_definitions(config.roi_definitions),
+                config.rois,
+            )
+            artifacts = PilotArtifacts(config)
+            artifacts.domain_pool_auto_confirmed_path("ROI_A").parent.mkdir(
+                parents=True,
+                exist_ok=True,
+            )
+            artifacts.domain_pool_auto_confirmed_path("ROI_A").write_text(
+                "{}",
+                encoding="utf-8",
+            )
+            expected_domain_pool = artifacts.domain_pool_for_schema("ROI_A")
+
+            with patch("brain_region_pipeline.pilot.runner.make_domain_pool") as make_pool:
+                _run_domain_pools(
+                    config,
+                    rois,
+                    deps=object(),
+                    auto_confirm=False,
+                )
+            domain_input = make_pool.call_args.args[0]
+            domain_config = make_pool.call_args.args[1]
+
+            with patch("brain_region_pipeline.pilot.runner.make_region_schema") as make_schema:
+                _run_schemas(config, rois, deps=object())
+            schema_input = make_schema.call_args.args[0]
+            schema_config = make_schema.call_args.args[1]
+
+        self.assertIsInstance(domain_input, DomainPoolInput)
+        self.assertEqual(domain_input.atlas_labels, config.atlas_labels)
+        self.assertEqual(domain_input.output_file, artifacts.domain_pool_draft_path("ROI_A"))
+        self.assertEqual(domain_config.target_region, "ROI_A")
+        self.assertIsInstance(schema_input, RegionSchemaInput)
+        self.assertEqual(schema_input.atlas_labels, config.atlas_labels)
+        self.assertEqual(schema_input.domain_pool, expected_domain_pool)
+        self.assertEqual(schema_input.output_file, artifacts.region_schema_path("ROI_A"))
+        self.assertEqual(schema_input.roi_definitions, config.roi_definitions)
+        self.assertEqual(schema_input.roi_id, "ROI_A")
+        self.assertEqual(schema_config.target_region, "ROI_A")
 
     def test_multi_roi_pilot_manifest_writes_encoding_trim_fields(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:

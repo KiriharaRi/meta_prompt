@@ -22,6 +22,7 @@ from brain_region_pipeline.core.dependencies import default_dependencies
 from brain_region_pipeline.pilot.artifacts import PilotArtifacts
 from brain_region_pipeline.pilot.concurrent import ConcurrentPilotStages
 from brain_region_pipeline.pilot.runner import PilotConfig, load_pilot_config
+from brain_region_pipeline.schema_design.runner import DomainPoolInput, RegionSchemaInput
 from brain_region_pipeline.scoring.runner import ScoreDescriptionsInput
 from brain_region_pipeline.scoring.summary_generator import SummaryDescriptionsInput
 
@@ -275,6 +276,66 @@ class Friends14RoiConcurrentScriptTests(unittest.TestCase):
         self.assertIsInstance(summary_input, SummaryDescriptionsInput)
         self.assertEqual(summary_input.descriptions, config.episodes[0].descriptions)
         self.assertEqual(summary_input.output_file, artifacts.summary_path(config.episodes[0]))
+
+    def test_concurrent_stage_interface_runs_domain_pool_with_typed_input(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            config_file = _write_minimal_pilot_config(Path(tmpdir))
+            config, rois = _load_config_and_rois(config_file)
+            artifacts = PilotArtifacts(config)
+            stages = ConcurrentPilotStages(
+                config=config,
+                deps=default_dependencies(),
+                log=lambda _message: None,
+            )
+
+            with (
+                patch("brain_region_pipeline.pilot.concurrent.make_domain_pool") as make_pool,
+                patch("brain_region_pipeline.pilot.concurrent.confirm_domain_pool_for_pilot"),
+                patch.object(ConcurrentPilotStages, "validate_domain_pool"),
+            ):
+                stages.run_domain_pool_job(roi=rois[0])
+
+            domain_input = make_pool.call_args.args[0]
+            domain_config = make_pool.call_args.args[1]
+
+        self.assertIsInstance(domain_input, DomainPoolInput)
+        self.assertEqual(domain_input.atlas_labels, config.atlas_labels)
+        self.assertEqual(domain_input.output_file, artifacts.domain_pool_draft_path("VMPFC"))
+        self.assertEqual(domain_config.target_region, "VMPFC")
+
+    def test_concurrent_stage_interface_runs_schema_with_typed_input(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            config_file = _write_minimal_pilot_config(Path(tmpdir))
+            config, rois = _load_config_and_rois(config_file)
+            artifacts = PilotArtifacts(config)
+            artifacts.domain_pool_auto_confirmed_path("VMPFC").parent.mkdir(
+                parents=True,
+                exist_ok=True,
+            )
+            artifacts.domain_pool_auto_confirmed_path("VMPFC").write_text(
+                "{}",
+                encoding="utf-8",
+            )
+            expected_domain_pool = artifacts.domain_pool_for_schema("VMPFC")
+            stages = ConcurrentPilotStages(
+                config=config,
+                deps=default_dependencies(),
+                log=lambda _message: None,
+            )
+
+            with patch("brain_region_pipeline.pilot.concurrent.make_region_schema") as make_schema:
+                stages.run_schema_job(roi=rois[0])
+
+            schema_input = make_schema.call_args.args[0]
+            schema_config = make_schema.call_args.args[1]
+
+        self.assertIsInstance(schema_input, RegionSchemaInput)
+        self.assertEqual(schema_input.atlas_labels, config.atlas_labels)
+        self.assertEqual(schema_input.domain_pool, expected_domain_pool)
+        self.assertEqual(schema_input.output_file, artifacts.region_schema_path("VMPFC"))
+        self.assertEqual(schema_input.roi_definitions, config.roi_definitions)
+        self.assertEqual(schema_input.roi_id, "VMPFC")
+        self.assertEqual(schema_config.target_region, "VMPFC")
 
 
 if __name__ == "__main__":

@@ -21,6 +21,8 @@ from .core.dependencies import PipelineDependencies
 from .encoding.runner import fit_roi_encoding_from_manifest
 from .pilot.runner import PILOT_STAGES, run_multi_roi_pilot
 from .schema_design.runner import (
+    DomainPoolInput,
+    RegionSchemaInput,
     make_domain_pool,
     make_region_schema,
 )
@@ -266,6 +268,27 @@ def _build_region_schema_config(args: argparse.Namespace) -> RegionSchemaConfig:
     )
 
 
+def _build_domain_pool_input(args: argparse.Namespace) -> DomainPoolInput:
+    """Build typed domain-pool stage input from CLI args."""
+
+    return DomainPoolInput(
+        atlas_labels=Path(args.atlas_labels),
+        output_file=Path(args.output_file),
+    )
+
+
+def _build_region_schema_input(args: argparse.Namespace) -> RegionSchemaInput:
+    """Build typed region-schema stage input from CLI args."""
+
+    return RegionSchemaInput(
+        atlas_labels=Path(args.atlas_labels),
+        domain_pool=Path(args.domain_pool),
+        output_file=Path(args.output_file),
+        roi_definitions=Path(args.roi_definitions) if args.roi_definitions else None,
+        roi_id=args.roi_id,
+    )
+
+
 def _build_score_config(args: argparse.Namespace) -> ScoreDescriptionsConfig:
     """Build description scoring configuration from CLI args."""
 
@@ -376,10 +399,18 @@ def main(
         parser.print_help()
         return
     if args.command == "make-domain-pool":
-        make_domain_pool(args, _build_domain_pool_config(args), deps=deps)
+        make_domain_pool(
+            _build_domain_pool_input(args),
+            _build_domain_pool_config(args),
+            deps=deps,
+        )
         return
     if args.command == "make-region-schema":
-        make_region_schema(args, _build_region_schema_config(args), deps=deps)
+        make_region_schema(
+            _build_region_schema_input(args),
+            _build_region_schema_config(args),
+            deps=deps,
+        )
         return
     if args.command == "score-descriptions":
         score_descriptions_from_file(

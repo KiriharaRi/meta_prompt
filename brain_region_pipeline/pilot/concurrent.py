@@ -24,7 +24,12 @@ from ..core.io_utils import read_jsonl, write_jsonl
 from ..encoding.runner import fit_roi_encoding_from_manifest
 from ..schema_design.domain_pool import load_domain_pool, save_domain_pool
 from ..schema_design.region_schema import load_region_schema
-from ..schema_design.runner import make_domain_pool, make_region_schema
+from ..schema_design.runner import (
+    DomainPoolInput,
+    RegionSchemaInput,
+    make_domain_pool,
+    make_region_schema,
+)
 from ..scoring.checkpoint import scoring_output_paths
 from ..scoring.description_io import load_description_segments
 from ..scoring.runner import (
@@ -274,13 +279,9 @@ class ConcurrentPilotStages:
             return
         if not draft_path.exists():
             make_domain_pool(
-                Namespace(
-                    atlas_labels=str(self.config.atlas_labels),
-                    target_region=roi.roi_id,
-                    output_file=str(draft_path),
-                    model=self.config.generation_model,
-                    provider=self.config.generation_provider,
-                    proposal_runs=self.config.proposal_runs,
+                DomainPoolInput(
+                    atlas_labels=self.config.atlas_labels,
+                    output_file=draft_path,
                 ),
                 DomainPoolConfig(
                     generation_provider=self.config.generation_provider,
@@ -327,14 +328,11 @@ class ConcurrentPilotStages:
             self.log(f"Schema already complete: {roi.roi_id}")
             return
         make_region_schema(
-            Namespace(
-                atlas_labels=str(self.config.atlas_labels),
-                target_region=roi.roi_id,
-                output_file=str(schema_path),
-                model=self.config.generation_model,
-                provider=self.config.generation_provider,
-                domain_pool=str(artifacts.domain_pool_for_schema(roi.roi_id)),
-                roi_definitions=str(self.config.roi_definitions),
+            RegionSchemaInput(
+                atlas_labels=self.config.atlas_labels,
+                domain_pool=artifacts.domain_pool_for_schema(roi.roi_id),
+                output_file=schema_path,
+                roi_definitions=self.config.roi_definitions,
                 roi_id=roi.roi_id,
             ),
             RegionSchemaConfig(

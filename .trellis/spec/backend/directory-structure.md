@@ -104,6 +104,10 @@ engine as multi-ROI encoding.
 - CLI adapters may receive `argparse.Namespace`, but maintained stage runner
   modules should expose typed input objects rather than accepting CLI-shaped
   `Namespace` directly.
+- Stage config dataclasses own generation settings such as provider, model,
+  target region, batch sizes, and model hyperparameters. Typed runner input
+  objects should carry the file/resource inputs the runner actually consumes,
+  not mirror every CLI flag or duplicate config-owned values.
 - `core/dependencies.py` defines the dependency injection surface. Keep it
   limited to maintained stage dependencies.
 - `atlas/labels.py` owns Brainnetome/Yeo parcel label parsing and selection-rule

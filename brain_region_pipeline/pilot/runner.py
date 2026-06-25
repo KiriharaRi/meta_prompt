@@ -33,6 +33,8 @@ from ..core.io_utils import read_json
 from ..encoding.runner import fit_roi_encoding_from_manifest
 from ..schema_design.domain_pool import load_domain_pool, save_domain_pool
 from ..schema_design.runner import (
+    DomainPoolInput,
+    RegionSchemaInput,
     make_domain_pool,
     make_region_schema,
 )
@@ -375,13 +377,9 @@ def _run_domain_pools(
     for roi in rois:
         _log(f"Domain-pool stage: {roi.roi_id}")
         make_domain_pool(
-            Namespace(
-                atlas_labels=str(config.atlas_labels),
-                target_region=roi.roi_id,
-                output_file=str(artifacts.domain_pool_draft_path(roi.roi_id)),
-                model=config.generation_model,
-                provider=config.generation_provider,
-                proposal_runs=config.proposal_runs,
+            DomainPoolInput(
+                atlas_labels=config.atlas_labels,
+                output_file=artifacts.domain_pool_draft_path(roi.roi_id),
             ),
             DomainPoolConfig(
                 generation_provider=config.generation_provider,
@@ -411,14 +409,11 @@ def _run_schemas(
     for roi in rois:
         _log(f"Schema stage: {roi.roi_id}")
         make_region_schema(
-            Namespace(
-                atlas_labels=str(config.atlas_labels),
-                target_region=roi.roi_id,
-                output_file=str(artifacts.region_schema_path(roi.roi_id)),
-                model=config.generation_model,
-                provider=config.generation_provider,
-                domain_pool=str(artifacts.domain_pool_for_schema(roi.roi_id)),
-                roi_definitions=str(config.roi_definitions),
+            RegionSchemaInput(
+                atlas_labels=config.atlas_labels,
+                domain_pool=artifacts.domain_pool_for_schema(roi.roi_id),
+                output_file=artifacts.region_schema_path(roi.roi_id),
+                roi_definitions=config.roi_definitions,
                 roi_id=roi.roi_id,
             ),
             RegionSchemaConfig(

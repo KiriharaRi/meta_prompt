@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from dataclasses import replace
+from dataclasses import dataclass, replace
 from pathlib import Path
 
 from ..atlas.labels import build_region_index_map, parse_atlas_labels
@@ -22,16 +22,35 @@ def _log(message: str) -> None:
     print(f"[brain_region_pipeline] {message}", flush=True)
 
 
+@dataclass(frozen=True)
+class DomainPoolInput:
+    """Typed input boundary for the make-domain-pool stage runner."""
+
+    atlas_labels: Path
+    output_file: Path
+
+
+@dataclass(frozen=True)
+class RegionSchemaInput:
+    """Typed input boundary for the make-region-schema stage runner."""
+
+    atlas_labels: Path
+    domain_pool: Path
+    output_file: Path
+    roi_definitions: Path | None = None
+    roi_id: str | None = None
+
+
 def make_domain_pool(
-    args,
+    inputs: DomainPoolInput,
     cfg: DomainPoolConfig,
     deps: PipelineDependencies | None = None,
 ) -> None:
     """Run stage: atlas + target region -> draft coarse-domain pool."""
 
     deps = deps or default_dependencies()
-    output_path = Path(args.output_file)
-    parcels = parse_atlas_labels(args.atlas_labels)
+    output_path = Path(inputs.output_file)
+    parcels = parse_atlas_labels(inputs.atlas_labels)
     _log(f"Step 1/1: Build draft domain pool from {cfg.proposal_runs} proposal run(s)")
     pool = deps.build_domain_pool(parcels, cfg)
     save_domain_pool(pool, output_path)
@@ -58,17 +77,17 @@ def _domain_pool_metadata(path: str | Path, pool: DomainPool) -> dict:
 
 
 def make_region_schema(
-    args,
+    inputs: RegionSchemaInput,
     cfg: RegionSchemaConfig,
     deps: PipelineDependencies | None = None,
 ) -> None:
     """Run stage: atlas + target region + domain pool -> region feature schema."""
 
     deps = deps or default_dependencies()
-    output_path = Path(args.output_file)
-    parcels = parse_atlas_labels(args.atlas_labels)
-    domain_pool_path = args.domain_pool
-    if bool(getattr(args, "roi_definitions", None)) != bool(getattr(args, "roi_id", None)):
+    output_path = Path(inputs.output_file)
+    parcels = parse_atlas_labels(inputs.atlas_labels)
+    domain_pool_path = inputs.domain_pool
+    if bool(inputs.roi_definitions) != bool(inputs.roi_id):
         raise ValueError("--roi-definitions and --roi-id must be provided together.")
     _log("Step 1/2: Load confirmed domain pool")
     domain_pool = load_confirmed_domain_pool(domain_pool_path)
@@ -83,11 +102,11 @@ def make_region_schema(
     )
     _log("Step 2/2: Build region feature schema")
     schema = deps.build_region_schema(parcels, cfg, domain_pool, metadata)
-    if getattr(args, "roi_definitions", None) and getattr(args, "roi_id", None):
-        roi_definitions = load_roi_definitions(args.roi_definitions)
-        if args.roi_id not in roi_definitions:
-            raise ValueError(f"ROI id {args.roi_id!r} not found in {args.roi_definitions}.")
-        roi_definition = roi_definitions[args.roi_id]
+    if inputs.roi_definitions and inputs.roi_id:
+        roi_definitions = load_roi_definitions(inputs.roi_definitions)
+        if inputs.roi_id not in roi_definitions:
+            raise ValueError(f"ROI id {inputs.roi_id!r} not found in {inputs.roi_definitions}.")
+        roi_definition = roi_definitions[inputs.roi_id]
         if roi_definition.roi_id != cfg.target_region:
             raise ValueError(
                 "--roi-id must match --target-region when fixed ROI rules are used: "
@@ -116,4 +135,3 @@ def make_region_schema(
         f"  Saved region schema with {len(schema.dimensions)} dimension(s) to {output_path}",
     )
     _log("Region-schema stage complete.")
-
