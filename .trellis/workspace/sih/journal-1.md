@@ -1305,3 +1305,38 @@ Prepared the Friends next10 scoring/encoding outputs and cleaned backend quality
 ### Next Steps
 
 - None - task complete
+
+
+## Session 38: Friends round2 scoring and encoding
+
+**Date**: 2026-06-25
+**Task**: Friends round2 scoring and encoding
+**Branch**: `main`
+
+### Summary
+
+Completed Friends round2 scoring/encoding outputs, documented scoring warning recovery, and tracked agent docs plus comparison plot.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `2f6e30d` | (see git log) |
+| `38a8378` | (see git log) |
+| `b68bef4` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
