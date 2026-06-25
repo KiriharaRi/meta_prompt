@@ -1439,3 +1439,36 @@ Replaced summary and scoring runner Namespace-shaped inputs with typed dataclass
 ### Next Steps
 
 - None - task complete
+
+
+## Session 42: Type schema design runner inputs
+
+**Date**: 2026-06-25
+**Task**: Type schema design runner inputs
+**Branch**: `main`
+
+### Summary
+
+Moved schema-design stage runners from CLI-shaped args to typed input objects, updated CLI and pilot adapters, added staged/concurrent pilot regression coverage, and recorded the typed-input/config ownership boundary in backend specs.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `10ba4f6` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
