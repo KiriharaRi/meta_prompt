@@ -11,17 +11,19 @@ import h5py
 import numpy as np
 
 from brain_region_pipeline.cli import main
+from brain_region_pipeline.atlas.models import SelectionRule
+from brain_region_pipeline.atlas.roi_config import load_roi_definitions, select_roi_definitions
 from brain_region_pipeline.core.config import (
     AIHUBMIX_GENERATION_PROVIDER,
     DEFAULT_AIHUBMIX_MODEL,
     DEFAULT_GENERATION_MODEL,
     DEFAULT_GENERATION_PROVIDER,
 )
-from brain_region_pipeline.atlas.models import SelectionRule
 from brain_region_pipeline.encoding.manifest import load_roi_encoding_manifest
+from brain_region_pipeline.pilot.artifacts import PilotArtifacts
+from brain_region_pipeline.pilot.runner import load_pilot_config
 from brain_region_pipeline.schema_design.domain_models import CuratedDomain
 from brain_region_pipeline.schema_design.schema_models import DimensionSpec, RegionFeatureSchema
-from brain_region_pipeline.pilot.runner import load_pilot_config
 
 
 def _domain() -> CuratedDomain:
@@ -424,6 +426,37 @@ class MultiRoiEncodingTests(unittest.TestCase):
                 )
                 feature_path.parent.mkdir(parents=True, exist_ok=True)
                 _write_features(feature_path, _features(12, 0.0, 1.0))
+
+            config = load_pilot_config(config_file)
+            rois = select_roi_definitions(
+                load_roi_definitions(config.roi_definitions),
+                config.rois,
+            )
+            artifacts = PilotArtifacts(config)
+            expected_output_root = output_root.resolve()
+            self.assertEqual(
+                artifacts.summary_path(config.episodes[0]),
+                expected_output_root / "summaries" / "train_ep" / "summary.json",
+            )
+            self.assertEqual(
+                artifacts.scoring_dir("ROI_A", config.episodes[0]),
+                expected_output_root / "rois" / "ROI_A" / "scores" / "train_ep",
+            )
+            self.assertEqual(
+                artifacts.manifest_path(),
+                expected_output_root / "encoding" / "roi_encoding_manifest.jsonl",
+            )
+            self.assertEqual(
+                artifacts.write_encoding_inputs(rois),
+                artifacts.manifest_path(),
+            )
+            schema_mapping = json.loads(
+                artifacts.roi_schema_mapping_path().read_text(encoding="utf-8"),
+            )
+            self.assertEqual(
+                schema_mapping,
+                {"roi_schemas": {"ROI_A": "../rois/ROI_A/region_schema.json"}},
+            )
 
             with redirect_stdout(io.StringIO()):
                 main(

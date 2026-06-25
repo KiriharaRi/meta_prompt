@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import os
 from argparse import Namespace
 from dataclasses import dataclass, replace
 from pathlib import Path
@@ -30,7 +29,7 @@ from ..core.dependencies import (
     PipelineDependencies,
     default_dependencies,
 )
-from ..core.io_utils import read_json, write_json, write_jsonl
+from ..core.io_utils import read_json
 from ..encoding.runner import fit_roi_encoding_from_manifest
 from ..schema_design.domain_pool import load_domain_pool, save_domain_pool
 from ..schema_design.runner import (
@@ -41,6 +40,7 @@ from ..scoring.runner import (
     score_descriptions_from_file,
 )
 from ..scoring.summary_generator import summarize_descriptions_from_file
+from .artifacts import PilotArtifacts
 
 
 PILOT_STAGES = (
@@ -222,50 +222,52 @@ def _episode_ids(config: PilotConfig) -> list[str]:
     return [episode.episode_id for episode in config.episodes]
 
 
+# Transitional helpers keep existing script imports stable while the artifact
+# graph becomes the public place for pilot paths.
 def _summary_path(config: PilotConfig, episode: PilotEpisode) -> Path:
-    return config.output_root / "summaries" / episode.episode_id / "summary.json"
+    return PilotArtifacts(config).summary_path(episode)
 
 
 def _roi_dir(config: PilotConfig, roi_id: str) -> Path:
-    return config.output_root / "rois" / roi_id
+    return PilotArtifacts(config).roi_dir(roi_id)
 
 
 def _domain_pool_draft_path(config: PilotConfig, roi_id: str) -> Path:
-    return _roi_dir(config, roi_id) / "domain_pool_draft.json"
+    return PilotArtifacts(config).domain_pool_draft_path(roi_id)
 
 
 def _domain_pool_auto_confirmed_path(config: PilotConfig, roi_id: str) -> Path:
-    return _roi_dir(config, roi_id) / "domain_pool_auto_confirmed.json"
+    return PilotArtifacts(config).domain_pool_auto_confirmed_path(roi_id)
 
 
 def _domain_pool_confirmed_path(config: PilotConfig, roi_id: str) -> Path:
-    return _roi_dir(config, roi_id) / "domain_pool_confirmed.json"
+    return PilotArtifacts(config).domain_pool_confirmed_path(roi_id)
 
 
 def _region_schema_path(config: PilotConfig, roi_id: str) -> Path:
-    return _roi_dir(config, roi_id) / "region_schema.json"
+    return PilotArtifacts(config).region_schema_path(roi_id)
 
 
 def _scoring_dir(config: PilotConfig, roi_id: str, episode: PilotEpisode) -> Path:
-    return _roi_dir(config, roi_id) / "scores" / episode.episode_id
+    return PilotArtifacts(config).scoring_dir(roi_id, episode)
 
 
 def _encoding_dir(config: PilotConfig) -> Path:
-    return config.output_root / "encoding"
+    return PilotArtifacts(config).encoding_dir()
 
 
 def _manifest_path(config: PilotConfig) -> Path:
-    return _encoding_dir(config) / "roi_encoding_manifest.jsonl"
+    return PilotArtifacts(config).manifest_path()
 
 
 def _roi_schema_mapping_path(config: PilotConfig) -> Path:
-    return _encoding_dir(config) / "roi_schemas.json"
+    return PilotArtifacts(config).roi_schema_mapping_path()
 
 
 def _relative_to(path: Path, base_dir: Path) -> str:
     """Return a portable relative path when possible."""
 
-    return os.path.relpath(path, base_dir)
+    return PilotArtifacts.relative_to(path, base_dir)
 
 
 def _confirm_domain_pool_for_pilot(draft_path: Path, confirmed_path: Path) -> None:
@@ -289,16 +291,7 @@ def _confirm_domain_pool_for_pilot(draft_path: Path, confirmed_path: Path) -> No
 def _domain_pool_for_schema(config: PilotConfig, roi_id: str) -> Path:
     """Return the confirmed pool path used for schema generation."""
 
-    auto_confirmed = _domain_pool_auto_confirmed_path(config, roi_id)
-    if auto_confirmed.exists():
-        return auto_confirmed
-    confirmed = _domain_pool_confirmed_path(config, roi_id)
-    if confirmed.exists():
-        return confirmed
-    raise ValueError(
-        f"ROI {roi_id!r} has no confirmed domain pool. Expected "
-        f"{auto_confirmed} or {confirmed}.",
-    )
+    return PilotArtifacts(config).domain_pool_for_schema(roi_id)
 
 
 def _dry_run(config: PilotConfig, rois: Sequence[RoiDefinition], stage: str) -> None:
@@ -349,6 +342,7 @@ def _validate_episode_inputs(config: PilotConfig) -> None:
 def _run_summaries(config: PilotConfig) -> None:
     """Generate shared summaries for every configured episode."""
 
+    artifacts = PilotArtifacts(config)
     cfg = SummaryDescriptionsConfig(
         generation_provider=config.generation_provider,
         generation_model=config.generation_model,
@@ -358,7 +352,7 @@ def _run_summaries(config: PilotConfig) -> None:
         summarize_descriptions_from_file(
             Namespace(
                 descriptions=str(episode.descriptions),
-                output_file=str(_summary_path(config, episode)),
+                output_file=str(artifacts.summary_path(episode)),
             ),
             cfg,
         )
@@ -373,13 +367,14 @@ def _run_domain_pools(
 ) -> None:
     """Generate domain-pool drafts and optionally auto-confirm pilot copies."""
 
+    artifacts = PilotArtifacts(config)
     for roi in rois:
         _log(f"Domain-pool stage: {roi.roi_id}")
         make_domain_pool(
             Namespace(
                 atlas_labels=str(config.atlas_labels),
                 target_region=roi.roi_id,
-                output_file=str(_domain_pool_draft_path(config, roi.roi_id)),
+                output_file=str(artifacts.domain_pool_draft_path(roi.roi_id)),
                 model=config.generation_model,
                 provider=config.generation_provider,
                 proposal_runs=config.proposal_runs,
@@ -394,8 +389,8 @@ def _run_domain_pools(
         )
         if auto_confirm:
             _confirm_domain_pool_for_pilot(
-                _domain_pool_draft_path(config, roi.roi_id),
-                _domain_pool_auto_confirmed_path(config, roi.roi_id),
+                artifacts.domain_pool_draft_path(roi.roi_id),
+                artifacts.domain_pool_auto_confirmed_path(roi.roi_id),
             )
             _log(f"  Wrote auto-confirmed domain pool for {roi.roi_id}")
 
@@ -408,16 +403,17 @@ def _run_schemas(
 ) -> None:
     """Generate active-dimension schemas using fixed ROI selection rules."""
 
+    artifacts = PilotArtifacts(config)
     for roi in rois:
         _log(f"Schema stage: {roi.roi_id}")
         make_region_schema(
             Namespace(
                 atlas_labels=str(config.atlas_labels),
                 target_region=roi.roi_id,
-                output_file=str(_region_schema_path(config, roi.roi_id)),
+                output_file=str(artifacts.region_schema_path(roi.roi_id)),
                 model=config.generation_model,
                 provider=config.generation_provider,
-                domain_pool=str(_domain_pool_for_schema(config, roi.roi_id)),
+                domain_pool=str(artifacts.domain_pool_for_schema(roi.roi_id)),
                 roi_definitions=str(config.roi_definitions),
                 roi_id=roi.roi_id,
             ),
@@ -440,6 +436,7 @@ def _run_scoring(
 ) -> None:
     """Score every ROI and episode against the generated ROI schemas."""
 
+    artifacts = PilotArtifacts(config)
     cfg = ScoreDescriptionsConfig(
         generation_provider=config.generation_provider,
         generation_model=config.generation_model,
@@ -453,14 +450,14 @@ def _run_scoring(
             score_descriptions_from_file(
                 Namespace(
                     descriptions=str(episode.descriptions),
-                    region_schema=str(_region_schema_path(config, roi.roi_id)),
-                    output_dir=str(_scoring_dir(config, roi.roi_id, episode)),
+                    region_schema=str(artifacts.region_schema_path(roi.roi_id)),
+                    output_dir=str(artifacts.scoring_dir(roi.roi_id, episode)),
                     model=config.generation_model,
                     tr_s=config.tr_s,
                     total_trs=None,
                     resume=resume,
                     overwrite=overwrite,
-                    summary_file=str(_summary_path(config, episode)),
+                    summary_file=str(artifacts.summary_path(episode)),
                     provider=config.generation_provider,
                     scoring_batch_size=config.scoring_batch_size,
                     local_buffer_size=config.local_buffer_size,
@@ -478,56 +475,20 @@ def _run_scoring(
 def _write_manifest(config: PilotConfig, rois: Sequence[RoiDefinition]) -> None:
     """Write unified ROI encoding manifest and ROI schema mapping."""
 
-    encoding_dir = _encoding_dir(config)
-    manifest_path = _manifest_path(config)
-    rows: list[dict[str, Any]] = []
-    for episode in config.episodes:
-        roi_features: dict[str, str] = {}
-        for roi in rois:
-            feature_path = _scoring_dir(config, roi.roi_id, episode) / "tr_features.jsonl"
-            if not feature_path.exists():
-                raise ValueError(
-                    f"Cannot write manifest: missing TR features for {roi.roi_id} "
-                    f"/ {episode.episode_id}: {feature_path}",
-                )
-            roi_features[roi.roi_id] = _relative_to(feature_path, encoding_dir)
-        rows.append(
-            {
-                "sample_id": f"{config.subject_id}_{episode.episode_id}",
-                "subject_id": config.subject_id,
-                "feature_set_name": "roi_scores",
-                "split": episode.split,
-                "roi_features": roi_features,
-                "h5_file": _relative_to(config.h5_file, encoding_dir),
-                "h5_dataset": episode.h5_dataset,
-                "feature_trim_start_tr": 0,
-                "feature_trim_end_tr": 0,
-                "fmri_trim_start_tr": config.encoding_trim.fmri_trim_start_tr,
-                "fmri_trim_end_tr": config.encoding_trim.fmri_trim_end_tr,
-            },
-        )
-    write_jsonl(manifest_path, rows)
-    write_json(
-        _roi_schema_mapping_path(config),
-        {
-            "roi_schemas": {
-                roi.roi_id: _relative_to(_region_schema_path(config, roi.roi_id), encoding_dir)
-                for roi in rois
-            },
-        },
-    )
+    manifest_path = PilotArtifacts(config).write_encoding_inputs(rois)
     _log(f"Manifest stage complete: {manifest_path}")
 
 
 def _run_encoding(config: PilotConfig) -> None:
     """Run the joint ROI Ridge encoding stage."""
 
+    artifacts = PilotArtifacts(config)
     fit_roi_encoding_from_manifest(
         Namespace(
-            manifest=str(_manifest_path(config)),
-            roi_schemas=str(_roi_schema_mapping_path(config)),
+            manifest=str(artifacts.manifest_path()),
+            roi_schemas=str(artifacts.roi_schema_mapping_path()),
             atlas_labels=str(config.atlas_labels),
-            output_dir=str(_encoding_dir(config)),
+            output_dir=str(artifacts.encoding_dir()),
             lags=",".join(str(lag) for lag in config.lags),
             alphas=",".join(f"{alpha:g}" for alpha in config.alphas),
         ),

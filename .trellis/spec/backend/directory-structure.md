@@ -54,6 +54,7 @@ brain_region_pipeline/
 │   ├── ridge.py             # Ridge fitting, alpha search, and target metrics
 │   └── runner.py            # unified ROI Ridge orchestration and outputs
 └── pilot/
+    ├── artifacts.py         # Friends pilot artifact graph and encoding inputs
     └── runner.py            # staged Friends multi-ROI pilot orchestration
 ```
 
@@ -132,9 +133,12 @@ engine as multi-ROI encoding.
   reports `roi_memberships`. Keep file writes here rather than in model
   utilities.
 - `atlas/roi_config.py` owns reusable ROI definitions and atlas-rule validation.
+- `pilot/artifacts.py` owns Friends pilot artifact paths, confirmed domain-pool
+  lookup, and the encoding input sidecars generated from scored ROI outputs:
+  `roi_encoding_manifest.jsonl` and `roi_schemas.json`.
 - `pilot/runner.py` orchestrates staged Friends multi-ROI runs from config. It
-  should call maintained stage runners rather than reimplementing scoring or
-  encoding logic.
+  should call maintained stage runners and `pilot/artifacts.py` rather than
+  reimplementing scoring, encoding, path-layout, or manifest-writing logic.
 - `core/genai.py` owns provider-specific structured JSON generation only.
   Business modules pass `GenerationConfig` plus prompts/schemas and must not
   import provider SDKs directly.
