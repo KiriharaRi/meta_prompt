@@ -1373,3 +1373,36 @@ Extracted Friends pilot artifact graph into PilotArtifacts, migrated the serial 
 ### Next Steps
 
 - None - task complete
+
+
+## Session 40: Deepen Friends concurrency module
+
+**Date**: 2026-06-25
+**Task**: Deepen Friends concurrency module
+**Branch**: `main`
+
+### Summary
+
+Moved reusable Friends concurrent pilot stage jobs into brain_region_pipeline.pilot.concurrent, updated 14ROI and 7ROI scripts to use the maintained module, added regression coverage, and documented the new module responsibility.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `4f34e06` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
