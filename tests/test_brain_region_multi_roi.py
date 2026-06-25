@@ -21,9 +21,13 @@ from brain_region_pipeline.core.config import (
     DEFAULT_GENERATION_PROVIDER,
 )
 from brain_region_pipeline.encoding.manifest import load_roi_encoding_manifest
+from brain_region_pipeline.encoding.runner import RoiEncodingInput
 from brain_region_pipeline.pilot.artifacts import PilotArtifacts
 from brain_region_pipeline.pilot.runner import (
+    PilotConfig,
+    PilotEncodingTrim,
     _run_domain_pools,
+    _run_encoding,
     _run_schemas,
     load_pilot_config,
 )
@@ -458,6 +462,49 @@ class MultiRoiEncodingTests(unittest.TestCase):
         self.assertEqual(schema_input.roi_definitions, config.roi_definitions)
         self.assertEqual(schema_input.roi_id, "ROI_A")
         self.assertEqual(schema_config.target_region, "ROI_A")
+
+    def test_staged_pilot_runs_encoding_with_typed_input(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            config = PilotConfig(
+                config_path=root / "pilot.json",
+                roi_definitions=root / "roi_defs.json",
+                atlas_labels=root / "brainnetome.csv",
+                h5_file=root / "bold.h5",
+                output_root=root / "pilot_out",
+                subject_id="sub-01",
+                rois=("ROI_A",),
+                episodes=(),
+                generation_provider=DEFAULT_GENERATION_PROVIDER,
+                generation_model=DEFAULT_GENERATION_MODEL,
+                proposal_runs=5,
+                tr_s=1.49,
+                scoring_batch_size=40,
+                local_buffer_size=10,
+                lags=(1, 3),
+                alphas=(0.1, 1.0),
+                encoding_trim=PilotEncodingTrim(),
+            )
+            artifacts = PilotArtifacts(config)
+
+            with patch(
+                "brain_region_pipeline.pilot.runner.fit_roi_encoding_from_manifest",
+            ) as fit:
+                _run_encoding(config)
+
+            encoding_input = fit.call_args.args[0]
+            encoding_config = fit.call_args.args[1]
+
+        self.assertIsInstance(encoding_input, RoiEncodingInput)
+        self.assertEqual(encoding_input.manifest, artifacts.manifest_path())
+        self.assertEqual(
+            encoding_input.roi_schemas,
+            artifacts.roi_schema_mapping_path(),
+        )
+        self.assertEqual(encoding_input.atlas_labels, config.atlas_labels)
+        self.assertEqual(encoding_input.output_dir, artifacts.encoding_dir())
+        self.assertEqual(encoding_config.lags, config.lags)
+        self.assertEqual(encoding_config.alphas, config.alphas)
 
     def test_multi_roi_pilot_manifest_writes_encoding_trim_fields(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:

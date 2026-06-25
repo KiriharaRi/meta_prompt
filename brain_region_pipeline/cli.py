@@ -18,7 +18,7 @@ from .core.config import (
     SummaryDescriptionsConfig,
 )
 from .core.dependencies import PipelineDependencies
-from .encoding.runner import fit_roi_encoding_from_manifest
+from .encoding.runner import RoiEncodingInput, fit_roi_encoding_from_manifest
 from .pilot.runner import PILOT_STAGES, run_multi_roi_pilot
 from .schema_design.runner import (
     DomainPoolInput,
@@ -387,6 +387,17 @@ def _build_ridge_encoding_config(args: argparse.Namespace) -> RidgeEncodingConfi
     )
 
 
+def _build_roi_encoding_input(args: argparse.Namespace) -> RoiEncodingInput:
+    """Build typed ROI encoding stage input from CLI args."""
+
+    return RoiEncodingInput(
+        manifest=Path(args.manifest),
+        roi_schemas=Path(args.roi_schemas),
+        atlas_labels=Path(args.atlas_labels),
+        output_dir=Path(args.output_dir),
+    )
+
+
 def main(
     argv: list[str] | None = None,
     deps: PipelineDependencies | None = None,
@@ -435,7 +446,10 @@ def main(
         )
         return
     if args.command == "fit-roi-encoding":
-        fit_roi_encoding_from_manifest(args, _build_ridge_encoding_config(args))
+        fit_roi_encoding_from_manifest(
+            _build_roi_encoding_input(args),
+            _build_ridge_encoding_config(args),
+        )
         return
     if args.command == "run-multi-roi-pilot":
         if args.resume_scoring and args.overwrite_scoring:

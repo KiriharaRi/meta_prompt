@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 from collections import defaultdict
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Sequence
 
@@ -35,6 +36,16 @@ from .ridge import (
 
 def _log(message: str) -> None:
     print(f"[brain_region_pipeline] {message}", flush=True)
+
+
+@dataclass(frozen=True)
+class RoiEncodingInput:
+    """Typed input boundary for the fit-roi-encoding stage runner."""
+
+    manifest: Path
+    roi_schemas: Path
+    atlas_labels: Path
+    output_dir: Path
 
 
 def _resolve_schema_mapping(path: str | Path) -> dict[str, Path]:
@@ -578,21 +589,24 @@ def _group_summary(subject_rows: Sequence[dict[str, Any]]) -> dict[str, Any]:
     return payload
 
 
-def fit_roi_encoding_from_manifest(args, cfg: RidgeEncodingConfig) -> None:
+def fit_roi_encoding_from_manifest(
+    inputs: RoiEncodingInput,
+    cfg: RidgeEncodingConfig,
+) -> None:
     """Run joint H5 Ridge encoding from a unified ROI JSONL manifest."""
 
-    output_dir = Path(args.output_dir)
+    output_dir = Path(inputs.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     _log("Step 1/5: Load manifest, ROI schemas, and atlas labels")
-    entries = load_roi_encoding_manifest(args.manifest)
-    roi_order, schemas, schema_paths = _load_roi_schemas(args.roi_schemas)
+    entries = load_roi_encoding_manifest(inputs.manifest)
+    roi_order, schemas, schema_paths = _load_roi_schemas(inputs.roi_schemas)
     manifest_roi_ids = set(entries[0].roi_features)
     if set(roi_order) != manifest_roi_ids:
         raise ValueError(
             "ROI schema mapping must match manifest roi_features exactly: "
             f"{roi_order!r} != {sorted(manifest_roi_ids)!r}.",
         )
-    parcels = parse_atlas_labels(args.atlas_labels)
+    parcels = parse_atlas_labels(inputs.atlas_labels)
     selected_parcels = _selected_parcel_metadata(
         roi_order=roi_order,
         schemas=schemas,
@@ -630,12 +644,12 @@ def fit_roi_encoding_from_manifest(args, cfg: RidgeEncodingConfig) -> None:
         output_dir / "encoding_metadata.json",
         {
             "command": "fit-roi-encoding",
-            "manifest": str(args.manifest),
+            "manifest": str(inputs.manifest),
             "roi_schemas": {
                 roi_id: str(schema_paths[roi_id])
                 for roi_id in roi_order
             },
-            "atlas_labels": str(args.atlas_labels),
+            "atlas_labels": str(inputs.atlas_labels),
             "feature_set_name": entries[0].feature_set_name,
             "roi_order": list(roi_order),
             "lags": list(cfg.lags),

@@ -19,6 +19,7 @@ from brain_region_pipeline.atlas.roi_config import (
     select_roi_definitions,
 )
 from brain_region_pipeline.core.dependencies import default_dependencies
+from brain_region_pipeline.encoding.runner import RoiEncodingInput
 from brain_region_pipeline.pilot.artifacts import PilotArtifacts
 from brain_region_pipeline.pilot.concurrent import ConcurrentPilotStages
 from brain_region_pipeline.pilot.runner import PilotConfig, load_pilot_config
@@ -336,6 +337,36 @@ class Friends14RoiConcurrentScriptTests(unittest.TestCase):
         self.assertEqual(schema_input.roi_definitions, config.roi_definitions)
         self.assertEqual(schema_input.roi_id, "VMPFC")
         self.assertEqual(schema_config.target_region, "VMPFC")
+
+    def test_concurrent_stage_interface_runs_encoding_with_typed_input(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            config_file = _write_minimal_pilot_config(Path(tmpdir))
+            config, _rois = _load_config_and_rois(config_file)
+            artifacts = PilotArtifacts(config)
+            stages = ConcurrentPilotStages(
+                config=config,
+                deps=default_dependencies(),
+                log=lambda _message: None,
+            )
+
+            with patch(
+                "brain_region_pipeline.pilot.concurrent.fit_roi_encoding_from_manifest",
+            ) as fit:
+                stages.run_encoding()
+
+            encoding_input = fit.call_args.args[0]
+            encoding_config = fit.call_args.args[1]
+
+        self.assertIsInstance(encoding_input, RoiEncodingInput)
+        self.assertEqual(encoding_input.manifest, artifacts.manifest_path())
+        self.assertEqual(
+            encoding_input.roi_schemas,
+            artifacts.roi_schema_mapping_path(),
+        )
+        self.assertEqual(encoding_input.atlas_labels, config.atlas_labels)
+        self.assertEqual(encoding_input.output_dir, artifacts.encoding_dir())
+        self.assertEqual(encoding_config.lags, config.lags)
+        self.assertEqual(encoding_config.alphas, config.alphas)
 
 
 if __name__ == "__main__":

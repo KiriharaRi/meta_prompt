@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-from argparse import Namespace
 from dataclasses import dataclass, replace
 from pathlib import Path
 from typing import Any, Sequence
@@ -30,7 +29,7 @@ from ..core.dependencies import (
     default_dependencies,
 )
 from ..core.io_utils import read_json
-from ..encoding.runner import fit_roi_encoding_from_manifest
+from ..encoding.runner import RoiEncodingInput, fit_roi_encoding_from_manifest
 from ..schema_design.domain_pool import load_domain_pool, save_domain_pool
 from ..schema_design.runner import (
     DomainPoolInput,
@@ -483,13 +482,11 @@ def _run_encoding(config: PilotConfig) -> None:
 
     artifacts = PilotArtifacts(config)
     fit_roi_encoding_from_manifest(
-        Namespace(
-            manifest=str(artifacts.manifest_path()),
-            roi_schemas=str(artifacts.roi_schema_mapping_path()),
-            atlas_labels=str(config.atlas_labels),
-            output_dir=str(artifacts.encoding_dir()),
-            lags=",".join(str(lag) for lag in config.lags),
-            alphas=",".join(f"{alpha:g}" for alpha in config.alphas),
+        RoiEncodingInput(
+            manifest=artifacts.manifest_path(),
+            roi_schemas=artifacts.roi_schema_mapping_path(),
+            atlas_labels=config.atlas_labels,
+            output_dir=artifacts.encoding_dir(),
         ),
         RidgeEncodingConfig(
             lags=config.lags,

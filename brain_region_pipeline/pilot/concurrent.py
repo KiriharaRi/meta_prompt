@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import json
-from argparse import Namespace
 from collections.abc import Callable, Sequence
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, replace
@@ -21,7 +20,7 @@ from ..core.config import (
 )
 from ..core.dependencies import PipelineDependencies
 from ..core.io_utils import read_jsonl, write_jsonl
-from ..encoding.runner import fit_roi_encoding_from_manifest
+from ..encoding.runner import RoiEncodingInput, fit_roi_encoding_from_manifest
 from ..schema_design.domain_pool import load_domain_pool, save_domain_pool
 from ..schema_design.region_schema import load_region_schema
 from ..schema_design.runner import (
@@ -634,13 +633,11 @@ class ConcurrentPilotStages:
         """Run the joint ROI Ridge encoding stage."""
 
         fit_roi_encoding_from_manifest(
-            Namespace(
-                manifest=str(self.artifacts.manifest_path()),
-                roi_schemas=str(self.artifacts.roi_schema_mapping_path()),
-                atlas_labels=str(self.config.atlas_labels),
-                output_dir=str(self.artifacts.encoding_dir()),
-                lags=",".join(str(lag) for lag in self.config.lags),
-                alphas=",".join(f"{alpha:g}" for alpha in self.config.alphas),
+            RoiEncodingInput(
+                manifest=self.artifacts.manifest_path(),
+                roi_schemas=self.artifacts.roi_schema_mapping_path(),
+                atlas_labels=self.config.atlas_labels,
+                output_dir=self.artifacts.encoding_dir(),
             ),
             RidgeEncodingConfig(
                 lags=self.config.lags,
