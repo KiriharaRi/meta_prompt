@@ -81,6 +81,114 @@ rg "<removed_dependency_or_command>" brain_region_pipeline tests README.md docs 
 
 ---
 
+## Scenario: Friends Scoring Warning Recovery
+
+### 1. Scope / Trigger
+
+- Trigger: validating or repairing Friends pilot scoring outputs after LLM
+  scoring, failed-batch retry, targeted score-row repair, or manifest/encoding
+  refresh.
+- This applies to ignored live outputs under `friends/full_runs/...` as well as
+  task-specific pilot configs under `configs/`.
+
+### 2. Signatures
+
+```bash
+uv run python scripts/run_friends_14roi_concurrent_pilot.py \
+  --config <pilot-config.json> \
+  --retry-failed-batches \
+  --scoring-workers <N>
+```
+
+Relevant output files:
+
+```text
+rois/<ROI>/scores/<episode>/segment_region_scores.jsonl
+rois/<ROI>/scores/<episode>/scoring_warnings.jsonl
+rois/<ROI>/scores/<episode>/scoring_metadata.json
+rois/<ROI>/scores/<episode>/tr_features.jsonl
+encoding/roi_encoding_manifest.jsonl
+encoding/group_summary.json
+```
+
+### 3. Contracts
+
+- `--retry-failed-batches` retries only warnings whose reason is
+  `batch_generation_failed_zero_filled`; it does not target
+  `missing_segment_zero_filled`.
+- `scoring_metadata.json.scoring_warnings.failed_batches` is the authoritative
+  quick check for standard retry eligibility.
+- `missing_segment_zero_filled` means the provider returned a batch response that
+  omitted one target segment. Before treating it as still active, inspect the
+  corresponding `segment_region_scores.jsonl` row and confirm that the segment is
+  still all-zero with the missing-segment zero-fill rationale.
+- Warning files can contain stale `missing_segment_zero_filled` rows after
+  targeted repair. Validate warning rows against current segment-score rows
+  rather than trusting warning presence alone.
+- After replacing score rows or cleaning warning rows, regenerate the derived
+  scoring outputs for that ROI/episode, then refresh manifest and encoding.
+
+### 4. Validation & Error Matrix
+
+- `failed_batches` is non-empty -> run `--retry-failed-batches`, then rerun the
+  scoring warning scan.
+- `missing_segment_zero_filled` is present and the segment row is still all-zero
+  with the missing-segment rationale -> targeted segment or batch repair is
+  required before final encoding.
+- `missing_segment_zero_filled` is present but the current segment row is no
+  longer zero-filled -> clean stale warning rows and regenerate scoring metadata.
+- Any scoring repair changes `tr_features.jsonl` -> refresh
+  `roi_encoding_manifest.jsonl` and rerun encoding before reporting metrics.
+- Final validation must fail if new ROI/episode outputs are missing, TR row
+  counts differ from expected H5/TR coverage, provider/model provenance differs,
+  residual warnings remain, or manifest split counts are wrong.
+
+### 5. Good/Base/Bad Cases
+
+- Good: scan every selected ROI/episode pair, run standard failed-batch retry for
+  real failed batches, repair or clean missing-segment warnings only after
+  comparing warning rows to current segment rows, then rerun manifest/encoding.
+- Base: if only stale warning rows remain after a successful repair, clean the
+  warning sidecar and regenerate metadata without changing score values.
+- Bad: assume `--retry-failed-batches` fixed every warning type, or assume any
+  all-zero dimension vector is a failure without checking the row rationale.
+
+### 6. Tests Required
+
+- For run tasks, use a validation script that asserts:
+  - expected selected ROI/episode pair count;
+  - no missing `scoring_metadata.json` or `tr_features.jsonl`;
+  - expected TR row counts;
+  - provider/model provenance;
+  - zero residual scoring warnings;
+  - manifest total rows and split counts;
+  - manifest ROI feature count per sample;
+  - final encoding summary metric exists.
+- For code changes to retry or warning cleanup behavior, add regression tests
+  covering `batch_generation_failed_zero_filled`, active
+  `missing_segment_zero_filled`, and stale `missing_segment_zero_filled`.
+
+### 7. Wrong vs Correct
+
+#### Wrong
+
+```python
+if metadata["scoring_warnings"]["warning_count"]:
+    run_failed_batch_retry()
+```
+
+#### Correct
+
+```python
+warnings = metadata["scoring_warnings"]
+if warnings["failed_batches"]:
+    run_failed_batch_retry()
+elif warning_reason == "missing_segment_zero_filled":
+    verify_current_segment_row_before_repair_or_cleanup()
+```
+
+---
+
 ## Scenario: LLM Prompt Contract Synchronization
 
 ### 1. Scope / Trigger
