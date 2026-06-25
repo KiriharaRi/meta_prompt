@@ -9,8 +9,8 @@ serial ``run-multi-roi-pilot`` CLI.
 from __future__ import annotations
 
 import sys
-from argparse import ArgumentParser, Namespace
-from collections.abc import Callable, Sequence
+from argparse import ArgumentParser
+from collections.abc import Sequence
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -26,32 +26,14 @@ from brain_region_pipeline.atlas.roi_config import (  # noqa: E402
     select_roi_definitions,
     validate_roi_definitions_against_atlas,
 )
-from brain_region_pipeline.core.config import SummaryDescriptionsConfig  # noqa: E402
-from brain_region_pipeline.core.dependencies import (  # noqa: E402
-    PipelineDependencies,
-    default_dependencies,
-)
+from brain_region_pipeline.core.dependencies import default_dependencies  # noqa: E402
+from brain_region_pipeline.pilot.concurrent import ConcurrentPilotStages  # noqa: E402
 from brain_region_pipeline.pilot.runner import (  # noqa: E402
     PILOT_STAGES,
     PilotConfig,
-    PilotEpisode,
     _dry_run,
-    _run_encoding,
-    _summary_path,
     _validate_episode_inputs,
-    _write_manifest,
     load_pilot_config,
-)
-from brain_region_pipeline.scoring.summary_generator import (  # noqa: E402
-    summarize_descriptions_from_file,
-)
-from run_friends_7roi_vertex_pilot import (  # noqa: E402
-    _retry_failed_batches,
-    _run_domain_pool_jobs,
-    _run_parallel,
-    _run_schema_jobs,
-    _run_scoring_jobs,
-    _validate_full_outputs,
 )
 
 DEFAULT_CONFIG = REPO_ROOT / "configs" / "friends_multi_roi_pilot.json"
@@ -105,7 +87,10 @@ def parse_args(argv: Sequence[str] | None = None) -> RunOptions:
     parser.add_argument(
         "--retry-failed-batches",
         action="store_true",
-        help="Retry only batch_generation_failed_zero_filled scoring batches, then refresh encoding.",
+        help=(
+            "Retry only batch_generation_failed_zero_filled scoring batches, "
+            "then refresh encoding."
+        ),
     )
     parser.add_argument(
         "--skip-existing-summaries",
@@ -148,67 +133,6 @@ def _load_run_inputs(config_path: Path) -> tuple[PilotConfig, list[RoiDefinition
     return config, rois, counts
 
 
-def _summary_exists(config: PilotConfig, episode: PilotEpisode) -> bool:
-    summary = _summary_path(config, episode)
-    return summary.exists() and summary.with_name("summary_metadata.json").exists()
-
-
-def _run_summary_job(
-    *,
-    config: PilotConfig,
-    episode: PilotEpisode,
-    skip_existing: bool,
-) -> None:
-    """Generate one episode rolling summary unless an existing complete one is reused."""
-
-    summary = _summary_path(config, episode)
-    metadata = summary.with_name("summary_metadata.json")
-    if summary.exists() or metadata.exists():
-        if skip_existing and summary.exists() and metadata.exists():
-            _log(f"Summary already complete: {episode.episode_id}")
-            return
-        raise ValueError(
-            f"Summary output already exists for {episode.episode_id}; "
-            "pass --skip-existing-summaries to reuse complete summary outputs.",
-        )
-    summarize_descriptions_from_file(
-        Namespace(
-            descriptions=str(episode.descriptions),
-            output_file=str(summary),
-        ),
-        SummaryDescriptionsConfig(
-            generation_provider=config.generation_provider,
-            generation_model=config.generation_model,
-        ),
-    )
-
-
-def _run_summary_jobs(
-    *,
-    config: PilotConfig,
-    workers: int,
-    skip_existing: bool,
-) -> None:
-    """Generate shared summaries for all configured episodes."""
-
-    jobs: list[tuple[str, Callable[[], None]]] = []
-    for episode in config.episodes:
-        if skip_existing and _summary_exists(config, episode):
-            _log(f"Summary already complete: {episode.episode_id}")
-            continue
-        jobs.append(
-            (
-                episode.episode_id,
-                lambda episode=episode: _run_summary_job(
-                    config=config,
-                    episode=episode,
-                    skip_existing=skip_existing,
-                ),
-            ),
-        )
-    _run_parallel(stage_name="summaries", workers=workers, jobs=jobs)
-
-
 def _print_dry_run(
     *,
     config: PilotConfig,
@@ -232,40 +156,36 @@ def _run_full(
     config: PilotConfig,
     rois: Sequence[RoiDefinition],
     options: RunOptions,
-    deps: PipelineDependencies,
+    stages: ConcurrentPilotStages,
 ) -> None:
     """Run the complete config-driven concurrent workflow."""
 
     config.output_root.mkdir(parents=True, exist_ok=True)
     _log("Step 1/6: Generate summaries")
-    _run_summary_jobs(
-        config=config,
+    stages.run_summary_jobs(
         workers=options.summary_workers,
         skip_existing=options.skip_existing_summaries,
     )
 
     _log("Step 2/6: Generate domain pools")
-    _run_domain_pool_jobs(config, rois, deps=deps, workers=options.domain_workers)
+    stages.run_domain_pool_jobs(rois, workers=options.domain_workers)
 
     _log("Step 3/6: Generate schemas")
-    _run_schema_jobs(config, rois, deps=deps, workers=options.schema_workers)
+    stages.run_schema_jobs(rois, workers=options.schema_workers)
 
     _log("Step 4/6: Score ROI/episode pairs")
-    _run_scoring_jobs(
-        config,
+    stages.run_scoring_jobs(
         rois,
         config.episodes,
-        deps=deps,
         workers=options.scoring_workers,
         overwrite_scoring=options.overwrite_scoring,
     )
 
     _log("Step 5/6: Write manifest and fit encoding")
-    _write_manifest(config, rois)
-    _run_encoding(config)
+    stages.refresh_encoding(rois)
 
     _log("Step 6/6: Validate outputs")
-    _validate_full_outputs(config, rois)
+    stages.validate_full_outputs(rois)
     _log("Concurrent pilot run complete.")
 
 
@@ -274,47 +194,44 @@ def _run_stage(
     config: PilotConfig,
     rois: Sequence[RoiDefinition],
     options: RunOptions,
-    deps: PipelineDependencies,
+    stages: ConcurrentPilotStages,
 ) -> None:
     """Run one configured stage while preserving full-run behavior for ``all``."""
 
     if options.stage == "all":
-        _run_full(config=config, rois=rois, options=options, deps=deps)
+        _run_full(config=config, rois=rois, options=options, stages=stages)
     elif options.stage == "summaries":
         config.output_root.mkdir(parents=True, exist_ok=True)
         _log("Stage summaries: Generate summaries")
-        _run_summary_jobs(
-            config=config,
+        stages.run_summary_jobs(
             workers=options.summary_workers,
             skip_existing=options.skip_existing_summaries,
         )
     elif options.stage == "domain-pools":
         config.output_root.mkdir(parents=True, exist_ok=True)
         _log("Stage domain-pools: Generate domain pools")
-        _run_domain_pool_jobs(config, rois, deps=deps, workers=options.domain_workers)
+        stages.run_domain_pool_jobs(rois, workers=options.domain_workers)
     elif options.stage == "schemas":
         config.output_root.mkdir(parents=True, exist_ok=True)
         _log("Stage schemas: Generate schemas")
-        _run_schema_jobs(config, rois, deps=deps, workers=options.schema_workers)
+        stages.run_schema_jobs(rois, workers=options.schema_workers)
     elif options.stage == "scoring":
         config.output_root.mkdir(parents=True, exist_ok=True)
         _log("Stage scoring: Score ROI/episode pairs")
-        _run_scoring_jobs(
-            config,
+        stages.run_scoring_jobs(
             rois,
             config.episodes,
-            deps=deps,
             workers=options.scoring_workers,
             overwrite_scoring=options.overwrite_scoring,
         )
     elif options.stage == "manifest":
         config.output_root.mkdir(parents=True, exist_ok=True)
         _log("Stage manifest: Write manifest")
-        _write_manifest(config, rois)
+        stages.write_manifest(rois)
     elif options.stage == "encoding":
         config.output_root.mkdir(parents=True, exist_ok=True)
         _log("Stage encoding: Fit encoding")
-        _run_encoding(config)
+        stages.run_encoding()
     else:
         raise ValueError(f"Unsupported pilot stage: {options.stage!r}")
 
@@ -328,10 +245,11 @@ def main(argv: Sequence[str] | None = None) -> None:
         _print_dry_run(config=config, rois=rois, counts=counts, options=options)
         return
     deps = default_dependencies()
+    stages = ConcurrentPilotStages(config=config, deps=deps, log=_log)
     if options.retry_failed_batches:
-        _retry_failed_batches(config=config, rois=rois, options=options, deps=deps)
+        stages.retry_failed_batches(rois, workers=options.scoring_workers)
         return
-    _run_stage(config=config, rois=rois, options=options, deps=deps)
+    _run_stage(config=config, rois=rois, options=options, stages=stages)
 
 
 if __name__ == "__main__":

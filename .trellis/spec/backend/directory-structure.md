@@ -55,6 +55,7 @@ brain_region_pipeline/
 │   └── runner.py            # unified ROI Ridge orchestration and outputs
 └── pilot/
     ├── artifacts.py         # Friends pilot artifact graph and encoding inputs
+    ├── concurrent.py        # reusable concurrent Friends pilot stage jobs
     └── runner.py            # staged Friends multi-ROI pilot orchestration
 ```
 
@@ -136,6 +137,11 @@ engine as multi-ROI encoding.
 - `pilot/artifacts.py` owns Friends pilot artifact paths, confirmed domain-pool
   lookup, and the encoding input sidecars generated from scored ROI outputs:
   `roi_encoding_manifest.jsonl` and `roi_schemas.json`.
+- `pilot/concurrent.py` owns reusable Friends pilot concurrency behavior:
+  independent job execution, concurrent summary/domain/schema/scoring stage
+  jobs, failed-batch retry orchestration, manifest/encoding refresh, and output
+  validation. Script adapters should call this module instead of importing
+  private helpers from another run-specific script.
 - `pilot/runner.py` orchestrates staged Friends multi-ROI runs from config. It
   should call maintained stage runners and `pilot/artifacts.py` rather than
   reimplementing scoring, encoding, path-layout, or manifest-writing logic.
@@ -201,6 +207,10 @@ uv run python scripts/run_friends_14roi_concurrent_pilot.py \
 - Scripts should call existing functions from `brain_region_pipeline.pilot`,
   `schema_design`, `scoring`, and `encoding` rather than reimplementing stage
   internals.
+- General concurrent stage behavior belongs in
+  `brain_region_pipeline.pilot.concurrent`. A script may keep run-specific
+  defaults, smoke paths, artifact-copying, and environment checks, but it should
+  not import private stage/concurrency helpers from another run-specific script.
 
 ### 4. Validation & Error Matrix
 

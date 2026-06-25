@@ -8,10 +8,20 @@ import tempfile
 import unittest
 from contextlib import redirect_stdout
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import Mock, patch
 
 import h5py
 import numpy as np
+
+from brain_region_pipeline.atlas.roi_config import (
+    RoiDefinition,
+    load_roi_definitions,
+    select_roi_definitions,
+)
+from brain_region_pipeline.core.dependencies import default_dependencies
+from brain_region_pipeline.pilot.artifacts import PilotArtifacts
+from brain_region_pipeline.pilot.concurrent import ConcurrentPilotStages
+from brain_region_pipeline.pilot.runner import PilotConfig, load_pilot_config
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -117,8 +127,20 @@ def _write_minimal_pilot_config(
     return config_file
 
 
+def _load_config_and_rois(config_file: Path) -> tuple[PilotConfig, list[RoiDefinition]]:
+    config = load_pilot_config(config_file)
+    roi_definitions = load_roi_definitions(config.roi_definitions)
+    rois = select_roi_definitions(roi_definitions, config.rois)
+    return config, rois
+
+
 class Friends14RoiConcurrentScriptTests(unittest.TestCase):
     """Smoke tests for the config-driven concurrent Friends runner."""
+
+    def test_script_does_not_import_7roi_private_helpers(self) -> None:
+        source = SCRIPT_PATH.read_text(encoding="utf-8")
+
+        self.assertNotIn("run_friends_7roi_vertex_pilot", source)
 
     def test_dry_run_uses_config_episodes_and_workers(self) -> None:
         script = _load_script_module()
@@ -178,23 +200,56 @@ class Friends14RoiConcurrentScriptTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmpdir:
             config_file = _write_minimal_pilot_config(Path(tmpdir))
             calls: list[str] = []
+            stages = Mock()
 
             def fake_scoring_jobs(*_args, **_kwargs) -> None:
                 calls.append("scoring")
 
+            stages.run_scoring_jobs.side_effect = fake_scoring_jobs
             with (
-                patch.object(script, "_run_scoring_jobs", side_effect=fake_scoring_jobs),
+                patch.object(script, "ConcurrentPilotStages", return_value=stages),
                 patch.object(script, "_run_full") as run_full,
-                patch.object(script, "_write_manifest") as write_manifest,
-                patch.object(script, "_run_encoding") as run_encoding,
             ):
                 with redirect_stdout(io.StringIO()):
                     script.main(["--config", str(config_file), "--stage", "scoring"])
 
         self.assertEqual(calls, ["scoring"])
         run_full.assert_not_called()
-        write_manifest.assert_not_called()
-        run_encoding.assert_not_called()
+        stages.write_manifest.assert_not_called()
+        stages.run_encoding.assert_not_called()
+        stages.refresh_encoding.assert_not_called()
+
+    def test_concurrent_stage_interface_runs_scoring_with_artifact_paths(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            config_file = _write_minimal_pilot_config(Path(tmpdir))
+            config, rois = _load_config_and_rois(config_file)
+            artifacts = PilotArtifacts(config)
+            stages = ConcurrentPilotStages(
+                config=config,
+                deps=default_dependencies(),
+                log=lambda _message: None,
+            )
+
+            with patch(
+                "brain_region_pipeline.pilot.concurrent.score_descriptions_from_file",
+            ) as score:
+                stages.run_scoring_jobs(
+                    rois,
+                    [config.episodes[0]],
+                    workers=1,
+                    overwrite_scoring=True,
+                )
+
+            args = score.call_args.args[0]
+
+        self.assertEqual(Path(args.region_schema), artifacts.region_schema_path("VMPFC"))
+        self.assertEqual(
+            Path(args.output_dir),
+            artifacts.scoring_dir("VMPFC", config.episodes[0]),
+        )
+        self.assertEqual(Path(args.summary_file), artifacts.summary_path(config.episodes[0]))
+        self.assertFalse(args.resume)
+        self.assertTrue(args.overwrite)
 
 
 if __name__ == "__main__":
