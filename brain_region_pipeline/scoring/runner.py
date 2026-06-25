@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import json
 import math
-from dataclasses import replace
+from dataclasses import dataclass, replace
 from pathlib import Path
 from typing import Any
 
@@ -33,6 +33,29 @@ def _log(message: str) -> None:
     print(f"[brain_region_pipeline] {message}", flush=True)
 
 
+@dataclass(frozen=True)
+class ScoreDescriptionsInput:
+    """Typed input for the score-descriptions stage runner."""
+
+    descriptions: Path
+    region_schema: Path
+    output_dir: Path
+    model: str
+    tr_s: float
+    total_trs: int | None
+    resume: bool
+    overwrite: bool
+    summary_file: Path | None
+    provider: str
+    scoring_batch_size: int
+    local_buffer_size: int
+    gt_dir: Path | None
+    gt_file_pattern: str
+    gt_time_column: str
+    gt_emotion_column: str
+    alignment: str
+
+
 def _infer_score_total_trs(
     scores: list[SegmentRegionScore],
     cfg: ScoreDescriptionsConfig,
@@ -47,7 +70,7 @@ def _infer_score_total_trs(
     return int(math.ceil(max(score.end_s for score in scores) / cfg.tr_s))
 
 
-def _load_scoring_summaries(path: str | None) -> list[dict[str, Any]] | None:
+def _load_scoring_summaries(path: str | Path | None) -> list[dict[str, Any]] | None:
     """Load notebook-style batch summaries for Story Context."""
 
     if not path:
@@ -230,36 +253,36 @@ def _score_segments_with_checkpoints(
 
 
 def score_descriptions_from_file(
-    args,
+    inputs: ScoreDescriptionsInput,
     cfg: ScoreDescriptionsConfig,
     deps: PipelineDependencies | None = None,
 ) -> None:
     """Run stage: existing dense descriptions -> region-dimension scores."""
 
     deps = deps or default_dependencies()
-    output_dir = Path(args.output_dir)
+    output_dir = inputs.output_dir
     output_dir.mkdir(parents=True, exist_ok=True)
     ensure_output_policy(
         output_dir,
-        resume=bool(getattr(args, "resume", False)),
-        overwrite=bool(getattr(args, "overwrite", False)),
+        resume=inputs.resume,
+        overwrite=inputs.overwrite,
     )
     _log("Step 1/4: Load region schema")
-    schema = load_region_schema(args.region_schema)
-    _log(f"  Region schema ready: {len(schema.dimensions)} dimension(s) from {args.region_schema}")
+    schema = load_region_schema(inputs.region_schema)
+    _log(f"  Region schema ready: {len(schema.dimensions)} dimension(s) from {inputs.region_schema}")
     _log("Step 2/4: Load dense descriptions")
-    segments = load_description_segments(args.descriptions)
-    _log(f"  Loaded {len(segments)} description segments from {args.descriptions}")
-    summaries = _load_scoring_summaries(getattr(args, "summary_file", None))
+    segments = load_description_segments(inputs.descriptions)
+    _log(f"  Loaded {len(segments)} description segments from {inputs.descriptions}")
+    summaries = _load_scoring_summaries(inputs.summary_file)
     if summaries is not None:
-        _log(f"  Loaded {len(summaries)} Story Context summaries from {args.summary_file}")
+        _log(f"  Loaded {len(summaries)} Story Context summaries from {inputs.summary_file}")
     _log(f"Step 3/4: Score {len(segments)} description segments")
     _log(
         f"  Batch scoring config: target_batch_size={cfg.scoring_batch_size}, "
         f"local_buffer_size={cfg.local_buffer_size}",
     )
-    run_signature = build_scoring_run_signature(args=args, cfg=cfg)
-    source_paths = build_scoring_source_paths(args)
+    run_signature = build_scoring_run_signature(args=inputs, cfg=cfg)
+    source_paths = build_scoring_source_paths(inputs)
     scores, scoring_warnings = _score_segments_with_checkpoints(
         output_dir=output_dir,
         segments=segments,
@@ -267,7 +290,7 @@ def score_descriptions_from_file(
         cfg=cfg,
         summaries=summaries,
         deps=deps,
-        resume=bool(getattr(args, "resume", False)),
+        resume=inputs.resume,
         run_signature=run_signature,
         source_paths=source_paths,
     )
@@ -282,19 +305,19 @@ def score_descriptions_from_file(
     else:
         warning_summary = _scoring_warning_summary(scoring_warnings)
     gt_metadata: dict | None = None
-    if getattr(args, "gt_dir", None):
+    if inputs.gt_dir:
         _log("  Average GT CSV values onto description segments")
         gt_by_emotion, gt_metadata = load_averaged_gt_csvs(
-            args.gt_dir,
-            file_pattern=args.gt_file_pattern,
-            time_column=args.gt_time_column,
-            emotion_column=args.gt_emotion_column,
+            inputs.gt_dir,
+            file_pattern=inputs.gt_file_pattern,
+            time_column=inputs.gt_time_column,
+            emotion_column=inputs.gt_emotion_column,
         )
         gt_rows = average_gt_to_segments(segments, gt_by_emotion)
         write_jsonl(output_dir / "segment_gt_means.jsonl", gt_rows)
         _log(f"  Wrote segment GT means to {output_dir / 'segment_gt_means.jsonl'}")
     _log("Step 4/4: Align scores to TR features")
-    total_trs = _infer_score_total_trs(scores, cfg, args.total_trs)
+    total_trs = _infer_score_total_trs(scores, cfg, inputs.total_trs)
     tr_rows = align_scores_to_trs(
         scores=scores,
         schema=schema,
@@ -314,10 +337,10 @@ def score_descriptions_from_file(
             "local_buffer_size": cfg.local_buffer_size,
             "provider": cfg.generation_provider,
             "model": cfg.generation_model,
-            "summary_file": getattr(args, "summary_file", None),
+            "summary_file": str(inputs.summary_file) if inputs.summary_file else None,
             "scoring_warnings": warning_summary,
             "gt": gt_metadata,
-            "region_schema": args.region_schema,
+            "region_schema": str(inputs.region_schema),
             "feature_names": schema.ordered_dimension_ids(),
             "feature_metadata": [
                 {
@@ -342,4 +365,3 @@ def score_descriptions_from_file(
     _log(f"  Wrote readable TR descriptions to {output_dir / 'tr_descriptions_readable.jsonl'}")
     _log(f"  Wrote scoring metadata to {output_dir / 'scoring_metadata.json'}")
     _log(f"Description-scoring stage complete. Outputs in {output_dir}")
-

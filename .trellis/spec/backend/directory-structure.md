@@ -101,6 +101,9 @@ engine as multi-ROI encoding.
 
 - `cli.py` parses arguments and dispatches to runner functions. It should not
   contain scoring, alignment, file-format, or model logic.
+- CLI adapters may receive `argparse.Namespace`, but maintained stage runner
+  modules should expose typed input objects rather than accepting CLI-shaped
+  `Namespace` directly.
 - `core/dependencies.py` defines the dependency injection surface. Keep it
   limited to maintained stage dependencies.
 - `atlas/labels.py` owns Brainnetome/Yeo parcel label parsing and selection-rule

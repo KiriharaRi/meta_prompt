@@ -116,7 +116,7 @@ def build_scoring_run_signature(
         "tr_s": cfg.tr_s,
         "alignment": cfg.alignment_strategy,
         "total_trs": getattr(args, "total_trs", None),
-        "gt_dir": getattr(args, "gt_dir", None),
+        "gt_dir": str(args.gt_dir) if getattr(args, "gt_dir", None) else None,
         "gt_file_pattern": getattr(args, "gt_file_pattern", None),
         "gt_time_column": getattr(args, "gt_time_column", None),
         "gt_emotion_column": getattr(args, "gt_emotion_column", None),

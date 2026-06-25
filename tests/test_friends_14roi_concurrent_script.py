@@ -22,6 +22,8 @@ from brain_region_pipeline.core.dependencies import default_dependencies
 from brain_region_pipeline.pilot.artifacts import PilotArtifacts
 from brain_region_pipeline.pilot.concurrent import ConcurrentPilotStages
 from brain_region_pipeline.pilot.runner import PilotConfig, load_pilot_config
+from brain_region_pipeline.scoring.runner import ScoreDescriptionsInput
+from brain_region_pipeline.scoring.summary_generator import SummaryDescriptionsInput
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -240,16 +242,39 @@ class Friends14RoiConcurrentScriptTests(unittest.TestCase):
                     overwrite_scoring=True,
                 )
 
-            args = score.call_args.args[0]
+            score_input = score.call_args.args[0]
 
-        self.assertEqual(Path(args.region_schema), artifacts.region_schema_path("VMPFC"))
+        self.assertIsInstance(score_input, ScoreDescriptionsInput)
+        self.assertEqual(score_input.region_schema, artifacts.region_schema_path("VMPFC"))
         self.assertEqual(
-            Path(args.output_dir),
+            score_input.output_dir,
             artifacts.scoring_dir("VMPFC", config.episodes[0]),
         )
-        self.assertEqual(Path(args.summary_file), artifacts.summary_path(config.episodes[0]))
-        self.assertFalse(args.resume)
-        self.assertTrue(args.overwrite)
+        self.assertEqual(score_input.summary_file, artifacts.summary_path(config.episodes[0]))
+        self.assertFalse(score_input.resume)
+        self.assertTrue(score_input.overwrite)
+
+    def test_concurrent_stage_interface_runs_summary_with_typed_input(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            config_file = _write_minimal_pilot_config(Path(tmpdir))
+            config, _rois = _load_config_and_rois(config_file)
+            artifacts = PilotArtifacts(config)
+            stages = ConcurrentPilotStages(
+                config=config,
+                deps=default_dependencies(),
+                log=lambda _message: None,
+            )
+
+            with patch(
+                "brain_region_pipeline.pilot.concurrent.summarize_descriptions_from_file",
+            ) as summarize:
+                stages.run_summary_jobs(workers=1, skip_existing=False)
+
+            summary_input = summarize.call_args_list[0].args[0]
+
+        self.assertIsInstance(summary_input, SummaryDescriptionsInput)
+        self.assertEqual(summary_input.descriptions, config.episodes[0].descriptions)
+        self.assertEqual(summary_input.output_file, artifacts.summary_path(config.episodes[0]))
 
 
 if __name__ == "__main__":

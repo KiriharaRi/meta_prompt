@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+from pathlib import Path
 
 from .core.config import (
     DEFAULT_ENCODING_LAGS,
@@ -25,9 +26,13 @@ from .schema_design.runner import (
 )
 from .scoring.correlation import write_score_correlations
 from .scoring.runner import (
+    ScoreDescriptionsInput,
     score_descriptions_from_file,
 )
-from .scoring.summary_generator import summarize_descriptions_from_file
+from .scoring.summary_generator import (
+    SummaryDescriptionsInput,
+    summarize_descriptions_from_file,
+)
 
 
 def _add_generation_args(parser: argparse.ArgumentParser) -> None:
@@ -289,6 +294,39 @@ def _build_summary_config(args: argparse.Namespace) -> SummaryDescriptionsConfig
     )
 
 
+def _build_summary_input(args: argparse.Namespace) -> SummaryDescriptionsInput:
+    """Build typed rolling-summary stage input from CLI args."""
+
+    return SummaryDescriptionsInput(
+        descriptions=Path(args.descriptions),
+        output_file=Path(args.output_file),
+    )
+
+
+def _build_score_input(args: argparse.Namespace) -> ScoreDescriptionsInput:
+    """Build typed score-descriptions stage input from CLI args."""
+
+    return ScoreDescriptionsInput(
+        descriptions=Path(args.descriptions),
+        region_schema=Path(args.region_schema),
+        output_dir=Path(args.output_dir),
+        model=args.model,
+        tr_s=args.tr_s,
+        total_trs=args.total_trs,
+        resume=args.resume,
+        overwrite=args.overwrite,
+        summary_file=Path(args.summary_file) if args.summary_file else None,
+        provider=args.provider,
+        scoring_batch_size=args.scoring_batch_size,
+        local_buffer_size=args.local_buffer_size,
+        gt_dir=Path(args.gt_dir) if args.gt_dir else None,
+        gt_file_pattern=args.gt_file_pattern,
+        gt_time_column=args.gt_time_column,
+        gt_emotion_column=args.gt_emotion_column,
+        alignment=args.alignment,
+    )
+
+
 def _parse_int_list(raw_value: str, flag: str) -> tuple[int, ...]:
     """Parse a comma-separated integer CLI list."""
 
@@ -344,10 +382,17 @@ def main(
         make_region_schema(args, _build_region_schema_config(args), deps=deps)
         return
     if args.command == "score-descriptions":
-        score_descriptions_from_file(args, _build_score_config(args), deps=deps)
+        score_descriptions_from_file(
+            _build_score_input(args),
+            _build_score_config(args),
+            deps=deps,
+        )
         return
     if args.command == "summarize-descriptions":
-        summarize_descriptions_from_file(args, _build_summary_config(args))
+        summarize_descriptions_from_file(
+            _build_summary_input(args),
+            _build_summary_config(args),
+        )
         return
     if args.command == "correlate-scores":
         write_score_correlations(

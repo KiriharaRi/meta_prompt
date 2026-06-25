@@ -28,10 +28,14 @@ from ..schema_design.runner import make_domain_pool, make_region_schema
 from ..scoring.checkpoint import scoring_output_paths
 from ..scoring.description_io import load_description_segments
 from ..scoring.runner import (
+    ScoreDescriptionsInput,
     _normalize_batch_score_metadata,
     score_descriptions_from_file,
 )
-from ..scoring.summary_generator import summarize_descriptions_from_file
+from ..scoring.summary_generator import (
+    SummaryDescriptionsInput,
+    summarize_descriptions_from_file,
+)
 from .artifacts import PilotArtifacts
 
 if TYPE_CHECKING:
@@ -198,9 +202,9 @@ class ConcurrentPilotStages:
                 "pass --skip-existing-summaries to reuse complete summary outputs.",
             )
         summarize_descriptions_from_file(
-            Namespace(
-                descriptions=str(episode.descriptions),
-                output_file=str(summary),
+            SummaryDescriptionsInput(
+                descriptions=episode.descriptions,
+                output_file=summary,
             ),
             SummaryDescriptionsConfig(
                 generation_provider=self.config.generation_provider,
@@ -356,27 +360,27 @@ class ConcurrentPilotStages:
         ]
         run_parallel(stage_name="schemas", workers=workers, jobs=jobs, log=self.log)
 
-    def scoring_args(
+    def scoring_input(
         self,
         *,
         roi: RoiDefinition,
         episode: PilotEpisode,
         resume: bool,
         overwrite: bool,
-    ) -> Namespace:
-        """Build score-descriptions args for one ROI/episode job."""
+    ) -> ScoreDescriptionsInput:
+        """Build score-descriptions input for one ROI/episode job."""
 
         artifacts = self.artifacts
-        return Namespace(
-            descriptions=str(episode.descriptions),
-            region_schema=str(artifacts.region_schema_path(roi.roi_id)),
-            output_dir=str(artifacts.scoring_dir(roi.roi_id, episode)),
+        return ScoreDescriptionsInput(
+            descriptions=episode.descriptions,
+            region_schema=artifacts.region_schema_path(roi.roi_id),
+            output_dir=artifacts.scoring_dir(roi.roi_id, episode),
             model=self.config.generation_model,
             tr_s=self.config.tr_s,
             total_trs=None,
             resume=resume,
             overwrite=overwrite,
-            summary_file=str(artifacts.summary_path(episode)),
+            summary_file=artifacts.summary_path(episode),
             provider=self.config.generation_provider,
             scoring_batch_size=self.config.scoring_batch_size,
             local_buffer_size=self.config.local_buffer_size,
@@ -406,7 +410,7 @@ class ConcurrentPilotStages:
         overwrite_scoring: bool,
     ) -> None:
         score_descriptions_from_file(
-            self.scoring_args(
+            self.scoring_input(
                 roi=roi,
                 episode=episode,
                 resume=not overwrite_scoring,
@@ -521,17 +525,19 @@ class ConcurrentPilotStages:
         """Retry one failed score batch and refresh that episode's derived outputs."""
 
         label = f"{roi.roi_id}/{episode.episode_id}/batch{batch_idx}"
-        args = self.scoring_args(
+        inputs = self.scoring_input(
             roi=roi,
             episode=episode,
             resume=True,
             overwrite=False,
         )
         cfg = self.score_config()
-        output_dir = Path(args.output_dir)
-        schema = load_region_schema(args.region_schema)
-        segments = load_description_segments(args.descriptions)
-        with Path(args.summary_file).open("r", encoding="utf-8") as handle:
+        output_dir = inputs.output_dir
+        schema = load_region_schema(inputs.region_schema)
+        segments = load_description_segments(inputs.descriptions)
+        if inputs.summary_file is None:
+            raise ValueError(f"{label}: scoring retry requires a summary file.")
+        with inputs.summary_file.open("r", encoding="utf-8") as handle:
             summaries = json.load(handle)
         batch_start = batch_idx * cfg.scoring_batch_size
         if batch_start >= len(segments):
@@ -566,7 +572,7 @@ class ConcurrentPilotStages:
             )
             # Regenerate TR features, readable rows, metadata, and progress from
             # the updated complete score rows after each serialized mutation.
-            score_descriptions_from_file(args, cfg, deps=self.deps)
+            score_descriptions_from_file(inputs, cfg, deps=self.deps)
         still_failed = any(
             row.get("reason") == "batch_generation_failed_zero_filled"
             and int(row.get("batch_idx", -1)) == batch_idx

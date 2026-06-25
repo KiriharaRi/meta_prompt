@@ -37,9 +37,13 @@ from ..schema_design.runner import (
     make_region_schema,
 )
 from ..scoring.runner import (
+    ScoreDescriptionsInput,
     score_descriptions_from_file,
 )
-from ..scoring.summary_generator import summarize_descriptions_from_file
+from ..scoring.summary_generator import (
+    SummaryDescriptionsInput,
+    summarize_descriptions_from_file,
+)
 from .artifacts import PilotArtifacts
 
 
@@ -350,9 +354,9 @@ def _run_summaries(config: PilotConfig) -> None:
     for episode in config.episodes:
         _log(f"Summary stage: {episode.episode_id}")
         summarize_descriptions_from_file(
-            Namespace(
-                descriptions=str(episode.descriptions),
-                output_file=str(artifacts.summary_path(episode)),
+            SummaryDescriptionsInput(
+                descriptions=episode.descriptions,
+                output_file=artifacts.summary_path(episode),
             ),
             cfg,
         )
@@ -448,16 +452,16 @@ def _run_scoring(
         for episode in config.episodes:
             _log(f"Scoring stage: {roi.roi_id} / {episode.episode_id}")
             score_descriptions_from_file(
-                Namespace(
-                    descriptions=str(episode.descriptions),
-                    region_schema=str(artifacts.region_schema_path(roi.roi_id)),
-                    output_dir=str(artifacts.scoring_dir(roi.roi_id, episode)),
+                ScoreDescriptionsInput(
+                    descriptions=episode.descriptions,
+                    region_schema=artifacts.region_schema_path(roi.roi_id),
+                    output_dir=artifacts.scoring_dir(roi.roi_id, episode),
                     model=config.generation_model,
                     tr_s=config.tr_s,
                     total_trs=None,
                     resume=resume,
                     overwrite=overwrite,
-                    summary_file=str(artifacts.summary_path(episode)),
+                    summary_file=artifacts.summary_path(episode),
                     provider=config.generation_provider,
                     scoring_batch_size=config.scoring_batch_size,
                     local_buffer_size=config.local_buffer_size,

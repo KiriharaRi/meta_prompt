@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any, Sequence
@@ -47,6 +48,14 @@ Return a valid JSON object with exactly these fields:
 
 def _log(message: str) -> None:
     print(f"[brain_region_pipeline] {message}", flush=True)
+
+
+@dataclass(frozen=True)
+class SummaryDescriptionsInput:
+    """Typed input for the rolling-summary stage runner."""
+
+    descriptions: Path
+    output_file: Path
 
 
 def _format_hms(seconds: float) -> str:
@@ -217,17 +226,17 @@ def _metadata_path(summary_path: Path) -> Path:
 
 
 def summarize_descriptions_from_file(
-    args,
+    inputs: SummaryDescriptionsInput,
     cfg: SummaryDescriptionsConfig,
 ) -> None:
     """Run stage: dense descriptions -> rolling narrative summary JSON."""
 
-    output_file = Path(args.output_file)
+    output_file = inputs.output_file
     _log("Step 1/3: Load dense descriptions")
-    segments = load_description_segments(args.descriptions)
+    segments = load_description_segments(inputs.descriptions)
     if not segments:
         raise ValueError("Cannot summarize descriptions because no segments were parsed.")
-    _log(f"  Loaded {len(segments)} description segment(s) from {args.descriptions}")
+    _log(f"  Loaded {len(segments)} description segment(s) from {inputs.descriptions}")
 
     _log("Step 2/3: Generate rolling summaries")
     rows = summarize_description_segments(segments, cfg)
@@ -240,7 +249,7 @@ def summarize_descriptions_from_file(
         metadata_file,
         {
             "command": "summarize-descriptions",
-            "descriptions": str(args.descriptions),
+            "descriptions": str(inputs.descriptions),
             "summary_file": str(output_file),
             "metadata_file": str(metadata_file),
             "provider": cfg.generation_provider,
