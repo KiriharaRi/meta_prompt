@@ -1,0 +1,98 @@
+{
+  "n_segments": 279,
+  "n_trs": 474,
+  "tr_s": 1.49,
+  "alignment": "overlap_weighted",
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s02e14a/summary.json",
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  },
+  "gt": null,
+  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/pSTS/region_schema.json",
+  "feature_names": [
+    "dialogue_interactivity_and_turn_taking",
+    "relational_alignment_and_conflict_shifts",
+    "non_verbal_social_coordination",
+    "expressive_bodily_gestures",
+    "goal_directed_object_manipulation",
+    "locomotion_and_gait_dynamics",
+    "false_belief_and_deception_tracking",
+    "hidden_motive_and_intent_inference",
+    "empathic_perspective_taking",
+    "vocal_prosody_and_emotional_expression",
+    "visible_speech_and_lip_movement",
+    "non_verbal_vocalizations_and_sound_pairing",
+    "gaze_direction_and_mutual_stare",
+    "joint_attention_and_pointing",
+    "avoidant_or_covert_gaze"
+  ],
+  "feature_metadata": [
+    {
+      "dimension_id": "dialogue_interactivity_and_turn_taking",
+      "domain": "social_interaction_tracking"
+    },
+    {
+      "dimension_id": "relational_alignment_and_conflict_shifts",
+      "domain": "social_interaction_tracking"
+    },
+    {
+      "dimension_id": "non_verbal_social_coordination",
+      "domain": "social_interaction_tracking"
+    },
+    {
+      "dimension_id": "expressive_bodily_gestures",
+      "domain": "biological_motion_and_action_intent_appraisal"
+    },
+    {
+      "dimension_id": "goal_directed_object_manipulation",
+      "domain": "biological_motion_and_action_intent_appraisal"
+    },
+    {
+      "dimension_id": "locomotion_and_gait_dynamics",
+      "domain": "biological_motion_and_action_intent_appraisal"
+    },
+    {
+      "dimension_id": "false_belief_and_deception_tracking",
+      "domain": "mental_state_attribution_and_perspective_taking"
+    },
+    {
+      "dimension_id": "hidden_motive_and_intent_inference",
+      "domain": "mental_state_attribution_and_perspective_taking"
+    },
+    {
+      "dimension_id": "empathic_perspective_taking",
+      "domain": "mental_state_attribution_and_perspective_taking"
+    },
+    {
+      "dimension_id": "vocal_prosody_and_emotional_expression",
+      "domain": "audiovisual_speech_and_communication_integration"
+    },
+    {
+      "dimension_id": "visible_speech_and_lip_movement",
+      "domain": "audiovisual_speech_and_communication_integration"
+    },
+    {
+      "dimension_id": "non_verbal_vocalizations_and_sound_pairing",
+      "domain": "audiovisual_speech_and_communication_integration"
+    },
+    {
+      "dimension_id": "gaze_direction_and_mutual_stare",
+      "domain": "social_attention_and_gaze_tracking"
+    },
+    {
+      "dimension_id": "joint_attention_and_pointing",
+      "domain": "social_attention_and_gaze_tracking"
+    },
+    {
+      "dimension_id": "avoidant_or_covert_gaze",
+      "domain": "social_attention_and_gaze_tracking"
+    }
+  ]
+}

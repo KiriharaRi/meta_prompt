@@ -1,0 +1,83 @@
+{
+  "n_segments": 267,
+  "n_trs": 488,
+  "tr_s": 1.49,
+  "alignment": "overlap_weighted",
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s02e13b/summary.json",
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  },
+  "gt": null,
+  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/PCC/region_schema.json",
+  "feature_names": [
+    "narrative_boundary_shift",
+    "episodic_callback_integration",
+    "situation_model_complexity",
+    "mentalizing_and_theory_of_mind",
+    "interpersonal_relationship_tracking",
+    "social_tension_and_subtext",
+    "spatial_layout_reconstruction",
+    "egocentric_spatial_navigation",
+    "environmental_transition_and_reorientation",
+    "moral_evaluation_and_judgment",
+    "thematic_significance_appraisal",
+    "character_empathy_and_affective_resonance"
+  ],
+  "feature_metadata": [
+    {
+      "dimension_id": "narrative_boundary_shift",
+      "domain": "narrative_situation_updating_and_integration"
+    },
+    {
+      "dimension_id": "episodic_callback_integration",
+      "domain": "narrative_situation_updating_and_integration"
+    },
+    {
+      "dimension_id": "situation_model_complexity",
+      "domain": "narrative_situation_updating_and_integration"
+    },
+    {
+      "dimension_id": "mentalizing_and_theory_of_mind",
+      "domain": "social_relationship_and_mentalizing_appraisal"
+    },
+    {
+      "dimension_id": "interpersonal_relationship_tracking",
+      "domain": "social_relationship_and_mentalizing_appraisal"
+    },
+    {
+      "dimension_id": "social_tension_and_subtext",
+      "domain": "social_relationship_and_mentalizing_appraisal"
+    },
+    {
+      "dimension_id": "spatial_layout_reconstruction",
+      "domain": "spatial_environmental_anchoring"
+    },
+    {
+      "dimension_id": "egocentric_spatial_navigation",
+      "domain": "spatial_environmental_anchoring"
+    },
+    {
+      "dimension_id": "environmental_transition_and_reorientation",
+      "domain": "spatial_environmental_anchoring"
+    },
+    {
+      "dimension_id": "moral_evaluation_and_judgment",
+      "domain": "moral_thematic_and_affective_appraisal"
+    },
+    {
+      "dimension_id": "thematic_significance_appraisal",
+      "domain": "moral_thematic_and_affective_appraisal"
+    },
+    {
+      "dimension_id": "character_empathy_and_affective_resonance",
+      "domain": "moral_thematic_and_affective_appraisal"
+    }
+  ]
+}
