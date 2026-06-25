@@ -1406,3 +1406,36 @@ Moved reusable Friends concurrent pilot stage jobs into brain_region_pipeline.pi
 ### Next Steps
 
 - None - task complete
+
+
+## Session 41: Remove CLI-shaped summary scoring interface
+
+**Date**: 2026-06-25
+**Task**: Remove CLI-shaped summary scoring interface
+**Branch**: `main`
+
+### Summary
+
+Replaced summary and scoring runner Namespace-shaped inputs with typed dataclass inputs, updated CLI and Friends pilot callers, removed obsolete Friends scripts, added typed-input regression coverage, and recorded the backend stage-runner interface rule.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `c0cbc1d` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
