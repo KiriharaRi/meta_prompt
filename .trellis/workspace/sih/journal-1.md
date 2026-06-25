@@ -1505,3 +1505,36 @@ Replaced the encoding runner's CLI-shaped args boundary with RoiEncodingInput, u
 ### Next Steps
 
 - None - task complete
+
+
+## Session 44: Friends round3 scoring and encoding
+
+**Date**: 2026-06-26
+**Task**: Friends round3 scoring and encoding
+**Branch**: `main`
+
+### Summary
+
+Added the round3 65-train Friends scoring/encoding config and outputs, preserved the 55-train encoding snapshot, verified 140/140 new ROI-episode scoring outputs with zero warnings, and recorded the final encoding metric 0.21207336267220675.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `ee1821e` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
