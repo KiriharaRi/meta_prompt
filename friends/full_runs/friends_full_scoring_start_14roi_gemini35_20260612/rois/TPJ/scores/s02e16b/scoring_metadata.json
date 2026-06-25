@@ -1,0 +1,98 @@
+{
+  "n_segments": 291,
+  "n_trs": 478,
+  "tr_s": 1.49,
+  "alignment": "overlap_weighted",
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s02e16b/summary.json",
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  },
+  "gt": null,
+  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/TPJ/region_schema.json",
+  "feature_names": [
+    "inferring_beliefs_and_knowledge",
+    "inferring_hidden_motives_and_intentions",
+    "inferring_subjective_emotions_and_perspectives",
+    "dramatic_irony_detection",
+    "secret_keeping_and_deception_tracking",
+    "shared_vs_private_knowledge_mapping",
+    "social_conflict_and_confrontation",
+    "social_cooperation_and_alliance",
+    "communicative_intent_and_dialogue_dynamics",
+    "unexpected_plot_twists_and_revelations",
+    "surprising_character_actions",
+    "abrupt_sensory_or_situational_shifts",
+    "moral_violation_and_transgression",
+    "altruism_and_moral_exemplar_behavior",
+    "blame_and_intentionality_assessment"
+  ],
+  "feature_metadata": [
+    {
+      "dimension_id": "inferring_beliefs_and_knowledge",
+      "domain": "mental_state_attribution"
+    },
+    {
+      "dimension_id": "inferring_hidden_motives_and_intentions",
+      "domain": "mental_state_attribution"
+    },
+    {
+      "dimension_id": "inferring_subjective_emotions_and_perspectives",
+      "domain": "mental_state_attribution"
+    },
+    {
+      "dimension_id": "dramatic_irony_detection",
+      "domain": "epistemic_perspective_tracking"
+    },
+    {
+      "dimension_id": "secret_keeping_and_deception_tracking",
+      "domain": "epistemic_perspective_tracking"
+    },
+    {
+      "dimension_id": "shared_vs_private_knowledge_mapping",
+      "domain": "epistemic_perspective_tracking"
+    },
+    {
+      "dimension_id": "social_conflict_and_confrontation",
+      "domain": "social_interaction_appraisal"
+    },
+    {
+      "dimension_id": "social_cooperation_and_alliance",
+      "domain": "social_interaction_appraisal"
+    },
+    {
+      "dimension_id": "communicative_intent_and_dialogue_dynamics",
+      "domain": "social_interaction_appraisal"
+    },
+    {
+      "dimension_id": "unexpected_plot_twists_and_revelations",
+      "domain": "narrative_expectancy_reorienting"
+    },
+    {
+      "dimension_id": "surprising_character_actions",
+      "domain": "narrative_expectancy_reorienting"
+    },
+    {
+      "dimension_id": "abrupt_sensory_or_situational_shifts",
+      "domain": "narrative_expectancy_reorienting"
+    },
+    {
+      "dimension_id": "moral_violation_and_transgression",
+      "domain": "moral_and_normative_appraisal"
+    },
+    {
+      "dimension_id": "altruism_and_moral_exemplar_behavior",
+      "domain": "moral_and_normative_appraisal"
+    },
+    {
+      "dimension_id": "blame_and_intentionality_assessment",
+      "domain": "moral_and_normative_appraisal"
+    }
+  ]
+}

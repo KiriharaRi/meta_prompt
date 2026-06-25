@@ -1,0 +1,98 @@
+{
+  "n_segments": 291,
+  "n_trs": 478,
+  "tr_s": 1.49,
+  "alignment": "overlap_weighted",
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s02e16b/summary.json",
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  },
+  "gt": null,
+  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/IPL/region_schema.json",
+  "feature_names": [
+    "egocentric_navigation_and_movement",
+    "allocentric_spatial_layout_and_relative_position",
+    "camera_perspective_and_viewpoint_shifts",
+    "manual_tool_use_and_object_manipulation",
+    "gross_motor_coordination_and_locomotion",
+    "goal_directed_action_sequences",
+    "theory_of_mind_and_mentalizing",
+    "interpersonal_conflict_and_strategic_deception",
+    "non_verbal_social_cue_decoding",
+    "cross_scene_causal_linking",
+    "character_motive_and_goal_updating",
+    "situational_schema_revision",
+    "unexpected_sensory_or_environmental_shocks",
+    "abrupt_narrative_interruptions",
+    "salient_cue_detection"
+  ],
+  "feature_metadata": [
+    {
+      "dimension_id": "egocentric_navigation_and_movement",
+      "domain": "spatial_layout_and_perspective_tracking"
+    },
+    {
+      "dimension_id": "allocentric_spatial_layout_and_relative_position",
+      "domain": "spatial_layout_and_perspective_tracking"
+    },
+    {
+      "dimension_id": "camera_perspective_and_viewpoint_shifts",
+      "domain": "spatial_layout_and_perspective_tracking"
+    },
+    {
+      "dimension_id": "manual_tool_use_and_object_manipulation",
+      "domain": "action_simulation_and_tool_tracking"
+    },
+    {
+      "dimension_id": "gross_motor_coordination_and_locomotion",
+      "domain": "action_simulation_and_tool_tracking"
+    },
+    {
+      "dimension_id": "goal_directed_action_sequences",
+      "domain": "action_simulation_and_tool_tracking"
+    },
+    {
+      "dimension_id": "theory_of_mind_and_mentalizing",
+      "domain": "social_perspective_and_intention_tracking"
+    },
+    {
+      "dimension_id": "interpersonal_conflict_and_strategic_deception",
+      "domain": "social_perspective_and_intention_tracking"
+    },
+    {
+      "dimension_id": "non_verbal_social_cue_decoding",
+      "domain": "social_perspective_and_intention_tracking"
+    },
+    {
+      "dimension_id": "cross_scene_causal_linking",
+      "domain": "narrative_causal_integration"
+    },
+    {
+      "dimension_id": "character_motive_and_goal_updating",
+      "domain": "narrative_causal_integration"
+    },
+    {
+      "dimension_id": "situational_schema_revision",
+      "domain": "narrative_causal_integration"
+    },
+    {
+      "dimension_id": "unexpected_sensory_or_environmental_shocks",
+      "domain": "attentional_reorienting_and_salience_detection"
+    },
+    {
+      "dimension_id": "abrupt_narrative_interruptions",
+      "domain": "attentional_reorienting_and_salience_detection"
+    },
+    {
+      "dimension_id": "salient_cue_detection",
+      "domain": "attentional_reorienting_and_salience_detection"
+    }
+  ]
+}
