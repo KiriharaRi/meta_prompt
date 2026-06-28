@@ -1,0 +1,18 @@
+{
+  "roi_schemas": {
+    "DLPFC": "../../../full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/DLPFC/region_schema.json",
+    "VMPFC": "../../../full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/VMPFC/region_schema.json",
+    "OFC": "../../../full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/OFC/region_schema.json",
+    "ACC": "../../../full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/ACC/region_schema.json",
+    "PCC": "../../../full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/PCC/region_schema.json",
+    "Precuneus": "../../../full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/Precuneus/region_schema.json",
+    "IPL": "../../../full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/IPL/region_schema.json",
+    "SMG": "../../../full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/SMG/region_schema.json",
+    "AG": "../../../full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/AG/region_schema.json",
+    "TPJ": "../../../full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/TPJ/region_schema.json",
+    "pSTS": "../../../full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/pSTS/region_schema.json",
+    "FFA": "../../../full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/FFA/region_schema.json",
+    "Insula": "../../../full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/Insula/region_schema.json",
+    "Temporal_Pole": "../../../full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/Temporal_Pole/region_schema.json"
+  }
+}

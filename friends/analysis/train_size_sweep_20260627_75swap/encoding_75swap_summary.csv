@@ -1,0 +1,5 @@
+run,train_size,added_set,mean_subject_mean_test_pearson,delta_vs_65,median_subject_mean_test_pearson,mean_subject_median_test_pearson,best_alpha,n_retained_parcels,n_test_trs,output_dir
+round3_65train_baseline,65,none,0.21207336267220675,0.0,0.21207336267220675,0.2048392383408515,10000.0,86,1812,git:ee1821e:friends/full_runs/.../encoding
+75_from65_round4_add10,75,65 + original round4 add10,0.21350091686877692,0.0014275541965701743,0.21350091686877692,0.2105933619844561,10000.0,86,1812,friends/analysis/train_size_sweep_20260627_75swap/encoding_75_from65_round4_add10
+75_from65_round5_add10,75,65 + round5 add10,0.21470286938767497,0.002629506715468216,0.21470286938767497,0.20339598029487738,10000.0,86,1812,friends/analysis/train_size_sweep_20260627_75swap/encoding_75_from65_round5_add10
+round5_85train_current,85,round4 add10 + round5 add10,0.2155106262476474,0.0034372635754406633,0.2155106262476474,0.2090388691191204,10000.0,86,1812,friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding

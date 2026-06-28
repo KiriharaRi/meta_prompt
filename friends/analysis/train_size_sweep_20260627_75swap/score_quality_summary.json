@@ -1,0 +1,338 @@
+[
+  {
+    "group": "round3_tail10_reference",
+    "episodes": [
+      "s02e15b",
+      "s02e16a",
+      "s02e16b",
+      "s02e17a",
+      "s02e17b",
+      "s02e18a",
+      "s02e18b",
+      "s02e19a",
+      "s02e19b",
+      "s02e20a"
+    ],
+    "expected_jobs": 140,
+    "complete_jobs": 140,
+    "partial_jobs": 0,
+    "missing_jobs": 0,
+    "warning_jobs": 0,
+    "failed_batches": 0,
+    "zero_filled_segments": 0,
+    "provider_models": [
+      {
+        "provider": "aihubmix",
+        "model": "gemini-3.5-flash",
+        "jobs": 140
+      }
+    ],
+    "segment_rows_min": 263,
+    "segment_rows_max": 291,
+    "segment_rows_mean": 273.9,
+    "tr_rows_min": 449,
+    "tr_rows_max": 489,
+    "tr_rows_mean": 472.5,
+    "score_value_mean": 1.7550478509783818,
+    "score_value_std": 1.884446634844011,
+    "nonzero_value_rate": 0.6109894121942314,
+    "all_zero_segment_rate": 0.027095394565274083,
+    "all_zero_tr_rate": 0.019743008314436886,
+    "roi_summary": {
+      "ACC": {
+        "jobs": 10,
+        "mean_score_value": 0.9986641161038872,
+        "mean_all_zero_segment_rate": 0.0899495131471525
+      },
+      "AG": {
+        "jobs": 10,
+        "mean_score_value": 2.085005078667322,
+        "mean_all_zero_segment_rate": 0.0
+      },
+      "DLPFC": {
+        "jobs": 10,
+        "mean_score_value": 1.9545421303805266,
+        "mean_all_zero_segment_rate": 0.004458819795564057
+      },
+      "FFA": {
+        "jobs": 10,
+        "mean_score_value": 2.559418961590655,
+        "mean_all_zero_segment_rate": 0.004400490536469672
+      },
+      "IPL": {
+        "jobs": 10,
+        "mean_score_value": 1.6593605967310159,
+        "mean_all_zero_segment_rate": 0.0
+      },
+      "Insula": {
+        "jobs": 10,
+        "mean_score_value": 0.4247526912293401,
+        "mean_all_zero_segment_rate": 0.19552489319244828
+      },
+      "OFC": {
+        "jobs": 10,
+        "mean_score_value": 0.659211117747533,
+        "mean_all_zero_segment_rate": 0.06264929326499931
+      },
+      "PCC": {
+        "jobs": 10,
+        "mean_score_value": 2.776036367488536,
+        "mean_all_zero_segment_rate": 0.0
+      },
+      "Precuneus": {
+        "jobs": 10,
+        "mean_score_value": 3.2817276161205604,
+        "mean_all_zero_segment_rate": 0.0003773584905660377
+      },
+      "SMG": {
+        "jobs": 10,
+        "mean_score_value": 0.8818856144848618,
+        "mean_all_zero_segment_rate": 0.005511840058335108
+      },
+      "TPJ": {
+        "jobs": 10,
+        "mean_score_value": 1.589340853174125,
+        "mean_all_zero_segment_rate": 0.0007477915688247792
+      },
+      "Temporal_Pole": {
+        "jobs": 10,
+        "mean_score_value": 2.3445418589754787,
+        "mean_all_zero_segment_rate": 0.0007547169811320754
+      },
+      "VMPFC": {
+        "jobs": 10,
+        "mean_score_value": 1.363033204836244,
+        "mean_all_zero_segment_rate": 0.004800828066169188
+      },
+      "pSTS": {
+        "jobs": 10,
+        "mean_score_value": 1.92392492239436,
+        "mean_all_zero_segment_rate": 0.012850776962616965
+      }
+    }
+  },
+  {
+    "group": "round4_add10",
+    "episodes": [
+      "s02e20b",
+      "s02e21a",
+      "s02e21b",
+      "s02e22a",
+      "s02e22b",
+      "s02e23a",
+      "s02e23b",
+      "s02e24b",
+      "s02e01b",
+      "s02e02b"
+    ],
+    "expected_jobs": 140,
+    "complete_jobs": 140,
+    "partial_jobs": 0,
+    "missing_jobs": 0,
+    "warning_jobs": 0,
+    "failed_batches": 0,
+    "zero_filled_segments": 0,
+    "provider_models": [
+      {
+        "provider": "aihubmix",
+        "model": "gemini-3.5-flash",
+        "jobs": 140
+      }
+    ],
+    "segment_rows_min": 235,
+    "segment_rows_max": 278,
+    "segment_rows_mean": 252.7,
+    "tr_rows_min": 449,
+    "tr_rows_max": 477,
+    "tr_rows_mean": 460.2,
+    "score_value_mean": 1.857474804031355,
+    "score_value_std": 1.9134500491880924,
+    "nonzero_value_rate": 0.638339970867819,
+    "all_zero_segment_rate": 0.02103001865566171,
+    "all_zero_tr_rate": 0.01528838393245173,
+    "roi_summary": {
+      "ACC": {
+        "jobs": 10,
+        "mean_score_value": 1.2757292126061042,
+        "mean_all_zero_segment_rate": 0.04749977448096721
+      },
+      "AG": {
+        "jobs": 10,
+        "mean_score_value": 2.18579113479177,
+        "mean_all_zero_segment_rate": 0.0003968253968253968
+      },
+      "DLPFC": {
+        "jobs": 10,
+        "mean_score_value": 2.17707514775954,
+        "mean_all_zero_segment_rate": 0.00436201823756193
+      },
+      "FFA": {
+        "jobs": 10,
+        "mean_score_value": 2.5768433553698933,
+        "mean_all_zero_segment_rate": 0.0059893438666087295
+      },
+      "IPL": {
+        "jobs": 10,
+        "mean_score_value": 1.7359519628199804,
+        "mean_all_zero_segment_rate": 0.0007936507936507937
+      },
+      "Insula": {
+        "jobs": 10,
+        "mean_score_value": 0.5341059501886789,
+        "mean_all_zero_segment_rate": 0.17566177981700465
+      },
+      "OFC": {
+        "jobs": 10,
+        "mean_score_value": 0.7777787218015922,
+        "mean_all_zero_segment_rate": 0.028891604504959405
+      },
+      "PCC": {
+        "jobs": 10,
+        "mean_score_value": 2.836519937515359,
+        "mean_all_zero_segment_rate": 0.0003968253968253968
+      },
+      "Precuneus": {
+        "jobs": 10,
+        "mean_score_value": 3.346648701989968,
+        "mean_all_zero_segment_rate": 0.0
+      },
+      "SMG": {
+        "jobs": 10,
+        "mean_score_value": 0.9130452576348136,
+        "mean_all_zero_segment_rate": 0.00983716807290245
+      },
+      "TPJ": {
+        "jobs": 10,
+        "mean_score_value": 1.8500834472495633,
+        "mean_all_zero_segment_rate": 0.0011952572193536049
+      },
+      "Temporal_Pole": {
+        "jobs": 10,
+        "mean_score_value": 2.3808093609749115,
+        "mean_all_zero_segment_rate": 0.0015889580067551797
+      },
+      "VMPFC": {
+        "jobs": 10,
+        "mean_score_value": 1.4996462233665508,
+        "mean_all_zero_segment_rate": 0.0038702636805782913
+      },
+      "pSTS": {
+        "jobs": 10,
+        "mean_score_value": 1.9563792380267744,
+        "mean_all_zero_segment_rate": 0.013256614457578626
+      }
+    }
+  },
+  {
+    "group": "round5_add10",
+    "episodes": [
+      "s02e03b",
+      "s02e04b",
+      "s02e05b",
+      "s03e01a",
+      "s03e01b",
+      "s03e02a",
+      "s03e02b",
+      "s03e03a",
+      "s03e03b",
+      "s03e04a"
+    ],
+    "expected_jobs": 140,
+    "complete_jobs": 140,
+    "partial_jobs": 0,
+    "missing_jobs": 0,
+    "warning_jobs": 0,
+    "failed_batches": 0,
+    "zero_filled_segments": 0,
+    "provider_models": [
+      {
+        "provider": "aihubmix",
+        "model": "gemini-3.5-flash",
+        "jobs": 140
+      }
+    ],
+    "segment_rows_min": 253,
+    "segment_rows_max": 284,
+    "segment_rows_mean": 267,
+    "tr_rows_min": 454,
+    "tr_rows_max": 491,
+    "tr_rows_mean": 468.6,
+    "score_value_mean": 1.8393423778787155,
+    "score_value_std": 1.8868795133210114,
+    "nonzero_value_rate": 0.6427603793130927,
+    "all_zero_segment_rate": 0.021936864633493848,
+    "all_zero_tr_rate": 0.017727577586732518,
+    "roi_summary": {
+      "ACC": {
+        "jobs": 10,
+        "mean_score_value": 1.2080790928680805,
+        "mean_all_zero_segment_rate": 0.05336669839146402
+      },
+      "AG": {
+        "jobs": 10,
+        "mean_score_value": 2.1553429774858652,
+        "mean_all_zero_segment_rate": 0.00035460992907801415
+      },
+      "DLPFC": {
+        "jobs": 10,
+        "mean_score_value": 2.2138837476722375,
+        "mean_all_zero_segment_rate": 0.009425022138009767
+      },
+      "FFA": {
+        "jobs": 10,
+        "mean_score_value": 2.5568333590773373,
+        "mean_all_zero_segment_rate": 0.007491982631483775
+      },
+      "IPL": {
+        "jobs": 10,
+        "mean_score_value": 1.6757111526960968,
+        "mean_all_zero_segment_rate": 0.002941253359550722
+      },
+      "Insula": {
+        "jobs": 10,
+        "mean_score_value": 0.49312180566996816,
+        "mean_all_zero_segment_rate": 0.13688017860030485
+      },
+      "OFC": {
+        "jobs": 10,
+        "mean_score_value": 0.695980434934842,
+        "mean_all_zero_segment_rate": 0.05830305133640736
+      },
+      "PCC": {
+        "jobs": 10,
+        "mean_score_value": 2.7147042566572672,
+        "mean_all_zero_segment_rate": 0.0
+      },
+      "Precuneus": {
+        "jobs": 10,
+        "mean_score_value": 3.325222689134337,
+        "mean_all_zero_segment_rate": 0.0018964994121439679
+      },
+      "SMG": {
+        "jobs": 10,
+        "mean_score_value": 0.918960350416937,
+        "mean_all_zero_segment_rate": 0.008802187850833539
+      },
+      "TPJ": {
+        "jobs": 10,
+        "mean_score_value": 1.9003451320726346,
+        "mean_all_zero_segment_rate": 0.0037366919964310916
+      },
+      "Temporal_Pole": {
+        "jobs": 10,
+        "mean_score_value": 2.366053338612909,
+        "mean_all_zero_segment_rate": 0.0033548040633922635
+      },
+      "VMPFC": {
+        "jobs": 10,
+        "mean_score_value": 1.48397073093339,
+        "mean_all_zero_segment_rate": 0.006731465870947929
+      },
+      "pSTS": {
+        "jobs": 10,
+        "mean_score_value": 1.999605898757308,
+        "mean_all_zero_segment_rate": 0.013131284369258372
+      }
+    }
+  }
+]

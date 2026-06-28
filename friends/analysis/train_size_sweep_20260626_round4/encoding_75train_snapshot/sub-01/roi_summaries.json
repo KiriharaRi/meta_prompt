@@ -1,0 +1,128 @@
+{
+  "ACC": {
+    "subject_id": "sub-01",
+    "roi_id": "ACC",
+    "primary_metric": "mean_test_pearson",
+    "mean_test_pearson": 0.2016859853333967,
+    "median_test_pearson": 0.20702407159081126,
+    "n_total_selected_parcels": 8,
+    "n_retained_parcels": 8
+  },
+  "AG": {
+    "subject_id": "sub-01",
+    "roi_id": "AG",
+    "primary_metric": "mean_test_pearson",
+    "mean_test_pearson": 0.26410831449957467,
+    "median_test_pearson": 0.22941780743101917,
+    "n_total_selected_parcels": 6,
+    "n_retained_parcels": 6
+  },
+  "DLPFC": {
+    "subject_id": "sub-01",
+    "roi_id": "DLPFC",
+    "primary_metric": "mean_test_pearson",
+    "mean_test_pearson": 0.2192421426991656,
+    "median_test_pearson": 0.2206976145177702,
+    "n_total_selected_parcels": 10,
+    "n_retained_parcels": 10
+  },
+  "FFA": {
+    "subject_id": "sub-01",
+    "roi_id": "FFA",
+    "primary_metric": "mean_test_pearson",
+    "mean_test_pearson": 0.2447622771477454,
+    "median_test_pearson": 0.25150549841792413,
+    "n_total_selected_parcels": 4,
+    "n_retained_parcels": 4
+  },
+  "IPL": {
+    "subject_id": "sub-01",
+    "roi_id": "IPL",
+    "primary_metric": "mean_test_pearson",
+    "mean_test_pearson": 0.27213381302850975,
+    "median_test_pearson": 0.22941780743101917,
+    "n_total_selected_parcels": 12,
+    "n_retained_parcels": 12
+  },
+  "Insula": {
+    "subject_id": "sub-01",
+    "roi_id": "Insula",
+    "primary_metric": "mean_test_pearson",
+    "mean_test_pearson": 0.1989628168012978,
+    "median_test_pearson": 0.19309400188099074,
+    "n_total_selected_parcels": 12,
+    "n_retained_parcels": 12
+  },
+  "OFC": {
+    "subject_id": "sub-01",
+    "roi_id": "OFC",
+    "primary_metric": "mean_test_pearson",
+    "mean_test_pearson": 0.19703230568004879,
+    "median_test_pearson": 0.18460333450081245,
+    "n_total_selected_parcels": 12,
+    "n_retained_parcels": 12
+  },
+  "PCC": {
+    "subject_id": "sub-01",
+    "roi_id": "PCC",
+    "primary_metric": "mean_test_pearson",
+    "mean_test_pearson": 0.23413845575205128,
+    "median_test_pearson": 0.2206807532710146,
+    "n_total_selected_parcels": 6,
+    "n_retained_parcels": 6
+  },
+  "Precuneus": {
+    "subject_id": "sub-01",
+    "roi_id": "Precuneus",
+    "primary_metric": "mean_test_pearson",
+    "mean_test_pearson": 0.16505196461642918,
+    "median_test_pearson": 0.14260787931366098,
+    "n_total_selected_parcels": 8,
+    "n_retained_parcels": 8
+  },
+  "SMG": {
+    "subject_id": "sub-01",
+    "roi_id": "SMG",
+    "primary_metric": "mean_test_pearson",
+    "mean_test_pearson": 0.2801593115574449,
+    "median_test_pearson": 0.2891805887104186,
+    "n_total_selected_parcels": 6,
+    "n_retained_parcels": 6
+  },
+  "TPJ": {
+    "subject_id": "sub-01",
+    "roi_id": "TPJ",
+    "primary_metric": "mean_test_pearson",
+    "mean_test_pearson": 0.2524587383519827,
+    "median_test_pearson": 0.2227346659106289,
+    "n_total_selected_parcels": 20,
+    "n_retained_parcels": 20
+  },
+  "Temporal_Pole": {
+    "subject_id": "sub-01",
+    "roi_id": "Temporal_Pole",
+    "primary_metric": "mean_test_pearson",
+    "mean_test_pearson": 0.20541883295320787,
+    "median_test_pearson": 0.21336779284668417,
+    "n_total_selected_parcels": 4,
+    "n_retained_parcels": 4
+  },
+  "VMPFC": {
+    "subject_id": "sub-01",
+    "roi_id": "VMPFC",
+    "primary_metric": "mean_test_pearson",
+    "mean_test_pearson": 0.16535793273119867,
+    "median_test_pearson": 0.1381032825122117,
+    "n_total_selected_parcels": 8,
+    "n_retained_parcels": 8
+  },
+  "pSTS": {
+    "subject_id": "sub-01",
+    "roi_id": "pSTS",
+    "primary_metric": "mean_test_pearson",
+    "mean_test_pearson": 0.18337242310730945,
+    "median_test_pearson": 0.17703433096171073,
+    "n_total_selected_parcels": 4,
+    "n_retained_parcels": 4
+  }
+}

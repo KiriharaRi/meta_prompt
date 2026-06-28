@@ -1,0 +1,21 @@
+series,train_size,mean_test_pearson,median_test_pearson,best_alpha,n_retained_parcels,n_test_trs,source,source_note
+Friends,5,0.15950467955984263,0.1372907073268566,10000.0,86,1812,friends/analysis/train_size_sweep_20260622_fresh/summary_plus45.csv,frozen summary_plus45.csv row
+Friends,15,0.1776555189820112,0.16473955558561643,10000.0,86,1812,friends/analysis/train_size_sweep_20260622_fresh/summary_plus45.csv,frozen summary_plus45.csv row
+Friends,25,0.19128536020967288,0.18619635252795882,10000.0,86,1812,friends/analysis/train_size_sweep_20260622_fresh/summary_plus45.csv,frozen summary_plus45.csv row
+Friends,35,0.19581513507019482,0.19172457333767776,10000.0,86,1812,friends/analysis/train_size_sweep_20260622_fresh/summary_plus45.csv,frozen summary_plus45.csv row
+Friends,45,0.20148189948675485,0.19568416614896555,10000.0,86,1812,friends/analysis/train_size_sweep_20260622_fresh/summary_plus45.csv,frozen summary_plus45.csv row
+Friends,55,0.20813553012023459,0.20164551144613801,10000.0,86,1812,friends/analysis/train_size_sweep_20260625_round3/encoding_55train_snapshot/group_summary.json,round2/55train encoding snapshot
+Friends,65,0.21207336267220675,0.2048392383408515,10000.0,86,1812,git:ee1821e:friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/group_summary.json,round3/65train committed encoding output
+Friends,75,0.21350091686877692,0.2105933619844561,10000.0,86,1812,friends/analysis/train_size_sweep_20260626_round4/encoding_75train_snapshot/group_summary.json,round4/75train migrated encoding snapshot
+Friends,85,0.2155106262476474,0.2090388691191204,10000.0,86,1812,friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/group_summary.json,round5/85train current encoding output
+Tribe,20,0.11892333128719788,0.11277022962766899,10000.0,86,1852,friends/tribe/tribe_train_size_test_performance.csv,tribe train-size CSV row
+Tribe,40,0.14671588984278108,0.14406445157967968,10000.0,86,1852,friends/tribe/tribe_train_size_test_performance.csv,tribe train-size CSV row
+Tribe,60,0.1466308955267963,0.1389069121650816,10000.0,86,1852,friends/tribe/tribe_train_size_test_performance.csv,tribe train-size CSV row
+Tribe,80,0.17008492851621598,0.16716429895980472,10000.0,86,1852,friends/tribe/tribe_train_size_test_performance.csv,tribe train-size CSV row
+Tribe,100,0.1853141211105515,0.19213539126743487,10000.0,86,1852,friends/tribe/tribe_train_size_test_performance.csv,tribe train-size CSV row
+Tribe,120,0.19498307336175671,0.1992766481073197,10000.0,86,1852,friends/tribe/tribe_train_size_test_performance.csv,tribe train-size CSV row
+Tribe,140,0.20021370985251263,0.20554147078835755,10000.0,86,1852,friends/tribe/tribe_train_size_test_performance.csv,tribe train-size CSV row
+Tribe,160,0.20348848965231012,0.2158030770604321,10000.0,86,1852,friends/tribe/tribe_train_size_test_performance.csv,tribe train-size CSV row
+Tribe,180,0.20780480885423921,0.21600250839379087,10000.0,86,1852,friends/tribe/tribe_train_size_test_performance.csv,tribe train-size CSV row
+Tribe,200,0.21087103669197238,0.21759142978717455,10000.0,86,1852,friends/tribe/tribe_train_size_test_performance.csv,tribe train-size CSV row
+Tribe,220,0.21213773328816823,0.21739481924737764,10000.0,86,1852,friends/tribe/tribe_train_size_test_performance.csv,tribe train-size CSV row

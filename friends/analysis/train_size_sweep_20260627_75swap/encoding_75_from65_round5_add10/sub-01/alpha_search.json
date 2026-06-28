@@ -1,0 +1,98 @@
+{
+  "subject_id": "sub-01",
+  "selected_alpha": 10000.0,
+  "selection_metric": "mean_val_pearson",
+  "rows": [
+    {
+      "alpha": 0.01,
+      "mean_val_pearson": 0.2132245813910736,
+      "n_val_trs": 2220,
+      "n_defined_parcels": 86,
+      "n_total_parcels": 86
+    },
+    {
+      "alpha": 0.03,
+      "mean_val_pearson": 0.2132248414779016,
+      "n_val_trs": 2220,
+      "n_defined_parcels": 86,
+      "n_total_parcels": 86
+    },
+    {
+      "alpha": 0.1,
+      "mean_val_pearson": 0.2132257515741755,
+      "n_val_trs": 2220,
+      "n_defined_parcels": 86,
+      "n_total_parcels": 86
+    },
+    {
+      "alpha": 0.3,
+      "mean_val_pearson": 0.2132283500725166,
+      "n_val_trs": 2220,
+      "n_defined_parcels": 86,
+      "n_total_parcels": 86
+    },
+    {
+      "alpha": 1.0,
+      "mean_val_pearson": 0.21323742420095776,
+      "n_val_trs": 2220,
+      "n_defined_parcels": 86,
+      "n_total_parcels": 86
+    },
+    {
+      "alpha": 3.0,
+      "mean_val_pearson": 0.21326317639731288,
+      "n_val_trs": 2220,
+      "n_defined_parcels": 86,
+      "n_total_parcels": 86
+    },
+    {
+      "alpha": 10.0,
+      "mean_val_pearson": 0.2133513825584892,
+      "n_val_trs": 2220,
+      "n_defined_parcels": 86,
+      "n_total_parcels": 86
+    },
+    {
+      "alpha": 30.0,
+      "mean_val_pearson": 0.21358902414293537,
+      "n_val_trs": 2220,
+      "n_defined_parcels": 86,
+      "n_total_parcels": 86
+    },
+    {
+      "alpha": 100.0,
+      "mean_val_pearson": 0.21430292909897056,
+      "n_val_trs": 2220,
+      "n_defined_parcels": 86,
+      "n_total_parcels": 86
+    },
+    {
+      "alpha": 300.0,
+      "mean_val_pearson": 0.21581932331279252,
+      "n_val_trs": 2220,
+      "n_defined_parcels": 86,
+      "n_total_parcels": 86
+    },
+    {
+      "alpha": 1000.0,
+      "mean_val_pearson": 0.219014989201158,
+      "n_val_trs": 2220,
+      "n_defined_parcels": 86,
+      "n_total_parcels": 86
+    },
+    {
+      "alpha": 3000.0,
+      "mean_val_pearson": 0.22342152225226877,
+      "n_val_trs": 2220,
+      "n_defined_parcels": 86,
+      "n_total_parcels": 86
+    },
+    {
+      "alpha": 10000.0,
+      "mean_val_pearson": 0.2284800077052109,
+      "n_val_trs": 2220,
+      "n_defined_parcels": 86,
+      "n_total_parcels": 86
+    }
+  ]
+}

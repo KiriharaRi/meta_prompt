@@ -1,0 +1,4 @@
+group,expected_jobs,complete_jobs,partial_jobs,missing_jobs,warning_jobs,failed_batches,zero_filled_segments,segment_rows_mean,tr_rows_mean,score_value_mean,score_value_std,nonzero_value_rate,all_zero_segment_rate,all_zero_tr_rate,provider_model_jobs
+round3_tail10_reference,140,140,0,0,0,0,0,273.9,472.5,1.7550478509783818,1.884446634844011,0.6109894121942314,0.027095394565274083,0.019743008314436886,aihubmix/gemini-3.5-flash:140
+round4_add10,140,140,0,0,0,0,0,252.7,460.2,1.857474804031355,1.9134500491880924,0.638339970867819,0.02103001865566171,0.01528838393245173,aihubmix/gemini-3.5-flash:140
+round5_add10,140,140,0,0,0,0,0,267,468.6,1.8393423778787155,1.8868795133210114,0.6427603793130927,0.021936864633493848,0.017727577586732518,aihubmix/gemini-3.5-flash:140

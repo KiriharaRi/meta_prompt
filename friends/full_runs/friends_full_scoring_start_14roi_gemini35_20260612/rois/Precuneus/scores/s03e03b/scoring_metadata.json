@@ -1,0 +1,83 @@
+{
+  "n_segments": 284,
+  "n_trs": 454,
+  "tr_s": 1.49,
+  "alignment": "overlap_weighted",
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s03e03b/summary.json",
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  },
+  "gt": null,
+  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/Precuneus/region_schema.json",
+  "feature_names": [
+    "egocentric_navigation_detail",
+    "allocentric_spatial_layout",
+    "camera_perspective_shift",
+    "episodic_memory_retrieval",
+    "plot_continuity_integration",
+    "thematic_conceptual_synthesis",
+    "theory_of_mind_inference",
+    "interpersonal_subtext_tension",
+    "empathic_perspective_taking",
+    "autobiographical_memory_trigger",
+    "universal_moral_dilemma",
+    "shared_social_schema"
+  ],
+  "feature_metadata": [
+    {
+      "dimension_id": "egocentric_navigation_detail",
+      "domain": "spatial_perspective_tracking"
+    },
+    {
+      "dimension_id": "allocentric_spatial_layout",
+      "domain": "spatial_perspective_tracking"
+    },
+    {
+      "dimension_id": "camera_perspective_shift",
+      "domain": "spatial_perspective_tracking"
+    },
+    {
+      "dimension_id": "episodic_memory_retrieval",
+      "domain": "narrative_context_integration"
+    },
+    {
+      "dimension_id": "plot_continuity_integration",
+      "domain": "narrative_context_integration"
+    },
+    {
+      "dimension_id": "thematic_conceptual_synthesis",
+      "domain": "narrative_context_integration"
+    },
+    {
+      "dimension_id": "theory_of_mind_inference",
+      "domain": "social_perspective_taking"
+    },
+    {
+      "dimension_id": "interpersonal_subtext_tension",
+      "domain": "social_perspective_taking"
+    },
+    {
+      "dimension_id": "empathic_perspective_taking",
+      "domain": "social_perspective_taking"
+    },
+    {
+      "dimension_id": "autobiographical_memory_trigger",
+      "domain": "self_referential_projection"
+    },
+    {
+      "dimension_id": "universal_moral_dilemma",
+      "domain": "self_referential_projection"
+    },
+    {
+      "dimension_id": "shared_social_schema",
+      "domain": "self_referential_projection"
+    }
+  ]
+}

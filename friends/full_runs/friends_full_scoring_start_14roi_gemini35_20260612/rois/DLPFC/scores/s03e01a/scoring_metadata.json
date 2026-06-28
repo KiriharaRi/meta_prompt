@@ -1,0 +1,83 @@
+{
+  "n_segments": 269,
+  "n_trs": 491,
+  "tr_s": 1.49,
+  "alignment": "overlap_weighted",
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s03e01a/summary.json",
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  },
+  "gt": null,
+  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/DLPFC/region_schema.json",
+  "feature_names": [
+    "tactical_planning_and_formulation",
+    "goal_progress_monitoring",
+    "strategic_consequence_anticipation",
+    "motive_ambiguity_and_suspicion",
+    "competing_narrative_hypotheses",
+    "prediction_error_and_model_updating",
+    "formal_rule_and_protocol_compliance",
+    "social_norm_and_tactical_boundary_negotiation",
+    "normative_violation_and_risk_assessment",
+    "temporal_thread_integration",
+    "causal_chain_deduction",
+    "multi_character_relationship_tracking"
+  ],
+  "feature_metadata": [
+    {
+      "dimension_id": "tactical_planning_and_formulation",
+      "domain": "strategic_goal_and_plan_tracking"
+    },
+    {
+      "dimension_id": "goal_progress_monitoring",
+      "domain": "strategic_goal_and_plan_tracking"
+    },
+    {
+      "dimension_id": "strategic_consequence_anticipation",
+      "domain": "strategic_goal_and_plan_tracking"
+    },
+    {
+      "dimension_id": "motive_ambiguity_and_suspicion",
+      "domain": "cognitive_conflict_and_hypothesis_testing"
+    },
+    {
+      "dimension_id": "competing_narrative_hypotheses",
+      "domain": "cognitive_conflict_and_hypothesis_testing"
+    },
+    {
+      "dimension_id": "prediction_error_and_model_updating",
+      "domain": "cognitive_conflict_and_hypothesis_testing"
+    },
+    {
+      "dimension_id": "formal_rule_and_protocol_compliance",
+      "domain": "rule_and_normative_constraint_integration"
+    },
+    {
+      "dimension_id": "social_norm_and_tactical_boundary_negotiation",
+      "domain": "rule_and_normative_constraint_integration"
+    },
+    {
+      "dimension_id": "normative_violation_and_risk_assessment",
+      "domain": "rule_and_normative_constraint_integration"
+    },
+    {
+      "dimension_id": "temporal_thread_integration",
+      "domain": "narrative_working_memory_and_causal_integration"
+    },
+    {
+      "dimension_id": "causal_chain_deduction",
+      "domain": "narrative_working_memory_and_causal_integration"
+    },
+    {
+      "dimension_id": "multi_character_relationship_tracking",
+      "domain": "narrative_working_memory_and_causal_integration"
+    }
+  ]
+}

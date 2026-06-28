@@ -1,0 +1,83 @@
+{
+  "n_segments": 245,
+  "n_trs": 453,
+  "tr_s": 1.49,
+  "alignment": "overlap_weighted",
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s02e22b/summary.json",
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  },
+  "gt": null,
+  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/OFC/region_schema.json",
+  "feature_names": [
+    "material_and_social_gain_loss",
+    "goal_achievement_and_failure",
+    "moral_and_karmic_retribution",
+    "social_faux_pas_and_awkwardness",
+    "moral_transgression_and_rule_breaking",
+    "politeness_and_normative_compliance",
+    "sensory_luxury_and_comfort",
+    "visceral_harshness_and_deprivation",
+    "aesthetic_and_atmospheric_harmony",
+    "physical_hazard_and_threat",
+    "strategic_uncertainty_and_suspense",
+    "expectation_violation_and_surprise"
+  ],
+  "feature_metadata": [
+    {
+      "dimension_id": "material_and_social_gain_loss",
+      "domain": "viewer_value_and_outcome_appraisal"
+    },
+    {
+      "dimension_id": "goal_achievement_and_failure",
+      "domain": "viewer_value_and_outcome_appraisal"
+    },
+    {
+      "dimension_id": "moral_and_karmic_retribution",
+      "domain": "viewer_value_and_outcome_appraisal"
+    },
+    {
+      "dimension_id": "social_faux_pas_and_awkwardness",
+      "domain": "viewer_social_norm_appraisal"
+    },
+    {
+      "dimension_id": "moral_transgression_and_rule_breaking",
+      "domain": "viewer_social_norm_appraisal"
+    },
+    {
+      "dimension_id": "politeness_and_normative_compliance",
+      "domain": "viewer_social_norm_appraisal"
+    },
+    {
+      "dimension_id": "sensory_luxury_and_comfort",
+      "domain": "viewer_affective_and_hedonic_valuation"
+    },
+    {
+      "dimension_id": "visceral_harshness_and_deprivation",
+      "domain": "viewer_affective_and_hedonic_valuation"
+    },
+    {
+      "dimension_id": "aesthetic_and_atmospheric_harmony",
+      "domain": "viewer_affective_and_hedonic_valuation"
+    },
+    {
+      "dimension_id": "physical_hazard_and_threat",
+      "domain": "viewer_risk_and_uncertainty_assessment"
+    },
+    {
+      "dimension_id": "strategic_uncertainty_and_suspense",
+      "domain": "viewer_risk_and_uncertainty_assessment"
+    },
+    {
+      "dimension_id": "expectation_violation_and_surprise",
+      "domain": "viewer_risk_and_uncertainty_assessment"
+    }
+  ]
+}
