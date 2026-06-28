@@ -1538,3 +1538,36 @@ Added the round3 65-train Friends scoring/encoding config and outputs, preserved
 ### Next Steps
 
 - None - task complete
+
+
+## Session 45: Friends additional10 scoring and encoding
+
+**Date**: 2026-06-28
+**Task**: Friends additional10 scoring and encoding
+**Branch**: `main`
+
+### Summary
+
+Selected and scored additional Friends train episodes, completed round4/round5 14-ROI scoring and 85train encoding, generated train-size comparison plots, and ran 75train swap diagnostics for score quality.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `0e18d53` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
