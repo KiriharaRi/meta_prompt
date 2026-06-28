@@ -1,0 +1,50 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:56",
+    "batch_summary": "In the coffee shop, Rachel is dismayed when Gunther informs her she must retake her waitress training. Meanwhile, Ross and Chandler argue about tennis in an apartment hallway. While demonstrating his swing, Ross accidentally strikes a young Brownbird girl selling cookies, breaking her leg. Back at the coffee shop, a guilt-ridden Ross plans to visit the injured girl to make amends, while his friends tease him about the accident.",
+    "cumulative_summary": "The story begins in a coffee shop where Rachel Green receives some humbling news from Gunther: the manager wants her to retake her waitress training, much to her dismay and Chandler Bing's amusement. Meanwhile, Ross Geller and Chandler walk up an apartment staircase debating Ross's tennis skills. Eager to prove his expertise, Ross demonstrates his swing, only to accidentally strike a young Brownbird girl selling cookies off-screen. The accident results in the little girl breaking her leg. Feeling incredibly guilty, Ross discusses the incident back at the coffee shop with Monica, Phoebe, and Chandler. While Chandler cracks jokes and Phoebe offers sarcastic commentary, Ross decides he must visit the injured girl in the hospital and searches for a suitable gift to bring her to apologize for the mishap."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:56 - 00:03:45",
+    "batch_summary": "As Ross leaves to visit the injured girl, Joey arrives to start his job selling Christmas trees. Phoebe objects to cutting down trees, but Joey humorously convinces her that the trees are fulfilling their life purpose and get to see New York. Meanwhile, Rachel's humiliating retraining continues as Gunther explains the basic concept of 'the tray spot.' Rachel is mortified to realize she has been completely oblivious to this standard procedure for over two years, having previously thought it was a club.",
+    "cumulative_summary": "The story begins in a coffee shop where Rachel Green receives some humbling news from Gunther: she must retake her waitress training. Meanwhile, Ross Geller accidentally breaks a young Brownbird girl's leg while demonstrating his tennis swing. Feeling guilty, Ross decides to visit the injured girl in the hospital to apologize. As Ross leaves, Joey Tribbiani arrives, mentioning his new job selling Christmas trees. This sparks a protest from Phoebe Buffay, who objects to cutting down innocent trees. However, Joey humorously pacifies her by claiming the trees are fulfilling their life purpose and get to see New York. Back at the coffee shop, Rachel's retraining takes an embarrassing turn when Gunther explains the basic concept of 'the tray spot.' Rachel is mortified to realize she has been completely oblivious to this standard procedure for over two years, having foolishly assumed 'the tray spot' was a club the other waitresses frequented."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:45 - 00:05:40",
+    "batch_summary": "Ross visits Sarah, the young girl whose leg he broke, in her bedroom. He learns she is passionate about space and desperately wants to win a trip to Space Camp by selling 400 more boxes of cookies. Sarah reveals her family's financial struggles, including her father's gambling habits and their lack of a television. Deeply moved by her situation and her desire for a prize her father cannot sell, Ross feels a strong sense of sympathy and responsibility to help her.",
+    "cumulative_summary": "The story begins in a coffee shop where Rachel Green receives some humbling news from Gunther: she must retake her waitress training. Meanwhile, Ross Geller accidentally breaks a young Brownbird girl's leg while demonstrating his tennis swing. Feeling guilty, Ross decides to visit the injured girl, Sarah, in her bedroom. There, he learns of her passion for space and her dream of winning a trip to Space Camp by selling 400 more boxes of cookies. Sarah's heartbreaking revelations about her father's gambling habits and their lack of a television deeply touch Ross, who feels a growing sense of responsibility to help her achieve her goal. Meanwhile, Joey Tribbiani starts a new job selling Christmas trees, pacifying a protesting Phoebe Buffay by humorously claiming the trees are fulfilling their life purpose. Back at the coffee shop, Rachel's retraining takes an embarrassing turn when Gunther explains the basic concept of 'the tray spot,' leaving her mortified to realize she had been completely oblivious to this standard procedure for over two years."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:40 - 00:07:53",
+    "batch_summary": "Ross goes door-to-door trying to sell Brownbird cookies to help Sarah reach Space Camp, but his awkward \"honorary brown bird\" pitch only gets him threatened with the police. Meanwhile, Phoebe visits Joey at the Christmas tree lot, attempting to accept his perspective on the trees' destiny. However, she is utterly horrified when she learns that unsold, older trees are shredded in a wood chipper. Later, Ross pitches the Christmas-themed cookies to his friends at Central Perk, hoping to boost his sales.",
+    "cumulative_summary": "The story begins with Rachel Green learning she must retake her waitress training, while Ross Geller accidentally breaks a young Brownbird girl's leg. Feeling guilty, Ross visits the girl, Sarah, and learns of her dream to go to Space Camp by selling cookies. Determined to help, Ross goes door-to-door as an \"honorary brown bird\" to sell the cookies, but his awkward sales pitch leads a suspicious resident to threaten to call the police. He later pitches the Christmas-themed cookies to his friends at Central Perk. Meanwhile, Joey Tribbiani starts a new job selling Christmas trees. Phoebe Buffay, initially protesting, visits Joey at the lot to try and accept his view of the trees' \"Christmas destiny.\" However, her sympathy turns to horror when she discovers that old, unsold trees are destroyed in a wood chipper, leaving her devastated."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:53 - 00:09:43",
+    "batch_summary": "Ross aggressively upsells his holiday cookies to his friends, pressuring Joey and Chandler into buying multiple boxes. When he targets Monica, she resists, recalling how she gained weight in the Brown Birds, and flees when Ross tempts her with a free box. Meanwhile, Rachel laments having to retrain for a waitressing job she hates. When Joey and Chandler question her progress in pursuing a fashion career, Rachel weakly admits she has mostly been sending out \"good thoughts\" instead of resumes.",
+    "cumulative_summary": "The story begins with Rachel Green learning she must retake her waitress training, while Ross Geller accidentally breaks a young Brownbird's leg. Feeling guilty, Ross visits the girl, Sarah, and tries to help her reach Space Camp by selling cookies. After a disastrous door-to-door attempt, Ross aggressively pitches the cookies to his friends at Central Perk, pressuring Joey and Chandler into buying multiple boxes. He even tempts Monica, who flees to avoid breaking her diet. Meanwhile, Joey starts a new job selling Christmas trees. Phoebe visits him but is horrified to discover that old, unsold trees are destroyed in a wood chipper. Back at the coffee shop, Rachel laments retraining for a waitressing job she hates. When Joey and Chandler press her about her dream of working in fashion, Rachel admits she hasn't sent out resumes in years and is currently just sending out \"good thoughts.\""
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 233,
+    "timestamp_range": "00:09:43 - 00:11:11",
+    "batch_summary": "Joey and Chandler encourage Rachel to quit her job, arguing she needs \"the fear\" of unemployment to motivate her to pursue her dream career in fashion. Although Chandler admits he is too afraid to quit his own hated job, Rachel takes the advice to heart. When Gunther asks her to review basic coffee pot rules, she snaps, admitting she does not care about the job, and impulsively quits, giving her one week's notice.",
+    "cumulative_summary": "The story begins with Rachel Green learning she must retake her waitress training, while Ross Geller tries to help a young Brownbird reach Space Camp by selling cookies. Meanwhile, Joey starts a new job selling Christmas trees, which horrifies Phoebe when she learns old trees are chipped. Back at Central Perk, Rachel laments her career. Joey and Chandler suggest she needs \"the fear\" of unemployment to motivate her to pursue her dream of working in fashion. Although Chandler admits he is too afraid to quit his own hated job, Rachel takes the advice to heart. When Gunther attempts to retrain her on distinguishing regular from decaf coffee, Rachel snaps. Realizing she simply does not care about waitressing, she boldly announces her resignation and gives Gunther her one week's notice."
+  }
+]

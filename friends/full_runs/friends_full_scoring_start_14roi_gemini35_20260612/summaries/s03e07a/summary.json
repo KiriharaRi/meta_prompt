@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:44",
+    "batch_summary": "In a coffee shop, Ross shares a tedious dinosaur story, prompting humorous internal monologues from his friends: Rachel compares him to Alan Alda, Monica is bored, Chandler daydreams of being a superhero, Gunther pines for Rachel, and Joey hums a tune that Phoebe somehow hears. Later, at Monica's apartment, the group reminisces about childhood games before a \"Mattress King\" commercial airs. Janice, Chandler's girlfriend, covers his eyes and jokes about claiming half of her ex-husband's mattress empire.",
+    "cumulative_summary": "The story begins in a coffee shop where Ross, Rachel, Monica, Chandler, Phoebe, and Joey are hanging out. As Ross enthusiastically shares a story about a dinosaur, the scene humorously reveals the inner thoughts of the group: Rachel fondly compares Ross to Alan Alda, Monica laments another boring dinosaur story, Chandler daydreams about being an invisible superhero, and Gunther secretly pines for Rachel. Meanwhile, Joey hums a tune in his head, which Phoebe strangely seems to hear. Later, the friends gather at Monica's apartment along with Chandler's girlfriend, Janice. They playfully reminisce about their childhood roles in the show Happy Days. The lighthearted mood shifts slightly when a commercial for \"Mattress King\" appears on television. Janice covers Chandler's eyes and remarks that, following her divorce from the Mattress King, half of his mattress empire will soon belong to her."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:44 - 00:03:40",
+    "batch_summary": "Janice is appalled when her ex-husband, the Mattress King, shamelessly uses their divorce in a commercial to promote a mattress sale. Monica humorously notes the great deal before quickly offering Janice support. Later at Central Perk, Rachel schedules a dinner with her father and begs a highly reluctant Ross to attend. Ross dreads the dinner because Rachel's father dislikes him, but Rachel successfully coaxes him into agreeing by promising to wear a special black outfit he loves.",
+    "cumulative_summary": "The story begins in a coffee shop where the friends hang out, sharing humorous inner thoughts while Ross talks about dinosaurs. Later, they gather at Monica's apartment with Chandler's girlfriend, Janice. The lighthearted mood shifts when a commercial for \"Mattress King\" airs. Janice's ex-husband shamelessly uses their divorce to advertise a mattress sale, shocking Janice while Monica jokingly admires the bargain prices. Later at Central Perk, Rachel schedules a dinner with her father and begs a highly reluctant Ross to attend. Ross dreads the dinner because Rachel's father openly dislikes him, mockingly calling him \"Wethead.\" Desperate for her father's approval and wanting them to get along, Rachel coaxes Ross into agreeing by promising to wear a special black outfit he loves."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:40 - 00:05:32",
+    "batch_summary": "Ross finally agrees to attend the dinner with Rachel's father, much to her delight. Meanwhile, Joey excitedly announces he has landed a teaching gig instructing soap opera acting, though he is disappointed to learn he cannot sleep with his students. Elsewhere, Monica and Phoebe visit the \"Mattress King\" store. Despite Phoebe's initial guilt about betraying Chandler by buying from Janice's ex-husband, the sheer comfort of a mattress quickly wins her over, and she hilariously encourages Monica to make the purchase anyway.",
+    "cumulative_summary": "The story begins in a coffee shop where the friends hang out, sharing humorous inner thoughts. Later, they gather at Monica's apartment with Chandler's girlfriend, Janice. The lighthearted mood shifts when a commercial for \"Mattress King\" airs, featuring Janice's ex-husband shamelessly using their divorce to advertise a mattress sale. Later at Central Perk, Rachel coaxes a highly reluctant Ross into agreeing to a dinner with her hostile father. Meanwhile, Joey arrives to announce his new gig teaching soap opera acting, though he is dismayed to learn he cannot sleep with his students. Elsewhere, Monica and Phoebe visit the \"Mattress King\" store. Although Phoebe initially worries that buying a bed from Janice's ex-husband is a betrayal of Chandler, she is instantly won over by the mattress's incredible comfort and hilariously tells Monica to buy it anyway, even if it means making new friends."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:32 - 00:07:08",
+    "batch_summary": "Joey begins teaching his soap opera acting class, introducing himself as Mr. Tribbiani. He attempts to demonstrate dramatic acting by falsely claiming he has a terminal illness, which backfires when a student asks for a refund. He then teaches them about the art of \"reacting\" with a dramatic facial expression, which wins over the class. Later, Joey enthusiastically tells Phoebe how much he enjoyed the authority of being a teacher, particularly using classic lines to dismiss his students.",
+    "cumulative_summary": "The story begins with the friends sharing humorous thoughts at their usual coffee shop. Later, they gather at Monica's apartment with Chandler's girlfriend, Janice, where they see a \"Mattress King\" commercial featuring Janice's ex-husband. This prompts Monica and Phoebe to visit the store, where Phoebe hilariously convinces Monica to buy a mattress despite the connection to Janice's ex. Meanwhile, Rachel coaxes a reluctant Ross into agreeing to a dinner with her hostile father. Joey also embarks on his new gig teaching soap opera acting. During his first class, Joey attempts to demonstrate dramatic acting by falsely claiming he has a terminal illness, which humorously backfires when a student asks for a refund. He pivots to teaching the art of \"reacting\" with dramatic facial expressions, which earns him applause. Afterward, Joey returns home and enthusiastically tells Phoebe how much he loves the authority of being a teacher, especially using classic lines to dismiss his class."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:08 - 00:08:48",
+    "batch_summary": "Joey shares his excitement about an audition for a boxer role on All My Children. Meanwhile, the delivery from the Mattress King arrives, and Phoebe signs for it under a fake name, swearing Joey to secrecy to keep Chandler from finding out. While playfully shadowboxing to help Joey practice, Phoebe accidentally punches him in the nose, causing a nosebleed. As she helps him ice it, the delivery men bring in the actual delivery: a giant, red plastic children's car bed.",
+    "cumulative_summary": "The story begins with the friends sharing humorous thoughts at their usual coffee shop. Later, they gather at Monica's apartment with Chandler's girlfriend, Janice, where they see a \"Mattress King\" commercial featuring Janice's ex-husband. This prompts Monica and Phoebe to visit the store, where Phoebe hilariously convinces Monica to buy a mattress despite the connection to Janice's ex. Meanwhile, Rachel coaxes a reluctant Ross into agreeing to a dinner with her hostile father. Joey also embarks on his new gig teaching soap opera acting, finding joy in his newfound authority. Back at the apartment, Joey shares that he landed an audition for a boxer role on All My Children. While they wait, the delivery from the Mattress King arrives. Phoebe signs for it using a fake name and convinces Joey to keep the purchase a secret from Chandler. To help Joey prepare for his audition, the two playfully shadowbox, but Phoebe accidentally punches Joey, causing a nosebleed. As Phoebe tends to his injury, the delivery men carry in the purchase, revealing that Monica was mistakenly delivered a giant, red plastic children's car bed."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:48 - 00:10:37",
+    "batch_summary": "Rachel and Ross meet Rachel's hostile father, Dr. Green, for dinner, which quickly becomes incredibly tense and awkward. Dr. Green condescendingly mocks Ross's profession, mistaking his museum job for a library position, and dismisses his lobster allergy. Ross's nervous attempts to ease the tension with jokes about lobster and boat rust backfire completely, only deepening Dr. Green's irritation while Rachel anxiously tries to mediate the uncomfortable encounter.",
+    "cumulative_summary": "The story begins with the friends sharing humorous thoughts at their usual coffee shop. Later, Monica and Phoebe visit the \"Mattress King\" store, where Monica mistakenly ends up buying a giant, red plastic children's car bed, which Phoebe and Joey try to keep a secret from Chandler. Meanwhile, Joey prepares for an audition for All My Children with Phoebe's painful help, and Rachel coaxes a reluctant Ross into a dinner with her hostile father, Dr. Green. The dinner quickly turns incredibly tense and awkward. Dr. Green condescendingly mocks Ross's profession, mistaking his museum job for a library position, and dismisses his food allergies. Ross's nervous attempts to ease the tension with jokes about lobster and boat rust only backfire, deepening Dr. Green's irritation and leaving Rachel to anxiously mediate the uncomfortable encounter."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 262,
+    "timestamp_range": "00:10:37 - 00:11:35",
+    "batch_summary": "During a brief moment alone at the dinner table, Ross discovers that Dr. Green left an incredibly cheap 4% tip. Despite Rachel's resignation to her father's stubborn habits, Ross's conscience is bothered. When Dr. Green returns and they prepare to leave, Ross makes a clumsy excuse about forgetting his receipt to sneak back to the table, presumably to secretly leave a proper tip and correct the insult.",
+    "cumulative_summary": "The story begins with the friends sharing humorous thoughts at their usual coffee shop. Later, Monica and Phoebe visit the \"Mattress King\" store, where Monica mistakenly ends up buying a giant, red plastic children's car bed, which Phoebe and Joey try to keep a secret from Chandler. Meanwhile, Joey prepares for an audition for All My Children with Phoebe's painful help, and Rachel coaxes a reluctant Ross into a dinner with her hostile father, Dr. Green. The dinner quickly turns incredibly tense and awkward. Dr. Green condescendingly mocks Ross's profession, mistaking his museum job for a library position, and dismisses his food allergies. Ross's nervous attempts to ease the tension with jokes about lobster and boat rust only backfire, deepening Dr. Green's irritation and leaving Rachel to anxiously mediate the uncomfortable encounter. When Dr. Green briefly steps away, Ross notices that he left an insulting 4% tip. Although Rachel is embarrassed, she admits her father is too stubborn to change. Unable to let it go, Ross waits until they are about to leave and uses a flimsy excuse about a forgotten receipt to sneak back to the table, intending to secretly leave a proper tip."
+  }
+]

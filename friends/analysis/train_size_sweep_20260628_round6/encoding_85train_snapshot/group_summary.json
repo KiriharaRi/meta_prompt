@@ -1,0 +1,246 @@
+{
+  "primary_metric": "mean_subject_mean_test_pearson",
+  "n_subjects": 1,
+  "mean_subject_mean_test_pearson": 0.2184489388016675,
+  "median_subject_mean_test_pearson": 0.2184489388016675,
+  "mean_subject_median_test_pearson": 0.21110876921899524,
+  "roi_summaries": {
+    "ACC": {
+      "roi_id": "ACC",
+      "primary_metric": "mean_subject_mean_test_pearson",
+      "mean_subject_mean_test_pearson": 0.20671515331950055,
+      "median_subject_mean_test_pearson": 0.20671515331950055,
+      "n_subjects": 1
+    },
+    "AG": {
+      "roi_id": "AG",
+      "primary_metric": "mean_subject_mean_test_pearson",
+      "mean_subject_mean_test_pearson": 0.2671150394644139,
+      "median_subject_mean_test_pearson": 0.2671150394644139,
+      "n_subjects": 1
+    },
+    "DLPFC": {
+      "roi_id": "DLPFC",
+      "primary_metric": "mean_subject_mean_test_pearson",
+      "mean_subject_mean_test_pearson": 0.22295498712416925,
+      "median_subject_mean_test_pearson": 0.22295498712416925,
+      "n_subjects": 1
+    },
+    "FFA": {
+      "roi_id": "FFA",
+      "primary_metric": "mean_subject_mean_test_pearson",
+      "mean_subject_mean_test_pearson": 0.24521368395304477,
+      "median_subject_mean_test_pearson": 0.24521368395304477,
+      "n_subjects": 1
+    },
+    "IPL": {
+      "roi_id": "IPL",
+      "primary_metric": "mean_subject_mean_test_pearson",
+      "mean_subject_mean_test_pearson": 0.27904548902128323,
+      "median_subject_mean_test_pearson": 0.27904548902128323,
+      "n_subjects": 1
+    },
+    "Insula": {
+      "roi_id": "Insula",
+      "primary_metric": "mean_subject_mean_test_pearson",
+      "mean_subject_mean_test_pearson": 0.20628072899267158,
+      "median_subject_mean_test_pearson": 0.20628072899267158,
+      "n_subjects": 1
+    },
+    "OFC": {
+      "roi_id": "OFC",
+      "primary_metric": "mean_subject_mean_test_pearson",
+      "mean_subject_mean_test_pearson": 0.19941935867627936,
+      "median_subject_mean_test_pearson": 0.19941935867627936,
+      "n_subjects": 1
+    },
+    "PCC": {
+      "roi_id": "PCC",
+      "primary_metric": "mean_subject_mean_test_pearson",
+      "mean_subject_mean_test_pearson": 0.2374084062040085,
+      "median_subject_mean_test_pearson": 0.2374084062040085,
+      "n_subjects": 1
+    },
+    "Precuneus": {
+      "roi_id": "Precuneus",
+      "primary_metric": "mean_subject_mean_test_pearson",
+      "mean_subject_mean_test_pearson": 0.16366192484673625,
+      "median_subject_mean_test_pearson": 0.16366192484673625,
+      "n_subjects": 1
+    },
+    "SMG": {
+      "roi_id": "SMG",
+      "primary_metric": "mean_subject_mean_test_pearson",
+      "mean_subject_mean_test_pearson": 0.29097593857815257,
+      "median_subject_mean_test_pearson": 0.29097593857815257,
+      "n_subjects": 1
+    },
+    "TPJ": {
+      "roi_id": "TPJ",
+      "primary_metric": "mean_subject_mean_test_pearson",
+      "mean_subject_mean_test_pearson": 0.26081500976998834,
+      "median_subject_mean_test_pearson": 0.26081500976998834,
+      "n_subjects": 1
+    },
+    "Temporal_Pole": {
+      "roi_id": "Temporal_Pole",
+      "primary_metric": "mean_subject_mean_test_pearson",
+      "mean_subject_mean_test_pearson": 0.2155780554542302,
+      "median_subject_mean_test_pearson": 0.2155780554542302,
+      "n_subjects": 1
+    },
+    "VMPFC": {
+      "roi_id": "VMPFC",
+      "primary_metric": "mean_subject_mean_test_pearson",
+      "mean_subject_mean_test_pearson": 0.1696611254756849,
+      "median_subject_mean_test_pearson": 0.1696611254756849,
+      "n_subjects": 1
+    },
+    "pSTS": {
+      "roi_id": "pSTS",
+      "primary_metric": "mean_subject_mean_test_pearson",
+      "mean_subject_mean_test_pearson": 0.19601777400581313,
+      "median_subject_mean_test_pearson": 0.19601777400581313,
+      "n_subjects": 1
+    }
+  },
+  "subjects": [
+    {
+      "subject_id": "sub-01",
+      "best_alpha": 10000.0,
+      "mean_test_pearson": 0.2184489388016675,
+      "median_test_pearson": 0.21110876921899524,
+      "n_retained_parcels": 86,
+      "n_test_trs": 1812,
+      "roi_summaries": {
+        "ACC": {
+          "subject_id": "sub-01",
+          "roi_id": "ACC",
+          "primary_metric": "mean_test_pearson",
+          "mean_test_pearson": 0.20671515331950055,
+          "median_test_pearson": 0.21203987165553012,
+          "n_total_selected_parcels": 8,
+          "n_retained_parcels": 8
+        },
+        "AG": {
+          "subject_id": "sub-01",
+          "roi_id": "AG",
+          "primary_metric": "mean_test_pearson",
+          "mean_test_pearson": 0.2671150394644139,
+          "median_test_pearson": 0.22854947881314377,
+          "n_total_selected_parcels": 6,
+          "n_retained_parcels": 6
+        },
+        "DLPFC": {
+          "subject_id": "sub-01",
+          "roi_id": "DLPFC",
+          "primary_metric": "mean_test_pearson",
+          "mean_test_pearson": 0.22295498712416925,
+          "median_test_pearson": 0.2292352079621705,
+          "n_total_selected_parcels": 10,
+          "n_retained_parcels": 10
+        },
+        "FFA": {
+          "subject_id": "sub-01",
+          "roi_id": "FFA",
+          "primary_metric": "mean_test_pearson",
+          "mean_test_pearson": 0.24521368395304477,
+          "median_test_pearson": 0.2558554379220144,
+          "n_total_selected_parcels": 4,
+          "n_retained_parcels": 4
+        },
+        "IPL": {
+          "subject_id": "sub-01",
+          "roi_id": "IPL",
+          "primary_metric": "mean_test_pearson",
+          "mean_test_pearson": 0.27904548902128323,
+          "median_test_pearson": 0.22854947881314377,
+          "n_total_selected_parcels": 12,
+          "n_retained_parcels": 12
+        },
+        "Insula": {
+          "subject_id": "sub-01",
+          "roi_id": "Insula",
+          "primary_metric": "mean_test_pearson",
+          "mean_test_pearson": 0.20628072899267158,
+          "median_test_pearson": 0.20520649663074672,
+          "n_total_selected_parcels": 12,
+          "n_retained_parcels": 12
+        },
+        "OFC": {
+          "subject_id": "sub-01",
+          "roi_id": "OFC",
+          "primary_metric": "mean_test_pearson",
+          "mean_test_pearson": 0.19941935867627936,
+          "median_test_pearson": 0.17939499589352376,
+          "n_total_selected_parcels": 12,
+          "n_retained_parcels": 12
+        },
+        "PCC": {
+          "subject_id": "sub-01",
+          "roi_id": "PCC",
+          "primary_metric": "mean_test_pearson",
+          "mean_test_pearson": 0.2374084062040085,
+          "median_test_pearson": 0.217257454586957,
+          "n_total_selected_parcels": 6,
+          "n_retained_parcels": 6
+        },
+        "Precuneus": {
+          "subject_id": "sub-01",
+          "roi_id": "Precuneus",
+          "primary_metric": "mean_test_pearson",
+          "mean_test_pearson": 0.16366192484673625,
+          "median_test_pearson": 0.13552053387033663,
+          "n_total_selected_parcels": 8,
+          "n_retained_parcels": 8
+        },
+        "SMG": {
+          "subject_id": "sub-01",
+          "roi_id": "SMG",
+          "primary_metric": "mean_test_pearson",
+          "mean_test_pearson": 0.29097593857815257,
+          "median_test_pearson": 0.30375685096242266,
+          "n_total_selected_parcels": 6,
+          "n_retained_parcels": 6
+        },
+        "TPJ": {
+          "subject_id": "sub-01",
+          "roi_id": "TPJ",
+          "primary_metric": "mean_test_pearson",
+          "mean_test_pearson": 0.26081500976998834,
+          "median_test_pearson": 0.221536843393204,
+          "n_total_selected_parcels": 20,
+          "n_retained_parcels": 20
+        },
+        "Temporal_Pole": {
+          "subject_id": "sub-01",
+          "roi_id": "Temporal_Pole",
+          "primary_metric": "mean_test_pearson",
+          "mean_test_pearson": 0.2155780554542302,
+          "median_test_pearson": 0.21764399242163146,
+          "n_total_selected_parcels": 4,
+          "n_retained_parcels": 4
+        },
+        "VMPFC": {
+          "subject_id": "sub-01",
+          "roi_id": "VMPFC",
+          "primary_metric": "mean_test_pearson",
+          "mean_test_pearson": 0.1696611254756849,
+          "median_test_pearson": 0.14062372957643052,
+          "n_total_selected_parcels": 8,
+          "n_retained_parcels": 8
+        },
+        "pSTS": {
+          "subject_id": "sub-01",
+          "roi_id": "pSTS",
+          "primary_metric": "mean_test_pearson",
+          "mean_test_pearson": 0.19601777400581313,
+          "median_test_pearson": 0.1926034730062839,
+          "n_total_selected_parcels": 4,
+          "n_retained_parcels": 4
+        }
+      },
+      "output_dir": "friends/analysis/train_size_sweep_20260628_round6/encoding_85train_snapshot/sub-01"
+    }
+  ]
+}

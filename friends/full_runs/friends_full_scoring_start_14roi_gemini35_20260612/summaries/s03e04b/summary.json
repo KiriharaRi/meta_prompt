@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:49",
+    "batch_summary": "In his apartment, Chandler overwhelms his date, Janice, by suggesting they move in together. Panicked by his sudden intensity, Janice leaves. Desperate, Chandler calls her to apologize for chasing her down the street before running out to do exactly that. Later, a dejected Chandler eats ice cream with Monica and Rachel, confessing that he caught up to Janice but ended up desperately begging her to stay. The batch ends with Chandler groaning in despair after revealing she left things with a non-committal \"she'll call me.\"",
+    "cumulative_summary": "In an apartment kitchen, Chandler tries to prove he is no longer afraid of commitment, but goes too far by suggesting to his date, Janice, that they move in together. Overwhelmed by his sudden intensity, especially since she is not yet divorced, Janice quickly leaves. Realizing his mistake, Chandler desperately calls her to apologize in advance for chasing her down the street, then immediately runs out to do just that. Later, Chandler seeks comfort in Monica's apartment, eating ice cream with Monica and Rachel. He recounts the embarrassing aftermath, admitting that he caught up to Janice only to become incredibly needy and clingy. When Rachel and Monica press for details, Chandler miserably confesses that he begged her to stay, and she ended the encounter with the dreaded promise that she would call him. The scene ends with Chandler groaning in deep despair over his relationship blunder."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:49 - 00:03:29",
+    "batch_summary": "Monica and Rachel offer Chandler relationship advice, warning him not to call Janice. Instead, they suggest he act \"aloof\" and stage an accidental run-in to prove he isn't needy. After a humorous misunderstanding where Rachel mishears Chandler's fears of losing Janice, the scene shifts. Ross is seen trying to persuade his young son, Ben, to play with a G.I. Joe action figure instead of a Barbie doll. Chandler enters and, despite questioning Ross's tactics, eagerly asks to play with the toy himself.",
+    "cumulative_summary": "In an apartment kitchen, Chandler tries to prove he is no longer afraid of commitment, but goes too far by suggesting to his date, Janice, that they move in together. Overwhelmed by his sudden intensity, Janice quickly leaves. Realizing his mistake, Chandler desperately chases her down the street, only to become incredibly needy and clingy. Seeking comfort in Monica's apartment, Chandler eats ice cream with Monica and Rachel, who assure him he is not a hopeless case. They advise him not to call Janice, but rather to act \"aloof\" and stage an \"accidental\" run-in to show he isn't desperate. After a humorous misunderstanding where Rachel mishears Chandler's anxiety about losing Janice, the scene shifts to Ross's apartment. There, Ross tries to coax his toddler son, Ben, into swapping his Barbie doll for a G.I. Joe action figure. Chandler walks in and, despite mocking Ross's transparent attempt, immediately asks if he can play with the G.I. Joe himself."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:29 - 00:05:27",
+    "batch_summary": "In the hallway, Joey learns from Phoebe, who is acting as his agent, that he didn't get a TV movie role. Distressed by delivering harsh feedback about Joey's poor Italian accent, Phoebe tries to quit, but Joey convinces her to stay because her honesty helps him improve. Meanwhile, Ross continues his eccentric attempts to make Ben play with G.I. Joe. Later, Chandler puts his plan into action, staging an \"accidental\" encounter with a surprised Janice at a grocery store.",
+    "cumulative_summary": "After scaring Janice away by prematurely suggesting they move in together, Chandler seeks advice from Monica and Rachel, who suggest he act aloof and stage an \"accidental\" run-in. Meanwhile, Ross desperately tries to convince his toddler son, Ben, to swap his Barbie doll for a G.I. Joe action figure, even running into the hallway playing a make-believe game. In the hallway, Joey confronts Phoebe, who has been acting as his agent, about a recent audition. Phoebe reluctantly breaks the news that he didn't get the part due to his terrible Italian accent. Feeling guilty about delivering harsh rejections, Phoebe tries to quit, but Joey persuades her to remain his agent, valuing her rare honesty over his actual agent's lies. Finally, Chandler puts his friends' advice into action, staging a surprise encounter with an astonished Janice at a local supermarket."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:27 - 00:07:03",
+    "batch_summary": "Chandler's staged supermarket encounter with Janice goes horribly wrong. After failing to pull off a British accent, he awkwardly lies about buying barley for a party, prompting Janice to call him out for being either a cheating jerk or pathetic. Meanwhile, Phoebe continues her duties as Joey's agent, delivering more brutally honest rejections. She reveals that Joey was rejected from a zoo commercial for not being \"believable as a human being,\" which Joey surprisingly takes as constructive feedback.",
+    "cumulative_summary": "After scaring Janice away by suggesting they move in together, Chandler stages an \"accidental\" supermarket run-in on his friends' advice. However, the encounter goes horribly wrong; Chandler fails at a fake British accent and awkwardly lies about buying barley for a party, prompting Janice to confront him for being either a cheating jerk or pathetic. Meanwhile, Ross continues his desperate attempt to swap his son Ben's Barbie doll for a G.I. Joe. At the coffee shop, Phoebe continues her role as Joey's brutally honest agent. After previously rejecting him for a terrible Italian accent, she delivers more harsh feedback, including a rejection from a zoo commercial because casting directors felt Joey was not \"believable as a human being.\" Joey takes the critique in stride, determined to work on his acting."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:03 - 00:08:38",
+    "batch_summary": "Joey decides to fire Phoebe as his agent and return to Estelle, finding Phoebe's brutal honesty too depressing. However, he quickly realizes Phoebe fabricated the harsh rejections just to get out of representing him, which she cheerfully admits. Meanwhile, a devastated Chandler recounts his disastrous supermarket encounter with Janice to Monica and Rachel. As they comfort him with ice cream, Janice calls, throwing Chandler into a panic as he desperately asks his friends for advice on what to do next.",
+    "cumulative_summary": "After scaring Janice away by suggesting they move in together, Chandler's attempt at an \"accidental\" supermarket run-in goes horribly wrong. He ends up throwing a bag of barley at her and fleeing. Back home, a devastated Chandler seeks comfort from Monica and Rachel over ice cream, only to panic when Janice calls him. Meanwhile, Ross continues his desperate attempt to swap his son Ben's Barbie doll for a G.I. Joe. At the coffee shop, Joey decides to fire Phoebe as his agent and return to Estelle because Phoebe's brutal honesty is too depressing. However, Joey quickly realizes that Phoebe fabricated the terrible feedback and rejections just to get out of representing him, which she cheerfully confesses."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:38 - 00:10:15",
+    "batch_summary": "Chandler answers Janice's phone call, bypassing Monica and Rachel's advice to act cool. Instead, he delivers a heartfelt apology, admitting he panicked because he is crazy about her. Janice forgives him, and they exchange \"I love yous,\" leaving Monica and Rachel envious. Meanwhile, Ross proudly claims victory after swapping Ben's Barbie for a G.I. Joe. However, his triumph is instantly undercut when Monica embarrasses him by revealing that Ross himself used to dress up in women's clothes as a child.",
+    "cumulative_summary": "After scaring Janice away by suggesting they move in together, Chandler's attempt at an \"accidental\" supermarket run-in goes horribly wrong. Back home, a devastated Chandler seeks comfort from Monica and Rachel, only to panic when Janice calls him. Meanwhile, Ross continues his desperate attempt to swap his son Ben's Barbie doll for a G.I. Joe, and Joey discovers Phoebe fabricated fake rejections to get out of being his agent. When Chandler finally answers Janice's call, he bypasses his friends' advice to act cool and instead delivers a heartfelt apology, admitting he panicked because of his strong feelings. Janice forgives him, and they exchange \"I love yous.\" Meanwhile, Ross proudly returns with a G.I. Joe, claiming Ben chose it over the Barbie. However, his triumph is instantly undercut when Monica casually reveals that Ross himself used to dress up in women's clothes as a child."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 273,
+    "timestamp_range": "00:10:15 - 00:11:44",
+    "batch_summary": "Monica continues to tease Ross about his childhood dress-up habits, reminding him of his alter ego \"Bea\" who wore pearls and a pink handbag. Though Ross initially denies it, the memory rushes back, much to Rachel's delight. Monica sings the embarrassing childhood song Ross used to perform, and a defeated Ross reluctantly finishes the lyrics before storming out. The episode ends with a flashback of a young Ross dressed up as Bea, singing the tea song in the backyard.",
+    "cumulative_summary": "After Chandler successfully patches things up with Janice by delivering a heartfelt apology, Ross's attempt to steer his son Ben away from Barbie dolls backfires. Monica reveals that Ross himself used to dress up in their mother's clothes as a child. Despite Ross's desperate denials, Monica details his childhood alter ego, \"Bea,\" complete with a pink handbag, pearls, and an embarrassing theme song. To the absolute delight of Rachel and Monica, Ross's memory is triggered, and he reluctantly finishes singing the song before storming out in defeat. The story concludes with a nostalgic flashback of a young Ross in a large hat, happily playing tea party as \"Bea,\" proving that his childhood preferences weren't so different from his son's."
+  }
+]

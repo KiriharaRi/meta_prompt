@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:57",
+    "batch_summary": "At a restaurant, Ross tries to secretly leave an extra tip, but Rachel's father, Leonard Green, discovers it. Offended by the implication that he is cheap, Leonard forces Ross to pay the entire $200 bill. Meanwhile, in a classroom setting, Joey teaches a group of students his unconventional \"tricks of the trade\" for soap opera acting, demonstrating bizarre physical cues for crying, acting evil, and reacting to bad news.",
+    "cumulative_summary": "In a tense but comedic restaurant encounter, Ross attempts to secretly supplement the tip after a dinner with Rachel and her father, Leonard Green. When Leonard returns to the table for his receipt, he discovers Ross's extra twenty-dollar bill. Feeling insulted and accused of being cheap, Leonard mockingly labels Ross \"Mr. Big Shot\" and shoves the bill back, forcing Ross to cover the entire two-hundred-dollar tab. Following this awkward family interaction, the scene shifts to a classroom where Joey is instructing students on the \"tricks of the trade\" for soap opera acting. Joey shares his highly unusual techniques, demonstrating how he uses tweezers in his pocket to induce crying, raises a single eyebrow to convey evil, and performs complex mental division to mimic receiving bad news."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:57 - 00:03:41",
+    "batch_summary": "Joey is thrilled when one of his acting students lands an audition for \"All My Children,\" though the specific role of a boxer leaves Joey visibly stunned. Meanwhile, Rachel berates Ross for ruining dinner with her difficult father and insists they have brunch to make amends. Ross remains skeptical that he can ever win Leonard over. Elsewhere, a panicked Phoebe confesses to Ross and Rachel that she has made a major mistake after Monica trusted her with something in her apartment.",
+    "cumulative_summary": "Following a disastrous dinner where Ross's attempt to secretly supplement a cheap tip insulted Rachel's father, Leonard, the tension continues. Rachel berates Ross for failing to get along with her difficult father and demands he make amends at a makeup brunch, though Ross is highly skeptical he can ever win Leonard over. Meanwhile, Joey's acting class concludes with a student proudly revealing he landed an audition for a boxer on \"All My Children,\" leaving Joey stunned. Back at the apartment, a panicked Phoebe confesses to Ross and Rachel that she has made a major mistake after Monica trusted her with something in her bedroom, fearing Monica's reaction."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:41 - 00:05:07",
+    "batch_summary": "Rachel convinces Ross to attend the makeup brunch by explaining how painful it is to keep him and her father in separate rooms, similar to her divorced parents. Moved, Ross agrees to go. Meanwhile, Phoebe reveals her mistake to Monica: she accidentally signed for a red race car bed instead of the one Monica ordered, and the store refuses to take it back. Chandler arrives and mocks the childish bed, leaving Monica frustrated with the bizarre new addition to her room.",
+    "cumulative_summary": "Following a disastrous dinner where Ross's attempt to secretly supplement a cheap tip insulted Rachel's father, Leonard, the tension continues. Rachel berates Ross for failing to get along with her difficult father and demands he make amends at a makeup brunch. Though Ross is highly skeptical, Rachel emotionally appeals to him, explaining she doesn't want to keep them in separate rooms like her divorced parents. Softened by her plea, Ross agrees to go. Meanwhile, Joey's acting class concludes with a student proudly revealing he landed an audition for a boxer on \"All My Children,\" leaving Joey stunned. Back at the apartment, Phoebe's panic is explained when she confesses to Monica that she accidentally signed for a giant red race car bed instead of the one Monica ordered. Since the store refuses returns, Monica is stuck with the childish bed, which Chandler immediately mocks upon discovering it."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:07 - 00:06:44",
+    "batch_summary": "Phoebe hilariously tries to convince Chandler that Monica has always owned the race car bed, claiming the plastic cover is for her own bad dreams. Meanwhile, Joey confesses to Monica and Chandler that he sabotaged his student's audition for the boxer role by advising him to play the character \"super gay\" because Joey desperately wants the part himself. Finally, Rachel's intimidating father, Dr. Green, arrives at the apartment for the makeup brunch, setting up a tense reunion with Ross.",
+    "cumulative_summary": "Following a disastrous dinner where Ross insulted Rachel's difficult father, Leonard, Ross reluctantly agrees to a makeup brunch to keep the peace. As the dreaded event begins, Dr. Green arrives at the apartment to meet a nervous Ross. Meanwhile, Phoebe tries to cover up her race car bed delivery mistake by gaslighting Chandler into thinking Monica always owned it, hilariously claiming the plastic wrap is for her own bad dreams. At the same time, Joey's desperation to land the \"All My Children\" boxer role leads him to unethical lengths. He confesses to Monica and Chandler that he sabotaged his talented student's audition by advising him to play the boxer \"super gay.\" Despite Monica's outrage at his abuse of authority, Joey remains focused on winning the part for himself."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:44 - 00:08:13",
+    "batch_summary": "At the makeup brunch, Rachel's father, Leonard, immediately insults Ross's hair, prompting a frustrated Ross to try to leave. However, the tension shifts when Rachel mentions her chiropractor, \"Dr. Bobby.\" Both Leonard and Ross agree that chiropractors are illegitimate, leading to an unexpected moment of bonding between the two men. When Ross mentions that Rachel also refuses to get renters insurance, Leonard turns his critical focus onto Rachel, leaving her defensive and bringing Ross and Leonard into alignment.",
+    "cumulative_summary": "Following a disastrous dinner where Ross insulted Rachel's difficult father, Leonard, Ross reluctantly agrees to a makeup brunch to keep the peace. Meanwhile, Phoebe tries to cover up her race car bed delivery mistake by gaslighting Chandler, and Joey confesses to sabotaging his student's audition to secure an acting role for himself. At the brunch, Leonard immediately insults Ross's hair, pushing a frustrated Ross to the brink of leaving. However, the tense dynamic shifts when Rachel defends her chiropractor, \"Dr. Bobby.\" Finding common ground in their skepticism of chiropractic medicine, Ross and Leonard unexpectedly bond. Ross further aligns with Leonard by complaining that Rachel also refuses to get renters insurance, successfully redirecting her father's harsh criticism away from himself and onto a defensive Rachel."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:13 - 00:10:10",
+    "batch_summary": "At the brunch, Ross continues to bond with Leonard by throwing Rachel under the bus, leaving Rachel deeply annoyed while Ross obliviously celebrates his success. Meanwhile, Joey confesses to his acting class that his attempt to sabotage his student's audition backfired spectacularly; the student got the role, leaving Joey bitter. However, his students mistake his raw, insulting confession for a masterclass in acting and applaud him.",
+    "cumulative_summary": "Following a disastrous dinner with Rachel's difficult father, Leonard, Ross reluctantly attends a makeup brunch. The tense dynamic shifts when Ross and Leonard bond over their shared skepticism of Rachel's chiropractor and her lack of renters insurance. Ross eagerly continues to throw Rachel under the bus to maintain this newfound approval, leaving Rachel deeply annoyed while Ross obliviously celebrates. Meanwhile, Phoebe gaslights Chandler to cover up a race car bed delivery mistake, and Joey confesses his audition sabotage to his acting class. Joey explains that his bad advice backfired spectacularly, landing his student a lucrative soap opera contract while Joey remains stuck teaching. However, when Joey bitterly rants and insults his class, the students mistake his raw confession for a brilliant acting exercise and enthusiastically applaud him."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 267,
+    "timestamp_range": "00:10:10 - 00:11:35",
+    "batch_summary": "Monica, Joey, and Phoebe visit the Mattress King store to return the race car bed, but the salesman refuses because Phoebe signed Monica's fake name. Demanding to see the owner, Joey barges into the back office and is shocked to catch \"the King\" embracing a woman who recognizes him. Meanwhile, Ross is caught by Rachel childishly playing in the race car bed before reluctantly leaving.",
+    "cumulative_summary": "Following a disastrous dinner with Rachel's difficult father, Leonard, Ross reluctantly attends a makeup brunch. The tense dynamic shifts when Ross and Leonard bond over their shared skepticism of Rachel's chiropractor and her lack of renters insurance. Ross eagerly continues to throw Rachel under the bus to maintain this newfound approval, leaving Rachel deeply annoyed while Ross obliviously celebrates. Meanwhile, Phoebe gaslights Chandler to cover up a race car bed delivery mistake, and Joey confesses his audition sabotage to his acting class, who mistake his bitter rant for a brilliant acting exercise. To resolve the delivery mistake, Monica, Joey, and Phoebe visit the Mattress King store. When the salesman refuses to take the bed back because of Phoebe's forged signature, Joey barges into the back office to confront \"the King.\" There, he is stunned to catch the owner embracing a woman who shockingly recognizes Joey. Back at the apartment, Ross is caught by Rachel childishly playing in the race car bed, which he finds much more exciting than his own."
+  }
+]

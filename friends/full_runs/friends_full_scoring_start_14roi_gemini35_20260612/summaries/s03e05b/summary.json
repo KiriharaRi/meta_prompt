@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:31",
+    "batch_summary": "In Monica's apartment, Joey tries to take a break from a construction project, but a demanding Monica humorously forces him back to work. Meanwhile, Phoebe is hanging out with Frank Jr. when she receives an urgent call to go to work. When she explains she is a masseuse, Frank mistakenly assumes she works at a sketchy massage parlor and laughs. To clear up the misunderstanding, Phoebe invites him to join her and get a massage himself.",
+    "cumulative_summary": "The story begins with Joey attempting to take a break from a home improvement project, but Monica quickly shuts him down, humorously threatening him to get back to work while Chandler watches. The scene then shifts to Phoebe spending time with Frank Jr. Their relaxation is interrupted when Phoebe receives a phone call summoning her to work. As she prepares to leave, she explains to Frank that she works as a masseuse. Frank misinterprets her profession, laughing as he assumes she works at a sketchy massage parlor. Amused but wanting to set the record straight, Phoebe clarifies her job and invites Frank to accompany her so he can experience a professional massage himself."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:31 - 00:02:51",
+    "batch_summary": "Phoebe clarifies that she won't personally massage Frank Jr., offering to have a colleague do it instead, which Frank eagerly accepts. Meanwhile, Joey, Chandler, and Monica admire their newly finished, classic checkered bathroom floor. Later, Ross proudly presents a laminated card containing his finalized list of celebrity crushes, which Chandler printed for him. Rachel reads the names aloud, including Uma Thurman and Dorothy Hamill, to the amused group.",
+    "cumulative_summary": "The story begins with Joey attempting to take a break from a home improvement project, but Monica quickly shuts him down, humorously threatening him to get back to work while Chandler watches. The scene then shifts to Phoebe spending time with Frank Jr. Their relaxation is interrupted when Phoebe receives a phone call summoning her to work. As she prepares to leave, she explains to Frank that she works as a masseuse. Frank misinterprets her profession, laughing as he assumes she works at a sketchy massage parlor. Amused but wanting to set the record straight, Phoebe clarifies her job and invites Frank to accompany her so he can experience a professional massage from one of her colleagues. Meanwhile, Joey, Chandler, and Monica admire their newly completed checkered bathroom floor. Later, Ross proudly presents a laminated card featuring his finalized list of celebrity crushes, which Chandler printed. Rachel reads the list aloud, revealing names like Uma Thurman and Dorothy Hamill, adding a lighthearted dynamic to the group's gathering."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:02:51 - 00:04:16",
+    "batch_summary": "Rachel playfully teases Ross about his celebrity crush list. Meanwhile, at the massage clinic, chaos ensues when Frank Jr. inappropriately touches Phoebe's colleague, mistakenly believing she is a sex worker. Phoebe intervenes and is horrified to realize Frank Jr. thought she worked in the same illicit trade. After Phoebe angrily confronts him, a remorseful Frank Jr. apologizes, lamenting that he ruined what had otherwise been a perfect weekend with his sister.",
+    "cumulative_summary": "The story begins with Joey, Monica, and Chandler finishing a bathroom tiling project, while Ross proudly presents a laminated list of his top celebrity crushes, prompting playful teasing from Rachel. Meanwhile, Phoebe's attempt to show Frank Jr. her professional massage therapy job goes terribly awry. At the clinic, Frank Jr. inappropriately touches Phoebe's colleague, mistakenly believing she is a sex worker. Phoebe intervenes and is horrified to realize her brother thought she worked in the sex trade as well. After Phoebe angrily confronts him, a remorseful Frank Jr. apologizes, deeply regretting that he ruined their otherwise perfect weekend together."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:16 - 00:05:57",
+    "batch_summary": "Phoebe and Frank Jr. reconcile as he explains how much he valued their conversations, expressing that he feels comfortable opening up to her because she is his sister. Touched by his sincerity, Phoebe accepts his apology for the massage clinic incident. They share a lighthearted moment reminiscing about their weekend adventures before Frank Jr. departs. Later, back at the apartment, Phoebe warmly shows Monica and Rachel a small, partially melted object that Frank Jr. gave her as a parting gift.",
+    "cumulative_summary": "The story begins with Joey, Monica, and Chandler finishing a bathroom tiling project, while Ross proudly presents a laminated list of his top celebrity crushes, prompting playful teasing from Rachel. Meanwhile, Phoebe's attempt to show Frank Jr. her professional massage therapy job goes terribly awry when he inappropriately touches her colleague, mistakenly believing she is a sex worker. After Phoebe angrily confronts him, a remorseful Frank Jr. apologizes. As they talk, Frank Jr. explains how much he valued their conversations, sharing that he feels he can truly open up to her because she is his sister. Touched by his sincerity, Phoebe forgives him, and they share a lighthearted moment reminiscing about their chaotic weekend. Later, back at the apartment, Phoebe warmly shows Monica and Rachel a small, partially melted object Frank Jr. gave her as a parting gift, cementing their newfound sibling bond."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:05:57 - 00:07:40",
+    "batch_summary": "Phoebe reveals that Frank Jr.'s parting gift was actually their father's melted garage door opener. Meanwhile, Chandler recruits the group to help lift a massive, custom-built entertainment unit in his and Joey's apartment. Once upright, they realize the unit is so ridiculously oversized that it partially blocks both of their bedroom doors. Joey selfishly suggests shifting it to block only Chandler's door. To make matters worse, Joey warns Chandler too late that the wood is still wet, leaving Chandler's arm hair painfully stuck to the unit.",
+    "cumulative_summary": "The story begins with Joey, Monica, and Chandler finishing a bathroom tiling project, while Ross proudly presents a laminated list of his top celebrity crushes. Meanwhile, Phoebe reconciles with her brother, Frank Jr., after a misunderstanding at her massage clinic. As a parting gift, Frank Jr. gives her a melted object, which Phoebe reveals was once their father's garage door opener. Back at the guys' apartment, Chandler recruits the gang to help lift a massive, custom-built entertainment unit that Joey constructed. Once upright, they discover the unit is ridiculously oversized, partially blocking both bedroom doors. Joey jokingly suggests shifting the unit to block only Chandler's door. The situation worsens when Chandler leans against the unit, only to realize too late that the varnish is still wet, painfully gluing his arm hair to the wood."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:07:40 - 00:09:34",
+    "batch_summary": "At Central Perk, Isabella Rossellini unexpectedly walks in, leaving Ross in disbelief since he recently removed her from his laminated celebrity list. Rachel playfully teases Ross about his lack of confidence, prompting her to dub Isabella an \"alternate\" and dare him to approach her. Amused, Rachel and Monica watch as Ross confidently introduces himself to Isabella and offers to buy her coffee. However, the interaction becomes awkward when Isabella notices Rachel watching them from across the room.",
+    "cumulative_summary": "The story begins with Joey, Monica, and Chandler finishing a bathroom tiling project, while Ross proudly presents a laminated list of his top celebrity crushes. Meanwhile, Phoebe reconciles with her brother, Frank Jr., who gifts her a melted garage door opener. Back at the guys' apartment, Chandler recruits the gang to lift a massive, custom-built entertainment unit Joey made, which ends up blocking their bedroom doors and accidentally gluing Chandler's arm hair to the wet varnish. Later, at Central Perk, the famous Isabella Rossellini unexpectedly walks in. Since Ross had just removed her from his laminated list, Rachel playfully teases his lack of confidence and dares him to approach her as an \"alternate.\" Treating it as a spectator sport, Rachel and Monica watch as Ross confidently introduces himself to Isabella and offers to buy her coffee. The encounter takes an awkward turn when Isabella notices Rachel watching them closely from across the room."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:34 - 00:11:21",
+    "batch_summary": "Ross awkwardly explains his celebrity list to Isabella Rossellini, even showing her the laminated card where she was replaced by Winona Ryder. Isabella wittily shuts him down, claiming she bumped him from her own list of \"goofy coffee house guys\" for another patron. Meanwhile, back at the apartment, Joey bets Chandler five dollars that he can fit inside the lower cabinet of his oversized entertainment unit, prompting him to climb inside while Chandler shuts the doors.",
+    "cumulative_summary": "The story begins with Joey, Monica, and Chandler finishing a tiling project, while Ross creates a laminated list of his top celebrity crushes. Meanwhile, Phoebe reconciles with her brother, Frank Jr. Back at the guys' apartment, Joey's massive, custom-built entertainment unit causes chaos, blocking bedroom doors and gluing Chandler's arm hair. Later, when Isabella Rossellini walks into Central Perk, Rachel dares Ross to approach her. Ross awkwardly explains his celebrity list to Isabella, revealing he bumped her for Winona Ryder because she is \"international.\" Isabella wittily shuts him down, claiming she just replaced Ross on her own list of \"goofy coffee house guys\" with another patron. Back at the apartment, the humor continues as Joey bets Chandler five dollars that he can fit inside the entertainment unit's lower cabinet, eagerly climbing inside only for Chandler to shut the doors on him."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 298,
+    "timestamp_range": "00:11:21 - 00:12:01",
+    "batch_summary": "After Joey successfully squeezes into the entertainment unit's lower cabinet to win a five-dollar bet, Chandler playfully locks him inside by sliding a piece of wood through the door handles. Chandler slips the five-dollar bill through the crack to a victorious Joey before walking away. Later, at Central Perk, Ross and Chandler discuss Ross's celebrity list again. Ross defensively explains why he removed Elizabeth Honan from his list, arguing that she is no longer a celebrity but merely a local weather girl.",
+    "cumulative_summary": "The story begins with Joey, Monica, and Chandler finishing a tiling project, while Ross creates a laminated list of his top celebrity crushes. Meanwhile, Phoebe reconciles with her brother, Frank Jr. Back at the guys' apartment, Joey's massive, custom-built entertainment unit causes chaos. This culminates in Joey betting Chandler five dollars that he can fit inside the unit's lower cabinet. After Joey successfully squeezes inside, Chandler playfully locks him in with a piece of wood, slips him the five dollars, and walks away. Later, Isabella Rossellini visits Central Perk, where Ross awkwardly explains why he bumped her from his list for Winona Ryder, only to be wittily shut down by the actress. Still obsessed with his list, Ross later defends his choices to Chandler, explaining that he removed Elizabeth Honan because she is no longer a celebrity, but merely a local weather girl."
+  }
+]

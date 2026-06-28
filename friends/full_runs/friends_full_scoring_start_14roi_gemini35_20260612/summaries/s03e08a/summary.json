@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:45",
+    "batch_summary": "In the living room, Rachel offers homemade brownies to the group, but Phoebe hurts her tooth upon biting one. When Ross and Chandler urge her to see a dentist, Phoebe refuses, explaining her bizarre belief that someone dies every time she visits one. Despite Ross's attempts to dismiss this as a mere coincidence, Phoebe remains terrified. Later at Central Perk, Phoebe's tooth pain persists when she tries to eat an apple, highlighting her ongoing dilemma.",
+    "cumulative_summary": "The story begins in a cozy living room where Rachel offers homemade brownies to Chandler, Ross, and Phoebe. Upon taking a bite, Phoebe immediately experiences sharp tooth pain. Although Ross and Chandler encourage her to see a dentist, Phoebe adamantly refuses due to a bizarre superstition: she firmly believes that every time she goes to the dentist, someone close to her dies, citing her Aunt Mary, her mailman, and a cowboy friend as past victims. Despite Ross's logical arguments that these deaths are merely coincidences, Phoebe remains convinced and claims she only flosses to save lives. Later, at the Central Perk coffee shop, Rachel and Ross chat near the counter while Phoebe attempts to eat an apple. However, she is quickly reminded of her dental issues when another bite causes her agonizing pain, leaving her stuck between her fear of the dentist and her worsening toothache."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:45 - 00:03:37",
+    "batch_summary": "Rachel finally convinces Phoebe to go to the dentist, though Phoebe remains terrified that her visit will cause someone's death. Meanwhile, Joey reveals to Monica and Ross that he saw Chandler's girlfriend, Janice, kissing her ex-husband. Ross insists Joey must tell Chandler, despite Joey's reluctance. Later, as Phoebe frantically warns her friends to stay safe before her appointment, Ross asks Monica to babysit his son Ben, prompting an offended Rachel to ask why she wasn't trusted with the task.",
+    "cumulative_summary": "The story begins with Phoebe experiencing agonizing tooth pain, yet refusing to see a dentist due to her superstitious belief that her visits cause the deaths of those close to her. Eventually, Rachel manages to convince a terrified Phoebe to schedule an appointment, though Phoebe frantically warns her friends to avoid any fatal accidents in her absence. Meanwhile, a new conflict arises when Joey reveals to Monica and Ross that he caught Chandler's girlfriend, Janice, kissing her ex-husband. While Ross insists that Joey must break the devastating news to Chandler, Joey is highly reluctant to do so. Later, Ross arrives looking for a babysitter for his son, Ben, after a museum display is vandalized. When Monica volunteers, Rachel feels slighted and questions why Ross did not trust her with the responsibility of watching his son."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:37 - 00:05:24",
+    "batch_summary": "Ross leaves his son, Ben, in the care of Monica and Rachel. While babysitting, Rachel struggles to entertain Ben, prompting Monica to take over and play the \"airplane game.\" Accidentally, Monica swings Ben's head into a wooden beam, causing a bump. Panicked, the two women desperately try to cover up the accident, agreeing to hide the injury from Ross. Monica frantically plans a distraction for when Ross returns to prevent him from discovering the bump.",
+    "cumulative_summary": "The story begins with Phoebe experiencing agonizing tooth pain, yet refusing to see a dentist due to her superstitious belief that her visits cause the deaths of those close to her. Eventually, Rachel manages to convince a terrified Phoebe to schedule an appointment, though Phoebe frantically warns her friends to avoid any fatal accidents in her absence. Meanwhile, a new conflict arises when Joey reveals to Monica and Ross that he caught Chandler's girlfriend, Janice, kissing her ex-husband. While Ross insists that Joey must break the devastating news to Chandler, Joey is highly reluctant to do so. Later, Ross leaves his young son, Ben, in the care of Monica and Rachel. While babysitting, Rachel struggles to entertain the toddler, prompting Monica to step in with an \"airplane game.\" However, Monica accidentally swings Ben's head into a wooden support beam. Terrified after discovering a bump on Ben's head, Monica and Rachel frantically agree to keep the accident a secret from Ross, with Monica desperately plotting a distraction for his return."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:24 - 00:06:51",
+    "batch_summary": "Monica and Rachel frantically attempt to cover up Ben's head bump by ripping a tiny yellow hat off a teddy bear to place on the toddler. Meanwhile, Chandler wants to buy Janice a serious birthday gift, unaware of her infidelity. Knowing the truth, a desperate Joey tries to steer Chandler away from making a serious commitment, suggesting absurd alternatives like gum or a barium enema instead of jewelry.",
+    "cumulative_summary": "The story begins with Phoebe experiencing agonizing tooth pain, yet refusing to see a dentist due to her superstitious belief that her visits cause the deaths of those close to her. Eventually, Rachel convinces a terrified Phoebe to schedule an appointment. Meanwhile, a new conflict arises when Joey catches Chandler's girlfriend, Janice, kissing her ex-husband. While Ross insists Joey must break the devastating news, Joey is highly reluctant. Later, Ross leaves his young son, Ben, with Monica and Rachel. After Monica accidentally swings Ben's head into a wooden beam, she and Rachel frantically try to cover up the resulting bump by ripping a tiny yellow hat off a teddy bear to place on the toddler's head. Elsewhere, Chandler plans to buy Janice a serious birthday gift, unaware of her infidelity. Knowing the truth, a desperate Joey tries to steer Chandler away from making a serious commitment, suggesting absurd alternatives like gum or a barium enema instead of jewelry."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:51 - 00:08:22",
+    "batch_summary": "Joey finally breaks the devastating news to Chandler, revealing that he saw Janice kissing her ex-husband. Though initially in denial, Chandler is left heartbroken and shocked. Meanwhile, Monica and Rachel dress Ben in a full yellow raincoat ensemble to disguise his head bump. Phoebe returns from her dentist appointment relieved to find Rachel alive, but frantically calls her friends to ensure no one has died. The batch ends on a surprising note when toddler Ben speaks his first word, \"Monica,\" shocking her.",
+    "cumulative_summary": "Phoebe reluctantly visits the dentist despite her fear that her appointments cause deaths, while Monica and Rachel watch Ross's son, Ben. After Monica accidentally bumps Ben's head, she and Rachel frantically disguise the injury by dressing him in a yellow raincoat ensemble. Phoebe returns relieved to find Rachel alive, but frantically calls her friends to ensure no one has died. Meanwhile, Joey struggles to prevent Chandler from buying an expensive birthday gift for Janice. Unable to keep the secret any longer, Joey confesses to a devastated Chandler that he saw Janice kissing her ex-husband. Though Chandler is initially in denial, he is left heartbroken by the revelation of her infidelity. Back at the apartment, the tension shifts when toddler Ben shocks Monica by speaking his very first word: 'Monica.'"
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:22 - 00:09:39",
+    "batch_summary": "Monica and Rachel are horrified when Ben's first words turn out to be \"Monica bang,\" threatening to expose Monica's accident. In a desperate bid to normalize the phrase, the two women repeatedly bump their own heads against a pillar in front of the toddler. Meanwhile, a heartbroken Chandler waits in his apartment for Janice. When she arrives home acting cheerful, he immediately confronts her about her infidelity, asking if there is anything she wants to tell him.",
+    "cumulative_summary": "Phoebe reluctantly visits the dentist despite her fear that her appointments cause deaths, while Monica and Rachel watch Ross's son, Ben. After Monica accidentally bumps Ben's head, she and Rachel frantically disguise the injury. Their relief at Ben speaking his first words quickly turns to panic when they realize he is saying \"Monica bang.\" In a desperate, comical attempt to cover up the accident, Monica and Rachel repeatedly bump their own heads against a pillar to normalize the phrase for Ben. Meanwhile, Joey struggles to prevent Chandler from buying an expensive birthday gift for Janice, ultimately confessing that he saw Janice kissing her ex-husband. Left heartbroken and brooding, Chandler waits at home for Janice. When she returns, he immediately confronts her about her infidelity, demanding to know if there is anything she wants to tell him."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:39 - 00:11:03",
+    "batch_summary": "Chandler confronts Janice about her infidelity, revealing that Joey saw her kissing her ex-husband. Shocked and overwhelmed, Janice begins to hyperventilate, forcing Chandler to fetch a paper bag for her. As she breathes into the bag to calm down, Chandler presses her with painful, direct questions about her feelings, asking if she is finished with him or her ex, and who she truly loves. The confrontation is emotionally charged yet punctuated by Janice's frantic hyperventilating.",
+    "cumulative_summary": "Phoebe reluctantly visits the dentist, while Monica and Rachel watch Ross's son, Ben. After Monica accidentally bumps Ben's head, she and Rachel frantically try to cover up the injury, especially when Ben starts saying \"Monica bang.\" Meanwhile, Joey confesses to Chandler that he saw Janice kissing her ex-husband. Heartbroken, Chandler waits at home to confront Janice. When she returns, he demands answers, revealing that Joey witnessed the kiss. Overwhelmed with guilt and panic, Janice begins to hyperventilate, prompting Chandler to fetch a paper bag to help her breathe. Amidst her frantic breathing, Chandler presses her with painful questions, demanding to know if she is finished with her ex-husband, if she still loves him, and if she still loves Chandler."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 288,
+    "timestamp_range": "00:11:03 - 00:11:24",
+    "batch_summary": "Chandler demands a definitive answer from Janice, pressing her to choose between him and her ex-husband. Overwhelmed by the ultimatum, Janice hyperventilates into her hands, unable to speak. Chandler watches her anxiously, waiting for a decision, but the tense confrontation ends abruptly as the scene cuts to black, leaving the ultimate choice unresolved.",
+    "cumulative_summary": "Phoebe reluctantly visits the dentist, while Monica and Rachel frantically try to cover up an accidental head bump they gave Ross's son, Ben. Meanwhile, after Joey reveals he saw Janice kissing her ex-husband, a heartbroken Chandler confronts her. As Janice panics and hyperventilates, Chandler presses her with painful questions about her feelings. He ultimately demands a definitive choice, asking her to choose between him and her ex-husband. Overwhelmed and unable to answer, Janice continues to hyperventilate into her hands, leaving their relationship hanging in the balance as the tense confrontation fades to black."
+  }
+]

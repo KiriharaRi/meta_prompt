@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:50",
+    "batch_summary": "On Thanksgiving, Joey, Ross, and Chandler watch football while Monica, Rachel, and Phoebe prepare dinner. During halftime, Joey suggests a three-on-three touch football game. Rachel eagerly joins despite having never played. Chandler, depressed over his breakup with Janice, is reluctantly persuaded by Joey to participate to even out the teams. However, when Joey invites Ross to join, Ross reveals that he and Monica are not supposed to play football.",
+    "cumulative_summary": "On Thanksgiving Day, the group gathers at Monica's apartment. While Joey, Ross, and Chandler are glued to a football game on television, Phoebe and Monica work on dinner preparations. Monica's attempt to micromanage Rachel's marshmallow arrangement leads to a playful confrontation. When halftime arrives, Phoebe finally sits down to watch, but the men immediately get up. Joey proposes a friendly three-on-three football game to get everyone moving. Rachel eagerly volunteers to play for the first time, while Chandler, wallowing in self-pity after his breakup with Janice, is coaxed into joining by Joey to keep the teams even. The plan hits a mysterious snag when Joey invites Ross to play, and Ross reveals that he and his sister Monica are actually forbidden from playing football."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:50 - 00:03:37",
+    "batch_summary": "Ross and Monica explain that their mother banned them from football after \"Geller Bowl VI,\" where Monica broke Ross's nose. The siblings bicker over whether the injury was accidental and who actually won the \"Geller Cup\"—a trophy their father eventually threw into a lake to stop their intense rivalry. Despite the family ban, Monica decides that after twelve years, they should finally play a game, prompting a hesitant Ross to pull her aside for a private discussion.",
+    "cumulative_summary": "On Thanksgiving Day, the friends gather at Monica's apartment. When Joey proposes a friendly three-on-three football game, Rachel eagerly volunteers, and Chandler is coaxed into joining to distract him from his recent breakup. However, the plan hits a snag when Ross reveals that he and Monica are forbidden from playing. The siblings explain that their mother banned them twelve years ago after their hyper-competitive childhood game, \"Geller Bowl VI,\" ended with Monica breaking Ross's nose. The intense rivalry also led their father to throw their prized trophy, the Geller Cup, into a lake. Despite the long-standing family ban and Ross's lingering resentment over the incident, Monica decides it is time to play again, prompting a hesitant Ross to pull her aside to discuss the risky idea."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:37 - 00:05:18",
+    "batch_summary": "The friends head to a park to play their Thanksgiving football game. Ross and Monica use a childhood \"bunny\" gesture to appoint themselves captains, highlighting their intense sibling dynamic. Monica drafts Joey and Phoebe, while Ross selects Chandler, leaving a defensive Rachel to join Ross's team by default. With Monica setting a strict 28-minute timer to accommodate her turkey basting, the teams huddle up, where Phoebe immediately derails her team's strategy with a gossipy question about Chandler.",
+    "cumulative_summary": "On Thanksgiving Day, the friends gather at Monica's apartment and decide to play a friendly three-on-three football game. Although Ross and Monica's mother previously banned them from playing due to their hyper-competitive childhood rivalry, they decide to break the ban. The group heads to a nearby park, where Ross and Monica quickly assert themselves as team captains using a childhood \"bunny\" gesture. Monica drafts Joey and Phoebe, while Ross selects Chandler, leaving a defensive Rachel to join Ross's team by default. With Monica enforcing a strict 28-minute time limit to accommodate her Thanksgiving cooking, the game is set to begin. However, as the teams form their first huddles, Phoebe immediately derails her team's strategy by asking Monica and Joey what they really think of Chandler, setting a humorous and lighthearted tone for the upcoming match."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:18 - 00:06:51",
+    "batch_summary": "The football game begins with comedic incompetence. Phoebe admits she has no idea how to play, while Chandler completely misses a kickoff and falls on his back. After switching to throwing, Chandler collides with Ross, allowing Joey to score the first touchdown for Monica's team. Rachel sarcastically critiques Ross's defense, and the siblings trade taunts. When Ross's team gets the ball back, Chandler throws a pass to Rachel, but she drops it, prompting Chandler to sarcastically joke about the score being \"seven to almost seven.\"",
+    "cumulative_summary": "On Thanksgiving Day, the friends gather at Monica's apartment and decide to play a friendly three-on-three football game. Although Ross and Monica's mother previously banned them from playing due to their hyper-competitive childhood rivalry, they decide to break the ban. The group heads to a nearby park, where Ross and Monica quickly assert themselves as team captains. Monica drafts Joey and Phoebe, while Ross selects Chandler, leaving Rachel to join Ross's team. As the game begins, comedic chaos ensues. Phoebe admits she has no idea how to play, and Chandler hilariously fails his kickoff. When they switch to throwing, Chandler accidentally collides with Ross, allowing Joey to score the game's first touchdown for Monica's team. Rachel sarcastically critiques Ross's failed defense, while Monica and Ross trade childish taunts. On the next play, Chandler throws a pass to Rachel, but she drops it, prompting Chandler to sarcastically note that the score is now \"seven to almost seven.\""
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:51 - 00:08:39",
+    "batch_summary": "During the next play, Ross sidelines Rachel by telling her to \"go long,\" but Chandler's pass is intercepted by Joey. The ball rolls over to a Dutch woman named Margha, prompting Joey and Chandler to immediately abandon the game to flirt with her. While Phoebe tries to get the \"flirty boys\" back to the game, Ross and Monica engage in another petty argument over whether it is second or third down. Margha asks to stay and watch, further fueling Joey and Chandler's competitive distraction.",
+    "cumulative_summary": "On Thanksgiving Day, the friends gather at Monica's apartment and decide to play a friendly three-on-three football game, breaking a childhood ban imposed by Ross and Monica's mother. At the park, Ross and Monica draft their teams and the game quickly descends into comedic chaos. After Joey scores the first touchdown for Monica's team and Rachel drops a pass, Ross tries to sideline Rachel by telling her to \"go long.\" Chandler's next pass is intercepted by Joey, but the play is interrupted when the ball rolls to a beautiful Dutch woman named Margha. Joey and Chandler immediately abandon the game to flirt with her, trying to pronounce her name. While Phoebe tries to call the distracted boys back, Ross and Monica get into another petty, hyper-competitive argument over whether it is second or third down. Ultimately, Margha asks to stay and watch the game, setting up a new rivalry between Joey and Chandler for her attention."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:39 - 00:10:28",
+    "batch_summary": "Joey condescendingly offers to let Chandler pursue Margha, claiming Chandler's only strength is math. Offended, Chandler accepts a challenge to compete for her attention. Meanwhile, Rachel grows tired of Ross's attempts to sideline her and decides to stay far downfield. During the game, the rivalry between Joey and Chandler escalates when Chandler rips Joey's favorite jersey during a play. A furious Joey declares that he will no longer hold back in their pursuit of Margha, intensifying their comedic feud.",
+    "cumulative_summary": "On Thanksgiving Day, the friends gather at Monica's apartment and decide to play a friendly three-on-three football game, breaking a childhood ban. At the park, Ross and Monica draft their teams, and the game quickly descends into comedic chaos. After Joey scores the first touchdown and Rachel drops a pass, Ross tries to sideline Rachel by telling her to \"go long.\" Chandler's next pass is intercepted by Joey, but the play is interrupted when the ball rolls to a beautiful Dutch woman named Margha. Joey and Chandler immediately abandon the game to flirt with her. After Margha agrees to stay and watch, Joey condescendingly suggests Chandler has no chance with her, sparking a fierce rivalry. Meanwhile, Rachel, tired of being sidelined, decides to stay far downfield. The tension between Joey and Chandler boils over on the field when Chandler rips Joey's favorite jersey during a play. Furious, Joey declares that he will no longer hold back, turning their friendly game into a bitter, comedic battle for Margha's affection."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:10:28 - 00:12:02",
+    "batch_summary": "As the game nears halftime, Phoebe scores a touchdown right as the buzzer sounds. This ignites a fierce argument between Ross and Monica over whether the play counts, leading to childish insults and Monica kicking Ross in the leg. Refusing to let Ross make excuses, Monica declares a tie at halftime and raises the stakes by revealing the ultimate prize: the Geller Cup, a bizarre trophy consisting of a Troll doll nailed to a block of wood, reigniting their intense sibling rivalry.",
+    "cumulative_summary": "On Thanksgiving Day, a friendly football game among friends quickly turns competitive. While Joey and Chandler bitterly clash over the attention of a beautiful Dutch onlooker named Margha, Rachel remains sidelined downfield. As halftime approaches, Phoebe scores a touchdown just as the buzzer sounds, sparking a heated dispute between Ross and Monica. The sibling rivalry escalates into childish insults and physical retaliation when Monica kicks Ross. Refusing to let Ross back out or make excuses, Monica declares a halftime tie and raises the stakes of the game. She reveals the ultimate prize: the Geller Cup, a bizarre trophy featuring a Troll doll nailed to a block of wood. This ridiculous prize reignites their intense competitive drive, ensuring the battle for family dominance will continue."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 283,
+    "timestamp_range": "00:12:02 - 00:12:14",
+    "batch_summary": "As the stakes are set, Chandler and the others nod in agreement, accepting the challenge for the Geller Cup. Ross holds the bizarre Troll doll trophy close, his intense expression reflecting his determination to win. With the teams aligned and the sibling rivalry reaching a peak, the group prepares to resume the high-stakes Thanksgiving football game as the scene fades to black.",
+    "cumulative_summary": "On Thanksgiving Day, a friendly football game among friends quickly turns competitive. While Joey and Chandler bitterly clash over the attention of a beautiful Dutch onlooker named Margha, Rachel remains sidelined downfield. As halftime approaches, Phoebe scores a touchdown just as the buzzer sounds, sparking a heated dispute between Ross and Monica. The sibling rivalry escalates into childish insults and physical retaliation when Monica kicks Ross. Refusing to let Ross back out or make excuses, Monica declares a halftime tie and raises the stakes of the game. She reveals the ultimate prize: the Geller Cup, a bizarre trophy featuring a Troll doll nailed to a block of wood. This ridiculous prize reignites their intense competitive drive. Accepting the challenge, Chandler and the others nod in agreement. Ross holds the bizarre trophy close with an intense, determined expression, signaling that the battle for family dominance and the coveted Geller Cup is about to reach its peak as the scene fades."
+  }
+]

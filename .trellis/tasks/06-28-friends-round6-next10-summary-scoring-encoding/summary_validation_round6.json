@@ -1,0 +1,105 @@
+{
+  "errors": [],
+  "rows": [
+    {
+      "episode_id": "s03e04b",
+      "summary_exists": true,
+      "summary_metadata_exists": true,
+      "summary_batches": 7,
+      "metadata_n_batches": 7,
+      "metadata_n_segments": 274,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s03e05a",
+      "summary_exists": true,
+      "summary_metadata_exists": true,
+      "summary_batches": 8,
+      "metadata_n_batches": 8,
+      "metadata_n_segments": 286,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s03e05b",
+      "summary_exists": true,
+      "summary_metadata_exists": true,
+      "summary_batches": 8,
+      "metadata_n_batches": 8,
+      "metadata_n_segments": 299,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s03e06b",
+      "summary_exists": true,
+      "summary_metadata_exists": true,
+      "summary_batches": 8,
+      "metadata_n_batches": 8,
+      "metadata_n_segments": 283,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s03e07a",
+      "summary_exists": true,
+      "summary_metadata_exists": true,
+      "summary_batches": 7,
+      "metadata_n_batches": 7,
+      "metadata_n_segments": 263,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s03e07b",
+      "summary_exists": true,
+      "summary_metadata_exists": true,
+      "summary_batches": 7,
+      "metadata_n_batches": 7,
+      "metadata_n_segments": 268,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s03e08a",
+      "summary_exists": true,
+      "summary_metadata_exists": true,
+      "summary_batches": 8,
+      "metadata_n_batches": 8,
+      "metadata_n_segments": 289,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s03e09a",
+      "summary_exists": true,
+      "summary_metadata_exists": true,
+      "summary_batches": 8,
+      "metadata_n_batches": 8,
+      "metadata_n_segments": 284,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s03e09b",
+      "summary_exists": true,
+      "summary_metadata_exists": true,
+      "summary_batches": 7,
+      "metadata_n_batches": 7,
+      "metadata_n_segments": 248,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s03e10a",
+      "summary_exists": true,
+      "summary_metadata_exists": true,
+      "summary_batches": 6,
+      "metadata_n_batches": 6,
+      "metadata_n_segments": 234,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    }
+  ]
+}

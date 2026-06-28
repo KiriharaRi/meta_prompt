@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:33",
+    "batch_summary": "Monica invites Joey into her apartment for lemonade after a brief conversation in the hallway. While Monica is in the kitchen pouring the drinks, she tells Joey to make himself comfortable. Taking her literally, Joey completely undresses. When Monica turns around with the glasses, she is shocked to find Joey standing completely naked. A hilarious misunderstanding unfolds as Joey explains he believed an invitation for lemonade, iced tea, or juice was a universal code for sex. Monica, horrified, demands he cover himself up.",
+    "cumulative_summary": "In a lighthearted and awkward encounter, Monica invites Joey into her apartment for lemonade after chatting in the hallway. While Monica prepares the drinks in the kitchen and explains how she got the apartment from her grandmother, she tells Joey to make himself comfortable. Joey takes this instruction to the extreme and completely undresses behind a wicker chest in the living room. When Monica turns around to hand him his drink, she is stunned and horrified to find him standing entirely naked. A comical confrontation ensues as Monica demands to know what he is doing. Joey defensively explains that, in his experience, an invitation for lemonade—or iced tea, or sometimes juice—is always a euphemism for sex. Realizing his mistake, a sheepish Joey apologizes and covers himself up while Monica reacts in disbelief at his assumption."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:33 - 00:03:00",
+    "batch_summary": "After Joey sheepishly puts his clothes back on, Monica tries to be understanding, though she humorously points out he still hasn't put his pants on. Later, Monica questions Phoebe about her missing bed, leading to a shocking revelation: Phoebe confesses she has secretly moved out of the apartment. To Monica's dismay, Phoebe reveals that everyone else in their friend group already knew, explaining that their relationship only improved because they stopped living together.",
+    "cumulative_summary": "In an awkward encounter, Monica invites Joey into her apartment for lemonade, but he mistakenly interprets this as an invitation for sex and completely undresses. After a shocked Monica confronts him, a sheepish Joey apologizes and puts his shirt back on, though Monica has to humorously point out he still needs to put his pants on. Later, a new conflict arises when Monica notices Phoebe's bed is missing. When questioned, Phoebe reluctantly confesses that she has secretly moved out of the apartment. To Monica's dismay, Phoebe reveals that the rest of their friends already knew about the move. Phoebe explains that their relationship had actually improved recently precisely because they were no longer living together, leaving Monica stunned and hurt by the sudden revelation."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:00 - 00:04:34",
+    "batch_summary": "Phoebe explains her decision to move out, citing Monica's intense neatness, specifically recalling a hidden spaghetti stain on a sofa cushion that kept her awake. Despite the tension, the two share a loving hug and reaffirm their friendship, though Monica is quickly distracted by finding the stained cushion. Meanwhile, Chandler returns home to find Joey watching Baywatch. Although Chandler initially dismisses the show as stupid, he is quickly captivated by a lifeguard on screen and joins Joey to watch.",
+    "cumulative_summary": "After an awkward misunderstanding where Joey mistakenly undresses in Monica's apartment, a new conflict arises when Monica discovers Phoebe has secretly moved out. Phoebe explains her departure is due to Monica's extreme neatness, sharing a story about a hidden spaghetti stain on a sofa cushion that stressed her out. Reassuring Monica of her love, Phoebe emphasizes that moving out is necessary to preserve their friendship. The two share a warm embrace, though Monica is quickly distracted by finding the stained cushion. Meanwhile, across the hall, Chandler returns home to find Joey watching Baywatch. Although Chandler initially dismisses the show as stupid, he is instantly captivated by a lifeguard on screen and sits down to join Joey."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:34 - 00:06:12",
+    "batch_summary": "Chandler and Joey bond over Baywatch before Chandler heads to Monica's apartment for more beer. There, he finds a distraught Monica questioning her personality and single status after Phoebe's departure. Chandler sweetly comforts her, calling her beautiful and pulling her into a warm embrace. Meanwhile, Ross enters a closed bar looking for the group and finds Phoebe alone, preparing to tell her that something is wrong.",
+    "cumulative_summary": "After Phoebe secretly moves out of Monica's apartment to escape her extreme neatness, Monica is left feeling deeply insecure. Meanwhile, Chandler and Joey bond over watching Baywatch across the hall. When Chandler goes to Monica's apartment to get more beer, he finds her distraught and questioning why she is single and hard to live with. Chandler sweetly comforts her, calling her beautiful and one of his favorite people, which leads to a warm embrace. Later, the scene shifts to a dimly lit, closed bar where Ross arrives looking for the group. Finding only Phoebe, Ross appears visibly upset and prepares to reveal what is wrong."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:12 - 00:07:48",
+    "batch_summary": "Ross reveals to Phoebe that his seven-year marriage is over because his wife, Carol, is a lesbian. Feeling foolish for missing the signs, Ross is devastated and realizes, with Phoebe's prompting, that Carol's friend Susan is actually her lover. Phoebe comforts a grieving Ross with a warm hug. Meanwhile, back at the apartment, Chandler and Monica continue their embrace, with Chandler expressing how good it feels to hold her.",
+    "cumulative_summary": "After Phoebe secretly moves out of Monica's apartment to escape her extreme neatness, Monica is left feeling deeply insecure. Meanwhile, Chandler and Joey bond over watching Baywatch across the hall. When Chandler goes to Monica's apartment to get more beer, he finds her distraught and questioning why she is single. Chandler sweetly comforts her, leading to a warm embrace. Meanwhile, at a closed bar, a devastated Ross reveals to Phoebe that his seven-year marriage is over because his wife, Carol, is a lesbian. Ross feels foolish for missing the signs and is shocked to realize that Carol's friend Susan is actually her lover. Phoebe offers Ross a comforting hug as he grieves the loss of his relationship. The scene then transitions back to Monica's apartment, where Chandler and Monica continue their embrace, finding comfort and a deeper connection in each other's arms."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:07:48 - 00:09:43",
+    "batch_summary": "Chandler and Monica share a lighthearted moment before Chandler returns to his apartment, though they agree to grab a drink later. Meanwhile, at the bar, Phoebe comforts a grieving Ross. Her kind words lead to a sudden, passionate kiss. They move to the pool table to make out, but the romantic mood is hilariously disrupted when Ross gets his foot stuck in a pocket and is poked by the pool balls underneath him.",
+    "cumulative_summary": "After Phoebe secretly moves out of Monica's apartment, Monica is left feeling deeply insecure. Chandler comforts her, leading to a warm embrace. After a lighthearted chat about Monica's towel, Chandler heads back to watch Baywatch with Joey, but they agree to get a drink later. Meanwhile, at a closed bar, a devastated Ross reveals to Phoebe that his marriage is over because his wife, Carol, is a lesbian. As Phoebe comforts him, praising his kindness, the emotional moment quickly turns passionate, and they begin kissing. They move to the pool table to make out, but the romantic atmosphere is hilariously interrupted when Ross gets his foot stuck in a pool pocket and is poked by the balls underneath him."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:43 - 00:11:26",
+    "batch_summary": "After their interrupted kiss, Ross and Phoebe decide romance isn't the best solution. Monica, Joey, and Chandler arrive, and Ross awkwardly reveals his wife is a lesbian, prompting Chandler to introduce Ross and Joey. Later, Chandler shares a passionate encounter with a mysterious woman in a pool room. Meanwhile, Rachel drives her friends but gets distracted daydreaming about Barry, causing her to miss her highway exit.",
+    "cumulative_summary": "After Phoebe secretly moves out of Monica's apartment, Monica is left feeling deeply insecure. Chandler comforts her, leading to a warm embrace. Meanwhile, at a closed bar, a devastated Ross reveals to Phoebe that his marriage is over because his wife, Carol, is a lesbian. This leads to a passionate but hilariously interrupted make-out session on a pool table. Deciding romance isn't the best solution, Ross and Phoebe compose themselves just as Monica, Chandler, and Joey arrive. Ross awkwardly shares the news of his wife's sexuality, prompting Chandler to introduce Ross and Joey. Later, Chandler shares a passionate, wordless encounter with a mysterious woman in a pool room. Finally, Rachel is shown driving her friends, completely distracted and missing her highway exit as she daydreams about Barry."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 282,
+    "timestamp_range": "00:11:26 - 00:11:38",
+    "batch_summary": "Rachel remains focused on the road, driving her friends as they converse quietly in the background. This brief, calm moment of transit shows Rachel keeping her gaze steady on the road, contrasting with her previous distracted daydreaming about Barry. The atmosphere is quiet and mundane as the group travels together.",
+    "cumulative_summary": "After Phoebe secretly moves out of Monica's apartment, Monica is left feeling deeply insecure, leading Chandler to comfort her. Meanwhile, a devastated Ross reveals to Phoebe that his marriage is over because his wife, Carol, is a lesbian, leading to a passionate but interrupted make-out session on a pool table. After composing themselves, Ross awkwardly shares the news with Monica, Chandler, and Joey. Later, Chandler shares a passionate, wordless encounter with a mysterious woman in a pool room. Finally, Rachel is shown driving her friends. Although she initially misses her highway exit while daydreaming about Barry, she soon regains her focus, keeping her eyes steadily on the road while her passengers converse quietly in the background."
+  }
+]

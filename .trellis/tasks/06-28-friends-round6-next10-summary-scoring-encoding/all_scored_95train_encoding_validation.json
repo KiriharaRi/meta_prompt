@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "config": "configs/friends_train_size_sweep_20260628_round6/round6_all_scored_95train_encoding.json",
+  "manifest": "friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/roi_encoding_manifest.jsonl",
+  "encoding_summary": "friends/analysis/train_size_sweep_20260628_round6/encoding_95train_all_scored_snapshot/group_summary.json",
+  "config_split_counts": {
+    "test": 4,
+    "train": 95,
+    "val": 5
+  },
+  "manifest_split_counts": {
+    "test": 4,
+    "train": 95,
+    "val": 5
+  },
+  "manifest_rows": 104,
+  "roi_feature_count_distribution": {
+    "14": 104
+  },
+  "primary_metric": "mean_subject_mean_test_pearson",
+  "mean_subject_mean_test_pearson": 0.21925903361259347,
+  "mean_subject_median_test_pearson": 0.2122303475615669,
+  "n_subjects": 1,
+  "subject": {
+    "subject_id": "sub-01",
+    "best_alpha": 10000.0,
+    "n_retained_parcels": 86,
+    "n_test_trs": 1812,
+    "mean_test_pearson": 0.21925903361259347,
+    "median_test_pearson": 0.2122303475615669
+  }
+}
