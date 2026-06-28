@@ -1571,3 +1571,36 @@ Selected and scored additional Friends train episodes, completed round4/round5 1
 ### Next Steps
 
 - None - task complete
+
+
+## Session 46: Friends round6 95-train encoding
+
+**Date**: 2026-06-28
+**Task**: Friends round6 95-train encoding
+**Branch**: `main`
+
+### Summary
+
+Selected and scored 10 new Friends episodes, validated zero-warning 14-ROI outputs, generated 85-train and all-scored 95-train encoding snapshots.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `98e8c13` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
