@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:52",
+    "batch_summary": "Chandler struggles with his feelings for a woman who is dating his best friend, Joey. Although they agree to pretend nothing happened and she leaves, Chandler opens the door to find her still outside, leading to a passionate embrace and kiss. Later, at the coffee shop, Ross performs an eccentric, avant-garde keyboard set. While Monica is eager to leave, Phoebe is deeply inspired by his performance, ultimately refusing to play her own set because she feels she cannot follow his act.",
+    "cumulative_summary": "In an apartment kitchen, Chandler faces a difficult moral dilemma regarding his feelings for a woman who is currently dating his best friend, Joey. Despite acknowledging the betrayal, both struggle to resist their mutual attraction. They initially agree to part ways and pretend nothing happened, but as soon as she steps out, Chandler opens the door to find her waiting. Unable to fight their connection, they share a passionate embrace and kiss. Meanwhile, the scene shifts to a local coffee shop where Ross performs an eccentric, avant-garde musical piece on his keyboard. While Monica and Rachel find the performance bizarre and Monica suggests leaving for Starbucks, Phoebe is genuinely captivated and inspired. After Ross finishes his set to polite applause, Phoebe declines to perform her own music, claiming that following Ross's incredible act is an impossible task, comparing it to bicycle-riding chimps trying to follow the Beatles."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:52 - 00:03:18",
+    "batch_summary": "At the coffee shop, Rachel and Monica bluntly tell Phoebe that Ross's music actually sucks and has cleared out the venue. Phoebe romanticizes this lack of appreciation, leading to a humorous moment where the three friends jokingly insult each other. Meanwhile, back at the apartment, a guilt-ridden Chandler surprises Joey by completely refurnishing their place. Unaware of Chandler's betrayal with his girlfriend, Joey is deeply touched by the gesture, while Chandler covers up his guilt by joking about draining his savings.",
+    "cumulative_summary": "In an apartment kitchen, Chandler faces a difficult moral dilemma regarding his feelings for Joey's girlfriend. Unable to resist their mutual attraction, they share a passionate embrace and kiss. Meanwhile, Ross performs an eccentric, avant-garde keyboard piece at the local coffee shop. While Monica and Rachel find it bizarre, Phoebe is genuinely inspired. Rachel and Monica try to bring Phoebe back to reality, pointing out that Ross's performance actually emptied the room. Rather than being discouraged, Phoebe romanticizes the idea of being an unappreciated artist, leading to a lighthearted moment where the three friends jokingly tell each other they suck. Back at the apartment, Chandler attempts to ease his guilt over the betrayal by completely refurnishing the place. Unaware of the truth, Joey is deeply touched by his friend's apparent generosity, while Chandler covers his tracks by joking about draining his savings account."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:18 - 00:04:59",
+    "batch_summary": "Joey expresses deep gratitude to Chandler, calling him his best friend, and reveals he has decided to commit to Kathy. Terrified of his guilt, Chandler desperately tries to steer Joey toward another woman, Casey. Joey misinterprets this as Chandler having a crush on Casey and offers to set them up. Meanwhile, at Central Perk, Phoebe admits to Ross that she wants to quit music because she feels dwarfed by his talent. Touched, Ross offers to stop playing, but Phoebe insists he must not deprive the world of his gift.",
+    "cumulative_summary": "After Chandler secretly kisses Joey's girlfriend, Kathy, he refurnishes their apartment out of guilt. Unaware of the betrayal, a grateful Joey declares Chandler his best friend and announces his decision to commit solely to Kathy. Desperate to prevent this, Chandler repeatedly suggests Joey date another woman named Casey instead. Joey completely misinterprets the gesture, assuming Chandler has a crush on Casey, and happily offers to set them up. Meanwhile, Ross's eccentric keyboard performance continues to cause waves. At Central Perk, Phoebe confesses to Ross that she wants to stop playing music because she feels completely dwarfed by his immense talent. Wanting only to inspire, Ross generously offers to quit playing so Phoebe can continue. However, Phoebe is horrified by the idea, insisting that she cannot deprive the world of Ross's unique musical gift."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:59 - 00:06:35",
+    "batch_summary": "At Central Perk, Rachel rejects a date with a cute doctor to honor her \"plans with herself,\" taking Monica's advice about alone time too literally. Meanwhile, a guilt-ridden Chandler confesses to the group that he kissed Joey's girlfriend, Kathy. The friends are shocked, and Ross and Monica make Chandler feel even worse by pointing out that Joey's deep loyalty means he likely would have stepped aside for Chandler if he had just been honest from the start.",
+    "cumulative_summary": "After Chandler secretly kisses Joey's girlfriend, Kathy, he refurnishes their apartment out of guilt. Unaware of the betrayal, Joey declares Chandler his best friend and commits to Kathy. Meanwhile, at Central Perk, Phoebe convinces Ross not to quit his eccentric music, while Rachel rejects a date with a cute doctor to honor her \"plans with herself.\" The tension peaks when Chandler finally confesses to the group that he kissed Kathy. Shocked, the friends offer little comfort; Monica and Ross point out that Joey's deep loyalty means he likely would have stepped aside for Chandler if he had just been honest from the start, leaving Chandler even more consumed by guilt."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:35 - 00:08:11",
+    "batch_summary": "Urged by Rachel and Monica, a guilt-ridden Chandler accepts that he must confess his betrayal to Joey. Meanwhile, Rachel's \"plans with herself\" turn lonely as she dines alone and fails to secure a date with the cute doctor, Guy, who is now busy. Back at the apartment, the tension peaks as Chandler finally gathers the courage to tell Joey they need to talk about Kathy.",
+    "cumulative_summary": "After Chandler secretly kisses Joey's girlfriend, Kathy, he refurnishes their apartment out of guilt. Unaware of the betrayal, Joey declares Chandler his best friend. Meanwhile, Rachel rejects a date with a cute doctor, Guy, to honor her \"plans with herself.\" When Chandler confesses the kiss to his friends, they offer little comfort, and Monica and Rachel insist he must tell Joey the truth. Rachel's solo dinner date quickly loses its charm, and when she runs into Guy and tries to reschedule, she finds out he is now busy, leaving her feeling lonely. Back at the apartment, the tension reaches a boiling point as Chandler finally braces himself and tells Joey they need to talk about Kathy."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:11 - 00:09:42",
+    "batch_summary": "Chandler confesses his feelings for Kathy to Joey, only to learn that Kathy just broke up with Joey. Joey initially gives Chandler his blessing, touched that Chandler seemingly came to him first. However, when Joey mentions Kathy is interested in another man, Chandler is forced to admit that he is that man. He confesses that he and Kathy kissed the previous night while Joey was late, leaving Joey shocked and questioning if they slept together.",
+    "cumulative_summary": "After Chandler secretly kisses Joey's girlfriend, Kathy, he refurnishes their apartment out of guilt. Meanwhile, Rachel's solo dinner plans leave her feeling lonely after she fails to reschedule a date with a doctor named Guy. Back at the apartment, Chandler finally braces himself to talk to Joey. He confesses his feelings for Kathy, only to learn she just broke up with Joey. Joey initially gives Chandler his blessing, deeply touched that his best friend seemingly came to him before pursuing her. However, the truth quickly unravels when Joey mentions Kathy is interested in another man. Chandler is forced to confess that he is the other guy and that they shared a kiss the night before. A shocked Joey demands to know if they slept together, leaving their friendship in serious jeopardy."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:42 - 00:11:29",
+    "batch_summary": "Joey is furious with Chandler for going behind his back with Kathy, rejecting Chandler's excuse of being in love. Realizing Chandler refurnished the apartment out of guilt, Joey declares the new items \"tainted\" and vows not to use them, leaving their friendship deeply fractured. Meanwhile, at Central Perk, Ross performs a bizarre, highly dissonant keyboard piece. Monica, Rachel, and Phoebe suffer through the terrible music, which Ross proudly finishes to a bewildered audience.",
+    "cumulative_summary": "After Chandler secretly kisses Joey's girlfriend, Kathy, he refurnishes their apartment out of guilt. Meanwhile, Rachel's solo dinner plans leave her feeling lonely. Back at the apartment, Chandler confesses his feelings for Kathy to Joey. Joey initially gives his blessing, but the truth unravels when Chandler admits he is the one Kathy kissed. Joey's hurt quickly turns to anger as he confronts Chandler for going behind his back. Rejecting Chandler's excuses of being in love, Joey realizes the new furniture was bought out of guilt. Declaring the apartment \"empty\" and the new items \"tainted by betrayal,\" Joey storms off, leaving their friendship severely damaged. Meanwhile, at Central Perk, Ross performs an incredibly bizarre and dissonant keyboard piece. Monica, Rachel, and Phoebe are forced to endure the terrible music, which Ross proudly concludes despite his friends' horror."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 299,
+    "timestamp_range": "00:11:29 - 00:12:20",
+    "batch_summary": "Following his bizarre keyboard performance, Ross sits with his unimpressed friends and announces he is retiring from playing, asking Phoebe to take over his set. When Rachel and Monica react with flat, unamused expressions, Ross defensively claims he was playing poorly on purpose, though he quickly backtracks to say it was only his last song. The awkward tension dissolves into an upbeat transition sequence showing glimpses of the friends smiling.",
+    "cumulative_summary": "After Chandler secretly kisses Joey's girlfriend, Kathy, he refurnishes their apartment out of guilt. When Chandler confesses the truth, Joey's hurt turns to anger. Rejecting Chandler's excuses, Joey declares the new furniture \"tainted by betrayal\" and storms off, leaving their friendship severely damaged. Meanwhile, at Central Perk, Ross performs an incredibly bizarre and dissonant keyboard piece. Monica, Rachel, and Phoebe are forced to endure the terrible music. Following the performance, Ross sits with his unimpressed friends and announces his retirement from playing, asking Phoebe to take over his set. When Rachel and Monica react with flat, unamused expressions, Ross defensively claims he was playing poorly on purpose, though he quickly backtracks to say it was only his last song. The awkward tension then dissolves into a transition sequence showing glimpses of the friends."
+  }
+]

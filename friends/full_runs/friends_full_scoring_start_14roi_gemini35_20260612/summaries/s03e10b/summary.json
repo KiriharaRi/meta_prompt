@@ -1,0 +1,42 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:47",
+    "batch_summary": "Rachel quits her job at the coffee shop, prompting Joey to worry about paying for coffee. Meanwhile, in the apartment, Ross cuts Monica off from buying more Mint Treasures cookies due to her desperate, addict-like behavior. Ross proudly reveals to Chandler that he has sold 517 boxes of cookies by targeting late-night college students and planetarium attendees with the munchies, earning himself the nickname Cookie Dude.",
+    "cumulative_summary": "At the coffee shop, Rachel makes a major decision and gives her one-week notice to Gunther, prompting Joey to humorously worry that he and Chandler will finally have to start paying for their coffee. Meanwhile, back at the apartment, Monica's intense craving for Mint Treasures cookies is thwarted when Ross cuts her off, pointing out her desperate behavior and the cookie crumbs on her neck. Ross then boasts to Chandler about his massive success selling cookies, revealing he has sold 517 boxes. He explains his highly effective strategy of targeting late-night NYU dorms and planetarium crowds to exploit the munchies, proudly earning himself the nickname Cookie Dude."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:47 - 00:03:29",
+    "batch_summary": "Rachel panics as her final day at the coffee shop approaches without any job leads. She furiously blames Chandler for advising her to quit, threatening to reclaim her old job out of fear. However, Joey arrives with a potential lifeline: his father discovered an opening at Fortunata Fashions, and Joey offers to secure Rachel an interview. Overjoyed, Rachel hugs him, only for Joey to humorously reveal that his actual \"great news\" was just a can of artificial snow.",
+    "cumulative_summary": "At the coffee shop, Rachel gives her one-week notice to Gunther, prompting Joey to worry they will finally have to start paying for coffee. Meanwhile, Ross boasts to Chandler about his massive success selling 517 boxes of cookies, earning himself the nickname \"Cookie Dude.\" However, reality sets in for Rachel as her final day approaches without any new job leads. Panicking over her sparse resume, she furiously blames Chandler for encouraging her to quit and threatens to retract her resignation out of fear. Fortunately, Joey arrives with a potential lifeline: his father discovered a job opening at Fortunata Fashions and can secure her an interview. Overjoyed, Rachel hugs Joey, who then humorously reveals that his actual \"great news\" was just a can of artificial snow."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:29 - 00:05:17",
+    "batch_summary": "Joey starts working at a Christmas tree lot, but Phoebe disrupts his commission-based sales by trying to save a withered, brown tree from the woodchipper so it can fulfill its \"Christmas destiny.\" Her emotional pleas scare off a customer and fail to convince Monica. Meanwhile, Ross attends a troop meeting to check on cookie sales, but he is met with hostility from a young girl named Charla, who calls him a \"bad man\" and a \"scrud\" for accidentally breaking another girl's leg.",
+    "cumulative_summary": "After Rachel panics about her sparse resume upon giving her notice at the coffee shop, Joey helps her secure a job interview at Fortunata Fashions. Meanwhile, Joey takes a seasonal job selling Christmas trees on commission. However, his sales are disrupted when Phoebe tries to save a withered, brown tree from the woodchipper so it can fulfill its \"Christmas destiny,\" scaring off customers and failing to convince Monica. Elsewhere, Ross's cookie-selling ambitions hit a snag. When he attends a troop meeting to check on the competition, he is met with hostility from a young girl named Charla, who brands him a \"bad man\" and a \"scrud\" for accidentally breaking another girl named Sarah's leg."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:17 - 00:10:28",
+    "batch_summary": "At the troop meeting, Ross petty-clashes with Charla over cookie sales. Meanwhile, Rachel proudly quits her coffee shop job, declaring she is done making coffee, only to find her new fashion job immediately requires her to make coffee for her boss. To make amends for breaking Sarah's leg and ruining her Space Camp dreams, Ross, Joey, and Chandler surprise Sarah with a homemade, foil-clad \"space camp\" in their apartment.",
+    "cumulative_summary": "After Rachel panics about her sparse resume, Joey helps her secure an interview at Fortunata Fashions, leading her to triumphantly quit her coffee shop job. However, her joy is short-lived when her new fashion job immediately tasks her with making coffee. Meanwhile, Joey's seasonal Christmas tree sales are disrupted by Phoebe's crusade to save a withered tree. Elsewhere, Ross's cookie-selling rivalry with a young girl named Charla intensifies at a troop meeting. Feeling guilty for accidentally breaking Sarah Tuttle's leg and ruining her chances of going to Space Camp, Ross enlists Chandler and Joey's help. Together, they surprise the injured girl with a homemade, foil-decorated \"space camp\" inside their apartment to make amends."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 176,
+    "timestamp_range": "00:10:28 - 00:11:11",
+    "batch_summary": "Ross, Joey, and Chandler enthusiastically bring their homemade \"space camp\" to life for the injured Sarah Tuttle. Ross lifts her into the foil-covered armchair while Chandler and Joey initiate a countdown. Together, the three men shake the chair to simulate a rocket launch, complete with sound effects, a toy alien, and a harmless foil \"asteroid.\" Despite the makeshift setup, Sarah is delighted by their efforts, bringing a heartwarming and humorous resolution to Ross's guilt.",
+    "cumulative_summary": "After Rachel panics about her sparse resume, Joey helps her secure an interview at Fortunata Fashions, leading her to triumphantly quit her coffee shop job, only to find herself making coffee there too. Meanwhile, Joey's seasonal Christmas tree sales are disrupted by Phoebe's crusade to save withered trees. Elsewhere, Ross's guilt over accidentally breaking young Sarah Tuttle's leg and ruining her Space Camp dreams prompts him to enlist Chandler and Joey's help. Together, they surprise Sarah with a homemade, foil-decorated \"space camp\" inside their apartment. The three men enthusiastically simulate a rocket launch by shaking Sarah's foil-covered chair, complete with sound effects, a toy alien, and a harmless foil \"asteroid.\" Their silly but heartfelt efforts succeed in bringing a joyful smile to Sarah's face, offering a sweet and heartwarming resolution to Ross's mishap."
+  }
+]

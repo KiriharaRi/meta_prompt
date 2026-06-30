@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:46",
+    "batch_summary": "On a snowy night, Phoebe's taxi breaks down with Chandler, Joey, Rachel, and Monica inside, only for Phoebe to reveal they have simply run out of gas. Meanwhile, Ross visits his ex-wife Carol to ask about an old videotape. He interrupts her romantic anniversary preparations for Susan and awkwardly reveals that he and Rachel have broken up. Sympathetic but busy, Carol invites a downcast Ross to dinner the following night to discuss the breakup.",
+    "cumulative_summary": "On a snowy night, Phoebe, Chandler, Joey, Rachel, and Monica find themselves stranded when Phoebe's taxi sputters to a halt. When the group asks if she knows how to fix the issue, Phoebe humorously reveals that the car has simply run out of gas. Meanwhile, Ross pays an unexpected visit to his ex-wife, Carol, at her apartment under the pretense of looking for an old videotape. He interrupts Carol as she is setting up a romantic anniversary celebration for herself and her partner, Susan. Sensing the awkward timing, Ross awkwardly lingers before finally revealing the real reason for his melancholy: he and Rachel have broken up. Though Carol is sympathetic to his heartbreak, she is expecting Susan at any moment. To give Ross the support he needs, she warmly invites him to dinner the following night so they can properly discuss the breakup, which Ross gratefully accepts."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:46 - 00:03:29",
+    "batch_summary": "Stranded in the cold, Phoebe tries to call AAA for help, but her confusion over their location leads to a dead end. Monica suggests calling Ross, but Rachel adamantly refuses to get in a car with him. Meanwhile, Joey and Chandler return unsuccessful, with Joey exhausted and Chandler smoking from stress. Back in the city, Ross vents to Carol over dinner about his friends abandoning him, declaring that he only needs Carol and Susan now.",
+    "cumulative_summary": "On a snowy night, Phoebe, Chandler, Joey, Rachel, and Monica find themselves stranded when Phoebe's taxi runs out of gas. Meanwhile, Ross visits his ex-wife Carol, interrupting her anniversary plans with Susan to mourn his breakup with Rachel. Carol sympathetically invites him to stay for dinner. As Ross vents to Carol about his friends abandoning him, declaring he only needs Carol and Susan now, the stranded group faces worsening conditions. Phoebe tries to call AAA from a payphone, but her confusion over their location leaves them helpless. When Monica suggests calling Ross for a ride, Rachel flatly refuses to be in a car with him. To make matters worse, Joey and Chandler return from an unsuccessful attempt to find help, with Joey physically exhausted and Chandler resorting to smoking to cope with the stress."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:29 - 00:05:03",
+    "batch_summary": "Phoebe calls Ross for help, explaining they are stranded and lost. Monica distracts Rachel so she won't know they are contacting him. Ross initially refuses to help, bitter about the breakup, but Carol intervenes. She hands him her car keys and lectures him about not punishing his friends for Rachel's actions. When Carol bluntly reminds him that he was the one who slept with someone else, Ross cuts off his usual defense and reluctantly asks Phoebe for their location to rescue them.",
+    "cumulative_summary": "On a snowy night, Phoebe, Chandler, Joey, Rachel, and Monica find themselves stranded when Phoebe's taxi runs out of gas. Meanwhile, Ross visits his ex-wife Carol, interrupting her anniversary plans with Susan to mourn his breakup with Rachel. When the stranded group's situation worsens, Phoebe secretly calls Ross for help while Monica distracts Rachel. Ross initially refuses to assist, bitter about the breakup and claiming he is busy with his \"real friends.\" However, Carol intervenes, handing Ross her car keys and lecturing him against punishing his friends for his issues with Rachel. When Carol bluntly reminds Ross that he was actually the one who slept with someone else, shutting down his \"we were on a break\" defense, Ross relents. He takes the keys and reluctantly asks Phoebe for their location to come rescue them."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:03 - 00:06:49",
+    "batch_summary": "After a brief confrontation with Carol about his infidelity, Ross drives up to rescue his stranded friends. While the group is relieved to see him, Joey's backward \"help\" sign is ruined. The friends debate whether to invite Ross on their ski trip out of gratitude, but Rachel adamantly refuses. Ross overhears her rejection and sarcastically begs to join, reigniting the tension between the bitter exes.",
+    "cumulative_summary": "On a snowy night, Phoebe, Chandler, Joey, Rachel, and Monica find themselves stranded when Phoebe's taxi runs out of gas. Meanwhile, Ross visits his ex-wife Carol, interrupting her anniversary plans with Susan to mourn his breakup with Rachel. When the stranded group's situation worsens, Phoebe secretly calls Ross for help. After Carol lectures Ross on his behavior and shuts down his \"we were on a break\" defense, Ross relents and drives out to rescue them. Upon his arrival, the relieved friends debate whether they should invite Ross to join their ski trip as a thank-you. However, Rachel adamantly refuses to let him come. Ross overhears her rejection and sarcastically confronts her, reigniting the bitter tension between the exes as they argue in the snow."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:49 - 00:08:34",
+    "batch_summary": "As Ross prepares to leave, his argument with Rachel escalates when she brings up his infidelity, prompting him to defend himself with his \"we were on a break\" excuse. Ross tries to drag Monica and Joey into the dispute, causing a chaotic group argument. Stressed by the tension, Chandler begins smoking and dancing frantically. Phoebe finally intervenes, stopping the shouting by pointing out Chandler's distress and pleading with Ross and Rachel to find a way to coexist for the sake of their friends.",
+    "cumulative_summary": "On a snowy night, Phoebe, Chandler, Joey, Rachel, and Monica find themselves stranded when Phoebe's taxi runs out of gas. After Phoebe secretly calls Ross for help, he drives out to rescue them. However, when Rachel refuses to let Ross join their ski trip, a bitter argument erupts in the snow. The confrontation intensifies as Rachel brings up Ross's infidelity, prompting him to double down on his \"we were on a break\" defense. Ross drags Monica and Joey into the dispute, causing a chaotic shouting match among the entire group. The overwhelming tension drives a stressed Chandler to start smoking and dancing frantically. Seeing this, Phoebe intervenes, halting the bickering by pointing out Chandler's distress and pleading with Ross and Rachel to find a way to coexist for the sake of their friendship circle."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:34 - 00:10:12",
+    "batch_summary": "After Phoebe and Joey emphasize the stakes of their bickering, Ross and Rachel agree to be civil. To avoid further conflict, Ross selflessly insists the group continue their ski trip without him, claiming he has plans with Ben. Rachel thanks him, and the friends say their goodbyes. However, as the group piles back into the taxi and Ross gets into his jeep to leave, his vehicle's engine fails to start, leaving him stranded in the cold.",
+    "cumulative_summary": "On a snowy night, Phoebe, Chandler, Joey, Rachel, and Monica find themselves stranded when Phoebe's taxi runs out of gas. After Phoebe secretly calls Ross for help, he drives out to rescue them. However, when Rachel refuses to let Ross join their ski trip, a bitter argument erupts in the snow. The confrontation intensifies as Rachel brings up Ross's infidelity, prompting him to double down on his \"we were on a break\" defense. Ross drags Monica and Joey into the dispute, causing a chaotic shouting match among the entire group. The overwhelming tension drives a stressed Chandler to start smoking and dancing frantically. Seeing this, Phoebe intervenes, halting the bickering by pointing out Chandler's distress and pleading with Ross and Rachel to find a way to coexist for the sake of their friendship circle. Following Phoebe's plea, Ross and Rachel agree to be civil. To keep the peace, Ross selflessly insists the group proceed with their trip without him. After the friends say their goodbyes and Rachel thanks him, the group piles back into the taxi. However, just as Ross prepares to drive away, his jeep's engine fails to start, leaving him stuck in the freezing cold."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 263,
+    "timestamp_range": "00:10:12 - 00:11:14",
+    "batch_summary": "Ross visits his ex-wife Carol's apartment late at night after replacing her car battery. He tries to linger and share his sadness about his friends leaving him behind, but a tired Carol dismisses his attempts at conversation and quickly ushers him out. Ross is left standing completely alone in the hallway, feeling deeply isolated and rejected.",
+    "cumulative_summary": "On a snowy night, Phoebe, Chandler, Joey, Rachel, and Monica find themselves stranded when Phoebe's taxi runs out of gas. After Phoebe secretly calls Ross for help, he drives out to rescue them. However, when Rachel refuses to let Ross join their ski trip, a bitter argument erupts in the snow over his past infidelity. To keep the peace, Ross selflessly insists the group proceed without him. After they leave, Ross is stranded when the vehicle's engine fails. He eventually makes his way to his ex-wife Carol's apartment to return her car, explaining he had to replace the battery. Feeling lonely and hurt, Ross tries to open up to Carol about how difficult it was to watch his friends drive off without him. However, a tired Carol is unresponsive to his emotional distress and quickly ushers him out, closing the door on him. The night ends with Ross standing completely alone and rejected in the hallway."
+  }
+]

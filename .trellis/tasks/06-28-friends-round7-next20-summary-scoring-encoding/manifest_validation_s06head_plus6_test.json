@@ -1,0 +1,1090 @@
+{
+  "manifest": "friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/roi_encoding_manifest.jsonl",
+  "config": "configs/friends_train_size_sweep_20260628_round7/round7_next20_scoring_encoding.json",
+  "expected_rows": 130,
+  "actual_rows": 130,
+  "split_counts": {
+    "train": 115,
+    "val": 5,
+    "test": 10
+  },
+  "expected_split_counts": {
+    "train": 115,
+    "val": 5,
+    "test": 10
+  },
+  "expected_test_episodes": [
+    "s06e01a",
+    "s06e01b",
+    "s06e03a",
+    "s06e03b",
+    "s06e02a",
+    "s06e04a",
+    "s06e05a",
+    "s06e05b",
+    "s06e06a",
+    "s06e06b"
+  ],
+  "added_test_episodes": [
+    "s06e02a",
+    "s06e04a",
+    "s06e05a",
+    "s06e05b",
+    "s06e06a",
+    "s06e06b"
+  ],
+  "added_test_present": {
+    "s06e02a": true,
+    "s06e04a": true,
+    "s06e05a": true,
+    "s06e05b": true,
+    "s06e06a": true,
+    "s06e06b": true
+  },
+  "all_ok": true,
+  "missing_expected": [],
+  "unexpected": [],
+  "failures": [],
+  "rows": [
+    {
+      "episode_id": "s01e01a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e01b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e02a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e02b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e03a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e03b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e05a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e05b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e06a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e06b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e11a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e11b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e12a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e12b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e13a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e13b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e14a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e14b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e15a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e15b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e16a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e16b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e17a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e17b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e18a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e18b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e19a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e19b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e20a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e20b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e21a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e21b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e22a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e22b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e23a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e23b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e24a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s01e24b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e01b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e02b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e03b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e04b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e05b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e06a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e06b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e07a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e07b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e08a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e08b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e09a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e10a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e10b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e11a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e12a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e12b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e13a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e13b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e14a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e14b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e15a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e15b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e16a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e16b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e17a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e17b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e18a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e18b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e19a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e19b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e20a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e20b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e21a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e21b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e22a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e22b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e23a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e23b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e24b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e01a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e01b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e02a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e02b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e03a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e03b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e04a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e04b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e05a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e05b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e06b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e07a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e07b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e08a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e09a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e09b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e10a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e01a",
+      "split": "val",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e02a",
+      "split": "val",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e03a",
+      "split": "val",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e04a",
+      "split": "val",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s02e05a",
+      "split": "val",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s06e01a",
+      "split": "test",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s06e01b",
+      "split": "test",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s06e03a",
+      "split": "test",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s06e03b",
+      "split": "test",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s06e02a",
+      "split": "test",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s06e04a",
+      "split": "test",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s06e05a",
+      "split": "test",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s06e05b",
+      "split": "test",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s06e06a",
+      "split": "test",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s06e06b",
+      "split": "test",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e10b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e11a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e11b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e12a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e12b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e13b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e14a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e14b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e15a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e15b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e16a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e16b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e17a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e17b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e18a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e18b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e19a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e19b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e20a",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    },
+    {
+      "episode_id": "s03e20b",
+      "split": "train",
+      "roi_feature_count": 14,
+      "missing_rois": [],
+      "missing_paths": [],
+      "ok": true
+    }
+  ]
+}

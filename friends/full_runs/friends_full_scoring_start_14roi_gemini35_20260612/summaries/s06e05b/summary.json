@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:16",
+    "batch_summary": "In the kitchen, Monica and Phoebe realize they neglected Chandler while focusing on the babies, leading to a humorous moment. Meanwhile, Ross and Rachel petition a judge for an annulment of their Vegas marriage. Rachel has filled the forms with outrageous lies, claiming Ross is mentally unstable, a drug addict, and gay. Ross vehemently denies these accusations, even boasting about their past sex life. Unimpressed by the falsehoods and their past relationship, the judge denies their request for an annulment.",
+    "cumulative_summary": "The story begins with a brief, humorous moment in the kitchen where Monica and Phoebe realize they neglected Chandler while focusing on the babies, resulting in Chandler acting childishly. The focus then shifts to Ross and Rachel, who are in court attempting to get an annulment for their impulsive Las Vegas marriage. To secure the annulment, Rachel has submitted paperwork filled with extreme fabrications, claiming Ross is mentally unstable, addicted to heroin and crack, and unable to consummate the marriage due to his sexual preference. Ross is blindsided and desperately tries to defend himself to the judge, even boasting about their past active sex life. However, the judge is highly skeptical of the fabricated claims and points out that their history of a serious relationship complicates the process. Ultimately, the judge rejects their petition, stating they do not qualify for an annulment, leaving Ross and Rachel's marital status unresolved."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:16 - 00:04:00",
+    "batch_summary": "After the judge denies their annulment and orders them to file for divorce, Ross and Rachel bicker, leading Ross to frantically vandalize the stenographer's machine. When Rachel's stubborn demands to the judge result in a threat of jail time, they quickly retreat, still married. Meanwhile, back at the apartment, Joey arrives decked out in excessive Porsche-branded gear. Despite having lost access to the actual car, Joey insists on wearing the merchandise so people think he owns one, leaving Chandler and Monica amused by his delusion.",
+    "cumulative_summary": "The story begins with Monica and Phoebe realizing they neglected Chandler while focusing on the babies. The focus then shifts to Ross and Rachel in court, attempting to get an annulment for their impulsive Las Vegas marriage. To secure it, Rachel submitted paperwork filled with extreme fabrications about Ross, while Ross boasted about their past sex life to defend himself. The judge, highly skeptical, rejects their petition. Following the rejection, the judge informs them they must file for divorce instead. This sparks a frantic argument; Ross hysterically pulls paper out of the stenographer's machine, and Rachel nearly gets thrown in jail for arguing with the judge. Defeated, they leave, still legally married. Meanwhile, back at the apartment, Joey arrives wearing an absurd amount of Porsche-branded apparel. Although the actual Porsche owner took the car back, Joey is determined to keep up the illusion of owning one, proudly heading out to \"drive\" his nonexistent car while Chandler and Monica tease him."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:04:00 - 00:06:04",
+    "batch_summary": "Chandler's medical emergency forces Monica to take him to the hospital, leaving a panicked Phoebe alone to babysit the triplets. On the street, Joey continues his Porsche charade, only to be mocked by a passerby and then by Ross and Rachel, who are still bickering over their failed annulment and impending divorce. Back at the apartment, Phoebe struggles with the babies on her own, accidentally knocking over a vase while changing a diaper and fearing Monica's reaction to the mess.",
+    "cumulative_summary": "The story begins with Monica and Phoebe realizing they neglected Chandler while focusing on the babies. Meanwhile, Ross and Rachel fail to secure an annulment for their impulsive Las Vegas marriage due to Rachel's fabricated claims and Ross's outbursts. The judge rejects their petition, forcing them to file for divorce instead. As they bicker over who is to blame for the legal disaster, they run into Joey, who is still desperately trying to maintain the illusion of owning a Porsche despite having no car. Back at the apartment, Chandler suffers a minor medical emergency when a plastic toy gets lodged in his throat, forcing Monica to take him to the hospital. This leaves a terrified Phoebe to babysit the triplets alone. Left to her own devices, Phoebe immediately struggles with the overwhelming task, accidentally knocking over a vase while changing a diaper and panicking over Monica's strict cleanliness standards."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:06:04 - 00:07:46",
+    "batch_summary": "Phoebe's babysitting adventure quickly descends into chaotic comedy when she temporarily loses baby Leslie, finding her in a dresser drawer, only to realize the other two triplets have wandered off. When Chandler and Monica return from the hospital, they find the apartment in complete disarray. Exhausted but proud, Phoebe boasts about successfully caring for the babies alone, jokingly blaming the mess on a 'tornado.' Monica is initially shocked by the wreckage but ultimately agrees with Chandler that the babies' safety is the most important thing.",
+    "cumulative_summary": "The story begins with Monica and Phoebe realizing they neglected Chandler while focusing on the babies. Meanwhile, Ross and Rachel fail to secure an annulment for their impulsive Las Vegas marriage, forcing them to file for divorce instead. As they bicker, they run into Joey, who is still pretending to own a Porsche. Back at the apartment, Chandler's minor medical emergency forces Monica to take him to the hospital, leaving a terrified Phoebe to babysit the triplets alone. Phoebe's babysitting quickly descends into chaos when she temporarily loses baby Leslie in a dresser drawer, only to realize the other two triplets have also wandered off. By the time Chandler and Monica return, the apartment is completely trashed. Exhausted but proud, Phoebe boasts about successfully caring for the babies by herself, jokingly blaming the mess on a 'tornado.' Although Monica is initially shocked by the wreckage, Chandler helps her realize that the babies' safety is what truly matters, cementing Phoebe's chaotic babysitting triumph."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:46 - 00:09:39",
+    "batch_summary": "Monica's mention of future babies panics Chandler, who quickly deflects. Meanwhile, Ross brings the divorce papers to Rachel. After a brief argument about their past romantic history and mistakes, they share a tender moment of understanding and sign the papers. However, right after signing, Rachel makes a surprising confession: she admits that the impulsive Las Vegas marriage was actually her idea, leaving Ross stunned.",
+    "cumulative_summary": "The story begins with Monica and Phoebe realizing they neglected Chandler, while Ross and Rachel fail to secure an annulment for their impulsive Las Vegas marriage, forcing them to file for divorce. Back at the apartment, Phoebe's chaotic babysitting of the triplets leaves the place trashed, but Chandler helps Monica accept the mess. However, when Monica mentions having their own babies in the future, Chandler panics and deflects. Meanwhile, Ross brings the divorce papers to Rachel. Their initial bickering about past romantic mistakes softens when Rachel admits her past actions were driven by love, leading them to finally sign the papers. Just as the divorce is finalized, Rachel drops a bombshell confession, admitting to a stunned Ross that the impulsive Las Vegas marriage was actually her idea."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:39 - 00:11:29",
+    "batch_summary": "Rachel explains that the Las Vegas marriage was her idea, a compromise after Ross wanted to eat grapes. She apologizes, and Ross jokingly blames her before they share a bittersweet moment. Both admit they always thought if they married, it would be for real and forever. After a warm, emotional hug, Ross leaves to file the papers. Meanwhile, Joey stands outside on the street, pretending a tarp-covered car is his Porsche to impress people.",
+    "cumulative_summary": "The story begins with Monica and Phoebe realizing they neglected Chandler, while Ross and Rachel fail to secure an annulment for their impulsive Las Vegas marriage, forcing them to file for divorce. Back at the apartment, Phoebe's chaotic babysitting of the triplets leaves the place trashed, but Chandler helps Monica accept the mess. When Monica mentions having babies, Chandler panics. Meanwhile, Ross brings the divorce papers to Rachel. Their bickering softens when Rachel admits her past actions were driven by love, leading them to sign the papers. Rachel then confesses the marriage was her idea, explaining it was a drunken compromise in Vegas. This revelation leads to a bittersweet, emotional conversation where both admit they always hoped their marriage would be the one that lasted. After a tender hug, Ross leaves to finalize the divorce. Later, Joey is seen on the street pretending a tarp-covered vehicle is his Porsche to impress passersby."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 249,
+    "timestamp_range": "00:11:29 - 00:12:03",
+    "batch_summary": "Joey continues his ruse of owning a Porsche by flirting with two women on the street, claiming the covered vehicle is his. He declines to show them the car, making a humorous excuse, and invites them out for a drink. However, his lie is instantly exposed when a running child trips and crashes into the cover, collapsing it to reveal nothing but a pile of cardboard boxes. Joey is left thoroughly embarrassed in front of his potential dates.",
+    "cumulative_summary": "The story begins with Monica and Phoebe realizing they neglected Chandler, while Ross and Rachel fail to secure an annulment for their impulsive Las Vegas marriage, forcing them to file for divorce. Back at the apartment, Phoebe's chaotic babysitting of the triplets leaves the place trashed, but Chandler helps Monica accept the mess. When Monica mentions having babies, Chandler panics. Meanwhile, Ross brings the divorce papers to Rachel. Their bickering softens when Rachel admits her past actions were driven by love, leading them to sign the papers. Rachel then confesses the marriage was her idea, explaining it was a drunken compromise in Vegas. This revelation leads to a bittersweet, emotional conversation where both admit they always hoped their marriage would be the one that lasted. After a tender hug, Ross leaves to finalize the divorce. Elsewhere, Joey attempts to impress two women on the street by pretending a tarp-covered object is his Porsche. However, his elaborate lie hilariously falls apart when a running child crashes into the cover, collapsing it to reveal nothing but a pile of cardboard boxes."
+  }
+]

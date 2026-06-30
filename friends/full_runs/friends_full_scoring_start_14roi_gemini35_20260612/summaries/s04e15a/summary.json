@@ -1,0 +1,50 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:59",
+    "batch_summary": "While getting a manicure with Rachel, Chandler finds a fake nail that reminds him of his ex-girlfriend, Janice, who suddenly appears at the salon. Later, at the apartment, Monica obsessively tries to figure out what a mysterious light switch does, much to Joey's indifference. Chandler then arrives with Janice, surprising the group. Janice loudly reveals that she is now divorced and happily receiving alimony, bringing her signature boisterous energy back into their lives.",
+    "cumulative_summary": "Rachel convinces a reluctant Chandler to join her at a nail salon for manicures. Although Chandler is self-conscious about being the only man there, he secretly enjoys the experience. The pampering session takes a shocking turn when Chandler finds a discarded fake nail and realizes it belongs to his loud ex-girlfriend, Janice, who suddenly appears in the doorway. Meanwhile, back at the apartment, Monica becomes obsessed with discovering the purpose of a mysterious, non-functioning light switch, while Joey remains completely indifferent to her curiosity. The atmosphere shifts when Chandler returns to the apartment with Janice in tow, surprising the rest of the friends. Janice enthusiastically reunites with the group and loudly announces that she is now divorced and living off alimony, marking her dramatic and boisterous return to their social circle."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:59 - 00:04:10",
+    "batch_summary": "After Janice leaves, Chandler confesses to his friends that he finds her incredibly annoying again. Despite Monica's skepticism about his ability to break up, Chandler plans a \"preemptive strike\" to end things before they officially start. Meanwhile, Ross and Emily take a night walk in New York. Ross's attempt to prove the city is safe backfires when they encounter a group of athletic men. One of them, Liam, turns out to be Emily's old acquaintance, and their flirtatious history quickly makes Ross jealous and uncomfortable.",
+    "cumulative_summary": "Rachel convinces a reluctant Chandler to join her at a nail salon, where he unexpectedly runs into his loud ex-girlfriend, Janice. Chandler brings her back to the apartment, where Janice loudly announces she is divorced. However, once Janice leaves, Chandler admits to his friends that her annoying habits have returned, and he plans a \"preemptive strike\" to end things with her tonight, despite Monica's doubts. Meanwhile, Ross and Emily go for a night walk in New York. Ross tries to reassure Emily that the city is safe, but he is startled when a group of athletic men tackle each other nearby. The situation becomes awkward when Emily recognizes one of the men, Liam, as an old flame. As Emily and Liam reminisce about their past, Ross becomes visibly jealous and struggles to insert himself into their conversation."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:04:10 - 00:05:53",
+    "batch_summary": "Driven by jealousy and Emily's skepticism, Ross impulsively accepts Liam's invitation to a rugby match, despite accidentally burning his hand with coffee in the process. Meanwhile, Chandler attempts to break up with Janice at Central Perk. When she aggressively insists they are meant to be, a panicked Chandler fabricates a lie, claiming his company is transferring him overseas to escape her.",
+    "cumulative_summary": "Rachel convinces Chandler to join her at a nail salon, where he runs into his loud ex-girlfriend, Janice. Although Chandler brings her back to the apartment, he quickly realizes her annoying habits are too much to handle and plans to break things off. When he tries to end it at Central Perk, Janice aggressively insists they are destined to be together. In a desperate panic, Chandler fabricates a lie that his company is transferring him overseas. Meanwhile, Ross and Emily's night walk in New York takes an awkward turn when they run into Emily's athletic ex-flame, Liam. Driven by jealousy and Emily's skepticism about his athletic abilities, Ross impulsively accepts Liam's invitation to a rugby match, despite accidentally burning his hand with hot coffee in his defensive excitement."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:53 - 00:07:32",
+    "batch_summary": "To escape Janice's persistent affection, Chandler desperately claims his company is transferring him to Yemen tomorrow. Meanwhile, Monica becomes obsessed with discovering what a mysterious light switch controls. Rejecting Rachel's logical suggestion to use lamps, Monica plugs noisy appliances into several outlets. When she flips the switch, a strange humming sound fills the apartment, leaving Monica, Rachel, and Joey searching for its source.",
+    "cumulative_summary": "Rachel convinces Chandler to join her at a nail salon, where he runs into his loud ex-girlfriend, Janice. Realizing he cannot stand her annoying habits, Chandler tries to break things off, but Janice aggressively insists they are meant to be. In a desperate panic, Chandler lies that his company is transferring him to Yemen tomorrow, prompting Janice to cling to him for their final hours. Meanwhile, Ross's jealousy of Emily's athletic ex-boyfriend, Liam, drives him to impulsively agree to a rugby match despite injuring his hand. Back at the apartment, Monica becomes obsessively determined to figure out what a mysterious light switch controls. Ignoring Rachel's practical suggestion to use lamps, Monica plugs noisy appliances into the outlets. Upon flipping the switch, a strange humming noise begins, sending Monica, Rachel, and Joey on a frantic search to locate its source."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:32 - 00:09:07",
+    "batch_summary": "As Ross watches a rugby match to prove his masculinity, Chandler's lie about moving to Yemen spirals out of control. Janice arrives with packing supplies, determined to help him prepare for his fake relocation. Chandler is forced to play along, desperately explaining the ruse to a confused Joey, who is surprised to learn Yemen is a real country. Janice takes charge of the packing, leaving Chandler feeling trapped and begging Joey to trade lives with him.",
+    "cumulative_summary": "Rachel convinces Chandler to join her at a nail salon, where he runs into his loud ex-girlfriend, Janice. Realizing he cannot stand her annoying habits, Chandler tries to break things off, but Janice aggressively insists they are meant to be. In a desperate panic, Chandler lies that his company is transferring him to Yemen tomorrow, prompting Janice to cling to him for their final hours. Meanwhile, Ross's jealousy of Emily's athletic ex-boyfriend, Liam, drives him to impulsively agree to a rugby match despite injuring his hand. Back at the apartment, Monica becomes obsessively determined to figure out what a mysterious light switch controls, leading to a frantic search. As Ross watches rugby to prove his masculinity, Chandler's lie spirals out of control when Janice arrives with packing supplies to help him prepare for his fake relocation. Chandler is forced to play along, desperately explaining the ruse to a confused Joey. Janice takes charge of the packing, leaving Chandler feeling trapped and begging Joey to trade lives with him."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:07 - 00:11:01",
+    "batch_summary": "Joey, Rachel, and Phoebe express deep concern over Ross's decision to play rugby, reminding him of his past fragility. Ross reveals he is doing this to prove his masculinity to Emily after she laughed at the idea of him playing against her athletic ex, Liam. Despite planning to avoid the ball, Ross's confidence is shaken when he sees a brutal tackle on TV. At the field, a terrified Ross is warned by Joey to stay away from the massive opposing players.",
+    "cumulative_summary": "Rachel convinces Chandler to join her at a nail salon, where he runs into his loud ex-girlfriend, Janice. To escape her, Chandler lies that he is being transferred to Yemen, a ruse that quickly spirals out of control when Janice insists on helping him pack. Meanwhile, Monica obsessively tries to figure out what a mysterious light switch controls. At the apartment, Joey, Rachel, and Phoebe try to dissuade Ross from playing rugby, reminding him of his physical fragility. Ross admits he is only playing to prove his toughness to Emily, who laughed at the idea of him competing against her athletic ex-boyfriend, Liam. Despite planning to stay away from the ball, Ross's anxiety spikes after witnessing a brutal tackle on television. When they arrive at the park for the match, Joey points out the massive size of the opposing players, leaving a geared-up Ross looking utterly terrified as he prepares to take the field."
+  }
+]

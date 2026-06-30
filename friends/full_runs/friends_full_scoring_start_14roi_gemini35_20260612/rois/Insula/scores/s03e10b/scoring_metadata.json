@@ -1,0 +1,83 @@
+{
+  "n_segments": 177,
+  "n_trs": 451,
+  "tr_s": 1.49,
+  "alignment": "overlap_weighted",
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s03e10b/summary.json",
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  },
+  "gt": null,
+  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/Insula/region_schema.json",
+  "feature_names": [
+    "physical_pain_and_injury_resonance",
+    "visceral_disgust_and_nausea",
+    "extreme_physical_exertion_and_exhaustion",
+    "sudden_threat_or_shock",
+    "abrupt_environmental_or_situational_shift",
+    "high_stakes_narrative_twist",
+    "interpersonal_hostility_and_confrontation",
+    "unspoken_social_tension_and_suspicion",
+    "moral_violation_and_indignation",
+    "grief_and_profound_sadness",
+    "social_exclusion_and_humiliation",
+    "vulnerability_and_helplessness"
+  ],
+  "feature_metadata": [
+    {
+      "dimension_id": "physical_pain_and_injury_resonance",
+      "domain": "somatic_and_visceral_resonance"
+    },
+    {
+      "dimension_id": "visceral_disgust_and_nausea",
+      "domain": "somatic_and_visceral_resonance"
+    },
+    {
+      "dimension_id": "extreme_physical_exertion_and_exhaustion",
+      "domain": "somatic_and_visceral_resonance"
+    },
+    {
+      "dimension_id": "sudden_threat_or_shock",
+      "domain": "salience_and_narrative_disruption"
+    },
+    {
+      "dimension_id": "abrupt_environmental_or_situational_shift",
+      "domain": "salience_and_narrative_disruption"
+    },
+    {
+      "dimension_id": "high_stakes_narrative_twist",
+      "domain": "salience_and_narrative_disruption"
+    },
+    {
+      "dimension_id": "interpersonal_hostility_and_confrontation",
+      "domain": "socio_emotional_conflict_and_tension"
+    },
+    {
+      "dimension_id": "unspoken_social_tension_and_suspicion",
+      "domain": "socio_emotional_conflict_and_tension"
+    },
+    {
+      "dimension_id": "moral_violation_and_indignation",
+      "domain": "socio_emotional_conflict_and_tension"
+    },
+    {
+      "dimension_id": "grief_and_profound_sadness",
+      "domain": "empathic_distress_appraisal"
+    },
+    {
+      "dimension_id": "social_exclusion_and_humiliation",
+      "domain": "empathic_distress_appraisal"
+    },
+    {
+      "dimension_id": "vulnerability_and_helplessness",
+      "domain": "empathic_distress_appraisal"
+    }
+  ]
+}

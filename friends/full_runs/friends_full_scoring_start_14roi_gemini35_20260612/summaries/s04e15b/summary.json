@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:43",
+    "batch_summary": "Ross prepares to play rugby with Emily's intimidating friends. To cope with his fear, he tries to summon his aggressive alter-ego, \"Red Ross,\" despite Joey's confusion. Emily kindly asks one of the players, Liam, to go easy on Ross. However, when Ross is called to join the scrum, he completely misunderstands the rules and climbs on top of the other players. This causes the entire scrum to collapse, leaving Phoebe, Joey, and Emily watching in disbelief from the sidelines.",
+    "cumulative_summary": "On a grassy field, Ross, Joey, Phoebe, and Emily gather for a rugby match. Intimidated by the massive size of the opposing players, Ross decides he must channel his aggressive alter-ego, \"Red Ross\"—a persona born from a past movie-line confrontation—to survive the game. While Joey is skeptical and fails to recall the incident, Emily tries to protect Ross by asking a player named Liam to tell the team to go easy on him. Despite her efforts, Ross's lack of experience quickly becomes apparent. When instructed to join the scrum, a confused Ross climbs directly onto the backs of the crouching players instead of binding in properly. His awkward positioning causes him to flip forward, collapsing the entire scrum. On the sidelines, Phoebe, Joey, and Emily watch the chaotic and embarrassing mishap unfold in stunned silence."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:43 - 00:03:25",
+    "batch_summary": "Back at the apartment, Rachel excitedly shares a minor romantic moment with Joshua, while Monica obsessively studies building blueprints to solve the mystery of an unknown light switch. Meanwhile, Chandler's plan to escape his ex-girlfriend Janice backfires when she insists on seeing him off at the airport. Unable to say a quick goodbye, a desperate Chandler is forced to approach the ticket counter to actually purchase a ticket to Yemen to maintain his lie.",
+    "cumulative_summary": "Following Ross's embarrassing rugby match where his attempt to play 'Red Ross' resulted in a collapsed scrum, the focus shifts to the rest of the group's personal dilemmas. Back at the apartment, Rachel excitedly shares a minor romantic breakthrough with her crush, Joshua, while Monica obsessively studies building blueprints from City Hall to solve the mystery of an unknown light switch. Meanwhile, Chandler's desperate attempt to escape his overbearing ex-girlfriend, Janice, by faking a move to Yemen backfires. Janice insists on staying until he boards the plane, forcing a trapped Chandler to approach the ticket counter to actually purchase a ticket."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:25 - 00:04:56",
+    "batch_summary": "At the airport, Chandler's attempt to buy a fake ticket to Yemen fails when the agent rejects his library card and reveals the ticket costs $2,100. With Janice watching closely, Chandler is forced to purchase the expensive ticket with his credit card. Meanwhile, at the rugby field, Ross tries to impress Emily by acting tough, but collapses in agony into Joey and Phoebe's arms the moment she walks away, only to instantly recover his macho facade when she returns.",
+    "cumulative_summary": "Following Ross's embarrassing rugby match, the focus shifts to the group's personal dilemmas. Back at the apartment, Rachel shares a romantic breakthrough with Joshua, while Monica obsessively studies blueprints to solve a light switch mystery. Meanwhile, Chandler's desperate attempt to escape his overbearing ex-girlfriend, Janice, by faking a move to Yemen backfires. Trapped at the airport under Janice's watchful eye, Chandler tries to buy a fake ticket, but is ultimately forced to charge a real $2,100 ticket to his credit card. Back on the rugby field, Ross continues his painful struggle to impress Emily. Although he is brutally tackled and secretly collapses in agony into Joey and Phoebe's arms, he desperately maintains a tough, athletic facade whenever Emily is looking, determined to prove his masculinity despite his severe physical suffering."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:56 - 00:06:40",
+    "batch_summary": "On the rugby field, Emily expresses concern for Ross's safety, but when he stubbornly refuses to quit, she eagerly shares the physical weaknesses of the opposing players—and even one of his own teammates—to help him inflict pain. Ross returns to the game, resulting in a heavily bruised face. Meanwhile, back at the apartment, Rachel discovers that Monica's obsessive quest to solve the light switch mystery has led her to punch multiple large holes in the walls, which she desperately tried to hide behind taped-up drawings.",
+    "cumulative_summary": "Following Ross's painful struggle to impress Emily on the rugby field, Emily expresses concern for his safety. However, when Ross stubbornly refuses to quit, Emily shifts gears and enthusiastically feeds him the physical weaknesses of the other players to help him fight back. Ross eagerly charges back into the game, ultimately ending up heavily bruised. Meanwhile, Chandler's desperate attempt to escape Janice by faking a move to Yemen has forced him to buy an expensive plane ticket. Back at the apartment, Monica's obsessive quest to solve the mysterious light switch blueprint reaches a destructive peak. Rachel returns home to find that Monica has punched several large holes in their walls, which she has hilariously and unsuccessfully tried to cover up with hand-drawn pictures."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:40 - 00:08:14",
+    "batch_summary": "Monica's obsessive search for the light switch's purpose leads her and Rachel to discover a hole in their floorboards that connects directly to their downstairs neighbor, Mrs. Katrakis. After a startling noise from below scares them away, the scene shifts to Central Perk. A heavily bruised but ecstatic Ross celebrates his rugby performance with Emily and Joey. Despite his physical injuries, Ross is thrilled by his own toughness, and Emily is thoroughly impressed by his effort.",
+    "cumulative_summary": "Following Ross's painful struggle to impress Emily on the rugby field, Emily expresses concern for his safety. However, when Ross stubbornly refuses to quit, Emily shifts gears and enthusiastically feeds him the physical weaknesses of the other players to help him fight back. Ross eagerly charges back into the game, ultimately ending up heavily bruised. Meanwhile, Chandler's desperate attempt to escape Janice by faking a move to Yemen has forced him to buy an expensive plane ticket. Back at the apartment, Monica's obsessive quest to solve the mysterious light switch blueprint reaches a destructive peak. After punching holes in the walls, Monica and Rachel discover a hole in the floorboards that leads directly to their downstairs neighbor, Mrs. Katrakis, though a sudden noise quickly scares them away. Meanwhile, a battered but triumphant Ross returns to Central Perk with Joey and Emily. Despite his scratches and bruises, Ross is thrilled by his surprisingly tough performance on the rugby field, earning Emily's admiration and affection."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:14 - 00:10:05",
+    "batch_summary": "Ross and Emily share a tender moment where Ross credits her for his rugby success, though her enthusiastic hugs prove too painful for his bruised body. Meanwhile, Chandler's elaborate lie to escape Janice backfires spectacularly at the airport. Despite his attempts to say goodbye, Janice insists on watching his plane take off. Caught trying to sneak back out, a desperate Chandler is forced to actually board the flight to Yemen, even asking a fellow passenger for a place to stay upon arrival.",
+    "cumulative_summary": "Following Ross's painful struggle to impress Emily on the rugby field, he returns battered but triumphant, earning her admiration. Although Emily suspects he has a concussion, they share a sweet moment, though her tight hugs aggravate his severe bruises. Meanwhile, Monica's obsessive quest to solve a mysterious light switch blueprint leads her and Rachel to a destructive discovery under their floorboards. However, the most extreme escalation occurs at the airport, where Chandler's desperate attempt to escape Janice by faking a move to Yemen completely backfires. Janice insists on staying to watch his plane take off, thwarting Chandler's attempts to sneak away. Trapped in his own elaborate lie, Chandler is forced to actually board the flight to Yemen, desperately asking a random elderly passenger if he can stay with her upon arrival."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 260,
+    "timestamp_range": "00:10:05 - 00:11:01",
+    "batch_summary": "Monica finally admits defeat in her obsessive quest to figure out the mysterious light switch, concluding it does nothing after getting shocked seven times. However, as she repeatedly flips the switch to prove her point, the scene cuts to Joey and Phoebe's apartment, where their television is rapidly turning on and off in sync with her actions. While Phoebe hilariously believes she is controlling the TV with her mind, the audience discovers the true, absurd destination of Monica's mysterious switch.",
+    "cumulative_summary": "Following Ross's painful struggle to impress Emily on the rugby field, he returns battered but triumphant. Meanwhile, Chandler's desperate attempt to escape Janice backfires spectacularly, forcing him to actually board a flight to Yemen. Back in the apartments, Monica's obsessive quest to solve the mystery of a useless light switch leads to a destructive search under her floorboards. Ultimately, Monica admits defeat and repeatedly flips the switch, declaring that it does nothing. However, the mystery is humorously solved for the audience when the scene cuts to Joey and Phoebe's apartment, where their television turns on and off in perfect synchronization with Monica's flipping. While Phoebe mistakenly believes she is controlling the TV with her mind, the true, absurd connection between the two apartments is finally revealed."
+  }
+]

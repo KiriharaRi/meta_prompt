@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:58",
+    "batch_summary": "At a beach house, Bonnie arrives early to surprise Ross and joins a strip game. The next morning, Chandler tries to convince Monica he is boyfriend material, while Joey wakes up buried in sand sculpted as a mermaid. Rachel struggles with jealousy over Ross and Bonnie's loud night and affectionate behavior, prompting her to escape outside. Bonnie later joins Rachel on the deck, enthusiastically recounting her morning swim, while Rachel struggles to hide her annoyance.",
+    "cumulative_summary": "At a beach house getaway, Bonnie arrives early to surprise Ross, quickly joining Joey, Phoebe, and Chandler in a game of strip \"Happy Days.\" The next morning, romantic tensions simmer. Chandler tries to convince Monica that he is boyfriend material, though he gets flustered when she jokingly challenges him. Meanwhile, Joey wakes up on the kitchen floor to find his friends have buried him in sand sculpted into a mermaid with breasts. Rachel, clearly bothered by Ross and Bonnie's loud night and constant public displays of affection, tries to distance herself by going for a walk. While Rachel is reading alone on the outdoor deck, Bonnie joins her and cheerfully talks about her morning swim and losing her swimsuit, leaving Rachel to mask her growing jealousy and annoyance."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:58 - 00:03:52",
+    "batch_summary": "Seizing an opportunity to sabotage Bonnie's relationship with Ross, Rachel deviously encourages Bonnie to shave her head again, which Bonnie enthusiastically agrees to do. Meanwhile, Chandler continues to press Monica on why they cannot date, only to immediately prove her point about his lack of maturity by mocking her. Elsewhere, Phoebe is devastated when her lead on her father abruptly cancels their meeting. Suspecting she is being avoided, Phoebe decides to break into the woman's house to search for clues, ignoring Ross's warnings.",
+    "cumulative_summary": "At a beach house getaway, Bonnie's early arrival to surprise Ross sparks romantic tension, especially for a jealous Rachel. While Chandler unsuccessfully tries to convince Monica that he is boyfriend material, Joey gets pranked by being buried in sand. Seeking to distance herself from Ross and Bonnie's constant affection, Rachel talks with Bonnie on the deck. Seizing a chance to sabotage her rival, Rachel deviously encourages Bonnie to shave her head again, leaving Rachel smugly satisfied when Bonnie agrees. Back inside, Chandler continues to press Monica about his dating potential, only to prove her point about his immaturity by mocking her desire for a mature partner. Meanwhile, Phoebe's search for her father hits a roadblock when her contact abruptly cancels their meeting. Suspecting she is being avoided, Phoebe decides to break into the woman's house to search for clues about her father's whereabouts, dismissing Ross's warnings of breaking and entering while the rest of the group humorously supports her quest."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:52 - 00:05:31",
+    "batch_summary": "Bonnie shocks the group by debuting her newly shaved head, leaving Ross horrified. Ross soon confronts Rachel on the deck after discovering she orchestrated the stunt. Their argument quickly escalates from anger to unresolved romantic tension when Rachel emotionally confesses she only ended their relationship because she was mad, not because she stopped loving him. When a stunned Ross asks if she still loves him, Rachel quickly denies it, leaving their feelings hanging in the air.",
+    "cumulative_summary": "At a beach house getaway, Bonnie's early arrival to surprise Ross sparks romantic tension, especially for a jealous Rachel. While Chandler unsuccessfully tries to convince Monica that he is boyfriend material, Phoebe plans to break into a house to find clues about her father. Meanwhile, Rachel's sabotage plot succeeds when Bonnie shocks the group by debuting her newly shaved head. A horrified Ross soon confronts Rachel on the deck for orchestrating the stunt. Their heated argument quickly shifts from anger to raw vulnerability when Rachel emotionally confesses she only ended their relationship because she was mad, not because she stopped loving him. Although Rachel quickly denies still having feelings when a stunned Ross presses her, the confession reignites their unresolved romantic tension."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:31 - 00:06:59",
+    "batch_summary": "Rachel admits she still loves Ross but is torn about getting back together because she cannot forgive his past actions. As she struggles to express her feelings, Ross leans in and kisses her passionately. Their intimate moment is abruptly interrupted by Chandler and Joey, prompting Rachel to say goodnight and head upstairs. Meanwhile, Phoebe begins her break-in, climbing through the window of a dark house to search for clues about her father.",
+    "cumulative_summary": "At a beach house getaway, Bonnie's early arrival to surprise Ross sparks romantic tension, especially for a jealous Rachel. While Chandler unsuccessfully tries to convince Monica that he is boyfriend material, Phoebe plans to break into a house to find clues about her father. Meanwhile, Rachel's sabotage plot succeeds when Bonnie shocks the group by debuting her newly shaved head. A horrified Ross soon confronts Rachel on the deck for orchestrating the stunt. Their heated argument quickly shifts from anger to raw vulnerability when Rachel emotionally confesses she only ended their relationship because she was mad, not because she stopped loving him. When Ross presses her on whether she wants to get back together, Rachel admits she is torn, unable to fully forgive his past actions despite still loving him. The unresolved tension culminates in a passionate kiss, which is abruptly interrupted by Chandler and Joey. Rachel retreats upstairs, leaving Ross conflicted, while Phoebe begins her break-in, climbing through the window of a dark house."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:59 - 00:08:53",
+    "batch_summary": "Phoebe successfully breaks into the dark house, but her search is cut short when the homeowner catches her. Cornered, Phoebe confronts the older woman with a photograph she took from the refrigerator, believing the man in it is her father, Frank Buffay. However, the woman gently corrects her, revealing the man is actually musician Chuck Mangione, whom she sold a house to. Disappointed, Phoebe learns that the woman has no information about her father's whereabouts, leaving her search at a dead end.",
+    "cumulative_summary": "At a beach house getaway, Bonnie's surprise arrival sparks romantic tension, prompting a jealous Rachel to successfully convince Bonnie to shave her head. This stunt leads to a heated confrontation between Ross and Rachel, which quickly shifts to raw vulnerability. Rachel confesses she still loves Ross, culminating in a passionate kiss before they are interrupted, leaving Ross deeply conflicted. Meanwhile, Phoebe executes her break-in at a nearby house to find clues about her father. After squeezing through a window, she is caught by the older homeowner. Phoebe desperately confronts the woman with a photograph she took from the refrigerator, believing the man pictured is her father, Frank Buffay. However, her hopes are dashed when the homeowner reveals the man is actually musician Chuck Mangione and admits she has no idea where Phoebe's father is, leaving Phoebe's search at a disappointing dead end."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:53 - 00:11:11",
+    "batch_summary": "Phoebe's search takes a shocking turn when the older homeowner reveals she is actually Phoebe's birth mother. Meanwhile, Ross faces a major romantic dilemma. Despite his friends' advice and a bald Bonnie saying goodnight, Ross is torn between the safe path of moving on with Bonnie or risking his heart again with Rachel. The tension peaks as Ross stands in the hallway between their rooms, ultimately opening one of the doors to say hello, leaving his choice a cliffhanger.",
+    "cumulative_summary": "At a beach house getaway, Bonnie's surprise arrival sparks romantic tension, prompting a jealous Rachel to convince Bonnie to shave her head. This leads to a heated confrontation and a passionate kiss between Ross and Rachel, leaving Ross deeply conflicted. Meanwhile, Phoebe's break-in to find her father takes a shocking turn. Although the homeowner doesn't know her father's whereabouts, she stuns Phoebe by revealing that she is actually Phoebe's birth mother. Back at the beach house, Ross debates his romantic future with Joey and Chandler. He fears the emotional turmoil of reuniting with Rachel but struggles to resist his feelings for her, even as a newly bald Bonnie tries to maintain their connection. Ultimately, Ross finds himself standing in the hallway between Bonnie's and Rachel's rooms. He makes his decision and opens one of the doors, leaving his final choice hanging in the balance."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 256,
+    "timestamp_range": "00:11:11 - 00:11:53",
+    "batch_summary": "Chandler continues his playful attempt to convince Monica that he is viable dating material. After stepping out and re-entering with a high-pitched voice, he drops to his knees to perform a comedic \"Dorf on dating\" routine. Although Monica smiles and walks away into her room, she leaves the door open. Chandler remains kneeling in the doorway, jokingly defending his comedy bit in a lighthearted, persistent effort to win her over.",
+    "cumulative_summary": "At a beach house getaway, Bonnie's surprise arrival sparks romantic tension, prompting a jealous Rachel to convince Bonnie to shave her head. This leads to a heated confrontation and a passionate kiss between Ross and Rachel, leaving Ross deeply conflicted. Meanwhile, Phoebe's search for her father leads to the shocking revelation that the homeowner is actually her birth mother. Back at the beach house, Ross debates his romantic future with Joey and Chandler, ultimately standing in the hallway between Bonnie's and Rachel's rooms to make his final choice. Simultaneously, Chandler tries to convince Monica that he is viable dating material. In a lighthearted effort to win her over, Chandler performs a goofy \"Dorf on dating\" routine on his knees. Though Monica playfully walks away into her room, leaving the door open, Chandler's persistent, comedic charm highlights the evolving, humorous dynamic between the two."
+  }
+]

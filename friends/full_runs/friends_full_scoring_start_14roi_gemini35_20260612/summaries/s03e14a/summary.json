@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:05",
+    "batch_summary": "At Central Perk's open mic night, the friends watch a talented singer named Leslie perform. While the group enjoys her music, Phoebe is defensive, especially when Ross humorously contrasts their musical styles. Leslie then dedicates a song to Phoebe, revealing they were former singing partners who had a falling out. Later, Leslie approaches the group to reconcile. Joey asks about her work writing commercial jingles, which Phoebe bitterly notes was the reason Leslie abandoned their partnership. Leslie sings one of her well-known jingles, leaving the group impressed but Phoebe tense.",
+    "cumulative_summary": "During an open mic night at Central Perk, Ross, Chandler, Monica, Joey, and Phoebe gather to watch a performance by a singer-songwriter named Leslie. While the friends are impressed by Leslie's talent, Phoebe reacts with jealousy and sarcasm, particularly after Ross humorously contrasts Leslie's smooth style with Phoebe's chaotic approach. The tension escalates when Leslie dedicates a song to Phoebe, publicly apologizing for leaving their past singing partnership. Afterward, Leslie approaches the group to reconnect. When Joey asks Leslie about her career writing commercial jingles, Phoebe bitterly points out that Leslie abandoned her to pursue this commercial path. Leslie sings one of her catchy, recognizable jingles for the group, highlighting the unresolved resentment and history between the two former partners."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:05 - 00:03:40",
+    "batch_summary": "Leslie reveals she was fired from her jingle-writing job and asks Phoebe to reform their singing partnership. Phoebe bluntly rejects her twice, prompting Leslie to leave. Although Phoebe boasts to her friends that she is an unyielding \"Ice Woman\" to those who betray her, she immediately breaks down in tears, revealing her deep hurt. Meanwhile, Chandler desperately waits for the restroom and meets a charming woman named Ginger. Smitten by her playful banter, Chandler lets another man cut in line just to keep talking to her.",
+    "cumulative_summary": "During an open mic night at Central Perk, the friends gather to watch Phoebe's former singing partner, Leslie. Though the group is impressed, Phoebe harbors deep resentment over Leslie abandoning their duo for a commercial jingle career. After Leslie sings one of her jingles, she reveals she was recently fired and asks Phoebe to reform their partnership. Phoebe bluntly rejects her twice. Despite boasting to her friends that she is an unyielding \"Ice Woman\" to those who betray her, Phoebe immediately breaks down in tears once Leslie leaves, revealing her lingering hurt. Meanwhile, Chandler desperately waits for the restroom and meets a charming woman named Ginger as she exits. Smitten by her playful banter, Chandler lets another waiting man go ahead of him just to continue talking to her."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:40 - 00:05:10",
+    "batch_summary": "Chandler successfully introduces himself to Ginger, though his desperate need for the restroom cuts their conversation short. Later at Central Perk, Joey panics upon seeing Ginger and hilariously tries to hide from her behind a coat rack, revealing a tense past connection. Meanwhile, Ross visits Rachel at Bloomingdale's, frustrated by her constant late nights. However, when Mark announces he is quitting his job, Ross's attitude instantly shifts to supportive relief.",
+    "cumulative_summary": "During an open mic night at Central Perk, Phoebe's former singing partner, Leslie, asks to reform their duo. Despite pretending to be an unyielding \"Ice Woman,\" Phoebe breaks down in tears after rejecting Leslie, harboring deep hurt over her past betrayal. Meanwhile, Chandler meets a charming woman named Ginger outside the restroom. Smitten, Chandler flirts with her despite his desperate need to use the bathroom. Later, when Ginger visits Central Perk, Joey panics and tries to hide behind a coat rack to avoid her, hinting at an awkward history between them. Meanwhile, Ross visits Rachel at Bloomingdale's, frustrated that she has been working late for two weeks. His annoyance quickly turns to relief and support when Rachel's colleague, Mark, announces he is quitting, meaning Rachel's late-night work partner will soon be gone."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:10 - 00:06:48",
+    "batch_summary": "Ross's relief is short-lived when he overhears Rachel and Mark making plans to meet on Saturday, reigniting his jealousy. Meanwhile, Phoebe confides in Monica about her deep childhood history with Leslie, who has called twenty times to reconcile, highlighting how much the past betrayal still hurts. Later, Joey reacts with sheer panic when Monica mentions Chandler is out on a date with Ginger, confirming his bizarre history with her.",
+    "cumulative_summary": "During an open mic night at Central Perk, Phoebe's former singing partner, Leslie, asks to reform their duo. Despite pretending to be an unyielding \"Ice Woman,\" Phoebe breaks down in tears after rejecting Leslie. She later confides in Monica that Leslie has called twenty times to reconcile, explaining their deep childhood bond and how much the past betrayal still hurts. Meanwhile, Chandler meets a charming woman named Ginger and goes on a date with her. Upon hearing this, Joey reacts with sheer panic, confirming his bizarre and awkward history with Ginger. At Bloomingdale's, Ross's relief over Rachel's colleague Mark quitting is short-lived. Just as Ross thinks Mark is out of their lives, he is dismayed to overhear Rachel and Mark making plans to meet up on Saturday, reigniting his jealousy."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:48 - 00:08:28",
+    "batch_summary": "Joey realizes that Chandler's new date, Ginger, is indeed the woman he has been hiding from. Under pressure from Monica and Phoebe, Joey confesses to a horrifying past mistake. Four years ago, while staying at a cabin with Ginger, he woke up in the dark and accidentally threw her artificial leg onto the fireplace, thinking it was a log. Terrified of her reaction, he fled, and now he fears she will expose his embarrassing secret to Chandler.",
+    "cumulative_summary": "During an open mic night at Central Perk, Phoebe's former singing partner, Leslie, asks to reform their duo. Despite pretending to be an \"Ice Woman,\" Phoebe breaks down, later admitting to Monica how much Leslie's past betrayal still hurts. Meanwhile, Ross's jealousy is reignited when he overhears Rachel making plans to meet up with her former colleague, Mark. At the same time, Chandler's excitement about dating a charming woman named Ginger is met with sheer panic from Joey. Joey finally confesses the source of his terror to Monica and Phoebe: four years ago, while on a romantic getaway at a cabin, he woke up in the middle of the night and accidentally threw Ginger's artificial leg into the fireplace, thinking it was a log. Fearing Ginger will reveal this horrifying and embarrassing incident to Chandler, Joey is left in a state of dread."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:28 - 00:10:01",
+    "batch_summary": "Joey admits to Monica and Phoebe that he fled the cabin in panic after burning Ginger's artificial leg. Meanwhile, Chandler and Ginger share a romantic moment, during which Ginger subtly hints at her prosthetic leg after stepping in a puddle. Later, Ross's insecurity resurfaces when he questions Rachel about attending a lecture with Mark, sparking frustration from Rachel over his persistent jealousy.",
+    "cumulative_summary": "During an open mic night at Central Perk, Phoebe's former singing partner, Leslie, asks to reform their duo, reopening old wounds for Phoebe. Meanwhile, Chandler's excitement about dating a charming woman named Ginger is met with panic from Joey. Joey confesses to Monica and Phoebe that years ago, he accidentally threw Ginger's artificial leg into a fireplace and fled the cabin in terror. Unaware of this, Chandler enjoys a romantic date with Ginger, who subtly hints at her prosthetic leg after stepping in a puddle. At the same time, Ross's jealousy reaches a boiling point. He confronts Rachel in bed about her plans to attend an upcoming lecture with her former colleague, Mark. Rachel is deeply frustrated by Ross's persistent insecurity, highlighting the growing tension in their relationship."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 265,
+    "timestamp_range": "00:10:01 - 00:11:22",
+    "batch_summary": "Ross and Rachel continue their argument about Mark. When Rachel explains she wants a friend to share her fashion interests with, Ross insists on attending the fashion lecture with her to prove his support. Rachel happily accepts, leaving Ross anxious about what to wear. Meanwhile, Phoebe anxiously waits for a device to beep in Monica's kitchen, prompting a lighthearted joke from Monica.",
+    "cumulative_summary": "During an open mic night at Central Perk, Phoebe's former singing partner, Leslie, asks to reform their duo, reopening old wounds. Meanwhile, Chandler's excitement about dating Ginger is met with panic from Joey, who confesses he once accidentally threw Ginger's artificial leg into a fireplace. Unaware of this, Chandler enjoys a romantic date with Ginger. At the same time, Ross's jealousy over Rachel's former colleague, Mark, reaches a boiling point. When Ross questions Rachel's need for another friend, Rachel explains she simply wants someone to share her passion for fashion with, such as attending lectures. Eager to ease her frustration and prove his commitment, Ross insists on accompanying Rachel to the upcoming fashion lecture himself, though he immediately becomes anxious about his outfit. Back at the apartment, Phoebe anxiously waits for a device to beep, bringing a brief moment of levity to the group's ongoing personal dramas."
+  }
+]

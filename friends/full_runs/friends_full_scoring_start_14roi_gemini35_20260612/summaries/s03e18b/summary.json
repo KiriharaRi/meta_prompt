@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:27",
+    "batch_summary": "In an apartment living room, Joey and Ross try to convince Frank to embrace the single life, but Frank insists that being with Alice, the person he truly cares about, is far better. Ross bitterly reflects on how he ruined his deep connection with Rachel by sleeping with someone else. Joey expresses a poignant longing for a meaningful relationship of his own, wondering why he cannot find it. Reassured by Frank's conviction, Joey encourages Frank to hold onto his love for Alice, ending the conversation with a supportive hug.",
+    "cumulative_summary": "In an apartment living room, Chandler briefly enters to return Joey's keys before Joey and Ross engage in a candid conversation with Frank about relationships. Joey and Ross initially encourage Frank to enjoy his youth and sleep with multiple women. However, Frank defends monogamy, arguing that intimacy is far better with someone you truly care about, comparing his relationship with Alice to what Ross once had with Rachel. This prompts a somber admission from Ross, who confesses he ruined his relationship with Rachel by sleeping with someone else. Joey, touched by Frank's description of true love, expresses his own vulnerability and frustration at not being able to find a deep connection. Frank reassures Joey that such love exists, prompting Joey to warmly congratulate Frank and advise him to hold onto his relationship with Alice as the two share a supportive hug."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:27 - 00:03:18",
+    "batch_summary": "Joey and Ross share their wedding roles with Phoebe, with Joey as best man and Ross as ring bearer, while Chandler makes a bizarre, towel-clad appearance. Meanwhile, Phoebe lures Alice over under the pretense of a laundry emergency, only to bluntly ask her not to marry Frank. Elsewhere, Monica confronts Pete in his high-tech office over an outrageously large check he left her, accusing him of trying to buy her affection.",
+    "cumulative_summary": "Following a heartfelt conversation about monogamy and true love, Joey and Ross share their wedding roles with Phoebe, with Joey proudly serving as Frank's best man and Ross as the ring bearer. However, Phoebe remains deeply concerned about her brother's relationship. She lures Alice to her apartment under the pretense of a laundry emergency, only to drop the act and bluntly ask Alice not to marry Frank. Meanwhile, Monica confronts the wealthy Pete in his high-tech office. Armed with an outrageously large check he left her as a tip, Monica demands to know if he is trying to buy her affection or if this is simply how he gets women to go out with him."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:18 - 00:04:49",
+    "batch_summary": "In his office, Pete charms Monica by explaining the large check was a tactic to break their chef-customer dynamic. Despite her initial reluctance to encourage his behavior, Monica softens when Pete sincerely asks her out for just one meal. Later, Phoebe returns home to find a dejected Frank hiding under her laundry. Frank reveals he is having a terrible day, hinting at the fallout from Phoebe's confrontation with Alice.",
+    "cumulative_summary": "Following a heartfelt conversation about monogamy, Joey and Ross share their wedding roles with Phoebe. However, deeply concerned about her brother's relationship, Phoebe lures Alice to her apartment and bluntly asks her not to marry Frank. Meanwhile, Monica confronts the wealthy Pete in his office over an outrageously large check he left as a tip. Pete disarms her by explaining the check was a playful tactic to break their chef-customer dynamic. He sincerely confesses his feelings and convinces a hesitant Monica to agree to a single date. Later, Phoebe returns to her dark apartment and is startled to find a dejected Frank hiding under her clean laundry. Frank sadly reveals he is having a terrible day, hinting at the immediate and painful fallout from Phoebe's interference in his relationship with Alice."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:49 - 00:06:37",
+    "batch_summary": "Frank reveals that Alice called off the wedding because he is \"too young.\" Devastated, Frank explains how Alice was the only source of happiness in his troubled life. Overcome with guilt upon seeing his immense grief, Phoebe confesses that she interfered and convinced Alice to end the relationship. Frank is shocked and deeply hurt, pointing out that even his mother's opposition to their relationship never resulted in such painful sabotage.",
+    "cumulative_summary": "Following a heartfelt conversation about monogamy, Joey and Ross share their wedding roles with Phoebe. Meanwhile, Monica agrees to a date with Pete after he explains a massive tip was a playful gesture to express his feelings. Deeply concerned about her brother Frank's relationship with the much older Alice, Phoebe takes matters into her own hands by convincing Alice to call off the wedding. When a devastated Frank arrives at Phoebe's apartment, he reveals that Alice ended things, leaving him in deep emotional pain. He explains how Alice was his sole source of happiness after a lifetime of hardships. Overcome with guilt upon seeing his profound grief, Phoebe confesses her interference to him. Frank is shocked and angry, pointing out that even his mother's opposition to their relationship never resulted in such painful sabotage."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:37 - 00:08:24",
+    "batch_summary": "Frank expresses his deep disappointment in Phoebe's betrayal before admitting he has nowhere else to go. Meanwhile, Monica prepares for her date with the wealthy Pete. Despite playful teasing from Chandler and Joey, Monica heads out with Pete, who surprises her with an incredibly extravagant first date: flying her all the way to Rome, Italy, just for pizza. Stunned but charmed, Monica playfully tries to contribute to the bill.",
+    "cumulative_summary": "Following a heartfelt conversation about monogamy, Joey and Ross share their wedding roles with Phoebe. Meanwhile, deeply concerned about her brother Frank's relationship with the much older Alice, Phoebe convinces Alice to call off the wedding. When a devastated Frank confronts Phoebe, she guiltily confesses her interference. Hurt and angry, Frank expresses his deep disappointment in Phoebe before admitting he has nowhere else to go. Elsewhere, Monica prepares for her first date with the wealthy Pete. Despite playful teasing from Chandler and Joey about Pete's fortune, Monica heads out with him. Pete surprises her with an incredibly extravagant gesture, flying her all the way to Rome, Italy, just to get pizza. Though stunned by the scale of the date, Monica playfully tries to contribute to the bill, highlighting the budding, lighthearted dynamic between them."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:24 - 00:10:15",
+    "batch_summary": "Joey humorously finds comfort and confidence in a subliminal stop-smoking tape that repeatedly addresses him as a \"strong, confident woman.\" Meanwhile, Phoebe attempts to resolve the conflict she caused by bringing Alice to speak with Frank. Alice gently explains to a heartbroken Frank that despite their deep love, their age difference means they will want different things in the future, making their relationship unsustainable.",
+    "cumulative_summary": "Following a heartfelt conversation about monogamy, Joey and Ross share their wedding roles with Phoebe. Meanwhile, Monica enjoys an extravagant first date with the wealthy Pete, who flies her to Rome for pizza. Back home, Joey humorously finds comfort and confidence in a subliminal stop-smoking tape that repeatedly calls him a \"strong, confident woman.\" The main emotional weight, however, remains on Phoebe's family drama. Feeling guilty after interfering in her brother Frank's relationship with the much older Alice, Phoebe brings Alice to talk to Frank directly. Alice gently explains to a heartbroken Frank that despite their deep love for one another, their age difference means they will inevitably want different things in the future, making their marriage a mistake."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 276,
+    "timestamp_range": "00:10:15 - 00:11:38",
+    "batch_summary": "Despite Alice's attempts to break things off with Frank due to their age difference, the couple's intense passion quickly overrides their logic. They share a passionate embrace and fall onto the couch, prompting a defeated Phoebe to leave them alone. Meanwhile, Chandler listens to the subliminal stop-smoking tape in bed. However, the tape has been hijacked by Joey, who recorded messages urging Chandler to make him cheese sandwiches and buy him expensive pants, leaving Chandler bewildered.",
+    "cumulative_summary": "Following a heartfelt conversation about monogamy, Joey and Ross share their wedding roles with Phoebe. Meanwhile, Monica enjoys an extravagant first date with the wealthy Pete, who flies her to Rome for pizza. Back home, Joey humorously finds comfort and confidence in a subliminal stop-smoking tape that repeatedly calls him a 'strong, confident woman.' Phoebe's attempt to resolve her brother Frank's relationship drama with the older Alice takes an unexpected turn; despite Alice's logical arguments about their age difference, the couple's passion reignites, leaving a defeated Phoebe to abandon her intervention and let them be. Later, Chandler tries using the same stop-smoking tape to kick his habit. However, he is bewildered to discover that Joey has secretly recorded over the tape, inserting subliminal messages designed to manipulate Chandler into making him daily cheese sandwiches and buying him expensive new pants."
+  }
+]

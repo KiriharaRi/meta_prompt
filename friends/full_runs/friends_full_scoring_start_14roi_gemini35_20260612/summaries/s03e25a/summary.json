@@ -1,0 +1,50 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:04:43",
+    "batch_summary": "The friends gather outside a coffee shop as Ross arrives by cab. Phoebe excitedly shares that she got a beach house from a client and found a woman who knew her parents. Rachel joins them wearing a giant straw hat, prompting playful teasing from Chandler and Joey. The group travels to the beach house in a rainstorm, only to find the living room floor covered in sand from flood damage. Inside, Chandler continues to jokingly press Monica about why they can't date, while Joey also playfully shoots his shot.",
+    "cumulative_summary": "The story begins with the friends gathering outside a coffee shop as Ross arrives in a taxi. Phoebe shares some exciting news: she has connected with a woman who knew her parents, and a client has lent her a beach house for the weekend. Rachel arrives wearing an outrageously large, wide-brimmed straw hat, which immediately becomes the target of playful teasing from Chandler and Joey, though Ross defends her look. The group packs up and heads to the beach house, arriving in the middle of a heavy rainstorm. Upon entering, they are shocked to find the entire living room floor covered in sand due to flood damage. Amidst the unusual setting, Chandler continues a running joke, playfully questioning Monica about why she won't be his girlfriend. Monica dismisses him, prompting Joey to jokingly ask if she would date him instead, maintaining the lighthearted and comedic dynamic among the close-knit group."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:04:43 - 00:06:21",
+    "batch_summary": "Monica continues to playfully reject Chandler and Joey's romantic hypotheticals, maintaining their friendly dynamic. Meanwhile, Phoebe visits Phoebe Abbott, the woman who knew her parents. Phoebe introduces herself as the daughter of Lily, showing her an old high school photograph featuring her parents. Although Phoebe Sr. warmly welcomes her and remembers Lily and Frank, she disappoints Phoebe by revealing she has lost touch with everyone and has no information on the whereabouts of Phoebe's father, Frank.",
+    "cumulative_summary": "The story begins with the friends gathering outside a coffee shop as Ross arrives in a taxi. Phoebe shares some exciting news: she has connected with a woman who knew her parents, and a client has lent her a beach house for the weekend. The group packs up and heads to the beach house, arriving in the middle of a heavy rainstorm to find the living room floor covered in sand. Amidst the unusual setting, Chandler and Joey playfully compete for Monica's romantic interest, but she lightheartedly dismisses them both, insisting they are all just friends. Meanwhile, Phoebe slips away to visit Phoebe Abbott, the woman from her parents' past. Phoebe introduces herself as Lily's daughter and shows her an old high school photograph of Lily and her father, Frank. While Phoebe Sr. warmly welcomes her and recalls her old friends, she delivers a disappointing blow by revealing she lost track of everyone after high school and has no information regarding the whereabouts of Phoebe's father."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:06:21 - 00:08:02",
+    "batch_summary": "Phoebe continues her conversation with Phoebe Sr., who shares memories of her parents and offers condolences for Lily's death. Meanwhile, trapped inside the rainy beach house, the rest of the group tries to stave off boredom. Joey unsuccessfully lobbies for a game of strip poker, while Monica paints Rachel's toenails. Rachel then playfully chases and tackles a reluctant Ross to paint his toenails just as Phoebe returns to the house.",
+    "cumulative_summary": "The story begins with the friends gathering before heading to a beach house lent to Phoebe for the weekend. Arriving in a heavy rainstorm, they find the living room floor covered in sand. While Chandler and Joey playfully compete for Monica's romantic interest, Phoebe slips away to visit Phoebe Abbott, a woman who knew her parents. Though Phoebe Sr. warmly welcomes her and shares memories of her parents, she reveals she has no information on Phoebe's father. As Phoebe processes this, receiving condolences for her mother Lily's death, the rest of the gang tries to stave off boredom back at the beach house. Joey unsuccessfully lobbies for a game of strip poker, and Monica paints Rachel's toenails. Seeking more fun, Rachel playfully chases and tackles a protesting Ross onto the couch to paint his toenails, creating a chaotic and lighthearted scene just as Phoebe returns to the house."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:08:02 - 00:09:31",
+    "batch_summary": "Upon returning, Phoebe reveals to the bored group that she found a photo of her father on Phoebe Sr.'s fridge, suspecting she knows his whereabouts despite lying. They plan to discuss it at dinner. To cure their boredom, Phoebe spins and points to Chandler to choose an activity. Chandler immediately suggests strip poker, much to Joey's excitement. Despite Monica's skepticism, the group agrees and gathers around the table to play as a storm rages outside.",
+    "cumulative_summary": "The story begins with the friends gathering before heading to a beach house lent to Phoebe for the weekend. Arriving in a heavy rainstorm, they find the living room floor covered in sand. While Chandler and Joey playfully compete for Monica's romantic interest, Phoebe slips away to visit Phoebe Abbott, a woman who knew her parents. Though Phoebe Sr. initially claims she has no information on Phoebe's father, Phoebe returns to the beach house with a breakthrough. She reveals she found a photo of her father on Phoebe Sr.'s fridge, suspecting the woman is hiding his whereabouts, and plans to confront her at dinner. Meanwhile, to cure the group's persistent boredom, Phoebe plays a selection game, spinning and pointing to Chandler. Chandler quickly chooses strip poker, delighting Joey. Despite Monica's initial questioning, the friends gather around the table to start the game while the storm continues to rage outside."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:09:31 - 00:11:25",
+    "batch_summary": "Unable to find playing cards, the group adapts a retro board game for their strip poker game. Ross and Rachel quickly accumulate points, targeting Joey, who is forced to strip down. As the game heats up, Rachel heads to the kitchen to make more margaritas, prompting a playful exchange with Ross. Monica follows Rachel, confronting her about the undeniable, mutual flirting and lingering romantic tension between Rachel and Ross.",
+    "cumulative_summary": "The friends gather at a rainy beach house, where Chandler and Joey playfully compete for Monica's attention. Meanwhile, Phoebe visits a woman named Phoebe Abbott, discovering a photo of her father on the woman's fridge, and plans a confrontation. Back at the house, to cure their boredom, the group decides to play strip poker. Lacking cards, they adapt a retro board game instead. As the game progresses, Joey becomes the primary target, quickly losing his clothes. The playful atmosphere shifts when Rachel goes to make more margaritas, sparking a flirtatious exchange with Ross. Noticing the spark, Monica follows Rachel into the kitchen to confront her about the obvious and mutual romantic tension still lingering between her and Ross."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 212,
+    "timestamp_range": "00:11:25 - 00:11:53",
+    "batch_summary": "Rachel admits to Monica that she feels a lingering romantic spark with Ross. However, their conversation is abruptly interrupted when Ross's girlfriend, Bonnie, unexpectedly arrives at the beach house after getting off work early. Ross greets Bonnie warmly, leaving Rachel stunned and creating an immediate shift in the group's dynamic just as they were playing their strip game.",
+    "cumulative_summary": "The friends gather at a rainy beach house, where Chandler and Joey playfully compete for Monica's attention. Meanwhile, Phoebe visits a woman named Phoebe Abbott, discovering a photo of her father on the woman's fridge, and plans a confrontation. Back at the house, to cure their boredom, the group decides to play strip poker. Lacking cards, they adapt a retro board game instead. As the game progresses, Joey becomes the primary target, quickly losing his clothes. The playful atmosphere shifts when Rachel goes to make more margaritas, sparking a flirtatious exchange with Ross. Noticing the spark, Monica follows Rachel into the kitchen to confront her about the obvious and mutual romantic tension still lingering between her and Ross. Rachel admits she feels a spark, but their conversation is abruptly cut short when Ross's girlfriend, Bonnie, unexpectedly arrives at the beach house. Ross greets Bonnie warmly, leaving Rachel stunned and instantly shifting the mood of the rainy getaway."
+  }
+]

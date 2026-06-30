@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:26",
+    "batch_summary": "In an office, Rachel prepares to quit, but her boss Joanna stops her. Joanna confesses to spreading rumors about Rachel's drinking and flirting just to keep her from leaving. Appalled, Rachel tries to walk out, prompting Joanna to offer her a promotion to assistant buyer, her own office, a raise, an expense account, and an assistant. Rachel accepts. Meanwhile, Chandler and Ross sit dejectedly in their recliners. Joey arrives and asks why they aren't partying with Gandalf, only for Ross to reveal that Gandalf cancelled.",
+    "cumulative_summary": "In an office setting, Rachel prepares to resign from her job, but her boss Joanna desperately tries to stop her. Joanna confesses that she spread malicious rumors about Rachel's flirting and drinking habits solely because she did not want to lose her as an assistant. Although Rachel is initially appalled by Joanna's manipulative behavior and calls her a horrible person, Joanna quickly negotiates to keep her. Joanna offers Rachel a promotion to assistant buyer, her own office, a raise, an expense account, and her own assistant, which Rachel ultimately accepts. Meanwhile, the scene shifts to a living room where Chandler and Ross are sitting dejectedly in their recliners watching television. Joey enters the apartment, surprised to find them there, and asks why they are not out partying with a friend named Gandalf. Ross gloomily explains that Gandalf is not coming, leaving the men disappointed and stuck sitting around all morning."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:26 - 00:02:55",
+    "batch_summary": "Joey successfully convinces a dejected Ross and Chandler that they can party just as hard without Gandalf. Reminiscing about a wild past night involving seals, the three men head out. Meanwhile, Rachel returns home eager to share her promotion news, only to find Monica celebrating an even bigger triumph: after impressing the owner of Alessandro's with her cooking, Monica has been hired as their head chef. Rachel happily celebrates Monica's long-awaited dream coming true.",
+    "cumulative_summary": "In an office setting, Rachel prepares to resign, but her boss Joanna desperately negotiates to keep her, offering a promotion to assistant buyer, a raise, and her own office. Meanwhile, Chandler and Ross sit dejectedly at home after being stood up by their legendary party friend, Gandalf. Joey arrives and successfully rallies the disappointed pair, convincing them that they can have an epic night out on their own. After reminiscing about a bizarre past adventure involving seals, the three men head out to party. Back at the apartment, Rachel returns home eager to share her career milestone, only to be happily upstaged by Monica. Monica reveals that the owner of Alessandro's came to complain but ended up hiring her as head chef after tasting her sauce. Rachel warmly celebrates Monica's long-awaited dream of running her own kitchen just as Phoebe walks in."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:02:55 - 00:05:02",
+    "batch_summary": "Rachel shares her exciting promotion to assistant buyer with Phoebe and Monica. However, the celebratory mood shifts when Phoebe reveals she booked a catering gig, forcing Monica to confess she is quitting their business for the head chef job at Alessandro's. Hurt and angry, Phoebe storms out. Meanwhile, Joey, Ross, and Chandler stop by Central Perk to recharge during their night out, but Joey's attempts to keep the party going falter as Ross admits he is already exhausted.",
+    "cumulative_summary": "In an office setting, Rachel prepares to resign but is instead promoted to assistant buyer by her boss, Joanna. Back home, Rachel happily shares this milestone with Phoebe and Monica. However, the celebratory mood turns tense when Phoebe announces she booked a catering gig, forcing Monica to confess she is leaving their joint catering business to become the head chef at Alessandro's. Feeling abandoned, an angry Phoebe storms out. Meanwhile, Chandler and Ross, initially stood up by their legendary party friend Gandalf, are rallied by Joey for an epic night out. After reminiscing about past adventures, the trio heads out to party. However, their wild night quickly loses steam when they stop at Central Perk to recharge, and a tired Ross admits he is already exhausted, despite Joey's enthusiastic attempts to keep the momentum going."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:02 - 00:06:34",
+    "batch_summary": "At Central Perk, Joey, Ross, and Chandler admit they are completely exhausted from their night out. Ordering decaf and hot water, they complain about the loud, dirty venues and realize they are no longer 21. Chandler proudly declares that at 29, they prefer comfort, quiet, and early nights. Meanwhile, the next morning, Monica approaches Phoebe at the coffee shop, hoping to resolve their conflict over the catering business, and Phoebe agrees to listen.",
+    "cumulative_summary": "In an office setting, Rachel prepares to resign but is instead promoted to assistant buyer by her boss, Joanna. Back home, Rachel happily shares this milestone with Phoebe and Monica. However, the celebratory mood turns tense when Phoebe announces she booked a catering gig, forcing Monica to confess she is leaving their joint catering business to become the head chef at Alessandro's. Feeling abandoned, an angry Phoebe storms out. Meanwhile, Chandler and Ross, initially stood up by their legendary party friend Gandalf, are rallied by Joey for an epic night out. However, their wild night quickly loses steam. Resting at Central Perk, the three men admit they are completely exhausted. Chandler reframes their fatigue, pointing out that at 29, they simply prefer comfort, quiet, and early nights over wild clubs. The next morning, Monica finds Phoebe at the coffee shop, hoping to mend their friendship and business partnership, and Phoebe reluctantly agrees to hear her out."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:34 - 00:08:08",
+    "batch_summary": "Monica tries to help Phoebe find alternative uses for her van, but Phoebe rejects all delivery ideas. Realizing how much their partnership means, Monica decides to stick with their catering business and pass on the head chef job. Touched by Monica's loyalty, Phoebe insists that Monica take the job at Alessandro's, explaining she doesn't want to stand in the way of her friend's happiness. The two share a warm embrace, successfully mending their friendship.",
+    "cumulative_summary": "In an office setting, Rachel prepares to resign but is instead promoted to assistant buyer by her boss, Joanna. Back home, Rachel happily shares this milestone with Phoebe and Monica. However, the celebratory mood turns tense when Phoebe announces she booked a catering gig, forcing Monica to confess she is leaving their joint catering business to become the head chef at Alessandro's. Feeling abandoned, an angry Phoebe storms out. Meanwhile, Chandler, Ross, and Joey realize they are too old and exhausted for wild nights out, embracing the comfort of early nights. The next morning, Monica meets Phoebe at Central Perk to mend their friendship. Monica initially suggests alternative van-based businesses for Phoebe, but ultimately offers to honor her commitment and stick with their catering business. Touched by Monica's sacrifice, Phoebe insists that Monica take the head chef job at Alessandro's so they can both be happy. The friends warmly embrace, successfully resolving their conflict."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:08 - 00:09:46",
+    "batch_summary": "After Phoebe and Monica reconcile, Rachel arrives at work to shocking news: her boss, Joanna, was killed by a cab. Devastated but desperate, Rachel tries to find out if Joanna submitted the paperwork for her promotion before the accident, but Mrs. Lynch confirms nothing was filed. Meanwhile, Sophie is hilariously thrilled by the news of Joanna's passing. Later, Monica is officially introduced to her new kitchen staff as the head chef at Alessandro's.",
+    "cumulative_summary": "In an office setting, Rachel prepares to resign but is instead promoted to assistant buyer by her boss, Joanna. Back home, Rachel happily shares this milestone with Phoebe and Monica. However, the celebratory mood turns tense when Phoebe announces she booked a catering gig, forcing Monica to confess she is leaving their joint catering business to become the head chef at Alessandro's. Feeling abandoned, an angry Phoebe storms out. The next morning, Monica meets Phoebe at Central Perk to mend their friendship. Touched by Monica's sacrifice, Phoebe insists that Monica take the head chef job at Alessandro's so they can both be happy. However, tragedy strikes when Rachel arrives at work to discover Joanna was killed by a cab. Desperate to secure her promotion, Rachel frantically asks if the paperwork was filed, but learns nothing was submitted. Meanwhile, Sophie is openly thrilled by Joanna's death. Later, Monica is officially introduced as the new head chef to her staff at Alessandro's."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 258,
+    "timestamp_range": "00:09:46 - 00:10:56",
+    "batch_summary": "Monica is officially introduced to her new kitchen staff at Alessandro's, but the reception is incredibly hostile. The manager reveals that the previous chef, Emilio, was fired, and several of his children are still on the staff. When Monica tries to deliver an upbeat, inspiring speech to win them over, she is met with stony silence and crossed arms. Sensing their deep resentment and intimidation, a nervous Monica ends her speech by asking if they are going to kill her.",
+    "cumulative_summary": "In an office setting, Rachel prepares to resign but is instead promoted to assistant buyer by her boss, Joanna. Back home, Rachel happily shares this milestone with Phoebe and Monica. However, the celebratory mood turns tense when Phoebe announces she booked a catering gig, forcing Monica to confess she is leaving their joint catering business to become the head chef at Alessandro's. Feeling abandoned, an angry Phoebe storms out. The next morning, Monica meets Phoebe at Central Perk to mend their friendship. Touched by Monica's sacrifice, Phoebe insists that Monica take the head chef job at Alessandro's so they can both be happy. However, tragedy strikes when Rachel arrives at work to discover Joanna was killed by a cab. Desperate to secure her promotion, Rachel frantically asks if the paperwork was filed, but learns nothing was submitted. Meanwhile, Monica is officially introduced as the new head chef to her staff at Alessandro's. However, she faces immediate hostility from the kitchen crew, many of whom are related to the recently fired previous chef. Monica's attempt to win them over with an upbeat speech is met with stony, intimidating silence, leaving her fearing for her safety."
+  }
+]

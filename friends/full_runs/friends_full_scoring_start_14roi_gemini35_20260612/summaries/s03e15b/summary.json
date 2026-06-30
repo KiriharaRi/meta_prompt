@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:12",
+    "batch_summary": "Ross and Rachel have a heated argument in their apartment over Rachel's demanding job and Ross's insecurity, culminating in Rachel suggesting they \"take a break from us.\" Stunned, Ross walks out and heads to a dimly lit bar. There, he runs into Chandler, Isaac, and Chloe, a copy shop employee who enthusiastically introduces him to the others.",
+    "cumulative_summary": "In a tense confrontation at their apartment, Ross and Rachel clash over the state of their relationship. Ross feels neglected due to Rachel's demanding new career, while Rachel passionately defends her job as the first thing she has ever been truly good at and cared about. When Ross's jealousy over her coworker Mark resurfaces, Rachel declares she cannot keep having the same fight. She suggests they take \"a break from us.\" Stunned and hurt, Ross walks out of the apartment. He seeks refuge at a dimly lit bar, where he runs into Chandler, Isaac, and Chloe, a copy shop employee who warmly welcomes him. This pivotal moment marks a dramatic turning point in Ross and Rachel's relationship, leaving their future highly uncertain."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:12 - 00:04:16",
+    "batch_summary": "At the bar, a dejected Ross tells Isaac that instead of celebrating his anniversary, he and Rachel are breaking up. Meanwhile, Monica and a blonde friend are on a double date with Sergey and his translator, Misha. The blonde woman tries to flirt with Sergey through Misha, but Misha becomes distracted by Monica's career as a chef. Frustrated by the lack of translation, the blonde woman pulls Monica behind a menu to complain that she is monopolizing the translator's attention.",
+    "cumulative_summary": "Following a devastating fight with Rachel, who suggested taking a break, a heartbroken Ross seeks refuge at a bar with Chandler. When asked about his anniversary plans, Ross bitterly reveals that he and Rachel are breaking up instead. Meanwhile, Monica and a blonde friend go on a double date with Sergey and his translator, Misha. The blonde woman attempts to flirt with Sergey, but the language barrier requires Misha's constant translation. The date takes a comedic turn when Misha becomes distracted by Monica's aspirations as a chef, prompting the blonde woman to secretly confront Monica behind a menu for monopolizing their only translator and stalling her romantic progress."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:04:16 - 00:05:57",
+    "batch_summary": "After Monica's awkward double date, a sad Rachel receives a call from Mark. Sensing her distress, Mark insists on coming over with food to comfort her. Meanwhile, at the bar, Isaac convinces a hesitant Ross to call Rachel and fix their relationship. Back at the apartment, Mark arrives, and Rachel confides in him about the fight, admitting she regrets suggesting they take a break.",
+    "cumulative_summary": "Following a devastating fight with Rachel, who suggested taking a break, a heartbroken Ross seeks refuge at a bar with Chandler. Meanwhile, Monica's double date with Sergey and his translator, Misha, goes awry when Monica accidentally monopolizes Misha, frustrating her date. Back at her apartment, a lonely Rachel receives a call from Mark. Sensing her distress, Mark insists on coming over with food to comfort her, despite her mild protests. At the bar, Isaac urges Ross to swallow his pride and call Rachel immediately to work things out. Ross decides to take the advice and make the call. However, Mark has already arrived at Rachel's apartment, where she tearfully confides in him about the fight, admitting she deeply regrets suggesting they take a break."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:57 - 00:07:31",
+    "batch_summary": "Ross calls Rachel from a noisy club to reconcile, but hears Mark's voice in the background. Misunderstanding the situation, a devastated Ross hangs up on Rachel before she can explain. Distraught, Ross is approached by Chloe, who comforts him and orders them drinks. Meanwhile, Monica's double date remains awkward as Misha tearfully shares a story about his dog with the group.",
+    "cumulative_summary": "Following a devastating fight with Rachel, who suggested taking a break, a heartbroken Ross seeks refuge at a bar with Chandler. Meanwhile, Monica's double date with Sergey and his translator, Misha, goes awry when Monica accidentally monopolizes Misha. Back at her apartment, a lonely Rachel receives a call from Mark, who insists on coming over to comfort her. Urged by Isaac to fix things, Ross calls Rachel from a noisy club. However, just as they begin to reconcile, Ross hears Mark's voice in the background asking for a drink. Jumping to conclusions, a devastated Ross hangs up on Rachel before she can explain that Mark just arrived. Distraught and feeling betrayed, Ross is approached at the bar by Chloe, who convinces him to stay and have a drink. Meanwhile, Monica's double date remains highly awkward as Misha tearfully shares a story about saying goodbye to his dog."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:31 - 00:09:20",
+    "batch_summary": "Monica's double date reaches a dramatic climax when Misha and Sergey get into a heated argument, leading Misha to resign as translator. Misha invites Monica to the Rainbow Room, and she happily leaves with him. Left alone, Sergey and the blonde woman manage to overcome their language barrier by teaching each other words, finding a surprising connection. Meanwhile, the scene shifts back to the bar, where Chloe remains by a devastated Ross's side.",
+    "cumulative_summary": "Following a devastating fight with Rachel, a heartbroken Ross seeks refuge at a bar. Meanwhile, Monica's double date with Sergey and his translator, Misha, takes a dramatic turn. After Misha tearfully shares a story about his dog, he and Sergey get into a heated argument, prompting Misha to resign and invite Monica to the Rainbow Room. Monica happily accepts, leaving Sergey and his date, a blonde woman, alone. Despite their language barrier, the remaining pair surprisingly bond by teaching each other simple words. This contrasts with the ongoing drama between Ross and Rachel; after hearing Mark's voice in the background of a phone call, a devastated Ross hung up on Rachel, assuming the worst. The night ends with Ross still at the bar, where Chloe continues to linger by his side."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:20 - 00:11:03",
+    "batch_summary": "At the bar, Chloe coaxes a heartbroken Ross onto the dance floor after confirming he isn't married. Meanwhile, a regretful Rachel calls Ross's apartment, desperately hoping he is home, but gets no answer. Back at the bar, Ross and Chloe slow dance, culminating in a passionate kiss that seals Ross's betrayal. The episode ends on a cliffhanger, followed by a lighthearted scene of Misha and the blonde woman struggling to overcome their language barrier as he plays guitar for her.",
+    "cumulative_summary": "Following a devastating fight with Rachel, a heartbroken Ross seeks refuge at a bar, where Chloe continues to linger by his side. Meanwhile, Monica's double date with Sergey and his translator, Misha, falls apart. Misha quits and leaves with Monica, leaving Sergey and his blonde date to bond despite their language barrier. This contrasts with the escalating drama between Ross and Rachel; after hearing Mark's voice on a phone call, Ross assumes the worst and hangs up. At the bar, Chloe coaxes Ross onto the dance floor. Back at home, a regretful Rachel calls Ross's apartment, desperately hoping he is there, but she gets no answer. Sealing their rift, Ross and Chloe slow dance and share a passionate kiss, leaving the relationship in jeopardy. In a lighter epilogue, Misha and the blonde woman try to overcome their own language barrier as he plays guitar for her."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 246,
+    "timestamp_range": "00:11:03 - 00:11:21",
+    "batch_summary": "In this brief concluding segment, Misha continues to play the guitar and sing enthusiastically for the blonde woman, who watches him with amusement and smiles. The lighthearted, musical interaction between them is abruptly cut short when a voice commands them to \"Stop.\" The screen then fades to black and remains silent, bringing a sudden end to the scene and the episode.",
+    "cumulative_summary": "Following a devastating fight with Rachel, a heartbroken Ross seeks refuge at a bar, where Chloe continues to linger by his side. Meanwhile, Monica's double date with Sergey and his translator, Misha, falls apart. Misha quits and leaves with Monica, leaving Sergey and his blonde date to bond despite their language barrier. This contrasts with the escalating drama between Ross and Rachel; after hearing Mark's voice on a phone call, Ross assumes the worst and hangs up. At the bar, Chloe coaxes Ross onto the dance floor. Back at home, a regretful Rachel calls Ross's apartment, desperately hoping he is there, but she gets no answer. Sealing their rift, Ross and Chloe slow dance and share a passionate kiss, leaving the relationship in jeopardy. In a lighter epilogue, Misha and the blonde woman try to overcome their own language barrier as he plays guitar for her. Misha sings and plays enthusiastically, prompting smiles and amusement from the blonde woman, until an abrupt voice commands them to \"Stop,\" and the screen fades to black."
+  }
+]

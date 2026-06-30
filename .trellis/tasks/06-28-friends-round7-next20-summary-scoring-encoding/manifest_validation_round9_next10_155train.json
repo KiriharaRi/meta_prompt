@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "created_at_utc": "2026-06-30T10:05:18.695904+00:00",
+  "manifest": "friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/roi_encoding_manifest.jsonl",
+  "row_count": 170,
+  "split_counts": {
+    "train": 155,
+    "val": 5,
+    "test": 10
+  },
+  "unique_episodes": 170,
+  "expected": {
+    "row_count": 170,
+    "split_counts": {
+      "train": 155,
+      "val": 5,
+      "test": 10
+    },
+    "unique_episodes": 170,
+    "roi_paths_per_row": 14
+  },
+  "roi_set": [
+    "ACC",
+    "AG",
+    "DLPFC",
+    "FFA",
+    "IPL",
+    "Insula",
+    "OFC",
+    "PCC",
+    "Precuneus",
+    "SMG",
+    "TPJ",
+    "Temporal_Pole",
+    "VMPFC",
+    "pSTS"
+  ],
+  "issues": []
+}

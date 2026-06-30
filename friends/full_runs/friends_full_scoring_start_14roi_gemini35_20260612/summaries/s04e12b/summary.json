@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:39",
+    "batch_summary": "In an apartment living room, Monica and Ross face off against Chandler and Joey in a high-stakes trivia lightning round. Driven by her intense competitiveness, Monica tries to raise the monetary bet, much to Rachel's dismay. Instead of cash, Monica proposes that if she and Rachel win, the guys must get rid of their pet rooster and duck. Chandler raises the stakes, countering that if the guys win, they get the girls' apartment. Monica eagerly agrees, and a reluctant Rachel eventually joins in, setting up a high-stakes game.",
+    "cumulative_summary": "The story begins in an apartment living room, where a highly competitive trivia game is underway. Monica and Ross are preparing to face off against Chandler and Joey in a lightning round. Eager to raise the stakes, Monica pushes to increase the wager to hundreds of dollars, causing Rachel to panic over losing her money. To compromise, Monica proposes a different bet: if she and Rachel win, Chandler and Joey must get rid of their annoying pet rooster and duck. Sensing an opportunity, Chandler counters with an extreme wager, demanding the girls' apartment if the guys win. Driven by her competitive nature, Monica immediately agrees to the deal. Although Rachel is initially horrified by the prospect of losing their home, she ultimately consents to the high-stakes bet out of her sheer desperation to get rid of the birds. The stage is set for a tense and hilarious showdown between the friends."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:39 - 00:03:13",
+    "batch_summary": "Rachel expresses doubt about betting their apartment, but Monica confidently convinces her to proceed. Ross begins the high-stakes lightning round, starting with Chandler and Joey. The guys face a series of personal questions about the girls, successfully answering queries about Monica's childhood nickname, Rachel's actual favorite movie (Weekend at Bernie's), and Monica's eleven towel categories. Despite missing one question about Monica's ear injury, the guys finish their round with an impressive score of four points, putting immense pressure on Monica and Rachel as they step up for their turn.",
+    "cumulative_summary": "The story begins in an apartment living room, where a highly competitive trivia game is underway. Monica and Ross prepare to face off against Chandler and Joey in a lightning round. Eager to raise the stakes, Monica proposes a high-risk wager: if she and Rachel win, the guys must get rid of their pet birds, but if they lose, they must give up their apartment. Despite Rachel's initial panic, Monica's intense confidence convinces her to agree to the bet. Ross kicks off the 30-second lightning round with Chandler and Joey. The guys demonstrate a surprising depth of knowledge about their friends, correctly identifying Monica's childhood hockey nickname, Rachel's secret favorite movie, Weekend at Bernie's, and the exact number of Monica's towel categories. Although they miss a question about Monica getting a pencil stuck in her ear, the guys finish strong with four correct answers. With the pressure mounting, Ross calls Monica and Rachel up to take their turn, leaving the fate of their apartment hanging in the balance."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:13 - 00:05:08",
+    "batch_summary": "Monica and Rachel begin their lightning round but fail to identify Chandler's actual job, with Monica desperately guessing \"transponster\" as time expires. Having lost the high-stakes bet, a devastated Monica packs up her apartment while Chandler and Joey triumphantly move in. Meanwhile, Phoebe arrives and reveals that she has successfully undergone the embryo implantation procedure for Frank and Alice, though she feels anxious about the low odds of success.",
+    "cumulative_summary": "The story begins with a highly competitive trivia game between the friends, where Monica proposes a high-stakes wager: if she and Rachel lose, they must swap apartments with Chandler and Joey. After the guys put up a strong performance, Monica and Rachel take their turn in the lightning round. Although they answer several questions correctly, they stumble on the final question regarding Chandler's job. Monica's incorrect guess of \"transponster\" costs them the game as the buzzer sounds. Chandler and Joey celebrate their victory and quickly move into the girls' spacious apartment, leaving a devastated Monica to pack her things. Amidst the moving chaos, Phoebe arrives and announces that she has successfully undergone the embryo implantation procedure to be a surrogate for Frank and Alice. However, she expresses anxiety over the low odds of the procedure succeeding, adding emotional weight to the group's dramatic day."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:08 - 00:06:48",
+    "batch_summary": "Rachel stubbornly refuses to move out, dismissing the high-stakes bet as a stupid game. However, Monica insists they must honor their agreement, blaming Rachel for their loss by bringing up the \"Chanandler Bong\" TV Guide mishap. Meanwhile, Phoebe remains anxious about her embryo transfer. Believing her body works faster than Western medicine, she takes a pregnancy test too early. When it is negative, she decides to lie upside down in an armchair to let gravity help the embryos implant.",
+    "cumulative_summary": "The story begins with a highly competitive trivia game where Monica and Rachel lose their apartment to Chandler and Joey in a high-stakes wager. While Monica reluctantly packs, Rachel stubbornly refuses to move, dismissing the bet as a stupid game. Monica insists they honor the agreement, blaming Rachel for their loss by revealing they steal Chandler's TV Guide addressed to \"Chanandler Bong.\" Meanwhile, Phoebe anxiously awaits her pregnancy results. Knowing it is too early for a test but trusting her body over Western medicine, she decides to lie upside down in an armchair, hoping gravity will help the implanted embryos take hold."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:48 - 00:08:55",
+    "batch_summary": "Rachel adamantly refuses to move into the boys' dirty, cold-water apartment and demands Monica fix the situation. However, Monica's attempt to negotiate backfires, resulting in her losing their mattresses instead. Meanwhile, Phoebe continues her upside-down vigil, singing to her potential embryos. The atmosphere shifts from comedic tension to anticipation when Frank Jr. and Alice arrive with a home pregnancy test, eagerly asking Phoebe if she is ready to find out if she is pregnant.",
+    "cumulative_summary": "Following a high-stakes trivia game loss, Monica and Rachel are forced to swap apartments with Chandler and Joey. While Monica reluctantly packs, Rachel adamantly refuses to move, especially after learning the boys' apartment has had no hot water since Christmas. Demanding Monica fix the situation, Rachel's defiance only leads to further disaster when Monica's attempt to negotiate backfires, resulting in the loss of their mattresses. Meanwhile, Phoebe continues her upside-down vigil in an armchair, singing to her potential embryos. The tension shifts to anticipation when her brother Frank Jr. and his wife Alice arrive with a home pregnancy test, encouraging Phoebe to finally take the test and discover if she is pregnant."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:55 - 00:10:53",
+    "batch_summary": "Phoebe takes the pregnancy test after warning Frank Jr. and Alice to manage their expectations. Meanwhile, tensions boil over during the apartment swap as Rachel furiously blames Monica for losing their home. The shouting match is joyfully interrupted when Phoebe returns to announce she is pregnant, prompting an ecstatic group celebration. Later, Monica and Rachel struggle to adjust to their creepy, cluttered new apartment, while Chandler happily relaxes in his spacious new home.",
+    "cumulative_summary": "Following a high-stakes trivia game loss, Monica and Rachel are forced to swap apartments with Chandler and Joey. While Rachel furiously protests and blames Monica for their loss, the boys begin moving their belongings into the girls' apartment. Amidst the moving chaos and heated arguments, Phoebe takes a pregnancy test, warning her brother Frank Jr. and his wife Alice not to get their hopes up too quickly. However, the tension instantly dissolves into pure joy when Phoebe returns to announce she is pregnant, prompting an ecstatic group celebration. Once the excitement settles, the reality of the swap hits hard. Monica and Rachel are horrified to discover mysterious, creepy surprises in their new, cluttered apartment, while Chandler and Joey happily settle into their spacious new home."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 251,
+    "timestamp_range": "00:10:53 - 00:11:33",
+    "batch_summary": "Chandler and Joey revel in the luxury of their spacious new apartment. Joey is thrilled by the massive closet size, and Chandler expresses disbelief at their good fortune. The two friends celebrate by jogging over to their reclining armchairs, sinking in, and reclining back in unison with sighs of pure satisfaction. The scene fades to black, marking a triumphant end to their apartment-swapping victory.",
+    "cumulative_summary": "Following a high-stakes trivia game loss, Monica and Rachel are forced to swap apartments with Chandler and Joey. While Rachel furiously protests, Phoebe brings a wave of joy to the group by announcing she is pregnant with Frank Jr. and Alice's baby. Once the excitement settles, the reality of the swap hits. Monica and Rachel are horrified to discover creepy surprises in their new, cluttered home. Meanwhile, Chandler and Joey happily settle into their spacious new quarters. Joey is amazed by the massive closet, and Chandler can't believe their luck. The boys celebrate their victory by sinking into their reclining armchairs in unison, fully embracing their luxurious new living space as the episode draws to a close."
+  }
+]

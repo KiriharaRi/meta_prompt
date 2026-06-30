@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:52",
+    "batch_summary": "In Monica's kitchen, Joey opens up about his painful unrequited feelings for an actress co-star. The mood shifts when Ross arrives with news that their unpleasant Aunt Sylvia has passed away. Monica is ecstatic to learn she has inherited her aunt's prized dollhouse, which she was never allowed to play with as a child. After Phoebe shares a sad childhood story about only having a barrel, Monica kindly invites her to play with the dollhouse, while Ross recalls their aunt's cruel past demands.",
+    "cumulative_summary": "In the apartment kitchen, Joey shares his rare experience of unrequited love, explaining how painful it is to watch his actress co-star go home with their director. Chandler, Phoebe, and Monica listen, with Chandler finding humor in Joey finally experiencing romantic rejection. The conversation shifts when Ross arrives to announce the passing of their Aunt Sylvia. Rather than mourning, Monica is overjoyed because her notoriously cruel aunt has left her a highly coveted childhood dollhouse that she was never permitted to play with. When Phoebe reveals she had nothing but a literal barrel to play with as a child, Monica generously promises to let Phoebe share the dollhouse. Ross then humorously reminds Monica of their aunt's harsh terms for the dollhouse in the past, noting she once demanded Monica lose twenty pounds just to play with it."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:52 - 00:03:32",
+    "batch_summary": "Monica makes a dark joke about her late aunt's weight before the scene shifts to Rachel's office at Bloomingdale's. Chandler walks Rachel back from lunch, where he meets her boss, Joanna. Despite Chandler's goofy humor, Joanna is highly intrigued and asks Rachel if he is single. Rachel offers to set them up, while Joanna casually insults her assistant, Sophie. Later, back at the apartment, Monica proudly displays her newly inherited, elaborate dollhouse to the group.",
+    "cumulative_summary": "In the apartment kitchen, Joey shares his painful experience of unrequited love, while Chandler finds humor in Joey's rare romantic rejection. The mood shifts when Ross announces the passing of their cruel Aunt Sylvia. Monica is overjoyed to inherit a highly coveted childhood dollhouse she was never allowed to play with, promising to share it with Phoebe. After making a parting joke about her late aunt, the scene shifts to Rachel's office at Bloomingdale's. Chandler walks Rachel back from lunch and meets her boss, Joanna. Despite Chandler's characteristically goofy behavior, Joanna is immediately attracted to him and asks Rachel if he is single. Rachel agrees to help set them up, despite Joanna's dismissive attitude toward her assistant, Sophie. Back at the apartment, the highly anticipated, elaborate dollhouse finally arrives, and Monica proudly displays it to the amazed group."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:32 - 00:05:06",
+    "batch_summary": "Phoebe arrives to play with Monica's new dollhouse, bringing bizarre additions like a giant ceramic dog and a tissue-paper ghost. She humorously explains the house is built on radioactive waste and an Indian burial ground, which Monica rejects and Ross questions. Meanwhile, Rachel returns home and asks to speak privately with Chandler, leading to a brief, awkward misunderstanding with Ross, who mistakenly thought she wanted to talk to him.",
+    "cumulative_summary": "Following the passing of their Aunt Sylvia, Monica is thrilled to inherit a coveted childhood dollhouse. After Rachel's boss, Joanna, expresses interest in Chandler, Rachel agrees to set them up. Back at the apartment, the elaborate dollhouse arrives, but tension arises when Phoebe tries to play. Phoebe brings eccentric additions, including a giant ceramic dog and a tissue-paper ghost, humorously claiming the house is built on radioactive waste and an Indian burial ground. Monica rejects these bizarre items, and Ross skeptically questions Phoebe's logic. The playful atmosphere shifts when Rachel returns to the apartment and asks to speak privately with Chandler, causing a brief, awkward moment for Ross, who mistakenly assumes she wants to talk to him."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:06 - 00:06:48",
+    "batch_summary": "Rachel successfully convinces Chandler to go on a date with her boss, Joanna, which Chandler eagerly accepts. Meanwhile, Monica loses her patience and bans Phoebe's eccentric toys from her Victorian dollhouse, prompting Phoebe to leave in protest. Later, at the theater, Joey tries to strike up a conversation with his co-star Kate, but his efforts are awkwardly cut short when another man sweeps her away.",
+    "cumulative_summary": "Following the inheritance of her late aunt's Victorian dollhouse, Monica's strict rules cause tension. She officially bans Phoebe's eccentric toys—including ghosts, giant dogs, and dinosaurs—prompting Phoebe to leave in protest of the \"house of no imagination.\" Meanwhile, Rachel successfully convinces Chandler to go on a date with her boss, Joanna, hoping it will curry favor at work. Chandler eagerly, if goofily, agrees to the setup. Later, at the theater, Joey attempts to connect with his co-star Kate by bringing up a restaurant recommendation she made. However, his friendly pursuit is awkwardly thwarted when another man sweeps Kate away, leaving Joey to finish his conversation alone."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:48 - 00:08:24",
+    "batch_summary": "At theater rehearsal, Kate's understudy, Lauren, reveals she is a huge fan of Joey's past soap opera work. After seeing Kate kiss the director, Joey asks Lauren out for a drink, and she happily accepts. Meanwhile, back at the apartment, Phoebe proudly debuts her own whimsical, homemade cardboard dollhouse—complete with a slide instead of stairs. While Ross and Rachel are charmed by Phoebe's creative alternative, Monica remains skeptical and tense.",
+    "cumulative_summary": "Following the inheritance of her late aunt's Victorian dollhouse, Monica's strict rules prompt Phoebe to leave in protest of the \"house of no imagination.\" Meanwhile, Rachel successfully convinces Chandler to go on a date with her boss, Joanna. At the theater, Joey's attempt to connect with his co-star Kate is thwarted when she is swept away by the director. However, Joey finds a new admirer in Kate's understudy, Lauren, who is a big fan of his soap opera work. After witnessing Kate kiss the director, Joey asks Lauren out for a drink. Back at the apartment, Phoebe proudly debuts her own whimsical, homemade cardboard dollhouse complete with a slide. While Ross and Rachel are highly amused and supportive of Phoebe's creative alternative, Monica remains skeptical and tense, highlighting the ongoing clash between her rigid order and Phoebe's eccentric imagination."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:24 - 00:10:13",
+    "batch_summary": "Phoebe's whimsical cardboard dollhouse continues to charm Ross and Rachel, leaving Monica feeling ignored and isolated with her traditional dollhouse. Meanwhile, Chandler tells Rachel that his date with Joanna was a disaster, but Joanna enthusiastically tells Rachel they clicked and eagerly awaits his call. At theater rehearsals, Joey and Kate's scene is rudely interrupted by their pretentious director, who lectures them on \"committing to the moment\" before walking out to take a phone call.",
+    "cumulative_summary": "Following the inheritance of a Victorian dollhouse, Monica's strict rules prompt Phoebe to build her own whimsical cardboard alternative. Phoebe's creative creation, complete with a licorice room, completely wins over Ross and Rachel, leaving Monica feeling rejected and ignored. Meanwhile, Chandler returns from his date with Rachel's boss, Joanna, declaring her a \"dull dud.\" However, a smitten Joanna tells Rachel they clicked perfectly and eagerly awaits his call, putting Rachel in a difficult position. At the theater, Joey's romantic pursuits shift after seeing his co-star Kate with their director, leading him to ask out Kate's understudy, Lauren. During rehearsals, Joey and Kate's scene is rudely interrupted by their pretentious director, who patronizingly lectures them on \"committing to the moment\" before walking off to take a phone call, adding to the backstage tension."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 272,
+    "timestamp_range": "00:10:13 - 00:11:30",
+    "batch_summary": "During rehearsals, Joey and Kate share a tense, flirtatious exchange about their dating choices, hinting at underlying feelings. When their pretentious director returns, they resume their scene, culminating in a passionate kiss. However, the director abruptly interrupts them, harshly declaring them \"bad actors\" in a \"terrible play\" before storming out for the night. Joey and Kate are left standing on stage in stunned, awkward silence, their unresolved romantic tension lingering.",
+    "cumulative_summary": "Following the inheritance of a Victorian dollhouse, Monica's strict rules prompt Phoebe to build her own whimsical cardboard alternative, which wins over Ross and Rachel. Meanwhile, Chandler dismisses his date with Rachel's boss, Joanna, as a \"dull dud,\" unaware that Joanna is smitten and eagerly awaiting his call, putting Rachel in a difficult position. At the theater, Joey's jealousy over his co-star Kate's relationship with their director leads him to date her understudy, Lauren. During rehearsals, Joey and Kate engage in a tense, flirtatious argument about their dating choices, hinting at mutual feelings. When they resume their scene, Joey kisses Kate passionately, but their pretentious director abruptly interrupts them. Harshly declaring them \"bad actors\" in a \"terrible play,\" the director storms out for the night, leaving Joey and Kate standing on stage in stunned, awkward silence as their unresolved romantic tension lingers."
+  }
+]

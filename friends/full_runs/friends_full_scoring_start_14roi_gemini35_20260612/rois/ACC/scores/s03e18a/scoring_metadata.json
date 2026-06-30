@@ -1,0 +1,83 @@
+{
+  "n_segments": 261,
+  "n_trs": 469,
+  "tr_s": 1.49,
+  "alignment": "overlap_weighted",
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s03e18a/summary.json",
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  },
+  "gt": null,
+  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/ACC/region_schema.json",
+  "feature_names": [
+    "narrative_conflict_and_dilemma",
+    "expectancy_violation_and_surprise",
+    "goal_obstruction_and_setback",
+    "vicarious_physical_pain",
+    "social_exclusion_and_humiliation",
+    "imminent_threat_and_fear",
+    "strenuous_physical_effort",
+    "intense_cognitive_concentration",
+    "outcome_uncertainty_and_suspense",
+    "time_pressure_and_deadlines",
+    "sudden_dramatic_shifts",
+    "high_stakes_crisis"
+  ],
+  "feature_metadata": [
+    {
+      "dimension_id": "narrative_conflict_and_dilemma",
+      "domain": "cognitive_conflict_and_expectancy_monitoring"
+    },
+    {
+      "dimension_id": "expectancy_violation_and_surprise",
+      "domain": "cognitive_conflict_and_expectancy_monitoring"
+    },
+    {
+      "dimension_id": "goal_obstruction_and_setback",
+      "domain": "cognitive_conflict_and_expectancy_monitoring"
+    },
+    {
+      "dimension_id": "vicarious_physical_pain",
+      "domain": "vicarious_distress_and_threat_appraisal"
+    },
+    {
+      "dimension_id": "social_exclusion_and_humiliation",
+      "domain": "vicarious_distress_and_threat_appraisal"
+    },
+    {
+      "dimension_id": "imminent_threat_and_fear",
+      "domain": "vicarious_distress_and_threat_appraisal"
+    },
+    {
+      "dimension_id": "strenuous_physical_effort",
+      "domain": "appraised_effort_and_action_outcomes"
+    },
+    {
+      "dimension_id": "intense_cognitive_concentration",
+      "domain": "appraised_effort_and_action_outcomes"
+    },
+    {
+      "dimension_id": "outcome_uncertainty_and_suspense",
+      "domain": "appraised_effort_and_action_outcomes"
+    },
+    {
+      "dimension_id": "time_pressure_and_deadlines",
+      "domain": "motivational_salience_and_urgency_tracking"
+    },
+    {
+      "dimension_id": "sudden_dramatic_shifts",
+      "domain": "motivational_salience_and_urgency_tracking"
+    },
+    {
+      "dimension_id": "high_stakes_crisis",
+      "domain": "motivational_salience_and_urgency_tracking"
+    }
+  ]
+}

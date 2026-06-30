@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:43",
+    "batch_summary": "In Joey and Chandler's apartment, Chandler rips his suit jacket on a bulky wooden cabinet Joey built. Despite Chandler's demands to throw it out, Joey refuses, revealing that their pet duck and rooster live inside it. Meanwhile, at Monica's apartment, Ross and Monica arrive to find an answering machine message from Chip Matthews, the popular guy who took Rachel to their high school prom. Monica is ecstatic that Chip called her after a chance meeting at the bank and immediately makes a phone call.",
+    "cumulative_summary": "The story begins with roommate tensions and exciting romantic prospects. In their apartment, Chandler rips his suit jacket on a large wooden cabinet that Joey built. While Chandler complains about the hazard and demands they get rid of it, Joey stubbornly defends his handiwork, especially since their pet duck and rooster currently reside inside the cabinet's bottom compartment. Meanwhile, Ross and Monica return to Monica's apartment, where they listen to an answering machine message from Chip Matthews. Chip, who was famously the most popular guy in high school and Rachel's prom date, ran into Monica at the bank and left his number. Thrilled by this unexpected attention from her high school crush, Monica immediately grabs the phone to make a call, leaving Ross amazed by her luck."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:43 - 00:03:17",
+    "batch_summary": "Monica finishes an exciting call with Chip Matthews just as Rachel arrives home. Spotting Chip's name on the message pad, Rachel assumes the call was for her and confidently dials him back, egged on by a sarcastic Ross. However, the phone call quickly turns awkward. Rachel has to clarify her identity, only to realize that Chip actually called for her roommate, Monica, leaving Rachel embarrassed while Ross watches the awkward exchange unfold.",
+    "cumulative_summary": "The story begins with roommate tensions and exciting romantic prospects. In their apartment, Chandler rips his suit jacket on a large wooden cabinet that Joey built. While Chandler complains about the hazard, Joey stubbornly defends his handiwork, which houses their pet duck and rooster. Meanwhile, Ross and Monica return to Monica's apartment, where they listen to an answering machine message from Chip Matthews, Monica's high school crush and Rachel's former prom date. Thrilled, Monica calls him back and has an ecstatic conversation. Shortly after, Rachel arrives home and spots Chip's name on the message pad. Assuming he called for her, Rachel confidently dials him back, egged on by a sarcastic Ross. However, the call quickly becomes awkward as Rachel has to clarify her identity, ultimately realizing that Chip actually called for Monica, not her, while Ross watches the embarrassing realization unfold."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:17 - 00:04:51",
+    "batch_summary": "Rachel suffers a humiliating moment when Ross confirms Chip Matthews called for Monica, not her. Later at Central Perk, Phoebe performs a quirky song. Meanwhile, Chandler and Joey bicker over selling Joey's handmade entertainment center. Joey lists it for an absurd $5,000, prompting Chandler to lower the price to $50. When Joey questions Chandler's accounting skills, Chandler has to remind him that he isn't even an accountant, highlighting Joey's cluelessness about his roommate's actual job.",
+    "cumulative_summary": "The story begins with roommate tensions and exciting romantic prospects. In their apartment, Chandler rips his suit jacket on a large wooden cabinet that Joey built. Meanwhile, Monica is thrilled to receive a call from her high school crush, Chip Matthews. Rachel mistakenly assumes the call was for her and dials him back, only to face a humiliating realization when she discovers Chip actually wanted to ask Monica out, a blunder Ross happily teases her about. Later at Central Perk, Phoebe performs a quirky song before the group discusses Joey and Chandler's struggle to sell the oversized entertainment center. Joey stubbornly lists the cabinet for an absurd $5,000, claiming \"Italian craftsmanship.\" Chandler, pointing out the high cost of the ad, insists on lowering the price to $50. This sparks a hilarious argument where Joey questions Chandler's accounting skills, ultimately revealing that Joey has absolutely no idea what Chandler actually does for a living."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:51 - 00:06:23",
+    "batch_summary": "Following Chandler's disbelief over Joey's ignorance of his career, the focus shifts to Phoebe, who discovers a grey tabby cat in her guitar case at Central Perk. Phoebe quickly becomes convinced that the cat is the reincarnated spirit of her deceased mother, Lily. Despite her friends' skepticism—particularly Ross, who jokingly attributes her belief to glaucoma medicine—Phoebe defends her theory with quirky logic, citing the orange felt lining of her guitar case and her mother's favorite fish, orange roughy.",
+    "cumulative_summary": "The story begins with roommate tensions and exciting romantic prospects. After Monica is asked out by her high school crush, Chip, and Joey and Chandler bicker over selling an oversized cabinet, Chandler is shocked to learn Joey has no idea what he does for a living. The group's attention soon shifts to Phoebe, who finds a grey tabby cat inside her guitar case at Central Perk. Phoebe immediately claims the cat is the reincarnated spirit of her late mother, Lily. While her friends react with deep skepticism—with Ross teasingly suggesting she might be on her grandmother's glaucoma medication—Phoebe remains steadfast. She defends her belief with her signature eccentric logic, linking the cat's attraction to her orange-felt-lined guitar case to her mother's favorite fish, orange roughy, leaving her friends amused but unconvinced."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:23 - 00:08:06",
+    "batch_summary": "Phoebe continues to bond with the cat she believes is her reincarnated mother, despite Joey's crude jokes. Meanwhile, Rachel confronts Monica about her upcoming date with Chip Matthews, Rachel's high school boyfriend who cheated on her at prom. Monica passionately defends her decision, explaining how different their high school experiences were; as an overweight teenager, she never dreamed of being asked out by someone like Chip. Monica explains she owes this date to the \"fat girl inside\" of her, leaving Rachel sympathetic.",
+    "cumulative_summary": "The story begins with roommate tensions and exciting romantic prospects. After Joey and Chandler bicker over selling an oversized cabinet, Chandler is shocked to learn Joey has no idea what he does for a living. Meanwhile, Phoebe finds a grey tabby cat at Central Perk and immediately claims it is the reincarnated spirit of her late mother, Lily. Despite her friends' deep skepticism, Phoebe continues to bond with the cat, calling it \"Mommy.\" The focus then shifts to Monica and Rachel, who clash when Rachel discovers Monica is going out with Chip Matthews, Rachel's high school crush who famously cheated on her at the prom. Rachel is initially furious, but Monica passionately defends her decision. She explains that while Rachel was the popular girl, Monica was overweight and insecure in high school. Monica confesses that she wants to go on the date to satisfy the \"fat girl inside\" of her who never believed she would get a chance with someone like Chip, leaving Rachel softened and understanding."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:06 - 00:09:42",
+    "batch_summary": "Rachel gives Monica her blessing to date Chip, sealing it with a supportive hug. Meanwhile, Joey's overly selective screening process makes selling the oversized cabinet difficult. Phoebe continues to treat the stray cat as her reincarnated mother, even trying to hide a bank call from it. While Ross remains highly skeptical and tries to bring his friends back to reality, Monica and Rachel defend Phoebe's belief, warning Ross not to ruin it.",
+    "cumulative_summary": "The story begins with roommate tensions and romantic prospects. After Joey and Chandler bicker over selling an oversized cabinet, Joey's overly selective screening process makes finding a buyer difficult. Meanwhile, Rachel softens and gives Monica her blessing to date her high school crush, Chip Matthews, understanding Monica's need to satisfy her past, insecure self. Phoebe continues to bond with the stray cat she believes is her reincarnated mother, Lily, even trying to hide financial phone calls from the feline. While Ross remains highly skeptical of the situation and tries to inject logic, Monica and Rachel shut him down, choosing to support Phoebe's eccentric belief."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:42 - 00:11:45",
+    "batch_summary": "Rachel playfully teases Ross about his need to be right, sparking a debate over sci-fi trivia. Meanwhile, Chandler and Joey attempt to sell their oversized entertainment center, only to be offered a handmade canoe instead of cash. Later, Rachel discovers a lost cat flyer matching Phoebe's \"reincarnated mother,\" revealing the cat belongs to a little girl in Soho. While Joey focuses on the reward, the rest of the group faces a moral dilemma over whether to break the truth to a happy Phoebe.",
+    "cumulative_summary": "The story begins with roommate tensions and romantic prospects. After Joey and Chandler bicker over selling an oversized cabinet, Joey's picky screening process makes finding a buyer difficult, eventually leading to a bizarre trade offer of a handmade canoe instead of cash. Meanwhile, Rachel gives Monica her blessing to date her high school crush, Chip Matthews, to satisfy Monica's past, insecure self. Rachel also playfully teases Ross about his constant need to be right. Phoebe continues to bond with a stray cat she believes is her reincarnated mother, Lily, while Ross remains highly skeptical. However, the situation grows complicated when Rachel finds a lost cat flyer matching Phoebe's \"mother,\" revealing the pet actually belongs to a little girl in Soho. While Joey humorously focuses on the reward money, the rest of the group faces a difficult moral dilemma, debating whether they should break the truth to Phoebe and ruin her newfound happiness."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 281,
+    "timestamp_range": "00:11:45 - 00:11:52",
+    "batch_summary": "The group falls into a tense, contemplative silence as they grapple with the moral dilemma of Phoebe's cat. Chandler and Ross look visibly troubled and thoughtful, reflecting the heavy atmosphere. The unresolved tension lingers as the friends struggle to decide whether to break Phoebe's heart with the truth or let her keep believing the cat is her reincarnated mother.",
+    "cumulative_summary": "The story begins with roommate tensions as Joey and Chandler bicker over selling an oversized cabinet, which Joey eventually trades for a handmade canoe. Meanwhile, Rachel gives Monica her blessing to date her high school crush, Chip Matthews, to satisfy Monica's past, insecure self. Phoebe continues to bond with a stray cat she believes is her reincarnated mother, Lily, while Ross remains highly skeptical. However, the situation grows complicated when Rachel finds a lost cat flyer matching Phoebe's \"mother,\" revealing the pet actually belongs to a little girl. While Joey humorously focuses on the reward money, the rest of the group faces a difficult moral dilemma, debating whether they should break the truth to Phoebe. This heavy decision weighs on the friends, leaving Chandler, Ross, and the rest of the group in a tense, contemplative silence as they struggle with the emotional consequences of their next move."
+  }
+]

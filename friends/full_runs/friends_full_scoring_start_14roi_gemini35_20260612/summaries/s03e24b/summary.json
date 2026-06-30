@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:54",
+    "batch_summary": "Pete enters an MMA cage fight, supported by Monica and Ross, but is quickly and brutally defeated by a much larger opponent. Afterward, a bruised Pete sits in the empty arena with Monica. While Monica expresses her pride and hopes he can move on with no regrets, Pete shocks her by refusing to quit. Despite her concerns about his safety, Pete compares his fighting ambition to his past tech failures, determined to continue until he becomes the Ultimate Fighting Champion.",
+    "cumulative_summary": "Pete steps into an octagonal cage for an intense MMA match, cheered on by Monica and Ross. However, the fight quickly turns disastrous as a much larger opponent dominates Pete, hoisting him upside down and pinning him against the fence until he passes out. In the aftermath, a heavily bruised and swollen Pete sits in the empty arena. Monica comforts him, expressing how proud she is of his courage and suggesting he can now move on with no regrets. To her dismay, Pete reveals he has no intention of quitting. When Monica points out the physical danger, reminding him that his opponent stood on his neck, Pete remains undeterred. He compares his current fighting struggles to his long, failure-ridden journey to develop his software, Moss 865. Driven by stubborn determination, Pete vows to keep fighting until he achieves his dream of becoming the Ultimate Fighting Champion, leaving Monica deeply concerned."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:54 - 00:03:34",
+    "batch_summary": "Pete promises Monica he will improve quickly, jokingly mentioning his trainer's theory that her ringside presence distracted him. Later, at a rooftop barbecue, Monica anxiously awaits Pete's next fight, learning his opponent is terrifyingly brutal. Meanwhile, Ross happily shares with Phoebe that his date with Bonnie went surprisingly well and they are seeing each other again. As the fight is about to begin on television, the friends prepare to watch.",
+    "cumulative_summary": "Pete steps into an MMA cage for a disastrous match where he is easily defeated and knocked out. Despite Monica's pleas for his safety, Pete stubbornly refuses to quit, comparing his fighting struggles to his difficult journey developing software. He promises Monica he will improve quickly, jokingly suggesting her ringside presence distracted him. Later, the friends gather for a rooftop barbecue. Monica's anxiety spikes as Pete's next fight approaches, especially after Ross reveals that Pete's new opponent is notoriously brutal. Meanwhile, Ross happily shares with Phoebe that his date with Bonnie went incredibly well and they are going out again. As a voice from inside announces that Pete's fight is starting, the group prepares to watch, with Monica deeply concerned for Pete's well-being."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:34 - 00:05:19",
+    "batch_summary": "At the barbecue, Chandler announces an experiment to stop his boss, Doug, from slapping his butt. The next day at work, Chandler tries to get on Doug's bad side by admitting he didn't do his work, but Doug slaps his backside anyway. Forced to be direct, Chandler awkwardly explains that he is uncomfortable with the physical contact, citing his \"sensitive posterior.\" Doug appreciates his honesty and agrees to stop.",
+    "cumulative_summary": "Pete stubbornly continues his disastrous MMA career despite Monica's deep anxiety, promising her he will improve. During a rooftop barbecue, as the friends prepare to watch Pete's next fight, Chandler shares his plan to stop his boss, Doug, from constantly slapping his backside. The next day at the office, Chandler attempts to deter Doug by intentionally neglecting his work. When this reverse psychology fails and Doug slaps him anyway, Chandler is forced to address the issue directly. He awkwardly explains his discomfort with the physical gestures, citing a \"sensitive posterior.\" To Chandler's relief, Doug respects his honesty and agrees to stop."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:19 - 00:07:06",
+    "batch_summary": "After Chandler's awkward encounter with Doug ends on a lighter note, the focus shifts to Rachel and Phoebe. While out at night, Rachel is shocked to spot Ross through the Central Perk window kissing Bonnie, his new bald love interest. Realizing it is a successful second date rather than a breakup, Rachel panics and blames Phoebe for setting them up. When Phoebe questions Rachel's jealousy since she was the one who ended things with Ross, a vulnerable Rachel admits she simply did not expect him to move on and be happy so quickly.",
+    "cumulative_summary": "Pete stubbornly continues his disastrous MMA career despite Monica's deep anxiety, promising her he will improve. Meanwhile, Chandler successfully stops his boss, Doug, from slapping his backside by awkwardly explaining his discomfort. Later, the focus shifts to Rachel and Phoebe, who spot Ross through the Central Perk window kissing Bonnie, his new bald love interest. Realizing they are on a successful second date, Rachel panics and blames Phoebe for setting them up, even suggesting they find a way to break them up. When Phoebe confronts Rachel about her jealousy, reminding her that she was the one who chose to end her relationship with Ross, Rachel's anger fades. She vulnerably admits that she simply did not expect Ross to move on and find happiness so quickly, highlighting her lingering feelings."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:06 - 00:09:07",
+    "batch_summary": "After a brief, lighthearted moment where Phoebe comforts a distraught Rachel on the street, the focus shifts to Pete's severe injuries. Pete is in a full upper-body cast and neck brace but stubbornly refuses to quit his MMA pursuit, claiming he must become the Ultimate Fighter. Unable to bear watching him destroy himself, Monica delivers a painful ultimatum: if he continues fighting, she cannot stay with him. Pete refuses to compromise his identity, leaving their relationship at a devastating standstill.",
+    "cumulative_summary": "Pete stubbornly continues his disastrous MMA career despite Monica's deep anxiety. Meanwhile, Chandler stops his boss from slapping his backside, and Rachel struggles with jealousy after seeing Ross move on with Bonnie. After Phoebe comforts a distraught Rachel, the focus shifts back to Pete, who is now hospitalized in a full upper-body cast and neck brace. Despite his severe injuries, Pete remains stubbornly committed to becoming the Ultimate Fighter. Deeply distressed and unable to watch him destroy himself, Monica begs him to stop. When Pete refuses, stating that quitting would mean being someone he is not, Monica delivers a heartbreaking ultimatum: if he continues fighting, he will have to do it without her."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:07 - 00:10:46",
+    "batch_summary": "Monica officially walks out on Pete, leaving him in his hospital bed after he humorously asks her to leave a note due to his painkiller-induced memory loss. Meanwhile, Chandler caves to peer pressure at work, ultimately asking his boss, Doug, for a butt-slap to feel included. Later, the friends gather to watch Pete's next fight on television, where Monica and Rachel watch in horror as Pete's stubbornness leads to another brutal defeat.",
+    "cumulative_summary": "Pete stubbornly continues his disastrous MMA career despite Monica's deep anxiety. Meanwhile, Chandler tries to avoid his boss's habit of slapping employees' backsides, and Rachel struggles with jealousy over Ross's new relationship. After Pete is hospitalized in a full body cast, Monica begs him to stop fighting. When he refuses, she delivers an ultimatum and officially walks out on him, leaving a heavily medicated Pete who asks her to write a note because he might not remember. Back at work, Chandler caves to peer pressure and actively requests a butt-slap from his boss to feel included. Later, the friends gather to watch Pete's next fight on television, where Monica and Rachel watch in horror as Pete's stubbornness leads to another brutal defeat."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 249,
+    "timestamp_range": "00:10:46 - 00:11:16",
+    "batch_summary": "As the friends watch Pete's brutal MMA match on television, the opponent targets Pete's groin. Phoebe makes a naive remark about the opponent's \"favorite area,\" while Ross points out the dark irony that Monica's ex, Richard, didn't want kids, and now Pete physically won't be able to have them. Monica turns away in distress as the rest of the group winces in horror at the ongoing beating.",
+    "cumulative_summary": "Pete stubbornly continues his disastrous MMA career despite Monica's deep anxiety. Meanwhile, Chandler tries to avoid his boss's habit of slapping employees' backsides, and Rachel struggles with jealousy over Ross's new relationship. After Pete is hospitalized in a full body cast, Monica begs him to stop fighting. When he refuses, she delivers an ultimatum and officially walks out on him, leaving a heavily medicated Pete who asks her to write a note because he might not remember. Back at work, Chandler caves to peer pressure and actively requests a butt-slap from his boss to feel included. Later, the friends gather to watch Pete's next fight on television. As Pete suffers another brutal defeat, his opponent targets his groin, prompting a naive question from Phoebe. Ross makes a dark joke about the irony of Monica's love life, noting that while Richard didn't want kids, Pete now physically cannot have them. Monica turns away in distress, unable to watch the painful spectacle."
+  }
+]

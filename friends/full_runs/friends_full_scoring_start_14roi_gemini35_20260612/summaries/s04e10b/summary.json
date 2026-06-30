@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:44",
+    "batch_summary": "In a coffee shop, Chandler confesses to Rachel that he told her date she was looking for a fling, leaving her worried about the guy's impressions. Meanwhile, in Monica's restaurant kitchen, Joey enjoys his lucrative tips and tries to adopt the nickname \"Dragon.\" However, Monica faces blatant disrespect from her waitstaff, particularly Stu. Pushed to her limit, she abandons her friendly approach and sternly asserts her authority, declaring that things will now be run her way.",
+    "cumulative_summary": "At the coffee shop, Chandler admits to Rachel that he mistakenly told her date she was looking for a casual fling. Rachel is dismayed, fearing the guy will get the wrong idea, especially after she slept with him on their first date. Meanwhile, at Monica's restaurant, Joey is working as a waiter, trying to establish a cool new nickname, \"Dragon,\" and enjoying the generous holiday tips he receives. However, the atmosphere in the kitchen is tense. Monica, the head chef, struggles to get her waitstaff to take her seriously. When they refuse to write down the evening's specials and openly mock her, Monica loses her patience. Fed up with trying to maintain a positive and friendly working environment, she confronts the staff, putting her foot down and declaring that it is now \"my way or the highway\" to establish her authority."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:44 - 00:03:09",
+    "batch_summary": "In the kitchen, Monica confronts Joey for failing to go along with their plan to get him fired so she can assert her authority. Joey apologizes, admitting he got distracted by his lucrative tips and needs the job for rent. He proposes staying to win over the staff and talk Monica up, confessing he has joined in on their teasing just to fit in. Meanwhile, back at the coffee shop, Phoebe sings a holiday song for Chandler and Monica, only for Chandler to remind her that he is not Jewish.",
+    "cumulative_summary": "At the coffee shop, Chandler accidentally tells Rachel's date she wants a casual fling, leaving her worried about his intentions. Meanwhile, Monica struggles to gain respect from her kitchen staff at her restaurant. To establish authority, she hires Joey with the secret plan of firing him in front of everyone. However, when Monica tries to execute the plan, Joey backs down, seduced by the large holiday tips he is earning. When Monica confronts him, Joey begs to keep his job to pay rent, proposing that he instead gain the staff's trust to slowly win them over to her side. He admits he has been joining in on their dislike of her just to fit in. Back at the coffee shop, Phoebe tries out a festive Hanukkah song for Chandler and Monica, but Chandler quickly points out that he is not Jewish."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:09 - 00:05:09",
+    "batch_summary": "At the coffee shop, Phoebe advises an exhausted Ross to break up with both of his current love interests—one uptown and one in Poughkeepsie—on a single train trip, which he agrees to do. Meanwhile, Rachel confronts Chandler after her date, Patrick, dumps her. It turns out Chandler told Patrick she wanted a serious relationship, scaring him off. A remorseful Chandler apologizes as Rachel laments being alone, though he tries to reassure her that she will find someone.",
+    "cumulative_summary": "Monica continues to struggle with her kitchen staff, while Joey tries to help her gain their respect from the inside. At the coffee shop, Phoebe advises an exhausted Ross to end things with both of his current dates—one from uptown and one from Poughkeepsie—during a single train trip, a plan Ross decides to follow. Meanwhile, Rachel's dating life takes a hit when her date, Patrick, breaks up with her. She furiously confronts Chandler, who admits he told Patrick she was looking for a serious relationship, scaring him away. A remorseful Chandler apologizes as Rachel despairs over being alone, though he tries to comfort her with the hope of meeting someone new."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:09 - 00:06:38",
+    "batch_summary": "Chandler successfully comforts a downcast Rachel by offering genuine compliments and inviting her to a hockey game, though he quickly ruins the sweet moment with an inappropriate question. Meanwhile, Ross's plan goes awry when he falls asleep on the train, completely missing his Poughkeepsie date as she frantically tries to wake him from the platform. Back at the restaurant, Monica's authority continues to crumble as her kitchen staff openly disrespect and ignore her.",
+    "cumulative_summary": "Monica continues to struggle with her kitchen staff, who openly disrespect and ignore her orders, while Joey tries to help her gain their respect from the inside. At the coffee shop, Phoebe advises an exhausted Ross to end things with both of his current dates—one from uptown and one from Poughkeepsie—during a single train trip. However, Ross's plan goes awry when he falls asleep on the train, completely missing his Poughkeepsie date as she frantically tries to wake him from the platform. Meanwhile, Rachel's dating life takes a hit when her date, Patrick, breaks up with her. After a furious confrontation, a remorseful Chandler comforts Rachel by offering genuine compliments and inviting her to a hockey game. Although they share a sweet, cozy moment, Chandler quickly ruins the mood by asking an inappropriate question."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:38 - 00:08:20",
+    "batch_summary": "Monica's kitchen staff lock her in the walk-in refrigerator, leaving her covered in marinara sauce. After escaping, a frustrated Monica confronts them. Joey steps in, staging a confrontation where he acts insubordinate so Monica can publicly fire him. The plan works perfectly: the display of authority intimidates the disrespectful staff, including Stu, finally giving Monica the upper hand and earning her the respect she struggled to get.",
+    "cumulative_summary": "Monica's struggle with her disrespectful kitchen staff reaches a boiling point when they lock her in the walk-in refrigerator, leaving her covered in marinara sauce. After escaping, a frustrated Monica confronts the team. Joey seizes the opportunity to execute their plan, staging a loud, insubordinate argument. Monica dramatically 'fires' Joey on the spot, successfully intimidating the staff—especially Stu—into silence and finally establishing her authority in the kitchen. This triumph follows a series of chaotic events for the group, including Ross's failed attempt to end things with his Poughkeepsie date after falling asleep on a train, and Rachel's emotional recovery after her breakup with Patrick, which was briefly comforted by Chandler before he ruined the moment with an inappropriate question."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:20 - 00:10:11",
+    "batch_summary": "Monica solidifies her control over her kitchen staff, while Joey hilariously overplays his \"fired\" persona to help her. Meanwhile, Ross wakes up to find he has slept all the way to Montreal. He briefly agrees to get coffee with a charming passenger, only to realize she actually lives a two-hour ferry ride away in Nova Scotia. Later, the group gathers at Central Perk, where Phoebe begins performing a special holiday song she wrote for them.",
+    "cumulative_summary": "After Monica successfully establishes her authority in the kitchen by staging Joey's dramatic firing, Joey hilariously overplays his \"fired\" persona to keep the staff intimidated. Meanwhile, Ross's train troubles escalate when he falls asleep on a train yet again, waking up at the final stop in Montreal. Though a charming passenger flirts with him and invites him for coffee, Ross is dismayed to learn she actually lives a two-hour ferry ride away in Nova Scotia. Back in New York, the friends gather at a festively decorated Central Perk, where Phoebe takes the stage to perform a special holiday song she wrote dedicated to her beloved friends. This warm gathering brings the group together after a chaotic period of relationship struggles, including Rachel's emotional recovery from her breakup and Ross's exhausting long-distance dating mishaps."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 258,
+    "timestamp_range": "00:10:11 - 00:11:08",
+    "batch_summary": "Phoebe performs her original holiday song for the group at Central Perk. After warning the audience not to sing along, she delivers humorous, personalized verses for her friends. She wishes Monica a happy Hanukkah, mentions Santa greeting Ross, and leaves Joey utterly confused with a line about snow. Struggling to find a rhyme for Rachel and Chandler, she hilariously improvises \"lemon blood\" before wishing everyone happy holidays to warm applause, ending the festive gathering on a lighthearted note.",
+    "cumulative_summary": "After Monica successfully establishes her authority in the kitchen by staging Joey's dramatic firing, Joey hilariously overplays his \"fired\" persona to keep the staff intimidated. Meanwhile, Ross's train troubles escalate when he falls asleep on a train yet again, waking up in Montreal. Back in New York, the friends gather at a festively decorated Central Perk, where Phoebe takes the stage to perform her special holiday song. After warning the audience not to sing along, Phoebe delivers humorous, personalized verses for her friends. She wishes Monica a happy Hanukkah, shares a message from Santa for Ross, and leaves Joey thoroughly baffled by her lyrics. When she struggles to find a rhyme for Rachel and Chandler, she humorously improvises \"lemon blood\" to the confusion of both. Despite the lyrical quirks, her heartfelt performance ends with warm applause, bringing a joyful and festive close to the group's chaotic holiday season."
+  }
+]

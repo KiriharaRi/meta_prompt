@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:57",
+    "batch_summary": "At Central Perk, Ross's friends watch him kiss Cheryl, a beautiful paleontology doctoral candidate. While the group is impressed, Rachel reacts with jealousy and makes sarcastic remarks, which Ross easily deflects. Later, at the apartment, Chandler seeks wrapping paper for an early edition of The Velveteen Rabbit, a highly thoughtful birthday gift he bought for Kathy, which leaves Rachel deeply touched.",
+    "cumulative_summary": "The story begins at Central Perk, where Joey, Monica, Phoebe, Chandler, and Rachel watch through the window as Ross kisses Cheryl, a stunning woman he just took out to dinner. When Ross enters, his friends are amazed by his success, especially after learning Cheryl is a brilliant paleontology doctoral candidate. Rachel, clearly feeling envious, tries to mock Ross by suggesting Cheryl is using him for a \"biggest geek\" contest, but Ross remains unfazed and excited for their next date. Later, the scene shifts to the apartment, where Chandler arrives with a package. After a humorous exchange with Phoebe about a long-overdue birthday present, Chandler reveals he has purchased an early edition of The Velveteen Rabbit as a birthday gift for Kathy. Rachel is deeply impressed by the incredibly thoughtful gesture, highlighting Chandler's strong feelings for Kathy."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:57 - 00:03:51",
+    "batch_summary": "Rachel and Ross point out that Chandler's incredibly thoughtful gift for Kathy will expose his secret feelings and make Joey look bad. To avoid this, Chandler decides to help Joey find an equally great present. Meanwhile, Monica reluctantly turns down a large catering job due to a lack of funds. Refusing to let her give up, Phoebe pushes Monica to commit to her career and offers to lend her $500 to cover the expenses, motivating her to get moving.",
+    "cumulative_summary": "The story begins at Central Perk, where the gang watches Ross kiss Cheryl, a stunning paleontology doctoral candidate. While Rachel enviously mocks Ross, he remains excited for their next date. Later, Chandler reveals he bought an early edition of The Velveteen Rabbit for Kathy's birthday. Rachel and Ross quickly point out that such an incredibly thoughtful gift will expose Chandler's secret feelings for his roommate's girlfriend and make Joey look bad. To prevent this, Chandler decides to help Joey find an equally great present. Meanwhile, Monica is forced to turn down a 60-person funeral catering job due to a lack of funds and equipment. Refusing to let Monica give up on her dreams, Phoebe pushes her to commit to her career and generously offers to lend her $500 to cover the supplies, motivating Monica to finally get her catering business moving."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:51 - 00:05:32",
+    "batch_summary": "After accepting Phoebe's loan, Monica successfully caters her first funeral and even books another gig. However, when she proudly shows off her new equipment, Phoebe immediately asks for her money back, catching Monica off guard. Meanwhile, Joey and Kathy arrive at the apartment. Chandler, Rachel, and Ross pressure Joey into getting Kathy a real birthday present, warning him against using his usual \"Joey Love\" coupons.",
+    "cumulative_summary": "The story begins at Central Perk, where Ross's new romance with Cheryl sparks Rachel's envy. Meanwhile, Chandler buys an early edition of The Velveteen Rabbit for Kathy's birthday, but Rachel and Ross warn him that such a thoughtful gift will expose his secret feelings for Joey's girlfriend. To save face, Chandler, Rachel, and Ross pressure a clueless Joey into finding Kathy a real birthday present instead of his usual cheap coupons. Meanwhile, Monica accepts Phoebe's $500 loan to kickstart her catering business. Her first funeral gig is a massive success, earning her another booking. However, the celebration is cut short when Monica proudly shows off her new equipment, and Phoebe unexpectedly demands her money back immediately, leaving Monica caught off guard."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:32 - 00:07:42",
+    "batch_summary": "Monica reassures Phoebe that she will repay the loan using earnings from her next catering job, easing the tension between them. Meanwhile, Ross's romantic evening with Cheryl takes a bizarre turn when he visits her apartment and finds it overwhelmingly filthy and cluttered. Uncomfortable, Ross suggests returning to his place, but Cheryl refuses, claiming his apartment has a \"weird smell.\" Later, Monica and Phoebe prepare for their next catering gig, lightheartedly packing up their gear.",
+    "cumulative_summary": "The story begins at Central Perk, where Ross's new romance with Cheryl sparks Rachel's envy. Meanwhile, Chandler buys an early edition of The Velveteen Rabbit for Kathy's birthday, but Rachel and Ross warn him that such a thoughtful gift will expose his secret feelings for Joey's girlfriend. To save face, Chandler, Rachel, and Ross pressure a clueless Joey into finding Kathy a real birthday present instead of his usual cheap coupons. Meanwhile, Monica accepts Phoebe's $500 loan to kickstart her catering business. After a successful first gig, Phoebe unexpectedly demands her money back, but Monica quickly eases the tension by promising to repay her with earnings from her next job. As the two prepare for their next catering gig, Ross's relationship with Cheryl hits a bizarre roadblock. Upon visiting her apartment, Ross is horrified to find it overwhelmingly filthy and cluttered. When he tries to escape the mess by suggesting they go back to his place, Cheryl refuses, claiming his apartment has a \"weird smell.\""
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:42 - 00:09:17",
+    "batch_summary": "Monica and Phoebe's catering gig takes an awkward turn when Monica attempts to collect payment from the recently widowed Mrs. Burkart. The request triggers the widow's tears, forcing a guilty Monica to retreat empty-handed. Meanwhile, back at the apartment, Rachel playfully drops hints to Chandler about \"rent\" under the guise of discussing Broadway musicals, though she quickly brushes off his actual invitation to go. Joey then arrives home with a mysterious shopping bag.",
+    "cumulative_summary": "Ross's new romance with Cheryl sparks Rachel's envy. Meanwhile, Chandler buys an early edition of The Velveteen Rabbit for Kathy's birthday, but Rachel and Ross warn him that such a thoughtful gift will expose his secret feelings for Joey's girlfriend. To save face, they pressure Joey into finding Kathy a real birthday present. Meanwhile, Monica accepts Phoebe's $500 loan to kickstart her catering business. After a successful first gig, Phoebe demands her money back, but Monica promises to repay her with earnings from her next job. As the two prepare for their next catering gig, Ross's relationship with Cheryl hits a bizarre roadblock. Upon visiting her apartment, Ross is horrified to find it overwhelmingly filthy and cluttered. When he tries to escape the mess by suggesting they go back to his place, Cheryl refuses, claiming his apartment has a \"weird smell.\" At their next catering gig, Monica's attempt to collect payment from a grieving widow, Mrs. Burkart, backfires when the woman bursts into tears, forcing Monica to retreat empty-handed. Back at the apartment, Rachel humorously drops hints to Chandler about \"rent\" by pretending to discuss Broadway musicals, right before Joey arrives home with a shopping bag."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:17 - 00:11:00",
+    "batch_summary": "Joey proudly presents his birthday gift for Kathy: a cheap pen that doubles as a clock. Rachel and Chandler quickly mock the childish present, pointing out it is inappropriate for a boyfriend. Stressed by an upcoming audition, Joey begs Chandler to find a better gift and card for him instead. Chandler reluctantly agrees, keeping his own thoughtful gift a secret. Meanwhile, Monica returns to Phoebe empty-handed, explaining that she couldn't bring herself to demand payment from the sobbing, grieving widow.",
+    "cumulative_summary": "Ross's romance with Cheryl sparks Rachel's envy, but it hits a roadblock when Ross finds Cheryl's apartment overwhelmingly filthy. Meanwhile, Chandler buys an early edition of The Velveteen Rabbit for Kathy's birthday. Rachel and Ross warn him that such a thoughtful gift will expose his secret feelings for Joey's girlfriend, pressuring Joey to find his own present. However, Joey's choice is a cheap pen-clock, which Rachel and Chandler reject as childish. Busy with an audition, Joey asks Chandler to shop for a better gift and card on his behalf, leaving Chandler in a difficult position. Meanwhile, Monica accepts a $500 loan from Phoebe to start her catering business. After their first gig, Monica's attempt to collect payment from the grieving widow, Mrs. Burkart, backfires when the woman bursts into tears. Monica returns empty-handed, leaving her and Phoebe still waiting for their payout."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 252,
+    "timestamp_range": "00:11:00 - 00:11:32",
+    "batch_summary": "Back at the apartment, Phoebe and Monica discuss the unpaid catering bill. Drawing from her past experiences in various odd jobs, Phoebe suggests that the grieving widow, Mrs. Burkart, might be faking her emotional breakdown to avoid paying them. Monica is surprised by this cynical theory but listens as Phoebe explains how people often make excuses to get out of paying for services.",
+    "cumulative_summary": "Ross's romance with Cheryl sparks Rachel's envy, but it hits a roadblock when Ross finds Cheryl's apartment overwhelmingly filthy. Meanwhile, Chandler buys an early edition of The Velveteen Rabbit for Kathy's birthday. Rachel and Ross warn him that such a thoughtful gift will expose his secret feelings for Joey's girlfriend, pressuring Joey to find his own present. However, Joey's choice is a cheap pen-clock, which Rachel and Chandler reject as childish. Busy with an audition, Joey asks Chandler to shop for a better gift and card on his behalf, leaving Chandler in a difficult position. Meanwhile, Monica accepts a $500 loan from Phoebe to start her catering business. After their first gig, Monica's attempt to collect payment from the grieving widow, Mrs. Burkart, backfires when the woman bursts into tears. Monica returns empty-handed, prompting Phoebe to suggest that the widow might actually be faking her grief to avoid paying the bill, drawing on her own past experiences with difficult clients."
+  }
+]

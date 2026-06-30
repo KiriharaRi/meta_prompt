@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:40",
+    "batch_summary": "Monica and Phoebe surprise their friends with a new catering van featuring a wild fantasy painting, which they plan to modify. Later, at the apartment, Monica reveals she has taken a temporary job as a food critic for The Chelsea Reporter. Although Phoebe initially worries about their catering business, Monica wins everyone over by promising free dinners. Chandler then arrives home with a question for Ross.",
+    "cumulative_summary": "Monica and Phoebe surprise Chandler, Ross, Joey, and Rachel by revealing a newly acquired blue catering van. The van features a striking, eccentric painting of a woman riding a dragon, which the group jokingly reacts to, prompting Rachel to reminisce and Phoebe to suggest painting a baguette over the sword. Later, back at the apartment, Monica announces she is filling in as a food critic for The Chelsea Reporter. While Ross teases her about the small readership, Phoebe expresses concern about how this will affect their joint catering business. However, Monica reassures her that it is only a one-night-a-week commitment and promises the group plenty of free dinners, quickly winning over both Phoebe and Joey. The lighthearted moment is interrupted when Chandler enters the apartment, eager to ask Ross a quick question."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:40 - 00:03:18",
+    "batch_summary": "Chandler excites Ross with the news that their legendary party-animal friend, \"Gandalf\" (Mike Ganderson), is coming to town. The two enthusiastically plan a wild night out, leaving Joey feeling left out until they assure him he will love Gandalf. When Ross asks Joey if he read Lord of the Rings, Joey delivers a classic burn. Meanwhile, Rachel approaches her boss, Joanna, to inquire about an assistant buyer position, but Joanna hilariously misunderstands, thinking Rachel is suggesting the job for her.",
+    "cumulative_summary": "Monica and Phoebe surprise the group with their new catering van, which features an eccentric dragon painting. Later, Monica announces she is filling in as a food critic, reassuring Phoebe that their catering business remains a priority. The focus shifts when Chandler enters and ecstatically reveals that their legendary friend, \"Gandalf\" the party wizard, is coming to town. Ross and Chandler immediately regress into excited \"dudes,\" planning a wild night of partying. Joey is initially offended by their claim that they never have fun anymore, but Ross assures him he will love Gandalf, leading to a hilarious exchange about high school reading habits. Meanwhile, Rachel takes a step toward career advancement by asking her boss, Joanna, about an open assistant buyer position in Junior Miss. However, Joanna immediately misinterprets the inquiry as a job suggestion for herself."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:18 - 00:04:53",
+    "batch_summary": "Rachel clarifies to Joanna that she wants the assistant buyer position for herself. Joanna reluctantly supports her and reveals she is on the hiring committee, though she subjects Rachel to some highly awkward and inappropriate jokes. Meanwhile, Chandler's excitement for Gandalf's visit reaches a fever pitch as he describes their legendary, unpredictable adventures to Joey. Ross then arrives fully prepared for any wild scenario, packing his passport, fresh socks, and a snake bite kit.",
+    "cumulative_summary": "Monica and Phoebe showcase their new catering van, while Monica balances this with a temporary gig as a food critic. Meanwhile, Chandler ecstatically announces that their legendary party-animal friend, \"Gandalf,\" is coming to town. Ross and Chandler regress into excited \"dudes\" planning a wild night, leaving Joey skeptical until Chandler explains the unpredictable nature of Gandalf's adventures. Ross even arrives over-prepared with a passport and a snake bite kit. At work, Rachel clarifies to her boss, Joanna, that she wants the open assistant buyer position for herself. Joanna reluctantly agrees to let her apply and reveals she is on the hiring committee, but subjects Rachel to a series of highly awkward and inappropriate jokes, leaving Rachel forced to laugh along to keep her career prospects alive."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:53 - 00:06:33",
+    "batch_summary": "Ross and Chandler's excitement is crushed when Gandalf calls to cancel his visit because he is stuck in Chicago. Meanwhile, Rachel attends her interview for the assistant buyer position. Despite the other committee members being impressed by her resume, Joanna actively sabotages Rachel by belittling her accomplishments, reducing her responsibilities to merely fetching bagels and coffee. Rachel is left shocked and struggling to defend her professional capabilities.",
+    "cumulative_summary": "Monica and Phoebe showcase their catering van, while Monica works as a food critic. Meanwhile, Chandler and Ross eagerly prepare for a wild night with their legendary friend \"Gandalf,\" with Ross going so far as to bring a passport and snake bite kit. However, their excitement is crushed when Gandalf calls to cancel because he is stuck in Chicago. At work, Rachel pursues the open assistant buyer position. Although Joanna reluctantly agreed to let her apply, she uses the official interview to actively sabotage Rachel. While the other hiring committee members are impressed by Rachel's resume, Joanna repeatedly undermines her achievements, publicly reducing her professional contributions to merely fetching coffee and bagels. Rachel is left stunned and struggling to save her career advancement."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:33 - 00:08:10",
+    "batch_summary": "Joanna's sabotage of Rachel reaches a new low during the interview when she makes highly inappropriate, suggestive comments about Rachel's professional relationships with designers. Meanwhile, Monica proudly shares her first published food review with Phoebe, which is a brutally harsh critique of a restaurant called Alessandro's. After Phoebe leaves to arrange repairs for their catering van, Monica is thrown into a panic when the restaurant's owner, Alessandro, buzzes her apartment to confront her about the review.",
+    "cumulative_summary": "Chandler and Ross's plans for a wild night are ruined when their legendary friend \"Gandalf\" cancels. Meanwhile, Rachel pursues an assistant buyer position, but her boss, Joanna, actively sabotages her during the interview. Joanna's undermining behavior escalates to highly inappropriate, suggestive remarks about Rachel's relationships with designers, leaving Rachel stunned. Elsewhere, Monica, now working as a food critic, proudly shares her first published review with Phoebe—a brutally harsh critique of a restaurant called Alessandro's. After Phoebe leaves to arrange repairs for their new catering van, Monica is thrown into a panic when the restaurant's owner, Alessandro, unexpectedly buzzes her apartment to confront her about the review."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:10 - 00:09:56",
+    "batch_summary": "Alessandro manages to enter Monica's apartment to demand a retraction of her harsh review. Monica stands by her critique of his restaurant's food and service, but agrees to retract a minor detail about credit cards. To prove her point about his subpar marinara sauce, she decides to cook for him. Meanwhile, Rachel confronts Joanna about her sabotaged interview. Despite Joanna's dismissive attitude, a highly emotional Rachel demands to discuss the situation, warning her boss that she might cry from sheer frustration.",
+    "cumulative_summary": "Chandler and Ross's plans for a wild night are ruined when their friend \"Gandalf\" cancels. Meanwhile, Monica's first published food review—a brutal critique of a restaurant called Alessandro's—leads to a direct confrontation when the owner, Alessandro, bypasses her intercom and enters her apartment. He demands a retraction, but Monica fiercely defends her review of his terrible food and service. To prove how subpar his marinara sauce is, she challenges him by offering to cook a proper version herself. Elsewhere, Rachel decides to confront her boss, Joanna, about the disastrous interview for the assistant buyer position. Despite Joanna's dismissive and inappropriate behavior during the interview, Rachel stands her ground in Joanna's office. Visibly emotional and on the verge of tears of frustration, Rachel demands they discuss the sabotage, refusing to let Joanna brush the matter aside."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 266,
+    "timestamp_range": "00:09:56 - 00:10:56",
+    "batch_summary": "Rachel's confrontation with Joanna escalates when Joanna tries to deflect by claiming Rachel is making a scene. Joanna calls in their coworker Sophie to back her up, but Sophie supports Rachel instead and is promptly dismissed. Realizing Joanna's sabotage means she has no future there, Rachel asks if Joanna wants her to quit. Receiving no satisfactory explanation, Rachel dramatically decides to pack up her desk and quit on the spot, choosing to leave the office immediately.",
+    "cumulative_summary": "Chandler and Ross's plans for a wild night are ruined when their friend \"Gandalf\" cancels. Meanwhile, Monica's brutal food review of Alessandro's leads to a direct confrontation with the owner, whom she challenges to a cooking demonstration to prove her critique was accurate. Elsewhere, Rachel stands her ground and confronts her boss, Joanna, about sabotaging her assistant buyer interview. When Joanna tries to deflect by claiming Rachel is making a scene and drags their coworker Sophie into the argument, Sophie unexpectedly sides with Rachel. Realizing Joanna does not value her, Rachel asks if Joanna wants her to quit. Receiving no satisfactory explanation for the sabotage, Rachel dramatically decides to pack up her desk and quit on the spot, choosing to leave the office immediately."
+  }
+]

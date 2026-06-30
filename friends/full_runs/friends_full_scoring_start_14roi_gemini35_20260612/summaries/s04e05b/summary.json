@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:10",
+    "batch_summary": "After a blonde woman leaves Ross with two children, Chandler frantically chases Kathy down a busy city street. After tripping over dogs and falling into garbage, he catches up to her just to say \"hey.\" Later, in the apartment, Ross laments a humiliating experience while Phoebe tries to catch a cold. Chandler arrives and confesses to his friends that he is in love with Joey's girlfriend, Kathy, expressing intense guilt over his feelings.",
+    "cumulative_summary": "The story begins with a blonde woman leaving Ross's apartment, leaving him alone with two children whom he tries to entertain. Meanwhile, Chandler spots Kathy jogging on a busy city street and desperately chases after her. Despite tripping over dog leashes, falling into a pile of garbage, and scrambling over yellow taxis, Chandler finally catches up to her just to say a brief hello before she jogs away. Later, back at the apartment, Ross is depressed over a humiliating situation where he was tipped ten dollars, and Phoebe bizarrely tries to catch a cold to make her voice sound sexy. The atmosphere shifts when a disheveled Chandler arrives and makes a shocking confession to Monica, Ross, and Phoebe: he is deeply in love with Joey's girlfriend, Kathy. Overwhelmed with guilt, Chandler declares himself a horrible person for harboring feelings for his best friend's partner, leaving his friends stunned."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:10 - 00:03:51",
+    "batch_summary": "Monica catches Phoebe's cold, but the main tension arises when Joey and Kathy arrive. As Kathy affectionately praises Joey's simple tastes, a pained Chandler abruptly leaves. Later, Chandler tries to avoid them by playing hide-and-seek with his pets. When Joey invites him to dinner, Chandler makes a ridiculous excuse to get out of it. Misinterpreting Chandler's awkward avoidance, Joey mistakenly concludes that Chandler simply dislikes Kathy.",
+    "cumulative_summary": "The story begins with a blonde woman leaving Ross's apartment, leaving him alone with two children. Meanwhile, Chandler desperately chases Kathy through busy city streets, only to say a brief hello. Back at the apartment, Ross is depressed over a bad tip, Phoebe tries to catch a cold to make her voice sexy, and Monica eventually catches it. The atmosphere shifts when a disheveled Chandler confesses to Monica, Ross, and Phoebe that he is deeply in love with Joey's girlfriend, Kathy, leaving them stunned. When Joey and Kathy arrive, Chandler is visibly pained by their affection and abruptly leaves. To avoid them, Chandler isolates himself at home, even playing hide-and-seek with his duck and chick. When Joey invites him to dinner with Kathy, Chandler makes a bizarre excuse to decline. Misinterpreting his best friend's awkward avoidance and obvious discomfort, Joey mistakenly concludes that Chandler simply dislikes Kathy, unaware of Chandler's true, agonizing feelings for her."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:51 - 00:05:27",
+    "batch_summary": "Joey confronts Chandler about avoiding Kathy, mistakenly believing Chandler dislikes her, and pressures him into joining them for dinner. Chandler reluctantly agrees to keep his secret safe. Meanwhile, a sick Monica rests at home while Rachel suspects her boyfriend, Josh, of stealing from her. This is quickly confirmed when Phoebe arrives and mentions seeing Josh wearing Rachel's leather jacket, prompting Rachel to run after him. Phoebe then stays to care for Monica with some unique \"noodle water\" soup.",
+    "cumulative_summary": "The story begins with Chandler desperately harboring a secret love for Joey's girlfriend, Kathy. To avoid them, Chandler isolates himself, leading Joey to mistakenly conclude that Chandler simply dislikes Kathy. Joey confronts Chandler about this avoidance and pressures him into joining them for dinner; Chandler reluctantly agrees to keep up appearances. Meanwhile, Monica is sick on the couch with a cold. Rachel arrives with her boyfriend, Josh, whom she suddenly suspects is stealing from her. Her suspicions are instantly confirmed when Phoebe arrives to deliver some bizarre \"noodle water\" soup to Monica and casually mentions seeing Josh wearing Rachel's leather jacket. Realizing the truth, Rachel runs out to confront him, while Phoebe stays behind to help clean up after the ailing Monica."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:27 - 00:07:19",
+    "batch_summary": "Phoebe tries to catch Monica's cold to regain her \"sexy\" raspy voice, even drinking from Monica's cup. Meanwhile, Chandler reluctantly joins Joey and Kathy at a bar. When Kathy touches Chandler's shoulder and offers to set him up, an uncomfortable Chandler flees to the bar. Joey follows, demanding Chandler pretend to like Kathy. Overwhelmed by his secret feelings, Chandler snaps, launching into a passionate, sarcastic rant about how he is actually desperately in love with her, barely masking his true agony.",
+    "cumulative_summary": "The story begins with Chandler harboring a secret love for Joey's girlfriend, Kathy. To avoid them, Chandler isolates himself, leading Joey to believe Chandler dislikes her. Joey pressures Chandler into joining them for drinks to mend fences. Meanwhile, Monica is sick with a cold, and Phoebe desperately tries to catch her germs to regain her \"sexy\" raspy voice. At the bar, Kathy tries to set Chandler up on a double date and touches his shoulder, prompting an uncomfortable Chandler to flee to the counter. Joey follows, demanding Chandler pretend to like Kathy. Overwhelmed by his hidden feelings, Chandler snaps and launches into a passionate, sarcastic rant about how he is actually desperately in love with her, barely masking his genuine agony from his oblivious best friend."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:19 - 00:09:17",
+    "batch_summary": "Joey completely misinterprets Chandler's passionate confession as a convincing acting performance, advising him to tone it down. Meanwhile, a sick Monica rests at home while Rachel and Ross bicker. Rachel mocks Ross's relationship with a much younger woman, Amanda, whom Monica reveals Ross is actually just babysitting. Ross retaliates by pointing out that Rachel's boyfriend is stealing from her, only for Monica to realize the stolen money was actually hers. The bickering highlights the group's petty but humorous dynamics.",
+    "cumulative_summary": "Chandler harbors a secret love for Joey's girlfriend, Kathy. To avoid them, Chandler isolates himself, leading Joey to believe Chandler dislikes her. Joey pressures Chandler into joining them for drinks to mend fences. Meanwhile, Monica is sick with a cold, and Phoebe desperately tries to catch her germs to regain her \"sexy\" raspy voice. At the bar, Chandler snaps and launches into a passionate, sarcastic rant about how he is actually desperately in love with Kathy. However, the oblivious Joey completely misinterprets this confession as a stellar acting performance and advises him to tone it down. Back at the apartment, a sick Monica rests while Ross and Rachel engage in a petty bickering match. Rachel mocks Ross for dating a much younger woman, Amanda, only for Monica to expose that Ross is actually just babysitting her. Ross retaliates by pointing out that Rachel's boyfriend is stealing from her, which takes a comedic turn when Monica realizes the stolen money was actually hers."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:17 - 00:10:58",
+    "batch_summary": "Ross and Rachel's petty bickering concludes with childish gestures. At Central Perk, Phoebe, desperate to regain her \"sexy\" raspy voice, impulsively kisses Gunther to catch his germs, leaving him stunned. Meanwhile, Joey asks Chandler for privacy in their apartment to be with Kathy. Unable to bear being near them due to his secret feelings, a heartbroken Chandler takes his pillow and blanket to Monica's apartment, asking to sleep on her couch.",
+    "cumulative_summary": "Chandler harbors a secret love for Joey's girlfriend, Kathy. To avoid them, Chandler isolates himself, leading Joey to believe Chandler dislikes her. After a series of misunderstandings, including Joey misinterpreting Chandler's passionate confession of love for Kathy as acting, the tension peaks. When Joey asks Chandler for privacy in their apartment to be with Kathy, a heartbroken Chandler flees to Monica's apartment to sleep on her couch. Meanwhile, Ross and Rachel's petty bickering concludes with childish mocking. Desperate to regain her \"sexy\" raspy voice, Phoebe takes extreme measures at Central Perk by kissing Gunther to catch his germs, leaving him utterly stunned."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 262,
+    "timestamp_range": "00:10:58 - 00:11:41",
+    "batch_summary": "At Central Perk, a guilty Gunther confesses to Rachel about his recent kiss with Phoebe, clarifying that he did not initiate it but felt responsible. Confused by his confession but wanting to move past the awkwardness, Rachel casually reassures him that they are \"cool.\" Gunther leaves relieved, while Rachel is left utterly bewildered by the strange interaction.",
+    "cumulative_summary": "Chandler harbors a secret love for Joey's girlfriend, Kathy. To avoid them, Chandler isolates himself, leading Joey to believe Chandler dislikes her. After a series of misunderstandings, including Joey misinterpreting Chandler's passionate confession of love for Kathy as acting, the tension peaks. When Joey asks Chandler for privacy in their apartment to be with Kathy, a heartbroken Chandler flees to Monica's apartment to sleep on her couch. Meanwhile, Ross and Rachel's petty bickering concludes with childish mocking. Desperate to regain her \"sexy\" raspy voice, Phoebe takes extreme measures at Central Perk by kissing Gunther to catch his germs. This leads to an awkward encounter when a guilt-ridden Gunther confesses the kiss to Rachel, clarifying he didn't initiate it. A bewildered Rachel, unaware of Gunther's secret crush on her, casually reassures him that they are \"cool,\" leaving her thoroughly confused as he walks away relieved."
+  }
+]

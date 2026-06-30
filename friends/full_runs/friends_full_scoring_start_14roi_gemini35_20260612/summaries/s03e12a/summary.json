@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:40",
+    "batch_summary": "In the apartment, Rachel anxiously prepares for her first day at a new job while wearing a towel. Chandler teases her, but Ross defends her and offers to take her to lunch. However, Rachel reveals she is having lunch with Mark, the colleague who helped her get the job. Meanwhile, Phoebe arrives with a selection of purses for Rachel, and Chandler invites Ross to a bachelor party for his eccentric cousin Albert, prompting Phoebe to mock the cliché of having a stripper.",
+    "cumulative_summary": "In the apartment, Rachel anxiously prepares for her first day at a new job, wearing only a towel and questioning her shoe choice. While Chandler playfully teases her, Ross steps in to defend her. Phoebe arrives with a collection of purses for Rachel to borrow, though Rachel quickly rejects one with a turtle pattern due to a fear of turtles. Hoping to support Rachel, Ross offers to take her out for lunch, but he is visibly disappointed to learn that Mark, the colleague who helped her secure the job, is already taking her out. Meanwhile, Chandler invites Ross to a bachelor party for his eccentric botanist cousin, Albert, who apparently has no friends and is only getting married to see a stripper. Phoebe overhears this and scoffs at the cliché of having a stripper at a bachelor party, maintaining the group's characteristically humorous and lighthearted dynamic."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:40 - 00:03:08",
+    "batch_summary": "After Chandler jokingly rejects Phoebe's suggestion of a magician for the bachelor party, Ross vents to Chandler and Joey about his intense jealousy over Rachel's lunch date with her handsome new colleague, Mark. Chandler advises Ross to suppress his feelings. Meanwhile, Joey excitedly announces he has landed an audition for a musical adaptation of A Tale of Two Cities. However, Joey's plans to sing songs about New York and San Francisco reveal his complete ignorance of the classic Charles Dickens novel, leaving Chandler to explain what Cliff Notes are.",
+    "cumulative_summary": "In the apartment, Rachel anxiously prepares for her first day at a new job, supported by Ross and Phoebe. However, Ross is visibly disappointed and jealous to learn that Mark, the handsome colleague who helped Rachel get the job, is taking her out for lunch. Meanwhile, Chandler invites Ross to a bachelor party for his cousin, playfully dismissing Phoebe's suggestion of hiring a magician instead of a stripper. Later, Ross vents his insecurities about Mark to Chandler and Joey, but Chandler advises him to hide his feelings. The mood lightens when Joey excitedly announces he has secured an audition for a Broadway musical adaptation of A Tale of Two Cities. However, Joey's plan to sing songs about New York and San Francisco hilariously exposes his complete ignorance of Charles Dickens' classic novel, leaving Chandler and Ross to gently mock his confusion over Cliff Notes and abridgments."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:08 - 00:04:58",
+    "batch_summary": "Rachel enthusiastically begins her new job, but Ross's jealousy flares up when he calls her and Mark answers. Ross becomes increasingly insecure upon learning that Rachel and Mark share an office. When Rachel abruptly hangs up to fix a shipping mistake with Mark's help, a frustrated Ross accidentally staples his thumb. Meanwhile, at the Moondance Diner, Monica's coworker encourages her to pursue a mystery man, though Monica plays down her interest.",
+    "cumulative_summary": "Rachel anxiously prepares for her first day at her new job, supported by her friends, though Ross is visibly jealous of her handsome new colleague, Mark. Meanwhile, Joey prepares for a Broadway audition despite his hilarious ignorance of A Tale of Two Cities. On her first day, Rachel is thrilled with her job perks, but Ross's insecurities peak when he calls her office and Mark answers. Ross is dismayed to learn they share an office, and his jealousy intensifies when Rachel abruptly hangs up to fix a shipping error with Mark's assistance. In his distracted frustration, Ross accidentally staples his thumb. Later, at the Moondance Diner, Monica's coworker playfully pressures her to pursue a mystery man, though Monica remains hesitant to make a move."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:58 - 00:06:36",
+    "batch_summary": "At the Moondance Diner, Monica strikes up a conversation with her coworker Julio after finding his book of poetry. Julio reveals he is a poet and begins flirting with her, complimenting her lips. The romantic tension quickly builds, leading to a passionate kiss between them. Monica playfully jokes about the kiss not rhyming, signaling the start of a promising new spark.",
+    "cumulative_summary": "Rachel anxiously prepares for her first day at her new job, supported by her friends, though Ross is visibly jealous of her handsome new colleague, Mark. On her first day, Rachel is thrilled with her job perks, but Ross's insecurities peak when he learns she shares an office with Mark. In his distracted frustration, Ross accidentally staples his thumb. Meanwhile, Joey prepares for a Broadway audition despite his hilarious ignorance of A Tale of Two Cities. At the Moondance Diner, Monica finally makes a move on her coworker, Julio, after finding his book of poetry. Julio reveals he is a poet and flirts with her, complimenting her lips. The romantic tension peaks when they share a passionate kiss, leaving Monica smitten and joking about his poetic style."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:36 - 00:08:13",
+    "batch_summary": "After sharing another kiss with Julio, Monica remains smitten. Meanwhile, Joey's Broadway audition goes surprisingly well, earning him a callback. However, panic sets in when the director mentions a dance audition. Back at the apartment, Chandler and Phoebe discover Joey lied extensively on his resume, claiming years of professional dance training. When Joey attempts to demonstrate his skills, he performs a hilariously stiff and uncoordinated routine, leaving his friends horrified by his lack of talent.",
+    "cumulative_summary": "Rachel's new job brings excitement for her but intense jealousy for Ross, who is deeply insecure about her handsome office-mate, Mark. Meanwhile, Monica's romance with her coworker Julio blossoms after they share another passionate kiss. Joey's Broadway audition takes an unexpected turn; although his singing earns him a callback, he is panicked to learn he must perform a dance audition. Back at the apartment, Chandler and Phoebe discover Joey lied extensively on his resume, claiming years of training with Twyla Tharp and the American Ballet Theater. When Joey tries to prove he can dance, he performs a hilariously stiff and uncoordinated routine, leaving his friends horrified and highly skeptical of his chances."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:13 - 00:09:41",
+    "batch_summary": "Chandler books a stripper named Crystal Chandelier, while Monica arrives glowing from her date with Julio. Monica excitedly shares a poem, \"The Empty Vase,\" which Julio wrote during an intimate moment. Although Monica is oblivious to any subtext and leaves for work happy, Phoebe immediately deciphers the poem's true, insulting meaning, leaving her and Chandler deeply concerned for Monica.",
+    "cumulative_summary": "Rachel's new job brings excitement for her but intense jealousy for Ross, who is deeply insecure about her handsome office-mate, Mark. Meanwhile, Joey struggles with his upcoming Broadway dance audition after his friends discover he lied extensively on his resume. In the apartment, Chandler books a stripper named Crystal Chandelier. Monica's romance with her coworker Julio seems to be blossoming as she gushingly shares a poem, \"The Empty Vase,\" that Julio wrote for her during an intimate moment. Monica is thrilled by the gesture, but after she leaves for work, Phoebe reads between the lines and realizes the poem has a deeply insulting hidden meaning, leaving her and Chandler horrified for their friend."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 276,
+    "timestamp_range": "00:09:41 - 00:11:31",
+    "batch_summary": "Phoebe, Chandler, and Joey confirm that Julio's poem insults Monica by calling her an \"empty vase.\" Meanwhile, Ross's insecurity over Rachel's coworker Mark reaches an embarrassing peak. He floods Rachel's office with excessive gifts, culminating in a barbershop quartet singing about him being her boyfriend. Mark points out Ross's territorial behavior, leaving Rachel mortified but trying to defend him.",
+    "cumulative_summary": "Rachel's new job brings excitement for her but intense jealousy for Ross, who is deeply insecure about her handsome office-mate, Mark. Meanwhile, Joey struggles with his upcoming Broadway dance audition after lying on his resume, while Chandler books a stripper named Crystal Chandelier. Monica is thrilled by a poem written by her coworker Julio, but Phoebe, Chandler, and Joey realize its hidden meaning deeply insults Monica by calling her an \"empty vase.\" Meanwhile, Ross's insecurity reaches an embarrassing peak at Rachel's office. He floods her desk with excessive gifts, including a giant \"love bug\" and a personalized barbershop quartet that publicly sings about him being her boyfriend. Mark points out that Ross is clearly marking his territory, leaving Rachel mortified but struggling to defend her boyfriend's overbearing behavior."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:58",
+    "batch_summary": "In a coffee shop, Gunther silently contemplates asking Rachel out, but his hopes are dashed when Mark arrives and confesses his crush, asking Rachel out now that she is single. Overhearing this, a devastated Gunther storms into the back room and smashes dishes in frustration. Meanwhile, Monica and Pete return to her apartment after a date, sharing a playful conversation about voice recognition technology that ends with Monica giving Pete a sweet kiss on the cheek.",
+    "cumulative_summary": "At the coffee shop, Gunther harbors a secret crush on Rachel, nervously rehearsing how to ask her out in his head. His plans are shattered when Mark arrives to go shopping with Rachel and takes the opportunity to confess his own feelings. Explaining that he waited until she and Ross broke up, Mark asks Rachel out, leaving her stunned. An envious and upset Gunther retreats to the back room, where a loud crash of breaking dishes betrays his frustration before he awkwardly returns to claim he merely dropped a cup. Later that evening, Monica and Pete walk back to her apartment after a date. Pete enthusiastically explains the future of voice recognition technology, prompting playful banter from Monica. The warm and lighthearted moment culminates in Monica giving Pete a sweet kiss on the cheek, signaling a successful and promising date."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:58 - 00:03:33",
+    "batch_summary": "After her date, Monica returns home to find Ross, Chandler, and Phoebe hanging out in her apartment. She confesses that although Pete is sweet, funny, and incredibly wealthy, she feels absolutely no physical attraction to him. Meanwhile, a jubilant Joey bursts in dancing, leading the friends to realize he landed his theater role. Later, Joey arrives at the Lucille Lortel Theatre for rehearsals, where he is greeted by his co-star, Kate.",
+    "cumulative_summary": "At the coffee shop, Gunther's hopes of asking Rachel out are dashed when Mark confesses his feelings and asks her out first, leaving Rachel stunned. Meanwhile, Monica and Pete enjoy a warm date that ends with a sweet kiss. However, when Monica returns home to find Ross, Chandler, and Phoebe in her apartment, she confesses a major hurdle: despite Pete being sweet, funny, and incredibly wealthy, she feels absolutely no physical attraction to him. The conversation is interrupted by a jubilant Joey, who bursts in dancing and singing, signaling to his friends that he landed his theater role. Later, Joey arrives at the Lucille Lortel Theatre to begin rehearsals, where he is greeted by his co-star, Kate."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:33 - 00:05:11",
+    "batch_summary": "At theater rehearsals, Joey meets his condescending co-star, Kate Miller, who is playing his wife. When Joey tries to establish his acting credentials using his soap opera role, Kate dismisses him and instead recognizes him from an embarrassing milk carton infomercial. Meanwhile, back at Central Perk, Rachel discusses Mark's date proposal with Phoebe, revealing that although she promised to think about it, she ultimately plans to turn him down.",
+    "cumulative_summary": "At the coffee shop, Gunther's hopes of asking Rachel out are dashed when Mark asks her out first. While Monica enjoys a sweet date with Pete, she later confesses to her friends that she feels no physical attraction to him. Meanwhile, Joey celebrates landing a theater role and heads to rehearsals. There, he meets his condescending co-star, Kate Miller, who is playing his wife. Joey tries to establish his acting credentials using his soap opera role, but Kate dismisses him, instead recognizing him from an embarrassing milk carton infomercial. Back at Central Perk, Rachel discusses Mark's invitation with Phoebe and reveals that, despite telling him she would think about it, she ultimately plans to turn him down."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:11 - 00:07:01",
+    "batch_summary": "Rachel confesses to Phoebe that she feels guilty about dating other men because she is not over Ross. Meanwhile, Joey complains to Chandler about Kate making fun of his infomercial to their castmates. Ross arrives, thrilled that Rachel called him to meet up, hoping for a reconciliation. However, when Ross arrives at her apartment, Rachel dampens his hopes by handing him a box of his belongings.",
+    "cumulative_summary": "At the coffee shop, Gunther's hopes of asking Rachel out are dashed when Mark asks her out first. While Monica enjoys a sweet date with Pete, she confesses she feels no physical attraction to him. Meanwhile, Joey's theater rehearsals grow frustrating when his condescending co-star, Kate, tells the cast about his embarrassing milk carton infomercial. Back at Central Perk, Rachel admits to Phoebe that she plans to turn Mark down because she still feels guilty, as if she would be cheating on Ross. Hearing that Rachel wants to see him, an optimistic Ross hopes for a reconciliation. However, his excitement is quickly crushed when he visits her apartment, only for Rachel to hand him a box of his belongings."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:01 - 00:08:36",
+    "batch_summary": "Rachel explains that returning Ross's belongings is a step toward moving on, which Ross reluctantly agrees is necessary. However, the interaction quickly devolves into a petty argument. Ross demands the return of all his items, including a free museum mug and a favorite T-shirt Rachel sleeps in. Rachel accuses him of acting out of spite and calls him petty, while Ross stubbornly reclaims his shirt just to provoke her, highlighting the lingering bitterness of their breakup.",
+    "cumulative_summary": "At the coffee shop, Gunther's hopes of asking Rachel out are dashed when Mark asks her out first. While Monica enjoys a sweet date with Pete, she confesses she feels no physical attraction to him. Meanwhile, Joey's theater rehearsals grow frustrating due to his condescending co-star, Kate. Back at Central Perk, Rachel admits she plans to turn Mark down because she still feels guilty, as if she would be cheating on Ross. Hearing that Rachel wants to see him, an optimistic Ross hopes for a reconciliation. However, his excitement is crushed when Rachel hands him a box of his belongings to help them move on. Although Ross agrees they need to move forward, the interaction quickly devolves into a bitter, petty argument. Ross demands the return of all his items, including a free museum mug and a T-shirt Rachel loves to sleep in. Rachel angrily accuses him of acting out of spite, but Ross stubbornly reclaims his shirt anyway, highlighting the lingering resentment and pain of their breakup."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:36 - 00:10:04",
+    "batch_summary": "To prove a point, Ross stubbornly squeezes into his tiny, tight \"FRANKIE SAY RELAX\" T-shirt and makes a dramatic, petty exit with his box of belongings, leaving Rachel exasperated. Later, at Central Perk, the gang playfully teases Monica's wealthy date, Pete, about his fortune, suggesting he buy a state. Joey hilariously mistakes Chicago for a state, prompting Chandler's disbelief. Before leaving, Pete happily confirms his next date with Monica.",
+    "cumulative_summary": "At the coffee shop, Gunther's hopes of asking Rachel out are dashed when Mark asks her out first. While Monica enjoys dating Pete, she confesses she feels no physical attraction to him. Meanwhile, Joey's theater rehearsals grow frustrating due to his condescending co-star, Kate. Back at Central Perk, Rachel admits she plans to turn Mark down because she still feels guilty, as if she would be cheating on Ross. Hearing that Rachel wants to see him, an optimistic Ross hopes for a reconciliation. However, his excitement is crushed when Rachel hands him a box of his belongings to help them move on. This quickly devolves into a bitter, petty argument over a tiny \"FRANKIE SAY RELAX\" T-shirt. To prove a point, Ross stubbornly squeezes into the tight shirt and makes a dramatic exit. Later, at Central Perk, the gang playfully teases Pete about his immense wealth, with Joey hilariously mistaking Chicago for a state. Despite Monica's lack of physical spark, she happily confirms another date with Pete before he leaves."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 277,
+    "timestamp_range": "00:10:04 - 00:11:37",
+    "batch_summary": "Monica vents to Chandler about her dating patterns, questioning why she is only attracted to unavailable or toxic men while feeling absolutely no physical spark for the otherwise perfect Pete. Meanwhile, at theater rehearsals, Joey and Kate perform a tense scene that earns praise from their director. However, off-stage friction remains high when Kate questions why her character would ever be attracted to Joey's, prompting a sarcastic retort from Joey.",
+    "cumulative_summary": "Following a bitter argument with Ross over a t-shirt, Rachel tries to move on. Meanwhile, Monica continues to date the wealthy Pete despite lacking a physical spark. She vents to Chandler about her frustrating dating patterns, questioning why she only feels attracted to toxic men while remaining completely unexcited by the otherwise perfect Pete. At the theater, Joey's rehearsals with his condescending co-star, Kate, showcase a mix of intense on-stage chemistry and off-stage friction. During a run-through, their director praises their connection, but the illusion quickly shatters when Kate openly questions why her character would ever find Joey's character attractive, prompting a sarcastic comeback from Joey."
+  }
+]

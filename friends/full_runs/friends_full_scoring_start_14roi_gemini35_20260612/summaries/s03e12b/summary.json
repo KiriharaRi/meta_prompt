@@ -1,0 +1,50 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:05",
+    "batch_summary": "Ross and Rachel argue in her apartment over Ross's overbearing romantic gestures, like sending a barbershop quartet to her office. Rachel accuses him of insecurely marking his territory, a behavior her coworker Mark pointed out. Later, at a coffee shop, Chandler warns Ross that Mark is playing a clever long game by acting as Rachel's sensitive confidant. Chandler advises Ross to make surprise visits to her office to protect his relationship, while their friend dramatically illustrates the grim outcome if Ross does nothing.",
+    "cumulative_summary": "In an apartment, Ross and Rachel engage in a heated argument over Ross's excessive and public romantic gestures, such as sending a barbershop quartet to her workplace. Rachel feels suffocated, accusing Ross of trying to \"mark his territory\" due to his insecurity over her new coworker, Mark. When Rachel reveals that Mark helped her decode this behavior, Ross dismisses him. Later, at a coffee shop, Ross seeks advice from Chandler and another friend. Chandler disagrees with Ross, calling Mark a genius who is strategically positioning himself as Rachel's sensitive confidant to slowly win her over. To counter this threat, Chandler urges Ross to make surprise visits to Rachel's office. Their friend dramatically and humorously acts out the tragic scenario of Ross losing Rachel if he fails to take action, leaving Ross deeply concerned about the future of his relationship."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:05 - 00:04:13",
+    "batch_summary": "Driven by jealousy, Ross visits Rachel's office and misinterprets a scene where Mark is embracing another female coworker. Ross aggressively intervenes, shouting at Mark to get off her, leaving Rachel bewildered. Later, Ross tries to get Rachel's attention at her department store job. Meanwhile, Joey's dance audition takes an unexpected turn when the director mistakes him for an experienced dancer and tasks him with teaching a complex routine to the class, leaving Joey completely overwhelmed.",
+    "cumulative_summary": "Following an argument with Rachel over his jealousy of her coworker Mark, Ross is urged by Chandler to make surprise visits to her office. When Ross does, he walks in on Mark embracing another female coworker. Fueled by insecurity, Ross aggressively intervenes and demands Mark get off her, deeply embarrassing Rachel. Later, Ross attempts to get Rachel's attention while she is working at a department store. Meanwhile, Joey's acting career takes a comedic turn during a dance audition. The director, mistakenly believing Joey is the most experienced dancer, tasks him with teaching a complex routine to the rest of the class. Joey is left completely frozen and overwhelmed by the elaborate choreography."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:04:13 - 00:05:58",
+    "batch_summary": "Monica prepares a gift for Julio based on his poem, but Phoebe reveals the poem actually insults her intelligence. Monica angrily confronts Julio at the diner for calling her an \"empty vase.\" Julio defends himself by claiming the poem isn't about her, but rather a sexist generalization about \"all American women,\" leaving Monica stunned. Meanwhile, Joey is left alone to lead the dance class and desperately attempts to fake his way through teaching the choreography.",
+    "cumulative_summary": "Following an argument with Rachel over his jealousy of Mark, Ross's insecurity leads him to aggressively intervene at her office, deeply embarrassing her. While Ross continues trying to get Rachel's attention at her department store job, his friends face their own comedic dilemmas. Joey, mistakenly cast as the lead dancer in an audition, is left abandoned by the director to teach the class. With no actual dance experience, Joey desperately tries to fake his way through the choreography. Meanwhile, Monica prepares a gift for her boyfriend Julio based on his poem, \"The Empty Vase.\" However, after Phoebe points out the poem's insulting nature, Monica confronts Julio at his diner job. Julio attempts to smooth things over by explaining the poem isn't about Monica specifically, but rather a sexist critique of \"all American women,\" leaving Monica completely dumbfounded by his arrogance."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:58 - 00:07:43",
+    "batch_summary": "Back at the dance studio, the director returns and is unimpressed by the group's routine. When he instructs the class to watch Joey demonstrate how it's done, a panicked Joey suddenly sprints out of the room to escape his lie. Meanwhile, at Central Perk, Chandler shows Rachel a novelty pen from a bachelor party before leaving her and Ross alone. Ross takes the opportunity to sincerely apologize to Rachel for his recent behavior, admitting he was a \"big idiot,\" which Rachel quietly accepts.",
+    "cumulative_summary": "Following an argument with Rachel over his jealousy of Mark, Ross's insecurity leads him to aggressively intervene at her office, deeply embarrassing her. While Monica deals with her arrogant boyfriend Julio's sexist explanation of his poem, Joey faces his own comedic dilemma. Having been mistakenly cast as a lead dancer and left to teach the class, Joey's bluff is finally called when the director returns and demands he demonstrate the choreography. Unable to dance, Joey panics and sprints out of the studio to escape. Meanwhile, at Central Perk, Chandler shows Rachel a novelty pen before giving her and Ross some space. Seizing the moment, Ross sits down with Rachel and sincerely apologizes for his recent behavior, admitting he was a \"big idiot.\" Rachel quietly agrees, marking a tentative step toward resolving their conflict."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:43 - 00:09:34",
+    "batch_summary": "Ross explains his jealousy to Rachel, revealing that losing his ex-wife Carol makes him terrified of losing Rachel, whom he loves even more. Touched, Rachel reassures him that love and trust leave no room for jealousy, and they share a sweet kiss. However, the peace is short-lived when Ross mentions a playdate for Ben with a single mother he met at a party. When Chandler accidentally reveals she is a stripper, Rachel struggles to hide her own sudden jealousy, repeatedly clicking her pen in annoyance.",
+    "cumulative_summary": "Following an argument over his jealousy of Mark, Ross sincerely apologizes to Rachel at Central Perk. He explains his insecurity stems from losing his ex-wife Carol, admitting he is terrified of losing Rachel because he loves her so deeply. Touched, Rachel reassures him that mutual trust should eliminate jealousy, and they share a tender kiss. However, their newfound understanding is immediately tested. When Ross mentions an upcoming playdate for his son Ben, Chandler accidentally reveals that the mother is a stripper Ross met at a party. Despite her recent lecture on trust, Rachel is visibly rattled and struggles to contain her own jealousy. Meanwhile, Monica deals with her arrogant boyfriend Julio, and Joey is forced to flee his dance class after his bluff as a lead dancer is finally called."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 236,
+    "timestamp_range": "00:09:34 - 00:11:30",
+    "batch_summary": "Ross teases Rachel about being jealous of his playdate with a stripper's child. Rachel vehemently denies it and gives him a passionate goodbye kiss, but Chandler points out she may have just turned Ross on before sending him to a stripper. This prompts Rachel to finally scream out in admission of her jealousy. Meanwhile, Monica gets revenge on her arrogant boyfriend, Julio, by hiring a barbershop quartet to publicly roast him at his diner for his pretentiousness.",
+    "cumulative_summary": "Following an argument over his jealousy of Mark, Ross sincerely apologizes to Rachel at Central Perk, explaining his insecurities stem from his past with Carol. Rachel reassures him that mutual trust is key, and they share a tender kiss. However, their trust is tested when Chandler accidentally reveals that the mother of Ross's son's playdate is a stripper. Although Rachel initially denies being jealous, Ross teases her, and she gives him a passionate kiss to send him off. When Chandler jokingly points out that she may have just turned Ross on right before his meeting with a stripper, Rachel finally cracks and loudly admits her jealousy. Meanwhile, Monica gets the ultimate revenge on her arrogant boyfriend, Julio. She hires a barbershop quartet to perform at his diner, publicly roasting him as a pretentious \"butt munch\" whose poems are unpublished, bringing a hilarious and satisfying end to their conflict."
+  }
+]

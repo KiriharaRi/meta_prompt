@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:42",
+    "batch_summary": "In the apartment, Phoebe stubbornly stays on hold to fix her broken phone before the warranty expires, ignoring Rachel's need to use the line. When Joey arrives to coordinate tickets for an event, Monica happily requests two for herself and her boyfriend, Pete. Ross also asks for two tickets to bring a date from work, prompting a defensive Rachel to quickly claim she is also bringing a date, despite having originally requested only one ticket.",
+    "cumulative_summary": "In the apartment living room, Phoebe stubbornly remains on hold on a cordless phone to get her broken device fixed before the warranty expires, refusing to let Rachel use the line to call her father. The atmosphere shifts when Joey enters to coordinate tickets for an upcoming event. Monica excitedly requests two tickets, proudly announcing she is bringing her new boyfriend, Pete. When Ross also asks for two tickets to bring a date from work, he checks in with Rachel to make sure it will not be awkward. Trying to save face and hide her jealousy, Rachel quickly claims that she is also bringing a date, despite having previously requested only one ticket. Joey is momentarily confused by her sudden change of plans but agrees to the count before Ross departs."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:42 - 00:03:12",
+    "batch_summary": "Rachel rushes out to find a date, while Joey reveals his hope of dating Kate, only to discover he accidentally used duck worm medicine as cologne. Later, Phoebe stubbornly remains on hold, getting her head hilariously stuck in a sweater sleeve before Monica helps her switch to speakerphone. Just as they prepare to leave for the theater, the automated system announces Phoebe is the next caller, making her refuse to hang up. Meanwhile, Chandler arrives with a duck and a chick, asking if they can join.",
+    "cumulative_summary": "In the apartment, Phoebe stubbornly remains on hold to get her broken phone fixed, refusing to let Rachel use the line. When Joey coordinates tickets for an upcoming event, Monica announces she is bringing her new boyfriend, Pete. Ross also requests tickets for a date, prompting a jealous Rachel to lie and claim she has a date too. Rachel rushes out to find someone, while Joey shares his hopes of dating Kate, only to realize he accidentally used duck worm medicine as cologne. Later, as the group prepares to leave for the theater, Monica lends Phoebe a sweater, leading to a hilarious struggle where Phoebe gets her head stuck in a sleeve. Monica helps her switch to speakerphone, but when the automated system announces Phoebe is finally the next caller, she refuses to hang up and miss her chance. The chaotic preparations peak when Chandler arrives at the door holding a duck and a chick, asking if the pets can tag along to the theater."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:12 - 00:04:56",
+    "batch_summary": "At the Lucille Lortel Theatre, Ross and his date, Cailin, meet Rachel and her date, Tommy. After the women head to the restroom, Ross awkwardly reveals his past relationship with Rachel to an oblivious Tommy. When they enter the auditorium, they find an older couple in their seats. While Ross tries to politely resolve the mix-up, Tommy suddenly snaps, aggressively screaming insults at the confused theater patron. Ross is left stunned by Tommy's shocking and volatile outburst.",
+    "cumulative_summary": "In the apartment, Phoebe stubbornly remains on hold to fix her phone, while Rachel, jealous of Ross's upcoming date, scrambles to find a date of her own. After chaotic preparations involving a stuck sweater and Chandler's new pet duck and chick, the group heads to the Lucille Lortel Theatre. There, Ross and his date, Cailin, meet Rachel and her new date, Tommy. After Rachel and Cailin head to the restroom, Ross awkwardly reveals his past with Rachel to Tommy. The situation takes a tense turn inside the auditorium when they find an older couple accidentally sitting in their seats. While Ross tries to politely resolve the ticket mix-up, Tommy suddenly snaps, aggressively screaming insults at the bewildered patron. Ross is left completely stunned by Tommy's shockingly volatile and hostile outburst, hinting at trouble ahead for Rachel's new romance."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:56 - 00:06:40",
+    "batch_summary": "After Tommy's aggressive outburst scares away the theater patrons, a stunned Ross tries to warn Chandler at the play's after-party. However, Chandler dismisses Ross's concerns as mere jealousy. Meanwhile, Joey's romantic hopes are dashed when the girl he likes, Kate, is pulled away by another man, leading him to introduce her understudy, Lauren, who awkwardly reveals Joey previously dumped her. Monica and Pete also share a humorous story about how they met.",
+    "cumulative_summary": "In the apartment, Phoebe stubbornly remains on hold to fix her phone, while Rachel, jealous of Ross's upcoming date, scrambles to find a date of her own. After chaotic preparations, the group heads to the theatre. There, Ross and his date, Cailin, meet Rachel and her volatile new date, Tommy. When an older couple accidentally sits in their seats, Tommy aggressively screams at them to get out, leaving Ross completely stunned. At the play's after-party, Ross tries to warn Chandler about Tommy's alarming behavior, but Chandler dismisses it as jealousy. Meanwhile, Joey faces his own romantic hurdles when Kate, the co-star he likes, is pulled away by her boyfriend. Joey instead introduces Kate's understudy, Lauren, who awkwardly reveals to the group that Joey dumped her after a one-night stand. Amidst the awkwardness, Monica and Pete lightheartedly share the story of how they met, and Joey's agent, Estelle, praises his performance."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:40 - 00:08:28",
+    "batch_summary": "At the after-party, Joey's agent Estelle makes an awkward comment about Rachel's appearance. Meanwhile, Ross's obsession with Tommy's anger issues backfires when his date, Cailin, grows tired of his paranoia and walks out on him. The mood shifts when the director reads a scathing review of the play. While Joey is relieved to find his \"uneven\" performance isn't deemed the worst, Kate's acting is labeled \"laughable,\" and the devastated director laments that the cast has ruined his life.",
+    "cumulative_summary": "In the apartment, Phoebe stubbornly remains on hold to fix her phone, while Rachel, jealous of Ross's upcoming date, scrambles to find a date of her own. After chaotic preparations, the group heads to the theatre. There, Ross and his date, Cailin, meet Rachel and her volatile new date, Tommy. When Tommy aggressively screams at an older couple over seating, Ross is left stunned. At the play's after-party, Ross's obsession with warning everyone about Tommy's anger issues backfires, prompting a frustrated Cailin to abandon him. Meanwhile, Joey's agent, Estelle, makes an awkward comment about Rachel's appearance. The atmosphere turns tense when the director reads the play's scathing reviews aloud. While Joey is relieved that his \"uneven\" performance is spared from being the worst, Kate's acting is deemed \"laughable.\" The review of the direction is so devastating that the director declares the cast has ruined his life, leaving the party on a somber, chaotic note."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:28 - 00:10:08",
+    "batch_summary": "Following the disastrous play reviews, the director dramatically storms off. Back at the apartment, Phoebe remains stubbornly on hold after five hours, keeping herself busy with bizarre wire hanger crafts. Meanwhile, Joey comforts a devastated Kate at the theater. Kate reveals that the director dumped her immediately after her bad review, and she laments giving up a soap opera role for the failed play. Joey tries to console her, sharing his own career sacrifices in a lighthearted moment of solidarity.",
+    "cumulative_summary": "Following Rachel's chaotic double date with Ross and her volatile new date Tommy, the group attends Joey's play. The production receives scathing reviews, prompting the director to dramatically storm off. Back at the apartment, Phoebe remains stubbornly on hold five hours later, keeping herself busy with eccentric wire hanger crafts. Meanwhile, Joey stays behind at the theater to comfort a devastated Kate. She reveals that the director dumped her immediately after her bad review, and she deeply regrets giving up a soap opera role for this failed production. Joey tries to console her, sharing his own career sacrifices as they bond over their shared disappointment."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 268,
+    "timestamp_range": "00:10:08 - 00:11:29",
+    "batch_summary": "Joey walks Kate home to comfort her after the play's failure. Back at her apartment, the tension between them culminates in a kiss. However, Joey stops to question her mixed signals, asking why she previously ignored him and if she actually likes him. Kate admits that she does like him but struggles to explain why she chose the director over him, leaving their relationship in a vulnerable, unresolved state.",
+    "cumulative_summary": "Following the scathing reviews of Joey's play, Joey stays behind to comfort a devastated Kate, who was dumped by the director. After bonding over their shared career disappointments, Joey walks Kate home. Back at her apartment, their emotional connection leads to an intimate kiss. However, Joey pulls back to confront her about her mixed signals, questioning why she previously ignored him and asking if she genuinely likes him. Kate softly admits that she does, but she struggles to explain why she chose the director over him, leaving their relationship in a vulnerable, unresolved state. Meanwhile, back at the apartment, Phoebe remains stubbornly on hold for hours, distracting herself with wire hanger crafts."
+  }
+]

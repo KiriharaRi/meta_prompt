@@ -1,0 +1,99 @@
+{
+  "experiment": "round8_145train_10test_bn246_allparcels",
+  "baseline_snapshot": "friends/analysis/train_size_sweep_20260629_round8/encoding_145train_10test_snapshot",
+  "bn246_snapshot": "friends/analysis/train_size_sweep_20260629_round8/encoding_145train_10test_bn246_allparcels_snapshot",
+  "manifest": "friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/roi_encoding_manifest.jsonl",
+  "roi_schemas": "friends/analysis/train_size_sweep_20260629_round8/roi_schemas_bn246_allparcels.json",
+  "split_counts": {
+    "train": 145,
+    "val": 5,
+    "test": 10
+  },
+  "sample_count": 160,
+  "selected_parcels": 246,
+  "retained_parcels": 246,
+  "parcel_metric_rows": 246,
+  "finite_parcel_pearsons": 246,
+  "best_alpha": 10000.0,
+  "n_test_trs": 4467,
+  "baseline_86parcel_mean_subject_mean_test_pearson": 0.22569421197201892,
+  "bn246_mean_subject_mean_test_pearson": 0.195873864052212,
+  "delta_vs_86parcel_baseline": -0.029820347919806922,
+  "bn246_mean_subject_median_test_pearson": 0.18435572026160357,
+  "parcel_pearson_min": -0.009771130502843393,
+  "parcel_pearson_max": 0.5013653959089069,
+  "bottom5_parcels": [
+    {
+      "parcel_index": 221,
+      "parcel_label": "BG_R_6_2",
+      "network": "Yeo7_0_Unknown",
+      "sub_region": "GP",
+      "pearson": -0.009771130502843393
+    },
+    {
+      "parcel_index": 242,
+      "parcel_label": "Tha_L_8_7",
+      "network": "Yeo7_0_Unknown",
+      "sub_region": "cTtha",
+      "pearson": 0.012144366677863219
+    },
+    {
+      "parcel_index": 163,
+      "parcel_label": "INS_R_6_1",
+      "network": "Yeo7_2_Visual_central",
+      "sub_region": "G",
+      "pearson": 0.016338253804994814
+    },
+    {
+      "parcel_index": 228,
+      "parcel_label": "BG_L_6_6",
+      "network": "Yeo7_0_Unknown",
+      "sub_region": "dlPu",
+      "pearson": 0.01852184444452278
+    },
+    {
+      "parcel_index": 149,
+      "parcel_label": "PCun_R_4_2",
+      "network": "Yeo7_3_Somato-motor_A",
+      "sub_region": "A5m",
+      "pearson": 0.020324984455566693
+    }
+  ],
+  "top5_parcels": [
+    {
+      "parcel_index": 144,
+      "parcel_label": "IPL_L_6_6",
+      "network": "Yeo7_2_Visual_central",
+      "sub_region": "A40rv",
+      "pearson": 0.5013653959089069
+    },
+    {
+      "parcel_index": 60,
+      "parcel_label": "PrG_L_6_5",
+      "network": "Yeo7_4_Somato-motor_B",
+      "sub_region": "A4tl",
+      "pearson": 0.4753885659586016
+    },
+    {
+      "parcel_index": 142,
+      "parcel_label": "IPL_L_6_5",
+      "network": "Yeo7_3_Somato-motor_A",
+      "sub_region": "A39rv",
+      "pearson": 0.46181643989736076
+    },
+    {
+      "parcel_index": 37,
+      "parcel_label": "IFG_R_6_5",
+      "network": "Yeo7_4_Somato-motor_B",
+      "sub_region": "A44op",
+      "pearson": 0.4615757266820729
+    },
+    {
+      "parcel_index": 36,
+      "parcel_label": "IFG_L_6_5",
+      "network": "Yeo7_4_Somato-motor_B",
+      "sub_region": "A44op",
+      "pearson": 0.45245401083215936
+    }
+  ]
+}

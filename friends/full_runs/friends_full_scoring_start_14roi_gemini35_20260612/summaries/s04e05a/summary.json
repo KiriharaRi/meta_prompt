@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:40",
+    "batch_summary": "In the living room, Joey struggles with a crossword puzzle, amusing Monica. Later at the coffee shop, Ross boasts about getting a phone number from an attractive woman, but Rachel and Phoebe mockingly use the paper to wipe and blow their noses. Meanwhile, Gunther asks Rachel for her birthday but completely dismisses Ross when he tries to share his. Finally, Chandler spots an attractive woman in the coffee shop, and Monica encourages him to go over and ask her out.",
+    "cumulative_summary": "The story begins with Joey and Monica sharing a lighthearted moment in the living room as Joey struggles to solve a simple crossword puzzle. The scene then shifts to the coffee shop, where Ross proudly boasts about receiving a phone number from an attractive woman named Amanda. However, his bragging is humorously undercut when he drops the paper, prompting Rachel to wipe her nose with it and Phoebe to blow her nose into it. The comedic tension continues when Gunther asks Rachel for her birthday but bluntly dismisses Ross when he tries to share his own. Finally, Chandler notices a pretty woman across the coffee shop, prompting Monica to encourage him to take a chance and ask her out."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:40 - 00:03:44",
+    "batch_summary": "Ross continues to brag about his \"mature relationship\" with Amanda, but Rachel quickly exposes that they only had one unromantic date at Chuck E. Cheese. Meanwhile, a sick Phoebe refuses to go home, clinging to her music. Encouraged by Monica, Chandler nervously approaches Kathy at the counter. After an awkward introduction, Kathy reveals she is waiting for her date, who turns out to be Joey, leaving Chandler mortified by the realization.",
+    "cumulative_summary": "The story begins with Joey and Monica sharing a lighthearted moment in the living room as Joey struggles to solve a crossword puzzle. At the coffee shop, Ross boasts about receiving a phone number from an attractive woman named Amanda, though his friends humorously dismiss his bragging. Rachel later reveals that Ross's \"mature relationship\" with Amanda actually consisted of a single, kiss-less date at Chuck E. Cheese. Meanwhile, a sick Phoebe arrives, refusing to go home because music is all she has left. Encouraged by Monica to take a chance on a pretty woman across the room, Chandler nervously approaches her. He awkwardly introduces himself to the woman, Kathy, only to discover she is waiting for a date. To Chandler's utter embarrassment, her date turns out to be Joey, leaving Chandler mortified by his poorly timed advance."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:45 - 00:05:39",
+    "batch_summary": "After Joey playfully teases Chandler about Kathy, Phoebe performs a raspy, cold-inflicted rendition of \"Smelly Cat\" at the coffee shop. Later that night, Chandler and Kathy cross paths in the apartment at 2:30 AM. They instantly bond over a shared love for Ernie Kovacs reruns, displaying an effortless, humorous chemistry. Kathy reveals how she and Joey met in acting class, and despite Chandler's guilt over his attraction to his best friend's date, the two share a cozy, late-night connection.",
+    "cumulative_summary": "The story begins with Joey and Monica sharing a lighthearted moment in the living room. At the coffee shop, Ross boasts about receiving a phone number from an attractive woman named Amanda, though Rachel reveals their \"mature relationship\" was just a single, kiss-less date at Chuck E. Cheese. Meanwhile, a sick Phoebe performs a raspy, cold-inflicted rendition of \"Smelly Cat\" at Central Perk. Encouraged by Monica to approach a pretty woman across the room, Chandler awkwardly introduces himself to Kathy, only to discover she is waiting for her date—who turns out to be Joey. Later that night, Chandler and Kathy cross paths in the apartment at 2:30 AM. They instantly bond over a shared love for Ernie Kovacs reruns, displaying an effortless, humorous chemistry. Kathy reveals how she and Joey met in acting class, and despite Chandler's guilt over his attraction to his best friend's date, the two share a cozy, late-night connection."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:39 - 00:07:30",
+    "batch_summary": "At Central Perk, Phoebe continues to embrace her raspy singing voice. Meanwhile, Chandler and Kathy's mutual attraction grows, highlighted by Kathy running her fingers through his hair. After Joey and Kathy leave to run an errand, Chandler accidentally lets slip to the group that he and Kathy stayed up all night talking. Rachel, Monica, Phoebe, and Ross immediately realize Chandler is harboring a deep crush on Kathy and tease him relentlessly, leaving Chandler defensive and embarrassed about falling for his best friend's date.",
+    "cumulative_summary": "The story begins with Joey and Monica sharing a lighthearted moment. At Central Perk, Ross boasts about a date, while a sick Phoebe embraces her raspy, cold-inflicted singing voice. Chandler awkwardly tries to hit on Kathy, only to discover she is dating Joey. Despite this, Chandler and Kathy share a cozy, late-night connection, bonding over television reruns. Their mutual chemistry deepens when Kathy runs her fingers through Chandler's hair during another of Phoebe's performances. Later, after Joey and Kathy leave the coffee shop, Chandler accidentally lets slip to the group that he and Kathy stayed up all night talking. Rachel, Monica, Phoebe, and Ross immediately realize Chandler is harboring a deep crush on Kathy and tease him relentlessly, leaving Chandler defensive and embarrassed about falling for his best friend's date."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:30 - 00:09:21",
+    "batch_summary": "Phoebe humorously struggles to find tragic inspiration for her new bluesy voice, ignoring her actual past hardships. Meanwhile, Ross shares his romantic plans with Amanda, only to be interrupted when Rachel introduces her much younger, college-aged boyfriend, Josh. Ross is visibly skeptical of Josh, prompting Rachel to mock Ross's lack of athletic history. After Josh leaves, Rachel enthusiastically praises her new, fun relationship, taking a subtle jab at Ross's boring, museum-loving personality.",
+    "cumulative_summary": "The story begins with Joey and Monica sharing a lighthearted moment, while Chandler struggles with his secret crush on Joey's girlfriend, Kathy, after a cozy late-night connection. Meanwhile, Phoebe embraces her raspy, cold-inflicted singing voice, humorously searching for tragic inspiration despite Monica reminding her of her actual past hardships. The romantic dynamics shift further when Ross shares his plans for a romantic night with Amanda, only to be interrupted when Rachel introduces her new, much younger boyfriend, Josh. Ross is visibly skeptical of the college student, prompting Rachel to mock Ross's lack of athletic history. After Josh leaves, Rachel enthusiastically gushes about her fun, un-boring new relationship, taking a pointed jab at Ross's museum-loving personality and highlighting the lingering tension between the two exes."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:21 - 00:11:18",
+    "batch_summary": "Ross and Rachel's petty bickering escalates until Ross uses a childish hand gesture he invented to secretly give the finger. After he leaves, Phoebe is dismayed to find her cold has cured, losing her \"sexy\" raspy singing voice. Meanwhile, Ross's romantic expectations for his date with Amanda are crushed when he arrives at her apartment, only to realize she has recruited him to babysit her son and Ben so she can go out with another man.",
+    "cumulative_summary": "The story begins with Joey and Monica sharing a lighthearted moment, while Chandler struggles with his secret crush on Joey's girlfriend, Kathy. Meanwhile, Phoebe embraces her raspy, cold-inflicted singing voice, but is later dismayed when her cold clears up, causing her to lose her \"sexy\" sound. The romantic dynamics shift further when Ross and Rachel engage in petty bickering over Rachel's much younger boyfriend, Josh. Ross mocks Josh's youth, prompting Rachel to tease Ross about his dinosaur toys, which leads Ross to use a childish, secret hand gesture from his youth. Eager to move on, Ross heads out for what he believes is a romantic date with Amanda. However, his high expectations are instantly crushed when he arrives at her apartment. Instead of a romantic evening, Amanda reveals she has recruited Ross to babysit her son and Ben so she can go out with another man she has been trying to date for a month, leaving Ross disappointed and stuck babysitting."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 246,
+    "timestamp_range": "00:11:18 - 00:11:41",
+    "batch_summary": "Amanda casually offers Ross the code to the blocked adult channels before thanking him for babysitting. She promises to return the favor someday and quickly departs for her date. Left completely alone in her apartment holding a bottle of wine, Ross is visibly defeated and disappointed by how his expected romantic evening turned into an awkward babysitting gig.",
+    "cumulative_summary": "The story begins with Joey and Monica sharing a lighthearted moment, while Chandler struggles with his secret crush on Joey's girlfriend, Kathy. Meanwhile, Phoebe embraces her raspy, cold-inflicted singing voice, but is later dismayed when her cold clears up, causing her to lose her \"sexy\" sound. The romantic dynamics shift further when Ross and Rachel engage in petty bickering over Rachel's much younger boyfriend, Josh. Ross mocks Josh's youth, prompting Rachel to tease Ross about his dinosaur toys, which leads Ross to use a childish, secret hand gesture from his youth. Eager to move on, Ross heads out for what he believes is a romantic date with Amanda. However, his high expectations are instantly crushed when he arrives at her apartment. Instead of a romantic evening, Amanda reveals she has recruited Ross to babysit her son and Ben so she can go out with another man. After casually offering Ross the code to the blocked adult channels, Amanda thanks him and departs for her date, leaving a defeated Ross alone with a bottle of wine."
+  }
+]

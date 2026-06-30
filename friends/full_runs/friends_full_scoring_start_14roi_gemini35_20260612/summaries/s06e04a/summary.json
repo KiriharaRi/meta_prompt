@@ -1,0 +1,50 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:53",
+    "batch_summary": "As Rachel prepares to move in with Ross, she and Monica sort through her belongings, finding she only owns a magnetic bottle opener. Ross awkwardly flirts with Rachel, prompting Phoebe to confront him about his secret marriage to Rachel and his hopes that she will fall in love with him. Ross deflects the accusation by claiming Phoebe is the one in love with Rachel. After a brief dispute between Monica and Rachel over candlesticks, Ross receives a call offering him a position at NYU's paleontology department.",
+    "cumulative_summary": "In the apartment, Rachel prepares to move in with Ross, but she and Monica discover that her only kitchen contribution is a magnetic bottle opener. Seizing the moment, Ross awkwardly flirts with Rachel, claiming she completes him before quickly backtracking. Phoebe intervenes, calling Ross out for his hidden agenda: he secretly hopes Rachel will fall in love with him, despite the fact that he has not yet confessed they are already married. To deflect, Ross jokingly accuses Phoebe of being obsessed and in love with Rachel herself. Meanwhile, tension simmers between Monica and Rachel as they bicker over who owns a pair of candlesticks. Ross is saved from further interrogation when he receives a phone call from the head of the paleontology department at NYU, securing a new opportunity starting Monday, which he proudly shares with the group."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:53 - 00:03:47",
+    "batch_summary": "Ross excitedly shares that NYU has invited him to be a guest lecturer, which could lead to a full-time professorship. Phoebe nearly exposes Ross's secret marriage to Rachel but covers it up as a joke at the last second, warning Ross she \"saved his ass.\" Later, at Central Perk, Phoebe casually informs the shocked group that her psychic predicted she will die this week, leaving everyone skeptical and concerned.",
+    "cumulative_summary": "In the apartment, Rachel prepares to move in with Ross, but she and Monica bicker over household items. Ross awkwardly flirts with Rachel, prompting Phoebe to call out his hidden agenda: he secretly hopes Rachel will fall in love with him, hiding the fact that they are still married. Ross is temporarily saved by a call from NYU's paleontology department, which he proudly reveals has offered him a guest lecturer position. However, Phoebe nearly exposes his secret by asking Rachel about still being married to Ross, quickly covering it up as a joke to save him. Later, at Central Perk, the group gathers as Phoebe casually drops a bombshell: her psychic has predicted she will die by the end of the week. While Phoebe is bummed by the \"worst reading\" possible, her friends react with deep skepticism and concern."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:47 - 00:05:50",
+    "batch_summary": "Phoebe decides to live her final week to the fullest following her psychic's prediction. Meanwhile, Ross arrives at Central Perk to practice his first NYU guest lecture on the group. His presentation on sediment flow rate is incredibly dry and monotone, prompting relentless teasing from his friends. Joey mocks his intense focus on his note cards, Chandler suggests opening with a joke, and Phoebe quips that the boredom will kill her. Defensive and discouraged, Ross prepares to leave, but Rachel attempts to offer advice to make it less boring.",
+    "cumulative_summary": "After Rachel and Monica bicker over moving arrangements, Ross's secret—that he and Rachel are still married—is nearly exposed by Phoebe. Ross is temporarily saved by an offer to guest lecture at NYU. Later at Central Perk, Phoebe reveals her psychic predicted she will die by the end of the week, prompting her to try living life to the fullest. When Ross arrives to practice his first lecture on the group, his presentation on sediment flow rate proves painfully dry and monotone. The friends relentlessly tease him, with Phoebe joking that the boredom will kill her, Joey mocking his intense focus on his note cards, and Chandler suggesting he open with a joke. Defensive and discouraged, Ross prepares to leave, but Rachel steps in to offer advice on how to make his lecture less boring."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:50 - 00:07:16",
+    "batch_summary": "Frustrated by Joey's inappropriate suggestions for visual aids and Chandler's teasing, Ross decides to prepare his NYU lecture on his own. Meanwhile, Chandler delivers mail to Joey revealing that his health insurance has expired because he did not work enough over the past year. Anxious about the financial risk of getting hurt without coverage, Joey realizes he must be careful and immediately heads out to see his agent to find a new acting job.",
+    "cumulative_summary": "After Rachel and Monica bicker over moving arrangements, Ross's secret—that he and Rachel are still married—is nearly exposed. Ross is temporarily saved by an offer to guest lecture at NYU, but his practice run at Central Perk is painfully dry. When Ross tries to discuss visual aids, Joey's inappropriate suggestions and Chandler's teasing prompt Ross to reject their help and prepare on his own. Meanwhile, Phoebe deals with a psychic's prediction of her impending death. Later, Chandler delivers mail to Joey revealing that his health insurance has expired due to a lack of acting work over the past year. Panicked by the sudden vulnerability of being uninsured, Joey realizes he can no longer afford to get hurt and immediately sets off to see his agent to find a new job."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:16 - 00:08:50",
+    "batch_summary": "Joey heads out to find a job, mocking Chandler's safety warnings. Meanwhile, Phoebe's death anxiety persists as she dramatically fakes a choking fit to prepare Rachel for her demise. Rachel and Monica's moving tensions flare up again when Rachel catches Monica trying to sneak away with her silver candlesticks. Finally, Ross returns triumphantly from his NYU guest lecture, boasting that his dry presentation was a huge success and that he proved his friends wrong by letting the academic material speak for itself.",
+    "cumulative_summary": "After Rachel and Monica bicker over moving arrangements, Ross is saved from exposing his secret marriage to Rachel by an offer to guest lecture at NYU. Though his friends tease him during a dry practice run, Ross prepares on his own. Meanwhile, Phoebe copes with a psychic's prediction of her impending death, even dramatically faking a choking fit to prepare Rachel. After learning his health insurance has expired, a panicked Joey heads out to find acting work, mocking Chandler's safety warnings on his way. Back at the apartment, Rachel and Monica's moving tensions flare up again when Rachel catches Monica trying to take her silver candlesticks. Finally, Ross returns triumphantly from his NYU lecture, boasting that his dry presentation was a massive success and that he proved everyone wrong by letting the academic material speak for itself."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 238,
+    "timestamp_range": "00:08:50 - 00:10:54",
+    "batch_summary": "Joey visits his agent, Estelle, to find work after losing his health insurance. Estelle, mistakenly believing Joey had previously left her, reveals she has been bad-mouthing him around town, though Joey vows to find the \"bastard\" responsible. Meanwhile, Monica and Rachel sneak into Ross's NYU lecture, only to discover he is teaching with a bizarre, fake British accent. Ross panics when he spots them. Later, Joey enthusiastically prepares for auditions Estelle lined up, determined to regain his insurance.",
+    "cumulative_summary": "After Rachel and Monica bicker over moving arrangements, Ross prepares for his guest lecture at NYU, while Phoebe copes with a psychic's prediction of her death. Meanwhile, a panicked Joey, having lost his health insurance, visits his eccentric agent Estelle. Estelle mistakenly thought Joey had left her and admits she has been bad-mouthing him around town, but she still manages to line up several auditions for him. Eager to see Ross in action, Monica and Rachel sneak into his NYU lecture hall. To their utter shock, they discover Ross is delivering his lecture in a bizarre, fake British accent to keep the students engaged. Ross spots them in the audience and instantly panics, breaking character. Back home, Joey vigorously prepares for his upcoming auditions, determined to regain his health coverage despite the bizarre hurdles."
+  }
+]

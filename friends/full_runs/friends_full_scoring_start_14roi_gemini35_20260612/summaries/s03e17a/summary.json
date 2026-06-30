@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:44",
+    "batch_summary": "In a coffee shop, Joey, Chandler, Monica, and Phoebe discuss the ongoing tension between the recently split Ross and Rachel. Joey reveals that the ex-couple had a screaming match the previous night over Ross's infidelity during their \"break.\" While Chandler compares the group's awkward division to his parents' divorce, Phoebe and Joey reminisce about dreams where the couple never broke up. Despite the lingering hostility, the friends try to remain hopeful about the situation, though Monica jokingly mocks Joey's quick recovery time from relationships just as Rachel rejoins them.",
+    "cumulative_summary": "At the local coffee shop, the friends gather and navigate the awkward aftermath of Ross and Rachel's recent breakup. When Monica expresses concern about the two exes accidentally running into each other, Joey reveals that Ross and Rachel had a massive screaming match the night before. The group debates the conflict, noting Ross's defense that they were \"on a break\" when he slept with another woman. Chandler compares the uncomfortable group dynamic to his parents' divorce, while Phoebe shares a dream where the couple was still happily together. Despite the tension, Chandler hopes things will blow over soon, prompting Joey to boast about his own quick recovery time from breakups—a claim Monica quickly ridicules. The awkwardness looms large as Rachel rejoins the group, highlighting the deep rift the breakup has caused among the close-knit friends."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:44 - 00:03:44",
+    "batch_summary": "Rachel tries to rush the group out of the coffee shop to avoid Ross, but he arrives, leading to a tense, silent standoff that Phoebe unsuccessfully tries to diffuse. Later, Rachel offers the friends tickets to a Calvin Klein lingerie show for Thursday night. However, the group reluctantly declines because they had already committed to checking out Ross's new home theater system. Joey defends their decision, explaining that since Ross asked first, it is only fair to keep their plans with him, highlighting the friends' struggle to balance their loyalties.",
+    "cumulative_summary": "At the local coffee shop, the friends navigate the awkward aftermath of Ross and Rachel's recent breakup, debating Ross's \"on a break\" defense. The tension peaks when Rachel tries to rush everyone out to avoid Ross, only for him to walk in, resulting in a silent, uncomfortable standoff that Phoebe unsuccessfully tries to diffuse with humor. Later, at the apartment, Rachel attempts to win the group over by offering them five tickets to a Calvin Klein lingerie show on Thursday night. Although the friends are highly tempted, they awkwardly reveal they have already made plans to watch Ross's new home theater system. Joey reluctantly but firmly explains that they must honor Ross's invitation because he asked first. This conflict highlights the growing difficulty the close-knit group faces as they try to remain fair and avoid taking sides, caught directly in the crossfire of their friends' painful split."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:44 - 00:05:21",
+    "batch_summary": "The stress of Ross and Rachel's breakup triggers Chandler to start smoking again, a habit he associates with his parents' divorce. When Rachel returns to offer the group a weekend ski trip at her sister's cabin—making sure to ask them first this time—she catches Chandler smoking. He defensively dismisses her. Later, Chandler continues smoking by an open window in the apartment, causing Joey to complain about the cold while Phoebe jokes about the situation, highlighting the ongoing tension and coping mechanisms of the group.",
+    "cumulative_summary": "At the local coffee shop, the friends navigate the awkward aftermath of Ross and Rachel's recent breakup, debating Ross's \"on a break\" defense. The tension peaks when Rachel tries to rush everyone out to avoid Ross, only for him to walk in, resulting in a silent, uncomfortable standoff. Later, Rachel attempts to win the group over with lingerie show tickets, but the friends reluctantly decline because they had already committed to Ross's home theater plans. Following this awkwardness, the emotional fallout of the split triggers Chandler to resume smoking, a coping mechanism he links to his parents' divorce. When Rachel returns to offer the friends a weekend ski trip at her sister's cabin—careful to \"play by the rules\" and ask them first this time—she catches Chandler smoking, prompting a defensive reaction. As Chandler continues to smoke by an open window to Joey's discomfort, the friends continue to struggle with the uncomfortable atmosphere and the division caused by their friends' painful breakup."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:21 - 00:07:11",
+    "batch_summary": "Ross thanks his friends for their support and proposes a weekend laser disc and dart marathon, only to learn they have already agreed to go skiing at Rachel's sister's cabin. Feeling guilty, Phoebe, Joey, and Monica take turns offering to stay behind with Ross. Rejecting their \"pity stays\" and Monica's offer of \"pity fudge,\" a proud Ross insists that nobody needs to stay with him, prompting a sarcastic offer from Chandler.",
+    "cumulative_summary": "Following Ross and Rachel's painful breakup, the friends struggle to balance their loyalty to both sides. After Rachel invites the group to a weekend ski trip at her sister's cabin, Ross—unaware of their plans—sincerely thanks them for their support and proposes a weekend laser disc and dart marathon. The friends are forced to awkwardly admit they have already committed to Rachel's trip. Stricken with guilt over leaving Ross alone during his first weekend post-breakup, Phoebe, Joey, and Monica take turns offering to stay behind. However, Ross rejects their \"pity stays\" and Monica's offer of \"pity fudge,\" proudly insisting that nobody needs to stay with him. This prompts a sarcastic offer to stay from Chandler, leaving the group still deeply divided and uncomfortable as they navigate the fallout of the split."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:11 - 00:08:57",
+    "batch_summary": "As the group drives to the ski cabin in Phoebe's grandmother's cab, guilt over Ross still lingers, especially after Joey awkwardly tried to borrow his goggles. When Chandler and Joey demand a bathroom break, Phoebe reluctantly pulls over at a snowy rest stop. Rachel initially refuses to use the public restroom but eventually changes her mind. However, as she exits the cab, she accidentally leaves the keys locked inside, creating a new crisis for the stranded friends.",
+    "cumulative_summary": "Following Ross and Rachel's painful breakup, the friends struggle to balance their loyalty. After Rachel invites the group to a ski trip, they awkwardly admit to Ross that they cannot attend his planned weekend marathon. Despite feeling guilty about leaving Ross alone, the group sets off in Phoebe's grandmother's cab. During the tense, snowy drive, Joey's attempt to borrow Ross's ski goggles highlights their lingering discomfort. When Chandler and Joey demand a bathroom break, Phoebe pulls over at a remote rest stop. Rachel initially refuses to use the public restroom but eventually decides to join the others. However, disaster strikes when Rachel exits the vehicle and realizes she has locked the keys inside the cab, leaving the already strained group stranded in the cold."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:57 - 00:10:36",
+    "batch_summary": "Stranded in the freezing cold, the group tries to find a way into the locked cab. Joey claims he can jimmy the lock but needs a wire, prompting him to ask the women for an underwire from their bras. This leads to a humorous argument as Monica and Rachel defensively downplay their breast sizes to avoid sacrificing their underwear. Phoebe ultimately volunteers her bra to resolve the dispute, while Chandler's sarcastic jokes do little to alleviate their tense situation.",
+    "cumulative_summary": "Following Ross and Rachel's painful breakup, the friends struggle to balance their loyalty. After Rachel invites the group on a ski trip, they set off in Phoebe's grandmother's cab, leaving a lonely Ross behind. However, disaster strikes at a remote rest stop when Rachel accidentally locks the keys inside the vehicle, leaving the group stranded in the freezing cold. Desperate to get inside, Joey claims he can jimmy the lock but needs a wire, prompting him to ask the women for an underwire from their bras. A humorous argument ensues as Monica and Rachel defensively downplay their breast sizes to avoid sacrificing their underwear. Phoebe ultimately volunteers her bra to resolve the dispute, while Chandler's sarcastic jokes do little to alleviate their tense, freezing situation."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 254,
+    "timestamp_range": "00:10:36 - 00:11:15",
+    "batch_summary": "Phoebe hands over her bra to Joey, prompting playful teasing from Monica and Rachel about its fancy style. Chandler makes another sarcastic remark before Joey successfully uses the underwire to unlock the taxi door. The relieved group quickly piles into the warm car, only for Rachel to immediately catch Chandler smoking a cigarette in the back seat.",
+    "cumulative_summary": "Following Ross and Rachel's painful breakup, the friends struggle to balance their loyalty. After Rachel invites the group on a ski trip, they set off in Phoebe's grandmother's cab, leaving a lonely Ross behind. However, disaster strikes at a remote rest stop when Rachel accidentally locks the keys inside the vehicle, leaving the group stranded in the freezing cold. Desperate to get inside, Joey claims he can jimmy the lock but needs a wire, prompting him to ask the women for an underwire from their bras. After a humorous argument, Phoebe volunteers her bra. While Monica and Rachel playfully tease Phoebe about her fancy underwear, Joey successfully uses the underwire to unlock the taxi door. The relieved friends quickly pile into the warm vehicle, though Rachel immediately has to scold Chandler for smoking a cigarette in the back seat."
+  }
+]

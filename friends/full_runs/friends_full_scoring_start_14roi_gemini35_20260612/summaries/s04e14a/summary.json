@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:50",
+    "batch_summary": "While preparing for a fishing trip, Joey, Phoebe, Monica, and Ross joke about fishing gear, and Ross accidentally knocks over a lamp. Joey is excited to brag to his dad about his new movie role. A depressed Chandler, followed by his pet duck and rooster, briefly enters, grieving his recent breakup with Kathy. Monica urges Joey to skip his fishing trip to support Chandler, but Joey insists he must go, explaining that Chandler is only in \"Phase One\" (sweatpants) of his breakup recovery and that Joey will return in time for \"Phase Two\" (strip clubs).",
+    "cumulative_summary": "In the apartment, Joey, Phoebe, Monica, and Ross playfully examine fishing gear in preparation for an upcoming trip. After Ross clumsily knocks over a lamp while practicing his cast, Joey expresses excitement about using his new movie role with Charlton Heston to impress his father during the trip. The lighthearted mood shifts slightly when a heartbroken Chandler enters in sweatpants, closely followed by his loyal duck and rooster, dealing with his recent breakup with Kathy. Although Monica suggests that Joey should cancel his fishing trip to support his grieving roommate, Joey declines. He explains his theory of breakup recovery phases: Chandler is currently in \"Phase One\" (wearing sweatpants), and Joey promises he will be back in time to guide Chandler through \"Phase Two,\" which involves getting drunk and visiting a strip club, followed by \"Phase Three\" of moving on."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:50 - 00:03:31",
+    "batch_summary": "After Chandler retreats to his room, the scene shifts to Bloomingdale's, where Rachel is styling her crush, Joshua. Her boss, Mr. Waltham, asks Rachel to take his visiting British niece to the opera tonight, and Rachel eagerly agrees. However, immediately afterward, Joshua invites Rachel to a nightclub opening tonight. Desperate to go out with him, Rachel lies and says she is free, accepting his invitation. She is left momentarily stunned when Joshua jokes that the venue is an S&M club.",
+    "cumulative_summary": "In the apartment, Joey, Phoebe, Monica, and Ross prepare for a fishing trip, while a heartbroken Chandler grieves his breakup with Kathy. Joey refuses to cancel his trip, promising to help Chandler through his recovery phases when he returns. After Chandler retreats to his room, the scene shifts to Bloomingdale's, where Rachel is styling her crush, Joshua. Her boss, Mr. Waltham, asks her to take his visiting British niece to the opera that evening, and Rachel eagerly agrees. However, immediately afterward, Joshua invites Rachel to a nightclub opening tonight. Desperate to go out with him, Rachel lies and says she is free, accepting his invitation. She is left momentarily stunned when Joshua jokes that the venue is an S&M club, setting up a major scheduling conflict."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:31 - 00:05:01",
+    "batch_summary": "Joshua gives Rachel a VIP card for the club, but Mr. Waltham immediately hands her the opera tickets for his niece Emily, leaving Rachel in a silent panic over her scheduling conflict. Meanwhile, a depressed Chandler declares he will never leave his leather armchair or his sweatpants. Joey returns from his three-day fishing trip smelling incredibly foul after falling into a tub of worms. Upon learning that Chandler hasn't moved in two days, Joey immediately goes to check on his grieving friend.",
+    "cumulative_summary": "In the apartment, the friends prepare for a fishing trip while a heartbroken Chandler grieves his breakup with Kathy. Joey refuses to cancel his trip but promises to help Chandler when he returns. Meanwhile, at Bloomingdale's, Rachel is thrilled when her crush, Joshua, invites her to a nightclub opening. Desperate to go, she lies to her boss, Mr. Waltham, accepting the invitation despite having already agreed to take his visiting British niece, Emily, to the opera that same night. Joshua hands Rachel a VIP card, but her excitement turns to panic when Mr. Waltham delivers the opera tickets. Back at the apartment, Chandler's depression worsens as he refuses to leave his leather armchair or take off his sweatpants. Joey returns from his three-day fishing trip smelling terribly of fish and worms. After learning that Chandler has not moved from his chair in two days, Joey immediately goes to comfort his grieving roommate."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:01 - 00:06:43",
+    "batch_summary": "Joey's terrible fish odor successfully drives Chandler out of his armchair, which Joey misinterprets as a breakthrough. Meanwhile, Rachel desperately tries to find someone to take her boss's niece, Emily, to the opera so she can meet Joshua. After Monica and Phoebe decline, Rachel turns to a highly reluctant Ross, begging him to take Emily. Just as Ross protests the unfair favor, Monica spots Emily arriving at the apartment.",
+    "cumulative_summary": "In the apartment, the friends prepare for a fishing trip while a heartbroken Chandler grieves his breakup with Kathy. Joey refuses to cancel his trip but promises to help Chandler when he returns. Meanwhile, at Bloomingdale's, Rachel is thrilled when her crush, Joshua, invites her to a nightclub opening. Desperate to go, she lies to her boss, Mr. Waltham, accepting the invitation despite having already agreed to take his visiting British niece, Emily, to the opera that same night. Back at the apartment, Chandler's depression worsens until Joey returns smelling terribly of fish. The awful odor successfully drives Chandler from his chair, which Joey hilariously misinterprets as a friendly breakthrough before leaving for an acting gig. Desperate to free up her evening for Joshua, Rachel begs her friends to take Emily to the opera. With Monica working and Phoebe suffering from evening sickness, Rachel desperately pressures a highly reluctant Ross to go instead. Just as Ross protests the unfair favor, Monica spots Emily arriving at the door."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:43 - 00:08:37",
+    "batch_summary": "Rachel successfully guilt-trips Ross into taking Emily to the opera. However, when Emily arrives wet and miserable, Rachel's last-minute cancellation infuriates her. After Emily rants about her terrible trip and storms off, Ross rushes after her to salvage the evening. Meanwhile, Phoebe has a false alarm thinking the baby kicked, and Joey rushes home late for his acting gig, only for Monica to stop him because he still reeks of fish.",
+    "cumulative_summary": "In the apartment, the friends prepare for a fishing trip while a heartbroken Chandler grieves his breakup. Meanwhile, Rachel is thrilled when her crush, Joshua, invites her to a nightclub opening. Desperate to go, she lies to her boss, accepting the invitation despite having already agreed to take his visiting British niece, Emily, to the opera. To free up her evening, Rachel guilt-trips a highly reluctant Ross into taking Emily instead. However, when Emily arrives wet and miserable, Rachel's last-minute cancellation infuriates her. After Emily rants about her terrible trip and storms off, Ross rushes after her to salvage the evening. Back at the apartment, Phoebe has a false alarm thinking the baby kicked, and Joey rushes in late for his acting gig, only for Monica to stop him because he still reeks of fish from his trip."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:37 - 00:10:25",
+    "batch_summary": "Rachel returns from a disastrous night, having missed Joshua due to a club mix-up and getting into a physical fight over an umbrella. Meanwhile, Chandler tries to cope with his heartbreak by planning a morning trip to a strip club. The group is shocked when Monica receives a call from Ross, revealing that he and Emily have spontaneously gone to a bed and breakfast in Vermont, leaving Rachel completely stunned.",
+    "cumulative_summary": "In the apartment, the friends prepare for a fishing trip while a heartbroken Chandler grieves his breakup. Desperate to see her crush, Joshua, Rachel lies to her boss and guilt-trips Ross into taking his visiting British niece, Emily, to the opera instead. However, Rachel's night is a total disaster; she is denied entry to the club and ends up in a physical altercation, never seeing Joshua. Meanwhile, Joey runs off to his acting gig still smelling of fish, and Chandler tries to drown his sorrows at a morning strip club. The biggest shock comes when Monica receives a phone call from Ross, revealing that he and Emily have hit it off and are currently at a bed and breakfast in Vermont. Upon hearing this, a stunned Rachel is left in disbelief and horror at the unexpected turn of events."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 253,
+    "timestamp_range": "00:10:25 - 00:11:05",
+    "batch_summary": "Ross explains over the phone that Emily's initial bad mood was just due to being wet, but she warmed up once she dried off. Rachel is furious and bewildered by their sudden trip to Vermont, demanding to know how this happened. Meanwhile, in Vermont, Emily excitedly calls Ross to see a deer in the orchard, causing Ross to abruptly hang up on Monica. Monica relays this idyllic update to a stunned and increasingly bitter Rachel.",
+    "cumulative_summary": "In the apartment, the friends prepare for a fishing trip while a heartbroken Chandler grieves his breakup. Desperate to see her crush, Joshua, Rachel lies to her boss and guilt-trips Ross into taking his visiting British niece, Emily, to the opera instead. However, Rachel's night is a total disaster; she is denied entry to the club and ends up in a physical altercation, never seeing Joshua. Meanwhile, Joey runs off to his acting gig still smelling of fish, and Chandler tries to drown his sorrows at a morning strip club. The biggest shock comes when Monica receives a phone call from Ross, revealing that he and Emily have hit it off and are currently at a bed and breakfast in Vermont. Ross explains that Emily's initial sour mood was just due to the rain, but Rachel is left furious and bewildered by their sudden romance. When Ross abruptly hangs up to join Emily in watching a deer in the orchard, Monica relays the news, leaving a stunned and bitter Rachel in complete disbelief."
+  }
+]

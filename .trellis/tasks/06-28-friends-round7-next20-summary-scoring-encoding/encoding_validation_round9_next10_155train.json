@@ -1,0 +1,192 @@
+{
+  "status": "passed",
+  "created_at_utc": "2026-06-30T10:08:04.135281+00:00",
+  "split_counts": {
+    "train": 155,
+    "val": 5,
+    "test": 10
+  },
+  "train_size": 155,
+  "val_size": 5,
+  "test_size": 10,
+  "manifest_row_count": 170,
+  "scoring_clean_pairs": 140,
+  "scoring_warning_pairs": 0,
+  "scoring_missing_pairs": 0,
+  "snapshot_output_dir": "friends/analysis/train_size_sweep_20260630_round9/encoding_155train_10test_snapshot",
+  "default_output_dir": "friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding",
+  "snapshot_default_metrics_match": true,
+  "primary_metric": "mean_subject_mean_test_pearson",
+  "mean_subject_mean_test_pearson": 0.22744391736273634,
+  "median_subject_mean_test_pearson": 0.22744391736273634,
+  "mean_subject_median_test_pearson": 0.214970767912892,
+  "n_subjects": 1,
+  "subject_id": "sub-01",
+  "best_alpha": 10000.0,
+  "mean_test_pearson": 0.22744391736273634,
+  "median_test_pearson": 0.214970767912892,
+  "n_retained_parcels": 86,
+  "n_test_trs": 4467,
+  "roi_metrics": {
+    "ACC": {
+      "mean_test_pearson": 0.19726170969722742,
+      "median_subject_mean_test_pearson": 0.19726170969722742,
+      "n_subjects": 1
+    },
+    "AG": {
+      "mean_test_pearson": 0.27160884013651476,
+      "median_subject_mean_test_pearson": 0.27160884013651476,
+      "n_subjects": 1
+    },
+    "DLPFC": {
+      "mean_test_pearson": 0.23363462020911366,
+      "median_subject_mean_test_pearson": 0.23363462020911366,
+      "n_subjects": 1
+    },
+    "FFA": {
+      "mean_test_pearson": 0.2534881626452543,
+      "median_subject_mean_test_pearson": 0.2534881626452543,
+      "n_subjects": 1
+    },
+    "IPL": {
+      "mean_test_pearson": 0.2849844067383548,
+      "median_subject_mean_test_pearson": 0.2849844067383548,
+      "n_subjects": 1
+    },
+    "Insula": {
+      "mean_test_pearson": 0.21431604440646976,
+      "median_subject_mean_test_pearson": 0.21431604440646976,
+      "n_subjects": 1
+    },
+    "OFC": {
+      "mean_test_pearson": 0.21336577629966383,
+      "median_subject_mean_test_pearson": 0.21336577629966383,
+      "n_subjects": 1
+    },
+    "PCC": {
+      "mean_test_pearson": 0.2396452775071679,
+      "median_subject_mean_test_pearson": 0.2396452775071679,
+      "n_subjects": 1
+    },
+    "Precuneus": {
+      "mean_test_pearson": 0.1811865137703832,
+      "median_subject_mean_test_pearson": 0.1811865137703832,
+      "n_subjects": 1
+    },
+    "SMG": {
+      "mean_test_pearson": 0.29835997334019476,
+      "median_subject_mean_test_pearson": 0.29835997334019476,
+      "n_subjects": 1
+    },
+    "TPJ": {
+      "mean_test_pearson": 0.27057271581310627,
+      "median_subject_mean_test_pearson": 0.27057271581310627,
+      "n_subjects": 1
+    },
+    "Temporal_Pole": {
+      "mean_test_pearson": 0.21754773618089002,
+      "median_subject_mean_test_pearson": 0.21754773618089002,
+      "n_subjects": 1
+    },
+    "VMPFC": {
+      "mean_test_pearson": 0.20488957523550447,
+      "median_subject_mean_test_pearson": 0.20488957523550447,
+      "n_subjects": 1
+    },
+    "pSTS": {
+      "mean_test_pearson": 0.2121590358944805,
+      "median_subject_mean_test_pearson": 0.2121590358944805,
+      "n_subjects": 1
+    }
+  },
+  "subject_roi_metrics": {
+    "ACC": {
+      "mean_test_pearson": 0.19726170969722742,
+      "median_test_pearson": 0.18668367065919433,
+      "n_total_selected_parcels": 8,
+      "n_retained_parcels": 8
+    },
+    "AG": {
+      "mean_test_pearson": 0.27160884013651476,
+      "median_test_pearson": 0.23872604337059888,
+      "n_total_selected_parcels": 6,
+      "n_retained_parcels": 6
+    },
+    "DLPFC": {
+      "mean_test_pearson": 0.23363462020911366,
+      "median_test_pearson": 0.208749105680548,
+      "n_total_selected_parcels": 10,
+      "n_retained_parcels": 10
+    },
+    "FFA": {
+      "mean_test_pearson": 0.2534881626452543,
+      "median_test_pearson": 0.2793466271968663,
+      "n_total_selected_parcels": 4,
+      "n_retained_parcels": 4
+    },
+    "IPL": {
+      "mean_test_pearson": 0.2849844067383548,
+      "median_test_pearson": 0.23872604337059888,
+      "n_total_selected_parcels": 12,
+      "n_retained_parcels": 12
+    },
+    "Insula": {
+      "mean_test_pearson": 0.21431604440646976,
+      "median_test_pearson": 0.21773462493107149,
+      "n_total_selected_parcels": 12,
+      "n_retained_parcels": 12
+    },
+    "OFC": {
+      "mean_test_pearson": 0.21336577629966383,
+      "median_test_pearson": 0.2228815876516111,
+      "n_total_selected_parcels": 12,
+      "n_retained_parcels": 12
+    },
+    "PCC": {
+      "mean_test_pearson": 0.2396452775071679,
+      "median_test_pearson": 0.22888725930015924,
+      "n_total_selected_parcels": 6,
+      "n_retained_parcels": 6
+    },
+    "Precuneus": {
+      "mean_test_pearson": 0.1811865137703832,
+      "median_test_pearson": 0.14507683945093514,
+      "n_total_selected_parcels": 8,
+      "n_retained_parcels": 8
+    },
+    "SMG": {
+      "mean_test_pearson": 0.29835997334019476,
+      "median_test_pearson": 0.3008120510585963,
+      "n_total_selected_parcels": 6,
+      "n_retained_parcels": 6
+    },
+    "TPJ": {
+      "mean_test_pearson": 0.27057271581310627,
+      "median_test_pearson": 0.23070217328729087,
+      "n_total_selected_parcels": 20,
+      "n_retained_parcels": 20
+    },
+    "Temporal_Pole": {
+      "mean_test_pearson": 0.21754773618089002,
+      "median_test_pearson": 0.21796970400340443,
+      "n_total_selected_parcels": 4,
+      "n_retained_parcels": 4
+    },
+    "VMPFC": {
+      "mean_test_pearson": 0.20488957523550447,
+      "median_test_pearson": 0.16529673913999585,
+      "n_total_selected_parcels": 8,
+      "n_retained_parcels": 8
+    },
+    "pSTS": {
+      "mean_test_pearson": 0.2121590358944805,
+      "median_test_pearson": 0.20990785140089008,
+      "n_total_selected_parcels": 4,
+      "n_retained_parcels": 4
+    }
+  },
+  "notes": [
+    "Snapshot and default output dirs differ only by artifact paths; metrics and retained-parcel counts are compared directly."
+  ],
+  "issues": []
+}

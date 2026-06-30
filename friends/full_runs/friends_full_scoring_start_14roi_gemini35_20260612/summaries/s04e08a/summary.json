@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:54",
+    "batch_summary": "Joey is furious with Chandler for kissing his girlfriend and repeatedly hangs up on his apology calls, even when Chandler tries to trick him. Ross tries to intervene, but Joey shuts him down too. Later, at Monica's apartment, a defeated Chandler joins the group (Monica, Phoebe, Ross, and Rachel) as they prepare for Thanksgiving. Chandler laments his failed eight-hour attempt to reconcile with Joey. Meanwhile, Phoebe suggests a Secret Santa exchange to save money for her and Monica's new business.",
+    "cumulative_summary": "Tension runs high between Joey and Chandler after Chandler kisses Joey's girlfriend. Sitting in his apartment, Joey repeatedly hangs up on Chandler's desperate phone calls. Chandler even tries to trick Joey by posing as a radio host offering a cash prize, but Joey slams the phone down the moment Chandler asks for the name of his \"very sorry roommate.\" When Ross calls to intervene on Chandler's behalf, Joey shuts him down as well. Later, Chandler joins Monica, Phoebe, Ross, and Rachel at Monica's apartment as they prepare for Thanksgiving. Exhausted and defeated, Chandler admits that his relationship with Joey couldn't be worse after spending eight hours trying to apologize. As the group discusses holiday plans, Rachel jokes about office-stolen gifts, and Phoebe suggests they do a Secret Santa exchange to help her and Monica save money as they launch their new business."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:54 - 00:03:29",
+    "batch_summary": "As the friends draw names for Secret Santa, Joey tries to leave upon seeing Chandler but is persuaded to stay. Joey jokingly claims he invented Secret Santa and the movie Die Hard, prompting playful teasing. Later, Chandler asks to trade names to get Rachel. Phoebe eagerly agrees, explaining that Rachel returns every gift she receives. Chandler is shocked to realize Rachel lied about a dog stealing a backpack he once bought her, which she had actually returned.",
+    "cumulative_summary": "Tension runs high between Joey and Chandler after Chandler kisses Joey's girlfriend. Joey repeatedly avoids Chandler's apologies and even shuts down Ross's attempts to intervene. When Joey arrives at Monica's apartment for Thanksgiving, he immediately tries to leave upon seeing Chandler, but the group coaxes him to stay to draw names for Secret Santa. Despite the lingering awkwardness, the friends share some lighthearted banter over Joey's absurd claims of inventing the game. Later, Chandler asks to trade names so he can get Rachel. Phoebe eagerly agrees, revealing that Rachel notoriously returns every gift she receives. This revelation leaves Chandler stunned as he realizes Rachel lied about a wild dog stealing a backpack he once bought her, which she had actually exchanged."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:29 - 00:04:57",
+    "batch_summary": "While discussing a briefcase Chandler bought, Thanksgiving preparations take a painful turn when Monica injures her eye with ice from a stuck freezer. Reluctant to visit her eye doctor because he is her ex-boyfriend, Richard, Monica is relieved when Phoebe calls and learns Richard is out of town. Phoebe quickly schedules an appointment for Monica with the on-call doctor instead, while Chandler takes advantage of Joey and Ross's absence to watch the Thanksgiving parade.",
+    "cumulative_summary": "Tension runs high between Joey and Chandler after Chandler kisses Joey's girlfriend. Joey repeatedly avoids Chandler's apologies, even shutting down Ross's attempts to intervene. When Joey arrives at Monica's apartment for Thanksgiving, he immediately tries to leave upon seeing Chandler, but the group coaxes him to stay to draw names for Secret Santa. Chandler trades names to get Rachel, only to learn from Phoebe that Rachel notoriously returns every gift she receives. While discussing a briefcase Chandler bought, Thanksgiving preparations take a painful turn when Monica injures her eye with ice from a stuck freezer. Reluctant to visit her eye doctor because he is her ex-boyfriend, Richard, Monica is relieved when Phoebe calls and learns Richard is out of town. Phoebe quickly schedules an appointment for Monica with the on-call doctor instead, while Chandler takes advantage of Joey and Ross's absence to watch the Thanksgiving parade."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:57 - 00:06:40",
+    "batch_summary": "Rachel takes Monica to the eye doctor, leaving Phoebe to enthusiastically take charge of the Thanksgiving kitchen. Meanwhile, Chandler reports minor, albeit hostile, progress with Joey. When Ross tries to trade his Secret Santa name with Chandler, Chandler warns him against trading for Rachel, reiterating that she exchanges every gift she receives. Although Ross confidently defends a gold necklace he bought her, Chandler's questioning makes him realize that Rachel likely returned his gift as well.",
+    "cumulative_summary": "Tension remains high between Joey and Chandler after Chandler kissed Joey's girlfriend. When Monica injures her eye during Thanksgiving preparations, Rachel takes her to the eye doctor, leaving Phoebe to enthusiastically run the kitchen. Meanwhile, Chandler reports minor, albeit hostile, progress with Joey, who only slammed his door once. Back in the apartment, Ross tries to trade his Secret Santa name with Chandler. Chandler warns Ross against trading for Rachel, reiterating that she notoriously exchanges every gift she receives. Although Ross confidently defends a gold necklace he bought her the previous year, Chandler's questioning makes Ross realize that Rachel likely returned his sentimental gift as well."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:40 - 00:08:15",
+    "batch_summary": "Ross visits Joey, who is packing up the guilt-gifts Chandler bought him. Ross tries to mediate, but Joey declares Chandler is no longer his best friend, offering the vacant title to Ross instead. Ross accepts and immediately uses his new influence to convince Joey to talk to Chandler. Meanwhile, at the coffee shop, Chandler reassures a guilty Kathy about the situation, but their intimate moment is interrupted when Joey walks in and spots them kissing.",
+    "cumulative_summary": "Tension remains high between Joey and Chandler after Chandler kissed Joey's girlfriend, Kathy. While Monica is away treating an eye injury, Ross tries to trade his Secret Santa name with Chandler, only to realize Rachel likely returned a sentimental gold necklace he once gave her. Hoping to mend his friends' rift, Ross visits Joey, who is packing up all the guilt-gifts Chandler bought him. Joey declares Chandler is no longer his best friend and offers the title to Ross instead. Ross accepts the honor and immediately uses his new \"best friend\" status to persuade Joey to finally talk to Chandler. Meanwhile, at the coffee shop, Chandler comforts a guilt-ridden Kathy, assuring her that the fallout with Joey isn't her fault. However, as Chandler and Kathy share a kiss, Joey walks into the coffee shop and catches them in the act, threatening to undo Ross's hard-won progress."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:15 - 00:09:50",
+    "batch_summary": "Joey catches Chandler and Kathy kissing at the coffee shop and storms out in anger. Meanwhile, at the eye clinic, Monica and Rachel discover that the handsome on-call doctor treating Monica's eye is actually Timothy Burke, the son of Monica's ex-boyfriend, Richard. Back at the apartment, a furious Joey packs his bags to stay with his parents, telling a devastated Chandler that he plans to look for a new apartment, threatening to end their living arrangement and friendship for good.",
+    "cumulative_summary": "Tension peaks between Joey and Chandler when Joey catches Chandler and Kathy kissing at the coffee shop. Furious, Joey storms out, completely undoing Ross's previous efforts to mend their rift. Meanwhile, at the eye clinic, Monica and Rachel are shocked to discover that the handsome on-call doctor treating Monica's eye injury is Timothy Burke, the son of Monica's ex-boyfriend, Richard. Back at the apartment, the fallout from Chandler's betrayal deepens. A devastated Joey packs his bags to stay with his parents. When Chandler tries to apologize, Joey reveals he is planning to look for a new apartment, leaving Chandler heartbroken as their friendship and living situation hang by a thread."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:50 - 00:11:43",
+    "batch_summary": "Joey prepares to move out, deeply hurt by Chandler's betrayal of their friendship. When Chandler desperately asks how he can make amends, recalling how Joey was trapped in their entertainment unit during a robbery, Joey suggests a unique punishment: Chandler must lock himself inside a large wooden crate. Meanwhile, at the eye clinic, Monica flirts with her handsome doctor, Timothy Burke. Timothy diagnoses Monica with a scratched cornea, telling her she must wear an eye patch, which she playfully jokes makes her look like a pirate.",
+    "cumulative_summary": "Following Chandler's betrayal with Kathy, a devastated Joey prepares to move out. Chandler desperately tries to salvage their friendship, even offering to stop seeing Kathy, but Joey explains that his trust is completely shattered. Recalling how he felt guilty while trapped in their entertainment unit during a robbery, Joey points out Chandler's failure as a friend. Desperate to make amends, Chandler asks what he can do, prompting Joey to suggest Chandler lock himself inside a large wooden crate. Meanwhile, at the eye clinic, Monica's examination with Timothy Burke—the handsome son of her ex-boyfriend Richard—takes a flirtatious turn. Timothy diagnoses Monica with a scratched cornea and prescribes an eye patch, which she playfully jokes makes her look like a pirate, keeping their mutual attraction alive despite the awkward family connection."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 301,
+    "timestamp_range": "00:11:43 - 00:12:28",
+    "batch_summary": "During her eye exam, Monica and Timothy Burke share a flirtatious conversation. After addressing the elephant in the room—Timothy's father, Richard—Timothy reveals he recently broke up with his girlfriend because she wasn't ready for a commitment. Seizing the opportunity, Monica tries to keep the playful, pirate-themed banter going, but she awkwardly delivers a pirate joke before she is actually wearing her eye patch. Timothy points this out, leaving Monica frozen in hilarious embarrassment.",
+    "cumulative_summary": "Following Chandler's betrayal with Kathy, a devastated Joey prepares to move out. Chandler desperately tries to salvage their friendship, even offering to stop seeing Kathy, but Joey explains that his trust is completely shattered. Recalling how he felt guilty while trapped in their entertainment unit during a robbery, Joey points out Chandler's failure as a friend. Desperate to make amends, Chandler asks what he can do, prompting Joey to suggest Chandler lock himself inside a large wooden crate. Meanwhile, Monica visits the eye clinic, where she meets Timothy Burke, the handsome son of her ex-boyfriend Richard. The examination quickly turns flirtatious as Timothy diagnoses Monica with a scratched cornea. When Timothy reveals he is newly single after a breakup, Monica attempts to flirt by continuing her pirate-themed jokes. However, she prematurely delivers a pirate pun before Timothy has even applied her eye patch. Timothy playfully calls her out on the timing, leaving Monica frozen in a moment of hilarious, wide-eyed embarrassment."
+  }
+]

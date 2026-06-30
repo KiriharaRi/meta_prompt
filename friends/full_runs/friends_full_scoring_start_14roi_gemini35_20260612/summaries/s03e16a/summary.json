@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:49",
+    "batch_summary": "After a heated argument about her career and Mark, Rachel suggests taking a break from her relationship with Ross. Ross leaves and later calls Rachel from a club to reconcile, but hangs up in frustration when he hears Mark in her apartment. A devastated Ross ends up kissing another woman at the club. The next morning, Rachel tells a shocked Monica about the breakup, explaining that her conversation with Mark actually made her realize how much she truly loves Ross.",
+    "cumulative_summary": "Following a tense argument over Rachel's career and her colleague Mark, Rachel suggests that she and Ross take a break from their relationship. A devastated Ross leaves and later calls Rachel from a crowded club, hoping to reconcile. However, when he hears Mark's voice in the background of Rachel's apartment, Ross assumes the worst and hangs up. Distraught and vulnerable, Ross is approached by another woman on the dance floor, and the two share a passionate kiss. The next morning, Rachel reveals the breakup to a shocked Monica. Despite the previous night's misunderstanding, Rachel explains that talking to Mark actually helped her gain clarity, making her realize just how much she loves Ross and wants to be with him."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:49 - 00:03:48",
+    "batch_summary": "Ross wakes up in regret after spending the night with Chloe. He listens to a heartfelt voicemail from Rachel, who apologizes, professes her love, and announces she is coming over to reconcile. Panicked, Ross desperately tries to rush Chloe out of his apartment before Rachel arrives. However, his efforts fail when he opens the front door to usher Chloe out, only to find Rachel standing on the threshold, smiling and ready to mend their relationship.",
+    "cumulative_summary": "Following a tense argument over Rachel's career and her colleague Mark, Rachel suggests that she and Ross take a break. A devastated Ross leaves and later calls Rachel from a crowded club, hoping to reconcile. However, when he hears Mark's voice in the background, Ross assumes the worst and hangs up. Distraught, he spends the night with Chloe, a woman he met at the club. The next morning, Rachel realizes how much she loves Ross and leaves a heartfelt voicemail explaining that Mark was only there to comfort her, and that she wants to get back together. She promises to stop by his apartment to reconcile in person. When Ross hears the message, he is consumed by guilt and panic. He desperately tries to rush Chloe out of his apartment before Rachel's arrival. However, just as he opens the door to usher Chloe out, he is horrified to find Rachel standing on the threshold, smiling and holding a box, completely unaware of his betrayal."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:48 - 00:05:27",
+    "batch_summary": "Rachel happily reunites with Ross, unaware of his betrayal, while a guilt-ridden Ross agrees to get back together. Meanwhile, Monica and Phoebe excitedly prepare to try a new, supposedly painless home waxing kit Monica ordered from an infomercial. Later, a panicked Ross confesses his mistake to Joey and Chandler, expressing his dread over how Rachel will react when he tells her the truth about his night with Chloe.",
+    "cumulative_summary": "Following a tense argument, Rachel suggests a break, leading a distraught Ross to spend the night with Chloe. The next morning, Rachel realizes she wants to reconcile and visits Ross. Unaware of his betrayal, she happily asks to be his girlfriend again, and a guilt-stricken Ross agrees to get back together. Meanwhile, Monica and Phoebe excitedly prepare to try a new, supposedly painless home waxing kit Monica ordered from an infomercial. Terrified of the consequences, Ross confesses his infidelity to Joey and Chandler, expressing his dread over how Rachel will react when he tells her the truth about his night with Chloe."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:27 - 00:07:18",
+    "batch_summary": "Joey and Chandler convince Ross to keep his infidelity a secret to protect his relationship with Rachel. However, Joey warns him about \"the trail\" of gossip, and Chandler maps out a direct connection from Chloe to Rachel via Isaac, Jasmine, and Phoebe, leaving Ross panicked. Meanwhile, Monica and Phoebe try their new home waxing kit. Monica rips off a strip and screams in intense pain, realizing the \"pain-free\" advertisement was a complete lie.",
+    "cumulative_summary": "Following a tense argument, Rachel suggests a break, leading a distraught Ross to spend the night with Chloe. The next morning, Rachel happily asks Ross to get back together, unaware of his betrayal. Guilt-stricken, Ross confesses his infidelity to Joey and Chandler. Although Ross wants to be honest, his friends convince him to keep quiet to save the relationship. However, Joey warns him about \"the trail\" of gossip, and Chandler maps out a direct link from Chloe to Rachel through Isaac, Jasmine, and Phoebe, leaving Ross terrified of being exposed. Meanwhile, Monica and Phoebe's excitement over their new \"painless\" home waxing kit quickly turns to agony when Monica tries it and screams in intense pain, realizing the infomercial was a lie."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:18 - 00:08:56",
+    "batch_summary": "Phoebe tries the waxing kit herself and screams in agony, confirming Monica's warning. Meanwhile, a desperate Ross rushes to the copy shop to stop the gossip trail. He discovers Chloe already told her coworker, Isaac. Ross begs Isaac to keep the secret to protect Rachel. Isaac agrees to stay quiet but unsettlingly insists that he and Ross are the same in their cynical views on monogamy, leaving Ross deeply uncomfortable.",
+    "cumulative_summary": "Following a tense argument, Rachel suggests a break, leading a distraught Ross to spend the night with Chloe. The next morning, Rachel happily asks Ross to get back together, unaware of his betrayal. Guilt-stricken, Ross confesses his infidelity to Joey and Chandler, who convince him to keep quiet to save the relationship. However, they warn him about a gossip trail linking Chloe to Rachel through Isaac, Jasmine, and Phoebe. Meanwhile, Monica and Phoebe's excitement over a painless home waxing kit turns to agony as both suffer through its painful effects. Terrified of being exposed, Ross rushes to the copy shop to intercept the gossip. He discovers Chloe has already told her coworker, Isaac. Ross desperately begs Isaac to keep the secret to protect Rachel. Isaac agrees to stay quiet but unsettlingly insists that he and Ross are kindred spirits who find monogamy too cruel, leaving Ross deeply uncomfortable as he struggles to contain his mistake."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:56 - 00:10:50",
+    "batch_summary": "Ross's desperate cover-up completely unravels. After learning Isaac already told Jasmine, Ross tracks her down, only to find she has already told her roommate, Gunther. Ross rushes to Central Perk, but he is too late: Gunther has already confessed everything to Rachel, who stares at Ross in devastating silence. Meanwhile, Monica and Phoebe's waxing nightmare reaches a painful climax as they rip off each other's wax strips, screaming so loudly that Joey and Chandler burst in armed with kitchenware to save them.",
+    "cumulative_summary": "Following a tense argument, Rachel suggests a break, leading a distraught Ross to spend the night with Chloe. The next morning, Rachel happily asks Ross to get back together, unaware of his betrayal. Guilt-stricken, Ross tries to intercept the gossip trail before it reaches Rachel. However, his desperate cover-up completely unravels. After learning Isaac already told Jasmine, Ross tracks her down, only to discover she has already told her roommate, Gunther. Ross rushes to Central Perk, but he is too late: Gunther has already confessed the truth to Rachel, leaving her staring at Ross in devastating silence. Meanwhile, Monica and Phoebe's painful home waxing ordeal reaches a screaming climax. They decide to pull off each other's wax strips simultaneously, shrieking so loudly in agony that Chandler and Joey burst into the room armed with kitchenware, thinking there is an emergency."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 257,
+    "timestamp_range": "00:10:50 - 00:11:37",
+    "batch_summary": "In Monica's apartment, Joey foolishly claims that women have a lower pain threshold than men. To prove him wrong, Phoebe slaps a wax strip onto his arm. Joey confidently rips it off, only to scream in high-pitched agony, earning mockery from Chandler. Meanwhile, the scene shifts to a dark apartment where a defeated Ross enters, pleading with a silent Rachel to talk to him as he prepares to face the consequences of his actions.",
+    "cumulative_summary": "Following a tense argument, Rachel suggests a break, leading a distraught Ross to spend the night with Chloe. The next morning, Rachel happily asks Ross to get back together, unaware of his betrayal. Guilt-stricken, Ross tries to intercept the gossip trail before it reaches Rachel. However, his desperate cover-up completely unravels. After learning Isaac already told Jasmine, Ross tracks her down, only to discover she has already told her roommate, Gunther. Ross rushes to Central Perk, but he is too late: Gunther has already confessed the truth to Rachel, leaving her staring at Ross in devastating silence. Meanwhile, Monica and Phoebe's painful home waxing ordeal reaches a screaming climax. When Joey arrogantly claims women have a lower pain threshold, Phoebe slaps a wax strip on his arm. Joey confidently rips it off, screaming in high-pitched agony. Back at the apartment, a defeated Ross enters the dark room, desperately pleading with Rachel to talk to him as they finally face the fallout of his infidelity."
+  }
+]

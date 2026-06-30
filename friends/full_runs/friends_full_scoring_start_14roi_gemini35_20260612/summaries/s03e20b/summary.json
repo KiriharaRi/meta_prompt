@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:28",
+    "batch_summary": "On a theater rehearsal stage, a man departs, calling the play terrible. Actors Joey and Kate worry about their upcoming performance. Lauren, Joey's partner, invites him to paint mugs, but Joey declines to focus on his work. After Lauren leaves, Joey and Kate discuss their characters, Adrian and Victor. Kate suggests Victor needs to give Adrian a stronger reason to stay than just a kiss. Joey jokingly suggests \"slipping her the tongue,\" creating a moment of silent, charged tension between them.",
+    "cumulative_summary": "During a theater rehearsal, a man abruptly leaves the stage, declaring the upcoming play \"terrible.\" Left behind, co-stars Joey and Kate express deep anxiety about their performance, which opens in just a week. Joey's partner, Lauren, arrives and invites him to go paint mugs since rehearsal ended early. Joey declines, claiming he needs to stay and work on his material. After Lauren leaves with a brief goodbye kiss, Joey turns his attention back to Kate. The two actors begin discussing the dynamics of their characters, Adrian and Victor. Kate expresses concern over a pivotal scene, arguing that Victor needs to give Adrian a compelling reason to stay rather than just a simple kiss. Joey jokingly suggests that Victor should \"slip her the tongue,\" a comment that hangs in the air and creates a tense, lingering silence between the two co-stars."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:28 - 00:03:28",
+    "batch_summary": "Kate and Joey's intense brainstorming session quickly escalates into a passionate sexual encounter. Afterward, a thrilled Joey returns to the apartment and eagerly shares the news of their romantic breakthrough with Monica and Ross, describing how he watched Kate sleep. Meanwhile, Chandler and Rachel arrive home arguing about dating etiquette; Rachel criticizes Chandler for insincerely telling his date, Joanna, that he would call her just to avoid an awkward goodbye.",
+    "cumulative_summary": "During a theater rehearsal, co-stars Joey and Kate express deep anxiety about their upcoming play. After Joey's partner, Lauren, leaves, the two actors discuss their characters' dynamics. Kate argues that Joey's character needs to give hers a compelling reason to stay, leading to a tense, lingering silence. Building on this tension, Joey and Kate brainstorm a highly passionate, physical sequence for their characters, which quickly translates into a real-life sexual encounter. The next day, an ecstatic Joey returns to the apartment kitchen to joyfully share the news of their breakthrough with Monica and Ross, describing the romantic aftermath. The celebratory mood is interrupted when Chandler and Rachel enter, locked in an argument. Rachel berates Chandler for his insincere dating habits, specifically for telling Joanna that he would call her when he had no intention of doing so, highlighting Chandler's struggle with awkward goodbyes."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:28 - 00:05:17",
+    "batch_summary": "Chandler defends his insincere promise to call Joanna as an uncontrollable compulsion, while Joey agrees it is common behavior. Meanwhile, Rachel's boss, Joanna, becomes obsessively anxious about why Chandler hasn't called, subtly threatening Rachel's job security. Desperate, Rachel confronts Chandler at Central Perk, demanding he call Joanna or take her out again to defuse the situation. Chandler resists, complaining that Joanna is dull, but Rachel insists he must fix the mess he created.",
+    "cumulative_summary": "During a theater rehearsal, co-stars Joey and Kate translate their characters' tension into a real-life sexual encounter. The next day, Joey joyfully shares the news with Monica and Ross, but the celebration is cut short when Chandler and Rachel enter arguing. Rachel berates Chandler for his insincere dating habits, specifically for telling her boss, Joanna, that he would call her when he had no intention of doing so. Chandler defends this as an uncontrollable compulsion to avoid awkward goodbyes, a sentiment Joey supports. The situation escalates at Rachel's office, where an obsessive Joanna demands to know why Chandler hasn't called, subtly threatening Rachel's job security. Desperate to protect her career, Rachel confronts Chandler at Central Perk, demanding he call Joanna or take her out again. Despite Chandler's protests that Joanna is dull and that calling her now would be awkward, Rachel insists he must resolve the issue."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:17 - 00:07:28",
+    "batch_summary": "Rachel successfully pressures Chandler into taking Joanna on a final lunch date to end things properly, under the strict condition that he does not promise to call her. Meanwhile, Ross frantically deals with a burning cardboard dollhouse in Monica's apartment, eventually discarding it in the hallway. At the theater, Joey's romantic hopes are dashed when Kate dismisses their night together as a meaningless moment, leaving Joey to experience the unfamiliar pain of unrequited feelings.",
+    "cumulative_summary": "Following a passionate rehearsal encounter, Joey and Kate's relationship takes a painful turn. While Joey happily shares the news of their hookup with his friends, Kate later dismisses the encounter as a meaningless moment, leaving Joey heartbroken and experiencing unrequited feelings for the first time. Meanwhile, Rachel's career anxiety peaks due to her boss Joanna's obsession with Chandler. Rachel successfully pressures a reluctant Chandler into taking Joanna on a final lunch date to properly end things, strictly forbidding him from making his usual false promises to call. Back at the apartment, Ross faces a bizarre crisis when he discovers a cardboard dollhouse engulfed in flames on the kitchen table, forcing him to frantically douse the fire and dump the smoking toy in the hallway."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:28 - 00:08:57",
+    "batch_summary": "At rehearsal, Joey faces further humiliation when Lauren publicly calls him a \"pig\" in front of Kate. Meanwhile, Phoebe is devastated to discover her beloved cardboard dollhouse has been destroyed in a fire, mourning the loss of her \"foster puppets\" while Monica and Ross offer comfort. Elsewhere, Chandler finishes his lunch date with Rachel's boss, Joanna. He attempts to politely say his final goodbyes outside the office under Rachel's watchful eye, trying to avoid making any false promises.",
+    "cumulative_summary": "Following a passionate rehearsal encounter, Joey is left heartbroken when Kate dismisses their hookup as meaningless. His misery deepens at the theater when Lauren publicly insults him in front of Kate. Meanwhile, the bizarre fire Ross extinguished on the kitchen table is revealed to have destroyed Phoebe's beloved cardboard dollhouse. Phoebe is devastated by the loss, mourning her \"foster puppets\" while Monica and Ross offer comfort. Elsewhere, Rachel's career anxiety peaks due to her boss Joanna's obsession with Chandler. After Rachel pressures Chandler into taking Joanna on a final lunch date to end things, Chandler successfully completes the meal. Outside the office, under Rachel's anxious gaze, Chandler attempts to politely say his final goodbyes to Joanna, trying his best to avoid making his usual false promises to call."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:57 - 00:10:52",
+    "batch_summary": "Despite his best efforts, Chandler reflexively promises to call Joanna, prompting an angry Rachel to force him back inside to tell the truth. Chandler awkwardly confesses his commitment issues to Joanna, who appreciates his honesty. However, as he leaves, his nervous habit takes over and he promises to call her yet again, leaving Rachel in despair. Meanwhile, Joey, deeply affected by Kate's rejection, calls a past hookup named Beth to apologize for his own past behavior, showing newfound empathy.",
+    "cumulative_summary": "Following a passionate rehearsal encounter, Joey is left heartbroken when Kate dismisses their hookup as meaningless. His misery deepens at the theater when Lauren publicly insults him in front of Kate. Meanwhile, the bizarre fire Ross extinguished on the kitchen table is revealed to have destroyed Phoebe's beloved cardboard dollhouse. Phoebe is devastated by the loss, mourning her \"foster puppets\" while Monica and Ross offer comfort. Elsewhere, Rachel's career anxiety peaks due to her boss Joanna's obsession with Chandler. After Rachel pressures Chandler into taking Joanna on a final lunch date to end things, Chandler successfully completes the meal. However, outside the office, Chandler immediately slips up and reflexively promises to call Joanna. An exasperated Rachel forces him back inside to tell the truth. Chandler awkwardly confesses his commitment issues, which Joanna surprisingly appreciates, but his nervous habit kicks in again as he leaves, and he promises to call her once more. Later, Joey, deeply affected by his own heartbreak, calls a past hookup to apologize for his past behavior, showing newfound maturity and empathy."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 256,
+    "timestamp_range": "00:10:52 - 00:11:30",
+    "batch_summary": "Continuing his apology tour, Joey successfully wraps up one phone call seeking forgiveness before immediately flipping through his Rolodex to make another. When he calls for a woman named Jennifer and finds she is not home, he decides to apologize to her mother, Mrs. L'Oreal, instead. Joey's earnest but comical attempt to make amends with his past flings highlights his growing maturity and remorse following his own heartbreak with Kate.",
+    "cumulative_summary": "Following a passionate rehearsal encounter, Joey is left heartbroken when Kate dismisses their hookup as meaningless. Meanwhile, Phoebe is devastated when a kitchen fire destroys her beloved cardboard dollhouse, mourning her \"foster puppets\" while Monica and Ross offer comfort. Elsewhere, Rachel's career anxiety peaks due to her boss Joanna's obsession with Chandler. After Rachel pressures Chandler into ending things with Joanna, Chandler awkwardly confesses his commitment issues. Though Joanna appreciates his honesty, Chandler's nervous habit kicks in, and he reflexively promises to call her again anyway. Deeply affected by his own heartbreak, Joey embarks on an apology tour to make amends for his past behavior. After successfully obtaining forgiveness from one ex, he flips through his Rolodex to call another. When he reaches the mother of a past fling named Jennifer, he earnestly, yet comically, decides to apologize to her instead, demonstrating a newfound, albeit clumsy, sense of maturity and empathy."
+  }
+]

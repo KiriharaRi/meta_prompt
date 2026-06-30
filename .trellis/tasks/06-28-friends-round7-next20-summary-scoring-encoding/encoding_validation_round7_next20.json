@@ -1,0 +1,29 @@
+{
+  "all_ok": true,
+  "summary_path": "friends/analysis/train_size_sweep_20260628_round7/encoding_115train_next20_snapshot/group_summary.json",
+  "metadata_path": "friends/analysis/train_size_sweep_20260628_round7/encoding_115train_next20_snapshot/encoding_metadata.json",
+  "primary_metric": "mean_subject_mean_test_pearson",
+  "mean_subject_mean_test_pearson": 0.2220917195623162,
+  "median_subject_mean_test_pearson": 0.2220917195623162,
+  "mean_subject_median_test_pearson": 0.21205931104600417,
+  "n_subjects": 1,
+  "subject_best_alpha": 10000.0,
+  "n_retained_parcels": 86,
+  "n_test_trs": 1812,
+  "metadata_keys": [
+    "alpha_selection",
+    "alphas",
+    "atlas_labels",
+    "command",
+    "feature_set_name",
+    "lags",
+    "manifest",
+    "normalization",
+    "roi_order",
+    "roi_schemas",
+    "samples",
+    "selected_parcels",
+    "subjects",
+    "target_granularity"
+  ]
+}

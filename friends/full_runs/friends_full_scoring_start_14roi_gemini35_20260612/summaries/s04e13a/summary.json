@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:48",
+    "batch_summary": "Ross and Chandler attend a play starring Chandler's girlfriend. Chandler's initial excitement quickly turns to intense discomfort as he watches his girlfriend perform a highly suggestive, physical scene with a handsome co-star who tears her blouse. Meanwhile, at the apartment, Monica and Phoebe organize boxes, and Phoebe asks for old clothes to use as maternity wear. Rachel arrives home stressed and delivers the shocking news that Bloomingdale's has eliminated her department, leaving her job status in jeopardy.",
+    "cumulative_summary": "Ross and Chandler attend a theater production starring Chandler's girlfriend. While Chandler is initially thrilled to be dating the star, his excitement quickly turns to deep discomfort and jealousy as the play begins. He is forced to watch his girlfriend perform an incredibly suggestive and physically intense scene with a highly attractive male co-star, which culminates in the co-star tearing her blouse—a moment punctuated by Ross jokingly handing Chandler a stray button. Later, the scene shifts to the apartment where Monica and Phoebe are sorting through boxes. Phoebe, looking to save money on expensive maternity clothes, asks Monica for her old high school outfits. The mood shifts when a stressed Rachel returns home and throws her purses down, revealing that Bloomingdale's has eliminated her department. Monica is left shocked, asking Rachel if she has officially lost her job."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:48 - 00:03:32",
+    "batch_summary": "Rachel clarifies that she was not fired but demoted to Personal Shopping, a role Phoebe mistakenly envies. Meanwhile, Joey raids Monica's fridge, arguing that owning the larger apartment requires keeping it stocked for guests. Later at Central Perk, Chandler vents his intense jealousy and paranoia over Kathy's suggestive play and her handsome co-star. Joey tries to reassure him that actors are just professionals, but hilariously undermines his own point by listing famous Hollywood couples who fell in love on set.",
+    "cumulative_summary": "Ross and Chandler attend a theater production starring Chandler's girlfriend, Kathy. Chandler's excitement quickly turns to intense jealousy as he watches Kathy perform a highly suggestive scene with a handsome co-star. Meanwhile, Rachel returns home stressed, clarifying that while she wasn't fired, she has been demoted to Personal Shopping. In the apartment, Joey raids Monica's fridge, arguing that owning the larger apartment means she must keep it stocked for guests. Later at Central Perk, Chandler vents his paranoia about Kathy and her co-star hitting it off at cast parties. Joey tries to reassure him that actors are just professionals doing a job, but accidentally worsens Chandler's anxiety by listing several famous Hollywood couples who met and fell in love on set."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:32 - 00:05:26",
+    "batch_summary": "Joey comforts Chandler with an acting \"rule\": high on-stage chemistry means there is no off-stage affair, as the sexual tension is spent. Reassured but still anxious, Chandler convinces Ross to watch the play again to assess Kathy's chemistry with her co-star. Meanwhile, in their new, larger apartment, Joey and Chandler aggressively host, preparing a massive breakfast spread. Joey invites everyone over for Saturday's game, easily outmaneuvering Monica when she tries to claim she was planning to host it herself.",
+    "cumulative_summary": "Ross and Chandler attend a theater production starring Chandler's girlfriend, Kathy, where Chandler's excitement quickly turns to intense jealousy over her highly suggestive scene with a co-star. Rachel, meanwhile, deals with a demotion to Personal Shopping. At Central Perk, Chandler vents his paranoia about Kathy. Joey tries to reassure him with an acting \"rule\": strong on-stage chemistry actually means there is no off-stage affair, as the sexual tension is spent on stage. To test this theory, Chandler convinces Ross to watch the play again. Meanwhile, Joey and Chandler fully embrace their new, larger apartment by aggressively hosting. Joey prepares a massive breakfast spread and invites the group over for Saturday's game, easily outmaneuvering Monica when she tries to claim hosting duties despite not knowing who is playing."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:26 - 00:07:03",
+    "batch_summary": "While Joey continues to dominate hosting duties at the guys' apartment, Monica struggles to hide her jealousy. Meanwhile, a frustrated Rachel decides to quit her personal shopping job after a humiliating day. However, her plans change instantly when she meets Joshua, a handsome new client who needs an entirely new wardrobe after a messy divorce. Smitten, Rachel quickly retracts her attempt to quit and begins flirting with him, though she ends their interaction with an embarrassing slip of the tongue.",
+    "cumulative_summary": "Ross and Chandler attend a theater production starring Chandler's girlfriend, Kathy, where Chandler's excitement quickly turns to intense jealousy over her highly suggestive scene with a co-star. At Central Perk, Chandler vents his paranoia, prompting Joey to share an acting \"rule\" that strong on-stage chemistry means there is no off-stage affair. To test this, Chandler convinces Ross to watch the play again. Meanwhile, Joey and Chandler fully embrace their new, larger apartment by aggressively hosting, leaving Monica struggling to hide her jealousy over losing her hostess role. At work, Rachel is so miserable with her demotion to personal shopping that she decides to quit. However, her plans change instantly when she meets Joshua, a handsome new client who needs a complete wardrobe overhaul after his ex-wife burned his clothes. Instantly smitten, Rachel abandons her plans to resign and eagerly takes him on as a client, though her attempts at flirting culminate in an embarrassing slip of the tongue."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:03 - 00:09:01",
+    "batch_summary": "Rachel quickly recovers from her awkward slip of the tongue with Joshua by redirecting him to the store's underwear selection. Meanwhile, Chandler and Ross watch Kathy's play again. Convinced by Joey's theory that the actors' strong on-stage chemistry proves they are having an affair, Chandler confronts Kathy. His passive-aggressive accusations quickly escalate into a full-blown argument. When Chandler brings up the dishonest way their own relationship began, a deeply hurt Kathy defends her professionalism, leaving their relationship in serious jeopardy.",
+    "cumulative_summary": "Ross and Chandler attend a theater production starring Chandler's girlfriend, Kathy, where Chandler's excitement turns to intense jealousy over her suggestive scene with a co-star. To test Joey's theory that strong on-stage chemistry means there is no off-stage affair, Chandler convinces Ross to watch the play again. Meanwhile, Joey and Chandler aggressively host in their new apartment, making Monica jealous, while Rachel decides not to quit her personal shopping job after meeting a handsome new client, Joshua. After recovering from an embarrassing slip of the tongue with Joshua, Rachel happily continues helping him shop. Back at the theater, Chandler's paranoia peaks when he notices strong chemistry between Kathy and her co-star. He confronts Kathy, passive-aggressively accusing her of cheating and insulting her performance. When Chandler throws the dishonest origins of their own relationship in her face, a deeply hurt Kathy defends her professionalism, leaving their relationship in a highly tense and fragile state."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:01 - 00:10:29",
+    "batch_summary": "Following their argument, Kathy walks out on Chandler, telling him to call her when he grows up. Meanwhile, Rachel returns home ecstatic about her personal shopping client, Joshua, gushing about him to the group and drawing a dismissive reaction from Ross. Desperate to reclaim her status as the ultimate host, Monica tries to win over Joey and Ross by bringing them fresh-baked cookies and a new Playboy magazine, which Ross jokingly declares makes her the \"best mom ever.\"",
+    "cumulative_summary": "Ross and Chandler attend a theater production starring Chandler's girlfriend, Kathy, where Chandler's excitement turns to intense jealousy over her suggestive scene with a co-star. After confronting Kathy and accusing her of cheating, their argument peaks when Kathy walks out, telling Chandler to call her when he grows up. Meanwhile, Rachel decides not to quit her personal shopping job after meeting a handsome new client, Joshua. She returns home completely infatuated, gushing about him to the group and drawing a dismissive reaction from Ross. At the same time, Monica continues her desperate bid to reclaim her status as the ultimate host. She surprises Joey and Ross with fresh-baked cookies and a new Playboy magazine, earning Ross's joking praise as the \"best mom ever\" as she tries to outdo the boys' hosting in their new apartment."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 254,
+    "timestamp_range": "00:10:29 - 00:11:07",
+    "batch_summary": "Monica's desperate attempts to keep her friends from leaving fail as Joey, Ross, and Phoebe head out anyway. When Rachel questions her obsession, Monica emotionally confesses that her identity is entirely tied to being the group's hostess, a role she has cherished and dominated since childhood tea parties. This revelation highlights Monica's deep insecurity about losing her hosting status to Joey and Chandler in their new apartment.",
+    "cumulative_summary": "Ross and Chandler attend a theater production starring Chandler's girlfriend, Kathy, where Chandler's excitement turns to intense jealousy over her suggestive scene with a co-star. After confronting Kathy and accusing her of cheating, their argument peaks when Kathy walks out, telling Chandler to call her when he grows up. Meanwhile, Rachel decides not to quit her personal shopping job after meeting a handsome new client, Joshua. She returns home completely infatuated, gushing about him to the group and drawing a dismissive reaction from Ross. At the same time, Monica continues her desperate bid to reclaim her status as the ultimate host. After her fresh-baked cookies and Playboy magazine fail to keep Joey, Ross, and Phoebe from leaving, Rachel questions her obsession. Monica emotionally confesses that her identity is entirely tied to being the group's hostess, a role she has cherished since childhood tea parties, highlighting her deep insecurity about losing her hosting status to the boys."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:32",
+    "batch_summary": "In the living room, Chandler frantically asks Ross and Rachel for help getting a chick out of a VCR. Later, in her bedroom, Rachel asks Ross to help apply her makeup. Ross playfully warms up and begins applying eyeshadow, leading to a lighthearted debate about her look and his desire to make her look \"sophisticated.\" Afterward, at the coffee shop, Monica excitedly tells Phoebe that she is going to check out a restaurant with Pete later that evening.",
+    "cumulative_summary": "The story begins with Chandler frantically running into the living room to ask Ross and Rachel for help retrieving a chick from a VCR. Later, in her bedroom, Rachel is getting ready but struggles to apply her makeup with her left hand. She asks Ross for assistance, prompting him to dramatically warm up before carefully applying her eyeshadow. As he works, the two engage in a playful, bickering conversation about her makeup habits, with Ross teasingly suggesting he wants to make her look more \"sophisticated.\" The scene then transitions to the local coffee shop, where Monica joins Phoebe on the couch. Monica excitedly shares the news that she is going to check out a restaurant with Pete later that evening, setting up a new development in her personal life."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:32 - 00:03:16",
+    "batch_summary": "At the coffee shop, Phoebe teases Monica with a secret she promised not to reveal, prompting Monica to guess various rumors about their friends. Meanwhile, Ross finishes Rachel's makeup, which turns out hilariously heavy. As Rachel prepares to dress, she asks Ross to turn around to avoid seeing her naked. Despite Ross pointing out their intimate past, Rachel insists their breakup makes it weird now, leading to playful banter where Ross jokes he can visualize her naked whenever he closes his eyes.",
+    "cumulative_summary": "The story begins with Chandler frantically seeking help from Ross and Rachel to retrieve a chick from a VCR. Later, Rachel struggles to apply makeup with her injured hand, prompting Ross to step in. Meanwhile, at the coffee shop, Monica excitedly shares her upcoming restaurant date with Pete, while Phoebe teases her with a secret she swore not to reveal, sparking Monica's curiosity about their friends. Back in the bedroom, Ross finishes Rachel's makeup, leaving her with a hilariously heavy look. When Rachel asks Ross to help her get dressed but insists he turn around, a playful yet awkward conversation ensues. Ross points out their intimate history, but Rachel maintains that their breakup makes nudity weird now. Ross jokingly counters that he can still see her naked anytime just by closing his eyes, highlighting the lingering tension and familiarity between the former couple."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:16 - 00:04:40",
+    "batch_summary": "Ross continues to tease Rachel about his ex-boyfriend privileges, but their playful banter is cut short when Rachel experiences sharp pain in her ribs. Realizing she needs medical attention, Ross insists she go to the hospital and agrees to accompany her. However, Rachel hilariously protests leaving the house looking like a mess due to the terrible makeup Ross applied. The scene then transitions back to Monica and Phoebe at the coffee shop.",
+    "cumulative_summary": "The story begins with Chandler seeking help from Ross and Rachel to retrieve a chick from a VCR. Later, Rachel struggles to apply makeup with her injured hand, prompting Ross to step in. Meanwhile, Monica excitedly discusses her upcoming date with Pete at the coffee shop, while Phoebe teases her with a secret. Back in the bedroom, Ross finishes Rachel's makeup, leaving her with a hilariously heavy look. When Rachel asks Ross to turn around while she gets dressed, they engage in a playful debate about their intimate history and Ross's lingering ex-boyfriend rights. However, the lighthearted banter turns serious when Rachel suddenly experiences sharp pain in her ribs. Recognizing she needs immediate medical attention, Ross insists on taking her to the hospital, though Rachel hilariously protests going out in public with the terrible makeup he just applied. The scene then shifts back to the coffee shop, where Monica continues to press Phoebe for details."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:40 - 00:06:23",
+    "batch_summary": "At the coffee shop, Monica desperately tries to guess Phoebe's secret, but Phoebe refuses to break and leaves. Meanwhile, Chandler bonds with the baby chick while watching television. Joey returns with the chick, explaining that the store wouldn't take her back and the animal shelter would euthanize her if she wasn't adopted. Relieved and touched, Chandler admits he also had second thoughts about giving her up, and the two friends decide to keep the chick, whom Joey affectionately names Yasmine.",
+    "cumulative_summary": "The story begins with Chandler seeking help from Ross and Rachel to retrieve a chick from a VCR. Later, Rachel struggles to apply makeup with her injured hand, prompting Ross to step in and leave her with a hilariously heavy look. Their playful banter about their intimate history turns serious when Rachel experiences sharp rib pain, forcing Ross to take her to the hospital. Meanwhile, at the coffee shop, Monica's relentless guessing game fails to pry a secret from Phoebe, who abruptly leaves. Back at the apartment, Chandler bonds with the baby chick in front of the TV. Joey returns with the chick, revealing that the store refused to take her back and the local shelter would euthanize her if unadopted. Unable to let that happen, Joey brings her home, prompting a relieved Chandler to confess he also had second thoughts about giving her up. Together, they decide to keep the chick, affectionately naming her Yasmine."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:23 - 00:08:06",
+    "batch_summary": "Chandler reveals he also bought a pet when a white duck waddles into the apartment. Meanwhile, Pete shows Monica a state-of-the-art commercial kitchen for her potential new job. Overwhelmed with gratitude, Monica hugs him, but realizes Pete still has romantic feelings for her. When Pete confesses his love, Monica makes the difficult decision to turn down the job and end their association to avoid hurting him, leaving both of them heartbroken.",
+    "cumulative_summary": "The story begins with Chandler seeking help from Ross and Rachel to retrieve a chick from a VCR. Later, Rachel struggles to apply makeup with her injured hand, prompting Ross to step in and leave her with a hilariously heavy look. Their playful banter about their intimate history turns serious when Rachel experiences sharp rib pain, forcing Ross to take her to the hospital. Meanwhile, at the coffee shop, Monica's relentless guessing game fails to pry a secret from Phoebe, who abruptly leaves. Back at the apartment, Chandler and Joey bond over keeping the baby chick, naming her Yasmine, only for Chandler to reveal he also brought home a white duck. Elsewhere, Pete shows Monica a spectacular commercial kitchen for her dream chef job. However, when Monica realizes Pete is still deeply in love with her, she makes the painful decision to turn down the job and stop seeing him to avoid breaking his heart."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:06 - 00:10:00",
+    "batch_summary": "Monica kisses Pete to test her feelings and realizes she is genuinely attracted to him, leading to a passionate embrace. Meanwhile, as Ross and Rachel return from the hospital, Chandler accidentally reveals that Ross skipped a major television appearance on the Discovery Channel to help Rachel. Deeply touched by his selfless gesture, Rachel calls it the sweetest thing he has ever done, and the two share a tender, emotionally charged moment before parting for the night.",
+    "cumulative_summary": "The story begins with Chandler, Ross, and Rachel rescuing a chick from a VCR. Later, Ross helps an injured Rachel with her makeup before her sudden rib pain forces him to take her to the hospital. Meanwhile, Chandler and Joey bond over their new pets, a baby chick and a white duck. Pete offers Monica her dream chef job, but she initially declines to avoid leading him on. However, after a passionate kiss to test her feelings, Monica realizes she is attracted to Pete, and they embrace. Upon returning from the hospital, Rachel discovers from Chandler that Ross skipped a major television appearance on the Discovery Channel just to accompany her. Deeply moved by his selflessness, Rachel tells Ross it is the sweetest thing anyone has done, leaving the former couple sharing a tender, emotionally charged moment."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 278,
+    "timestamp_range": "00:10:00 - 00:11:25",
+    "batch_summary": "Following his tender moment with Rachel, Ross says goodbye and encounters the white duck in the hallway, where a puzzled Chandler finds him sitting on the floor. Later, Chandler takes a bath with the duck. Joey arrives and wonders if their baby chick can swim. Despite Chandler's doubts, they test it in the tub. When the chick struggles, Chandler quickly rescues and tenderly cradles the wet bird, showcasing his and Joey's humorous yet genuine affection for their new pets.",
+    "cumulative_summary": "The story begins with Chandler, Ross, and Rachel rescuing a chick from a VCR. Later, Ross helps an injured Rachel with her makeup before her sudden rib pain forces him to take her to the hospital. Meanwhile, Chandler and Joey bond over their new pets, a baby chick and a white duck. Pete offers Monica her dream chef job, but she initially declines to avoid leading him on. However, after a passionate kiss to test her feelings, Monica realizes she is attracted to Pete, and they embrace. Upon returning from the hospital, Rachel discovers from Chandler that Ross skipped a major television appearance on the Discovery Channel just to accompany her. Deeply moved by his selflessness, Rachel tells Ross it is the sweetest thing anyone has done, leaving the former couple sharing a tender, emotionally charged moment. After saying goodbye to Rachel, Ross encounters the duck in the hallway, drawing a puzzled reaction from Chandler. Later, Chandler and Joey humorously test if their baby chick can swim in Chandler's bath. When the chick struggles, Chandler quickly rescues and cradles it, highlighting the roommates' endearing, protective bond with their unusual new pets."
+  }
+]

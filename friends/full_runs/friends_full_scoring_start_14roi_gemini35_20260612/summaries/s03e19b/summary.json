@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:52",
+    "batch_summary": "Joey rehearses a play with a female co-star, trading insults over their script. Meanwhile, Chandler and Ross spot Ross's ex-girlfriend leaving her apartment with another man. Back inside, Ross obsessively watches them through the peephole. Chandler tries to reason with him, pointing out that they broke up weeks ago and reminding Ross of his own past mistakes. Ross's anxiety peaks as he watches the man enter her apartment, leaving him devastated while Chandler reacts with his signature dry humor.",
+    "cumulative_summary": "The story begins with Joey on stage rehearsing a scene with a curly-haired actress, where he humorously insults her character by claiming his script calls her a \"bitch.\" Meanwhile, tension rises for Ross when he and Chandler spot Ross's ex-girlfriend leaving her apartment with another man. Back inside their apartment, Ross becomes obsessively fixated on spying through the peephole to monitor her date. Chandler tries to break his fixation, dryly pointing out that they have been broken up for three weeks and reminding Ross of his own incredibly fast rebound after their split. Despite Chandler's warnings, Ross continues his surveillance, growing increasingly frantic. His worst fears are realized when he watches the man follow his ex-girlfriend into her apartment. As the door shuts, blocking his view, Ross is left in a state of despair, while Chandler offers a sarcastic remark about the inventor of the door."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:52 - 00:03:40",
+    "batch_summary": "Ross frantically tries to interrupt Rachel's date under the guise of borrowing juice, but Chandler physically restrains him. After a comical struggle, Chandler gently forces Ross to accept that the relationship is over, prompting a heartbroken Ross to admit how much he misses Rachel. Meanwhile, Rachel is on her date with Mark. Although they share a laugh and Mark kisses her, Rachel pulls back, realizing she is not ready to move on.",
+    "cumulative_summary": "The story begins with Joey rehearsing a scene on stage. Meanwhile, tension rises for Ross when he and Chandler spot Ross's ex-girlfriend, Rachel, leaving her apartment with another man, Mark. Ross becomes obsessively fixated on spying through the peephole. When Mark follows Rachel inside, Ross frantically tries to intervene under the guise of borrowing juice. Chandler physically tackles Ross, jumping on his back to restrain him. After a comical struggle, Chandler gently forces Ross to accept that his relationship with Rachel is truly over, prompting a heartbroken Ross to admit how much he misses her. Meanwhile, inside Rachel's apartment, she and Mark share a lighthearted moment joking about Monica's numbered mugs. Mark leans in and kisses Rachel, but she quickly pulls back, hesitant and realizing she is not ready to move on just yet."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:40 - 00:05:17",
+    "batch_summary": "Rachel stops Mark's advances, confessing she is only using him to get back at Ross. Mark takes the rejection gracefully with a joke and leaves. Meanwhile, Monica and Pete attend a hospital benefit where Pete asks Monica where their relationship stands. Monica tries to deflect with humor before admitting she is hesitant to move forward due to her last serious relationship, though Pete playfully points out that her breakup actually happened a year ago.",
+    "cumulative_summary": "The story begins with Joey rehearsing on stage, while Ross becomes obsessively jealous after seeing Rachel with Mark. After Chandler restrains Ross and forces him to accept that his relationship with Rachel is over, Rachel herself halts Mark's advances. She confesses she is only using him to get back at Ross, and Mark gracefully departs with a joke. Meanwhile, Monica and Pete attend a hospital benefit. When Pete asks Monica where their relationship stands, she tries to deflect with humor before admitting she is hesitant to move on from her last serious relationship. Pete, however, playfully points out that her breakup happened a year ago, leaving Monica to face her lingering hesitation."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:17 - 00:06:57",
+    "batch_summary": "Monica honestly tells Pete she is not attracted to him and needs to focus on herself. Pete remains surprisingly confident and charming, suggesting her feelings might change, and leads her out of the depressing benefit to get food. Back at the apartment, Chandler is caught playing with the recliners when Joey returns home looking dejected, prompting Chandler to ask what his co-star did now.",
+    "cumulative_summary": "The story begins with Joey rehearsing on stage, while Ross becomes obsessively jealous after seeing Rachel with Mark. After Chandler restrains Ross and forces him to accept that his relationship with Rachel is over, Rachel herself halts Mark's advances, confessing she is only using him to get back at Ross. Meanwhile, Monica and Pete attend a hospital benefit. When Pete asks Monica where their relationship stands, she admits she is not currently attracted to him and needs to focus on herself. Pete, remaining charmingly confident that her feelings might change, leads her away from the event to get food. Back at the apartment, Chandler is caught amusing himself with their dual recliners when Joey returns home looking thoroughly dejected. Chandler immediately asks what Joey's co-star has done now, hinting at ongoing drama in Joey's play rehearsals."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:57 - 00:08:47",
+    "batch_summary": "Joey complains bitterly to Chandler about his pretentious co-star, but Chandler quickly points out that Joey actually has a crush on her. Joey accidentally confirms this by admitting he has sexual fantasies about her. Later, during a theater rehearsal, the tension between Joey and his co-star culminates in a highly passionate, emotionally charged kiss for a scene. The director is thrilled by their chemistry, and the co-star casually notes the improvement before walking away, leaving Joey visibly affected by the encounter.",
+    "cumulative_summary": "The story begins with Ross's obsessive jealousy over Rachel and Mark, which ends with Rachel rejecting Mark's advances. Meanwhile, Monica tells Pete she is not currently attracted to him, though Pete remains optimistic about their future. Back at the apartment, Joey complains to Chandler about his pretentious co-star. Chandler teases him, pointing out that Joey's obsession is actually a crush, which Joey accidentally confirms by admitting he has sexual fantasies about her. Later, during a tense theater rehearsal, the animosity between Joey and his co-star translates into an incredibly passionate on-stage kiss. The director is deeply moved by their intense chemistry, and the co-star casually acknowledges the improvement before walking away, leaving Joey stunned by his growing feelings."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:47 - 00:10:09",
+    "batch_summary": "Following their passionate kiss, Joey tries to ask his co-star, Kate, out for coffee. However, his attempt is thwarted when another man arrives to pick her up, leaving Joey disappointed and alone in the theater. Meanwhile, back at the apartment, Chandler, Phoebe, and Monica share a lighthearted moment as Phoebe questions why \"Spiderman\" is not pronounced like a traditional last name such as \"Goldman,\" leading to a humorous explanation from Chandler.",
+    "cumulative_summary": "The story begins with Ross's obsessive jealousy over Rachel and Mark, which ends with Rachel rejecting Mark's advances. Meanwhile, Monica tells Pete she is not currently attracted to him, though Pete remains optimistic about their future. Back at the apartment, Joey confesses his crush on his pretentious co-star, Kate, after Chandler teases him. During a tense theater rehearsal, their animosity translates into a passionate on-stage kiss that leaves Joey stunned by his growing feelings. Emboldened, Joey attempts to ask Kate out for coffee, but his hopes are dashed when another man arrives to take her home, leaving Joey disappointed and alone. Back at the apartment, the mood lightens as Phoebe, Chandler, and Monica engage in a humorous debate about why \"Spiderman\" is not pronounced like a traditional last name like \"Goldman.\""
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 277,
+    "timestamp_range": "00:10:09 - 00:11:37",
+    "batch_summary": "Rachel returns home to find a box of her belongings left by Ross. Expecting junk, she is deeply affected when she discovers a sentimental \"Frankie Say Relax\" t-shirt inside, prompting her to quickly retreat to her room in silence. Meanwhile, the lighthearted mood continues between Phoebe and Chandler as they keep playing their superhero name game, culminating in a playful stunt where they simultaneously snap their recliner chairs backward.",
+    "cumulative_summary": "The story begins with Ross's obsessive jealousy over Rachel and Mark, which ends with Rachel rejecting Mark's advances. Meanwhile, Monica tells Pete she is not currently attracted to him, though Pete remains optimistic. Joey confesses his crush on his co-star, Kate, but after a passionate on-stage kiss, his hopes are dashed when another man takes her home. Back at the apartment, the mood lightens as Phoebe, Chandler, and Monica debate superhero names. This playful banter continues between Phoebe and Chandler as they invent powers for names like \"Goldman\" and \"Tupperman,\" eventually snapping their recliner chairs backward in a silly game. However, a bittersweet note strikes when Rachel returns home to find a box of her belongings left by Ross. Expecting junk, she is deeply moved to find a sentimental \"Frankie Say Relax\" t-shirt inside, clutching it tightly before quietly retreating to her room."
+  }
+]

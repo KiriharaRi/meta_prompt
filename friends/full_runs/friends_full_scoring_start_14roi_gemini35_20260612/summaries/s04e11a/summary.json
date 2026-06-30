@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:37",
+    "batch_summary": "In a coffee shop, Phoebe is thrilled to learn that her brother, Frank Jr., and Alice have eloped. After celebrating their marriage, Phoebe asks what they would like as a wedding gift. Frank Jr. and Alice explain that they have been struggling to conceive and that their only option is IVF with a surrogate. They shock Phoebe by asking her to carry their baby. Stunned, Phoebe humorously notes she was thinking of getting them a gravy boat instead.",
+    "cumulative_summary": "In a busy coffee shop, Phoebe is overjoyed to discover that her brother, Frank Jr., and his partner, Alice, have eloped after a spontaneous courthouse wedding. Phoebe warmly embraces the newlyweds, expressing her happiness at gaining a sister-in-law. However, the lighthearted mood shifts when Phoebe asks what they would like as a wedding gift. Frank Jr. and Alice reveal that they have been unsuccessfully trying to get pregnant and have learned they cannot conceive naturally. They explain that their only option to have a child is through in vitro fertilization (IVF) using a surrogate mother. In a surprising turn of events, they ask Phoebe if she would be willing to act as their surrogate and carry their baby. Stunned by the massive request, Phoebe is left momentarily speechless before humorously replying that she had been planning on gifting them a simple gravy boat instead."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:37 - 00:03:18",
+    "batch_summary": "Alice and Frank Jr. explain that they cannot afford a professional surrogate and prefer family over a stranger, urging Phoebe to take her time deciding. Meanwhile, at the apartment, Joey excitedly announces that Ross helped him land a job as a museum tour guide. Chandler tries to tease Joey about his blue blazer but fumbles the joke, leading to playful mockery from Monica and Rachel. Joey reassures the skeptical group that the job simply requires memorizing a script.",
+    "cumulative_summary": "After eloping, Frank Jr. and Alice ask Phoebe to be their surrogate mother since they cannot conceive naturally. They explain their financial limitations and desire to keep the baby in the family, urging a stunned Phoebe to take her time making a decision. Meanwhile, the scene shifts to the apartment where Chandler, Monica, and Rachel are playing cards. Ross and Joey arrive with exciting news: Joey has landed a job as a tour guide at the museum, thanks to Ross. Joey confidently explains that the job only requires memorizing a script, dismissing Rachel's doubts about his lack of dinosaur expertise. During the announcement, Chandler attempts to tease Joey about his blue blazer but fumbles the punchline, resulting in relentless, playful mockery from Monica and Rachel."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:18 - 00:04:47",
+    "batch_summary": "Phoebe excitedly shares the news of Frank Jr. and Alice's marriage and their request for her to be their surrogate. After clearing up Joey's hilarious misunderstanding about how surrogacy works, Phoebe expresses her eagerness to give them the ultimate gift. However, her friends urge caution. Rachel and Ross point out the intense physical and emotional challenges of pregnancy, such as morning sickness and labor, reminding her of the heavy toll it will take on her body for someone else's child.",
+    "cumulative_summary": "After eloping, Frank Jr. and Alice ask Phoebe to be their surrogate mother. Meanwhile, Joey lands a job as a museum tour guide thanks to Ross, though he struggles with the scientific terms. When Phoebe excitedly shares the news of the marriage and surrogacy proposal with the group, Joey initially misunderstands the mechanics of surrogacy, prompting a quick correction from Phoebe. While Phoebe is eager to help her brother and Alice, viewing it as the ultimate gift, her friends react with concern. Chandler lightens the mood with a joke, but Rachel and Ross gently advise Phoebe to think carefully about her decision. They warn her about the severe physical and emotional toll of pregnancy, including morning sickness and labor, emphasizing that she will be enduring all of this to carry a baby for someone else."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:47 - 00:06:29",
+    "batch_summary": "As the group continues to express concern over Phoebe's surrogacy decision, Rachel suggests she talk to her mother. Phoebe decides to consult her birth mom, who actually gave birth. Meanwhile, Chandler shares a romantic moment with his girlfriend at Central Perk. Rachel and Monica envy their relationship phase, but Chandler reveals they haven't had sex yet, claiming he wants their love to grow first. However, after Ross skeptically calls him out, Chandler quickly admits he is lying about his noble intentions.",
+    "cumulative_summary": "After eloping, Frank Jr. and Alice ask Phoebe to be their surrogate mother. While Phoebe is eager to help, her friends express concern about the physical and emotional toll of pregnancy. When Rachel suggests Phoebe talk to her mother about childbirth, Phoebe decides to consult her birth mom, who has actual experience giving birth. Meanwhile, Joey lands a museum tour guide job with Ross's help. At Central Perk, Chandler shares a passionate goodbye with his girlfriend. Rachel and Monica express envy over their relationship's \"honeymoon phase,\" prompting Chandler to reveal that they actually haven't had sex yet. He initially claims he wants their emotional connection to grow first, which touches Rachel and Monica. However, Ross skeptically calls him out, and Chandler quickly confesses that he is lying about his virtuous motives."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:29 - 00:08:20",
+    "batch_summary": "Chandler confesses his hesitation to sleep with Kathy stems from feeling intimidated by her ex, Joey, whose loud bedroom antics he has overheard through their shared wall. After Monica, Rachel, and Ross reassure him that their love will make the experience special, Chandler gains the confidence to take the next step. Meanwhile, Joey struggles with scientific accuracy during his first museum tour but proudly shows off Ross to the visitors. Finally, Phoebe arrives at her birth mother's house to discuss surrogacy.",
+    "cumulative_summary": "After eloping, Frank Jr. and Alice ask Phoebe to be their surrogate mother. While Phoebe is eager, her friends worry about the toll of pregnancy, prompting her to visit her birth mother for advice. Meanwhile, Joey starts his new museum tour guide job with Ross's help, hilariously dodging a smart kid's questions while proudly showing off Ross in his lab. At Central Perk, Chandler confesses that he hasn't slept with Kathy yet because he is intimidated by her ex, Joey, whose loud bedroom antics he has overheard through their shared wall. After Monica, Rachel, and Ross reassure him that love will make their intimacy special, Chandler gains the confidence to take the next step with Kathy."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:20 - 00:10:24",
+    "batch_summary": "Phoebe visits her birth mother, Phoebe Sr., to discuss surrogacy. Phoebe Sr. strongly advises against it, warning her of the lifelong pain of giving up a child. To make her point, she gives Phoebe a pug puppy to look after for just three days, explaining that the heartbreak of returning the puppy is only a fraction of what it feels like to give up a baby. Phoebe is left to contemplate this emotional lesson.",
+    "cumulative_summary": "After eloping, Frank Jr. and Alice ask Phoebe to be their surrogate mother. While Phoebe is eager, her friends worry about the toll of pregnancy, prompting her to visit her birth mother, Phoebe Sr., for advice. Phoebe Sr. strongly advises against surrogacy, warning her of the lifelong pain of giving up a child. To illustrate her point, she gives Phoebe a pug puppy to care for for just three days, explaining that giving up a baby is a million times harder. Meanwhile, Joey starts his new museum tour guide job with Ross's help, hilariously dodging a smart kid's questions. At Central Perk, Chandler confesses he is intimidated to sleep with Kathy because of her ex, Joey. After Monica, Rachel, and Ross reassure him that love will make their intimacy special, Chandler gains the confidence to take the next step with Kathy."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 274,
+    "timestamp_range": "00:10:24 - 00:11:59",
+    "batch_summary": "Phoebe agrees to her mother's three-day puppy trial to test her emotional readiness for surrogacy. Meanwhile, at the museum cafeteria, Joey learns about a strict social divide from a fellow tour guide, Rhonda. She explains that scientists in white coats, like Ross, do not sit with tour guides in blue blazers. Despite Rhonda's warnings and witnessing this elitist hierarchy firsthand, Joey rejects the division, firmly declaring that Ross is his best friend regardless of what they wear.",
+    "cumulative_summary": "After eloping, Frank Jr. and Alice ask Phoebe to be their surrogate. To warn her about the pain of giving up a child, Phoebe's birth mother challenges her to care for a puppy for three days, which Phoebe accepts. Meanwhile, Chandler overcomes his intimacy anxieties with Kathy after receiving advice from Monica, Rachel, and Ross. At his new museum tour guide job, Joey encounters a strict social hierarchy in the cafeteria. A fellow tour guide, Rhonda, explains that scientists in white coats, like Ross, do not sit with blue-blazered tour guides. Despite Rhonda's warnings and witnessing the elitist divide firsthand, Joey rejects the museum's social rules, proudly declaring that Ross is his best friend regardless of their uniforms."
+  }
+]

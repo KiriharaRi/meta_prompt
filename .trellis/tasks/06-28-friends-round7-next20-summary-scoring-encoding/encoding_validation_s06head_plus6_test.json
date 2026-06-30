@@ -1,0 +1,64 @@
+{
+  "all_ok": true,
+  "output_dir": "friends/analysis/train_size_sweep_20260628_round7/encoding_115train_10test_s06head_snapshot",
+  "group_summary": "friends/analysis/train_size_sweep_20260628_round7/encoding_115train_10test_s06head_snapshot/group_summary.json",
+  "encoding_metadata": "friends/analysis/train_size_sweep_20260628_round7/encoding_115train_10test_s06head_snapshot/encoding_metadata.json",
+  "manifest": "friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/roi_encoding_manifest.jsonl",
+  "split_counts": {
+    "train": 115,
+    "val": 5,
+    "test": 10
+  },
+  "train_size": 115,
+  "val_size": 5,
+  "test_size": 10,
+  "primary_metric": "mean_subject_mean_test_pearson",
+  "mean_subject_mean_test_pearson": 0.22223919585476926,
+  "mean_subject_median_test_pearson": 0.2118128860771404,
+  "n_subjects": 1,
+  "subject_best_alpha": 10000.0,
+  "subject_n_test_trs": 4467,
+  "n_retained_parcels": 86,
+  "roi_order": [
+    "DLPFC",
+    "VMPFC",
+    "OFC",
+    "ACC",
+    "PCC",
+    "Precuneus",
+    "IPL",
+    "SMG",
+    "AG",
+    "TPJ",
+    "pSTS",
+    "FFA",
+    "Insula",
+    "Temporal_Pole"
+  ],
+  "roi_metrics": {
+    "ACC": 0.19041452631928196,
+    "AG": 0.2671277467222617,
+    "DLPFC": 0.22729835801263235,
+    "FFA": 0.2494340651324728,
+    "IPL": 0.280130448717238,
+    "Insula": 0.2124029807117291,
+    "OFC": 0.2091040326834642,
+    "PCC": 0.23356552098364877,
+    "Precuneus": 0.17613722550865085,
+    "SMG": 0.29313315071221435,
+    "TPJ": 0.26565044087191064,
+    "Temporal_Pole": 0.2055037913089796,
+    "VMPFC": 0.19798370851534347,
+    "pSTS": 0.20653541842627068
+  },
+  "expected": {
+    "split_counts": {
+      "train": 115,
+      "val": 5,
+      "test": 10
+    },
+    "n_subjects": 1,
+    "roi_count": 14,
+    "subject_n_test_trs": 4467
+  }
+}

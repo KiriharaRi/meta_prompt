@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:44",
+    "batch_summary": "At Monica's apartment, Phoebe decides to break up with Vince, a firefighter, in favor of Jason, whom she believes is more sensitive. However, when she visits Vince at his firehouse to deliver the news, he reacts with surprising emotional depth, expressing how much he wanted to open up to her. Stunned by this unexpected display of sensitivity from the tough firefighter, Phoebe is left feeling conflicted and surprised as Vince walks away to write down his feelings.",
+    "cumulative_summary": "In Monica's apartment, Phoebe prepares to end her relationship with Vince, a firefighter, reasoning that her other suitor, Jason, is much more sensitive and better for the long run. Despite encouragement from her friends, Phoebe's plan takes an unexpected turn when she visits Vince at his firehouse. After she delivers the breakup news, Vince reacts not with indifference, but with deep vulnerability. He reveals that he felt a special connection and was ready to open up to her in ways he never had before. Overwhelmed by emotion, Vince walks away to write down his feelings, leaving a stunned Phoebe completely reconsidering her assumptions about his lack of sensitivity."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:44 - 00:03:29",
+    "batch_summary": "At Central Perk, Ross leaves in a huff after Monica teases him about a mysterious skin condition. Rachel then arrives with a bridal magazine, prompting Monica to confess that she is reconsidering her stance on Pete's potential proposal; imagining saying yes actually makes her happy. Meanwhile, Phoebe reveals to Rachel that she couldn't bring herself to break up with Vince. She explains that Vince is surprisingly sensitive, keeping a journal and creating charcoal drawings of her, leaving her still torn between her two suitors.",
+    "cumulative_summary": "Phoebe's plan to break up with her firefighter boyfriend, Vince, in favor of her more sensitive suitor, Jason, takes an unexpected turn. When she attempts to end things, Vince reacts with surprising vulnerability, leaving Phoebe completely reconsidering her assumptions about him. Later at Central Perk, after Ross leaves in a huff over teasing about a skin condition, Rachel brings out a bridal magazine. This prompts Monica to make a surprising confession: despite her previous hesitation, she is seriously reconsidering Pete's potential marriage proposal because imagining saying yes makes her genuinely happy. Meanwhile, Phoebe updates Rachel on her love life, admitting she couldn't go through with the breakup because Vince proved to be incredibly sensitive, keeping a journal and even making charcoal drawings of her. Phoebe remains caught between her two surprisingly deep suitors, while Monica contemplates a major step forward in her relationship with Pete."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:29 - 00:05:31",
+    "batch_summary": "Phoebe decides to break up with Jason because Vince is both sensitive and physically fit. However, when she visits Jason to end things, his shirtless, tool-belt-wearing appearance immediately makes her hesitate. Meanwhile, Ross seeks help for his skin condition from Guru Saj, an eccentric practitioner. After making a joke about Ross's \"kundas\" growth, Guru Saj applies a painful salve that fails instantly, leaving Ross in agony and the guru admitting it was the wrong approach.",
+    "cumulative_summary": "Phoebe's love triangle grows more complicated. After realizing her firefighter boyfriend, Vince, is incredibly sensitive, she decides to break up with her other suitor, Jason, reasoning that Vince has both emotional depth and a great body. However, when she visits Jason to end things, his attractive, shirtless appearance completely derails her resolve. Meanwhile, Monica continues to contemplate a potential marriage proposal from Pete. Elsewhere, Ross seeks treatment for his embarrassing skin condition from an eccentric practitioner named Guru Saj. The visit takes a painful turn when Guru Saj diagnoses the growth as a \"kundas\" and applies an experimental salve that causes Ross to scream in agony, forcing the guru to quickly admit it was the wrong treatment."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:31 - 00:06:59",
+    "batch_summary": "At Guru Saj's office, the eccentric practitioner tells Ross he must learn to love his skin growth, the \"kundas,\" to heal. After Ross reluctantly declares his love for it, Guru Saj accidentally snags and removes the growth with his watch, much to Ross's relief. Meanwhile, Pete takes Monica to a romantic, dimly lit room to have a serious talk. He reflects on his life and success in the business world, setting the stage for his anticipated proposal.",
+    "cumulative_summary": "Phoebe's love triangle remains unresolved after her attempt to break up with Jason is derailed by his good looks, despite her preference for her sensitive firefighter boyfriend, Vince. Meanwhile, Ross's bizarre medical saga with Guru Saj reaches a comical conclusion. After the guru insists that Ross must learn to \"love\" his skin growth, the \"kundas,\" to heal it, the growth is abruptly and accidentally removed when it gets caught in Guru Saj's watch, leaving Ross relieved. Elsewhere, the anticipation builds for Monica as Pete takes her to a romantic, dimly lit room. He begins a serious conversation by reflecting on his life and his success in conquering the business world, bringing Monica one step closer to the marriage proposal she expects."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:59 - 00:08:29",
+    "batch_summary": "Expecting a marriage proposal, Monica is stunned when Pete reveals his true ambition: to conquer the physical world by becoming the Ultimate Fighting Champion. He passionately describes his intense martial arts training and asks her to support him ringside, leaving Monica utterly bewildered. Meanwhile, back at Central Perk, Phoebe performs a quirky song about underwear just as her handsome boyfriend, Jason, arrives.",
+    "cumulative_summary": "Phoebe's love triangle remains unresolved as she struggles to choose between her sensitive firefighter boyfriend, Vince, and the handsome Jason, who later visits her during a quirky performance at Central Perk. Meanwhile, Ross's bizarre medical saga with Guru Saj reaches a comical conclusion when his skin growth is accidentally ripped off by the guru's watch. Elsewhere, Monica's anticipation of a romantic marriage proposal from Pete takes a bizarre turn. Instead of proposing, Pete passionately announces his dream to conquer the physical world by becoming the Ultimate Fighting Champion. He details his intense martial arts training and begs Monica to support him from the bloody front row, leaving her completely bewildered by his unexpected ambition."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:29 - 00:10:04",
+    "batch_summary": "During a performance at Central Perk, Phoebe is caught off guard when both of her boyfriends, Vince and Jason, show up. Cornered, she confesses to dating them both simultaneously. While both men initially react calmly, noting they never agreed to be exclusive, the situation quickly turns awkward. Jason reveals that he and Phoebe haven't slept together yet, only to discover that Vince and Phoebe have. Realizing the disparity in their relationships, a disgruntled Jason backs away from the love triangle.",
+    "cumulative_summary": "Phoebe's unresolved love triangle with Vince, the sensitive firefighter, and Jason reaches a dramatic climax at Central Perk. When both men unexpectedly show up during her performance, a panicked Phoebe confesses to dating them both. Although both suitors initially react calmly, pointing out they never agreed to exclusivity, the peace is short-lived. Jason casually mentions that he and Phoebe haven't slept together yet, only to realize from Vince's surprised reaction that Vince and Phoebe have. Feeling sidelined, Jason immediately backs away from the relationship. Meanwhile, Ross's bizarre medical saga with Guru Saj ends comically when his skin growth is accidentally ripped off by the guru's watch. Elsewhere, Monica's anticipation of a romantic marriage proposal from Pete takes a bizarre turn when he instead announces his dream to become the Ultimate Fighting Champion, leaving her completely bewildered by his intense martial arts ambitions."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 271,
+    "timestamp_range": "00:10:04 - 00:11:39",
+    "batch_summary": "Phoebe's love triangle completely implodes. After Jason walks away in anger over her sleeping with Vince, Vince also dumps her upon learning she had a candlelight dinner in a park, which violates his firefighter safety sensibilities. Meanwhile, Joey and Chandler take their sick duck to Guru Saj for a persistent cough. The guru's bizarre treatment suggestion—asking if they can get the duck to eat a bathroom—leaves them utterly speechless.",
+    "cumulative_summary": "Phoebe's unresolved love triangle with Vince, the firefighter, and Jason reaches a dramatic climax at Central Perk. After learning Phoebe slept with Vince, Jason officially walks out. Phoebe tries to appease Vince by offering him a candlelight dinner in the park, but Vince is horrified by her disregard for fire safety in a wooded area and dumps her too, leaving her single. Meanwhile, Monica is left bewildered by Pete's sudden ambition to become the Ultimate Fighting Champion instead of proposing. Elsewhere, Ross's medical saga with Guru Saj concludes, but Joey and Chandler soon seek out the eccentric guru themselves to treat their pet duck's persistent cough. True to form, Guru Saj leaves them completely speechless with a bizarre suggestion to have the duck eat a bathroom."
+  }
+]

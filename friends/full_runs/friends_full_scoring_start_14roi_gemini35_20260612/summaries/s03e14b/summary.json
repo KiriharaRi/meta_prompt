@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:01",
+    "batch_summary": "In the kitchen, a heartbroken Phoebe admits to Monica that she misses her former musical partner, Leslie, who previously dumped her. Despite her hurt, Phoebe fondly recalls their time playing music together. A flashback shows Phoebe joining Leslie on stage at a coffee shop to harmoniously sing \"Sticky Shoes\" to an appreciative crowd. Meanwhile, Ross and Rachel attend a fashion lecture together, where Ross affectionately whispers to Rachel how glad he is to be there and tells her she is pretty.",
+    "cumulative_summary": "Phoebe sits in the kitchen, anxiously waiting for a phone call from her former musical partner, Leslie. Although she tries to act indifferent, Monica encourages her to reach out. Phoebe confesses her deep hurt over being \"dumped\" by Leslie, admitting that playing music together was the most fun she has ever had. This emotional moment transitions into a memory of the duo performing their song \"Sticky Shoes\" together on stage at a coffee shop, showcasing their strong musical chemistry and joyful connection as they share a warm embrace after the performance. Elsewhere, Ross and Rachel attend a fashion lecture. While Rachel diligently takes notes, Ross gazes at her lovingly, whispering how glad he is to be there with her and telling her how pretty she is, highlighting their romantic bond."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:01 - 00:03:47",
+    "batch_summary": "During the lecture, Ross accidentally whispers \"I love you\" to Rachel, shocking them both, before later falling asleep. Meanwhile, Phoebe reunites with Leslie at the coffee shop to play \"Smelly Cat.\" When Leslie suggests selling the song for a kitty litter commercial, Phoebe rejects the idea of commercializing her music, though Leslie quickly apologizes. Back at the apartment, Monica asks Chandler about his date with Ginger, whom Chandler enthusiastically describes as \"greatness\" and the complete package.",
+    "cumulative_summary": "Phoebe, initially anxious about her former musical partner Leslie, reunites with her at the coffee shop. Phoebe plays \"Smelly Cat,\" but tension arises when Leslie suggests selling the song for a kitty litter commercial. Phoebe firmly rejects commercializing her art, prompting Leslie to apologize. Meanwhile, at the fashion lecture, Ross's romantic feelings slip out when he whispers \"I love you\" to Rachel, leaving them both stunned. Ross later struggles to stay awake during the presentation, drawing Rachel's amused gaze. Back at the apartment, Monica checks in on Chandler, who enthusiastically raves about his highly successful date with Ginger, declaring her to be \"greatness\" and the complete package."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:47 - 00:05:41",
+    "batch_summary": "Chandler confesses to Monica that Ginger's artificial leg freaks him out, making him feel incredibly shallow. Joey joins them, awkwardly asking if Ginger ever found the time he accidentally burned her artificial leg funny. Meanwhile, Ross and Rachel argue after returning from the fashion lecture. Rachel is furious that Ross fell asleep and snored, while Ross complains about the boring subject matter. When Rachel compares it to his tedious dinosaur lectures, Ross tries to defend his science, but Rachel mockingly tunes him out.",
+    "cumulative_summary": "Phoebe reunites with her former musical partner Leslie, but tension arises when Leslie suggests selling \"Smelly Cat\" for a commercial, which Phoebe firmly rejects. Meanwhile, Chandler's excitement about his date with Ginger turns to guilt when he confesses to Monica that her artificial leg freaks him out. Joey makes matters worse by awkwardly asking if Ginger ever found the time he accidentally burned her artificial leg funny. Elsewhere, Ross and Rachel's relationship faces friction after returning from the fashion lecture. Rachel is furious that Ross fell asleep and snored loudly during the presentation. When Ross defends his boredom, Rachel compares it to the agonizing hours she has spent listening to his tedious lectures about dinosaur bones. As Ross tries to explain the scientific significance of a wingless dinosaur bone, Rachel mockingly tunes him out, highlighting the growing divide in their mutual appreciation for each other's careers."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:41 - 00:07:42",
+    "batch_summary": "Ross and Rachel's argument escalates until Ross confesses his deep insecurity about Rachel slipping away due to her new career. Rachel reassures him of her love but gently explains that her job is something she needs to do independently. They reconcile with a hug. Meanwhile, Chandler's date with Ginger takes an awkward turn when she confronts him about his obvious discomfort with her artificial leg, demanding to know if it is a dealbreaker for him.",
+    "cumulative_summary": "Phoebe's reunion with her former partner Leslie is strained by disagreements over selling \"Smelly Cat.\" Meanwhile, Ross and Rachel's friction over their careers reaches a turning point. After trading barbs about fashion and paleontology, Ross confesses his fear that Rachel is slipping away into her new life. Rachel reassures him of her deep love but firmly establishes that her career is a personal journey she must navigate independently, leading to a warm reconciliation. Elsewhere, Chandler's anxiety about dating Ginger, whose artificial leg Joey once accidentally burned, comes to a head. During their date, Ginger confronts Chandler about his obvious preoccupation with her leg, demanding honesty about his discomfort so she does not waste her time."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:42 - 00:09:20",
+    "batch_summary": "Chandler and Ginger's romantic moment takes an unexpected turn when she discovers his \"nubbin\"—a third nipple. Despite Chandler's previous anxiety about her artificial leg, Ginger is repulsed by his physical quirk and abruptly leaves. Meanwhile, Phoebe confronts Leslie for missing their meeting, only to discover that Leslie went behind her back and pitched \"Smelly Cat\" to her former advertising agency, reigniting their professional and personal conflict.",
+    "cumulative_summary": "Phoebe's reunion with her former partner Leslie is strained by disagreements over selling \"Smelly Cat.\" Meanwhile, Ross and Rachel's friction over their careers reaches a turning point. After trading barbs about fashion and paleontology, Ross confesses his fear that Rachel is slipping away into her new life. Rachel reassures him of her deep love but firmly establishes that her career is a personal journey she must navigate independently, leading to a warm reconciliation. Elsewhere, Chandler's anxiety about dating Ginger, whose artificial leg Joey once accidentally burned, comes to a head. During their date, Ginger confronts Chandler about his obvious preoccupation with her leg, demanding honesty about his discomfort. However, the tables turn when Ginger discovers Chandler's third nipple, or \"nubbin,\" and abruptly leaves him in disgust. Finally, Phoebe's trust in Leslie is shattered when she learns Leslie went behind her back to pitch \"Smelly Cat\" to her former advertising agency, reigniting their bitter conflict."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:20 - 00:10:56",
+    "batch_summary": "Phoebe refuses to compromise her integrity, leading to a final split with Leslie, who subsequently sells \"Smelly Cat\" for a kitty litter commercial. Though hurt, Phoebe channels her anger into a hilarious new song about her former partner. Meanwhile, Chandler returns from the doctor after having his third nipple surgically removed, proudly declaring he is down to two. Ross makes a teasing remark about Rachel's past, quickly dampening her mood.",
+    "cumulative_summary": "Phoebe's reunion with her former partner Leslie ends in a permanent split after Leslie demands she choose between \"Smelly Cat\" and their partnership. Choosing her integrity, Phoebe walks away, only to later see her beloved song used in a cheap kitty litter commercial. Supported by Monica and Joey, Phoebe channels her betrayal into an angry new song about Leslie. Meanwhile, Ross and Rachel's career friction reaches a warm reconciliation, with Rachel establishing her independence. Elsewhere, Chandler's dating disaster with Ginger—who rejected him upon discovering his third nipple—leads him to take drastic action. He undergoes a \"nubonectomy\" to have the extra nipple removed, proudly returning to the group with only two. However, the peace is briefly interrupted when Ross makes a teasing joke about Rachel's high school days, leaving her unimpressed."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 248,
+    "timestamp_range": "00:10:56 - 00:11:22",
+    "batch_summary": "After Ross defends his teasing joke to Rachel as obvious, Chandler is struck by a sudden, horrifying realization. He laments that he failed to think of the joke himself, attributing his lost sense of humor to the removal of his third nipple. Realizing he has sacrificed the source of his comedic powers, Chandler looks at his chest in despair as the episode draws to a close.",
+    "cumulative_summary": "Phoebe's reunion with her former partner Leslie ends in a permanent split after Leslie demands she choose between \"Smelly Cat\" and their partnership. Choosing her integrity, Phoebe walks away, only to later see her beloved song used in a cheap kitty litter commercial. Supported by Monica and Joey, Phoebe channels her betrayal into an angry new song about Leslie. Meanwhile, Ross and Rachel's career friction reaches a warm reconciliation, with Rachel establishing her independence. Elsewhere, Chandler's dating disaster with Ginger—who rejected him upon discovering his third nipple—leads him to undergo a \"nubonectomy\" to have it removed. However, when Ross makes a teasing joke that Rachel finds unimpressive, Chandler is horrified to realize he didn't think of the joke first. He desperately concludes that his extra nipple was actually the source of all his comedic powers, leaving him to regret his decision as the screen fades to black."
+  }
+]

@@ -1,0 +1,876 @@
+{
+  "version": "region_schema_v1",
+  "target_region": "DLPFC",
+  "functional_hypothesis": "The Dorsolateral Prefrontal Cortex (DLPFC), particularly regions corresponding to BA 46 and BA 9/46 within the Dorsal Attention and Somatomotor networks, is a core hub of the executive control network. During movie watching, the DLPFC is hypothesized to support high-level cognitive processes including working memory maintenance, goal-directed planning, rule integration, and hypothesis testing. Specifically, as viewers watch complex narratives, they must actively maintain and integrate information across time (narrative working memory), evaluate characters' strategic plans and tactical maneuvers, monitor cognitive conflicts or ambiguous motives, and integrate social or formal rules to predict and evaluate character behavior. Predicting DLPFC activity therefore requires tracking these executive and cognitive control demands from the narrative text.",
+  "scoring_instruction": "For each movie description segment, score each of the 12 dimensions on a scale from 0 to 10. A score of 0 indicates that the dimension is completely absent or irrelevant to the segment. A score of 10 indicates that the dimension is extremely prominent and central to the viewer's cognitive engagement with the scene. Scoring should be based on the explicit text and the immediate, highly-salient inferences a typical viewer must make while watching. Do not over-infer or project complex psychological states that are not supported by the narrative context. Ensure that each dimension is scored independently, focusing on its specific definition, trigger list, and graded anchors.",
+  "selection_rules": [
+    {
+      "networks": [],
+      "sub_regions": [],
+      "hemispheres": [],
+      "label_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": "strategic_goal_and_plan_tracking",
+      "definition": "The viewer's active cognitive tracking, maintenance, and evaluation of characters' multi-step, goal-directed plans, tactical maneuvers, and strategic choices, including anticipating consequences and evaluating progress toward long-term objectives.",
+      "region_relevance": "DLPFC (specifically BA 46 and 9/46) is central to working memory, goal maintenance, executive planning, and hierarchical control, allowing the viewer to map current actions to long-term plot goals.",
+      "scoreability_note": "Highly scoreable in scenes where characters formulate, discuss, or execute complex plans, navigate tactical obstacles, or make high-stakes strategic decisions.",
+      "source_domain_ids": [
+        "run_1_strategic_plan_tracking",
+        "run_2_strategic_goal_tracking",
+        "run_3_narrative_goal_tracking",
+        "run_3_strategic_anticipation",
+        "run_4_strategic_plan_tracking",
+        "run_5_goal_plan_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "These candidate domains all focus on the viewer's tracking of goal-directed behavior, planning, and tactical execution. Merging them creates a robust, highly scoreable domain representing the core executive planning functions of the DLPFC."
+    },
+    {
+      "domain_id": "cognitive_conflict_and_hypothesis_testing",
+      "definition": "The viewer's active monitoring, appraisal, and resolution of conflicting narrative information, ambiguous character motives, or unexpected plot developments, requiring the generation and testing of competing hypotheses and updating of mental models.",
+      "region_relevance": "DLPFC is heavily recruited for cognitive control, conflict monitoring, decision-making under uncertainty, and updating internal models when predictions fail or when multiple competing interpretations exist.",
+      "scoreability_note": "Scored high during suspenseful scenes, mystery sequences, deceptive dialogue, or plot twists where the viewer must actively resolve ambiguity or revise their assumptions.",
+      "source_domain_ids": [
+        "run_1_cognitive_conflict_monitoring",
+        "run_2_cognitive_model_updating",
+        "run_3_cognitive_conflict_resolution",
+        "run_4_hypothesis_testing_and_ambiguity",
+        "run_5_cognitive_conflict_monitoring"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "These domains all capture the cognitive effort of managing uncertainty, resolving narrative conflicts, and updating mental models. Merging them avoids redundancy and aligns with DLPFC's role in cognitive flexibility and conflict resolution."
+    },
+    {
+      "domain_id": "rule_and_normative_constraint_integration",
+      "definition": "The viewer's cognitive integration and application of explicit rules, social norms, tactical protocols, or moral boundaries established within the narrative to evaluate the permissibility, risk, and consequences of characters' actions.",
+      "region_relevance": "DLPFC plays a critical role in rule-guided behavior, norm compliance, and evaluating actions against abstract principles, conditional rules, or social expectations.",
+      "scoreability_note": "Highly scoreable in scenes involving formal rules (e.g., games, legal proceedings, tactical operations) or high-stakes social situations where characters deliberately navigate or violate established norms.",
+      "source_domain_ids": [
+        "run_1_rule_and_norm_integration",
+        "run_2_normative_constraint_appraisal",
+        "run_3_rule_and_norm_monitoring",
+        "run_4_narrative_rule_integration",
+        "run_5_rule_norm_integration"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "These domains all address how the viewer evaluates characters' actions against narrative, social, or logical rules. Merging them provides a unified domain for rule-guided cognitive evaluation."
+    },
+    {
+      "domain_id": "narrative_working_memory_and_causal_integration",
+      "definition": "The viewer's active maintenance and integration of temporally disjointed narrative threads, past backstory, and complex causal or logical relationships between events to comprehend the current onscreen action.",
+      "region_relevance": "DLPFC supports relational reasoning, logical integration, working memory maintenance over temporal delays, and complex problem-solving.",
+      "scoreability_note": "Scored high in scenes that rely on callbacks, non-linear storytelling, or complex physical/narrative mechanisms where the viewer must actively deduce causal links rather than passively observing.",
+      "source_domain_ids": [
+        "run_1_narrative_working_memory",
+        "run_5_causal_logical_reasoning"
+      ],
+      "source_runs": [
+        1,
+        5
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Both domains involve the active maintenance of information in working memory to perform relational or causal reasoning over time, which is a key executive function of the DLPFC."
+    }
+  ],
+  "active_domain_ids": [
+    "strategic_goal_and_plan_tracking",
+    "cognitive_conflict_and_hypothesis_testing",
+    "rule_and_normative_constraint_integration",
+    "narrative_working_memory_and_causal_integration"
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "tactical_planning_and_formulation",
+      "definition": "The extent to which characters explicitly formulate, discuss, or negotiate a multi-step, goal-directed plan or tactical maneuver.",
+      "domain": "strategic_goal_and_plan_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Characters brainstorming a heist or rescue mission",
+        "A leader outlining a step-by-step strategy to their team",
+        "A character explaining a complex trick or trap they are setting",
+        "Explicit discussion of contingencies and backup plans"
+      ],
+      "graded_anchors": {
+        "0": "No planning or goal-directed discussion occurs; characters engage in passive or routine actions.",
+        "1": "A character mentions a simple, immediate action they are about to take.",
+        "2": "A character expresses a vague desire or short-term goal without any discussion of steps.",
+        "3": "A character proposes a simple two-step action to solve an immediate problem.",
+        "4": "Characters discuss a basic plan with minimal detail or coordination.",
+        "5": "A clear, multi-step plan is proposed by a character, but without detailed discussion of obstacles or contingencies.",
+        "6": "Characters actively debate the steps of a moderately complex plan, identifying potential points of failure.",
+        "7": "A detailed tactical plan is formulated, involving multiple characters, roles, and specific timing.",
+        "8": "A highly complex, multi-stage strategy is outlined, including explicit contingency plans and tactical coordination.",
+        "9": "Characters meticulously map out a high-stakes, multi-layered operation with precise roles, timing, and backup strategies.",
+        "10": "An extraordinarily intricate, high-stakes strategic plan is formulated and debated in detail, requiring intense cognitive tracking of multiple moving parts and contingencies."
+      },
+      "calibration_examples": [
+        {
+          "scene": "John tells Sarah that he will go grab some coffee while she waits in the car.",
+          "score": 1
+        },
+        {
+          "scene": "The team gathers around a blueprint of the bank. Danny explains the three phases of the heist: first, disabling the security cameras; second, cracking the vault; and third, escaping through the sewer system, while assigning specific roles to each member.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for explicit dialogue or actions where characters map out future steps, assign roles, or discuss how to overcome specific obstacles to achieve a goal.",
+      "exclusion_note": "Do not score based on the actual execution of the plan unless the characters are actively discussing or adjusting the plan during execution."
+    },
+    {
+      "dimension_id": "goal_progress_monitoring",
+      "definition": "The viewer's active tracking of a character's progress, setbacks, or adjustments toward a long-term, established objective.",
+      "domain": "strategic_goal_and_plan_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character evaluating how close they are to achieving their ultimate goal",
+        "A major setback that forces a character to reassess their progress",
+        "A character celebrating a milestone or key breakthrough in their mission",
+        "An unexpected obstacle requiring an immediate adjustment to an ongoing plan"
+      ],
+      "graded_anchors": {
+        "0": "No long-term goals are active or tracked; the scene is purely episodic or slice-of-life.",
+        "1": "A character briefly reflects on a minor, everyday task they completed.",
+        "2": "A character acknowledges a small step forward in a larger, but low-stakes endeavor.",
+        "3": "A character notes a minor obstacle in their path but continues without major adjustment.",
+        "4": "The narrative highlights a clear step forward or backward regarding a character's main objective.",
+        "5": "A character explicitly assesses their progress, noting what has been accomplished and what remains to be done.",
+        "6": "A significant milestone is reached or a major setback occurs, forcing the character to evaluate their position.",
+        "7": "The character must actively modify their long-term strategy in response to a major shift in their progress or environment.",
+        "8": "A critical breakthrough or devastating failure occurs, completely shifting the timeline or feasibility of the main goal.",
+        "9": "The character conducts a comprehensive, high-stakes re-evaluation of their entire mission after a massive setback or success, adjusting all future steps.",
+        "10": "The entire scene centers on the dramatic culmination or collapse of a long-term, high-stakes mission, requiring the viewer to integrate all past progress and failures."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Mark crosses off 'buy milk' from his grocery list.",
+          "score": 1
+        },
+        {
+          "scene": "After the safehouse is compromised, the rebel leader gathers the survivors to assess their remaining resources, realizing they have lost half their ammunition and must now bypass the main outpost to reach the extraction point.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Driven by scenes where characters explicitly measure their current state against their ultimate objective, or where the plot clearly signals a major shift in the feasibility of their goal.",
+      "exclusion_note": "Do not confuse with simple physical movement or action sequences unless those actions are explicitly framed as progress toward a larger strategic goal."
+    },
+    {
+      "dimension_id": "strategic_consequence_anticipation",
+      "definition": "The viewer's cognitive evaluation of the potential long-term consequences, risks, and strategic trade-offs of a character's decisions or actions.",
+      "domain": "strategic_goal_and_plan_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character weighing a difficult choice with significant future consequences",
+        "A debate between characters about the long-term risks of an action",
+        "A character warning another about the potential fallout of their behavior",
+        "A scene highlighting the high stakes and potential ripple effects of a strategic decision"
+      ],
+      "graded_anchors": {
+        "0": "Actions have no significant long-term consequences or risks; choices are trivial.",
+        "1": "A character makes a minor choice with predictable, low-stakes consequences.",
+        "2": "A character makes a decision with short-term, easily reversible consequences.",
+        "3": "A character faces a choice where the consequences are slightly uncertain but relatively low-stakes.",
+        "4": "A decision is made that has clear, moderate long-term consequences for the character.",
+        "5": "Characters discuss the potential risks and benefits of a significant decision, weighing different outcomes.",
+        "6": "A character must choose between two distinct paths, each carrying substantial risks and long-term implications.",
+        "7": "A high-stakes decision is debated, where the wrong choice could lead to disaster or ruin for the characters involved.",
+        "8": "A character makes a critical, irreversible choice, with the narrative heavily emphasizing the massive, far-reaching consequences and potential fallout.",
+        "9": "A complex ethical or strategic dilemma is presented, where every option has severe, long-term negative consequences, requiring deep deliberation.",
+        "10": "A monumental, high-stakes decision is made that will permanently alter the course of the entire narrative, with the viewer actively anticipating massive, multi-layered consequences across all characters and plotlines."
+      },
+      "calibration_examples": [
+        {
+          "scene": "David decides to take the highway instead of the side streets to save ten minutes.",
+          "score": 1
+        },
+        {
+          "scene": "The president sits in the Situation Room, debating whether to authorize a drone strike on a terrorist leader. The advisors warn that while it will eliminate the target, it will almost certainly trigger a retaliatory war and destabilize the entire region.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for scenes where characters explicitly discuss, worry about, or weigh the future fallout, risks, or benefits of their choices.",
+      "exclusion_note": "Do not score based on immediate physical danger unless the danger is a strategic consequence of a prior decision."
+    },
+    {
+      "dimension_id": "motive_ambiguity_and_suspicion",
+      "definition": "The viewer's active monitoring and evaluation of conflicting clues regarding a character's true intentions, loyalty, or trustworthiness.",
+      "domain": "cognitive_conflict_and_hypothesis_testing",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character acting suspiciously or giving evasive answers",
+        "Conflicting evidence about whether a character is an ally or an enemy",
+        "A character being caught in a minor lie or contradiction",
+        "The viewer questioning a character's hidden agenda or true motives"
+      ],
+      "graded_anchors": {
+        "0": "Characters' motives and loyalties are completely transparent, clear, and unambiguous.",
+        "1": "A character makes a slightly unusual remark, but there is no real reason to doubt their motives.",
+        "2": "A character is briefly evasive about a minor detail, raising mild curiosity.",
+        "3": "A character's behavior is somewhat inconsistent, suggesting they might be hiding something minor.",
+        "4": "Clear clues suggest a character has a hidden agenda, but their overall loyalty is not yet in question.",
+        "5": "The viewer is presented with conflicting evidence about a character's trustworthiness, creating active suspicion.",
+        "6": "A character is caught in a significant lie, forcing the viewer to actively question their true intentions.",
+        "7": "High-stakes ambiguity surrounds a character's loyalty, with strong evidence supporting both alliance and betrayal.",
+        "8": "A character's actions strongly suggest betrayal, but their explanations or past loyalty keep the viewer highly conflicted and suspicious.",
+        "9": "The scene is filled with intense, deceptive dialogue where every word and gesture must be analyzed for hidden motives and double-crosses.",
+        "10": "A masterclass in suspense and paranoia, where a character's entire identity and loyalty are completely ambiguous, forcing the viewer to constantly test competing hypotheses about their true nature."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Tom smiles and welcomes his sister home, helping her carry her bags inside.",
+          "score": 0
+        },
+        {
+          "scene": "During a tense interrogation, the detective notices that the suspect's alibi perfectly matches the victim's diary, yet the suspect keeps glancing nervously at the door and sweating profusely whenever the name of the business partner is mentioned.",
+          "score": 7
+        }
+      ],
+      "scoreability_note": "Driven by narrative cues that suggest deception, hidden agendas, double-crosses, or inconsistent behavior.",
+      "exclusion_note": "Do not score simple, overt hostility or clear, unmasked villainy where there is no ambiguity about the character's bad intentions."
+    },
+    {
+      "dimension_id": "competing_narrative_hypotheses",
+      "definition": "The viewer's active generation and testing of competing hypotheses to explain a mysterious event, crime, or unexplained phenomenon in the narrative.",
+      "domain": "cognitive_conflict_and_hypothesis_testing",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Characters investigating a crime scene and finding conflicting clues",
+        "A mysterious event occurs that has multiple plausible explanations",
+        "Characters debating different theories about a mystery",
+        "The narrative presenting red herrings to mislead the viewer's theories"
+      ],
+      "graded_anchors": {
+        "0": "The narrative is straightforward and linear; there are no mysteries or unexplained events.",
+        "1": "A minor, easily explained oddity occurs.",
+        "2": "A small mystery is introduced but is resolved almost immediately.",
+        "3": "An unexplained event occurs, suggesting a couple of simple, low-stakes possibilities.",
+        "4": "A clear mystery is established, and characters begin to gather clues, pointing to a few possible explanations.",
+        "5": "The viewer is presented with two or three distinct, plausible theories to explain a major plot development or crime.",
+        "6": "Characters actively debate competing hypotheses, each backed by different pieces of evidence found so far.",
+        "7": "A highly complex mystery deepens, with new evidence contradicting previous theories and supporting new, competing hypotheses.",
+        "8": "The narrative deliberately plays multiple theories against each other, keeping the viewer actively engaged in trying to solve the puzzle.",
+        "9": "A dense, intricate web of clues is presented, where multiple highly sophisticated and conflicting hypotheses are equally viable, requiring intense cognitive effort to track.",
+        "10": "The absolute peak of a mystery or detective sequence, where the viewer must synthesize a massive array of conflicting clues and actively test multiple mind-bending hypotheses to uncover the truth."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The detective walks into the room and sees a broken vase, concluding that the wind must have blown it over.",
+          "score": 1
+        },
+        {
+          "scene": "At the murder scene, the detective finds a left-handed glove, a drop of rare poison, and a train ticket from yesterday. The suspect list includes a right-handed doctor who had access to the poison, and a left-handed artist who was seen on the train, leaving the detective to weigh these conflicting clues.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Look for scenes involving active investigation, detective work, or the presentation of puzzling, non-obvious clues.",
+      "exclusion_note": "Do not score scenes where a mystery is simply mentioned without any active clue-gathering or hypothesis-testing by the characters or viewer."
+    },
+    {
+      "dimension_id": "prediction_error_and_model_updating",
+      "definition": "The viewer's cognitive process of revising their mental model of the plot, characters, or world in response to a sudden plot twist, revelation, or prediction error.",
+      "domain": "cognitive_conflict_and_hypothesis_testing",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A major plot twist that reveals a character's true identity or allegiance",
+        "A sudden revelation that changes the meaning of previous scenes",
+        "A character's unexpected action that completely contradicts their established personality",
+        "The discovery that a key assumption about the narrative world was false"
+      ],
+      "graded_anchors": {
+        "0": "The narrative proceeds exactly as expected; no assumptions are challenged or revised.",
+        "1": "A character does something slightly out of character, requiring a minor adjustment to how they are perceived.",
+        "2": "A small, unexpected detail is revealed that slightly refines the viewer's understanding of a situation.",
+        "3": "A minor plot twist occurs, requiring the viewer to update their expectations for the next scene.",
+        "4": "A significant revelation occurs, clarifying a previously confusing or ambiguous plot point.",
+        "5": "A major piece of information is revealed, forcing the viewer to significantly update their mental model of a character or event.",
+        "6": "A substantial plot twist occurs, revealing that a key event did not happen the way the viewer originally thought.",
+        "7": "A shocking revelation completely upends a major narrative assumption, forcing the viewer to re-evaluate several past scenes.",
+        "8": "A massive plot twist occurs, requiring a comprehensive restructuring of the viewer's understanding of the story.",
+        "9": "A mind-bending revelation occurs that completely changes the context of the entire movie, forcing the viewer to reconstruct the entire narrative timeline and character motivations.",
+        "10": "The ultimate narrative paradigm shift, where everything the viewer thought they knew is revealed to be an illusion, requiring an intense, total overhaul of their mental model of the entire story."
+      },
+      "calibration_examples": [
+        {
+          "scene": "John reveals that he actually prefers tea over coffee, despite always drinking coffee at work.",
+          "score": 1
+        },
+        {
+          "scene": "In a shocking climax, the therapist realizes that he has actually been a ghost the entire time, and that all his interactions with his patient were a projection of the boy's mind, completely recontextualizing every single scene in the film.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Driven by moments of high surprise, sudden revelations, plot twists, or shocking discoveries that contradict prior expectations.",
+      "exclusion_note": "Do not score simple jump scares or physical surprises that do not require cognitive re-evaluation of the narrative."
+    },
+    {
+      "dimension_id": "formal_rule_and_protocol_compliance",
+      "definition": "The extent to which characters must navigate, comply with, or enforce explicit, formal rules, laws, regulations, or operational protocols.",
+      "domain": "rule_and_normative_constraint_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A courtroom trial with strict legal procedures and objections",
+        "A military or tactical operation governed by strict protocols and chain of command",
+        "Characters playing a game or sport with explicit, rigid rules",
+        "A character navigating a highly bureaucratic system or security checkpoint"
+      ],
+      "graded_anchors": {
+        "0": "No formal rules, protocols, or laws are present or relevant; actions are completely informal.",
+        "1": "A character follows a simple, everyday rule.",
+        "2": "A character acknowledges a basic rule or protocol in passing.",
+        "3": "A character must comply with a minor administrative or social protocol.",
+        "4": "A scene involves a clear set of formal rules, such as a standard business meeting or basic security check.",
+        "5": "Characters must operate within a moderately complex legal, military, or procedural framework, paying attention to protocols.",
+        "6": "A character's actions are heavily constrained by formal rules, requiring them to carefully find loopholes or strictly adhere to protocol.",
+        "7": "A high-stakes situation where every step must follow precise, rigid protocols to avoid disaster.",
+        "8": "A tense courtroom battle or diplomatic negotiation where characters weaponize formal rules, laws, and procedures against each other.",
+        "9": "A highly complex, multi-layered procedural operation where characters must execute a series of extremely precise, rule-governed steps under intense pressure.",
+        "10": "An extraordinary, high-stakes scenario entirely defined by an intricate, rigid system of formal rules and protocols, where the slightest procedural error results in immediate failure or death."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Sarah waits for the pedestrian walk signal before crossing the street.",
+          "score": 1
+        },
+        {
+          "scene": "In the courtroom, the defense attorney carefully phrases her question to avoid a 'hearsay' objection from the prosecutor, while the judge strictly monitors the legal boundaries of the cross-examination.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Look for explicit mentions of laws, regulations, protocols, checklists, game rules, or bureaucratic procedures.",
+      "exclusion_note": "Do not score implicit social norms or moral choices unless they are codified into formal, explicit rules or laws."
+    },
+    {
+      "dimension_id": "social_norm_and_tactical_boundary_negotiation",
+      "definition": "The characters' conscious navigation, negotiation, or manipulation of implicit social norms, etiquette, hierarchy, or high-stakes social expectations.",
+      "domain": "rule_and_normative_constraint_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character navigating a tense, high-society dinner party with strict unwritten rules",
+        "A character trying to fit into a subculture or group with unique social codes",
+        "A delicate diplomatic or political interaction requiring extreme tact",
+        "A character deliberately manipulating social expectations to achieve a goal"
+      ],
+      "graded_anchors": {
+        "0": "No social norms or expectations are highlighted; characters act without social constraints.",
+        "1": "A character displays basic, routine politeness.",
+        "2": "A character navigates a standard, low-stakes social interaction.",
+        "3": "A character must adapt to a slightly unfamiliar social setting or minor etiquette rule.",
+        "4": "A scene highlights a clear social expectation or hierarchy that characters must respect.",
+        "5": "A character must carefully navigate a moderately tense social situation, balancing politeness with their own agenda.",
+        "6": "A high-stakes social event where characters must strictly adhere to complex, unwritten social codes.",
+        "7": "A character deliberately pushes the boundaries of social norms or uses etiquette as a weapon to assert dominance or extract information.",
+        "8": "A highly delicate, tense social negotiation where a single social misstep or breach of etiquette could ruin a character's reputation or alliance.",
+        "9": "An incredibly tense, subtext-heavy social interaction where characters exchange polite pleasantries while actively engaging in a ruthless, covert psychological battle.",
+        "10": "A masterclass in social tension, where the entire scene hinges on the microscopic navigation of implicit social norms, hierarchies, and unwritten rules, with massive consequences for any deviation."
+      },
+      "calibration_examples": [
+        {
+          "scene": "James greets his boss with a firm handshake and asks about his weekend.",
+          "score": 2
+        },
+        {
+          "scene": "At a high-society gala, Clara must converse with the rival CEO. She maintains a polite, smiling facade, carefully choosing her words to avoid revealing her company's financial weakness, while decoding the CEO's subtle, passive-aggressive insults.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Driven by scenes rich in subtext, social tension, etiquette, class dynamics, or implicit codes of conduct.",
+      "exclusion_note": "Do not score physical conflicts or explicit, formal rules."
+    },
+    {
+      "dimension_id": "normative_violation_and_risk_assessment",
+      "definition": "The viewer's cognitive evaluation of the risks, consequences, and moral/social permissibility of a character deliberately violating established rules, laws, or social norms.",
+      "domain": "rule_and_normative_constraint_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character deciding whether to break a law or cheat to achieve their goal",
+        "A scene depicting a character actively committing a crime or violating a taboo",
+        "Characters debating the ethics or risks of breaking a rule",
+        "The immediate fallout or tension of a character being caught violating a norm"
+      ],
+      "graded_anchors": {
+        "0": "No rules or norms are violated; characters act completely within acceptable boundaries.",
+        "1": "A character commits a minor, socially acceptable infraction.",
+        "2": "A character breaks a minor rule with negligible consequences.",
+        "3": "A character commits a moderate infraction, raising mild concern or risk of getting caught.",
+        "4": "A character deliberately violates a clear rule or norm, with moderate risks involved.",
+        "5": "A character faces a significant moral or legal dilemma, weighing the necessity of breaking a rule against the potential consequences.",
+        "6": "A major rule or law is violated, creating high tension as the character tries to avoid detection or consequences.",
+        "7": "A character commits a high-stakes violation, with the narrative emphasizing the extreme risks and ethical gravity.",
+        "8": "A tense sequence where a character is actively violating a critical rule or law, and the viewer is highly engaged in assessing the immediate risk of them being caught.",
+        "9": "A profound ethical and strategic crisis where a character must commit a massive, taboo violation to save others, forcing a deep evaluation of the moral trade-offs.",
+        "10": "An incredibly high-stakes, suspenseful scene centered entirely on a massive, dangerous violation of a fundamental law or moral boundary, where the viewer is in extreme suspense evaluating the catastrophic risks and consequences."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Leo takes an extra pen from the office supply closet.",
+          "score": 1
+        },
+        {
+          "scene": "To save his kidnapped daughter, a police detective decides to torture a suspect in an interrogation room, knowing it is illegal, highly unethical, and will ruin his career if discovered, while his partner stands guard at the door.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for scenes of rule-breaking, crime, ethical dilemmas, cheating, or transgression of social taboos.",
+      "exclusion_note": "Do not score simple accidental mistakes; the violation must be deliberate or highly negligent."
+    },
+    {
+      "dimension_id": "temporal_thread_integration",
+      "definition": "The viewer's active cognitive maintenance and integration of temporally distant narrative threads, past backstories, or flashbacks to comprehend the current scene.",
+      "domain": "narrative_working_memory_and_causal_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A scene that directly references or resolves a mystery established much earlier",
+        "A flashback that provides crucial context for a character's current behavior",
+        "A character recalling a past promise, betrayal, or event from a previous storyline",
+        "Non-linear storytelling that requires linking two different time periods"
+      ],
+      "graded_anchors": {
+        "0": "The scene is completely self-contained and linear, requiring no knowledge of past events.",
+        "1": "A character briefly mentions a past event of minor importance.",
+        "2": "A character makes a simple callback to a detail from a previous scene.",
+        "3": "The scene requires remembering a basic piece of backstory to understand a character's motivation.",
+        "4": "A significant callback to an earlier plot point is made, enriching the current interaction.",
+        "5": "The scene directly connects two separate narrative threads or timelines, requiring active integration.",
+        "6": "A flashback or memory is shown, which the viewer must actively integrate to understand a sudden shift in the plot.",
+        "7": "The current scene's meaning is entirely dependent on remembering a complex, specific detail or conversation from much earlier in the movie.",
+        "8": "A major revelation resolves a long-standing, complex narrative thread established in the beginning, requiring deep temporal integration.",
+        "9": "The narrative employs highly complex, non-linear storytelling, constantly jumping between timelines and requiring the viewer to maintain multiple active threads in working memory.",
+        "10": "An extraordinary climax of non-linear or multi-threaded storytelling, where dozens of past clues, backstories, and timelines converge, requiring maximum cognitive effort to integrate and synthesize."
+      },
+      "calibration_examples": [
+        {
+          "scene": "John mentions that he used to live in Chicago ten years ago.",
+          "score": 1
+        },
+        {
+          "scene": "As the protagonist stands before the mysterious door, a series of rapid flashbacks show her childhood home, the key her father gave her on his deathbed, and the symbol she saw in the ancient ruins, revealing how all these distant clues fit together to unlock the door.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for flashbacks, non-linear structures, explicit callbacks, or scenes that resolve long-standing mysteries.",
+      "exclusion_note": "Do not score simple chronological transitions that do not require integrating distant narrative threads."
+    },
+    {
+      "dimension_id": "causal_chain_deduction",
+      "definition": "The viewer's active deduction of the logical, physical, or causal relationships between complex events, mechanisms, or character actions.",
+      "domain": "narrative_working_memory_and_causal_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character explaining a complex cause-and-effect mechanism",
+        "The viewer deducing how an event occurred based on physical evidence",
+        "A complex chain reaction of events that must be tracked logically",
+        "A character solving a logical puzzle or riddle"
+      ],
+      "graded_anchors": {
+        "0": "Events are simple, direct, and require no logical deduction or causal tracking.",
+        "1": "A simple, obvious cause-and-effect relationship is shown.",
+        "2": "A character explains a basic, two-step causal relationship.",
+        "3": "A minor puzzle or mechanical explanation is presented.",
+        "4": "The viewer must track a moderate chain of physical or logical events to understand a scene.",
+        "5": "A character explains or solves a moderately complex logical puzzle or mechanical system.",
+        "6": "The scene depicts a complex chain reaction of events, requiring the viewer to actively track how one event causes the next.",
+        "7": "A highly complex physical or logical mechanism is explained and must be tracked.",
+        "8": "The characters must solve a highly intricate, multi-step logical puzzle or riddle under pressure, with the viewer actively following the deduction.",
+        "9": "An extremely dense sequence involving a complex web of cause-and-effect relationships, where the viewer must deduce the hidden physical or logical links behind a series of mysterious occurrences.",
+        "10": "The absolute peak of logical and causal complexity, where the viewer must track an extraordinarily intricate, multi-layered chain of physical, logical, or mechanical events to comprehend the scene."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The character flips a switch, and the generator hums to life, powering the lights in the cabin.",
+          "score": 1
+        },
+        {
+          "scene": "To bypass the ancient temple trap, the archaeologist explains that stepping on the pressure plate triggers a weight-sensitive pulley, which releases water into a basin, tipping a scale that finally opens the stone door—but only if done in under ten seconds.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Driven by mechanical explanations, logical puzzles, complex chain reactions, or scenes requiring scientific/logical reasoning.",
+      "exclusion_note": "Do not score simple emotional causality which does not require logical or mechanical deduction."
+    },
+    {
+      "dimension_id": "multi_character_relationship_tracking",
+      "definition": "The viewer's active maintenance and updating of the complex web of alliances, rivalries, secrets, and histories between multiple characters.",
+      "domain": "narrative_working_memory_and_causal_integration",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A scene involving a large group of characters with conflicting alliances and rivalries",
+        "A character navigating a complex web of secrets and lies among friends or family",
+        "A sudden shift in alliances or a betrayal within a group",
+        "A scene highlighting the intricate, multi-layered history between several characters"
+      ],
+      "graded_anchors": {
+        "0": "Only one or two characters are present, with simple, transparent relationships.",
+        "1": "A character interacts with a stranger in a simple, transactional way.",
+        "2": "A basic relationship is depicted with no hidden dynamics.",
+        "3": "A minor conflict or secret between two characters is introduced.",
+        "4": "The scene involves three or four characters, with clear, established relationships and minor tensions.",
+        "5": "A complex dynamic between a small group of characters is highlighted, involving secrets or past conflicts.",
+        "6": "A major shift in relationships occurs, such as a betrayal or a surprise alliance, requiring the viewer to update their social map.",
+        "7": "A tense group scene where multiple characters have conflicting agendas, secrets, and alliances that must be tracked.",
+        "8": "An intricate web of political or social alliances is depicted, where characters must constantly calculate who is allied with whom and who knows what secret.",
+        "9": "A highly complex, multi-character confrontation where every line of dialogue is loaded with subtext, past history, secret alliances, and conflicting loyalties across a large cast.",
+        "10": "The absolute peak of social and relational complexity, where the viewer must maintain and update an extraordinarily dense, intricate web of alliances, rivalries, secrets, and histories among a large ensemble cast to comprehend the scene."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A husband and wife sit quietly at the kitchen table, eating breakfast and reading the newspaper.",
+          "score": 1
+        },
+        {
+          "scene": "At the family reunion, the patriarch announces his new will. Instantly, the room erupts as his three children, each harboring secret debts, past betrayals, and covert alliances with different spouses and cousins, begin arguing and accusing each other of manipulation.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for ensemble scenes, political maneuvering, family dramas, or complex social dynamics involving multiple characters with conflicting interests.",
+      "exclusion_note": "Do not score simple one-on-one interactions unless they are heavily loaded with broader, multi-character relational consequences."
+    }
+  ],
+  "metadata": {
+    "domain_pool": {
+      "source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/DLPFC/domain_pool_auto_confirmed.json",
+      "content_sha256": "e75ee19c150a14fc299bf30482580ab29d05574c4639d5fd82c6a71e92786157",
+      "version": "domain_pool_v2",
+      "target_region": "DLPFC",
+      "curation_status": "confirmed",
+      "proposal_runs": 5,
+      "curated_domain_ids": [
+        "strategic_goal_and_plan_tracking",
+        "cognitive_conflict_and_hypothesis_testing",
+        "rule_and_normative_constraint_integration",
+        "narrative_working_memory_and_causal_integration"
+      ]
+    },
+    "source_provider": "gemini",
+    "source_model": "gemini-3.5-flash",
+    "fixed_roi_definition": {
+      "roi_id": "DLPFC",
+      "display_name": "dorsolateral prefrontal cortex",
+      "theoretical_role": "Working memory, cognitive control, and goal-directed behavior during naturalistic movie viewing.",
+      "selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            3,
+            4,
+            5,
+            6,
+            15,
+            16,
+            19,
+            20,
+            21,
+            22
+          ]
+        }
+      ]
+    },
+    "bn246_allparcels_override": {
+      "source_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/DLPFC/region_schema.json",
+      "source_selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            3,
+            4,
+            5,
+            6,
+            15,
+            16,
+            19,
+            20,
+            21,
+            22
+          ]
+        }
+      ],
+      "label_ids": "1..246",
+      "purpose": "Use existing 14-ROI features to evaluate all Brainnetome 246 target parcels without modifying production ROI schemas."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:42",
+    "batch_summary": "Joey recaps the group's beach trip drama: Phoebe met her birth mother, Chandler is fixated on Monica, and Rachel convinced Ross's girlfriend Bonnie to shave her head. After Ross and Rachel kissed, Ross is caught in a love triangle. In the beach house, Ross finds Rachel helping a sunburned Bonnie. Once Bonnie leaves, Ross and Rachel share a passionate kiss. Ross decides he must break up with Bonnie immediately, surprising Rachel with his urgency.",
+    "cumulative_summary": "During a trip to the beach, Joey recaps the chaotic events surrounding the group of friends. Phoebe has discovered that an older woman, Phoebe Sr., is actually her biological mother. Meanwhile, Chandler is obsessed with a joke Monica made about never dating him. The central drama, however, revolves around Ross, Rachel, and Ross's current girlfriend, Bonnie. After Rachel successfully convinced Bonnie to shave her head, Ross and Rachel shared a kiss, forcing Ross to choose between them. Back inside the beach house, Ross encounters Rachel applying a minty sunburn treatment to Bonnie's newly bald head. After Bonnie retires to her room, Ross and Rachel share another passionate embrace. Overwhelmed by his feelings, Ross decides that he cannot wait and must break up with Bonnie immediately right there at the beach house, leaving Rachel surprised but hopeful about their future."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:42 - 00:03:35",
+    "batch_summary": "Before heading in to break up with Bonnie, Ross awkwardly overshares details about their sex life, annoying Rachel, though they share another passionate kiss. Meanwhile, Phoebe Sr. explains the truth of Phoebe's birth, revealing she was in a throuple with Lily and Frank. After getting pregnant at eighteen, she gave Phoebe up, believing she was leaving her with the best parents. Phoebe bitterly contrasts this with her own tragic eighteenth year, but Phoebe Sr. apologizes and expresses a sincere desire to build a relationship.",
+    "cumulative_summary": "During a trip to the beach, the group of friends faces major relationship shifts. Chandler is obsessed with Monica's joke about never dating him, while Phoebe discovers that Phoebe Sr. is her biological mother. The central drama, however, is the love triangle between Ross, Rachel, and Bonnie. After Rachel convinces Bonnie to shave her head, Ross and Rachel share a kiss, prompting Ross to choose Rachel. Before breaking up with Bonnie, Ross awkwardly overshares details about his sex life, but he and Rachel share another kiss before he goes to end things. Meanwhile, Phoebe Sr. explains the complicated truth of Phoebe's birth, revealing she was in a throuple with Lily and Frank. Terrified at eighteen, she gave Phoebe up, assuming Lily and Frank would raise her well. Phoebe bitterly recounts her own tragic youth—marked by her adoptive mother's suicide and living in a car—to highlight her mother's abandonment. Despite the painful history, Phoebe Sr. apologizes and expresses a genuine desire to finally get to know her daughter."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:35 - 00:05:12",
+    "batch_summary": "Phoebe angrily confronts Phoebe Sr. for neglecting to find her for 29 years and storms out, declaring she never wants to see her again. Back at the beach house, Phoebe reveals the shocking truth about her birth mother to Joey, Chandler, and Monica, bitterly calling her an abandoner before retreating to be alone with Monica's support. Meanwhile, Chandler continues to tease Monica about not being her boyfriend, and Joey shares a bizarre hypothetical thought with Chandler.",
+    "cumulative_summary": "During a trip to the beach, a group of friends faces major relationship shifts. While Chandler obsessively teases Monica about her claim that she would never date him, Ross and Rachel rekindle their romance, leading Ross to break up with Bonnie. Meanwhile, Phoebe discovers that her mother's friend, Phoebe Sr., is actually her biological mother. After learning about the complicated history that led to her birth, Phoebe bitterly confronts Phoebe Sr. for abandoning her for 29 years. Refusing to forgive her, Phoebe storms out and returns to the beach house, where she reveals the shocking truth to the group. Labeling her birth mother an abandoner, Phoebe retreats to process her pain with Monica's support. As Phoebe copes with this heavy family revelation, Chandler and Joey provide lighthearted distraction, keeping the mood at the beach house a mix of emotional drama and comedy."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:12 - 00:06:58",
+    "batch_summary": "Ross returns to the bedroom after officially breaking up with Bonnie. Rachel presents him with a massive, 18-page letter, written front and back, detailing her thoughts on their relationship. She insists he must read and accept its contents before they can get back together. Ross attempts to read the lengthy letter in the kitchen at 5:30 AM but quickly falls asleep on the pages.",
+    "cumulative_summary": "During a trip to the beach, a group of friends faces major relationship shifts. While Chandler obsessively teases Monica, Phoebe copes with the shocking revelation that her mother's friend is actually her biological mother who abandoned her. Meanwhile, Ross officially breaks up with Bonnie to rekindle his romance with Rachel. When Ross returns to the bedroom, Rachel presents him with a massive, 18-page letter, written front and back, detailing her thoughts on their past. She insists he must read and agree to its contents before they can get back together. Despite his initial compliance, the 5:30 AM timing takes its toll, and Ross quickly falls asleep on the kitchen counter while attempting to read the lengthy document, leaving their potential reunion hanging in the balance."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:58 - 00:08:44",
+    "batch_summary": "After waking up, Ross lies to Rachel, claiming he read her 18-page letter twice. When Rachel asks a loaded question, \"Does it?\", a panicked Ross bluffs before blindly agreeing with her. Believing Ross has fully accepted the terms of her letter, a touched Rachel embraces him, and the couple happily reunites, unaware that Ross has no idea what he just agreed to.",
+    "cumulative_summary": "During a trip to the beach, a group of friends faces major relationship shifts. While Chandler obsessively teases Monica, Phoebe copes with the shocking revelation that her mother's friend is actually her biological mother who abandoned her. Meanwhile, Ross officially breaks up with Bonnie to rekindle his romance with Rachel. When Ross returns to the bedroom, Rachel presents him with a massive, 18-page letter, written front and back, detailing her thoughts on their past. She insists he must read and agree to its contents before they can get back together. Despite his initial compliance, the 5:30 AM timing takes its toll, and Ross quickly falls asleep on the kitchen counter while attempting to read the lengthy document, leaving their potential reunion hanging in the balance. Upon waking, Ross panics and lies to Rachel, claiming he read the entire letter twice. When Rachel asks a loaded question about whether \"it does,\" Ross desperately bluffs before blindly agreeing to her terms. Touched by his apparent compliance, Rachel embraces him, and the couple happily reunites, though Ross remains completely unaware of what he has actually agreed to."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:44 - 00:10:22",
+    "batch_summary": "On the beach, Chandler continues to playfully flirt with Monica before she is suddenly stung by a jellyfish. In extreme pain, Monica is horrified when Joey and Chandler suggest the only remedy is for someone to pee on the sting. Back at the beach house, Phoebe prepares to leave and is thrilled to discover that Ross and Rachel have officially reunited, though she humorously notes it is bad news for Bonnie.",
+    "cumulative_summary": "During a trip to the beach, a group of friends faces major relationship shifts. While Phoebe copes with her biological mother's revelation, Ross breaks up with Bonnie to rekindle his romance with Rachel. Unaware of its contents, Ross blindly agrees to Rachel's massive 18-page letter, leading to their happy reunion. Back on the beach, Chandler continues to playfully flirt with Monica. However, the lighthearted mood shifts when Monica is severely stung by a jellyfish. Desperate to ease her intense pain, Joey and Chandler convince a reluctant Monica that the only remedy is to pee on the sting. Back at the beach house, Phoebe is thrilled to find Ross and Rachel happily back together, though she notes it is unfortunate news for Bonnie."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 264,
+    "timestamp_range": "00:10:22 - 00:11:36",
+    "batch_summary": "Monica, Joey, and Chandler return from the beach traumatized and evasive about the jellyfish incident, quickly dispersing to take showers. Meanwhile, Rachel happily kisses Ross, assuming he agrees with her letter. However, once alone, Ross finally reads the 18-page letter and is horrified to discover that Rachel expects him to take full responsibility for their past breakup. Back in the city at Central Perk, a frustrated Ross vents to Joey and Chandler about Rachel's demands.",
+    "cumulative_summary": "During a trip to the beach, a group of friends faces major relationship shifts. While Phoebe copes with her biological mother's revelation, Ross breaks up with Bonnie to rekindle his romance with Rachel. Unaware of its contents, Ross blindly agrees to Rachel's massive 18-page letter, leading to their happy reunion. Meanwhile, Monica is severely stung by a jellyfish, and Joey and Chandler convince her that the only remedy is to pee on the sting. Upon returning to the beach house, Monica, Joey, and Chandler are visibly traumatized and evasive about what happened, quickly retreating to take showers. Rachel, believing Ross is fully on board with her letter, shares a sweet moment with him before leaving. However, when Ross finally reads the letter, he is shocked to find that Rachel demands he take full responsibility for everything that went wrong in their relationship. Back in the city at Central Perk, an outraged Ross vents to Joey and Chandler about Rachel's unfair expectations, threatening their newly rekindled romance."
+  }
+]

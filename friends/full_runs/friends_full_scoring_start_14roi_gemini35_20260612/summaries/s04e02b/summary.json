@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:31",
+    "batch_summary": "In a coffee shop, Ross convinces Monica, Chandler, Joey, and Rachel that they must tell Phoebe the truth: the cat she believes is her reincarnated mother actually belongs to a little girl. After Ross leaves, Phoebe arrives, overjoyed about her bond with the cat. Unable to break her heart, Joey, Monica, and Rachel awkwardly make excuses and flee, leaving Phoebe alone with the cat.",
+    "cumulative_summary": "At a local coffee shop, Ross, Monica, Chandler, Joey, and Rachel discuss a delicate situation involving their friend Phoebe. Ross insists that they must tell Phoebe the truth about a grey cat she has adopted: the cat actually belongs to a little girl who misses it, despite Phoebe's belief that the cat is her reincarnated mother. Before leaving for dinner with his son, Ross extracts a promise from the group to break the news to her. However, when Phoebe arrives cradling the cat and happily sharing how they napped together, the friends lose their nerve. One by one, Joey, Monica, and Rachel make awkward excuses and flee the seating area, leaving Phoebe completely oblivious and alone with the cat. This opening sequence establishes a humorous conflict between Ross's pragmatism and the group's reluctance to shatter Phoebe's eccentric happiness."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:31 - 00:03:13",
+    "batch_summary": "Monica goes on a date with Chip, an acquaintance from their past, while Rachel awkwardly tries to prove how successful and happy she is despite being single. Though Rachel feels a bit uneasy, she gives Monica her blessing. Meanwhile, Joey attempts to sell his large wooden entertainment unit. To convince a skeptical buyer, Joey foolishly agrees to a bet to prove he can fit inside the unit, setting himself up for a classic blunder.",
+    "cumulative_summary": "After the friends fail to tell Phoebe the truth about her \"reincarnated\" cat, the focus shifts to Monica and Rachel's apartment. Monica prepares for a date with Chip, an old acquaintance. Rachel awkwardly tries to project an image of complete happiness and success to Chip before warmly sending Monica off. Meanwhile, Joey is determined to sell his oversized wooden entertainment unit. While explaining its features to Chandler, Joey recalls a time he was locked inside it. Soon after, a potential buyer skeptically challenges Joey's claim that a grown man can fit inside the unit. Eager to prove himself and close the sale, Joey foolishly agrees to a bet and prepares to climb inside, completely unaware of the buyer's suspicious motives."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:13 - 00:05:00",
+    "batch_summary": "Joey foolishly climbs inside the entertainment unit to prove his point, allowing the \"buyer\" to lock him inside with a hockey stick and rob the apartment. Meanwhile, Monica's date with her high school crush, Chip, starts with a kiss but quickly sours as she realizes he is incredibly immature and still acts like a teenager. Later, Chandler returns home to find their apartment completely cleaned out by the thief, leaving him in utter shock.",
+    "cumulative_summary": "After the friends fail to tell Phoebe the truth about her \"reincarnated\" cat, Monica prepares for a date with her high school crush, Chip, while Rachel awkwardly tries to project an image of success. Meanwhile, Joey attempts to sell his oversized entertainment unit. Eager to prove a grown man can fit inside, Joey foolishly climbs in, allowing a deceitful \"buyer\" to lock him inside with a hockey stick and rob the apartment. On her date, Monica initially enjoys a nostalgic reunion with Chip, but she quickly realizes he has never grown up, still boasting about high school pranks like giving wedgies to now-successful peers. The situation peaks when Chandler returns home to find their apartment completely cleaned out of all its furnishings, with only the locked entertainment unit—and a trapped Joey—remaining."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:00 - 00:06:42",
+    "batch_summary": "Chandler frees Joey from the entertainment unit, and Joey sheepishly admits he climbed inside voluntarily to secure a sale. Meanwhile, Monica's date with Chip goes from bad to worse when she discovers he still lives with his parents, works at the local movie theater, and is completely stuck in his high school glory days. Back at the empty apartment, the friends gather on the floor, where Chandler dryly notes that without their furniture, the oversized unit doesn't look so big anymore.",
+    "cumulative_summary": "After the friends fail to tell Phoebe the truth about her \"reincarnated\" cat, Monica goes on a date with her high school crush, Chip, while Joey tries to sell his oversized entertainment unit. To prove a man can fit inside, Joey climbs in, allowing a fake buyer to lock him inside and rob the apartment. Chandler returns to find the apartment cleaned out and frees Joey, who admits his foolish mistake. Meanwhile, Monica's date with Chip goes downhill when she discovers he still lives with his parents, works at the local movie theater, and is completely stuck in his high school glory days. Disillusioned, Monica realizes he has never grown up. Back at the apartment, the friends gather on the floor of the empty living room, where Chandler dryly jokes that without their furniture, the entertainment unit finally looks small."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:42 - 00:08:16",
+    "batch_summary": "In the empty apartment, Chandler and Joey deal with the aftermath of the robbery, while Monica finds closure by happily telling Rachel she dumped her high school crush, Chip. When Ross arrives and realizes the group still hasn't told Phoebe the truth about the cat, he takes matters into his own hands. Ross gently breaks the news to Phoebe that the cat belongs to a little girl, presenting her with a lost pet flyer, leaving Phoebe to reluctantly face reality.",
+    "cumulative_summary": "After the friends initially fail to tell Phoebe the truth about her \"reincarnated\" cat, Monica goes on a date with her high school crush, Chip, while Joey accidentally gets locked in his entertainment unit, allowing a thief to rob the apartment. Monica's date goes downhill when she realizes Chip is still stuck in his high school glory days. However, she finds closure by happily dumping him. Back at the empty apartment, Chandler and Joey deal with the aftermath of the robbery, learning they have no insurance. When Ross arrives and discovers the group still hasn't told Phoebe about the cat, he takes charge. Ross gently breaks the news to Phoebe that the cat actually belongs to a little girl and shows her a lost pet flyer. Though saddened, Phoebe is forced to face the truth and prepare to return the cat to its rightful owner."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:16 - 00:09:58",
+    "batch_summary": "Phoebe passionately defends her belief that the cat is her reincarnated mother, confronting Ross about his lack of experience with parental loss and asking him to simply be a supportive friend. Realizing the emotional weight of her grief, Ross backs down and apologizes. To comfort Phoebe, he swallows his pride and directly apologizes to the cat, addressing it as \"Mrs. Buffet\" while the rest of the friends watch supportively.",
+    "cumulative_summary": "After the friends initially fail to tell Phoebe the truth about her \"reincarnated\" cat, Monica goes on a date with her high school crush, Chip, while Joey accidentally gets locked in his entertainment unit, allowing a thief to rob the apartment. Monica finds closure by dumping Chip, while Chandler and Joey deal with the uninsured robbery. When Ross arrives, he tries to make Phoebe face reality by showing her a lost pet flyer for the cat. However, Phoebe passionately defends her belief that the cat is her reincarnated mother, confronting Ross about his lack of experience with parental loss and asking him to simply be a supportive friend. Realizing the emotional weight of her grief, Ross backs down. To comfort Phoebe, he swallows his pride and directly apologizes to the cat, addressing it as \"Mrs. Buffet\" while the rest of the friends watch supportively."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 270,
+    "timestamp_range": "00:09:58 - 00:11:52",
+    "batch_summary": "Ross finishes his apology to the cat, acknowledging it as Phoebe's reincarnated mother. Phoebe forgives him and decides to return the cat to its rightful owner, accompanied by Rachel and Monica. Meanwhile, Chandler and Joey are left in their completely empty apartment. To cope with the lack of furniture, they sit together in a wooden canoe in the middle of their living room, finding a strange sense of peace in their bare home.",
+    "cumulative_summary": "After the friends initially fail to tell Phoebe the truth about her \"reincarnated\" cat, Monica goes on a date with her high school crush, Chip, while Joey accidentally gets locked in his entertainment unit, allowing a thief to rob the apartment. Monica finds closure by dumping Chip, while Chandler and Joey deal with the uninsured robbery. When Ross tries to make Phoebe face reality with a lost pet flyer, she passionately defends her belief. Realizing her grief, Ross backs down and apologizes to the cat, acknowledging it as her mother's spirit. Forgiving him, Phoebe decides to return the cat to its young owner, supported by Rachel and Monica. Left in their completely empty apartment, Joey and Chandler cope with the robbery in a bizarrely peaceful way—by sitting together in silence inside a wooden canoe in the middle of their bare living room."
+  }
+]

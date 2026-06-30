@@ -1,0 +1,1129 @@
+{
+  "version": "region_schema_v1",
+  "target_region": "FFA",
+  "functional_hypothesis": "The Fusiform Face Area (FFA) is a key region in the ventral visual stream specialized for face perception, including face detection, structural processing, and individual identity recognition. It also participates in subordinate-level categorization of non-face objects where visual expertise is required. By annotating dense movie descriptions for face presence, character identity tracking, facial expressions, social animacy, and subordinate visual expertise, we can model the dynamic activation of FFA in response to complex visual and narrative stimuli in movies.",
+  "scoring_instruction": "Score each dimension on a scale from 0 to 10 based on the evidence provided in the dense movie description. A score of 0 indicates complete absence of the feature or that it cannot be inferred. A score of 10 indicates the feature is extremely prominent, central to the scene, and highly detailed. Use the graded anchors and calibration examples to guide your scoring. Ensure that you only score based on explicit text evidence and reasonable inferences from the narrative context.",
+  "selection_rules": [
+    {
+      "networks": [],
+      "sub_regions": [],
+      "hemispheres": [],
+      "label_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": "face_presence_and_salience",
+      "definition": "The viewer's visual tracking and perceptual awareness of the physical presence, prominence, proximity, and structural details of human faces and heads on screen.",
+      "region_relevance": "The Fusiform Face Area (FFA) is the primary cortical region specialized for face detection and structural processing of human faces, showing increased activation when faces are prominent, clear, and central to the visual field.",
+      "scoreability_note": "Scoreable from text descriptions detailing camera framing (e.g., close-ups, medium shots), direct visual focus on a character's face, or the density of faces in the scene.",
+      "source_domain_ids": [
+        "run_1_face_salience_and_tracking",
+        "run_2_facial_presence_and_detail",
+        "run_4_social_presence_detection",
+        "run_5_social_agent_detection"
+      ],
+      "source_runs": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "proposal_frequency": 4,
+      "consolidation_rationale": "Consolidates multiple runs focusing on the basic visual detection, presence, and physical prominence of faces on screen into a single, robust visual-perceptual domain."
+    },
+    {
+      "domain_id": "character_identity_tracking",
+      "definition": "The viewer's cognitive tracking and recognition of individual character identities, distinguishing between familiar faces, identifying newly introduced characters, or maintaining identity constancy across scenes.",
+      "region_relevance": "The FFA plays a critical role in exemplar-level face categorization, individual face recognition, and mapping visual facial features to specific known individuals.",
+      "scoreability_note": "Scoreable by analyzing the introduction of new characters, the re-entry of established characters, or narrative moments requiring the viewer to recognize or distinguish who is on screen.",
+      "source_domain_ids": [
+        "run_1_character_identity_recognition",
+        "run_2_character_identity_tracking",
+        "run_4_face_identity_tracking",
+        "run_5_character_identity_tracking",
+        "run_3_facial_expression_and_identity_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merges redundant identity-tracking domains across all runs into a single cognitive-perceptual domain focused on individual face recognition and character tracking."
+    },
+    {
+      "domain_id": "facial_expression_and_gaze_decoding",
+      "definition": "The viewer's active appraisal and decoding of characters' social signals, emotional states, communicative intents, and focus of attention conveyed through facial expressions, micro-expressions, eye gaze direction, and mutual eye contact.",
+      "region_relevance": "The FFA works in concert with broader temporal and subcortical networks (such as the STS and amygdala) to process dynamic facial movements, gaze direction, and extract social-emotional meaning from facial configurations.",
+      "scoreability_note": "Scoreable from descriptions of characters' facial reactions, silent exchanges of looks, eye contact, or explicit mentions of emotional expressions and non-verbal facial cues.",
+      "source_domain_ids": [
+        "run_1_facial_expression_appraisal",
+        "run_2_social_gaze_and_expression_decoding",
+        "run_4_facial_expression_appraisal",
+        "run_5_facial_expression_appraisal",
+        "run_5_gaze_and_social_directedness",
+        "run_3_facial_expression_and_identity_tracking"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Combines facial expression appraisal and social gaze tracking into a single domain, as both rely on decoding dynamic facial configurations and social signals processed by the FFA and its network."
+    },
+    {
+      "domain_id": "animacy_and_social_presence",
+      "definition": "The viewer's perceptual appraisal and attentional bias toward animate human or human-like agents within the scene, distinguishing them from inanimate objects, landscapes, or abstract visual elements.",
+      "region_relevance": "The ventral temporal cortex exhibits a strong category-selective organization (animate vs. inanimate), with FFA marking a key node in the animacy and social agent processing pathway.",
+      "scoreability_note": "Scoreable by contrasting segments dominated by human action, interaction, or crowds with segments focusing on landscapes, vehicles, objects, or environmental details.",
+      "source_domain_ids": [
+        "run_2_animate_versus_inanimate_focus",
+        "run_3_animacy_and_social_presence_appraisal"
+      ],
+      "source_runs": [
+        2,
+        3
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Merges animacy and social presence detection into a single domain representing the broad category-selective distinction between animate agents and inanimate environments."
+    },
+    {
+      "domain_id": "subordinate_visual_expertise",
+      "definition": "The viewer's detailed visual inspection and fine-grained, subordinate-level categorization of specific, highly familiar or narratively critical non-face object classes or symbols requiring expert visual discrimination.",
+      "region_relevance": "FFA is implicated in visual expertise and the fine-grained, subordinate-level categorization of non-face objects (such as cars, birds, or written text) when the viewer engages in detailed visual analysis.",
+      "scoreability_note": "Scoreable from text descriptions that depict close-up shots of complex objects, reading written words, or identifying highly detailed visual artifacts requiring precise discrimination.",
+      "source_domain_ids": [
+        "run_3_subordinate_visual_expertise_analysis",
+        "run_4_fine_grained_visual_expertise"
+      ],
+      "source_runs": [
+        3,
+        4
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Consolidates the non-face visual expertise domains from runs 3 and 4 into a single domain representing FFA's recruitment during fine-grained subordinate categorization."
+    }
+  ],
+  "active_domain_ids": [
+    "face_presence_and_salience",
+    "character_identity_tracking",
+    "facial_expression_and_gaze_decoding",
+    "animacy_and_social_presence",
+    "subordinate_visual_expertise"
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "face_close_up_prominence",
+      "definition": "The degree to which a single human face is prominently featured in a close-up or extreme close-up shot, making facial features highly salient.",
+      "domain": "face_presence_and_salience",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "extreme close-up of a face",
+        "camera zooms in on eyes/mouth",
+        "face fills the screen",
+        "detailed description of facial features",
+        "tight framing on a character's expression"
+      ],
+      "graded_anchors": {
+        "0": "No faces are present or mentioned in the scene.",
+        "1": "A face is mentioned in the far background, barely visible.",
+        "2": "A character is shown in a wide shot; their face is visible but small.",
+        "3": "A medium-wide shot showing characters; faces are visible but not the focus.",
+        "4": "A medium shot of a character; their face is clearly visible but shares space with their torso.",
+        "5": "A medium close-up focusing on the head and shoulders of a character.",
+        "6": "A close-up shot focusing primarily on the character's face.",
+        "7": "A tight close-up where the face occupies most of the screen, highlighting details like eyes and mouth.",
+        "8": "An extreme close-up focusing on a specific part of the face, such as the eyes or lips.",
+        "9": "An intense, prolonged extreme close-up of a face with highly detailed descriptions of skin texture and micro-movements.",
+        "10": "The screen is entirely filled by a single, highly detailed face in extreme close-up, capturing every minute detail and pore."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The camera pans across a vast, empty desert landscape with no people in sight.",
+          "score": 0
+        },
+        {
+          "scene": "A medium shot of John sitting at his desk, typing on his computer.",
+          "score": 4
+        },
+        {
+          "scene": "The camera zooms in tightly on Sarah's eyes, capturing the subtle twitch of her eyelid as she lies.",
+          "score": 8
+        },
+        {
+          "scene": "An extreme close-up of the protagonist's face fills the entire screen, showing every detail of his sweat-beaded forehead and dilated pupils.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on camera framing descriptions (e.g., close-up, extreme close-up) and the level of detail provided about facial features.",
+      "exclusion_note": "Do not score high if multiple faces are present but none are in close-up, or if the focus is on the character's body or actions rather than their face."
+    },
+    {
+      "dimension_id": "multiple_faces_density",
+      "definition": "The density and number of human faces visible simultaneously on screen, from a single face to crowded scenes.",
+      "domain": "face_presence_and_salience",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "crowded room",
+        "group shot of characters",
+        "audience looking at a stage",
+        "busy street with pedestrians",
+        "multiple faces in the frame"
+      ],
+      "graded_anchors": {
+        "0": "No faces are present in the scene.",
+        "1": "A single face is partially visible or suggested in the background.",
+        "2": "A single face is clearly visible on screen.",
+        "3": "Two faces are visible on screen, such as in a standard dialogue shot.",
+        "4": "Three to four faces are visible in a small group shot.",
+        "5": "A small crowd or gathering of 5 to 10 people with visible faces.",
+        "6": "A medium-sized crowd where dozens of faces are visible but somewhat indistinct.",
+        "7": "A dense crowd where many faces are clearly visible and filling the frame.",
+        "8": "A packed stadium or protest scene with hundreds of faces visible across the screen.",
+        "9": "An extremely dense mosaic of faces filling the entire frame, with dozens of distinct faces clearly identifiable.",
+        "10": "A massive, wall-to-wall crowd of faces filling every inch of the screen, with high density and visibility of individual faces."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A lone astronaut floats in the dark void of space, face hidden behind a reflective visor.",
+          "score": 0
+        },
+        {
+          "scene": "Two lovers stand close together, their faces inches apart as they talk.",
+          "score": 3
+        },
+        {
+          "scene": "The camera pans across a busy subway car, showing dozens of commuters packed tightly together, their faces tired and weary.",
+          "score": 7
+        },
+        {
+          "scene": "A massive crowd of thousands of protesters fills the square, their faces packed tightly together from the foreground to the horizon, filling the entire screen.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on the described number of people or faces present and visible in the scene simultaneously.",
+      "exclusion_note": "Do not score high for scenes with many people if their faces are not visible (e.g., shown from behind, in silhouette, or far distance)."
+    },
+    {
+      "dimension_id": "face_framing_and_visibility",
+      "definition": "The clarity, lighting, and directness of face presentation, contrasting well-lit, frontal views with obscured, shadowed, or profile views.",
+      "domain": "face_presence_and_salience",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "frontal view of face",
+        "well-lit facial features",
+        "face in direct sunlight",
+        "clear unobstructed view",
+        "perfectly focused face"
+      ],
+      "graded_anchors": {
+        "0": "No faces are visible, or faces are completely obscured by masks, darkness, or angles.",
+        "1": "A face is barely visible, heavily shadowed, or shown from a extreme angle (e.g., back of the head).",
+        "2": "A face is shown in deep shadow or silhouette, with only the outline visible.",
+        "3": "A face is shown in profile, partially obscured by hair or objects.",
+        "4": "A face is visible but in low light or slightly out of focus.",
+        "5": "A standard, clear view of a face, but at an angle or under average lighting.",
+        "6": "A clear, well-lit frontal view of a face with no obstructions.",
+        "7": "A highly focused, brightly lit frontal view of a face, emphasizing facial structure.",
+        "8": "A perfectly illuminated face, shot straight-on with high contrast, making every feature stand out.",
+        "9": "An exceptionally clear, studio-lit frontal view of a face, capturing every detail with pristine clarity.",
+        "10": "A pristine, ultra-high-definition frontal view of a face under perfect, dramatic lighting that accentuates every facial contour and feature with absolute clarity."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A figure stands in the dark alley, completely shrouded in shadows with their face hidden under a hood.",
+          "score": 0
+        },
+        {
+          "scene": "She turns her head, showing her profile against the window light.",
+          "score": 3
+        },
+        {
+          "scene": "He steps into the spotlight, his face fully illuminated from the front, clear and in sharp focus.",
+          "score": 7
+        },
+        {
+          "scene": "The protagonist stares directly into the camera under brilliant, high-contrast studio lighting, every detail of his face perfectly sharp and unobstructed.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of lighting (e.g., well-lit, shadowed), camera angle (e.g., frontal, profile), and focus/clarity of the face.",
+      "exclusion_note": "Do not confuse face prominence (size) with visibility/framing (clarity and lighting). A small face can be perfectly lit and frontal."
+    },
+    {
+      "dimension_id": "new_character_introduction",
+      "definition": "The introduction of a new character on screen, requiring the viewer to establish a new facial identity and associate it with a persona.",
+      "domain": "character_identity_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "a new character enters",
+        "introducing a stranger",
+        "first appearance of a character",
+        "revealing a new face",
+        "meeting someone new"
+      ],
+      "graded_anchors": {
+        "0": "No new characters are introduced; only established characters are on screen.",
+        "1": "An unnamed extra or background figure briefly appears without being introduced.",
+        "2": "A minor character with no dialogue is briefly shown for the first time.",
+        "3": "A new minor character is introduced and speaks a few lines.",
+        "4": "A new supporting character is introduced, receiving some visual focus.",
+        "5": "A significant new character is introduced, with the camera focusing on their face as they enter.",
+        "6": "A major character is introduced in a dedicated scene, establishing their visual identity.",
+        "7": "The dramatic first appearance of a key character, with close-ups on their face to establish identity.",
+        "8": "A highly stylized, dramatic introduction of a main character, focusing heavily on their facial features and expressions.",
+        "9": "An elaborate introduction sequence for a central character, designed to make their face instantly memorable and distinct.",
+        "10": "The ultimate, highly anticipated reveal of the main antagonist or protagonist, with slow-motion, extreme close-ups, and intense focus on their face to etch their identity into the viewer's mind."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The two main characters continue their conversation in the living room.",
+          "score": 0
+        },
+        {
+          "scene": "A new waiter walks up to their table, delivers the drinks, and walks away.",
+          "score": 3
+        },
+        {
+          "scene": "The door swings open, and the mysterious stranger we've heard about finally steps in, the camera lingering on his scarred face in a dramatic reveal.",
+          "score": 8
+        },
+        {
+          "scene": "In a highly stylized sequence, the film's main hero is revealed for the first time, with the camera slowly panning up his body to a crystal-clear, dramatic close-up of his face as he looks directly at the viewer.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on whether a character is appearing for the first time and how much narrative and visual emphasis is placed on their introduction.",
+      "exclusion_note": "Do not score high for the re-appearance of already established characters."
+    },
+    {
+      "dimension_id": "recurring_character_recognition",
+      "definition": "The re-entry of an established character after an absence, requiring the viewer to retrieve and match their facial identity.",
+      "domain": "character_identity_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "character returns",
+        "re-entering the scene",
+        "recognizing a familiar face",
+        "reunion of characters",
+        "character steps back into frame"
+      ],
+      "graded_anchors": {
+        "0": "No recurring characters re-enter; the scene features the same characters who were already present.",
+        "1": "A minor, barely remembered character briefly reappears in the background.",
+        "2": "A minor character who appeared once before walks back into the scene.",
+        "3": "A supporting character re-enters the scene after a short absence.",
+        "4": "A main character re-enters the scene after a brief absence (e.g., returning from another room).",
+        "5": "A major character returns after being absent for several scenes, drawing visual focus.",
+        "6": "A key character makes a significant return, with the camera focusing on their face to mark their re-entry.",
+        "7": "A dramatic return of a main character after a long absence, requiring active recognition from the viewer.",
+        "8": "A highly emotional reunion or return of a central character, with close-ups highlighting their familiar face.",
+        "9": "A major plot twist involving the unexpected return of a character thought to be gone, with intense visual focus on their face.",
+        "10": "The climactic return of a beloved character after a long, agonizing absence, framed with epic visual emphasis and prolonged close-ups on their face to trigger maximum recognition and emotional impact."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The scene continues with the same group of friends talking around the campfire.",
+          "score": 0
+        },
+        {
+          "scene": "David walks back into the kitchen carrying a bowl of chips.",
+          "score": 4
+        },
+        {
+          "scene": "Suddenly, the long-lost brother, who disappeared in the first act, steps out of the shadows, his familiar face shocked to see them.",
+          "score": 8
+        },
+        {
+          "scene": "In the film's emotional climax, the protagonist's missing partner, presumed dead for years, slowly walks through the door, the camera holding on a stunning, tearful close-up of her face as the protagonist recognizes her.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on the return of known characters and the narrative/visual weight of their re-entry.",
+      "exclusion_note": "Do not score high for characters who have been continuously on screen without leaving."
+    },
+    {
+      "dimension_id": "character_distinction_and_comparison",
+      "definition": "The cognitive demand of distinguishing between multiple characters on screen, especially when they look similar, are twins, or are being explicitly contrasted.",
+      "domain": "character_identity_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "distinguishing between characters",
+        "identical twins on screen",
+        "mistaken identity",
+        "comparing facial features",
+        "characters looking alike"
+      ],
+      "graded_anchors": {
+        "0": "Only one character is on screen, or characters are completely distinct and easy to tell apart.",
+        "1": "Two highly distinct characters (e.g., different age, gender, ethnicity) are on screen.",
+        "2": "Characters are somewhat distinct but wear similar uniforms or clothing.",
+        "3": "Characters of similar demographics are on screen, requiring minor attention to tell them apart.",
+        "4": "Two characters with similar hairstyles or facial structures are on screen together.",
+        "5": "The narrative explicitly contrasts two characters, drawing attention to their facial differences or similarities.",
+        "6": "A scene involving a mix-up or confusion between two characters who look somewhat alike.",
+        "7": "Two characters who look highly similar (e.g., siblings, lookalikes) are on screen, requiring close inspection.",
+        "8": "Identical twins are on screen together, forcing the viewer to look for subtle facial differences to tell them apart.",
+        "9": "A complex scene of mistaken identity where characters are actively pretending to be one another, with close-ups comparing their faces.",
+        "10": "A highly demanding visual sequence featuring clones, identical twins, or lookalikes interacting closely, where the viewer must constantly analyze minute facial details to track who is who."
+      },
+      "calibration_examples": [
+        {
+          "scene": "An old man and a young girl sit on a park bench, feeding pigeons.",
+          "score": 1
+        },
+        {
+          "scene": "Two police officers in identical uniforms stand guard, but one is tall and bearded while the other is short and clean-shaven.",
+          "score": 3
+        },
+        {
+          "scene": "The identical twin brothers stand face-to-face, arguing, while the camera cuts between their identical facial features.",
+          "score": 8
+        },
+        {
+          "scene": "A surreal scene where a character confronts multiple identical clones of himself, all dressed the same, moving in sync, and speaking, requiring intense visual tracking of subtle facial cues to distinguish the original.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on the presence of visually similar characters or narrative situations involving mistaken identity, twins, or clones.",
+      "exclusion_note": "Do not score high simply because multiple characters are on screen if they are easily distinguishable."
+    },
+    {
+      "dimension_id": "gaze_direction_and_eye_contact",
+      "definition": "The focus on characters' eye movements, gaze direction, mutual eye contact, or looking at specific objects/off-screen elements.",
+      "domain": "facial_expression_and_gaze_decoding",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "locking eyes",
+        "gazing at each other",
+        "shifting eyes",
+        "looking away",
+        "staring intently"
+      ],
+      "graded_anchors": {
+        "0": "No eyes are visible, or characters are not looking at anything of interest.",
+        "1": "A character looks generally in a direction, but eyes are not clearly visible.",
+        "2": "A character's gaze is mentioned, but not emphasized visually.",
+        "3": "A character looks at another character or object, visible in a medium shot.",
+        "4": "Clear eye contact between two characters in a medium-close shot.",
+        "5": "The camera focuses on a character's eyes as they shift their gaze or look at something specific.",
+        "6": "An intense exchange of looks between two characters, with close-ups on their eyes.",
+        "7": "A character stares directly into the camera, establishing intense eye contact with the viewer.",
+        "8": "A dramatic, silent exchange of glances that conveys deep meaning, with tight close-ups on the eyes.",
+        "9": "An extreme close-up of a character's eyes, showing precise gaze shifts, pupil dilation, or intense staring.",
+        "10": "A highly charged, prolonged sequence of mutual eye contact or extreme close-ups of eyes locking, where the entire narrative tension is carried solely by the direction and intensity of the gaze."
+      },
+      "calibration_examples": [
+        {
+          "scene": "He walks down the street, looking down at his phone.",
+          "score": 2
+        },
+        {
+          "scene": "The two rivals stand across from each other, locking eyes in a tense standoff before the duel.",
+          "score": 7
+        },
+        {
+          "scene": "The camera zooms in to an extreme close-up of her eyes as she looks left, then right, her pupils dilating with fear as she hears a noise.",
+          "score": 9
+        },
+        {
+          "scene": "In a silent, high-tension climax, two characters stare directly into each other's eyes in extreme close-up, their gaze locked in an unbroken, emotionally loaded connection that tells the entire story without words.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of eye contact, gaze shifts, staring, and close-ups focusing on the eyes.",
+      "exclusion_note": "Do not score high for general looking or seeing unless the eyes themselves or the act of gazing is visually emphasized."
+    },
+    {
+      "dimension_id": "micro_expression_and_subtle_reaction",
+      "definition": "Subtle, fleeting, or micro-facial expressions that convey hidden emotions, deceit, or internal conflict.",
+      "domain": "facial_expression_and_gaze_decoding",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "subtle twitch of the lip",
+        "fleeting smirk",
+        "raised eyebrow",
+        "suppressed smile",
+        "micro-expression of fear"
+      ],
+      "graded_anchors": {
+        "0": "No facial expressions are described, or faces are completely static.",
+        "1": "A character has a neutral expression with no visible movement.",
+        "2": "A minor, standard facial reaction (e.g., nodding with a slight smile).",
+        "3": "A character shows a clear but simple reaction, like raising an eyebrow.",
+        "4": "A subtle shift in expression is described, such as a slight tightening of the jaw.",
+        "5": "A character tries to hide an emotion, but a subtle micro-expression slips through.",
+        "6": "The camera captures a fleeting smirk or a twitch of the eye that reveals a character's true feelings.",
+        "7": "A detailed description of a character's face reacting to news, showing a complex mix of subtle emotions.",
+        "8": "A tight close-up focusing on a micro-expression, such as a tiny quiver of the lip or a subtle narrowing of the eyes.",
+        "9": "An intense focus on a character's face as they silently process a revelation, with minute, highly detailed micro-expressions conveying deep internal conflict.",
+        "10": "An extraordinary close-up sequence dedicated entirely to decoding a character's complex, fleeting micro-expressions, where every tiny muscle movement on their face tells a story of deception, realization, or hidden agony."
+      },
+      "calibration_examples": [
+        {
+          "scene": "She sits quietly, her face completely blank and expressionless.",
+          "score": 1
+        },
+        {
+          "scene": "When asked about the money, a fleeting twitch at the corner of his mouth betrays his lie before he quickly recovers his composure.",
+          "score": 6
+        },
+        {
+          "scene": "The camera lingers on her face in extreme close-up; we see the exact moment her eyes soften and her jaw relaxes, signaling her silent forgiveness.",
+          "score": 8
+        },
+        {
+          "scene": "In a masterclass of silent acting, the camera holds on his face as he receives the tragic news; his expression doesn't break, but the minute trembling of his chin and the subtle glaze over his eyes convey a devastating depth of grief.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of subtle, fleeting, or hidden facial movements and reactions.",
+      "exclusion_note": "Do not score high for overt, dramatic, or exaggerated facial expressions (e.g., screaming, crying loudly), which belong to intense emotional expressions."
+    },
+    {
+      "dimension_id": "intense_emotional_expression",
+      "definition": "Overt, highly visible, and intense facial expressions of strong emotions, such as rage, terror, extreme joy, or deep grief.",
+      "domain": "facial_expression_and_gaze_decoding",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "screaming in terror",
+        "crying hysterically",
+        "laughing uncontrollably",
+        "face contorted in rage",
+        "beaming with joy"
+      ],
+      "graded_anchors": {
+        "0": "No emotional expressions are visible or described.",
+        "1": "A character shows a very mild emotion, like a faint smile.",
+        "2": "A character looks slightly sad or mildly annoyed.",
+        "3": "A clear expression of emotion, such as a frown or a happy grin.",
+        "4": "An obvious emotional expression, like crying softly or laughing at a joke.",
+        "5": "A strong emotional expression, with the face clearly showing anger, fear, or joy.",
+        "6": "A highly expressive face contorted in anger or weeping openly.",
+        "7": "An intense emotional outburst, with close-ups of a face screaming, sobbing, or laughing hysterically.",
+        "8": "A powerful, dramatic close-up of a face completely consumed by emotion, with tears streaming or veins bulging.",
+        "9": "An extreme, raw display of emotion where the character's face is violently contorted in agony, terror, or manic rage.",
+        "10": "A climactic, unforgettable close-up of a face expressing the absolute peak of human emotion—whether a blood-curdling scream of pure terror, a face shattered by devastating grief, or a manic, wide-eyed laugh of insanity—dominating the entire screen."
+      },
+      "calibration_examples": [
+        {
+          "scene": "He nods politely and says thank you, his face calm.",
+          "score": 1
+        },
+        {
+          "scene": "She bursts into tears, burying her face in her hands as she weeps.",
+          "score": 5
+        },
+        {
+          "scene": "The camera zooms in on his face, contorted in absolute fury, his eyes wide and teeth bared as he screams at the top of his lungs.",
+          "score": 8
+        },
+        {
+          "scene": "In a moment of pure horror, her face contorts into an iconic, blood-curdling scream of absolute terror, her eyes bulging and mouth agape in a tight, brightly lit close-up that fills the screen.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on descriptions of overt, intense, and dramatic facial expressions of emotion.",
+      "exclusion_note": "Do not score high for subtle or suppressed emotions; those should be scored under micro-expressions."
+    },
+    {
+      "dimension_id": "human_agent_action",
+      "definition": "The presence and visual focus on human or human-like agents performing physical actions, emphasizing biological motion and animacy.",
+      "domain": "animacy_and_social_presence",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "running",
+        "gesturing",
+        "dancing",
+        "fighting",
+        "moving physically"
+      ],
+      "graded_anchors": {
+        "0": "No human or animate agents are present; only static landscapes or objects.",
+        "1": "A human agent is visible but completely static or asleep.",
+        "2": "A human agent performs a very minor, slow movement (e.g., lifting a finger).",
+        "3": "A character walks slowly or performs simple, low-energy actions.",
+        "4": "A character engages in standard physical activity, like cooking or writing.",
+        "5": "Active physical movement, such as jogging, gesturing while speaking, or cleaning.",
+        "6": "Highly dynamic movement, like dancing, running, or climbing.",
+        "7": "Intense physical action, such as a chase scene, athletic performance, or martial arts.",
+        "8": "A fast-paced, highly kinetic action sequence with multiple agents moving dynamically.",
+        "9": "An incredibly complex, choreographed physical sequence (e.g., an intense fight or dance) focusing heavily on biological motion.",
+        "10": "A hyper-dynamic, explosive sequence of human movement—such as a high-speed parkour chase or a frantic, close-quarters fight—where the screen is filled with intense, continuous biological motion."
+      },
+      "calibration_examples": [
+        {
+          "scene": "The camera shows a still life of a bowl of fruit on a wooden table.",
+          "score": 0
+        },
+        {
+          "scene": "She sits on the couch, slowly turning the page of her book.",
+          "score": 3
+        },
+        {
+          "scene": "He sprints through the crowded market, leaping over stalls and dodging pedestrians in a desperate escape.",
+          "score": 7
+        },
+        {
+          "scene": "Two martial artists engage in a breathtakingly fast, acrobatic sword duel, their bodies spinning, leaping, and striking in a continuous blur of highly coordinated biological motion.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on the intensity, speed, and complexity of physical actions performed by human or human-like agents.",
+      "exclusion_note": "Do not score high for mechanical motion (e.g., cars driving, machines operating) unless human agents are the primary visual focus of the action."
+    },
+    {
+      "dimension_id": "social_interaction_engagement",
+      "definition": "The level of active social engagement, communication, and interaction between two or more human agents.",
+      "domain": "animacy_and_social_presence",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "conversing",
+        "hugging",
+        "arguing",
+        "whispering",
+        "interacting socially"
+      ],
+      "graded_anchors": {
+        "0": "No social interaction; a single character is alone or no humans are present.",
+        "1": "Two characters are present but completely ignore each other.",
+        "2": "A brief, non-verbal acknowledgment between characters (e.g., a nod).",
+        "3": "A simple, brief exchange of words or a casual greeting.",
+        "4": "A standard conversation between characters, discussing a neutral topic.",
+        "5": "An active, engaging conversation with clear social dynamics and turn-taking.",
+        "6": "A highly interactive scene, such as a lively dinner party conversation or a collaborative task.",
+        "7": "An emotionally charged interaction, like an intense argument, a passionate confession, or a warm embrace.",
+        "8": "A deeply intimate or highly dramatic social exchange, with characters closely interacting physically and verbally.",
+        "9": "A complex, multi-layered social interaction involving multiple characters arguing, negotiating, or celebrating together.",
+        "10": "An incredibly intense, high-stakes social confrontation or deeply emotional climax involving multiple characters interacting with maximum verbal and physical engagement, dominating the scene."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A man sits alone in a dark room, staring at a blank wall.",
+          "score": 0
+        },
+        {
+          "scene": "They exchange a quick 'hello' in the hallway as they pass each other.",
+          "score": 3
+        },
+        {
+          "scene": "The family sits around the dinner table, talking, laughing, passing dishes, and interrupting each other in a warm, chaotic gathering.",
+          "score": 7
+        },
+        {
+          "scene": "A heated, screaming confrontation erupts between the three main characters, with accusations flying, tears shed, and physical shoving as their relationships shatter on screen.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on the depth, intensity, and complexity of verbal and non-verbal social interactions between characters.",
+      "exclusion_note": "Do not score high for scenes where characters are physically close but not interacting (e.g., strangers standing on a crowded bus ignoring each other)."
+    },
+    {
+      "dimension_id": "animate_vs_inanimate_contrast",
+      "definition": "The visual contrast and dominance of animate human agents over inanimate objects, landscapes, or static backgrounds.",
+      "domain": "animacy_and_social_presence",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "human dominating the frame",
+        "animate agent in focus",
+        "static background blurred",
+        "human presence overriding objects",
+        "focus on living beings"
+      ],
+      "graded_anchors": {
+        "0": "Only inanimate objects, landscapes, or buildings are visible; zero human or animate presence.",
+        "1": "A vast landscape with a tiny, barely visible human figure in the far distance.",
+        "2": "A wide shot of a room filled with objects, with a character sitting quietly in a corner.",
+        "3": "A medium shot where objects or scenery occupy equal visual weight with a character.",
+        "4": "A character is the main focus, but the background contains prominent, detailed objects or scenery.",
+        "5": "A character dominates the foreground, with the inanimate background slightly out of focus.",
+        "6": "The camera focuses closely on a character, making inanimate elements secondary and blurred.",
+        "7": "A tight shot of a character where almost no background is visible, emphasizing pure animacy.",
+        "8": "Multiple characters fill the frame, completely obscuring the background and any inanimate objects.",
+        "9": "An intense focus on living, moving agents with the background completely blacked out or heavily blurred, leaving only animacy.",
+        "10": "The frame is entirely filled by living, breathing, moving human agents, with absolutely no inanimate elements, objects, or backgrounds visible, representing pure, concentrated animacy."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A slow, sweeping shot of a futuristic city skyline at night, with no people visible.",
+          "score": 0
+        },
+        {
+          "scene": "A wide shot of a cozy library; a man sits reading at a table, surrounded by towering bookshelves filled with thousands of books.",
+          "score": 3
+        },
+        {
+          "scene": "A close-up of a dancer's face and shoulders as she moves, the background a soft, indistinguishable blur.",
+          "score": 7
+        },
+        {
+          "scene": "A tight, packed group hug of several characters fills every single pixel of the screen, their moving bodies, faces, and hands completely blocking out any background or objects.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on how much of the visual frame is occupied by animate agents versus inanimate objects or scenery.",
+      "exclusion_note": "Do not score high if the scene focuses on detailed objects, even if a human is holding them."
+    },
+    {
+      "dimension_id": "fine_grained_object_discrimination",
+      "definition": "Detailed visual inspection of specific non-face objects requiring subordinate-level categorization or expert discrimination (e.g., identifying a specific car model, antique, or tool).",
+      "domain": "subordinate_visual_expertise",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "examining a rare coin",
+        "inspecting a vintage car",
+        "identifying a specific tool",
+        "analyzing an antique",
+        "close-up of a complex mechanism"
+      ],
+      "graded_anchors": {
+        "0": "No specific objects are inspected or highlighted; focus is entirely on faces or landscapes.",
+        "1": "A common object (e.g., a cup) is visible but receives no special attention.",
+        "2": "A character holds an object, but it is not shown in detail.",
+        "3": "An object is shown in a medium shot, identifiable by its general category (e.g., a car).",
+        "4": "The camera shows a close-up of an object, revealing some of its features.",
+        "5": "A character actively inspects an object, pointing out a specific feature.",
+        "6": "A detailed close-up of an object, allowing the viewer to distinguish its specific type or model.",
+        "7": "An expert character analyzes a complex object, explaining its unique, fine-grained details.",
+        "8": "A high-contrast, detailed close-up of a rare or highly specific object, highlighting its intricate markings or craftsmanship.",
+        "9": "An extreme close-up of a highly complex, specialized object (e.g., the inner workings of a watch) requiring expert visual discrimination to understand.",
+        "10": "A prolonged, highly detailed visual analysis of a specific, intricate object in extreme close-up, where the viewer must engage in fine-grained, subordinate-level categorization to appreciate its unique, expert-level details."
+      },
+      "calibration_examples": [
+        {
+          "scene": "He walks past a row of generic houses.",
+          "score": 0
+        },
+        {
+          "scene": "She picks up a pen from the desk and starts writing.",
+          "score": 2
+        },
+        {
+          "scene": "The detective holds up a rare, vintage gold pocket watch, using a magnifying glass to inspect the tiny, engraved serial number and the unique maker's mark on the casing.",
+          "score": 8
+        },
+        {
+          "scene": "An extreme close-up of a rare, highly specialized surgical instrument, showing the intricate, microscopic grooves on its tip and the specific model branding, requiring expert medical knowledge to identify.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on the level of detail, close-up framing, and expert-level discrimination applied to non-face objects.",
+      "exclusion_note": "Do not score high for general object presence; the object must be inspected at a subordinate, detailed level."
+    },
+    {
+      "dimension_id": "text_reading_and_symbol_decoding",
+      "definition": "Detailed visual analysis of written words, symbols, logos, or codes on screen, requiring the viewer to read and decode visual text.",
+      "domain": "subordinate_visual_expertise",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "reading a letter",
+        "decoding a secret message",
+        "close-up of a book page",
+        "scanning a computer screen",
+        "interpreting a symbol"
+      ],
+      "graded_anchors": {
+        "0": "No text, symbols, or written words are visible or mentioned.",
+        "1": "A book or sign is visible in the background, but the text is unreadable.",
+        "2": "A character is seen reading, but the text itself is not shown to the viewer.",
+        "3": "A sign or headline is briefly visible on screen, easily readable.",
+        "4": "A close-up of a document, showing a few readable words or a logo.",
+        "5": "The camera focuses on a handwritten note, allowing the viewer to read a sentence or two.",
+        "6": "A clear, prolonged shot of a computer screen with lines of code or text being read.",
+        "7": "A detailed close-up of an ancient symbol or map, with characters actively decoding its meaning.",
+        "8": "An extreme close-up of a page of a book, with the text filling the screen and clearly legible to the viewer.",
+        "9": "A highly demanding visual sequence where the viewer must read fast-moving text, complex mathematical equations, or dense data on screen.",
+        "10": "An intense, full-screen close-up of a highly detailed, complex text or cryptographic code, where the entire visual focus is on reading and decoding intricate symbols, characters, and words."
+      },
+      "calibration_examples": [
+        {
+          "scene": "They walk through a park, chatting.",
+          "score": 0
+        },
+        {
+          "scene": "He glances at a billboard that says 'Buy Now' as he drives past.",
+          "score": 3
+        },
+        {
+          "scene": "The camera zooms in on the old diary page, showing the elegant, faded cursive handwriting of the confession, which we read along with the protagonist.",
+          "score": 7
+        },
+        {
+          "scene": "The screen is filled with a dense, scrolling wall of green computer code and cryptographic symbols, with the camera focusing sharply on specific lines of text as they are decoded in real-time.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on the prominence, legibility, and complexity of text or symbols shown on screen for the viewer to read.",
+      "exclusion_note": "Do not score high if a character is reading but the viewer cannot see or read the text themselves."
+    },
+    {
+      "dimension_id": "complex_visual_pattern_analysis",
+      "definition": "Inspection of intricate, non-face visual patterns, textures, or structures requiring detailed visual analysis (e.g., artwork, complex machinery, detailed maps).",
+      "domain": "subordinate_visual_expertise",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "analyzing a map",
+        "examining a painting",
+        "inspecting a circuit board",
+        "studying architectural blueprints",
+        "looking at intricate patterns"
+      ],
+      "graded_anchors": {
+        "0": "No complex patterns or textures are present; visual scene is simple or blank.",
+        "1": "A simple pattern (e.g., stripes on a shirt) is visible but not analyzed.",
+        "2": "A painting or map is visible in the background of a room.",
+        "3": "A character looks at a map or drawing, shown in a medium shot.",
+        "4": "A close-up of a patterned object, showing some of its complexity.",
+        "5": "The camera pans across a detailed painting, highlighting its brushstrokes and composition.",
+        "6": "A clear, focused shot of a complex circuit board or blueprint, showing intricate details.",
+        "7": "A character actively studies a highly detailed map, tracing routes and analyzing symbols.",
+        "8": "An extreme close-up of an intricate visual pattern, such as a mandala, a complex gear system, or a detailed tapestry.",
+        "9": "A highly demanding visual sequence focusing on a complex, abstract visual pattern or optical illusion that requires intense visual analysis.",
+        "10": "A prolonged, full-screen extreme close-up of an incredibly complex, highly detailed visual pattern—such as a microscopic view of a silicon chip or an intricate, multi-layered piece of abstract art—where the viewer's visual system must engage in maximum pattern analysis and discrimination."
+      },
+      "calibration_examples": [
+        {
+          "scene": "He stares at a blank white wall.",
+          "score": 0
+        },
+        {
+          "scene": "She glances at a framed landscape painting on the wall as she walks by.",
+          "score": 2
+        },
+        {
+          "scene": "The detective spreads a massive, highly detailed map of the city across the table, tracing the intricate web of streets, subway lines, and marked locations with his finger.",
+          "score": 7
+        },
+        {
+          "scene": "The camera zooms in to an extreme close-up of a highly complex, multi-layered microchip, showing thousands of microscopic, gold-plated circuits and intricate geometric patterns in perfect, sharp focus.",
+          "score": 10
+        }
+      ],
+      "scoreability_note": "Score based on the complexity, detail, and visual prominence of non-face patterns, textures, or structures shown on screen.",
+      "exclusion_note": "Do not score high for simple, repetitive patterns (like a brick wall or a plain checkered shirt) unless they are the subject of intense visual analysis."
+    }
+  ],
+  "metadata": {
+    "domain_pool": {
+      "source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/FFA/domain_pool_auto_confirmed.json",
+      "content_sha256": "faf17ad4d61b1844dbb9a9b0a74a42b8d2b47b4ef8be0d5b2f30d14b3dfd8aec",
+      "version": "domain_pool_v2",
+      "target_region": "FFA",
+      "curation_status": "confirmed",
+      "proposal_runs": 5,
+      "curated_domain_ids": [
+        "face_presence_and_salience",
+        "character_identity_tracking",
+        "facial_expression_and_gaze_decoding",
+        "animacy_and_social_presence",
+        "subordinate_visual_expertise"
+      ]
+    },
+    "source_provider": "gemini",
+    "source_model": "gemini-3.5-flash",
+    "fixed_roi_definition": {
+      "roi_id": "FFA",
+      "display_name": "fusiform face area",
+      "theoretical_role": "Face recognition and expertise-like visual identity processing.",
+      "selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            105,
+            106,
+            107,
+            108
+          ]
+        }
+      ]
+    },
+    "bn246_allparcels_override": {
+      "source_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/FFA/region_schema.json",
+      "source_selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            105,
+            106,
+            107,
+            108
+          ]
+        }
+      ],
+      "label_ids": "1..246",
+      "purpose": "Use existing 14-ROI features to evaluate all Brainnetome 246 target parcels without modifying production ROI schemas."
+    }
+  }
+}

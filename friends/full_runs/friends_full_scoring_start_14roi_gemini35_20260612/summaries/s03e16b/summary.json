@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:41",
+    "batch_summary": "In the living room, a furious Rachel confronts Ross about sleeping with another woman, rejecting his pleas that it was a mistake. Meanwhile, Monica, Phoebe, Joey, and Chandler eavesdrop from the bedroom. When Monica discovers Chandler and Joey knew about the infidelity and kept it a secret, she is outraged. As Rachel demands details about the other woman, Ross awkwardly tries to defend himself, leading Rachel to attack him with a newspaper. The friends in the bedroom realize the severe consequences of cheating on Rachel.",
+    "cumulative_summary": "A tense confrontation unfolds in the living room as Rachel angrily confronts Ross for sleeping with another woman. Ross desperately tries to apologize, calling the encounter a mistake, but Rachel is too hurt and furious to listen. Unbeknownst to them, Monica, Phoebe, Joey, and Chandler are hiding in the bedroom, eavesdropping on the entire argument. The situation escalates when Monica realizes that Joey and Chandler already knew about Ross's infidelity and kept it a secret, prompting her to hit Chandler in anger. Back in the living room, Rachel demands to know how the other woman was. Ross's awkward and clumsy responses only infuriate Rachel further, leading her to hit him with a rolled-up newspaper as he tries to flee. Watching from the bedroom, the friends are left stunned by the explosive argument, with Joey warning the others to never cheat on Rachel."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:41 - 00:03:32",
+    "batch_summary": "The argument intensifies as Rachel realizes the other woman was still in Ross's apartment when she visited. Ross defends his actions by claiming they were \"on a break,\" a technicality Rachel fiercely rejects. She also mocks his attempts to hide the truth from her after learning about it from Gunther. Meanwhile, the trapped friends contemplate escaping the bedroom, but their plans are ruined when Ross tells Rachel that Joey and Chandler advised him to keep the affair a secret, drawing fresh anger from Monica and Phoebe.",
+    "cumulative_summary": "A tense confrontation unfolds in the living room as Rachel angrily confronts Ross for sleeping with another woman. Ross desperately tries to apologize, calling the encounter a mistake, but Rachel is too hurt and furious to listen. Unbeknownst to them, Monica, Phoebe, Joey, and Chandler are hiding in the bedroom, eavesdropping on the entire argument. The situation escalates when Rachel realizes the other woman was still in Ross's apartment when she visited, prompting her to hit him with a newspaper. Ross attempts to defend himself by arguing they were \"on a break,\" but Rachel fiercely rejects this technicality. She also sarcastically mocks his desperate attempts to cover up the truth after finding out from Gunther. Meanwhile, the trapped friends desperately want to escape the bedroom. However, just as Chandler suggests they can slip away unnoticed, Ross confesses to Rachel that Joey and Chandler were the ones who convinced him to hide the affair. This revelation immediately draws the fury of Monica and Phoebe back in the bedroom, leaving the guys in even deeper trouble."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:32 - 00:05:18",
+    "batch_summary": "Trapped in the bedroom, Phoebe reschedules an appointment as the friends realize they won't be leaving anytime soon. In the living room, Ross argues his actions were fueled by jealousy over Mark. Rachel asks if he would forgive her if she had slept with Mark. Ross claims he would because he loves her, but reacts childishly when she describes it. Later, a cold silence settles between them in the kitchen, and Rachel abruptly decides to order a pizza, signaling a long, unresolved night that leaves both Ross and the trapped friends despairing.",
+    "cumulative_summary": "During a tense confrontation over Ross's infidelity, Rachel rejects his excuses, including his defense that they were \"on a break.\" Unbeknownst to them, Monica, Phoebe, Joey, and Chandler are trapped eavesdropping in the bedroom. The situation worsens when Ross accidentally implicates Joey and Chandler in helping him cover up the affair. As the argument continues, Ross claims his actions were fueled by jealousy over Mark. Rachel tests him by asking if he would forgive her if she had slept with Mark; Ross insists he would because he loves her, though he childishly blocks out her vivid description of the scenario. Meanwhile, realizing they are stuck for the long haul, Phoebe reschedules an appointment from the bedroom. The confrontation stretches into the night, culminating in a cold, tense silence in the kitchen. Instead of offering reconciliation, Rachel flatly decides to order a pizza, leaving Ross bewildered and their eavesdropping friends despairing over their prolonged captivity."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:18 - 00:07:09",
+    "batch_summary": "As Rachel spitefully orders a pizza with extra anchovies chopped into the sauce to punish Ross, the trapped friends grow increasingly desperate and hungry in the bedroom, even contemplating eating organic leg wax. While Chandler remains optimistic that Ross and Rachel will survive this fight, Monica voices her deep doubts. To pass the time, Joey absurdly contemplates developing a new \"take notice walk.\" Meanwhile, the atmosphere in the living room remains icy as Rachel completely shuts down and refuses to speak to Ross.",
+    "cumulative_summary": "During a tense confrontation over Ross's infidelity, Rachel rejects his excuses, including his defense that they were \"on a break,\" while Monica, Phoebe, Joey, and Chandler remain trapped eavesdropping in the bedroom. As the argument stretches into the night, Rachel spitefully orders a pizza with extra anchovies chopped into the sauce to punish Ross. In the bedroom, the starving friends contemplate eating organic leg wax to survive, and while Chandler remains optimistic about Ross and Rachel's future, Monica voices her doubts. To distract from the heavy tension, Joey absurdly discusses needing a new \"take notice walk.\" Back in the living room, the atmosphere turns icy as Rachel completely shuts down, refusing to speak to a desperate Ross."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:09 - 00:09:05",
+    "batch_summary": "Ross desperately apologizes to Rachel, arguing that he is not a natural cheater and accusing her of bailing on their relationship first. Meanwhile, the trapped friends humorously note how self-involved the couple is. Ross pleads his love and tries to kiss Rachel, but she rejects him, stating that a kiss cannot fix his betrayal. Ultimately, a devastated Rachel tells Ross that he needs to leave.",
+    "cumulative_summary": "During a tense confrontation over Ross's infidelity, Rachel rejects his excuses, including his defense that they were \"on a break,\" while Monica, Phoebe, Joey, and Chandler remain trapped eavesdropping in the bedroom. As the argument stretches into the night, Rachel spitefully orders a pizza with extra anchovies to punish Ross. In the bedroom, the starving friends contemplate eating organic leg wax to survive, while Monica voices her doubts about the couple's future. Back in the living room, Ross desperately apologizes, arguing he is not a natural cheater and accusing Rachel of bailing on their relationship first. From the bedroom, the friends humorously realize the couple hasn't even noticed Monica is home. Ross pleads his love and tries to kiss Rachel, but she rejects his advances, declaring that a kiss cannot make his betrayal go away. Ultimately, a devastated Rachel orders Ross to leave, bringing their relationship to a breaking point."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:05 - 00:10:57",
+    "batch_summary": "Ross desperately begs Rachel to find a way to move past his betrayal, declaring his love and embracing her. However, a tearful Rachel rejects his pleas, explaining that his actions have fundamentally changed how she views him and shattered her trust forever. Realizing their relationship is truly over, Ross is left devastated. In the bedroom, the eavesdropping friends notice the silence and decide it is finally safe to slip out. They quietly tiptoe past Rachel, who lies weeping on the sofa, leaving her alone in her grief.",
+    "cumulative_summary": "During a tense confrontation over Ross's infidelity, Rachel rejects his excuses, while Monica, Phoebe, Joey, and Chandler remain trapped eavesdropping in the bedroom. After hours of arguing, Ross desperately begs Rachel to find a way to move past his betrayal, embracing her and declaring his love. However, a tearful Rachel rejects his pleas, explaining that his actions have fundamentally changed how she views him and shattered her trust forever. With their relationship officially over, Ross is left devastated. Sensing the heavy silence, the trapped friends finally seize the opportunity to escape, quietly tiptoeing past Rachel as she lies weeping on the sofa, leaving her alone in her grief."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 250,
+    "timestamp_range": "00:10:57 - 00:11:37",
+    "batch_summary": "As the friends make their final escape, Joey pauses to put on a boot, resulting in a stiff, awkward walk that Chandler dryly comments on. Joey urgently explains he desperately needs to use the restroom, prompting him to rush out. Chandler, Phoebe, and Monica follow close behind, with Monica quietly closing the door. The scene fades to black, bringing a humorous yet quiet end to their long ordeal of being trapped.",
+    "cumulative_summary": "During a tense confrontation over Ross's infidelity, Rachel rejects his excuses while Monica, Phoebe, Joey, and Chandler remain trapped eavesdropping in the bedroom. After hours of arguing, Ross desperately begs Rachel to forgive him, but a tearful Rachel rejects his pleas, declaring their relationship officially over. Sensing the heavy silence, the trapped friends finally seize the opportunity to escape, quietly tiptoeing past Rachel as she lies weeping on the sofa. However, their stealthy exit is briefly interrupted when Joey pauses to pull on a boot, resulting in an awkward, stiff-legged walk that Chandler dryly mocks. Joey urgently reveals he desperately needs to use the restroom, prompting a swift exit for the entire group. Monica quietly shuts the door behind them, leaving Rachel alone in her grief as the scene fades to black."
+  }
+]

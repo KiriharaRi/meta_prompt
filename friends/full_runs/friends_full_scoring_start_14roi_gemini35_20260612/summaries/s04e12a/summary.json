@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:54",
+    "batch_summary": "Early in the morning, a loud rooster wakes up Rachel and Monica. Annoyed, they confront Joey and Chandler across the hall, who explain that their chick is apparently transitioning into a rooster. Later in the kitchen, Rachel complains about her lack of sleep, prompting Phoebe to suggest they rehome the animals. Phoebe then prepares to visit a fertility doctor to check if her body is ready to receive Frank and Alice's embryo transfer, asking her friends to think \"thick\" for her endometrial layer.",
+    "cumulative_summary": "Early in the morning, Rachel and Monica are rudely awakened by a loud, persistent rooster crowing. Exhausted and annoyed, they head across the hall to confront Joey and Chandler. The guys reveal that their pet chick is undergoing some unexpected changes, with their vet suspecting she is actually becoming a rooster. Later that morning in the kitchen, Rachel continues to vent about her lack of sleep, leading Phoebe to advise that keeping farm animals in an apartment is a bad idea. The conversation shifts as Phoebe prepares to leave for an appointment with a fertility doctor. She is checking to see if her endometrial lining is thick enough to proceed with the embryo transfer for her brother Frank and his wife Alice. Before she departs, she playfully asks her friends to \"think thick\" to help her chances."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:54 - 00:03:23",
+    "batch_summary": "As Phoebe leaves for her appointment, a playful argument erupts when Joey and Chandler claim they know Monica and Rachel better than the girls know them. Chandler proves his point by revealing Monica's Tic Tac habit and correctly predicting Rachel has half-eaten cookies in her shopping bag. Refusing to back down, Monica accepts a $10 bet challenging the guys to guess the remaining five items in Rachel's bag. With Ross acting as the referee, Joey successfully guesses the first item, apples.",
+    "cumulative_summary": "Early in the morning, Rachel and Monica are rudely awakened by Joey and Chandler's pet chick, who is unexpectedly turning into a rooster. Later, as Phoebe prepares to leave for her crucial fertility appointment to check her readiness for an embryo transfer, her friends wish her luck. Once Phoebe departs, a playful but competitive dispute arises when Joey and Chandler claim they know Monica and Rachel better than the girls know them. To prove their point, Chandler reveals Monica's Tic Tac quirk and correctly predicts Rachel has half-eaten cookies in her shopping bag. Refusing to back down, Monica accepts a $10 bet challenging the guys to guess the remaining five items in Rachel's bag. With Ross acting as the referee, Joey successfully guesses the first item, setting off a lively battle of wits."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:23 - 00:05:05",
+    "batch_summary": "Joey and Chandler win the $10 bet after Chandler correctly guesses the final item in Rachel's shopping bag is Scotch tape. Refusing to admit defeat, Monica and Rachel demand a high-stakes rematch featuring personal trivia questions, which Ross eagerly agrees to write. Meanwhile, at the clinic, Phoebe receives the wonderful news from her doctor that her uterus is ready for the embryo transfer, sparking joy and excitement for her, Frank Jr., and Alice.",
+    "cumulative_summary": "Early in the morning, Rachel and Monica are rudely awakened by Joey and Chandler's pet chick, who is turning into a rooster. Later, as Phoebe leaves for her crucial fertility appointment, a playful dispute arises when Joey and Chandler claim they know Monica and Rachel better than the girls know them. Monica accepts a $10 bet challenging the guys to guess the remaining items in Rachel's shopping bag. With Ross refereeing, Joey and Chandler successfully guess the items, including the final roll of Scotch tape, to win the bet. Refusing to accept defeat, Monica and Rachel demand a high-stakes rematch based on personal trivia, which Ross eagerly agrees to write. Meanwhile, at the doctor's office, Phoebe, Frank Jr., and Alice celebrate when the doctor confirms that Phoebe's uterus is officially ready for the embryo implantation."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:05 - 00:06:51",
+    "batch_summary": "At the clinic, Phoebe is shocked to learn that five embryos will be implanted, offering only a 25% chance of success. The emotional stakes skyrocket when Frank Jr. and Alice reveal they have spent their entire savings of $16,000 on this single attempt, placing immense pressure on Phoebe. Meanwhile, back at the apartment, Ross meticulously prepares a large game board for the high-stakes trivia rematch, keeping a curious Monica away from his work.",
+    "cumulative_summary": "Early in the morning, Rachel and Monica are rudely awakened by Joey and Chandler's pet chick, who is turning into a rooster. Later, a playful dispute arises when Joey and Chandler claim they know Monica and Rachel better than the girls know them. After losing a $10 bet to the guys, Monica and Rachel demand a high-stakes trivia rematch, which Ross eagerly agrees to write and construct a game board for. Meanwhile, at the clinic, Phoebe, Frank Jr., and Alice celebrate when the doctor confirms Phoebe's uterus is ready for embryo implantation. However, the mood shifts when Phoebe learns that five embryos will be implanted, yielding only a 25% chance of success. The emotional stakes skyrocket when Frank Jr. and Alice reveal they have spent their entire savings of $16,000 on this single attempt, placing immense pressure on Phoebe to get pregnant on the first try."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:51 - 00:08:35",
+    "batch_summary": "While waiting for news on Phoebe's pregnancy, the group gathers for the high-stakes trivia game. Ross acts as the host, setting up a board with categories like \"fears and pet peeves.\" After the guys win the coin toss, the competition begins. Joey correctly identifies Monica's pet peeve of animals dressed as humans, while Monica successfully names Chandler's fear of Michael Flatley, Lord of the Dance. The game starts off highly competitive and humorous as both teams score their first points.",
+    "cumulative_summary": "Early in the morning, Rachel and Monica are rudely awakened by Joey and Chandler's pet chick, who is turning into a rooster. This leads to a playful dispute over who knows whom better, prompting Monica and Rachel to demand a high-stakes trivia rematch designed by Ross. Meanwhile, Phoebe undergoes a high-pressure embryo implantation, with Frank Jr. and Alice risking their entire savings on a single attempt. Back at the apartment, as the friends await news on Phoebe's pregnancy, Ross unveils his custom trivia game. The competition kicks off with a coin toss won by the guys. The game quickly heats up as Joey correctly identifies Monica's pet peeve of animals dressed as humans, and Monica counters by naming Chandler's irrational fear of Michael Flatley, Lord of the Dance. The humorous and intense battle of wits is officially underway."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:35 - 00:10:21",
+    "batch_summary": "The high-stakes trivia game continues as Chandler correctly guesses Ross and Monica's grandmother's name, Althea. Rachel slips up on a question about Chandler and Joey's TV Guide subscription, incorrectly guessing 'Chandler Bing' instead of the correct answer, 'Miss Chanandler Bong,' much to Monica's frustration. Meanwhile, at the clinic, Phoebe shares a touching, humorous moment alone with the embryos in a petri dish, encouraging them to 'grab on' and promising to keep them safe for Frank and Alice.",
+    "cumulative_summary": "Early in the morning, Rachel and Monica are rudely awakened by Joey and Chandler's pet chick, who is turning into a rooster. This leads to a playful dispute over who knows whom better, prompting Monica and Rachel to demand a high-stakes trivia rematch designed by Ross. Meanwhile, Phoebe undergoes a high-pressure embryo implantation, with Frank Jr. and Alice risking their entire savings on a single attempt. Back at the apartment, Ross's custom trivia game heats up. Chandler correctly names Ross and Monica's grandmother, Althea, while Rachel makes a critical error by failing to recall that Chandler's TV Guide is addressed to 'Miss Chanandler Bong,' drawing Monica's ire. At the clinic, the emotional stakes remain high as Phoebe shares a touching, humorous moment talking directly to the embryos in their petri dish, encouraging them to 'grab on' and promising to keep them safe and warm for Frank and Alice."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 266,
+    "timestamp_range": "00:10:21 - 00:11:33",
+    "batch_summary": "At the clinic, Phoebe's doctor arrives to begin the embryo implantation procedure, and Phoebe wishes the embryos luck. Meanwhile, the trivia game reaches a tense climax. Trailing by one point, Rachel and Monica tie the game when Monica correctly names Chandler's father's Las Vegas burlesque show, \"Viva Las Gaygas.\" To break the tie, Ross introduces a high-stakes, 30-second \"lightning round,\" leaving Monica thrilled and confident, while Joey and Chandler brace themselves for the final showdown.",
+    "cumulative_summary": "Early in the morning, Rachel and Monica are rudely awakened by Joey and Chandler's pet chick, who is turning into a rooster. This leads to a playful dispute over who knows whom better, prompting Monica and Rachel to demand a high-stakes trivia rematch designed by Ross. Meanwhile, Phoebe undergoes a high-pressure embryo implantation, with Frank Jr. and Alice risking their entire savings. At the clinic, Phoebe shares a touching moment wishing the embryos luck just as the doctor arrives to begin the procedure. Back at the apartment, the trivia game heats up. Chandler correctly names Ross and Monica's grandmother, Althea, while Rachel makes a critical error regarding Chandler's TV Guide. However, the women manage to tie the score when Monica correctly identifies Chandler's father's Las Vegas burlesque show, \"Viva Las Gaygas.\" To break the tie, Ross dramatically introduces a thirty-second \"lightning round,\" setting the stage for an intense and highly competitive final showdown between the two pairs of roommates."
+  }
+]

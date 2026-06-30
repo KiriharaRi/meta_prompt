@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:50",
+    "batch_summary": "In the museum cafeteria, Joey tries to save a seat for Ross, but Ross declines to sit with him due to the social divide between the white-coated scientists and blue-blazered tour guides. Later, Ross apologizes at the apartment and tries to justify the segregation to Monica and Rachel, who fail to support his argument. Hurt by the rejection, Joey tells Ross that if their work uniforms mean they cannot be friends at work, he accepts it, drawing a humorous comparison to his acting before walking out.",
+    "cumulative_summary": "At the museum cafeteria, Joey, wearing a blue tour guide blazer, proudly saves a seat for his best friend Ross. However, Ross, wearing a scientist's white coat, awkwardly declines the seat to conform to the workplace social divide and sits with his fellow scientists instead. Feeling rejected, Joey is left alone. Later at the apartment, Ross attempts to apologize and justify the cafeteria's strict social hierarchy. He seeks validation from Monica and Rachel, but Monica reveals she eats alone in an alley, and Rachel accidentally highlights her own workplace's elitism. Joey, deeply hurt but acting nonchalant, confronts Ross about the absurdity of their work uniforms dictating their friendship. He tells Ross that if they cannot be friends at work, so be it, comparing it to not speaking to Ross from the stage during a play, before abruptly walking out and leaving Ross feeling guilty."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:50 - 00:03:32",
+    "batch_summary": "Back at the apartment, Phoebe behaves suspiciously with a new puppy, refusing to name it to avoid getting attached and strictly warning the others to stay off the balcony. Meanwhile, Chandler confides in Monica and Rachel about his recent sexual encounter with Kathy. Feeling deeply insecure that her response was merely polite compared to her past enthusiasm with Joey, Chandler begs the women for advice on how to improve. Monica agrees to help, grabbing a notepad to teach him the secrets of female pleasure.",
+    "cumulative_summary": "After Ross offends Joey by refusing to sit with him at the museum cafeteria due to a strict workplace social hierarchy, Joey confronts Ross about the absurdity of their uniforms dictating their friendship and walks out. Back at the apartment, Phoebe behaves suspiciously with a new puppy, refusing to name it and strictly warning the others to stay off the balcony. Meanwhile, Chandler confides in Monica and Rachel about his recent sexual encounter with Kathy. Feeling deeply insecure that her response was merely polite compared to her past enthusiasm with Joey, Chandler desperately begs the women for advice on how to improve his performance. Eager to help him overcome his anxiety, Monica grabs a notepad to teach him the secrets of female pleasure, setting up an impromptu lesson."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:32 - 00:05:05",
+    "batch_summary": "Monica takes charge of Chandler's lesson, drawing a diagram to explain the seven female erogenous zones. Rachel joins in, offering her own insights and validating Monica's diagram. Monica explains that most men rush through the zones too quickly, using a Disneyland metaphor to emphasize the importance of taking one's time and mixing up the sequence. The lesson becomes highly detailed as Monica begins mapping out a specific, rhythmic combination of numbers to guide Chandler's technique.",
+    "cumulative_summary": "After Ross offends Joey by refusing to sit with him at the museum cafeteria due to a strict workplace social hierarchy, Joey confronts Ross about the absurdity of their uniforms dictating their friendship and walks out. Back at the apartment, Phoebe behaves suspiciously with a new puppy, refusing to name it and strictly warning the others to stay off the balcony. Meanwhile, Chandler confides in Monica and Rachel about his recent sexual encounter with Kathy. Feeling deeply insecure that her response was merely polite compared to her past enthusiasm with Joey, Chandler desperately begs the women for advice on how to improve his performance. Eager to help him overcome his anxiety, Monica grabs a notepad to teach him the secrets of female pleasure. She draws a diagram outlining seven distinct erogenous zones, explaining that men often rush the process. With Rachel chiming in to offer supportive metaphors, Monica maps out a detailed, rhythmic sequence of the zones to help Chandler understand how to build anticipation and improve his technique."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:05 - 00:06:58",
+    "batch_summary": "Monica's lesson on the seven erogenous zones reaches an intense, ecstatic climax, leaving both her and Rachel breathless. A stunned Chandler takes the notepad to study in private. Meanwhile, at the museum cafeteria, Ross publicly rejects the strict social hierarchy by choosing to sit with Joey. After they reconcile with a handshake, Ross delivers an impassioned speech to the cafeteria, declaring the segregation unnatural and thanking Joey for showing him the error of his ways.",
+    "cumulative_summary": "After Ross offends Joey by refusing to sit with him at the museum cafeteria due to a strict workplace social hierarchy, Joey confronts Ross and walks out. Meanwhile, Phoebe acts suspiciously with a new puppy, and Chandler confides in Monica and Rachel about his sexual insecurities with Kathy. To help him, Monica draws a diagram of seven erogenous zones. Her enthusiastic demonstration reaches an intense, ecstatic climax that leaves both her and Rachel breathless, giving a stunned Chandler the confidence to study the guide. Back at the museum, Ross publicly rejects the workplace segregation by choosing to sit at Joey's table. After they reconcile with a handshake, Ross delivers an impassioned speech to the cafeteria, declaring the division between scientists and tour guides unnatural and thanking Joey for showing him the error of his ways."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:58 - 00:08:35",
+    "batch_summary": "In the museum cafeteria, Ross's speech against workplace division inspires a wave of absurd confessions. After Ross sheds his white coat and admits he is lost and divorced, Joey sheds his blue blazer, confessing his ignorance about dinosaurs. Their reconciliation prompts other employees to share their secrets, including Ted's fear of New York, Andrew's stolen pear, Rhonda's confession about her breasts, and another colleague's severe OCD. The humorous and chaotic moment successfully breaks down the social barriers between the scientists and tour guides.",
+    "cumulative_summary": "After Ross offends Joey by refusing to sit with him at the museum cafeteria due to a strict social hierarchy, Joey walks out. Meanwhile, Chandler confides in Monica and Rachel about his sexual insecurities with Kathy, prompting Monica to draw a highly enthusiastic, ecstatic diagram of seven erogenous zones to boost his confidence. Back at the museum, Ross rejects the workplace segregation by sitting with Joey. To bridge the gap, Ross delivers an impassioned speech and sheds his white coat, confessing his personal struggles. Inspired, Joey sheds his blue blazer and admits his ignorance about dinosaurs, leading to a warm reconciliation. This display prompts a series of increasingly bizarre and hilarious confessions from their coworkers—including Rhonda revealing her breasts are fake and another colleague sharing his severe OCD. Ultimately, Ross and Joey's stand successfully breaks down the cafeteria's social barriers in a chaotic but unifying moment."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:35 - 00:10:05",
+    "batch_summary": "At Central Perk, Phoebe struggles with a test dog her mother gave her, realizing that if she cannot give up the dog, she won't be able to act as a surrogate mother for Frank Jr. and Alice. When Frank and Alice drop by to check in without pressure, they fall in love with the puppy. In a sudden change of heart, Phoebe decides to give them the dog. This successful parting gives her the confidence she needs to move forward with the surrogacy, bringing relief to the emotional situation.",
+    "cumulative_summary": "After Ross and Joey successfully break down the museum cafeteria's strict social barriers and Chandler receives intimate advice from Monica and Rachel, the focus shifts to Phoebe's surrogacy dilemma. Sitting in Central Perk with Monica and Rachel, Phoebe anxiously bonds with a puppy her mother gave her as a test. She fears that if she cannot bear to give up the dog, she will never be able to carry and give up a baby for her brother, Frank Jr., and his wife, Alice. However, when Frank and Alice drop by, they instantly fall in love with the puppy. Seizing the moment, Phoebe decides to let them keep the dog. This emotional breakthrough and successful parting reassure Phoebe, giving her the confidence and clarity she needs to move forward with her decision to be their surrogate."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:10:05 - 00:11:35",
+    "batch_summary": "Witnessing Frank Jr. and Alice's joy with the puppy gives Phoebe the ultimate confidence to officially agree to be their surrogate. The couple is overcome with emotion and gratitude. When Phoebe's mother, Phoebe Sr., arrives, Phoebe defends her decision, only for her mother to humorously reveal that the puppy was actually her own pet. Later, Monica asks Rachel if she would ever act as a surrogate for her, leading to a sweet but slightly tense conversation between the two friends.",
+    "cumulative_summary": "After Ross and Joey break down social barriers at the museum and Chandler gets intimacy advice, Phoebe faces a major decision regarding her brother Frank Jr.'s request to be a surrogate. To test her ability to give up a baby, Phoebe's mother gives her a puppy. When Frank and Alice instantly bond with the dog, Phoebe decides to let them keep it. This experience gives her the confidence she needs, and she officially announces her decision to carry their baby, prompting an emotional and grateful celebration. The touching moment takes a humorous turn when Phoebe Sr. returns and reveals the puppy was actually her own pet. Later, the emotional weight of the situation prompts Monica to ask Rachel if she would ever be a surrogate for her, leading to a heartwarming yet slightly awkward exchange between the two friends."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 287,
+    "timestamp_range": "00:11:35 - 00:11:59",
+    "batch_summary": "In a brief, energetic moment, Alice bursts into the apartment, overwhelmed with gratitude over Phoebe's decision to be her and Frank Jr.'s surrogate. She rushes up to Monica, wrapping her in a tight hug and thanking her repeatedly before quickly dashing back out the door. Monica and Rachel are left standing in bewildered silence, staring at the empty doorway as the scene fades to black.",
+    "cumulative_summary": "After Ross and Joey break down social barriers at the museum and Chandler gets intimacy advice, Phoebe faces a major decision regarding her brother Frank Jr.'s request to be a surrogate. To test her ability to give up a baby, Phoebe's mother gives her a puppy. When Frank and Alice instantly bond with the dog, Phoebe decides to let them keep it. This experience gives her the confidence she needs, and she officially announces her decision to carry their baby, prompting an emotional and grateful celebration. The touching moment takes a humorous turn when Phoebe Sr. returns and reveals the puppy was actually her own pet. Later, the emotional weight of the situation prompts Monica to ask Rachel if she would ever be a surrogate for her, leading to a heartwarming yet slightly awkward exchange between the two friends. Suddenly, an ecstatic Alice bursts into the room, wrapping Monica in a tight, rapid hug of gratitude before rushing back out, leaving Monica and Rachel utterly bewildered as the episode draws to a close."
+  }
+]

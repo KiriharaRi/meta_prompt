@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:47",
+    "batch_summary": "At Central Perk, Joey explains to Rachel and Monica that he is helping their shy superintendent practice dancing for an upcoming ball to impress a crush. Meanwhile, Chandler and Ross arrive after a failed attempt to cancel Chandler's gym membership, which resulted in Ross joining too. Desperate to stop the monthly $50 fees, Chandler and Ross decide to close their bank accounts entirely to cut off the gym's access, despite Joey's humorous disappointment over losing his 'bank buddies.' Phoebe then arrives.",
+    "cumulative_summary": "In the Central Perk coffee shop, Joey reveals to Rachel and Monica that he has agreed to be the dancing partner for their shy superintendent, who wants to practice to impress his crush at an upcoming 'Super Ball.' Rachel is skeptical, recalling a near-disaster where he almost danced her down a garbage chute. Soon after, Chandler and Ross arrive in suits. Chandler confesses that instead of quitting his gym, he ended up getting Ross to join as well. Facing a lifetime of $50 monthly fees, they brainstorm solutions. Rejecting Monica's logical suggestion to actually use the gym, Ross proposes a drastic plan: closing their bank accounts to cut off the gym's automatic payments. Chandler enthusiastically agrees to the idea, ignoring Joey's disappointment that they will no longer be 'bank buddies.' Just as they finalize their plan, Phoebe walks into the coffee shop."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:47 - 00:03:28",
+    "batch_summary": "Phoebe confesses to the group that she bit a handsome massage client on the buttocks, admitting she struggled to maintain her professional oath. Monica and Joey offer distraction advice, with Joey hilariously admitting he thinks of Chandler to calm down. Later, Joey meets Mr. Treeger in the basement for their first awkward dance practice. When Treeger struggles and compares himself to a \"big potato,\" a reluctant Joey steps up to reassure and comfort him.",
+    "cumulative_summary": "In Central Perk, Joey reveals he agreed to be the dance partner for their superintendent, Mr. Treeger, to help him prepare for a \"Super Ball.\" Meanwhile, Chandler and Ross concoct a drastic plan to close their bank accounts to escape their gym memberships. Phoebe then arrives and confesses she bit a handsome massage client on the buttocks due to overwhelming attraction. Monica and Joey offer distraction tips, with Joey humorously admitting he thinks of Chandler to stay calm. Later, Joey meets Mr. Treeger in the basement for their first dance rehearsal. The practice is highly awkward, and when a discouraged Treeger compares himself to a \"big potato,\" Joey kindly steps in to comfort and reassure him."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:28 - 00:05:12",
+    "batch_summary": "Joey encourages a discouraged Mr. Treeger to keep practicing, and the two share a successful dance rehearsal. Back at the apartment, Monica and Rachel tease Joey after catching him doing a dance step. Joey defensively claims dancing is a manly sport but admits he is actually enjoying it. Meanwhile, Ross and Chandler arrive at the bank, determined to close their accounts to escape their gym memberships.",
+    "cumulative_summary": "In Central Perk, Joey agrees to help superintendent Mr. Treeger prepare for a \"Super Ball,\" while Chandler and Ross plan to close their bank accounts to escape their gym memberships. Meanwhile, Phoebe confesses to biting a handsome massage client. During an awkward first rehearsal in the basement, Joey comforts a self-conscious Treeger and encourages him to keep practicing. Back at the apartment, Monica and Rachel tease Joey when they catch him doing a dance step. Although defensive at first, claiming dancing is a manly sport, Joey admits he is actually enjoying himself. Finally, Ross and Chandler take the plunge and arrive at the bank, ready to close their accounts."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:12 - 00:06:45",
+    "batch_summary": "At the bank, Chandler and Ross's attempt to close their accounts hits a snag when they are introduced to Karen, the closure specialist. Chandler immediately gets flustered and awkwardly declares he wants to \"quit the bank.\" Meanwhile, Phoebe struggles to suppress her intense attraction to her client, Rick, during a massage. After trying to distract herself with thoughts of baseball, sandwiches, and Chandler, she finally gives in and confesses her massive crush to Rick, who is pleasantly surprised by the revelation.",
+    "cumulative_summary": "In Central Perk, Joey agrees to help superintendent Mr. Treeger practice dancing for a \"Super Ball,\" eventually finding himself genuinely enjoying the lessons. Meanwhile, Chandler and Ross head to the bank to close their accounts in an attempt to escape their gym memberships. However, Chandler gets flustered by the attractive closure specialist, Karen, and awkwardly declares he wants to \"quit the bank.\" Elsewhere, Phoebe struggles to maintain her professionalism during a massage session with her handsome client, Rick. After trying to distract herself from her intense attraction with thoughts of baseball, sandwiches, and even Chandler, she ultimately gives up. Phoebe confesses her massive crush to Rick, who is flattered and admits he had no idea."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:45 - 00:08:32",
+    "batch_summary": "Phoebe and Rick share a passionate kiss, but they are caught by her boss. After a failed lie about Rick being her husband reveals he is actually married, Phoebe is fired. Back at the apartment, Chandler and Ross admit their bank trip failed, resulting in a joint checking account to pay for their gym memberships. Phoebe arrives and shares her disastrous day, explaining her firing and how her subsequent attempt to offer street massages led the police to mistake her for a prostitute.",
+    "cumulative_summary": "In Central Perk, Joey agrees to help superintendent Mr. Treeger practice dancing for a \"Super Ball,\" eventually finding himself genuinely enjoying the lessons. Meanwhile, Chandler and Ross's attempt to escape their gym memberships by closing their bank accounts fails spectacularly. Flustered by a bank employee, they instead open a joint checking account to pay for the gym. Elsewhere, Phoebe struggles with her attraction to her handsome massage client, Rick. After confessing her feelings, they share a passionate kiss but are caught by her boss. Phoebe's attempt to cover by claiming Rick is her husband backfires when she learns he is already married. Fired on the spot, a distraught Phoebe tries offering massages on the street, only to be mistaken for a prostitute by the police. She returns to the apartment to share her terrible day with her shocked friends."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:32 - 00:10:11",
+    "batch_summary": "Joey and Mr. Treeger meet for their final dance practice. Moving to the rooftop at night due to limited space, they perform a flawless, elegant routine to \"Night and Day,\" culminating in a dramatic lift. Both are thrilled with their performance, and Joey enthusiastically offers to teach Treeger the foxtrot or tango next. However, a newly confident Treeger politely declines, declaring he is finally ready to dance with women at the ball, leaving Joey happy with their successful partnership.",
+    "cumulative_summary": "In Central Perk, Joey agrees to help superintendent Mr. Treeger practice dancing for a \"Super Ball,\" while Chandler and Ross's attempt to escape their gym memberships ends with them opening a joint checking account. Meanwhile, Phoebe's attraction to her massage client, Rick, leads to a passionate kiss, getting fired, and a disastrous attempt at street massaging where she is mistaken for a prostitute. The narrative concludes with Joey and Treeger's final dance practice. Moving to the rooftop at night due to limited space, the two men share a beautifully executed dance to \"Night and Day,\" complete with spins and a dramatic lift. Thrilled by their flawless performance, Joey enthusiastically offers to teach Treeger the foxtrot or tango. However, a newly confident Treeger politely declines, announcing he is finally ready to dance with women at the ball. Joey happily bids him good luck, bringing their heartwarming partnership to a successful close."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 262,
+    "timestamp_range": "00:10:11 - 00:11:14",
+    "batch_summary": "Following their successful dance practice, Treeger invites Joey to the ball to dance with Marge's girlfriend, who is his same size. Joey politely declines, leaving him alone on the rooftop. Meanwhile, Phoebe attends a job interview at a massage parlor. When asked why she left her previous job, she honestly and awkwardly explains that they thought she was a prostitute. The shocked interviewer quickly ends the meeting, leaving Phoebe's job prospects looking bleak as she exits.",
+    "cumulative_summary": "In Central Perk, Joey agrees to help superintendent Mr. Treeger practice dancing, while Chandler and Ross's attempt to escape their gym memberships ends with them opening a joint checking account. Meanwhile, Phoebe's attraction to her massage client, Rick, leads to a passionate kiss, getting fired, and a disastrous attempt at street massaging where she is mistaken for a prostitute. After a successful rooftop dance practice, Treeger invites Joey to the ball to dance with a friend of his same size, but Joey politely declines. Later, Phoebe attends an interview at a new massage parlor. When asked why she left her last job, she bluntly reveals that they thought she was a prostitute. The shocked interviewer quickly dismisses her, leaving Phoebe's job hunt at a humorous yet unsuccessful standstill."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:37",
+    "batch_summary": "Monica is on the phone discussing her independence when she opens her door to find Richard. The two share a passionate kiss and end up in bed together. They agree to maintain a casual, \"friends with benefits\" relationship, comparing their arrangement to playing racquetball. However, when Richard mentions an upcoming blind date, Monica's smile fades. Though she asks if he wants her to cancel it, she quickly backtracks, reinforcing their boundary that they are just friends and should not restrict each other.",
+    "cumulative_summary": "Monica is in her apartment, cleaning and talking on the phone about the challenges of autonomy and her belief that she is making a smart decision. Her conversation is interrupted when she opens her door to find Richard standing in the hallway. The two share a passionate kiss and transition to the bedroom. Lying in bed, they discuss the nature of their relationship, mutually agreeing to be \"friends who sleep together\" with no strings attached, humorously comparing it to a casual game of racquetball. The lighthearted mood shifts slightly when Richard reveals he has an upcoming blind date. Although Monica's smile briefly fades and she asks if he wants her to cancel it, she quickly corrects herself. She asserts that they are just friends, meaning they should not restrict each other's dating lives, a boundary that Richard agrees with."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:37 - 00:03:01",
+    "batch_summary": "Monica playfully tells Richard her mother is looking to set her up with a lawyer, easing their dating boundaries with shared smiles. Meanwhile, at the coffee shop, Phoebe tries to gift Robert stretchy pants to cover him up, but he rejects them for being too tight. Joey then arrives and enthusiastically discusses The Shining with Rachel. When she begs him not to spoil the book, Joey hilariously attempts to discuss key plot points using \"code\" by replacing words with \"blank.\"",
+    "cumulative_summary": "Monica and Richard agree to be \"friends who sleep together\" with no strings attached, establishing that they are free to date others. To keep things balanced after Richard mentions a blind date, Monica playfully claims her mother is looking to set her up with a lawyer, and they share a warm smile. Meanwhile, at the coffee shop, Phoebe attempts to gift Robert a pair of stretchy pants to cover him up, but he rejects them, feeling they make him look too \"on display.\" Shortly after, Joey arrives and eagerly chats with Rachel about The Shining. When Rachel begs him not to spoil the book's plot, Joey hilariously attempts to discuss the famous horror story in \"code,\" replacing key words with \"blank\" to the amusement of Chandler and Ross."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:01 - 00:05:20",
+    "batch_summary": "In the coffee shop, Joey accidentally spoils the ending of The Shining, prompting a vengeful Rachel to spoil Little Women by revealing that Beth dies, leaving Joey devastated. Meanwhile, Robert's wardrobe malfunction strikes again when he bends over to grab his keys. Later, after Monica endures a disastrous double-shift at work, she returns home to a romantic surprise. Richard is waiting in her bedroom with wine, candles, and roses, proving their \"friends with benefits\" arrangement is highly active.",
+    "cumulative_summary": "Monica and Richard previously agreed to be \"friends who sleep together\" with no strings attached. Meanwhile, Phoebe's attempt to get Robert to wear less revealing pants failed. Back at the coffee shop, Joey's attempt to discuss The Shining in \"code\" fails, and he accidentally spoils the ending. In retaliation, a frustrated Rachel spoils Little Women by revealing that Beth dies, leaving Joey completely devastated. The group is then subjected to another wardrobe malfunction when Robert bends over to retrieve his keys. Later, after Monica endures a grueling double-shift where she loses a fake breast in a grill fire, Rachel hints that her day is about to improve. Monica enters her bedroom to find Richard waiting in a tuxedo with wine, candles, and rose petals, happily embracing their ongoing \"friends with benefits\" arrangement."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:20 - 00:07:39",
+    "batch_summary": "Phoebe begs Ross and Chandler to tell her boyfriend Robert about his revealing shorts, but they refuse and flee when Robert arrives in tiny gym shorts. Left alone, Phoebe tries to break up with him. When Robert wonders why women always leave him, Gunther bluntly tells him to \"put the mouse back in the house.\" Realizing his exposure, Robert quickly covers up. Later, Monica prepares her bedroom for a romantic night with Richard, lighting candles and scattering rose petals.",
+    "cumulative_summary": "Monica and Richard previously agreed to be \"friends who sleep together\" with no strings attached. Meanwhile, Phoebe struggled with her boyfriend Robert's constant wardrobe malfunctions due to his loose-fitting pants. Back at the coffee shop, Joey and Rachel traded book spoilers, leaving Joey devastated over Little Women. Back on the relationship front, Phoebe begs Ross and Chandler to tell Robert about his revealing attire, but they refuse and flee when Robert arrives in tiny gym shorts. Left alone, Phoebe tries to break up with him. When Robert wonders why women always leave him, Gunther bluntly tells him to \"put the mouse back in the house,\" finally making Robert realize his exposure. Meanwhile, Monica's \"friends with benefits\" arrangement with Richard continues to flourish. After a grueling double-shift, Monica prepares her bedroom for another romantic encounter, lighting candles and scattering rose petals on her bed to welcome him."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:39 - 00:09:31",
+    "batch_summary": "While waiting in Richard's bedroom, Monica is shocked when he unexpectedly brings home a rescheduled blind date. Monica frantically hides under the covers to avoid detection. After Richard politely dismisses his date, Monica emerges and tries to act casual about the situation. However, her jealousy quickly takes over, and she admits she is not fine with him seeing other women. To resolve their complicated feelings, Monica proposes they become \"exclusive friends\" who do not date anyone else, highlighting the growing emotional stakes of their casual arrangement.",
+    "cumulative_summary": "Monica and Richard previously agreed to a casual \"friends who sleep together\" arrangement. Meanwhile, Phoebe dealt with her boyfriend Robert's revealing wardrobe malfunctions, a problem Gunther eventually resolved by bluntly telling Robert to cover up. Back on the relationship front, Monica's casual arrangement with Richard faces a major hurdle when she waits in his bedroom, only for him to unexpectedly bring home a rescheduled blind date. Panicked, Monica hides under the quilt until the date leaves. Although she initially tries to play it cool, Monica quickly realizes she is not fine with Richard seeing other people. Confronting her jealousy, she proposes they become \"exclusive friends\" who do not date others, shifting their supposedly casual relationship into much more complicated, emotionally charged territory."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:31 - 00:11:10",
+    "batch_summary": "Monica suggests escalating their arrangement to living together and marriage, but Richard gently reminds her that they still want different things. Realizing that getting over him again would be too painful, Monica decides they must end their relationship for good. Acknowledging this sad truth, they share a bittersweet final embrace, agreeing to one last intimate encounter before parting ways. Meanwhile, Joey returns home looking deeply troubled while holding a book, leaving Rachel concerned.",
+    "cumulative_summary": "After Monica and Richard agreed to a casual arrangement, Monica's jealousy flared when Richard brought home a blind date. Though she proposed they become \"exclusive friends,\" Monica quickly pushes for more, hinting at a future of living together and marriage. Richard gently reminds her that their fundamental differences remain unchanged. Realizing that getting over him a second time would be too painful, Monica decides they must end their relationship for good. Acknowledging this sad truth, they share a bittersweet final embrace and one last intimate encounter before parting ways. Meanwhile, the focus shifts back to the main group as Joey enters the apartment looking deeply troubled while holding a book, leaving Rachel concerned."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 251,
+    "timestamp_range": "00:11:10 - 00:11:44",
+    "batch_summary": "Joey is deeply distressed over the tragic turn of events in the book he is reading, specifically Beth's severe illness. Rachel comforts him with a warm hug as he expresses his helplessness over the fictional character's fate. Recognizing his emotional turmoil, Rachel gently suggests putting the book in the freezer to help him cope. Joey gratefully agrees, finding comfort in her embrace as the episode draws to a close.",
+    "cumulative_summary": "After Monica and Richard's attempt at a casual arrangement fails due to lingering feelings and mismatched future goals, they share a bittersweet final embrace and decide to part ways for good. Meanwhile, the focus shifts to Joey, who is deeply distressed by the tragic events in the book he is reading, specifically Beth falling gravely ill. Rachel comforts a visibly shaken Joey, offering a warm embrace. To help him cope with the emotional distress of the story, Rachel gently suggests putting the book in the freezer, a comforting solution Joey readily accepts as the episode concludes."
+  }
+]

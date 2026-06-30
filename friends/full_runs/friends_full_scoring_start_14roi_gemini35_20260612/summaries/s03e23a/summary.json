@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:46",
+    "batch_summary": "In their apartment, Joey and Chandler joke about their pet chick and duck before Ross arrives, asking for help inspecting a mysterious skin growth on his lower back. After a humorous and awkward examination, Rachel interrupts them, prompting Ross to quickly cover up. Later, at the coffee house, Phoebe introduces her friends to Vince, a handsome fireman she is dating.",
+    "cumulative_summary": "In their apartment, Joey and Chandler share a lighthearted moment joking about their pet chick and duck. Their banter is interrupted when Ross arrives with an unusual request: he needs help inspecting a mysterious skin growth on his lower back that he cannot see himself. Reluctantly, Joey and Chandler examine the growth, debating whether it is a mole or a pimple, until Rachel suddenly walks in, causing an embarrassed Ross to quickly stand up. Later, the scene shifts to the local coffee house where Chandler, Joey, and Rachel are relaxing. Phoebe arrives and introduces the group to Vince, a fireman she is currently seeing, setting a lighthearted and curious tone for the friends' social circle."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:46 - 00:03:34",
+    "batch_summary": "At the coffee house, Vince the fireman shuts down Chandler's jokes about fire safety before leaving. Rachel and Joey discover that Phoebe is secretly dating both Vince and a kindergarten teacher named Jason. Meanwhile, Ross arrives with news that his doctor found his skin growth benign but refused to remove it because it is unidentifiable. Chandler recommends his own doctor, who previously removed his third nipple.",
+    "cumulative_summary": "In their apartment, Joey and Chandler joke about their pets before Ross arrives, asking them to inspect a mysterious skin growth on his lower back. Their awkward examination is cut short when Rachel walks in. Later at the coffee house, Phoebe introduces the group to Vince, a serious fireman who quickly shuts down Chandler's jokes about fire safety. After Vince leaves, Phoebe confesses to Rachel and Joey that she is secretly juggling two relationships, as she is also dating a kindergarten teacher named Jason. Ross then joins the friends and reveals that while his skin growth is benign, the doctor refused to remove it because it remains unidentifiable. Eager to help, Chandler recommends his own doctor, who previously sliced off his third nipple."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:34 - 00:05:09",
+    "batch_summary": "Joey and Chandler tease Ross about his mysterious skin growth, joking it might be named after him. Meanwhile, Monica panics when Pete leaves a \"we need to talk\" message, fearing an impending breakup. While on a date with Jason, Phoebe frantically flees a car fire to avoid calling the fire department and risking a run-in with her other boyfriend, Vince. Finally, Ross visits Chandler's doctor, who is amused by Chandler's past third nipple, to get his own growth examined.",
+    "cumulative_summary": "In their apartment, Joey and Chandler joke about their pets before Ross arrives, asking them to inspect a mysterious skin growth on his lower back. Later at the coffee house, Phoebe introduces the group to Vince, a serious fireman, but secretly confesses she is also dating a kindergarten teacher named Jason. When Ross's doctor refuses to remove his benign but unidentifiable growth, Chandler recommends his own doctor. Meanwhile, Joey and Chandler tease Ross about his growth, joking it will be named \"the Ross.\" Monica arrives in a panic, convinced Pete is breaking up with her after he leaves a \"we need to talk\" message. While on a date with Jason, Phoebe frantically flees a car fire to avoid a run-in with Vince's fire department. Finally, Ross visits Chandler's doctor to get his mysterious growth examined, hoping for a quick removal."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:09 - 00:06:50",
+    "batch_summary": "Ross's doctor visit takes an embarrassing turn when Dr. Rhodes reveals his mysterious growth is actually on his buttocks, not his chest, and calls in multiple colleagues to examine the bizarre anomaly. Meanwhile, at the coffee house, Monica contemplates neglecting Pete's plants out of anxiety over their potential breakup. Phoebe arrives, stressed and exhausted from secretly dating both Vince and Jason. When Monica and the group suggest she choose one, Phoebe begins to weigh her options, starting with the burly fireman, Vince.",
+    "cumulative_summary": "In their apartment, Joey and Chandler joke about their pets before Ross asks them to inspect a mysterious skin growth on his lower back. At the coffee house, Phoebe introduces the group to Vince, a serious fireman, but secretly confesses she is also dating a kindergarten teacher named Jason. Meanwhile, Monica panics that Pete is breaking up with her after a vague message. After a frantic escape from a car fire to avoid Vince, Phoebe grows increasingly stressed by the exhausting double-dating. Monica suggests she simply choose one, prompting Phoebe to weigh her options. Meanwhile, Ross's medical quest takes a humiliating turn. When he visits Chandler's doctor to have his \"third nipple\" removed, Dr. Rhodes points out the growth is actually on his buttocks. Deeming it highly unusual, the doctor calls in several colleagues to examine the bizarre anomaly, leaving a vulnerable Ross exposed and deeply embarrassed."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:50 - 00:08:34",
+    "batch_summary": "Phoebe remains torn between Vince and Jason, receiving conflicting advice from Joey and Chandler. Meanwhile, Ross's medical embarrassment peaks when Dr. Rhodes admits he is stumped by the growth and gathers a crowd of doctors to examine him. Later, Monica brings the group to Pete's incredibly high-tech, luxurious apartment. While Monica warns everyone not to touch anything, the friends are instantly amazed by the voice-controlled lights, talking refrigerator, and Pete's wealth.",
+    "cumulative_summary": "Phoebe struggles to choose between Vince, a burly firefighter, and Jason, a sensitive teacher, receiving conflicting advice from Joey and Chandler. Meanwhile, Ross's medical quest takes a humiliating turn. After discovering his 'third nipple' is actually on his buttocks, Ross is left mortified when Dr. Rhodes admits he is stumped by the growth and invites a crowd of colleagues to examine it. Later, Monica brings the gang to Pete's incredibly luxurious, high-tech apartment. Despite Monica's strict warnings not to touch anything, the friends are instantly amazed by the voice-activated lights, a talking refrigerator, and Pete's immense wealth."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:34 - 00:10:09",
+    "batch_summary": "While the gang is snooping in Pete's apartment, Pete calls Monica on his high-tech video phone, easily spotting the friends trying to hide. After Pete assures Monica that his upcoming news is good and they exchange \"I love yous,\" Joey discovers a checkbook showing Pete wrote a $50,000 check to a ring designer. The group ecstatically realizes Pete is planning to propose, prompting Phoebe to celebrate Monica marrying a millionaire, while a thrilled Ross hilariously hands Monica a lampshade to \"call mom.\"",
+    "cumulative_summary": "Phoebe struggles to choose between Vince, a firefighter, and Jason, a teacher, while Ross faces humiliation when doctors gather to examine a mysterious growth on his buttocks. Meanwhile, Monica brings the gang to Pete's luxurious, high-tech apartment. Despite her warnings, the friends explore, only to be caught when Pete calls Monica on his video phone. After Pete assures Monica that his upcoming news is good, they exchange \"I love yous,\" prompting playful teasing from the group. The excitement escalates when Joey snoops through Pete's checkbook and discovers a $50,000 check written to a ring designer. Realizing Pete is planning to propose, the gang is ecstatic, with Phoebe celebrating that Monica is going to marry a millionaire and Ross hilariously urging Monica to call her mother."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 272,
+    "timestamp_range": "00:10:09 - 00:11:39",
+    "batch_summary": "Back at the apartment, the gang excitedly discusses Pete's potential proposal. Rachel jokingly suggests a money-themed wedding, while Monica remains hesitant, pointing out they have only been dating for a few weeks. Ross warns Monica not to rush into marriage, prompting a sharp comeback from Rachel about his own past marriage. Phoebe advises Monica to trust her feelings in the moment before rushing off to break up with Vince.",
+    "cumulative_summary": "Phoebe struggles to choose between Vince and Jason, while Ross faces humiliation when doctors examine a mysterious growth on his buttocks. Meanwhile, Monica brings the gang to Pete's high-tech apartment, where Joey discovers a $50,000 check written to a ring designer, sparking excitement over an impending proposal. Back at Monica's apartment, the group playfully teases Monica about marrying a millionaire, with Rachel jokingly suggesting a money-themed wedding. Monica, however, feels hesitant about rushing into marriage after only a few weeks of dating. When Ross agrees that she shouldn't rush, Rachel quickly shuts him down by bringing up his own failed marriage to a lesbian. Ultimately, Phoebe advises Monica to wait for the proposal and trust her gut feeling in the moment, before Phoebe abruptly leaves to break up with Vince."
+  }
+]

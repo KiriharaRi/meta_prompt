@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:45",
+    "batch_summary": "In Monica's apartment, Joey performs a simple card trick for his friends, later humorously revealing that his \"magic\" is just looking at the card quickly. The group's fun is interrupted by loud thumping from the upstairs neighbor. Monica explains the neighbor is too charming to confront, prompting Phoebe to go upstairs and handle it. However, the thumping soon turns into rapid, rhythmic squeaking and muffled voices, leaving Rachel, Ross, Monica, and Joey staring at the ceiling in shocked realization of what Phoebe is doing.",
+    "cumulative_summary": "The story begins in an apartment living room where Rachel, Ross, Monica, Phoebe, and Joey are hanging out. Joey entertains the group with a card trick, successfully guessing Monica's card. While he initially claims it is real magic, he later humorously reveals his secret is simply looking at the card very quickly. The lighthearted atmosphere is interrupted by loud, rhythmic thumping from the ceiling. Monica explains that their upstairs neighbor removed his carpets, making every sound audible, but notes he is too charming for her to successfully complain to. Confident in her own resolve, Phoebe volunteers to go upstairs and demand quiet. Shortly after she leaves, the thumping stops, only to be replaced by a rapid, rhythmic squeaking sound and muffled voices. Downstairs, Rachel, Ross, Monica, and Joey listen in stunned silence as they realize Phoebe's confrontation has taken an unexpectedly intimate turn."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:45 - 00:03:45",
+    "batch_summary": "Chandler arrives at the apartment depressed after seeing his ex-girlfriend, Janice, looking happy with her husband. While Monica comforts him and Ross invites him to Joey's upcoming birthday party, the rhythmic squeaking from upstairs persists, indicating Phoebe is still with the neighbor. Later, at her fashion job, Rachel's boss, Mr. Kaplan, recognizes her potential and promises her a new, fashion-related project, much to her excitement.",
+    "cumulative_summary": "The friends' gathering is interrupted by loud thumping from the ceiling, prompting Phoebe to confront the charming upstairs neighbor. However, the noise quickly turns into intimate squeaking, leaving the group downstairs in stunned silence. Later, Chandler arrives in a somber mood after spotting his ex-girlfriend, Janice, looking happy with her husband. While Monica comforts him and Ross invites him to Joey's upcoming birthday party, the rhythmic squeaking from upstairs continues, confirming Phoebe's prolonged encounter. Meanwhile, Rachel experiences a professional breakthrough at her fashion job when her boss, Mr. Kaplan, recognizes her potential and offers her a new, fashion-related project instead of her usual coffee duties."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:45 - 00:05:46",
+    "batch_summary": "Rachel is disappointed when her new fashion task is merely separating tangled wire hangers. While venting at a diner about her demeaning job, she meets Mark, a sympathetic stranger who works at Bloomingdale's and offers to help her find a better job. Meanwhile, at Joey's birthday party, Monica expresses concern to Phoebe about her dating the charming but noisy upstairs neighbor, while Joey reveals Chandler is in charge of the missing jello shots.",
+    "cumulative_summary": "The friends' gathering is interrupted by loud thumping from the ceiling, prompting Phoebe to confront the charming upstairs neighbor, which quickly turns into an intimate encounter. Later, Chandler arrives in a somber mood after seeing his ex-girlfriend, Janice, happy with her husband. Meanwhile, Rachel's promised \"fashion project\" from her boss, Mr. Kaplan, turns out to be the demeaning task of separating tangled wire hangers. Frustrated, Rachel vents at a diner, where she meets Mark, a sympathetic Bloomingdale's employee who offers her a potential job lead. Later, at Joey's crowded birthday party, Monica questions Phoebe about her decision to date the noisy upstairs neighbor, noting his charm will make him harder to hate. As the party gets underway, Monica searches for the missing jello shots, which Chandler was supposed to be distributing."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:46 - 00:07:37",
+    "batch_summary": "At Joey's birthday party, a heavily intoxicated Chandler slurs his words after consuming pure vodka jello shots. Meanwhile, Rachel excitedly shares her Bloomingdale's job lead with Ross. However, Ross immediately becomes jealous and cynical, arguing alongside Joey that the stranger, Mark, only wants sex. Frustrated by Ross's insecurity, Rachel walks off. The party's energy shifts as Joey's numerous sisters arrive, confusing a very drunk Chandler, while Phoebe serves drinks.",
+    "cumulative_summary": "The friends' gathering is interrupted by loud thumping from the ceiling, prompting Phoebe to confront the charming upstairs neighbor, which quickly turns into an intimate encounter. Later, Chandler arrives in a somber mood after seeing his ex-girlfriend, Janice, happy with her husband. Meanwhile, Rachel's promised 'fashion project' from her boss turns out to be the demeaning task of separating tangled wire hangers. Frustrated, Rachel vents at a diner, where she meets Mark, a sympathetic Bloomingdale's employee who offers her a potential job lead. At Joey's birthday party, Monica searches for the missing jello shots, only to find Chandler heavily intoxicated from consuming them. Rachel excitedly shares her job lead with Ross, but his immediate jealousy and cynicism—backed by Joey's claim that men are only nice for sex—frustrates Rachel, who walks away. The party gains energy as Joey's numerous sisters arrive, further confusing a drunken Chandler, while Phoebe serves drinks."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:37 - 00:09:16",
+    "batch_summary": "At the party, Phoebe has a bizarre encounter with a guest, while a drunken Chandler makes an inappropriate comment to a woman after removing Janice from his speed dial. Ross's jealousy intensifies when Monica calls Mark \"dreamy.\" The next morning, Ross continues to grill Rachel about Mark's intentions, prompting a sarcastic response from her. Meanwhile, a severely hungover Chandler stumbles into the kitchen, revealing he spent the night alone in the storage room after blacking out.",
+    "cumulative_summary": "The friends' gathering is interrupted by Phoebe's brief encounter with a charming neighbor, while Chandler is left depressed after seeing his ex, Janice. Rachel, frustrated by her demeaning job, meets Mark, a Bloomingdale's employee who offers her a job lead. At Joey's birthday party, Chandler gets heavily intoxicated on jello shots. Ross's immediate jealousy over Mark frustrates Rachel. At the party, Chandler drunkenly tries to remove Janice from speed dial and makes an inappropriate comment to a guest, while Ross's insecurity grows when Monica calls Mark \"dreamy.\" The next morning, Ross continues to question Mark's motives, prompting a sarcastic retort from Rachel. Meanwhile, a severely hungover Chandler stumbles in, revealing he spent the night alone in the storage room."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:16 - 00:10:50",
+    "batch_summary": "Chandler confesses to the group that he fooled around with one of Joey's sisters at the party, but he cannot remember which one. Monica warns him of Joey's wrath, while Ross uses Chandler's bad behavior to argue his point about men to Rachel. After a comedic mix-up where Chandler mistakes Monica for one of the sisters, Joey arrives. Joey reveals he just spoke to his sister, Mary Angela, about the incident, leaving Chandler in a panic as Ross sarcastically highlights Chandler's ignorance.",
+    "cumulative_summary": "The friends' gathering is interrupted by Phoebe's brief encounter with a charming neighbor, while Chandler is left depressed after seeing his ex, Janice. Rachel, frustrated by her demeaning job, meets Mark, a Bloomingdale's employee who offers her a job lead. At Joey's birthday party, Chandler gets heavily intoxicated. Ross's immediate jealousy over Mark frustrates Rachel. The next morning, a severely hungover Chandler confesses to the group that he fooled around with one of Joey's sisters but cannot remember which one. Monica warns him of Joey's wrath, while Ross uses Chandler's behavior to justify his own cynical views on men to Rachel. After a series of comedic misunderstandings—including Chandler confusing Monica for one of the sisters—Joey confronts Chandler, revealing he just spoke with his sister, Mary Angela. Ross sarcastically highlights Chandler's cluelessness as the tension rises."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 252,
+    "timestamp_range": "00:10:50 - 00:11:20",
+    "batch_summary": "Joey confronts Chandler, asking if he genuinely has feelings for his sister, Mary Angela, or if he is just using her to get over Janice. Terrified of Joey's reaction, Chandler quickly lies and claims he could really fall for her. Overjoyed by this revelation, Joey happily hugs Chandler, completely unaware of Chandler's panic as he realizes the corner he has painted himself into.",
+    "cumulative_summary": "The friends' gathering is interrupted by Phoebe's brief encounter with a charming neighbor, while Chandler is left depressed after seeing his ex, Janice. Rachel, frustrated by her demeaning job, meets Mark, a Bloomingdale's employee who offers her a job lead. At Joey's birthday party, Chandler gets heavily intoxicated. Ross's immediate jealousy over Mark frustrates Rachel. The next morning, a severely hungover Chandler confesses to the group that he fooled around with one of Joey's sisters but cannot remember which one. Monica warns him of Joey's wrath, while Ross uses Chandler's behavior to justify his own cynical views on men to Rachel. After a series of comedic misunderstandings, Joey confronts Chandler about his sister, Mary Angela. When Joey asks if Chandler's feelings are genuine or just a rebound from Janice, a panicked Chandler lies and claims he is falling for her. Joey is thrilled and embraces Chandler, leaving Chandler terrified of the consequences of his lie."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:57",
+    "batch_summary": "Ross arrives late to the apartment after a date with a woman from Poughkeepsie, prompting jokes from Chandler and Phoebe while Joey successfully finishes stuffing 15 Oreos in his mouth. Later, at a festively decorated coffee shop, Chandler regrets missing the Christmas tree lighting with Kathy due to reading an old newspaper. This triggers Rachel, who laments being single during the holidays and passionately declares her desire for a partner.",
+    "cumulative_summary": "Ross arrives late to the apartment after a date with a woman he met on a train. Although he really likes her, the group teases him about the long distance, as she lives two and a half hours away in Poughkeepsie. Meanwhile, Joey celebrates a personal milestone by successfully stuffing 15 Oreos into his mouth. Later, at the coffee shop decorated for the holidays, Chandler realizes he missed the annual Christmas tree lighting with his girlfriend, Kathy, because he was reading a two-week-old newspaper. This realization prompts Rachel to reflect on her own single status. Feeling lonely and dreading spending the upcoming holidays, Valentine's Day, and her birthday alone, Rachel passionately declares to the group that she wants a man in her life."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:57 - 00:03:58",
+    "batch_summary": "Rachel clarifies she is open to a casual fling, prompting Chandler to offer to set her up with someone from his office, though Rachel insists on avoiding guys with boring jobs. Meanwhile, a distressed Monica arrives at the coffee shop. Her restaurant staff continues to torment her, even writing an insulting message on her chef's hat. Despite the bullying, Monica refuses to quit her dream job but admits she is too afraid of confrontation to fire or yell at them, leading Chandler to suggest a potential solution.",
+    "cumulative_summary": "Ross arrives late to the apartment after a date with a woman he met on a train. Although he really likes her, the group teases him about the long distance, as she lives two and a half hours away in Poughkeepsie. Meanwhile, Joey celebrates a personal milestone by successfully stuffing 15 Oreos into his mouth. Later, at the coffee shop decorated for the holidays, Chandler realizes he missed the annual Christmas tree lighting with his girlfriend, Kathy, because he was reading a two-week-old newspaper. This realization prompts Rachel to reflect on her own single status. Feeling lonely and dreading spending the upcoming holidays alone, Rachel passionately declares to the group that she wants a man in her life, even if it is just a casual fling. Chandler happily offers to set her up with someone from his office, provided they don't have a boring job. Meanwhile, Monica arrives at the coffee shop in distress; her restaurant staff still hates her and wrote an insulting message on her chef's hat. Though she is devastated by the bullying, Monica refuses to quit her dream job but struggles to confront them."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:58 - 00:05:54",
+    "batch_summary": "To help Monica assert authority over her hostile restaurant staff, Chandler suggests she hire and publicly fire someone. Joey volunteers for the job, and Monica eagerly hires him. Meanwhile, Chandler attempts to set Rachel up with his coworker Drew. When Mike overhears that Rachel is looking for a casual fling, both men become highly competitive. They begin bribing Chandler with sports tickets, cigars, and expensive liquor to secure a date with her, much to Chandler's delight.",
+    "cumulative_summary": "After Ross's friends tease him about his long-distance date and Joey celebrates eating 15 Oreos, Rachel confesses her dread of spending the holidays alone and asks for a casual fling. Chandler offers to set her up with someone from his office. Meanwhile, Monica is devastated by her bullying restaurant staff but refuses to quit. To help her assert authority, Chandler suggests she hire and publicly fire someone; Joey eagerly volunteers for the ruse. At his office, Chandler's attempt to pitch Rachel to his coworker Drew takes an unexpected turn when another colleague, Mike, overhears. Realizing Rachel is looking for a casual relationship, both men become intensely competitive. They begin bribing Chandler with Ranger tickets, Cuban cigars, and high-end liquor to win a date with her, leaving Chandler happily exploiting his newfound leverage."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:54 - 00:07:39",
+    "batch_summary": "After a coworker takes bribing too far by loosening his pants, Chandler heads home to the apartment. There, Phoebe performs her new holiday song but struggles to find a rhyme for Rachel's name, leading to silly suggestions from Joey and Monica. Chandler arrives and excitedly boasts to Rachel about the dozens of men competing for her, admitting he plans to prolong the matchmaking process to keep receiving bribes and perks from his desperate coworkers.",
+    "cumulative_summary": "After Rachel confesses her dread of spending the holidays alone, Chandler offers to set her up with a coworker. Meanwhile, Monica plans to assert authority over her bullying restaurant staff by hiring and publicly firing Joey. At Chandler's office, his pitch to set Rachel up triggers an intense bidding war among his colleagues, who shower him with bribes like Ranger tickets and cigars. The bribery escalates until one coworker goes too far, prompting Chandler to head home. Back at the apartment, Phoebe shares a festive holiday song she is writing, though she hilariously struggles to find a rhyme for Rachel's name despite Joey's absurd suggestions. Chandler soon arrives and boasts to Rachel about the massive interest she has generated. However, instead of immediately setting her up, Chandler admits he wants to prolong the matchmaking process to continue milking his desperate colleagues for gifts and perks."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:39 - 00:09:23",
+    "batch_summary": "Chandler pitches a promising coworker named Patrick to Rachel, despite Phoebe and Joey's hilarious confusion about Chandler's actual job. Meanwhile, Monica and Joey successfully rehearse their fake firing routine to help Monica establish authority at her restaurant. Later, Ross shares his romantic dilemma with Chandler and Phoebe: he is torn between a fun woman who lives a grueling two hours away in Poughkeepsie, and a local woman who is smart and pretty but completely lacks a sense of fun.",
+    "cumulative_summary": "After Rachel confesses her dread of spending the holidays alone, Chandler offers to set her up with a coworker, which quickly escalates into a lucrative bidding war at his office. Back at the apartment, Chandler pitches a promising candidate named Patrick to Rachel, despite Phoebe and Joey's hilarious confusion about Chandler's actual job. Meanwhile, Monica plans to assert authority over her bullying restaurant staff by hiring and publicly firing Joey, and the two successfully rehearse their dramatic confrontation. Later, at Central Perk, Ross reveals his own romantic dilemma to Chandler and Phoebe. He is torn between two women: a fun, smart woman who lives a grueling two-hour train ride away in Poughkeepsie, and a local woman who is smart and pretty but completely lacks a sense of fun."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:23 - 00:10:55",
+    "batch_summary": "Ross continues to debate his dating options, admitting his local prospect might actually be stupid and racist. Meanwhile, Joey's first day at the restaurant is a disaster, and after the staff bakes Monica's chef coat, she decides to execute their plan to fire Joey that night. Later, Rachel enthusiastically tells Chandler that her date with Patrick went so well she wants a serious relationship, leaving Chandler worried about what he previously told Patrick.",
+    "cumulative_summary": "After Rachel confesses her dread of spending the holidays alone, Chandler sets her up with his coworker Patrick. Following a highly successful first date, Rachel happily tells Chandler she wants a serious relationship, leaving Chandler panicked about what he previously told Patrick. Meanwhile, Ross continues to debate his romantic dilemma between a distant woman in Poughkeepsie and a local woman, admitting the local prospect might actually be stupid and racist. At the restaurant, Monica's bullying staff pushes her to the limit by baking her chef's coat. Exhausted and defeated after Joey's rough first day, Monica decides to execute her plan to publicly fire Joey that very night to finally assert her authority."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 243,
+    "timestamp_range": "00:10:55 - 00:11:08",
+    "batch_summary": "Rachel confronts Chandler after discovering he told Patrick she was only looking for a casual fling, expressing her frustration over his interference. Chandler, confused, questions why that is an issue, leaving their conversation unresolved as the scene abruptly cuts to black. This brief exchange highlights the immediate fallout of Chandler's panic and his misguided attempt to manage Rachel's dating life.",
+    "cumulative_summary": "After Rachel confesses her dread of spending the holidays alone, Chandler sets her up with his coworker Patrick. Following a highly successful first date, Rachel happily tells Chandler she wants a serious relationship, leaving Chandler panicked. Rachel soon discovers his blunder and confronts him for telling Patrick she was only looking for a casual fling, leaving Chandler cluelessly defending his actions. Meanwhile, Ross continues to debate his romantic dilemma between a distant woman in Poughkeepsie and a local woman, admitting the local prospect might actually be stupid and racist. At the restaurant, Monica's bullying staff pushes her to the limit by baking her chef's coat. Exhausted and defeated after Joey's rough first day, Monica decides to execute her plan to publicly fire Joey that very night to finally assert her authority."
+  }
+]

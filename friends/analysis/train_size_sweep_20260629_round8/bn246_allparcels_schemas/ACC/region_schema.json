@@ -1,0 +1,867 @@
+{
+  "version": "region_schema_v1",
+  "target_region": "ACC",
+  "functional_hypothesis": "The Anterior Cingulate Cortex (ACC) is a key hub for cognitive control, conflict monitoring, error detection, and affective processing. Its dorsal and caudal divisions (e.g., A24cd, A32p) are recruited during cognitive conflict, expectancy violations, and the appraisal of effort and action outcomes. Its rostral and ventral divisions (e.g., A24rv, A32sg) are heavily involved in the affective processing of vicarious distress, social pain, and tracking motivational salience and urgency. By annotating these dimensions, we can model how different sub-regions of the ACC respond to narrative tension, character struggles, and sudden shifts in movie scenes.",
+  "scoring_instruction": "Score each dimension on a scale from 0 to 10 based on the dense movie descriptions. A score of 0 indicates the complete absence of the feature, while 10 indicates its maximal, intense presence. Base your scores strictly on the evidence provided in the text. Evaluate the scene from the perspective of a typical viewer experiencing the narrative flow, paying close attention to character actions, environmental threats, and cognitive or emotional challenges.",
+  "selection_rules": [
+    {
+      "networks": [],
+      "sub_regions": [],
+      "hemispheres": [],
+      "label_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": "cognitive_conflict_and_expectancy_monitoring",
+      "definition": "The viewer's cognitive tracking and appraisal of narrative conflicts, goal obstructions, decision-making dilemmas, or expectancy violations where unfolding events mismatch established predictions.",
+      "region_relevance": "Dorsal and caudal divisions of the ACC (including A24cd and A32p) are heavily implicated in conflict monitoring, error detection, prediction error processing, and signaling the need for cognitive control.",
+      "scoreability_note": "Scoreable by identifying narrative moments where characters face sudden complications, conflicting goals, mutually exclusive choices, or unexpected plot twists that disrupt ongoing plans.",
+      "source_domain_ids": [
+        "run_1_conflict_and_obstacle_appraisal",
+        "run_2_narrative_conflict_monitoring",
+        "run_3_expectancy_violation_detection",
+        "run_4_viewer_conflict_appraisal",
+        "run_5_narrative_conflict_monitoring"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "These domains all capture the cognitive monitoring functions of the dACC/cACC, specifically tracking situational conflicts, obstacles, and mismatches between expectations and narrative reality. Merging them provides a robust, highly scoreable domain representing cognitive control demands."
+    },
+    {
+      "domain_id": "vicarious_distress_and_threat_appraisal",
+      "definition": "The viewer's affective appraisal and empathetic tracking of a character's physical pain, emotional suffering, social vulnerability, exclusion, or imminent threat.",
+      "region_relevance": "Rostral, ventral, and subgenual divisions of the ACC (including A24rv and A32sg) are core nodes of the affective pain and empathy networks, active during the vicarious processing of others' suffering, social rejection, and distress.",
+      "scoreability_note": "Highly scoreable from descriptions of characters undergoing physical harm, intense emotional suffering, social isolation, humiliation, or facing imminent threats.",
+      "source_domain_ids": [
+        "run_1_vicarious_threat_and_distress",
+        "run_2_vicarious_social_distress",
+        "run_3_vicarious_threat_appraisal",
+        "run_4_viewer_vicarious_distress",
+        "run_5_vicarious_distress_appraisal"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "These domains represent the affective and social processing functions of the rACC/vACC. They all focus on the viewer's vicarious resonance with characters' physical, emotional, or social distress, and are consolidated to avoid redundancy."
+    },
+    {
+      "domain_id": "appraised_effort_and_action_outcomes",
+      "definition": "The viewer's estimation of the physical, mental, or emotional effort exerted by characters to overcome obstacles, along with the evaluation of action-outcome uncertainty or success.",
+      "region_relevance": "Mid-cingulate and dorsal ACC are involved in calculating the cost-benefit of effort, tracking task difficulty, and processing action-outcome associations under high motivational demands.",
+      "scoreability_note": "Scoreable from descriptions of strenuous physical action, intense concentration, struggling against constraints, or performing high-stakes tasks where the outcome hangs in the balance.",
+      "source_domain_ids": [
+        "run_2_appraised_action_effort",
+        "run_3_effort_and_obstacle_tracking",
+        "run_5_effort_outcome_tracking"
+      ],
+      "source_runs": [
+        2,
+        3,
+        5
+      ],
+      "proposal_frequency": 3,
+      "consolidation_rationale": "These domains focus on the energetic and outcome-tracking aspects of the ACC, specifically the appraisal of effort and action difficulty. Merging them creates a distinct domain separate from pure conflict monitoring."
+    },
+    {
+      "domain_id": "motivational_salience_and_urgency_tracking",
+      "definition": "The viewer's detection and appraisal of the motivational significance, high-stakes nature, behavioral urgency, or dramatic shifts in the narrative that demand immediate attention.",
+      "region_relevance": "The ACC (particularly within the ventral attention/salience network, such as A24rv and A32sg) plays a crucial role in detecting salient environmental events and coordinating autonomic and motivational responses to urgent demands.",
+      "scoreability_note": "Scoreable by identifying narrative elements involving high-stakes crises, time pressure, sudden dramatic shifts, or intense action sequences that break narrative flow.",
+      "source_domain_ids": [
+        "run_1_motivational_salience_and_urgency",
+        "run_4_viewer_salience_tracking"
+      ],
+      "source_runs": [
+        1,
+        4
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "These domains capture the salience network functions of the ACC, focusing on the viewer's tracking of urgent, high-stakes, or highly unexpected narrative shifts. Merging them ensures a clean representation of salience detection."
+    }
+  ],
+  "active_domain_ids": [
+    "cognitive_conflict_and_expectancy_monitoring",
+    "vicarious_distress_and_threat_appraisal",
+    "appraised_effort_and_action_outcomes",
+    "motivational_salience_and_urgency_tracking"
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "narrative_conflict_and_dilemma",
+      "definition": "The degree to which characters face difficult choices, moral dilemmas, or conflicting goals that require complex decision-making.",
+      "domain": "cognitive_conflict_and_expectancy_monitoring",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character choosing between saving a friend or completing a mission",
+        "A heated argument where both sides have valid but incompatible points",
+        "A character struggling with a profound moral dilemma",
+        "A clash of loyalties or personal values"
+      ],
+      "graded_anchors": {
+        "0": "No conflict or dilemma; characters are in complete agreement or performing routine tasks.",
+        "1": "A minor, easily resolved disagreement or trivial choice.",
+        "2": "A slight difference in opinion or a minor preference choice.",
+        "3": "A clear disagreement or a choice that requires some thought but has low stakes.",
+        "4": "A moderate conflict of interest or a noticeable decision-making hurdle.",
+        "5": "A significant dilemma where a character must weigh two distinct options.",
+        "6": "A strong conflict between characters or a difficult moral choice with clear consequences.",
+        "7": "A major crisis of conscience or a highly contentious argument with high stakes.",
+        "8": "An intense, painful dilemma where any choice leads to significant negative outcomes.",
+        "9": "An overwhelming, tragic choice that tears a character apart internally.",
+        "10": "A monumental, life-defining moral dilemma or ultimate conflict of values with catastrophic stakes."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character decides whether to eat a sandwich or a salad for lunch.",
+          "score": 1
+        },
+        {
+          "scene": "A soldier must choose between obeying a direct order to destroy a village or protecting the innocent civilians hiding inside.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for explicit descriptions of internal conflict, difficult choices, or interpersonal arguments where goals are mutually exclusive.",
+      "exclusion_note": "Do not score simple physical obstacles or external threats without a decision-making component."
+    },
+    {
+      "dimension_id": "expectancy_violation_and_surprise",
+      "definition": "The occurrence of sudden plot twists, unexpected events, or mismatches with established predictions that surprise the characters or the viewer.",
+      "domain": "cognitive_conflict_and_expectancy_monitoring",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A sudden betrayal by a trusted ally",
+        "An unexpected environmental hazard appearing out of nowhere",
+        "A shocking revelation that changes the understanding of the plot",
+        "A character surviving an event thought to be fatal"
+      ],
+      "graded_anchors": {
+        "0": "Events unfold exactly as expected; highly predictable sequence.",
+        "1": "A very minor, predictable variation in the scene.",
+        "2": "A slight surprise or minor unexpected detail that does not alter the plot.",
+        "3": "A mild turn of events that mildly deviates from expectations.",
+        "4": "A noticeable surprise, such as an unexpected visitor or minor setback.",
+        "5": "A moderate plot twist or unexpected event that requires characters to adjust their plans.",
+        "6": "A significant revelation or sudden event that disrupts the current narrative direction.",
+        "7": "A major, shocking twist that fundamentally alters a character's situation.",
+        "8": "An extreme, mind-bending revelation or catastrophic unexpected event.",
+        "9": "A massive, paradigm-shifting twist that completely upends the entire narrative reality.",
+        "10": "An absolute, unprecedented shockwave of an event that completely shatters all expectations and predictions."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character opens a drawer and finds a pen they thought they lost.",
+          "score": 2
+        },
+        {
+          "scene": "During a peaceful wedding, the groom's closest friend suddenly pulls out a weapon and reveals he has been working for the enemy all along.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Score based on the suddenness and magnitude of the deviation from what was expected in the narrative context.",
+      "exclusion_note": "Do not score expected progression of events, even if they are dramatic or intense."
+    },
+    {
+      "dimension_id": "goal_obstruction_and_setback",
+      "definition": "The appearance of sudden complications, barriers, or failures that block a character's ongoing plans and force them to adapt.",
+      "domain": "cognitive_conflict_and_expectancy_monitoring",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A key piece of equipment breaking down at a critical moment",
+        "A path being blocked by a sudden collapse",
+        "An opponent successfully anticipating and blocking a character's move",
+        "A sudden change in rules or environment that invalidates a plan"
+      ],
+      "graded_anchors": {
+        "0": "No obstacles; goals are achieved smoothly and without hindrance.",
+        "1": "A trivial inconvenience that is bypassed immediately.",
+        "2": "A minor delay or small hurdle that requires minimal effort to overcome.",
+        "3": "A clear setback that requires a brief change of plans.",
+        "4": "A moderate obstruction that temporarily halts progress.",
+        "5": "A significant barrier that forces the character to find an entirely new approach.",
+        "6": "A major failure or block that threatens the viability of the entire plan.",
+        "7": "A devastating setback that ruins hours or days of preparation.",
+        "8": "An extreme obstruction that seems nearly impossible to overcome, causing despair.",
+        "9": "A catastrophic failure where the main goal is completely shattered and ruined.",
+        "10": "An absolute, irreversible destruction of all plans and goals, leaving no path forward."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character drops their car keys but quickly picks them up and unlocks the door.",
+          "score": 2
+        },
+        {
+          "scene": "Just as the team is about to hack the main server, the power grid is cut, locking them in a high-security vault with the alarm sounding.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Look for descriptions where a character's active goal is actively thwarted or delayed by an external force or event.",
+      "exclusion_note": "Do not score general distress or pain unless it directly blocks an active, ongoing goal."
+    },
+    {
+      "dimension_id": "vicarious_physical_pain",
+      "definition": "The empathetic tracking of a character's physical injuries, bodily harm, or intense physical suffering.",
+      "domain": "vicarious_distress_and_threat_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character getting cut, bruised, or shot",
+        "A character enduring torture or physical abuse",
+        "A character collapsing from extreme physical exhaustion or illness",
+        "A graphic depiction of a bone breaking or wound opening"
+      ],
+      "graded_anchors": {
+        "0": "No physical pain or discomfort described.",
+        "1": "A minor scratch, stubbed toe, or trivial discomfort.",
+        "2": "A mild bruise, small cut, or brief headache.",
+        "3": "A noticeable injury, like a sprained ankle or a shallow cut, causing visible discomfort.",
+        "4": "Moderate pain, such as a deep cut or a hard blow to the body.",
+        "5": "Significant physical suffering, such as a broken bone or a bleeding wound.",
+        "6": "Severe pain, like being shot, stabbed, or enduring intense physical beating.",
+        "7": "Agonizing physical trauma, such as severe burns or prolonged physical torture.",
+        "8": "Extreme, excruciating bodily mutilation or life-threatening physical agony.",
+        "9": "Unbearable, graphic physical torment that is highly distressing to witness.",
+        "10": "The absolute peak of physical agony, involving catastrophic, fatal bodily destruction."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character bumps their elbow against a doorframe and winces slightly.",
+          "score": 2
+        },
+        {
+          "scene": "A climber's leg is crushed under a falling boulder, and they scream in agony as they try to pull themselves free.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Score based on the vividness and severity of the physical suffering described and its capacity to evoke empathy.",
+      "exclusion_note": "Do not score emotional sadness or social rejection here; focus strictly on physical bodily harm."
+    },
+    {
+      "dimension_id": "social_exclusion_and_humiliation",
+      "definition": "The empathetic tracking of a character experiencing social rejection, isolation, public embarrassment, or deep emotional vulnerability.",
+      "domain": "vicarious_distress_and_threat_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character being mocked or laughed at by a crowd",
+        "A character being explicitly excluded from a group or conversation",
+        "A character experiencing a public betrayal or exposure of a secret",
+        "A character crying alone after being rejected by a loved one"
+      ],
+      "graded_anchors": {
+        "0": "No social discomfort; characters are well-integrated, supported, or alone by choice.",
+        "1": "A minor social awkwardness or slightly ignored comment.",
+        "2": "A mild snub or a brief moment of feeling out of place.",
+        "3": "A clear rejection or minor embarrassment in front of a small group.",
+        "4": "Moderate social exclusion, such as being left out of an important gathering.",
+        "5": "Significant humiliation, such as being publicly corrected or mildly mocked.",
+        "6": "Severe social rejection, like being dumped publicly or ostracized by friends.",
+        "7": "Deep emotional vulnerability and shame, such as having one's deepest secrets exposed to a hostile crowd.",
+        "8": "Extreme, systematic bullying, public shaming, or total social isolation.",
+        "9": "Devastating, soul-crushing humiliation that completely destroys a character's social standing and self-worth.",
+        "10": "The absolute pinnacle of social exile and public degradation, leading to complete psychological collapse."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character waves at someone who doesn't see them, feeling a bit awkward.",
+          "score": 2
+        },
+        {
+          "scene": "A high school student stands on stage as their private diary is read aloud over the loudspeaker, while the entire school laughs and points.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for descriptions of social dynamics where a character is marginalized, shamed, or emotionally hurt by others.",
+      "exclusion_note": "Do not score physical threats or physical pain unless accompanied by social humiliation."
+    },
+    {
+      "dimension_id": "imminent_threat_and_fear",
+      "definition": "The tracking of a character facing immediate physical danger, threat of violence, or terrifying situations that evoke fear.",
+      "domain": "vicarious_distress_and_threat_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character being chased by a dangerous predator or killer",
+        "A character cornered with a weapon pointed at them",
+        "A character trapped in a burning building or sinking vehicle",
+        "A character hiding in terror as a threat searches for them"
+      ],
+      "graded_anchors": {
+        "0": "Complete safety; no threats or dangers present.",
+        "1": "A very remote or highly unlikely threat mentioned in passing.",
+        "2": "A minor hazard, like walking on a slippery sidewalk.",
+        "3": "A low-level threat, such as a dog barking behind a fence.",
+        "4": "A moderate threat, like walking through a dark, unfamiliar alley.",
+        "5": "A clear and present danger, such as a character being followed by a suspicious figure.",
+        "6": "A severe threat, like being caught in a crossfire or chased by an armed assailant.",
+        "7": "An imminent, life-threatening situation where escape routes are rapidly closing.",
+        "8": "Extreme terror, such as being held at gunpoint or trapped in a collapsing structure.",
+        "9": "A terrifying, near-fatal encounter where death seems almost certain.",
+        "10": "An absolute nightmare scenario of inescapable, immediate, and violent death."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character notices a storm cloud in the distance while sitting safely indoors.",
+          "score": 1
+        },
+        {
+          "scene": "A woman hides under a bed, holding her breath, as a masked killer slowly enters the room, his footsteps squeaking on the floorboards right next to her.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on the proximity, severity, and inescapability of the physical threat to the character.",
+      "exclusion_note": "Do not score long-term, abstract threats or non-physical worries."
+    },
+    {
+      "dimension_id": "strenuous_physical_effort",
+      "definition": "The physical energy, exertion, and struggle of characters pushing their bodies to the limit to overcome obstacles.",
+      "domain": "appraised_effort_and_action_outcomes",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character sprinting at full speed to escape or catch someone",
+        "A character lifting a heavy object to save someone",
+        "A character climbing a steep cliff face with bare hands",
+        "A character fighting through extreme physical exhaustion to keep moving"
+      ],
+      "graded_anchors": {
+        "0": "No physical effort; characters are resting, sitting, or moving effortlessly.",
+        "1": "Trivial physical activity, like walking a short distance or picking up a cup.",
+        "2": "Mild physical activity, like climbing a flight of stairs or carrying groceries.",
+        "3": "Moderate exertion, like jogging or lifting a moderately heavy box.",
+        "4": "Clear physical effort, such as digging a hole or running to catch a bus.",
+        "5": "Significant physical struggle, like carrying an injured person or swimming against a current.",
+        "6": "Heavy physical exertion, such as sprinting uphill or engaging in a physical fight.",
+        "7": "Intense physical labor, pushing the body to the point of heavy sweating and rapid breathing.",
+        "8": "Extreme physical strain, such as hanging onto a ledge by fingertips or dragging a heavy load for miles.",
+        "9": "Near-complete physical exhaustion, where muscles are failing but the character forces themselves to continue.",
+        "10": "The absolute limit of human physical endurance, resulting in total bodily collapse or heroic physical feat."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character walks leisurely through a park on a sunny afternoon.",
+          "score": 1
+        },
+        {
+          "scene": "A man desperately sprints through a dense forest, leaping over fallen logs and pushing through thick briars, his lungs burning as he tries to outrun a pack of wolves.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Look for descriptions of intense physical labor, muscle strain, heavy breathing, and physical endurance.",
+      "exclusion_note": "Do not score mental effort or emotional struggle here; focus strictly on physical exertion."
+    },
+    {
+      "dimension_id": "intense_cognitive_concentration",
+      "definition": "The mental effort, deep focus, and complex problem-solving exhibited by characters under high-stakes pressure.",
+      "domain": "appraised_effort_and_action_outcomes",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character carefully defusing a bomb with a ticking timer",
+        "A character solving a complex mathematical puzzle to unlock a door",
+        "A character planning a highly intricate heist under tight constraints",
+        "A surgeon performing a delicate, high-precision operation"
+      ],
+      "graded_anchors": {
+        "0": "No cognitive effort; characters are daydreaming, sleeping, or acting on pure instinct.",
+        "1": "Trivial mental activity, like reading a simple sign or checking the time.",
+        "2": "Mild mental focus, like writing a short note or doing basic arithmetic.",
+        "3": "Moderate concentration, like playing a casual game of cards or reading a map.",
+        "4": "Clear cognitive effort, such as studying for an exam or solving a crossword puzzle.",
+        "5": "Significant mental focus, like debugging a computer program or planning a route through a maze.",
+        "6": "High cognitive strain, such as a detective analyzing a complex crime scene for subtle clues.",
+        "7": "Intense mental concentration, like a grandmaster playing a high-stakes chess match.",
+        "8": "Extreme cognitive pressure, such as a hacker trying to bypass a security system while being actively traced.",
+        "9": "Overwhelming mental strain, where a single cognitive error would result in immediate catastrophe.",
+        "10": "The absolute peak of cognitive focus, requiring superhuman mental calculation and flawless precision under life-or-death pressure."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character casually scrolls through their phone, looking at social media posts.",
+          "score": 1
+        },
+        {
+          "scene": "With only thirty seconds left, a bomb disposal expert stares at a maze of colored wires, sweating profusely as he carefully calculates which wire to cut to prevent a massive explosion.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for descriptions of intense mental focus, calculation, strategic planning, or high-precision tasks.",
+      "exclusion_note": "Do not score physical strength or emotional outbursts; focus on intellectual or cognitive strain."
+    },
+    {
+      "dimension_id": "outcome_uncertainty_and_suspense",
+      "definition": "The degree of suspense and uncertainty surrounding whether a character's high-stakes action will succeed or fail.",
+      "domain": "appraised_effort_and_action_outcomes",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character waiting for the results of a critical medical test",
+        "A character taking a shot at a target with everything on the line",
+        "A character hiding as a searchlight passes inches away",
+        "A character waiting to see if a risky plan will actually work"
+      ],
+      "graded_anchors": {
+        "0": "Complete certainty; the outcome of any action is obvious and guaranteed.",
+        "1": "Very low uncertainty; a routine action with a highly predictable outcome.",
+        "2": "Slight uncertainty; a minor risk with minimal consequences.",
+        "3": "Mild suspense; a situation where the outcome is not guaranteed but stakes are low.",
+        "4": "Moderate uncertainty, such as a character waiting to hear if they got a job.",
+        "5": "Significant suspense; a risky move where success and failure are equally likely.",
+        "6": "High-stakes uncertainty, such as a character launching a daring rescue attempt.",
+        "7": "Intense suspense; a critical moment where a single slip-up leads to failure.",
+        "8": "Extreme, nail-biting suspense where the character's fate hangs entirely in the balance.",
+        "9": "Overwhelming uncertainty, where a life-or-death outcome is decided by a hair's breadth.",
+        "10": "The absolute peak of suspense, where the entire narrative's resolution hinges on a single, highly uncertain event."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character flips a coin to decide who goes first in a board game.",
+          "score": 2
+        },
+        {
+          "scene": "The protagonist leaps across a massive chasm, reaching out for the opposite ledge; the camera slows down as their fingers graze the crumbling rock, leaving it entirely unclear if they will hold on or fall.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on how balanced the odds are between success and failure, and how high the stakes of the outcome are.",
+      "exclusion_note": "Do not score situations where the outcome is already known or predictable."
+    },
+    {
+      "dimension_id": "time_pressure_and_deadlines",
+      "definition": "The presence of strict time limits, ticking clocks, or rapid pacing that forces characters to act with extreme urgency.",
+      "domain": "motivational_salience_and_urgency_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A countdown timer on a bomb or self-destruct sequence",
+        "A character rushing to catch a train or plane that is pulling away",
+        "A character trying to complete a task before a guard returns",
+        "A rapidly closing door or rising water level"
+      ],
+      "graded_anchors": {
+        "0": "No time pressure; characters have unlimited time to act and can proceed at leisure.",
+        "1": "Trivial time awareness, like noticing it is getting late.",
+        "2": "Mild time pressure, such as needing to finish a conversation before a meeting starts.",
+        "3": "Moderate urgency, like rushing to get ready for an appointment.",
+        "4": "Clear time constraint, such as having a few hours to complete a project.",
+        "5": "Significant time pressure, like needing to escape a building before it locks down in five minutes.",
+        "6": "High urgency, such as a character sprinting to catch a departing vehicle.",
+        "7": "Intense time pressure, with a ticking clock counting down the final minutes of a crisis.",
+        "8": "Extreme urgency, where every second counts and a delay of a moment means failure.",
+        "9": "Overwhelming, frantic time pressure, with a countdown in the final seconds of a life-or-death situation.",
+        "10": "The absolute maximum of time-driven panic, where action must be split-second perfect to avoid instant catastrophe."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character leisurely packs their bags for a trip next week.",
+          "score": 0
+        },
+        {
+          "scene": "A character frantically types a password into a terminal while a digital countdown on the screen flashes 5, 4, 3, 2... with alarms blaring in the background.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for explicit mentions of time limits, countdowns, rushing, or situations where seconds matter.",
+      "exclusion_note": "Do not score general speed or movement unless there is a clear, motivating deadline or time constraint."
+    },
+    {
+      "dimension_id": "sudden_dramatic_shifts",
+      "definition": "Abrupt, unexpected changes in the scene's tone, pacing, or environment that break the narrative flow and demand immediate attention.",
+      "domain": "motivational_salience_and_urgency_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A peaceful conversation suddenly interrupted by an explosion",
+        "A character suddenly collapsing or having a medical emergency",
+        "An alarm suddenly blaring in a quiet facility",
+        "A sudden, violent car crash out of nowhere"
+      ],
+      "graded_anchors": {
+        "0": "Perfect continuity; the scene maintains a completely stable tone and pace throughout.",
+        "1": "A very minor shift, like a change in background music or lighting.",
+        "2": "A slight shift in conversation topic or a minor distraction.",
+        "3": "A mild disruption, such as a phone ringing or someone entering the room.",
+        "4": "A noticeable shift, like a sudden change in a character's mood or a minor accident.",
+        "5": "A significant dramatic shift, such as a sudden argument breaking out in a calm setting.",
+        "6": "A major disruption, like a sudden power outage or an unexpected announcement.",
+        "7": "An intense, abrupt shift, such as a quiet scene suddenly turning into a chase.",
+        "8": "An extreme, shocking disruption, like a sudden explosion or a violent attack in a peaceful environment.",
+        "9": "A massive, jarring shift that instantly throws the entire scene into chaotic, high-stakes panic.",
+        "10": "The ultimate dramatic shock, completely shattering a peaceful state with instantaneous, catastrophic chaos."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character is reading a book when they hear a light knock on the door.",
+          "score": 2
+        },
+        {
+          "scene": "Two characters are quietly whispering in a library when a truck suddenly crashes through the brick wall, showering them in debris and dust.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Score based on the contrast between the state immediately before and after the shift, and how abruptly it occurs.",
+      "exclusion_note": "Do not score gradual build-ups of tension or continuous high-action scenes."
+    },
+    {
+      "dimension_id": "high_stakes_crisis",
+      "definition": "Situations involving life-or-death consequences, critical survival needs, or major systemic threats that demand immediate, high-priority action.",
+      "domain": "motivational_salience_and_urgency_tracking",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A hostage situation with lives on the line",
+        "A natural disaster threatening an entire town",
+        "A character bleeding out and needing immediate medical intervention",
+        "A critical system failure on a spacecraft"
+      ],
+      "graded_anchors": {
+        "0": "No crisis; completely safe, stable, and low-stakes environment.",
+        "1": "A trivial problem with no real consequences.",
+        "2": "A minor issue, like a spilled drink or a misplaced item.",
+        "3": "A low-stakes problem, such as a flat tire on a quiet road.",
+        "4": "A moderate crisis, like a minor kitchen fire that is quickly put out.",
+        "5": "A significant crisis, such as a medical emergency that requires a hospital visit.",
+        "6": "A high-stakes situation, like an active robbery or a major car accident.",
+        "7": "An intense crisis, such as a building on fire with people trapped inside.",
+        "8": "An extreme, life-or-death crisis, like a hostage situation or a sinking ship.",
+        "9": "A catastrophic, wide-scale crisis threatening dozens of lives with immediate doom.",
+        "10": "An absolute, apocalyptic crisis of survival, where the stakes are of the highest possible magnitude."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character realizes they forgot to buy milk at the grocery store.",
+          "score": 1
+        },
+        {
+          "scene": "An earthquake strikes, causing the skyscraper to tilt and crumble, trapping hundreds of people inside as fires break out on every floor.",
+          "score": 9
+        }
+      ],
+      "scoreability_note": "Look for descriptions of crises where the consequences of failure are catastrophic, permanent, or fatal.",
+      "exclusion_note": "Do not score low-stakes problems, minor inconveniences, or long-term abstract crises."
+    }
+  ],
+  "metadata": {
+    "domain_pool": {
+      "source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/ACC/domain_pool_auto_confirmed.json",
+      "content_sha256": "7ad79a67a953c19a505b599a11cc74a05cf75b5e8944d7f2641f9734bfad1766",
+      "version": "domain_pool_v2",
+      "target_region": "ACC",
+      "curation_status": "confirmed",
+      "proposal_runs": 5,
+      "curated_domain_ids": [
+        "cognitive_conflict_and_expectancy_monitoring",
+        "vicarious_distress_and_threat_appraisal",
+        "appraised_effort_and_action_outcomes",
+        "motivational_salience_and_urgency_tracking"
+      ]
+    },
+    "source_provider": "gemini",
+    "source_model": "gemini-3.5-flash",
+    "fixed_roi_definition": {
+      "roi_id": "ACC",
+      "display_name": "anterior cingulate cortex",
+      "theoretical_role": "Conflict monitoring, error detection, motivation, and emotion integration.",
+      "selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            177,
+            178,
+            179,
+            180,
+            183,
+            184,
+            187,
+            188
+          ]
+        }
+      ]
+    },
+    "bn246_allparcels_override": {
+      "source_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/ACC/region_schema.json",
+      "source_selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            177,
+            178,
+            179,
+            180,
+            183,
+            184,
+            187,
+            188
+          ]
+        }
+      ],
+      "label_ids": "1..246",
+      "purpose": "Use existing 14-ROI features to evaluate all Brainnetome 246 target parcels without modifying production ROI schemas."
+    }
+  }
+}

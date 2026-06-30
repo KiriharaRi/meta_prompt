@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:44",
+    "batch_summary": "Joey teases Chandler about dating his sister, Mary Angela. Meanwhile, Rachel returns home hoping for a call from Mark, but she and Monica are instead driven out of the apartment by loud, suggestive squeaking noises from Phoebe's date upstairs. Elsewhere, Ross scolds Chandler for trying to break up with Mary Angela via a letter, warning him of Joey's wrath. Ross insists Chandler do it in person, leading a stressed Chandler to reluctantly knock on her door.",
+    "cumulative_summary": "Joey playfully teases Chandler about his budding romance with Joey's sister, Mary Angela. Meanwhile, Rachel returns to the apartment hoping for a phone call from Mark. Instead of a call, she and Monica are subjected to loud, rhythmic squeaking noises coming from Phoebe's apartment, indicating her date is going very well. Uncomfortable with the loud sounds, Rachel and Monica quickly decide to go for a walk to escape the situation. Elsewhere, Ross reads a poorly written breakup letter Chandler drafted for Mary Angela. Ross warns Chandler that Joey will be furious if he breaks up with his sister through a letter, especially since Chandler is confused about which sister is actually Mary Angela. Ross convinces a reluctant Chandler that he must break the news in person. The segment ends with Chandler arriving at the family home, nervously knocking on the door to face Mary Angela."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:44 - 00:03:21",
+    "batch_summary": "Chandler arrives at Joey's house to break up with Mary Angela, only to be welcomed warmly by Joey. Joey warns him about their intense grandmother before pointing him toward Mary Angela. To Chandler's horror, he is greeted by a room full of identical-looking sisters. Meanwhile, at the coffee shop, Rachel laments that Mark hasn't called. Monica encourages Rachel to call him since he gave her his home number, much to Ross's hidden jealousy. Rachel takes the advice and dials Mark.",
+    "cumulative_summary": "Joey playfully teases Chandler about his budding romance with Joey's sister, Mary Angela. Meanwhile, Rachel and Monica escape the loud noises of Phoebe's date by going for a walk. Ross warns Chandler that breaking up with Mary Angela via a letter will anger Joey, especially since Chandler cannot identify which sister she is. Chandler reluctantly decides to break the news in person. Upon arriving at Joey's family home, Chandler is warmly welcomed by Joey, who warns him not to upset their formidable grandmother. Chandler's mission goes awry when he is directed to a room filled with identical-looking sisters, leaving him unable to identify Mary Angela. Meanwhile, at the coffee shop, Rachel is disappointed that Mark hasn't called. Monica encourages Rachel to take charge and call him using his home number. Despite Ross's poorly hidden jealousy and panic over this development, Rachel decides to make the call, initiating contact with Mark as Ross and Monica watch."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:21 - 00:04:54",
+    "batch_summary": "Rachel calls Mark and is thrilled when he schedules a job interview for her the next day, even offering to prep her over lunch. After an ecstatic Rachel leaves to find an outfit, Ross's jealousy boils over. He rants to Monica, convinced that Mark is trying to steal Rachel. Monica defends Rachel, emphasizing that this is a wonderful career opportunity, and challenges Ross to trust his girlfriend and get over his insecurity.",
+    "cumulative_summary": "While Chandler struggles to break up with Joey's sister Mary Angela because he cannot identify her among her identical sisters, Rachel takes Monica's advice and calls Mark. Rachel is thrilled to learn that Mark has secured her a job interview for the next day and has even offered to prep her over lunch. While Rachel excitedly prepares for the interview, Ross's jealousy reaches a boiling point. He rants to Monica, convinced that Mark is using the lunch meeting to steal Rachel away. Monica quickly shuts down Ross's paranoia, reminding him that this is a major career opportunity for Rachel. She challenges Ross on whether he trusts his girlfriend, ultimately telling him to get over himself."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:54 - 00:06:42",
+    "batch_summary": "After Monica tells Ross to grow up, the scene shifts to a family dinner where Chandler desperately tries to identify Mary Angela. His awkward attempts fail, but another sister, Mary Therese, lures him away from the table. In the hallway, Mary Therese corners and kisses Chandler, confessing her feelings since the party. Panicking, Chandler tries to back out by claiming he is not ready for a commitment, but Mary Therese remains undeterred, further complicating Chandler's predicament.",
+    "cumulative_summary": "While Chandler struggles to break up with Joey's sister Mary Angela because he cannot identify her among her identical sisters, Rachel takes Monica's advice and calls Mark. Rachel is thrilled to learn that Mark has secured her a job interview for the next day and has even offered to prep her over lunch. While Rachel excitedly prepares for the interview, Ross's jealousy reaches a boiling point. He rants to Monica, convinced that Mark is using the lunch meeting to steal Rachel away. Monica quickly shuts down Ross's paranoia, telling him to grow up. Meanwhile, Chandler attends a family dinner at Joey's house, where his awkward attempts to identify Mary Angela fail miserably. Seizing an opportunity, another sister, Mary Therese, lures Chandler away from the table and passionately kisses him in the hallway. A panicked Chandler tries to defuse the situation by claiming he is not ready for a commitment, but Mary Therese remains undeterred, leaving Chandler in an even deeper mess with Joey's family."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:42 - 00:08:37",
+    "batch_summary": "Chandler's deception unravels when Mary Therese reveals her identity, and the real Mary Angela catches them. A panicked Chandler tries to flee but is confronted by a furious Joey and his sisters. Chandler confesses he couldn't tell the sisters apart, offering a sincere apology to Joey, his best friend. Although the sisters demand violence, Joey protects Chandler from being punched. However, Joey insists that Chandler must make amends by delivering a direct, personal apology to Mary Angela, leaving Chandler with the lingering challenge of identifying her.",
+    "cumulative_summary": "While Chandler struggles to break up with Joey's sister Mary Angela because he cannot identify her, Rachel prepares for a job interview secured by Mark, triggering Ross's intense jealousy. Meanwhile, Chandler's situation at Joey's family dinner spirals out of control. After kissing Mary Therese, Chandler is horrified to learn her true identity just as the real Mary Angela catches them. A chaotic confrontation ensues when Joey and his sisters discover the truth. Chandler confesses that he was drunk and unable to tell the identical sisters apart. Deeply apologetic, Chandler tells Joey he is his best friend and even offers to let Joey punch him. Although his angry sisters demand retribution, Joey defends Chandler from physical harm. However, Joey demands that Chandler take responsibility and deliver a direct apology to Mary Angela, leaving Chandler still facing the daunting task of figuring out which sister she actually is."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:37 - 00:10:18",
+    "batch_summary": "Chandler's attempt to apologize to Mary Angela ends painfully when Joey allows his sister Cookie to punch him. Meanwhile, Ross waits for Rachel after her interview and apologizes for his jealousy. However, when Mark arrives to announce Rachel got the job and hugs her, Ross's insecurity resurfaces. Later, the group teases Phoebe about her noisy date, which was so loud it shook the ceiling tiles, though Phoebe remains optimistic about the relationship.",
+    "cumulative_summary": "While Chandler struggles to break up with Joey's sister Mary Angela because he cannot identify her, Rachel prepares for a job interview secured by Mark, triggering Ross's intense jealousy. Chandler's situation at Joey's family dinner spirals out of control when he is caught kissing Mary Therese. Joey demands Chandler apologize to Mary Angela, but the confrontation ends painfully when Joey allows his sister Cookie to punch Chandler. Meanwhile, Ross waits for Rachel after her interview to apologize for his insecurity. Their sweet moment is interrupted when Mark arrives to announce Rachel got the job; Mark's enthusiastic hug immediately reignites Ross's jealousy. Later, back at the apartment, the group playfully teases Phoebe about her noisy date, which was so loud it caused the ceiling tiles to fall, though Phoebe remains hopeful about her new romance."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 262,
+    "timestamp_range": "00:10:18 - 00:11:19",
+    "batch_summary": "Angered by how Phoebe's date treated her, Joey rallies Ross and Chandler to confront the man. Despite Chandler's humorous reluctance after his recent run-in with Joey's sister, the three men head out to defend Phoebe's honor. Meanwhile, Monica and Rachel try to comfort a distraught Phoebe, but Rachel's attempt at consolation backfires, leaving Phoebe in tears as the episode concludes.",
+    "cumulative_summary": "While Chandler struggles to break up with Joey's sister Mary Angela because he cannot identify her, Rachel prepares for a job interview secured by Mark, triggering Ross's intense jealousy. Chandler's situation at Joey's family dinner spirals out of control when he is caught kissing Mary Therese. Joey demands Chandler apologize to Mary Angela, but the confrontation ends painfully when Joey allows his sister Cookie to punch Chandler. Meanwhile, Ross waits for Rachel after her interview to apologize for his insecurity. Their sweet moment is interrupted when Mark arrives to announce Rachel got the job; Mark's enthusiastic hug immediately reignites Ross's jealousy. Later, back at the apartment, the group playfully teases Phoebe about her noisy date, which was so loud it caused the ceiling tiles to fall. When the situation escalates, Joey, Ross, and Chandler set off to confront the man and defend Phoebe. Although Monica and Rachel try to comfort her, Rachel's awkward reassurance only upsets Phoebe further, leaving her in tears as the story wraps up."
+  }
+]

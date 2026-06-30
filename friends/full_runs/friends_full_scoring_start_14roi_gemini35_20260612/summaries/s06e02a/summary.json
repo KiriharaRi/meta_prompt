@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:34",
+    "batch_summary": "At Central Perk, Ross lies to Rachel, claiming their annulment is finalized. After Rachel leaves to get ready for a movie, Ross secretly confesses to Phoebe that he didn't actually get the annulment because he is terrified of having three divorces. Desperate to confront him, Phoebe intercepts the couple outside and sends Rachel away in a taxi. Ross explains his anxiety about his relationship record, while Phoebe humorously tries to reassure him about what his tombstone will say.",
+    "cumulative_summary": "At Central Perk, Rachel happily thanks Ross, believing he has finalized their marriage annulment. However, once Rachel steps away to prepare for a movie, Ross privately confesses to a shocked Phoebe that he couldn't go through with the annulment, meaning he and Rachel are still married. He begs Phoebe to keep his secret. Determined to get answers, Phoebe intercepts Ross and Rachel on the street outside, quickly sending Rachel off alone in a taxi. Confronted by Phoebe, Ross explains his deep anxiety over his relationship history, admitting he is terrified of being known for having three divorces. Phoebe attempts to comfort him with her signature eccentric humor, suggesting his tombstone could read \"good at marriage\" instead, while joking that her own will say \"buried alive.\""
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:34 - 00:03:43",
+    "batch_summary": "Ross begs Phoebe to keep his secret about the annulment. Phoebe agrees, enjoying being the only one who knows, and quickly sends a returning Rachel away in her taxi. Meanwhile, Monica and Chandler discuss their upcoming move. Both admit they have been too nervous to tell their roommates, Joey and Rachel. They resolve to break the news the next time they see them. Just then, Joey walks in, asking Chandler if he is feeling better, setting the stage for the big reveal.",
+    "cumulative_summary": "At Central Perk, Rachel happily thanks Ross, believing he finalized their annulment. However, Ross privately confesses to Phoebe that they are still married because he is terrified of having three divorces. He begs Phoebe to keep his secret. Phoebe agrees, enjoying being the sole confidante, and even shooes away a returning Rachel to protect the truth. Meanwhile, Monica and Chandler discuss their upcoming move. Both admit they have been too nervous to tell their roommates, Rachel and Joey, with Chandler repeatedly chickening out. They resolve to break the news the next time they see them. Just as they make this pact, Joey walks in, forcing them to face the music."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:43 - 00:05:27",
+    "batch_summary": "Monica and Chandler finally tell Joey they are moving in together. After initially trying to brush it off, a heartbroken Joey admits how much it sucks and tearfully hugs Chandler, calling him the best roommate ever. Later at Central Perk, Phoebe teases Ross about keeping his marriage to Rachel a secret. Monica arrives looking for Rachel to share her big moving news, but Phoebe immediately guesses she is pregnant, which Monica quickly denies.",
+    "cumulative_summary": "At Central Perk, Rachel happily thanks Ross, believing he finalized their annulment. However, Ross privately confesses to Phoebe that they are still married because he is terrified of having three divorces. Phoebe agrees to keep his secret and later teases him about it. Meanwhile, Monica and Chandler finally face their anxiety and tell Joey they are moving in together. Though Joey initially tries to act fine, he quickly breaks down, admitting how much it hurts to lose his best roommate before giving Chandler a tearful, heartfelt hug. Later, Monica arrives at Central Perk looking for Rachel to share her big moving news. However, just as Joey did earlier, Phoebe immediately jumps to the conclusion that Monica is pregnant, which Monica quickly denies."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:27 - 00:07:24",
+    "batch_summary": "Monica shares her moving-in news with Ross, who is initially shocked but ultimately supportive, offering a warm hug. When Monica leaves to find Rachel, wishing someone would deliver bad news to Rachel first to soften her own blow, Phoebe uses the opportunity to tease Ross about his secret. Ross expresses deep anxiety about being a three-time divorcee, fearing it makes him undateable. Phoebe tries to reassure him that he is young, attractive, and that the embarrassment is entirely in his own head.",
+    "cumulative_summary": "At Central Perk, Rachel believes Ross finalized their annulment, unaware he secretly kept them married to avoid a third divorce. Meanwhile, Monica and Chandler break the news of their cohabitation to Joey, who reacts with a tearful, heartfelt hug. When Monica shares the moving news with Phoebe and Ross, Ross is initially shocked but offers his warm support. Monica then leaves to find Rachel, hoping someone will deliver bad news to Rachel first to soften her own announcement. This prompts Phoebe to tease Ross again about his secret. Ross spirally confesses his deep anxiety about becoming a three-time divorcee, fearing it will place him at the bottom of the dating pool. Phoebe kindly reassures him that he is young, smart, and attractive, insisting that the embarrassment is entirely in his own head."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:24 - 00:09:04",
+    "batch_summary": "Phoebe tries to prove Ross's dating fears are unfounded by introducing him to women at Central Perk, but she embarrasses him by immediately mentioning his upcoming third divorce, causing him to flee. Meanwhile, Monica is anxious to tell Rachel about her and Chandler moving in together. When Rachel arrives home venting about a terrible day at work where her boss called her \"Raquel,\" Chandler awkwardly tries to comfort her before leaving Monica to break the news. Monica sits Rachel down and finally reveals that she and Chandler are moving in together in the apartment.",
+    "cumulative_summary": "At Central Perk, Rachel believes Ross finalized their annulment, unaware he secretly kept them married to avoid a third divorce. When Monica and Chandler share their cohabitation plans, Joey reacts with a tearful hug, and Ross and Phoebe offer warm support. However, Ross spirally confesses his deep anxiety about becoming a three-time divorcee. To prove his fears are in his head, Phoebe bluntly introduces him to women at the cafe by announcing his upcoming third divorce, prompting an embarrassed Ross to flee. Meanwhile, Monica is anxious to break the moving-in news to Rachel, who is the last to know. When Rachel returns home venting about a terrible day at work where her boss mistakenly called her \"Raquel,\" Chandler awkwardly comforts her before leaving Monica to deliver the news. Monica sits Rachel down and finally reveals that she and Chandler are going to live together in the apartment."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:04 - 00:10:46",
+    "batch_summary": "Upon hearing that Monica and Chandler are moving in together, Rachel mistakenly assumes that all three of them will be living together. She is ecstatic, singing the \"Three's Company\" theme song, leaving Monica and Chandler in awkward silence. Meanwhile, at Central Perk, Ross tries to justify his three divorces to a group of women with Phoebe's help. However, his explanations fail to win them over, as one refuses to date a married man, another is on a dating hiatus, and a third is put off by his excessive sweating.",
+    "cumulative_summary": "At Central Perk, Rachel believes Ross finalized their annulment, unaware they are still married. When Monica and Chandler share their cohabitation plans, Joey reacts emotionally, while Ross spirals over his fear of being a three-time divorcee. To help him, Phoebe introduces Ross to women at the cafe. Ross tries to rationalize his divorces to them, but his efforts fail when one woman refuses to date a married man and another is put off by his nervous sweating. Meanwhile, Monica finally breaks the moving-in news to Rachel. However, Rachel completely misunderstands, joyfully assuming that all three of them will be living together. She ecstatically celebrates their new \"Three's Company\" dynamic, leaving Monica and Chandler stunned and struggling to correct her."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 247,
+    "timestamp_range": "00:10:46 - 00:11:14",
+    "batch_summary": "At Central Perk, Meg, one of the women Phoebe introduced to Ross, observes that Ross is clearly still in love with Rachel. Shocked by the accusation, Ross tries to defend himself to the group. However, in his flustered attempt to downplay his feelings and explain their platonic relationship, he accidentally blurts out that Rachel is \"just my wife.\" This slip of the tongue leaves the women stunned and further complicates his desperate attempt to hide his ongoing marriage.",
+    "cumulative_summary": "At Central Perk, Rachel believes Ross finalized their annulment, unaware they are still married. When Monica and Chandler share their cohabitation plans, Joey reacts emotionally, while Ross spirals over his fear of being a three-time divorcee. To help him, Phoebe introduces Ross to women at the cafe. Ross tries to rationalize his divorces to them, but his efforts fail when one woman refuses to date a married man and another is put off by his nervous sweating. Meanwhile, Monica finally breaks the moving-in news to Rachel, who joyfully but mistakenly assumes all three of them will be living together. Back at the cafe, one of Ross's potential dates, Meg, points out that Ross is clearly still in love with Rachel. In a flustered attempt to deny this and explain their platonic relationship, Ross accidentally blurts out that Rachel is \"just my wife,\" leaving the women stunned and further sabotaging his dating prospects while highlighting his unresolved marital situation."
+  }
+]

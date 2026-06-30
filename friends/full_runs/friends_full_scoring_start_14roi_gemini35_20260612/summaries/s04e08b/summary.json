@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:36",
+    "batch_summary": "Monica visits eye doctor Tim Burke, the son of her ex-boyfriend Richard, and receives an eye patch. When she reveals she invited Tim to Thanksgiving, her friends Ross, Rachel, Phoebe, and Joey react with mockery and disgust, calling the situation twisted. Monica defends herself by listing her friends' own bizarre past relationship failures. Meanwhile, the group stands around a large wooden crate in the living room, which Joey reveals Chandler is currently living inside.",
+    "cumulative_summary": "After visiting eye doctor Tim Burke—the son of her ex-boyfriend Richard—and receiving an eye patch, Monica Geller returns home to prepare for Thanksgiving. When she reveals she has invited Tim to dinner, her friends Ross, Rachel, Phoebe, and Joey react with immediate disapproval and mockery, calling the potential romance twisted and comparing it to a Greek tragedy. Monica fiercely defends her decision by listing her friends' own past relationship disasters, including Ross marrying a lesbian, Rachel leaving a man at the altar, Phoebe loving a gay ice dancer, and Joey burning a woman's wooden leg. Amidst the relationship drama, a large wooden crate sits in the middle of the living room. When Rachel questions its purpose, Joey reveals that Chandler is currently living inside the box. The atmosphere is filled with comedic tension as the friends navigate their eccentric personal lives."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:36 - 00:02:57",
+    "batch_summary": "From inside the crate, Chandler explains that his confinement is meant for reflection, to prove his loyalty to Joey, and to endure physical discomfort. Joey admits this gesture is a start toward repairing their friendship. Meanwhile, Ross discovers that Rachel exchanged a gold necklace he gifted her for store credit, sparking a comedic confrontation. Finally, as the friends gather for Thanksgiving dinner, a knock at the door prompts an anxious Monica, still wearing her eye patch, to rush to answer it.",
+    "cumulative_summary": "After visiting eye doctor Tim Burke—the son of her ex-boyfriend Richard—and receiving an eye patch, Monica Geller returns home to prepare for Thanksgiving. When she reveals she has invited Tim to dinner, her friends react with immediate disapproval, prompting Monica to fiercely defend her choice by listing their own past relationship disasters. Amidst the drama, Chandler is revealed to be living inside a large wooden crate. From inside, Chandler explains his confinement is a painful penance to prove his loyalty to Joey, which Joey accepts as a start to repairing their friendship. Meanwhile, tension flares between Ross and Rachel when Ross discovers she exchanged a gold necklace he gifted her for store credit. The comedic conflicts pause when a knock at the door signals the arrival of their Thanksgiving guest, prompting an anxious Monica to rush to answer it."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:02:57 - 00:04:40",
+    "batch_summary": "Monica welcomes her Thanksgiving guest, Tim, introducing him to the group, including Chandler inside his crate. As dinner begins, underlying tensions simmer: Joey passive-aggressively reminds Ross of his betrayal, while Ross and Rachel exchange bitter remarks over her store-credit habit. Meanwhile, Phoebe warns Monica about the awkwardness of dating her ex-boyfriend's son. Despite the awkward atmosphere, the group sits down to eat, with Chandler still confined to his wooden box.",
+    "cumulative_summary": "After visiting eye doctor Tim Burke—the son of her ex-boyfriend Richard—Monica Geller invites him to Thanksgiving dinner despite her friends' disapproval. Chandler remains confined in a wooden crate as penance to prove his loyalty to Joey. When Tim arrives, Monica warmly welcomes him and introduces him to the group, including Chandler inside his box. However, holiday tensions quickly simmer. Joey takes a passive-aggressive jab at Ross for kissing his girlfriend, while Ross and Rachel trade sarcastic barbs over Rachel's habit of exchanging gifts for store credit. Meanwhile, Phoebe warns Monica about the inherent awkwardness of dating her ex-boyfriend's son. Despite the bizarre circumstances and lingering resentments, the group sits down to eat, attempting to navigate a highly uncomfortable Thanksgiving dinner."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:40 - 00:06:34",
+    "batch_summary": "During dinner, Joey demands Chandler take his punishment seriously, prompting Chandler to commit to total silence inside the crate to save their friendship. Meanwhile, the bickering between Ross and Rachel reaches a turning point. To prove Ross wrong about her lack of sentimentality, Rachel presents a box of cherished keepsakes from their relationship, including a movie stub and an eggshell, demonstrating that she holds onto the things that truly matter to her.",
+    "cumulative_summary": "After Monica Geller invites her ex-boyfriend's son, Tim Burke, to Thanksgiving dinner, the holiday is marked by high tension. Chandler remains confined in a wooden crate to prove his loyalty to Joey, who demands Chandler take his penance seriously and remain silent to salvage their friendship. Meanwhile, the bickering between Ross and Rachel over her habit of exchanging gifts reaches a turning point. To prove Ross wrong about her lack of sentimentality, Rachel presents a box of cherished keepsakes from their relationship, including a movie stub from their first date and an eggshell from their first breakfast in bed. This emotional revelation proves to Ross that she holds onto the things that truly matter, adding a layer of poignant nostalgia to an already complicated and awkward holiday gathering."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:34 - 00:08:06",
+    "batch_summary": "Ross apologizes to Rachel but humorously notes that one of her keepsakes is actually a million-year-old museum artifact she was not supposed to take. Meanwhile, out on the balcony, Monica and Tim discuss the awkwardness of their attraction given her history with his father, Richard. Despite the weirdness, they agree they are attracted to each other and share a kiss. However, the kiss leaves Monica feeling visibly conflicted and uneasy, even as she tries to reassure Tim.",
+    "cumulative_summary": "During a tense Thanksgiving gathering, Chandler remains confined to a wooden crate to earn back Joey's trust, while Ross and Rachel's bickering over her habit of exchanging gifts reaches a poignant resolution. Rachel proves her sentimentality by showing Ross a box of cherished keepsakes from their relationship. Touched, Ross apologizes, though he jokingly points out that one of the items is actually a million-year-old museum artifact she shouldn't have taken. Meanwhile, Monica, wearing an eye patch, steps onto the balcony with her ex-boyfriend's son, Tim. Despite acknowledging how weird their situation is to their friends, they admit their mutual attraction and share a kiss. However, the romantic moment quickly turns awkward as the kiss leaves Monica feeling visibly uncomfortable and conflicted about the bizarre dynamic, casting a strange shadow over the holiday gathering."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:06 - 00:09:50",
+    "batch_summary": "Monica and Tim's romantic tension quickly dissolves into mutual awkwardness when they realize their kiss reminded Monica of Tim's father, and Monica reminds Tim of his mother. Meanwhile, Kathy arrives at the apartment to apologize. Joey directs her to the wooden box where Chandler is confined. Phoebe explains Chandler's silent penance to a bewildered Kathy, who then prepares to speak to Chandler, noting that his inability to talk might actually make her difficult message easier to deliver.",
+    "cumulative_summary": "During a tense Thanksgiving gathering, Chandler remains confined to a wooden crate to earn back Joey's trust, while Ross and Rachel's bickering over her habit of exchanging gifts reaches a poignant resolution when Rachel reveals a box of cherished keepsakes. Meanwhile, Monica's balcony kiss with her ex-boyfriend's son, Tim, quickly dissolves into mutual awkwardness when they realize the kiss reminded Monica of Tim's father, and Monica reminds Tim of his mother. Back inside, Kathy arrives at the apartment to apologize. While Joey harbors no ill will toward her, he directs her to the wooden box where Chandler is serving his silent penance. After Phoebe explains the bizarre situation, Kathy approaches the crate to speak to Chandler, noting that his inability to talk might actually make her difficult message easier to deliver."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:50 - 00:11:43",
+    "batch_summary": "Kathy delivers a heartbreaking goodbye to Chandler through the crate, explaining she cannot come between him and Joey, and plans to leave for Chicago. After she departs, a deeply moved Joey forgives Chandler and orders him out of the box so he can catch her. The two best friends share a warm embrace before Chandler rushes out to stop Kathy, leaving Joey to jokingly ask the group to trade Secret Santa partners.",
+    "cumulative_summary": "During a tense Thanksgiving gathering, Chandler remains confined to a wooden crate to earn back Joey's trust, while Ross and Rachel resolve their gift-exchanging bickering, and Monica's brief romance with her ex's son, Tim, ends in mutual awkwardness. When Kathy arrives to apologize, she speaks to Chandler through the crate, tearfully explaining that she must end their relationship and move to Chicago to avoid ruining his friendship with Joey. Touched by her sacrifice and Chandler's silent devotion, Joey forgives his best friend and releases him from the box. After a heartfelt embrace, Joey urges Chandler to run after Kathy before she leaves. Chandler rushes out to catch her, leaving Joey to humorously ask the group to trade Secret Santa partners."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 298,
+    "timestamp_range": "00:11:43 - 00:12:28",
+    "batch_summary": "Standing on the balcony, Phoebe, Joey, Rachel, Monica, and Ross watch Chandler chase after Kathy. After a brief, humorous mix-up where they mistake a mugging for the couple's reunion, they spot the real Chandler and Kathy embracing below. The group watches happily as the two reunite, with Joey jokingly yelling for them to \"get a room,\" bringing a warm and lighthearted end to the Thanksgiving drama.",
+    "cumulative_summary": "During a tense Thanksgiving gathering, Chandler remains confined to a wooden crate to earn back Joey's trust, while Ross and Rachel resolve their gift-exchanging bickering, and Monica's brief romance with her ex's son, Tim, ends in mutual awkwardness. When Kathy arrives to apologize, she speaks to Chandler through the crate, tearfully explaining that she must end their relationship and move to Chicago to avoid ruining his friendship with Joey. Touched by her sacrifice and Chandler's silent devotion, Joey forgives his best friend and releases him from the box. After a heartfelt embrace, Joey urges Chandler to run after Kathy before she leaves. Standing on the balcony, the rest of the friends watch Chandler's pursuit. After a brief, comical misunderstanding where they mistake a mugging for the couple, they joyfully witness Chandler and Kathy's romantic reunion on the street below. Joey jokingly yells for them to \"get a room,\" bringing a warm, lighthearted, and happy resolution to the holiday's dramatic events."
+  }
+]

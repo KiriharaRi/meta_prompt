@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:44",
+    "batch_summary": "In Monica's apartment, Monica confronts Rachel about her habit of avoiding chores, prompting Rachel to take the trash out to the hallway chute. There, she encounters the building superintendent, Mr. Treeger, who is already frustrated from unclogging the chute. When Rachel tries to force a large pizza box down the opening, Mr. Treeger snaps. He angrily scolds her, calling her a spoiled \"little princess\" and mocking her privileged upbringing, leaving Rachel stunned and hurt.",
+    "cumulative_summary": "The story begins in the apartment kitchen where Ross, Monica, Chandler, Phoebe, and Rachel are gathered. After Chandler shows off his new wallet, Monica notices Rachel putting an empty carton back in the refrigerator. Realizing Rachel has never taken out the trash since moving in, Monica hands her a trash bag and a pizza box, sending her to the hallway chute. In the hallway, Rachel encounters the building superintendent, Mr. Treeger, who is busy unclogging the chute with a broom. Rachel successfully discards the trash bag but then wedges the large pizza box into the chute, clogging it again. This pushes Mr. Treeger over the edge. He angrily confronts Rachel, calling her a \"little princess\" and mocking her privileged background by imitating her demanding things from her father. Rachel is left shocked and speechless by his harsh outburst, setting up a tense dynamic between her and the building's superintendent."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:44 - 00:03:30",
+    "batch_summary": "After Mr. Treeger's harsh words, a tearful Rachel returns to the apartment. When she explains that Treeger made her cry, an outraged Joey storms off to confront the superintendent. Meanwhile, Monica discovers Chandler's gym membership card. Chandler confesses he has been paying for a membership he never uses because he is too intimidated by the gym's staff, particularly a persuasive employee named Maria, to quit. Ross agrees to accompany Chandler to the gym to help him finally cancel it.",
+    "cumulative_summary": "The story begins in the apartment kitchen where Rachel is sent by Monica to discard trash in the hallway chute. After Rachel accidentally clogs the chute with a pizza box, the building superintendent, Mr. Treeger, angrily confronts her, calling her a \"little princess.\" Devastated by his harsh words, Rachel returns to the apartment in tears. Upon hearing that Treeger made Rachel cry, Joey defensively storms out to confront him, ignoring Monica's pleas to let it go. Meanwhile, Monica discovers Chandler's gym membership card. Chandler admits he has been paying monthly fees for a gym he never attends because he is too intimidated by the persuasive staff—specifically a woman named Maria—to cancel his membership. Recognizing Chandler's lack of resolve, Ross agrees to accompany him to the gym to provide moral support and help him finally quit."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:30 - 00:05:21",
+    "batch_summary": "Joey's confrontation with Mr. Treeger backfires when the superintendent threatens to evict Monica and Rachel for illegally subletting their grandmother's rent-stabilized apartment. Realizing his mistake, Joey is left panicked. Meanwhile, Phoebe struggles with her attraction to a gorgeous new massage client. Despite Monica's playful suggestion to pursue him, Phoebe resolves to remain professional and uphold her self-imposed ethical oath, though her resolve is tested.",
+    "cumulative_summary": "After Rachel accidentally clogs the building's trash chute and is reduced to tears by the angry superintendent, Mr. Treeger, Joey defensively storms off to confront him. However, Joey's protective gesture backfires spectacularly. Treeger retaliates by threatening to evict Monica and Rachel for illegally subletting their grandmother's rent-stabilized apartment, leaving Joey in a panic. Meanwhile, Chandler struggles to cancel a gym membership he never uses, prompting Ross to offer his moral support for the upcoming confrontation at the gym. Back at the apartment, Phoebe faces her own dilemma: she is highly attracted to a gorgeous new massage client. Although Monica jokingly suggests she pursue him, Phoebe insists on maintaining her professional boundaries and upholding her self-imposed ethical oath to avoid getting fired."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:21 - 00:06:56",
+    "batch_summary": "The friends tease Phoebe about her decorated feet, suggesting she plans to flirt with her attractive massage client, which she defensively denies. Meanwhile, Joey returns to break the bad news to Monica and Rachel: his confrontation with Mr. Treeger has resulted in an eviction threat. A furious Monica demands Joey go back and suck up to the super to fix his mistake. Elsewhere, Ross coaches a nervous Chandler on staying strong as they arrive at the gym to cancel Chandler's membership.",
+    "cumulative_summary": "After Rachel is reduced to tears by the angry superintendent, Mr. Treeger, Joey's attempt to defend her backfires spectacularly. He returns to the apartment to break the news that Treeger threatens to evict Monica and Rachel for illegally subletting. A furious Monica demands Joey return to the super and \"suck up\" to him to fix the mess. Meanwhile, Phoebe's friends tease her about her decorated feet and toe ring, suspecting she plans to flirt with her attractive new massage client despite her claims of professionalism. Elsewhere, Ross and Chandler arrive at the gym, with Ross coaching a nervous Chandler to stay strong and finally cancel his unused membership."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:56 - 00:08:29",
+    "batch_summary": "At the gym, Chandler stays strong and insists on quitting despite the receptionist's temptations, but Ross is barred from accompanying him to the membership office. Left alone, Ross's own resolve is immediately tested when he is introduced to a beautiful trainer named Maria. Meanwhile, Phoebe begins her massage session with her attractive client, with her decorated feet confirming she did indeed dress up for him.",
+    "cumulative_summary": "After Rachel is reduced to tears by the angry superintendent, Mr. Treeger, Joey's attempt to defend her backfires, resulting in a threat to evict Monica and Rachel for illegally subletting. A furious Monica demands Joey fix the mess. Meanwhile, Phoebe's friends tease her about her decorated feet, suspecting she plans to flirt with an attractive new massage client. Elsewhere, Ross and Chandler arrive at the gym to cancel Chandler's membership. Chandler manages to stay strong against the receptionist's initial temptations and heads to the membership office, but Ross is barred from accompanying him. Left alone, Ross's own resolve is instantly tested when he is introduced to a beautiful trainer named Maria. Back at the massage parlor, Phoebe begins her session with her handsome client, and her painted toes confirm she did indeed dress up for the occasion."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:29 - 00:10:08",
+    "batch_summary": "During her massage session, Phoebe's attraction to her client, Rick, peaks when she learns he was injured during a Greenpeace sit-in, leading her to accidentally bite him. Meanwhile, Joey confronts the superintendent, Mr. Treeger, to save Monica and Rachel from eviction. After a humorous misunderstanding about \"the chick and the duck\" being nicknames for him and Chandler, Joey desperately offers to do whatever Treeger wants to keep the girls in their apartment, which Treeger considers.",
+    "cumulative_summary": "After Rachel is reduced to tears by the angry superintendent, Mr. Treeger, Joey's attempt to defend her backfires, resulting in a threat to evict Monica and Rachel for illegally subletting. A furious Monica demands Joey fix the mess. Meanwhile, Phoebe's friends tease her about her decorated feet, suspecting she plans to flirt with an attractive new massage client, Rick. Elsewhere, Ross and Chandler arrive at the gym to cancel Chandler's membership, but both find their resolve tested by attractive staff members. During her massage session, Phoebe's attraction to Rick intensifies when she learns he is a Greenpeace activist, culminating in her accidentally biting him. Desperate to save Monica and Rachel from eviction, Joey pleads with Mr. Treeger. After a bizarre exchange where Joey claims \"the chick and the duck\" are nicknames for himself and Chandler, Joey desperately offers to do whatever Treeger wants to resolve the situation. Treeger halts and considers the offer, leaving the girls' housing situation hanging in the balance."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 269,
+    "timestamp_range": "00:10:08 - 00:11:14",
+    "batch_summary": "To save Monica and Rachel from eviction, Joey is shocked when Mr. Treeger asks him to be his ballroom dancing partner. Meanwhile, Chandler's attempt to cancel his gym membership goes hilariously awry. Despite Chandler's insistence that he hates the gym, the employee reveals a major setback: Ross, tempted by an attractive staff member, has actually just joined the gym himself, leaving Chandler stunned and defeated.",
+    "cumulative_summary": "After Rachel is reduced to tears by the angry superintendent, Mr. Treeger, Joey's attempt to defend her backfires, resulting in an eviction threat for Monica and Rachel. To fix the mess, Joey pleads with Treeger, who offers a bizarre compromise: he will drop the eviction if Joey becomes his ballroom dancing partner. Meanwhile, Phoebe's attraction to her new massage client, a Greenpeace activist named Rick, leads to an embarrassing moment when she accidentally bites him. Elsewhere, Chandler attempts to cancel his gym membership, but his resolve is completely undermined. Instead of helping Chandler quit, Ross gets distracted by an attractive staff member and ends up joining the gym himself, leaving Chandler stunned and trapped in his membership."
+  }
+]

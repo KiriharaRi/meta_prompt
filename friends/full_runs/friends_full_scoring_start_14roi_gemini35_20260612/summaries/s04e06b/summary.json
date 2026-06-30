@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:05",
+    "batch_summary": "Monica and Phoebe suspect Mrs. Burkart is faking her tears over a bill when they see her singing happily. Meanwhile, Ross complains to Joey about the extreme messiness of a girl he is seeing, but Joey encourages him to embrace the clutter and pursue her anyway. Elsewhere, Chandler struggles to find a birthday gift for Kathy that is better than the book he bought, leading Rachel to suggest he downgrade his gift so he doesn't outshine Joey's simple clock pen.",
+    "cumulative_summary": "In this episode, Monica and Phoebe observe Mrs. Burkart singing joyfully, confirming their suspicion that her tears over a bill were fake. Meanwhile, Ross describes the nightmarish level of filth in the apartment of a girl he is dating. Despite her complaints about his own clean apartment smelling like \"soap,\" Joey convinces Ross to overlook the mess and pursue her, playfully calling her a \"beautiful pig.\" Elsewhere, Chandler is in a dilemma over a birthday gift for Kathy. Having bought her a thoughtful book, he spent the afternoon trying to find an even better gift to avoid outshining Joey's cheap clock pen. When he fails to find anything, Rachel suggests a different strategy: Chandler should return the book and give Kathy a worse gift, like a regular pen, allowing Joey's present to stand out."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:05 - 00:03:46",
+    "batch_summary": "Chandler selflessly decides to let Joey take credit for the thoughtful gift—an early edition of Kathy's favorite childhood book, The Velveteen Rabbit—so she can still enjoy it. Joey gratefully accepts, completely unaware of the book's emotional and financial value. Meanwhile, Monica and Phoebe attend Mrs. Burkart's lively gathering. Although Monica is ready to give up on collecting their unpaid catering bill, a determined Phoebe refuses to leave until they get paid.",
+    "cumulative_summary": "In this episode, Ross struggles with the nightmarish filth of his new girlfriend's apartment, though Joey encourages him to overlook it. Meanwhile, Chandler faces a dilemma over a birthday gift for Kathy. Having bought her a thoughtful early edition of her favorite childhood book, The Velveteen Rabbit, he worries about outshining Joey's cheap clock pen. Ultimately, Chandler selflessly decides to let Joey give Kathy the book as his own present. Joey cluelessly accepts, leaving Chandler heartbroken but comforted by Rachel. Elsewhere, Monica and Phoebe observe Mrs. Burkart singing joyfully, confirming their suspicion that her tears over their catering bill were fake. They attend her lively gathering to collect their money; though Monica is ready to give up and leave, a determined Phoebe refuses to go until they are paid."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:46 - 00:05:44",
+    "batch_summary": "After learning that Mrs. Burkart has stiffed multiple vendors, a determined Phoebe boldly confronts the widow in front of her guests, successfully demanding their catering payment. Meanwhile, Ross takes a leap of faith and enters his new girlfriend Cheryl's apartment. He is immediately horrified by the extreme clutter and filth, struggling to find a clean spot to put his jacket and standing awkwardly as he tries to cope with the overwhelming mess.",
+    "cumulative_summary": "In this episode, Chandler selflessly allows Joey to present Kathy with a rare edition of The Velveteen Rabbit—a deeply thoughtful gift Chandler bought himself—leaving Chandler heartbroken but comforted by Rachel. Meanwhile, Monica and Phoebe attend a gathering hosted by Mrs. Burkart to collect their unpaid catering bill. When Phoebe learns the widow has stiffed other vendors, she boldly confronts Mrs. Burkart in front of her guests, successfully demanding their money while Monica seizes the opportunity to hand out business cards. Elsewhere, Ross decides to overlook his new girlfriend Cheryl's messy reputation and agrees to go inside her apartment. However, he is immediately horrified by the extreme clutter and trash filling her home, leaving him standing awkwardly and struggling to cope with the overwhelming filth."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:44 - 00:07:30",
+    "batch_summary": "Ross's romantic evening with Cheryl in her filthy apartment takes a horrifying turn when a rat scurries across his chest. While Ross panics, Cheryl casually dismisses the rodent, deepening his disgust. Meanwhile, at Central Perk, Rachel celebrates finishing a crossword puzzle alone. Monica and Phoebe return from their catering gig, and after Phoebe's tough confrontation successfully secures their payment, Monica proposes they officially partner up, combining their \"hard ass\" and \"wuss\" dynamics into a business.",
+    "cumulative_summary": "In this episode, Chandler selflessly allows Joey to present Kathy with a rare edition of The Velveteen Rabbit—a deeply thoughtful gift Chandler bought himself—leaving Chandler heartbroken but comforted by Rachel. Meanwhile, Monica and Phoebe attend a gathering hosted by Mrs. Burkart to collect their unpaid catering bill. When Phoebe learns the widow has stiffed other vendors, she boldly confronts Mrs. Burkart in front of her guests, successfully demanding their money while Monica seizes the opportunity to hand out business cards. Elsewhere, Ross decides to overlook his new girlfriend Cheryl's messy reputation and agrees to go inside her apartment. However, he is immediately horrified by the extreme clutter and trash filling her home. His discomfort turns to sheer terror when a live rat crawls across his chest during a make-out session, which Cheryl casually dismisses. Back at Central Perk, Rachel celebrates finishing a crossword puzzle on her own. She is joined by Monica and Phoebe, who are riding high on their catering success. Inspired by Phoebe's tough negotiation tactics, Monica proposes they officially form a catering partnership."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:30 - 00:09:06",
+    "batch_summary": "Monica and Phoebe officially agree to become catering partners, with Monica cooking and Phoebe managing the finances. Meanwhile, Joey returns home thrilled that Kathy loved the rare book, happily taking all the credit. When Kathy arrives, Joey reveals Chandler also got her a gift. Caught off guard, Chandler scrambles to present her with a cheap pen-clock from the counter. Kathy politely thanks him, but a lingering, awkward tension remains between them when she delays joining Joey in bed.",
+    "cumulative_summary": "In this episode, Monica and Phoebe officially form a catering partnership, combining Monica's culinary skills with Phoebe's financial management. Meanwhile, Ross struggles with his new girlfriend Cheryl's incredibly messy apartment, which is overrun by clutter and pests. The central drama intensifies when Joey returns home thrilled that Kathy loved the rare edition of The Velveteen Rabbit, happily taking full credit for Chandler's thoughtful gift. When Kathy arrives, Joey unexpectedly mentions that Chandler also bought her something. Caught off guard, Chandler scrambles and presents her with a cheap pen-clock from the kitchen counter. Although Kathy politely thanks him, an underlying romantic tension lingers between them when she hesitates to join Joey in the bedroom, leaving Chandler to quietly harbor his feelings."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:07 - 00:11:05",
+    "batch_summary": "After Joey goes to bed, Kathy reveals to Chandler that she knows he was the one who actually found the rare edition of The Velveteen Rabbit, easily seeing through Joey's clumsy explanation. Touched by the gesture, she assumes Chandler did it out of deep friendship for Joey, which Chandler quietly confirms. Meanwhile, Monica's obsession with cleanliness reaches a peak when she tracks down Ross's messy girlfriend, Cheryl, offering to clean her disaster of an apartment. However, Cheryl flatly rejects her and shuts the door.",
+    "cumulative_summary": "In this episode, Monica and Phoebe form a catering partnership, while Ross struggles with his new girlfriend Cheryl's incredibly messy apartment. The central drama intensifies when Joey takes credit for Chandler's thoughtful gift to Kathy, a rare edition of The Velveteen Rabbit, leaving Chandler to scramble and present her with a cheap pen-clock. However, Kathy quickly deduces that Chandler was the true mastermind behind the book after Joey gives a ridiculous explanation about her liking rabbits and cheese. Touched by the gesture, Kathy assumes Chandler went to such lengths out of loyalty to his best friend, Joey, leaving Chandler to suppress his romantic feelings. Meanwhile, Monica's obsession with cleanliness peaks when she cannot sleep thinking about Cheryl's filthy apartment. She takes matters into her own hands, showing up at Cheryl's door with a bucket of cleaning supplies and offering to clean. Cheryl flatly refuses and shuts the door in her face, leaving Monica's cleaning urges unsatisfied."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 246,
+    "timestamp_range": "00:11:05 - 00:11:32",
+    "batch_summary": "Unable to let her cleaning obsession go after Cheryl shuts the door, Monica desperately tries to satisfy her urges in the hallway. She mutters to the closed door that she won't be able to sleep, picks up her sponge, and begins cleaning a spot on the exterior door frame. This final, humorous display of her compulsive neatness closes out the segment as the production logos roll.",
+    "cumulative_summary": "In this episode, Monica and Phoebe form a catering partnership, while Ross struggles with his new girlfriend Cheryl's incredibly messy apartment. Meanwhile, Joey takes credit for Chandler's thoughtful gift to Kathy, a rare edition of The Velveteen Rabbit. Although Kathy deduces Chandler was the true mastermind, she assumes he did it out of loyalty to Joey, leaving Chandler to hide his romantic feelings. Meanwhile, Monica's obsession with cleanliness peaks when she cannot sleep thinking about Cheryl's filthy apartment. She shows up at Cheryl's door with cleaning supplies, but Cheryl flatly refuses and shuts the door in her face. Unable to satisfy her cleaning urges, Monica desperately resorts to wiping down a spot on the exterior door frame in the hallway just so she can sleep, bringing her compulsive storyline to a humorous conclusion."
+  }
+]

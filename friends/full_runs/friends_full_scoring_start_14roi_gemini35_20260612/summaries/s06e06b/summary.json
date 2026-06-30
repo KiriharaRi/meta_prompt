@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:29",
+    "batch_summary": "On their last night before moving, tensions run high between Rachel and Monica as they trade sharp, mocking insults about their love lives while packing. Phoebe steps in to defuse the argument so they can make dinner reservations. Meanwhile, across the hall, Joey laments Chandler's departure and his own financial losses. To secretly help his friend, Chandler invents a fake, easy-to-win card game called \"Cups\" to give Joey some money back.",
+    "cumulative_summary": "On their final night before a major living transition, emotions and tensions are high among the friends. In a bedroom cluttered with packing boxes, Monica and Rachel get into a heated, sarcastic argument, mocking each other's relationship histories and romantic choices. Phoebe acts as the voice of reason, urging them to stop bickering so they can keep their dinner plans. Across the hall, Joey is feeling down about Chandler's imminent departure, as well as being out of $500. Wanting to help Joey financially without hurting his pride, Chandler invents a highly simplified, fake card game called \"Cups.\" He immediately lets Joey \"win\" $50 on the first hand, setting up a humorous and heartwarming attempt to ease his friend's transition."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:29 - 00:03:11",
+    "batch_summary": "Chandler continues to let Joey win his fake game of \"Cups,\" boosting Joey's confidence. Meanwhile, Phoebe convinces Monica to apologize to Rachel. However, when Monica enters the bedroom, she finds Rachel unpacking and refusing to move. A childish tug-of-war over clothes ensues as they argue about who should leave. The conflict escalates and spills into the kitchen, where Rachel tries to pack Monica's things instead, keeping their stubborn feud alive.",
+    "cumulative_summary": "On their final night before a major living transition, emotions and tensions are high. Across the hall, Chandler continues his heartwarming ruse to help Joey financially, letting him win more money in the fake card game \"Cups,\" which leaves Joey feeling like a natural expert. Meanwhile, Phoebe acts as a mediator and convinces Monica to make peace with Rachel. However, the reconciliation quickly fails when Monica finds Rachel unpacking and stubbornly refusing to move out. The two get into a childish, physical tug-of-war over packing clothes, arguing over whose apartment it actually is. The petty feud escalates and spills into the kitchen, where Rachel attempts to pack Monica's belongings instead. As the moving deadline approaches, the roommates remain hilariously deadlocked in their stubbornness."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:11 - 00:04:55",
+    "batch_summary": "Phoebe tries to defuse Monica and Rachel's childish running feud by suggesting they are masking their sadness with anger, but both women insist they are genuinely mad. Across the hall, Chandler continues to manipulate his fake game 'Cups,' inventing absurd rules like the 'doubling bonus' to trick Joey into winning $1,500. Back in the apartment, the tension peaks when Phoebe announces she no longer wants to live with Rachel to avoid a similar toxic fallout, prompting a desperate Monica to beg Phoebe to take her.",
+    "cumulative_summary": "On their final night before a major living transition, emotions and tensions are high. Across the hall, Chandler continues his heartwarming ruse to help Joey financially, letting him win more money in the fake card game 'Cups.' By inventing increasingly absurd rules like the 'doubling bonus' and the 'no way' card, Chandler successfully tricks Joey into winning $1,500. Meanwhile, Phoebe's attempts to mediate Monica and Rachel's packing dispute fail. The roommates engage in a childish chase around the kitchen table, insisting they are genuinely angry rather than sad about parting. The situation escalates when Phoebe, witnessing their toxic bickering, suddenly announces she no longer wants to live with Rachel to preserve their friendship. This prompts Rachel to stubbornly declare she is not moving, while a desperate Monica begs Phoebe to take her in."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:55 - 00:06:31",
+    "batch_summary": "To convince Phoebe to take Rachel in, Monica begins listing Rachel's good qualities as a roommate. Though they start with playful bickering, Monica soon shares touching habits, like Rachel leaving mirror notes and covering her with blankets. This emotional trip down memory lane breaks their hostile facade, leading to a tearful embrace between the two best friends. Witnessing this deep bond, Phoebe changes her mind, enthusiastically agreeing to live with Rachel and jokingly suggesting they all move in together.",
+    "cumulative_summary": "On their final night before a major living transition, emotions and tensions run high. Across the hall, Chandler successfully tricks Joey into winning $1,500 through a fake card game called 'Cups' to help him financially. Meanwhile, Phoebe's attempt to mediate Monica and Rachel's packing dispute backfires, leading to a childish chase and Phoebe declaring she no longer wants to live with Rachel. To mend the situation, Monica tries to convince Phoebe otherwise by listing Rachel's best qualities as a roommate. Though they initially bicker, Monica's recollections of Rachel's sweet habits—like leaving mirror notes and covering her with blankets—melt their hostile facade. The two best friends share a tearful, sobbing embrace as the reality of their parting sets in. Deeply moved by their bond, Phoebe happily reverses her decision, eagerly agreeing to live with Rachel and jokingly suggesting they all move in together."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:31 - 00:08:26",
+    "batch_summary": "After Phoebe is reminded of Monica and Chandler's moving plans, the focus shifts to Ross, who hilariously mistakes a pumpkin in a sweater for his son Ben. Meanwhile, Joey reveals to Chandler that he lost $500 to Ross in a game of \"Cups,\" falling victim to the fake rules Chandler invented. Refusing to play another hand, Joey instead gifts Chandler their iconic white ceramic dog statue as a heartfelt parting gift, thanking him for being an incredible roommate.",
+    "cumulative_summary": "On their final night before moving, Monica and Rachel share a tearful embrace, prompting Phoebe to happily agree to live with Rachel. Across the way, a distracted Ross hilariously mistakes a pumpkin in a sweater for his son Ben while talking to his mother. Meanwhile, Chandler's plan to financially support Joey backfires when Joey plays \"Cups\" with Ross and loses $500 to him, believing Ross had \"beginner's luck\" with the fake game's rules. Refusing Chandler's offer to play another hand to win the money back, Joey decides to show his deep appreciation for their friendship. He gifts Chandler their beloved, giant white ceramic dog statue as a heartfelt thank-you for being an incredible roommate, cementing their emotional but humorous farewell."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:26 - 00:10:13",
+    "batch_summary": "Chandler tries to buy the white dog statue for $1,500 to sneakily give Joey money, but Joey rejects the charity, proudly asserting his independence while tenderly admitting that Chandler is the only thing he will truly miss. Meanwhile, the emotional weight of the move peaks as Rachel hands her keys over to Monica. After sharing one last tearful hug and bidding a final farewell to the apartment, Rachel officially moves out.",
+    "cumulative_summary": "On their final night before moving, Monica and Rachel share a tearful embrace, prompting Phoebe to happily agree to live with Rachel. Across the way, a distracted Ross hilariously mistakes a pumpkin in a sweater for his son Ben. Meanwhile, Chandler's plan to financially support Joey backfires when Joey loses $500 to Ross in a fake game of \"Cups.\" To show his appreciation, Joey gifts Chandler their beloved white ceramic dog statue. When Chandler tries to buy the statue for $1,500 to sneakily help him, Joey rejects the charity, proudly declaring his independence but admitting Chandler is the only thing he will miss. Finally, the moving process concludes as Rachel hands her keys over to Monica. After one last emotional hug and a tearful farewell to the apartment, Rachel officially moves out, marking the end of an era for the roommates."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 272,
+    "timestamp_range": "00:10:13 - 00:11:51",
+    "batch_summary": "After Rachel departs, Monica sadly contemplates the empty apartment. Chandler comforts her, embracing his new role as her roommate, though Monica is quickly distracted by the sudden appearance of Joey's white ceramic dog statue. Later, Chandler tries to explain to Ross that \"Cups\" is a fake game in an attempt to get the money back. However, Ross stubbornly refuses to return his winnings and instead challenges Chandler to a new round of the fictional game, confident in his own skills.",
+    "cumulative_summary": "On their final night before moving, Monica and Rachel share a tearful embrace, and Rachel officially moves out. After she departs, a grieving Monica is comforted by Chandler, who embraces his new role as her roommate, though Monica is quickly baffled by the sudden presence of Joey's white ceramic dog statue. Meanwhile, Chandler's earlier plan to financially support Joey backfires when Joey loses $500 to Ross in Chandler's fake game of \"Cups.\" When Chandler tries to explain to Ross that the game was entirely made up to get the money back, Ross stubbornly refuses. Insisting he won fair and square, Ross confidently challenges Chandler to a new round of the fictional game, leaving Chandler to play along in hopes of recovering the cash."
+  }
+]

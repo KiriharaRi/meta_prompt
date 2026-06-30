@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:39",
+    "batch_summary": "In the coffee shop, Joey practices his fake laugh, while Chandler tries to sneak a smoke. Gunther stops him but ends up taking a drag himself, revealing a dramatic appreciation for cigarettes. When Chandler tries to light another cigarette, Rachel confiscates it and offers him a hypnosis tape to help him quit. Ross is highly skeptical of hypnosis, calling it \"beyond crap,\" but Rachel quickly reminds him of the time she saw him get hypnotized in Atlantic City.",
+    "cumulative_summary": "At the coffee shop, the friends gather as Joey practices a fake laugh for an acting exercise. Chandler enters trying to smoke, but is stopped by Gunther. However, Gunther surprisingly takes a drag himself, dramatically expressing his love for smoking before keeping the cigarette. When Chandler sits down and tries to light another one, Rachel snatches it away. Concerned for his health, Rachel offers Chandler a hypnosis tape that helped a coworker quit smoking. Ross scoffs at the idea, dismissing hypnosis as complete nonsense. Rachel quickly shuts down his skepticism by reminding him that she witnessed him being hypnotized during a trip to Atlantic City."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:39 - 00:03:23",
+    "batch_summary": "After Ross unsuccessfully tries to deny his past hypnosis embarrassment, Phoebe suggests a bizarre smoking cure, prompting a joke from Chandler. Later at Central Perk, Phoebe's half-brother, Frank Jr., arrives with big news. After getting locked out of his house by his mother during a fight about his immaturity, Frank Jr. reveals that he is getting married. Phoebe is ecstatic and eagerly agrees to meet his fiancée.",
+    "cumulative_summary": "At the coffee shop, the friends gather as Joey practices a fake laugh and Chandler struggles to quit smoking. After Rachel offers Chandler a hypnosis tape, Ross scoffs at the idea, but Rachel quickly reminds him of an embarrassing time he was hypnotized in Atlantic City. Ross tries to deny the incident, while Phoebe suggests a bizarre, ritualistic alternative to quit smoking. Later, Phoebe's half-brother, Frank Jr., visits Central Perk with major news. He explains that after a fight with his mother—who locked him out because she believes he is too immature—he is getting married. Phoebe is thrilled by the announcement and eagerly agrees to meet his fiancée."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:23 - 00:05:20",
+    "batch_summary": "Frank Jr. introduces his fiancée, Alice, who turns out to be his much older former home economics teacher. The friends are shocked by the significant age gap and the couple's intense public displays of affection. Phoebe's initial excitement quickly turns to deep concern when Frank and Alice reveal they met in class and plan to have children immediately. Despite the group's visible discomfort and doubts about Frank's maturity, the couple remains blissfully enthusiastic about their future.",
+    "cumulative_summary": "At the coffee shop, the friends gather as Joey practices a fake laugh and Chandler struggles to quit smoking. After Rachel offers Chandler a hypnosis tape, Ross scoffs at the idea, but Rachel quickly reminds him of an embarrassing time he was hypnotized in Atlantic City. Later, Phoebe's half-brother, Frank Jr., visits Central Perk with major news: he is getting married. Though Phoebe is initially thrilled, her excitement turns to shock when Frank introduces his fiancée, Alice, who is his much older former home economics teacher. The friends watch in awkward disbelief as the couple passionately embraces and reveals they met in class. The tension escalates when Frank and Alice announce their plans to have children immediately, leaving Phoebe deeply concerned about her 18-year-old brother's readiness for marriage and fatherhood."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:20 - 00:07:25",
+    "batch_summary": "Frank and Alice dismiss their age gap, leaving Phoebe deeply unsettled. Meanwhile, Chandler's hypnosis tape takes a bizarre turn, repeatedly telling him he is a \"strong, confident woman.\" At the diner, Monica begs Rachel to help her get back into the dating game, while playfully rejecting another date proposal from Pete. Later, a frustrated Phoebe vents to Ross and Joey, declaring her brother's relationship with his much older teacher to be completely wrong.",
+    "cumulative_summary": "At the coffee shop, the friends gather as Joey practices a fake laugh and Chandler struggles to quit smoking. Phoebe's half-brother, Frank Jr., visits with his much older fiancée, Alice. Despite Phoebe's concerns about their age gap and plans to have children, the couple remains blissfully undeterred, prompting Phoebe to vent to Ross and Joey that the relationship is \"sick and wrong.\" Meanwhile, Chandler tries Rachel's hypnosis tape to quit smoking, but the tape hilariously programs him to believe he is a \"strong, confident woman.\" At the Moondance Diner, Monica laments her stagnant dating life to Rachel and begs for a setup. Despite her desire to date, Monica continues to playfully reject persistent customer Pete, who tries to ask her out again. Rachel joins in on the teasing, warning Pete about Monica's ridiculous diner costume."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:25 - 00:09:03",
+    "batch_summary": "Phoebe continues to panic over Frank Jr. and Alice's relationship, worrying about their future and immediate plans for babies. Fearing her brother's resentment if she speaks up, Phoebe guilt-trips Ross and Joey into agreeing to talk Frank out of the marriage. After Phoebe leaves to fetch Frank, Joey jokingly blames Ross for their predicament. Meanwhile, Rachel tries to convince Monica to go out with Pete, but Monica remains uninterested, claiming he does nothing for her.",
+    "cumulative_summary": "At the coffee shop, the friends gather as Joey practices a fake laugh and Chandler struggles to quit smoking. Phoebe's half-brother, Frank Jr., visits with his much older fiancée, Alice. Despite Phoebe's concerns about their age gap and plans to have children, the couple remains blissfully undeterred. Fearing her brother's resentment if she speaks up herself, Phoebe guilt-trips Ross and Joey into agreeing to talk Frank out of the marriage. After she leaves to fetch Frank, Joey jokingly blames Ross for getting them stuck in this awkward situation. Meanwhile, Chandler tries Rachel's hypnosis tape to quit smoking, but it hilariously programs him to believe he is a \"strong, confident woman.\" At the Moondance Diner, Monica laments her stagnant dating life to Rachel but continues to playfully reject her persistent customer, Pete. Later, Rachel tries to convince Monica to give Pete a chance and go out with him, but Monica remains uninterested, insisting he simply does not do anything for her."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:03 - 00:10:44",
+    "batch_summary": "Chandler continues to exhibit feminine traits from his hypnosis tape while boasting about his newfound confidence. Meanwhile, Rachel urges Monica to give her diner customer, Pete, a chance. Monica reveals Pete left her a $20,000 check as a joke tip to get her to call him. Chandler recognizes the name and reveals through a magazine that Pete is actually a famous multi-millionaire software inventor. While Rachel is thrilled by this discovery, Monica remains hesitant to date him.",
+    "cumulative_summary": "At the coffee shop, the friends gather as Joey practices a fake laugh and Chandler struggles to quit smoking. Phoebe's half-brother, Frank Jr., visits with his much older fiancée, Alice. Despite Phoebe's concerns about their age gap, the couple remains blissfully undeterred, prompting Phoebe to guilt-trip Ross and Joey into talking Frank out of the marriage. Meanwhile, Chandler tries Rachel's hypnosis tape to quit smoking, which hilariously programs him to act like a \"strong, confident woman.\" At the Moondance Diner, Monica laments her stagnant dating life but repeatedly rejects her persistent customer, Pete. Rachel tries to convince Monica to give Pete a chance, especially after learning Pete left Monica a $20,000 check as a joke tip to get her phone number. Chandler recognizes Pete's name and reveals from a magazine that Pete is actually a famous multi-millionaire software inventor who has met the President. While Rachel is ecstatic at the prospect of Monica dating a millionaire, Monica remains stubbornly uninterested."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 260,
+    "timestamp_range": "00:10:44 - 00:11:38",
+    "batch_summary": "Ross and Joey attempt to talk Frank Jr. out of marrying Alice, but Joey's hilariously flawed math fails to convince him. Meanwhile, Chandler's hypnosis tape continues to affect his behavior; after accidentally biting his lip balm, he heads out to play basketball while exhibiting highly feminine and submissive traits.",
+    "cumulative_summary": "Phoebe's half-brother, Frank Jr., visits with his much older fiancée, Alice. Concerned about their age gap, Phoebe convinces Ross and Joey to talk Frank out of the marriage, though Joey's hilariously flawed math fails to sway him. Meanwhile, Chandler uses Rachel's hypnosis tape to quit smoking, which unexpectedly programs him to act like a \"strong, confident woman,\" leading to increasingly feminine and submissive behavior. At the diner, Monica rejects her persistent customer, Pete, despite Rachel's excitement upon discovering Pete is a famous multi-millionaire software inventor who left Monica a $20,000 check as a tip."
+  }
+]

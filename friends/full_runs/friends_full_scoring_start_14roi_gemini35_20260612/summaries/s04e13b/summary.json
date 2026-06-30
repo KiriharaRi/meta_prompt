@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:52",
+    "batch_summary": "In their cramped new apartment, Rachel, Phoebe, and Monica discuss their living situation after losing their old place to the guys. Monica vows to make the new space better. The conversation is interrupted when a drunk and distraught Chandler arrives to announce that Kathy is indeed cheating on him. After a confusing, alcohol-fueled interaction involving a forgotten match trick, Chandler leaves. Later, Monica tries to cope by aggressively operating a heavy floor buffer in the hallway, refusing Rachel's help.",
+    "cumulative_summary": "In a new, cramped apartment filled with moving boxes, Rachel, Phoebe, and Monica adjust to their downgraded living situation after losing their previous apartment to Joey and Chandler. Although Monica initially wanted to punish the guys, she decides she is finished and vows to renovate their new home to make it even better. The mood shifts dramatically when a drunk and heartbroken Chandler bursts in, accompanied by Ross and Joey. Chandler devastatedly reveals that he confronted Kathy and confirmed she is sleeping with someone else. After a disoriented and comedic exchange where he forgets a match trick he learned at a bar, Chandler wanders off. The next day, Monica channels her stress into cleaning, struggling to control a massive, loud floor buffer in the hallway. When Rachel offers assistance, Monica stubbornly declines, determined to handle the chore herself."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:52 - 00:03:32",
+    "batch_summary": "Rachel vents to Joey and Phoebe about her frustration that her client, Joshua, hasn't asked her out. Phoebe suggests that since Joshua is recently divorced, Rachel should make the first move. Realizing she has never asked a man out, Rachel gets a demonstration of Joey's signature \"How you doing?\" pickup line. Inspired, Rachel musters the courage to call Joshua. However, she loses her nerve mid-call and awkwardly invents a lie about finding his lost wallet at Bloomingdale's instead of asking him out.",
+    "cumulative_summary": "In their cramped new apartment, Rachel, Phoebe, and Monica adjust to their downgraded living situation. While Monica channels her stress into stubbornly cleaning the hallway with a loud floor buffer, Rachel deals with her own frustrations regarding her crush, Joshua. Venting to Joey and Phoebe, Rachel complains that Joshua has not asked her out yet. Phoebe points out that Joshua is recently divorced and nervous, encouraging Rachel to make the first move. After Joey demonstrates his classic \"How you doing?\" pickup line, Rachel is inspired to call Joshua. However, when she gets him on the line, she immediately loses her nerve and chickens out, awkwardly fabricating a story about finding his lost wallet at Bloomingdale's instead of asking him on a date."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:32 - 00:05:09",
+    "batch_summary": "After hanging up on Joshua, a nervous Rachel admits her fear of rejection to Joey and Phoebe. Joey suggests she invite Joshua to a Knicks game to guarantee a \"yes.\" Meanwhile, Chandler anxiously waits for a call from his girlfriend. Regretting his accusation that she slept with her play co-star based solely on Joey's flawed \"on-stage chemistry\" theory, Chandler panics when Joey admits his theories are often wrong, prompting Chandler to rush out to fix his mistake.",
+    "cumulative_summary": "In their cramped new apartment, Rachel, Phoebe, and Monica adjust to their downgraded living situation. While Monica stubbornly cleans the hallway with a loud floor buffer, Rachel vents about her crush, Joshua. Encouraged to make the first move, Rachel calls Joshua but chickens out, fabricating a story about finding his wallet. Afterward, she admits her fear of rejection to Joey and Phoebe, prompting Joey to suggest inviting Joshua to a Knicks game as an offer he cannot refuse. Meanwhile, Chandler anxiously awaits a call from his girlfriend. He deeply regrets accusing her of cheating, an accusation he based entirely on Joey's theory about a lack of on-stage chemistry in her play. When Joey casually admits his relationship theories are highly unreliable, a panicked Chandler realizes his massive mistake and rushes out to find her."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:09 - 00:06:43",
+    "batch_summary": "Rachel practices asking Joshua to the Knicks game but struggles to find the right words. When Joshua prepares to leave after his fitting, she panics and blurts out the offer, framing the tickets as a thank-you gift. Joshua enthusiastically accepts, but to Rachel's dismay, he assumes they are for him to take his nephew. He leaves happy, completely oblivious to her romantic intentions, leaving Rachel disappointed and empty-handed.",
+    "cumulative_summary": "In their cramped new apartment, Rachel, Phoebe, and Monica adjust to their downgraded living situation. Meanwhile, Chandler, regretting his baseless accusations of cheating, rushes off to find his girlfriend. Rachel, determined to make a move on her crush, Joshua, decides to follow Joey's advice and invite him to a Knicks game. At her office, after practicing her delivery and dropping subtle hints during his suit fitting, Rachel panics as Joshua prepares to leave. She blurts out the offer, framing the basketball tickets as a thank-you gift. Although Joshua enthusiastically accepts, Rachel's romantic hopes are instantly dashed when he reveals he will be taking his nephew to the game. He departs happily, leaving a disappointed Rachel completely misunderstood and empty-handed."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:43 - 00:08:23",
+    "batch_summary": "Chandler visits Kathy to apologize for his jealousy, hoping to move past their first fight. However, his hopes are shattered when he discovers Nick's pants in her apartment, confirming she cheated. Meanwhile, Rachel defends her failed attempt to ask Joshua out to Ross and Joey, humorously noting she got the date but isn't on it. Finally, Monica reveals a surprise to the group, showing off their newly cleaned and redecorated apartment, leaving everyone amazed.",
+    "cumulative_summary": "In their cramped new apartment, Rachel, Phoebe, and Monica adjust to their downgraded living situation. Meanwhile, Chandler, regretting his baseless accusations of cheating, rushes off to find his girlfriend. Rachel, determined to make a move on her crush, Joshua, decides to follow Joey's advice and invite him to a Knicks game. At her office, after practicing her delivery and dropping subtle hints during his suit fitting, Rachel panics as Joshua prepares to leave. She blurts out the offer, framing the basketball tickets as a thank-you gift. Although Joshua enthusiastically accepts, Rachel's romantic hopes are instantly dashed when he reveals he will be taking his nephew to the game. Back at the apartment, Rachel defends her failed attempt to Ross and Joey, joking that she got the date but just isn't on it. Meanwhile, Chandler visits Kathy to apologize, only to discover Nick's pants in her living room, confirming his worst fears. Finally, Monica lifts the group's spirits by revealing their newly cleaned and beautifully redecorated apartment, leaving everyone in awe."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:23 - 00:09:57",
+    "batch_summary": "As the group admires Monica's exhausting two-day effort to clean and redecorate their apartment, Monica quickly falls asleep on the couch. Chandler then returns with devastating news: Kathy has indeed slept with her co-star, Nick. Heartbroken and confused, Chandler blames himself for pushing her away after their fight. However, the group rallies around him, with Phoebe firmly pointing out that their argument does not justify Kathy's betrayal.",
+    "cumulative_summary": "In their cramped new apartment, Rachel, Phoebe, and Monica adjust to their downgraded living situation. Rachel tries to make a move on her crush, Joshua, by offering him Knicks tickets, but her romantic hopes are dashed when he decides to take his nephew instead. Meanwhile, Monica lifts the group's spirits by spending two days straight cleaning and redecorating the apartment, immediately falling asleep from exhaustion. The mood shifts dramatically when Chandler returns with heartbreaking news. He reveals that his worst fears have been realized: Kathy has slept with her co-star, Nick. Devastated, Chandler blames himself, believing his angry accusations drove her into Nick's arms. However, his friends quickly comfort him, with Phoebe assuring him that their fight does not justify Kathy's infidelity."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 266,
+    "timestamp_range": "00:09:57 - 00:11:07",
+    "batch_summary": "Amidst the tension of Chandler's heartbreak, Ross awkwardly tries to defend Kathy by suggesting they might have been \"on a break,\" drawing silent glares from the group. Meanwhile, Rachel's romantic hopes are reignited at work when her boss hands her Joshua's forgotten wallet. Left alone, Rachel playfully roleplays a scenario where Joshua left the wallet on purpose to see her again, even jokingly using Joey's signature catchphrase, \"How you doing?\"",
+    "cumulative_summary": "In their cramped new apartment, Rachel, Phoebe, and Monica adjust to their downgraded living situation. Rachel tries to make a move on her crush, Joshua, by offering him Knicks tickets, but her romantic hopes are dashed when he decides to take his nephew instead. Meanwhile, Monica lifts the group's spirits by spending two days straight cleaning and redecorating the apartment. The mood shifts dramatically when Chandler returns with heartbreaking news: Kathy has slept with her co-star. While the group comforts a devastated Chandler, Ross awkwardly tries to defend Kathy by suggesting they might have been \"on a break,\" drawing silent glares from everyone. Later, Rachel's romantic hopes are reignited at work when her boss hands her Joshua's forgotten wallet. Left alone, Rachel playfully roleplays a scenario where Joshua left the wallet on purpose to see her again, even jokingly using Joey's signature catchphrase, \"How you doing?\""
+  }
+]

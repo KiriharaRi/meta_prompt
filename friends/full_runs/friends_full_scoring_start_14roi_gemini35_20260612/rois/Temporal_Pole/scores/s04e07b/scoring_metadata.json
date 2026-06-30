@@ -1,0 +1,98 @@
+{
+  "n_segments": 300,
+  "n_trs": 497,
+  "tr_s": 1.49,
+  "alignment": "overlap_weighted",
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s04e07b/summary.json",
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  },
+  "gt": null,
+  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/Temporal_Pole/region_schema.json",
+  "feature_names": [
+    "social_hierarchy_and_power_dynamics",
+    "alliance_and_affiliation_tracking",
+    "social_script_conformance_or_violation",
+    "biographical_retrieval_and_association",
+    "character_trait_and_role_consistency",
+    "multi_character_identity_tracking",
+    "deceptive_intent_and_ulterior_motives",
+    "subtextual_dialogue_decoding",
+    "strategic_social_maneuvering",
+    "moral_transgression_and_ethical_judgment",
+    "interpersonal_warmth_and_hostility",
+    "empathic_resonance_and_compassion",
+    "long_term_plot_integration",
+    "thematic_and_symbolic_synthesis",
+    "temporal_and_spatial_bridging"
+  ],
+  "feature_metadata": [
+    {
+      "dimension_id": "social_hierarchy_and_power_dynamics",
+      "domain": "social_relationship_and_script_tracking"
+    },
+    {
+      "dimension_id": "alliance_and_affiliation_tracking",
+      "domain": "social_relationship_and_script_tracking"
+    },
+    {
+      "dimension_id": "social_script_conformance_or_violation",
+      "domain": "social_relationship_and_script_tracking"
+    },
+    {
+      "dimension_id": "biographical_retrieval_and_association",
+      "domain": "person_identity_and_schema_integration"
+    },
+    {
+      "dimension_id": "character_trait_and_role_consistency",
+      "domain": "person_identity_and_schema_integration"
+    },
+    {
+      "dimension_id": "multi_character_identity_tracking",
+      "domain": "person_identity_and_schema_integration"
+    },
+    {
+      "dimension_id": "deceptive_intent_and_ulterior_motives",
+      "domain": "interpersonal_intent_and_subtext_inference"
+    },
+    {
+      "dimension_id": "subtextual_dialogue_decoding",
+      "domain": "interpersonal_intent_and_subtext_inference"
+    },
+    {
+      "dimension_id": "strategic_social_maneuvering",
+      "domain": "interpersonal_intent_and_subtext_inference"
+    },
+    {
+      "dimension_id": "moral_transgression_and_ethical_judgment",
+      "domain": "socio_moral_and_emotional_appraisal"
+    },
+    {
+      "dimension_id": "interpersonal_warmth_and_hostility",
+      "domain": "socio_moral_and_emotional_appraisal"
+    },
+    {
+      "dimension_id": "empathic_resonance_and_compassion",
+      "domain": "socio_moral_and_emotional_appraisal"
+    },
+    {
+      "dimension_id": "long_term_plot_integration",
+      "domain": "narrative_schema_and_coherence_integration"
+    },
+    {
+      "dimension_id": "thematic_and_symbolic_synthesis",
+      "domain": "narrative_schema_and_coherence_integration"
+    },
+    {
+      "dimension_id": "temporal_and_spatial_bridging",
+      "domain": "narrative_schema_and_coherence_integration"
+    }
+  ]
+}

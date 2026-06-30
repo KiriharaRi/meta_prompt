@@ -1,0 +1,17 @@
+{
+  "command": "summarize-descriptions",
+  "descriptions": "/Users/kiriharari/codex_paper/meta_prompt/friends/description/downloaded_refine_descriptions/mv_friends_s03e18b/descriptions/refined_description.md",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s03e18b/summary.json",
+  "metadata_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s03e18b/summary_metadata.json",
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_batch_size": 40,
+  "n_segments": 277,
+  "n_batches": 7,
+  "generated_at": "2026-06-28T12:16:44.416887+00:00",
+  "prompt_contract": {
+    "batch_summary_words": "50-100",
+    "cumulative_summary_words": "100-200",
+    "summary_schema": "fallen_notebook_batch_summary_array"
+  }
+}

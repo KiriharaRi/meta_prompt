@@ -1,0 +1,83 @@
+{
+  "n_segments": 267,
+  "n_trs": 448,
+  "tr_s": 1.49,
+  "alignment": "overlap_weighted",
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "provider": "aihubmix",
+  "model": "gemini-3.5-flash",
+  "summary_file": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/summaries/s04e13b/summary.json",
+  "scoring_warnings": {
+    "warning_count": 0,
+    "reason_counts": {},
+    "failed_batches": [],
+    "zero_filled_segments": 0
+  },
+  "gt": null,
+  "region_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/AG/region_schema.json",
+  "feature_names": [
+    "mental_state_attribution",
+    "interpersonal_deception_intent",
+    "social_relationship_dynamics",
+    "causal_plot_linking",
+    "mental_model_updating",
+    "thematic_synthesis",
+    "semantic_expectancy_violation",
+    "metaphorical_conceptual_processing",
+    "norm_violation_resolution",
+    "spatial_layout_mapping",
+    "temporal_sequence_tracking",
+    "situational_schema_updating"
+  ],
+  "feature_metadata": [
+    {
+      "dimension_id": "mental_state_attribution",
+      "domain": "social_mentalizing"
+    },
+    {
+      "dimension_id": "interpersonal_deception_intent",
+      "domain": "social_mentalizing"
+    },
+    {
+      "dimension_id": "social_relationship_dynamics",
+      "domain": "social_mentalizing"
+    },
+    {
+      "dimension_id": "causal_plot_linking",
+      "domain": "narrative_coherence_integration"
+    },
+    {
+      "dimension_id": "mental_model_updating",
+      "domain": "narrative_coherence_integration"
+    },
+    {
+      "dimension_id": "thematic_synthesis",
+      "domain": "narrative_coherence_integration"
+    },
+    {
+      "dimension_id": "semantic_expectancy_violation",
+      "domain": "semantic_schema_and_anomaly_resolution"
+    },
+    {
+      "dimension_id": "metaphorical_conceptual_processing",
+      "domain": "semantic_schema_and_anomaly_resolution"
+    },
+    {
+      "dimension_id": "norm_violation_resolution",
+      "domain": "semantic_schema_and_anomaly_resolution"
+    },
+    {
+      "dimension_id": "spatial_layout_mapping",
+      "domain": "spatial_temporal_situation_tracking"
+    },
+    {
+      "dimension_id": "temporal_sequence_tracking",
+      "domain": "spatial_temporal_situation_tracking"
+    },
+    {
+      "dimension_id": "situational_schema_updating",
+      "domain": "spatial_temporal_situation_tracking"
+    }
+  ]
+}

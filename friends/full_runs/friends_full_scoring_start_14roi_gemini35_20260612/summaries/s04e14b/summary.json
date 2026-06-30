@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:00",
+    "batch_summary": "In the apartment, Rachel vents her frustration over her stagnant relationship with Joshua, storming off after Monica brings up her past. Meanwhile, a depressed Chandler tries to regress \"phases\" by stripping down to sweatpants. Phoebe and Monica convince him to join them for a trip to a strip club to cheer him up. Elsewhere, Joey arrives at Silvercup Studios for a shoot, where he spots Charlton Heston and is suddenly struck by a mysterious, foul odor on set.",
+    "cumulative_summary": "In the apartment, Rachel is highly frustrated by her lack of progress with Joshua. When Monica points out Rachel's own past impulsive behavior, Rachel storms off in annoyance. Meanwhile, Chandler is dealing with his own setback and attempts to regress to an easier \"phase\" of life by stripping off his pants to reveal sweatpants. Monica and Phoebe refuse to let him wallow, with Phoebe aggressively convincing him to join them for a night out at a strip club instead. Elsewhere, Joey arrives at Silvercup Studios for an acting gig. After spotting legendary actor Charlton Heston eating licorice, Joey's excitement is interrupted when he detects a mysterious and incredibly foul odor on the set."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:00 - 00:03:43",
+    "batch_summary": "At the studio, Joey is mortified to learn that he is the source of the foul odor and secretly plots to use Charlton Heston's private dressing room shower. Meanwhile, Chandler, Monica, and Phoebe hang out at a strip club, where Phoebe defends her pregnancy boundaries against a smoker. Rachel eventually joins them, venting her frustration over Joshua not calling and her growing bitterness about Ross's happiness in Vermont, adding to the group's chaotic night out.",
+    "cumulative_summary": "Following a series of personal setbacks, the friends deal with their respective crises. At Silvercup Studios, Joey is mortified to learn that he is the source of the foul odor on set. Desperate to clean up, he plans to sneak into Charlton Heston's private dressing room to use his shower. Meanwhile, Monica and Phoebe drag a wallowing Chandler to a strip club to cheer him up. While there, Phoebe fiercely defends her pregnancy boundaries against a smoker, and Monica enthusiastically embraces the club's atmosphere. Rachel eventually joins the group, deeply frustrated that Joshua has not called her after she stood him up, and increasingly bitter over Ross's happiness in Vermont. The group tries to distract themselves with drinks as Rachel's romantic anxieties continue to simmer."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:43 - 00:05:31",
+    "batch_summary": "At the strip club, Chandler predicts his impending drunken mistakes, warning Monica and Phoebe to stop him from calling his exes, Kathy and Janice. Monica tries to distract him with another lap dance. Meanwhile, at Silvercup Studios, Charlton Heston catches Joey showering in his dressing room. When a panicked Joey confesses that he \"stinks,\" Heston misinterprets this as acting insecurity and offers a comforting pep talk, sharing that even the greatest actors doubt their talent.",
+    "cumulative_summary": "Following a series of personal setbacks, the friends deal with their respective crises. At a strip club, Monica and Phoebe try to cheer up a wallowing Chandler, while Rachel vents her frustrations over Joshua and Ross. As Chandler predicts his impending drunken mistakes—warning his friends to stop him from calling his exes, Kathy and Janice—Monica distracts him with another lap dance. Meanwhile, Joey's plan to sneak into Charlton Heston's private dressing room at Silvercup Studios to wash off his foul odor goes awry when Heston catches him in the shower. When a panicked Joey desperately confesses that he \"stinks,\" Heston misinterprets the literal smell complaint as acting insecurity. Showing unexpected kindness, the legendary actor offers Joey a comforting pep talk, reassuring him that even the greatest stars doubt their talent."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:31 - 00:07:15",
+    "batch_summary": "Charlton Heston's warm pep talk takes a sharp turn when he realizes Joey literally broke into his dressing room to use his shower, sternly warning him never to do it again before sending a humiliated Joey packing. Meanwhile, back at the apartment, the group returns from the strip club. As Rachel continues to obsess over Joshua not calling, Phoebe and Monica shift tactics to help a depressed Chandler. Acknowledging that they failed at acting like \"guys,\" they urge Chandler to sit down and open up emotionally, offering him a safe space to talk or even cry.",
+    "cumulative_summary": "Following a series of personal setbacks, the friends deal with their respective crises. Joey's plan to sneak into Charlton Heston's private dressing room at Silvercup Studios to wash off his foul odor goes awry when Heston catches him in the shower. While Heston initially misinterprets Joey's complaints about \"stinking\" as acting insecurity and offers a comforting pep talk, he quickly realizes the literal truth. A stern Heston warns Joey never to break into his dressing room again, sending a humiliated Joey rushing out with his clothes. Meanwhile, Monica, Phoebe, and Chandler return from an eventful trip to the strip club. While Rachel continues to obsess over Joshua not calling her, Phoebe and Monica decide to change their approach to helping a depressed Chandler. Admitting they are better at listening than being \"guys,\" they corner Chandler in his recliner, gently pushing him to open up, talk about his feelings, and express his vulnerability."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:15 - 00:08:47",
+    "batch_summary": "Chandler initially laments that \"phase three\" of his recovery is a failure because he couldn't picture himself with any of the strippers. However, when Monica, Rachel, and Phoebe begin discussing which strippers they found attractive, Chandler's imagination is sparked. He hilariously claims he has reached \"phase three\" and \"phase four\" by picturing his friends with the strippers, leaving the women thoroughly repulsed. Later at Central Perk, a still-glum Chandler is comforted by Joey, who laments missing out on the strip club trip.",
+    "cumulative_summary": "Following a series of personal setbacks, the friends deal with their respective crises. After Joey is humiliated by Charlton Heston for sneaking into his shower, the focus shifts to Chandler's depression. Monica, Phoebe, and Rachel attempt to help Chandler open up after their strip club trip. Chandler initially laments that \"phase three\" of his recovery is a failure because he couldn't picture himself with any of the strippers. However, when the women begin discussing which female strippers they found attractive, Chandler's imagination is sparked. He hilariously claims he has reached \"phase three\" and \"phase four\" by picturing his friends with the strippers, leaving the women thoroughly repulsed. Later at Central Perk, Joey tries to cheer up a still-glum Chandler while jokingly complaining about missing out on the strip club trip."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:47 - 00:10:15",
+    "batch_summary": "At Central Perk, Chandler cynically jokes about his dating future before Ross returns from a dream weekend in Vermont with Emily. Ross enthusiastically thanks Rachel, explaining that he is finally at peace with her dating Joshua and genuinely happy for her. Rachel tightly pretends to share his joy, leading to an awkward exchange of mutual congratulations. Later, Chandler's wild imagination continues as he envisions himself in his apartment surrounded by three bikini-clad women.",
+    "cumulative_summary": "Following a series of personal setbacks, the friends deal with their respective crises. After Joey is humiliated by Charlton Heston, the focus shifts to Chandler's depression. Monica, Phoebe, and Rachel attempt to help Chandler open up after their strip club trip. Chandler initially laments that his recovery is a failure, but his imagination is sparked when the women discuss the strippers, leading him to picture his friends with them, much to their disgust. Back at Central Perk, Chandler cynically jokes about his romantic future just as Ross returns from a magical weekend in Vermont with Emily. Ross ecstatically tells Rachel that he is finally in a place where he can be genuinely happy for her and Joshua. Rachel tightly masks her true feelings, exchanging strained congratulations with him. Finally, Chandler's active imagination takes over once more as he envisions himself in a robe, giving orders to three bikini-clad women in his apartment."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 256,
+    "timestamp_range": "00:10:15 - 00:11:04",
+    "batch_summary": "Chandler's elaborate fantasy continues as he directs his friends and bikini-clad women in his apartment. Phoebe joins in, choosing one of the women, while Monica is confused about her role. When a bald man appears claiming to be Rachel's love interest, Joshua, Rachel objects, prompting Chandler to dismiss her from the dream since he has never met the real Joshua. Finally, after the strange \"Joshua\" tries to smoke, Chandler decides it is time to wake up, and the dream fades to black.",
+    "cumulative_summary": "Following a series of personal setbacks, the friends deal with their respective crises. After Joey is humiliated by Charlton Heston, the focus shifts to Chandler's depression. Monica, Phoebe, and Rachel attempt to help Chandler open up after their strip club trip. Chandler initially laments that his recovery is a failure, but his imagination is sparked when the women discuss the strippers, leading him to picture his friends with them, much to their disgust. Back at Central Perk, Chandler cynically jokes about his romantic future just as Ross returns from a magical weekend in Vermont with Emily. Ross ecstatically tells Rachel that he is finally in a place where he can be genuinely happy for her and Joshua. Rachel tightly masks her true feelings, exchanging strained congratulations with him. Finally, Chandler's active imagination takes over once more as he envisions himself in a robe, giving orders to three bikini-clad women in his apartment. This bizarre fantasy escalates as Phoebe and Monica participate, and a bald stranger appears claiming to be Joshua. After dismissing Rachel from the dream, Chandler decides the scenario has gotten too weird and resolves to wake up."
+  }
+]

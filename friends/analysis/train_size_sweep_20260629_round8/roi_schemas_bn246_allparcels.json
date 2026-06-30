@@ -1,0 +1,18 @@
+{
+  "roi_schemas": {
+    "DLPFC": "bn246_allparcels_schemas/DLPFC/region_schema.json",
+    "VMPFC": "bn246_allparcels_schemas/VMPFC/region_schema.json",
+    "OFC": "bn246_allparcels_schemas/OFC/region_schema.json",
+    "ACC": "bn246_allparcels_schemas/ACC/region_schema.json",
+    "PCC": "bn246_allparcels_schemas/PCC/region_schema.json",
+    "Precuneus": "bn246_allparcels_schemas/Precuneus/region_schema.json",
+    "IPL": "bn246_allparcels_schemas/IPL/region_schema.json",
+    "SMG": "bn246_allparcels_schemas/SMG/region_schema.json",
+    "AG": "bn246_allparcels_schemas/AG/region_schema.json",
+    "TPJ": "bn246_allparcels_schemas/TPJ/region_schema.json",
+    "pSTS": "bn246_allparcels_schemas/pSTS/region_schema.json",
+    "FFA": "bn246_allparcels_schemas/FFA/region_schema.json",
+    "Insula": "bn246_allparcels_schemas/Insula/region_schema.json",
+    "Temporal_Pole": "bn246_allparcels_schemas/Temporal_Pole/region_schema.json"
+  }
+}

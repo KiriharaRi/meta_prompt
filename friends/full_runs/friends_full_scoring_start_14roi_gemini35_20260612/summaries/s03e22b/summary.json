@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:01",
+    "batch_summary": "In a dimly lit bedroom, Kate laments her dating choices to Joey, calling him the sweetest guy before leaning in for a kiss. However, she quickly passes out. Joey gently tucks her into bed and leaves a trash can nearby. The next day, Joey returns to Monica's apartment wearing the same clothes. He explains to Monica that he stayed at Kate's but nothing happened, while Phoebe struggles to stay awake after being up for 24 hours.",
+    "cumulative_summary": "In a dimly lit bedroom, Kate questions her habit of dating overly intellectual or talented men, asking Joey why she cannot choose someone sweet like him. As they share a kiss, Kate suddenly passes out from exhaustion or intoxication. Joey tenderly tucks her into bed, wishes her sweet dreams, and thoughtfully places a trash can nearby. The following day, Joey returns to the apartment wearing his clothes from the night before. Monica notices and questions him, prompting Joey to clarify that although he stayed at Kate's place, nothing romantic occurred between them. Meanwhile, a sleep-deprived Phoebe, who has been awake for 24 hours, stubbornly refuses to sleep, claiming she is fine due to the riboflavin in her cereal, while Monica happily gushes about her own relationship with Pete."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:01 - 00:04:11",
+    "batch_summary": "Joey reveals to Monica that after Kate woke up, they stayed up all night talking and realized their mutual feelings, prompting an excited hug from Monica. Meanwhile, at Central Perk, Rachel prepares for a date with Tommy. Ross tries to warn Rachel that Tommy has a severe anger problem, recounting how he screamed at a couple. However, Rachel and Chandler mock Ross, believing he is just jealous, which frustrates Ross into leaving.",
+    "cumulative_summary": "After Joey returns from Kate's apartment, he clarifies to Monica that although nothing physical happened initially, Kate eventually woke up. The two spent the rest of the night talking deeply and realized they are crazy about each other, a milestone Monica enthusiastically celebrates. Meanwhile, a sleep-deprived Phoebe continues to struggle to stay awake. At Central Perk, Rachel prepares for a date with Tommy. Ross tries to warn Rachel that Tommy has a hidden, aggressive temper, recounting how he screamed at a couple during a play. However, Rachel and Chandler mock Ross's warnings, attributing them to jealousy. Frustrated that no one believes him, Ross leaves the coffee shop in annoyance."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:04:11 - 00:06:00",
+    "batch_summary": "Outside Central Perk, Ross bumps into Tommy, who immediately flies into an aggressive rage over Ross's hot coffee. However, Tommy instantly switches back to a sweet, calm persona upon entering the coffee shop to meet Rachel. Meanwhile, Joey arrives late to his play. On stage, he is devastated to learn from his co-star Lauren that Kate got a job in LA and is leaving tonight, prompting Joey to desperately improvise on stage to get more details.",
+    "cumulative_summary": "After Joey and Kate share a deep connection, Joey's happiness is cut short. During his play, he learns from his co-star Lauren that Kate got a job in LA and is leaving tonight, forcing Joey to desperately improvise on stage to get more details. Meanwhile, Ross's warnings about Rachel's new date, Tommy, are proven right when Ross bumps into him outside Central Perk. Tommy flies into a screaming, aggressive rage over Ross's hot coffee, calling him names. However, the moment Tommy steps inside to meet Rachel, Monica, and Chandler, he instantly masks his temper and acts sweet and charming, leaving Ross stunned and frustrated that his friends still do not see Tommy's true colors."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:06:00 - 00:07:27",
+    "batch_summary": "Joey rushes to find Kate before she leaves. Meanwhile, Phoebe anxiously waits for a call from Pete under Monica's watchful eye. Ross tries to bait Tommy into another rage with hot coffee, but Tommy keeps his cool, leaving Rachel annoyed with Ross's persistence. However, Tommy's volatile temper is exposed again when he goes across the hall to use the phone; after holding Chandler and Joey's pet chick, he gets disgusted and aggressively screams at the innocent animal.",
+    "cumulative_summary": "After Joey and Kate share a deep connection, Joey's happiness is cut short. During his play, he learns from his co-star Lauren that Kate got a job in LA and is leaving tonight, forcing Joey to desperately improvise on stage to get more details. Joey immediately rushes off to find Kate before she departs. Meanwhile, Ross's warnings about Rachel's new date, Tommy, are proven right when Tommy flies into a screaming rage over spilled coffee outside Central Perk. However, Tommy masks his temper around Rachel and her friends. Ross tries to bait Tommy into another outburst with hot coffee, but Tommy keeps his cool, leaving Rachel annoyed with Ross. Phoebe, meanwhile, anxiously waits for a call from Pete. Tommy's true, volatile nature is ultimately confirmed when he goes across the hall to use the phone; after holding Chandler and Joey's pet chick, he gets disgusted and aggressively screams at the innocent animal."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:27 - 00:09:08",
+    "batch_summary": "Tommy's volatile temper is finally exposed to everyone when Rachel and the group catch him screaming at Chandler and Joey's pet chick and duck. Rachel promptly dumps him, vindicating Ross. Meanwhile, Joey catches up with Kate backstage before she leaves for her new job in LA. Despite his pleas for her to stay or let him say goodbye at the airport, Kate departs immediately. Heartbroken, Joey must return to the stage, channeling his real-life sorrow into his performance.",
+    "cumulative_summary": "After Joey and Kate share a deep connection, Joey's happiness is cut short when he learns Kate got a job in LA and is leaving immediately. Meanwhile, Ross's warnings about Rachel's new date, Tommy, are proven right. Although Tommy initially hides his volatile temper, the entire group catches him in a screaming rage at Chandler and Joey's pet chick and duck. Rachel promptly dumps him, vindicating Ross. Backstage at the theater, Joey desperately tries to convince Kate to stay or at least let him accompany her to the airport, but she refuses to sacrifice her career opportunity and departs. Devastated, Joey is forced to return to the stage, channeling his genuine heartbreak into his performance."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:09:08 - 00:10:57",
+    "batch_summary": "On stage, Joey delivers a poignant, sci-fi-themed farewell performance, channeling his real-life heartbreak over Kate. Watching from the wings, Kate waves a final goodbye before leaving for Los Angeles. Meanwhile, back at the apartment, Phoebe has been on hold for two days. Monica and Ross point out that she dialed an \"801\" area code for Utah instead of a toll-free \"800\" number, leaving Phoebe horrified by the massive phone bill she has accumulated.",
+    "cumulative_summary": "After Joey and Kate share a deep connection, Joey's happiness is cut short when he learns Kate got a job in LA. Meanwhile, Ross's warnings about Rachel's volatile date, Tommy, are vindicated when the group catches him screaming at their pets, leading Rachel to dump him. Backstage, Joey fails to convince Kate to stay. Devastated, he returns to the stage, channeling his genuine heartbreak into a poignant sci-fi farewell performance. Watching from the wings, Kate waves a final goodbye before departing for Los Angeles. Later, back at the apartment, Phoebe's two-day phone call on hold turns into a disaster when Ross and Monica point out she dialed a costly Utah area code instead of a toll-free number, leaving her with a massive bill."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 251,
+    "timestamp_range": "00:10:57 - 00:11:29",
+    "batch_summary": "Urged by Ross, Rachel, and Chandler, Phoebe finally hangs up the phone, slamming the receiver down so hard that she breaks the base unit. Despite the damage, she remains characteristically optimistic, holding up the customer service number and suggesting they can just call them back, bringing her costly and frustrating ordeal to a humorous end.",
+    "cumulative_summary": "After Joey and Kate share a deep connection, Joey's happiness is cut short when he learns Kate got a job in LA. Meanwhile, Ross's warnings about Rachel's volatile date, Tommy, are vindicated when the group catches him screaming at their pets, leading Rachel to dump him. Backstage, Joey fails to convince Kate to stay. Devastated, he returns to the stage, channeling his genuine heartbreak into a poignant sci-fi farewell performance. Watching from the wings, Kate waves a final goodbye before departing for Los Angeles. Later, back at the apartment, Phoebe's two-day phone call on hold turns into a disaster when Ross and Monica point out she dialed a costly Utah area code instead of a toll-free number, leaving her with a massive bill. Urged by her friends to finally hang up, Phoebe slams the receiver down in frustration, accidentally breaking the phone. Undeterred, she lightheartedly holds up the customer service number to call them back, ending her lengthy ordeal on a comedic note."
+  }
+]

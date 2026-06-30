@@ -1,0 +1,50 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:04",
+    "batch_summary": "In a coffee shop, the friends gather as Monica is about to share details about her meeting with Pete. However, they are interrupted when two strangers, Thomas and Tim, squeeze onto their couch. Thomas loudly confides his suspicions that his wife is cheating on him, only for Tim to confess that he is the one sleeping with her. After a brief, comical interruption from Joey, Thomas furiously ends his friendship with Tim and storms out, leaving the friends in stunned, silent amusement.",
+    "cumulative_summary": "While hanging out in their usual coffee shop, the friends—Rachel, Chandler, Phoebe, Joey, Monica, and Ross—are interrupted just as Monica is about to reveal how her meeting with Pete went. Two strangers, Thomas and Tim, rudely squeeze onto their crowded couch and begin a highly personal, loud conversation. Thomas expresses his deep suspicion that his wife is sleeping with her gynecologist. As the friends awkwardly listen in, Tim suddenly confesses that he is actually the one sleeping with Thomas's wife. Joey tries to chime in, only to be snapped at by Tim for interrupting their \"private\" conversation. Furious and heartbroken, Thomas dramatically ends their friendship, grabs some napkins, and storms out of the coffee shop with Tim trailing behind him. The friends are left sitting in stunned, hilarious silence, completely distracted from Monica's original story."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:04 - 00:03:43",
+    "batch_summary": "After recovering from the strangers' drama, Monica finally reveals Pete's big news: he is not proposing, but rather entering an Ultimate Fighting competition. The friends discuss the brutal nature of the sport, leading Joey to demonstrate \"fish hooking\" on Ross with hands he recently used to bathe his duck. Meanwhile, in a work meeting, Chandler's new boss Doug tries to motivate the team, but Chandler undercuts the serious tone with a witty joke about martinis.",
+    "cumulative_summary": "While hanging out in their usual coffee shop, the friends—Rachel, Chandler, Phoebe, Joey, Monica, and Ross—are temporarily distracted by a dramatic argument between two strangers, Thomas and Tim. Once the shock wears off, Monica finally reveals Pete's big news: rather than proposing, he plans to compete in a brutal Ultimate Fighting competition. As the group discusses the violent rules of the sport, Joey hilariously demonstrates \"fish hooking\" on Ross, only to reveal he just used those same hands to bathe his duck. Later, the scene shifts to Chandler's workplace, where his new boss, Doug, attempts to deliver an inspiring team speech. True to form, Chandler cannot help but undercut the serious moment with a witty joke about martinis, maintaining the group's signature lighthearted and humorous dynamic."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:43 - 00:05:33",
+    "batch_summary": "Chandler's new boss, Doug, appreciates his humor but unexpectedly slaps his buttocks as a gesture of camaraderie, leaving Chandler stunned. Back at the apartment, Ross unwittingly triggers Chandler by slapping his butt to celebrate a dinner reservation. Chandler vents to the group about his boss's inappropriate behavior. While Rachel encourages him to speak up, Joey defends it as a sports-like gesture and jokingly suggests Chandler rub something smelly on his backside to deter his boss. The friends find humor in the awkward situation before heading out to dinner.",
+    "cumulative_summary": "While hanging out in their usual coffee shop, the friends—Rachel, Chandler, Phoebe, Joey, Monica, and Ross—are distracted by a dramatic argument between two strangers, followed by Monica's revelation that Pete plans to compete in Ultimate Fighting. Later, at Chandler's workplace, his witty interruption of his boss Doug's speech backfires in an unexpected way. Doug loves the joke but slaps Chandler's buttocks in camaraderie, leaving Chandler deeply uncomfortable. When Chandler returns to the apartment, Ross unwittingly triggers him by slapping his butt to celebrate a dinner reservation. Chandler vents to the group about his boss's behavior. While Rachel advises him to speak up, Joey compares it to a sports gesture and hilariously suggests Chandler rub something foul-smelling on his backside to deter his boss. Despite the awkwardness, the group maintains their lighthearted dynamic as they head out for dinner."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:33 - 00:07:25",
+    "batch_summary": "Phoebe asks Rachel's permission to set Ross up with her friend Bonnie. Rachel enthusiastically agrees after remembering Bonnie is bald, assuming she poses no threat. Meanwhile, Monica visits Pete at the gym to express her deep concern over the physical dangers of his Ultimate Fighting aspirations. Pete tries to reassure her of his safety by highlighting his elite training team, including his intense trainer Hoshi, whom Pete nervously claims was once a house painter rather than a paid assassin.",
+    "cumulative_summary": "The friends navigate new relationship dynamics and career anxieties. After Chandler vents to the group about his boss repeatedly slapping his buttocks, the friends head out, leaving Phoebe to ask Rachel for permission to set Ross up with her friend Bonnie. Rachel readily agrees, smugly assuming Bonnie poses no threat after remembering she is bald. Meanwhile, Monica visits Pete at the gym to express her deep concern over the physical dangers of his Ultimate Fighting Championship aspirations. Pete tries to reassure her of his safety by highlighting his elite training team, including his intense trainer Hoshi, whom Pete nervously covers up as having been a house painter rather than a paid assassin."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:25 - 00:09:42",
+    "batch_summary": "Monica and Pete's romantic plans are hilariously thwarted by his intense trainer, Hoshi, ahead of his big fight. Meanwhile, Rachel is shocked and dismayed to meet Bonnie, who now has a full head of beautiful hair, leading to a tense confrontation with Phoebe. At work, Chandler's boss, Doug, slaps his buttocks again. Chandler's coworkers reveal they are actually jealous of this treatment, viewing Chandler as the boss's favorite and fearing for their own career advancement.",
+    "cumulative_summary": "The friends navigate complex relationship dynamics and career anxieties. Monica visits Pete at the gym to express concern over his Ultimate Fighting Championship aspirations, but their romantic plans are quickly put on hold by Pete's intense trainer, Hoshi. Meanwhile, Rachel's smug confidence is shattered when she meets Phoebe's friend Bonnie, who is no longer bald but has a full head of hair. A panicked Rachel confronts Phoebe, realizing Bonnie is a major threat to her lingering feelings for Ross. At work, Chandler's boundary-crossing boss, Doug, slaps his buttocks yet again. However, Chandler is surprised to learn his coworkers are actually jealous of this treatment, viewing Chandler as the boss's favorite and worrying that their own lack of physical affection from Doug will hurt their career advancement."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 226,
+    "timestamp_range": "00:09:42 - 00:11:16",
+    "batch_summary": "Chandler continues to endure his boss Doug's inappropriate butt-slapping, much to his discomfort and his coworkers' envy. Meanwhile, Monica and Ross attend Pete's highly anticipated Ultimate Fighting Championship debut. Their excitement quickly turns to sheer terror when Pete's opponent is revealed to be Tank Abbott, a menacing 300-pound street fighter. Despite the overwhelming physical mismatch, a naive Pete remains confident, reassuring Monica that his training with Hoshi has prepared him to use his opponent's massive weight to his own advantage.",
+    "cumulative_summary": "The friends navigate complex relationship dynamics and career anxieties. Rachel's confidence is shattered when she meets Phoebe's friend Bonnie, who now has a full head of hair, sparking Rachel's jealousy over her lingering feelings for Ross. At work, Chandler deals with his boundary-crossing boss, Doug, who continues to slap his buttocks. While Chandler is highly uncomfortable, his coworkers are envious, viewing him as the boss's favorite. Meanwhile, Monica's concerns over Pete's Ultimate Fighting Championship aspirations culminate when she and Ross attend his debut match. Their initial excitement turns to dread when Pete's opponent is introduced as Tank Abbott, a formidable 300-pound street fighter. Despite the terrifying physical mismatch, Pete remains stubbornly optimistic, trusting his trainer Hoshi's advice to use his opponent's massive weight against him, leaving Monica and Ross watching in anxious anticipation."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:02:01",
+    "batch_summary": "In a coffee shop, Ross complains to Chandler and Joey about a letter from Rachel demanding he take full responsibility for their past breakup. Though frustrated, Ross agrees to let it go to preserve their rekindled relationship, while Joey cryptically hints at a secret beach incident. Meanwhile, Phoebe visits her twin sister, Ursula, to share that their mother was not their birth mother. To Phoebe's shock, Ursula already knew this from their mother's suicide note, a document she never shared with Phoebe.",
+    "cumulative_summary": "In a coffee shop, Ross vents to Chandler and Joey about a multi-page letter from Rachel, which demands he accept full responsibility for their past relationship failures. Frustrated by her accusations of infidelity, Ross famously yells that they \"were on a break.\" Chandler warns him that arguing will ruin his rekindled relationship with Rachel, prompting Ross to reluctantly agree to drop the matter. However, the conversation takes a mysterious turn when Joey cryptically hints at a secret event that occurred on their recent beach trip, refusing to reveal details to Ross. Meanwhile, Phoebe visits her twin sister, Ursula, to deliver the shocking news that their mother was not their biological mother. In a stunning revelation, Ursula casually admits she already knew this from their mother's suicide note—a note Phoebe never knew existed. Stunned and hurt by her sister's secrecy, Phoebe waits in the hallway as Ursula goes to retrieve the note."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:02:01 - 00:03:44",
+    "batch_summary": "Phoebe realizes Ursula flippantly forged a quick summary of their mother's suicide note, though Ursula goes back to find a poem. Meanwhile, back at the apartment, Joey's overwhelming guilt over a secret beach incident causes him to crack under questioning from Ross and Rachel. Despite Monica and Chandler's desperate attempts to keep the secret, Joey confesses that Monica was stung by a jellyfish, a traumatic event they swore never to speak of.",
+    "cumulative_summary": "In a coffee shop, Ross reluctantly agreed to drop his anger over Rachel's multi-page letter to save their relationship, while Joey cryptically hinted at a secret beach trip incident. Meanwhile, Phoebe visited her twin sister, Ursula, and learned of their mother's suicide note. However, Ursula flippantly hands Phoebe a freshly forged note before searching for a poem. Back at the apartment, Joey is consumed by guilt and unable to look at Monica. When Ross and Rachel return and suggest making the beach trip an annual tradition, the group's immediate, negative reaction prompts Rachel to demand the truth. Despite Monica and Chandler's desperate attempts to maintain their oath of silence, Joey cracks under the pressure and confesses the secret that has been eating him alive: Monica was stung by a jellyfish."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:44 - 00:05:13",
+    "batch_summary": "Monica and Chandler recount the dramatic details of Monica's severe jellyfish sting, which left her unable to walk miles from their beach house. Joey recalls a Discovery Channel documentary suggesting urine as a cure. While Rachel and Phoebe react with disgust, Monica admits she was in too much pain and physically unable to pee on herself. Joey proudly declares he stepped up to help his friend, only to sheepishly admit that, in the end, he was unable to perform.",
+    "cumulative_summary": "In a coffee shop, Ross reluctantly agreed to drop his anger over Rachel's letter to save their relationship, while Phoebe visited her twin sister Ursula and received a forged suicide note. Back at the apartment, Joey's guilt over a secret beach trip incident boiled over, forcing him to confess that Monica was stung by a jellyfish. Monica and Chandler explain the severity of the situation, revealing they were stranded miles from the house. Joey remembered a Discovery Channel show suggesting urine as a cure for jellyfish stings. As Rachel and Phoebe react with disgust, Monica admits she was in too much pain and physically unable to pee on herself. Joey proudly declares he stepped up to help his friend, boldly claiming he would pee on any of them in an emergency, before sheepishly confessing that, when the moment came, he ultimately couldn't do it."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:13 - 00:06:51",
+    "batch_summary": "Joey admits that stage fright prevented him from helping Monica, forcing him to pressure a traumatized Chandler into peeing on her jellyfish sting instead. After the friends process this bizarre ordeal, the scene shifts to the coffee shop. Phoebe finishes a musical performance and is confronted by her birth mother, Phoebe Sr. Despite Phoebe's initial attempts to dismiss her, Phoebe Sr. expresses deep regret for giving her up and pleads for a chance to start their relationship anew.",
+    "cumulative_summary": "In a coffee shop, Ross reluctantly agreed to drop his anger over Rachel's letter to save their relationship, while Phoebe visited her twin sister Ursula. Back at the apartment, Joey confessed that Monica was stung by a jellyfish during their beach trip. When Monica was unable to relieve the pain herself, Joey stepped up but got stage fright, ultimately pressuring a traumatized Chandler to pee on her leg instead. As the friends struggle to process this bizarre and embarrassing ordeal, the scene shifts back to the coffee shop. After performing a song, Phoebe is approached by her birth mother, Phoebe Sr. Although Phoebe initially tries to shut her out and leave, Phoebe Sr. confesses her deep regret for giving Phoebe up and explains she stayed away out of fear of rejection. She begs Phoebe for a chance to start over and build a relationship."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:51 - 00:08:10",
+    "batch_summary": "Phoebe initially rejects her birth mother, Phoebe Sr., walking away. However, Phoebe Sr. gently reminds her that she is the family Phoebe was looking for. As they talk, they realize they share common interests like the Beatles and a love for puppies, leading to shared laughter. Although Phoebe admits she is still angry, Phoebe Sr. sympathetically agrees, acknowledging her own self-directed anger. This shared vulnerability opens the door to a tentative reconciliation.",
+    "cumulative_summary": "In a coffee shop, Ross reluctantly agreed to drop his anger over Rachel's letter to save their relationship, while Phoebe visited her twin sister Ursula. Back at the apartment, Joey confessed that Monica was stung by a jellyfish during their beach trip, leading to a traumatizing ordeal where Chandler had to pee on Monica's leg to relieve the pain. Meanwhile, back at the coffee shop, Phoebe is approached by her birth mother, Phoebe Sr., who begs for a chance to build a relationship. Although Phoebe initially rejects her and tries to walk away, Phoebe Sr. gently reminds her that she is the family Phoebe was searching for. As they talk, they discover they share simple common interests like the Beatles and puppies, leading to shared laughter and a thawing of tension. Although Phoebe admits she is still angry, Phoebe Sr. sympathetically agrees, acknowledging her own self-directed anger and paving the way for a tentative reconciliation."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:10 - 00:09:52",
+    "batch_summary": "Phoebe and Phoebe Sr. bond further over shared quirks before heading out for food. Meanwhile, Ross and Rachel's romantic reunion quickly sours. As Rachel praises Ross for taking full responsibility for their past breakup in her letter, Ross's frustration boils over. He snaps, shouting his infamous line, \"We were on a break!\" He then confesses that he fell asleep and never actually finished reading her letter, reigniting their intense argument and prompting their friends to flee the apartment.",
+    "cumulative_summary": "In a coffee shop, Ross reluctantly agreed to drop his anger over Rachel's letter to save their relationship, while Phoebe visited her twin sister Ursula. Back at the apartment, Joey confessed that Monica was stung by a jellyfish during their beach trip, leading to a traumatizing ordeal where Chandler had to pee on Monica's leg to relieve the pain. Meanwhile, Phoebe Sr. successfully reconciled with Phoebe after discovering their shared quirks, and the two happily headed out to get food together. However, Ross and Rachel's intimate reunion in bed quickly deteriorated. When Rachel praised Ross for growing and taking full responsibility for their past mistakes, Ross's resentment boiled over. He abruptly ended their embrace, shouting that they were on a break. As Monica, Chandler, and Joey fled the apartment to avoid the fallout, Ross confessed that he had actually fallen asleep and never finished reading Rachel's letter. This revelation reignited their bitter feud, leaving their relationship in jeopardy once again."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:52 - 00:11:21",
+    "batch_summary": "Ross and Rachel's argument reaches a dramatic climax as Ross mocks the length and grammar of her 18-page letter. Rachel declares their relationship officially over, trading sharp insults with Ross before he storms out. As a parting shot, Rachel loudly insults his sexual performance, which Chandler hilariously notes. Later, Monica and Chandler play cards, and while Monica rejects Chandler's playful suggestion of playing naked, she warmly reassures him of her affection, telling him she thinks he is sweet, smart, and that she loves him.",
+    "cumulative_summary": "In a coffee shop, Ross reluctantly agreed to drop his anger over Rachel's letter to save their relationship, while Phoebe visited her twin sister Ursula. Back at the apartment, Joey confessed that Monica was stung by a jellyfish during their beach trip, leading to a traumatizing ordeal where Chandler had to pee on Monica's leg to relieve the pain. Meanwhile, Phoebe Sr. successfully reconciled with Phoebe. However, Ross and Rachel's intimate reunion in bed quickly deteriorated when Ross confessed he fell asleep and never finished reading Rachel's letter. This revelation reignited their bitter feud. Their argument reaches a dramatic climax as Ross mocks the length and grammar of her 18-page letter, prompting Rachel to declare their relationship officially over. After trading sharp insults, including a parting shot from Rachel about Ross's sexual performance, Ross storms out. Later, Monica and Chandler share a sweet moment while playing cards; though Monica playfully rejects Chandler's suggestion of playing naked, she warmly expresses her love and appreciation for him, calling him sweet and smart."
+  },
+  {
+    "batch_idx": 7,
+    "segment_start": 280,
+    "segment_end": 284,
+    "timestamp_range": "00:11:21 - 00:11:36",
+    "batch_summary": "Monica playfully reminds Chandler that he will always be the guy who peed on her, instantly dampening his mood. Later in the kitchen, the lingering awkwardness of the jellyfish incident and the fallout of Ross and Rachel's dramatic breakup hangs heavy in the air. Sensing the tense atmosphere, Chandler and Joey decide to make a quick exit to take a walk, leaving a stressed Rachel and Monica behind.",
+    "cumulative_summary": "After Ross and Rachel's relationship officially ends in a dramatic, insult-laden screaming match over Rachel's 18-page letter, the rest of the group deals with the aftermath of their beach trip. While Monica and Chandler share a sweet moment playing cards, Monica jokingly reminds Chandler that he will always be the guy who peed on her leg to soothe her jellyfish sting, instantly killing his romantic mood. Later in the kitchen, the heavy tension from both the jellyfish incident and Ross and Rachel's bitter breakup remains palpable. Feeling the awkwardness, Chandler and Joey quickly excuse themselves to take a walk, leaving Monica and a visibly stressed Rachel to process the chaotic events of the day."
+  }
+]

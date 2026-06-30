@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:59",
+    "batch_summary": "In Joanna's office, a pantless Chandler is handcuffed to a desk and begs Rachel to unlock him. Angry that his relationship with her boss, Joanna, jeopardizes her career, Rachel demands he never see Joanna again before freeing him. However, Rachel quickly realizes Joanna will know she unlocked him, risking her job. Panicking, Rachel wrestles Chandler and handcuffs him back up, this time securing him to a filing cabinet to protect her secret.",
+    "cumulative_summary": "In a well-lit office, Rachel confronts a pantless Chandler, who is handcuffed to a desk. Rachel is furious because Chandler's ongoing relationship with her boss, Joanna, threatens her career. Although Chandler claims he tried to break up with Joanna, Rachel demands strict conditions before agreeing to free him: he must never see Joanna again, never return to the office, and replace her lost Walkman. After Rachel unlocks him, Chandler prepares to leave, but Rachel suddenly panics. She realizes that Joanna will easily deduce Rachel used her key to free him, which would lead to her getting fired. Despite Chandler's protests and physical resistance, Rachel wrestles him across the room and handcuffs him once again, securing him to a tall filing cabinet to save her own job."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:59 - 00:03:27",
+    "batch_summary": "After Chandler sarcastically reacts to being handcuffed again, the scene shifts to Joey being pitched an encyclopedia set by a salesman. Joey's humorous lack of general knowledge convinces the salesman that Joey desperately needs the books. Meanwhile, in her childhood bedroom, a frustrated Monica laments her mother's constant criticism. Phoebe comforts her, encouraging Monica to redefine her family's negative phrase, \"pulling a Monica,\" by successfully finishing her catering job and proving her mother wrong.",
+    "cumulative_summary": "After Rachel handcuffs a pantless Chandler to a filing cabinet to protect her career from her boss, Joanna, Chandler is left sarcastically lamenting his predicament. Meanwhile, Joey is visited by an encyclopedia salesman. Through a series of humorous trivia questions about Van Gogh and the Pope, Joey's lack of general knowledge becomes apparent, prompting the salesman to enthusiastically declare that Joey needs the books. Elsewhere, Monica retreats to her childhood bedroom, feeling defeated by her mother's constant criticism and the negative family phrase \"pulling a Monica.\" Phoebe offers comfort and motivation, urging Monica to reclaim and redefine the phrase by successfully completing her catering job and proving her mother wrong."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:27 - 00:05:05",
+    "batch_summary": "Phoebe's encouraging words successfully inspire Monica to reclaim \"pulling a Monica\" by preparing her own dish instead of serving the ruined lasagna. Meanwhile, a panicked Rachel tries to drag the heavy filing cabinet drawer with a handcuffed, pantless Chandler still attached to save her job. Chandler rejects Rachel's frantic bribes of chores and foot rubs, demanding his freedom and screaming into the hallway for help, prompting Rachel to silence him by stuffing a necktie into his mouth.",
+    "cumulative_summary": "After Rachel handcuffs a pantless Chandler to a filing cabinet to protect her career from her boss, Joanna, Chandler is left sarcastically lamenting his predicament. Meanwhile, Joey is visited by an encyclopedia salesman who exploits Joey's lack of general knowledge to pitch his books. Elsewhere, Monica retreats to her childhood bedroom, feeling defeated by her mother's constant criticism and the negative family phrase \"pulling a Monica.\" Phoebe offers comfort and motivation, redefining the phrase positively. Inspired, Monica decides to reclaim her confidence and cook her own dish for the catering job. Back at the office, a panicked Rachel tries to drag the heavy filing cabinet drawer—with Chandler still handcuffed to it—back into place. Chandler rejects Rachel's frantic bribes of chores and foot rubs, demanding his freedom and screaming into the hallway for help. To save her job, Rachel desperately silences him by stuffing a necktie into his mouth."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:05 - 00:06:50",
+    "batch_summary": "In Joanna's office, Chandler accidentally knocks a filing cabinet drawer onto his own head. Meanwhile, Joey tries to buy the encyclopedias but realizes he is broke, emptying his pockets to reveal only random trinkets. However, he finds a $50 bill in the pants he is wearing, which actually belong to Chandler. The salesman agrees to sell him a single volume for $50, and Joey chooses the letter \"V\" to finish reading about vomit. Back at the office, a desperate Chandler continues to offer Rachel absurd bribes for his release, but she remains too panicked to comply.",
+    "cumulative_summary": "After Rachel handcuffs a pantless Chandler to a filing cabinet to protect her career, Chandler accidentally knocks a heavy drawer onto his own head during an argument. Meanwhile, Joey is visited by an encyclopedia salesman who exploits his lack of general knowledge. When Joey realizes he cannot afford the $200 set, he empties his pockets, finding only random trinkets and a $50 bill in a pair of pants that actually belong to Chandler. The salesman agrees to sell him a single volume for $50, and Joey eagerly chooses the letter \"V\" to continue reading about vomit. Elsewhere, Monica retreats to her childhood bedroom, defeated by her mother's criticism, but Phoebe inspires her to reclaim her confidence and cook her own dish for a catering job. Back at the office, Chandler desperately tries to negotiate his release by offering Rachel bribes like wrapping her Christmas gifts and making her fresh orange juice, but a panicked Rachel continues to reject his offers to protect her job."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:50 - 00:08:28",
+    "batch_summary": "Rachel leverages the inevitable rumors about Chandler's predicament to negotiate his release, offering to make him a \"legend\" by exaggerating his physical attributes. Meanwhile, at the catering event, Phoebe reveals that the guests prefer Monica's casserole over her mother's lasagna. Judy surprises Monica by admitting the dish was tasty and confessing she was wrong. Despite Monica accidentally calling her mother a \"bitch\" in her excitement, Judy expresses how impressed she is, prompting Phoebe to declare that Monica has successfully \"pulled a Monica.\"",
+    "cumulative_summary": "After Rachel handcuffs a pantless Chandler to a filing cabinet, he accidentally injures himself during their argument. Meanwhile, Joey buys a single encyclopedia volume about the letter \"V\" from a salesman using Chandler's money. Elsewhere, Monica, initially defeated by her mother Judy's harsh criticism, is inspired by Phoebe to cook her own dish for a catering job. Back at the office, Rachel negotiates Chandler's release by leveraging the inevitable rumors about his embarrassing situation, promising to make him a \"legend\" in exchange for his cooperation. At the catering event, Monica's casserole is a massive hit, overshadowing Judy's lasagna. Judy surprises Monica by admitting the dish was delicious and confessing she was wrong about her daughter's abilities. Despite Monica accidentally calling her mother a \"bitch\" in a slip of the tongue, Judy expresses genuine pride and tells Monica she is impressed. Phoebe proudly declares that Monica has successfully redefined her reputation, proving she can \"pull a Monica\" in the best way possible."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:28 - 00:09:56",
+    "batch_summary": "Monica and her mother Judy share a rare, warm moment of mutual respect as Judy jokingly promises to hire her again. Later, at Central Perk, Chandler arrives and sarcastically thanks Rachel before confirming he broke up with Joanna. Meanwhile, Joey hilariously attempts to steer every conversation toward \"V\" topics—like volcanoes, vivisection, and the vas deferens—to show off the knowledge from his single \"V\" encyclopedia volume, leaving his friends utterly baffled.",
+    "cumulative_summary": "After Rachel handcuffs a pantless Chandler to a filing cabinet, she negotiates his release by promising to make him a \"legend\" to cover up his embarrassment. Meanwhile, Monica overcomes her mother Judy's harsh criticism by cooking a successful casserole for a catering job. Judy surprises Monica by expressing genuine pride, and the two share a rare, warm moment of mutual respect. Later, the friends gather at Central Perk, where Chandler reveals he has officially broken up with Joanna. Joey, eager to use the single \"V\" volume of the encyclopedia he bought, hilariously attempts to steer every conversation toward \"V\" topics like volcanoes, vivisection, and the vas deferens, leaving his friends utterly baffled by his sudden, highly specific expertise."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 261,
+    "timestamp_range": "00:09:56 - 00:11:02",
+    "batch_summary": "At Central Perk, Chandler cracks a joke about Korea that leaves Joey laughing. Later at work, Rachel is shocked to find her boss, Joanna, in a hilariously familiar predicament: handcuffed to her office chair in her slip. After Rachel unlocks her, a disgruntled Joanna instructs Rachel to tell Chandler that their relationship is officially over, mirroring Chandler's previous embarrassing situation.",
+    "cumulative_summary": "After Rachel negotiates Chandler's release from being handcuffed to a filing cabinet, Monica successfully wins her critical mother's approval with a triumphant catering job. At Central Perk, Joey's bizarre attempts to use his single \"V\" volume encyclopedia are followed by Chandler cracking a joke about Korea. The comedy of errors continues when Rachel arrives at work only to discover her boss, Joanna, in a hilariously familiar predicament—handcuffed to her office chair in nothing but a slip. After Rachel quickly unlocks her, a disgruntled Joanna firmly declares that she and Chandler are officially broken up, bringing a chaotic and fittingly embarrassing end to their brief relationship."
+  }
+]

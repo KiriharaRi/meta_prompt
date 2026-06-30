@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:31",
+    "batch_summary": "In Monica's apartment, Joey jokingly bets Monica he can eat a whole jar of olives. Phoebe arrives frantically searching for an atlas to locate the country of a diplomat she is dating. She met him while giving free massages outside the UN. Although he doesn't speak English, Phoebe feels they have a deep connection through his translator. Monica offers a tiny globe pencil sharpener instead of an atlas. The lighthearted scene ends with Joey putting olives on his fingers, pretending to be an alien.",
+    "cumulative_summary": "In the apartment, Joey starts eating a jar of olives after a playful bet with Monica. Their conversation is interrupted when Phoebe rushes in, urgently searching for an atlas. She explains that she has an upcoming date with a foreign diplomat she met while giving free massages outside the United Nations. However, she has no idea where his country is, pronouncing its name with guttural sounds, and notes that he does not speak any English, relying instead on his translator to communicate. Monica tries to help by providing a tiny globe, which turns out to be a novelty pencil sharpener. The humorous and quirky interaction wraps up as Joey puts olives on his fingertips, playfully pretending to be an alien invading Earth."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:31 - 00:03:04",
+    "batch_summary": "Chandler enters the apartment looking for excuses to visit the local copy shop. Joey quickly deduces that Chandler wants to see Chloe, a girl he has a crush on, and decides to tag along. At the shop, a male employee embarrasses the duo by loudly announcing their crush to Chloe. Despite the awkwardness, Chloe approaches them and invites both Chandler and Joey to a DJ event the following night. Joey eagerly accepts the invitation, leaving both men thrilled.",
+    "cumulative_summary": "In the apartment, Joey and Monica's playful banter is interrupted by Phoebe, who is frantically searching for an atlas to locate the country of a foreign diplomat she is dating. Since he speaks no English, she relies on his translator. After Monica offers a tiny novelty globe, the quirky scene ends with Joey playing with olives on his fingers. Soon after, Chandler arrives looking for excuses to visit the local copy shop. Joey quickly deduces Chandler wants to see Chloe, a girl he has a crush on, and decides to tag along. At the shop, a male employee embarrasses them by loudly announcing their crush to Chloe. However, the awkwardness quickly fades when Chloe approaches and invites both Chandler and Joey to a DJ event the following night. Joey enthusiastically accepts, leaving both men thrilled about the invitation."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:04 - 00:04:53",
+    "batch_summary": "Phoebe walks home with her foreign diplomat date, Sergey, and his translator. The translator awkwardly relays romantic compliments between them, including Sergey's desire to kiss her. Feeling crowded, Phoebe asks the translator to step aside before she and Sergey share a romantic kiss. Later, back at the apartment, Phoebe humorously uses Monica's tiny toy globe to discuss Sergey's home country, noting how long it took the Germans to cross it.",
+    "cumulative_summary": "In the apartment, Joey and Monica's playful banter is interrupted by Phoebe, who is frantically searching for an atlas to locate the country of a foreign diplomat she is dating. Since he speaks no English, she relies on his translator. After Monica offers a tiny novelty globe, Chandler and Joey head to a copy shop to see Chandler's crush, Chloe, who invites them to a DJ event. Later that night, Phoebe walks home with her diplomat date, Sergey, and his translator. The translator awkwardly relays romantic compliments between the two, even translating Sergey's request for a kiss. Feeling crowded by the translator's close proximity, Phoebe asks him to step away so she and Sergey can share a romantic kiss. Afterward, Phoebe returns to the apartment and humorously uses Monica's tiny toy globe to discuss Sergey's home country, noting the absurdity of its scale."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:04:53 - 00:06:48",
+    "batch_summary": "Phoebe complains to Monica about Sergey's translator ruining their dates. To solve this, she convinces Monica to go on a double date with the translator. Meanwhile, Ross is disappointed when Rachel cancels their anniversary dinner due to a work emergency at her office. At Central Perk, Chandler is overly eager to attend Chloe's DJ event hours ahead of schedule. As he and Joey wait, Joey brings up Chloe's intriguing suggestion of a threesome, leaving both men highly expectant.",
+    "cumulative_summary": "In the apartment, Phoebe frantically searches for an atlas to locate the country of Sergey, a foreign diplomat she is dating. Since he speaks no English, they rely on his translator, whose constant presence quickly becomes intrusive. To secure some alone time with Sergey, Phoebe convinces Monica to join them on a double date to distract the translator. Meanwhile, Ross's anniversary plans with Rachel are ruined when she cancels due to a work emergency, leaving him deeply disappointed. At Central Perk, Chandler is overly eager to attend Chloe's DJ event hours ahead of schedule. As he and Joey wait, Joey brings up Chloe's previous suggestion of a threesome, sparking their anticipation."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:06:48 - 00:08:09",
+    "batch_summary": "At Central Perk, Chandler and Joey humorously prepare for the possibility of a threesome with Chloe by establishing ground rules. They initially agree to keep their eyes closed to avoid awkwardness, but Chandler quickly realizes the risk of accidental touching, prompting them to reverse the rule to keeping their eyes open at all times. Finally, they struggle with how to decide their physical positions, with Chandler suggesting they flip a coin to settle it.",
+    "cumulative_summary": "In the apartment, Phoebe frantically searches for an atlas to locate the country of Sergey, a foreign diplomat she is dating. Since he speaks no English, they rely on his translator, whose constant presence quickly becomes intrusive. To secure some alone time with Sergey, Phoebe convinces Monica to join them on a double date to distract the translator. Meanwhile, Ross's anniversary plans with Rachel are ruined when she cancels due to a work emergency, leaving him deeply disappointed. At Central Perk, Chandler is overly eager to attend Chloe's DJ event hours ahead of schedule. As he and Joey wait, Joey brings up Chloe's previous suggestion of a threesome, sparking their anticipation. The two friends humorously attempt to establish ground rules for the potential encounter. After initially deciding to keep their eyes closed to avoid awkwardness, Chandler realizes the risk of accidental touching, prompting them to mandate keeping their eyes open at all times instead. They then contemplate how to divide their positions, with Chandler suggesting a coin toss to settle it."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:09 - 00:09:40",
+    "batch_summary": "Chandler calls off the potential threesome after Joey gets confused by coin-toss terms. Meanwhile, Ross surprises a highly stressed Rachel at her office with an anniversary picnic. Despite Rachel explaining she is in the middle of a major work crisis, Ross insists on setting up, claiming he will be invisible. However, his loud unpacking and pepper-grinding only add to her frustration as she tries to manage her phone calls and mentions her colleague, Mark.",
+    "cumulative_summary": "In the apartment, Phoebe frantically searches for an atlas to locate Sergey's country. To secure alone time with him, she convinces Monica to join them on a double date to distract his translator. Meanwhile, Chandler and Joey humorously attempt to establish ground rules for a potential threesome with Chloe. However, Chandler calls it off when Joey gets confused over the coin-toss terms. At the same time, Ross's anniversary plans are disrupted when Rachel cancels due to a work emergency. Refusing to let the night go, Ross surprises Rachel at her office with a picnic. Rachel is in the middle of a stressful work crisis and repeatedly tells him she has no time, but Ross insists on setting up, promising to be \"invisible.\" Instead, his loud unpacking and pepper-grinding only add to her frustration as she frantically handles phone calls and coordinates with her colleague, Mark."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 279,
+    "timestamp_range": "00:09:40 - 00:11:22",
+    "batch_summary": "Ross's intrusive picnic attempt escalates when he accidentally starts a fire on Rachel's desk, forcing her to abruptly end an important work call. Frustrated by his refusal to respect her boundaries and deadline, Rachel kicks him out of her office. Later at home, the tension boils over. Ross expects an apology for being thrown out, but Rachel demands one from him instead, arguing that his disruptive behavior was completely inappropriate for a professional workspace.",
+    "cumulative_summary": "In the apartment, Phoebe convinces Monica to join her on a double date with Sergey and his translator, while Chandler and Joey fail to establish ground rules for a potential threesome. Meanwhile, Ross's anniversary plans are disrupted when Rachel cancels due to a work emergency. Refusing to let the night go, Ross surprises Rachel at her office with a picnic, ignoring her pleas that she is too busy. His intrusive behavior escalates when he accidentally starts a fire on her desk, forcing her to abruptly end an important call. Frustrated by his complete disregard for her deadline, Rachel kicks him out. Later at home, the tension boils over into a major argument. Ross expects an apology for being thrown out, but Rachel furiously demands one from him, asserting that his disruptive stunt was entirely inappropriate for her workplace."
+  }
+]

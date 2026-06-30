@@ -1,0 +1,1513 @@
+{
+  "generated_at": "2026-06-30T09:48:41.555558+00:00",
+  "encoding_dir": "friends/analysis/train_size_sweep_20260629_round8/encoding_145train_10test_snapshot",
+  "full_run_encoding_dir": "friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding",
+  "output_dir": "friends/analysis/train_size_sweep_20260629_round8/interpretability_report_145train_10test",
+  "top_roi_count": 8,
+  "top_rois": [
+    "SMG",
+    "IPL",
+    "AG",
+    "TPJ",
+    "FFA",
+    "PCC",
+    "DLPFC",
+    "Temporal_Pole"
+  ],
+  "performance": [
+    {
+      "rank": 1,
+      "roi_id": "SMG",
+      "mean_test_pearson": "0.295532452934",
+      "median_test_pearson": "0.298151670474",
+      "n_retained_parcels": 6,
+      "n_total_selected_parcels": 6
+    },
+    {
+      "rank": 2,
+      "roi_id": "IPL",
+      "mean_test_pearson": "0.282625308917",
+      "median_test_pearson": "0.238958775229",
+      "n_retained_parcels": 12,
+      "n_total_selected_parcels": 12
+    },
+    {
+      "rank": 3,
+      "roi_id": "AG",
+      "mean_test_pearson": "0.269718164900",
+      "median_test_pearson": "0.238958775229",
+      "n_retained_parcels": 6,
+      "n_total_selected_parcels": 6
+    },
+    {
+      "rank": 4,
+      "roi_id": "TPJ",
+      "mean_test_pearson": "0.268421381911",
+      "median_test_pearson": "0.228696566819",
+      "n_retained_parcels": 20,
+      "n_total_selected_parcels": 20
+    },
+    {
+      "rank": 5,
+      "roi_id": "FFA",
+      "mean_test_pearson": "0.251968110552",
+      "median_test_pearson": "0.276231086332",
+      "n_retained_parcels": 4,
+      "n_total_selected_parcels": 4
+    },
+    {
+      "rank": 6,
+      "roi_id": "PCC",
+      "mean_test_pearson": "0.238673326316",
+      "median_test_pearson": "0.231357664831",
+      "n_retained_parcels": 6,
+      "n_total_selected_parcels": 6
+    },
+    {
+      "rank": 7,
+      "roi_id": "DLPFC",
+      "mean_test_pearson": "0.231978282924",
+      "median_test_pearson": "0.207927006125",
+      "n_retained_parcels": 10,
+      "n_total_selected_parcels": 10
+    },
+    {
+      "rank": 8,
+      "roi_id": "Temporal_Pole",
+      "mean_test_pearson": "0.214468112676",
+      "median_test_pearson": "0.215119405553",
+      "n_retained_parcels": 4,
+      "n_total_selected_parcels": 4
+    },
+    {
+      "rank": 9,
+      "roi_id": "Insula",
+      "mean_test_pearson": "0.214130660704",
+      "median_test_pearson": "0.215900544616",
+      "n_retained_parcels": 12,
+      "n_total_selected_parcels": 12
+    },
+    {
+      "rank": 10,
+      "roi_id": "OFC",
+      "mean_test_pearson": "0.212062764495",
+      "median_test_pearson": "0.222388663105",
+      "n_retained_parcels": 12,
+      "n_total_selected_parcels": 12
+    },
+    {
+      "rank": 11,
+      "roi_id": "pSTS",
+      "mean_test_pearson": "0.210060097442",
+      "median_test_pearson": "0.209332122133",
+      "n_retained_parcels": 4,
+      "n_total_selected_parcels": 4
+    },
+    {
+      "rank": 12,
+      "roi_id": "VMPFC",
+      "mean_test_pearson": "0.202154131638",
+      "median_test_pearson": "0.163095440584",
+      "n_retained_parcels": 8,
+      "n_total_selected_parcels": 8
+    },
+    {
+      "rank": 13,
+      "roi_id": "ACC",
+      "mean_test_pearson": "0.194954221556",
+      "median_test_pearson": "0.186246078561",
+      "n_retained_parcels": 8,
+      "n_total_selected_parcels": 8
+    },
+    {
+      "rank": 14,
+      "roi_id": "Precuneus",
+      "mean_test_pearson": "0.177945144414",
+      "median_test_pearson": "0.141877426627",
+      "n_retained_parcels": 8,
+      "n_total_selected_parcels": 8
+    }
+  ],
+  "source_schema_contribution": [
+    {
+      "target_roi": "SMG",
+      "source_schema_roi": "pSTS",
+      "top_feature_count": 10,
+      "mean_abs_coef_mass": "0.176279328740",
+      "fraction_of_top_abs_mass": "0.486127",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "SMG",
+      "source_schema_roi": "SMG",
+      "top_feature_count": 5,
+      "mean_abs_coef_mass": "0.120557392794",
+      "fraction_of_top_abs_mass": "0.332462",
+      "self_schema": "true",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "SMG",
+      "source_schema_roi": "VMPFC",
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.038325551214",
+      "fraction_of_top_abs_mass": "0.105691",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "SMG",
+      "source_schema_roi": "IPL",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.014686904099",
+      "fraction_of_top_abs_mass": "0.040502",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "SMG",
+      "source_schema_roi": "AG",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.012770362824",
+      "fraction_of_top_abs_mass": "0.035217",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "IPL",
+      "source_schema_roi": "pSTS",
+      "top_feature_count": 10,
+      "mean_abs_coef_mass": "0.143972370268",
+      "fraction_of_top_abs_mass": "0.464809",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "IPL",
+      "source_schema_roi": "SMG",
+      "top_feature_count": 5,
+      "mean_abs_coef_mass": "0.102644475965",
+      "fraction_of_top_abs_mass": "0.331383",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "IPL",
+      "source_schema_roi": "VMPFC",
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.036241832937",
+      "fraction_of_top_abs_mass": "0.117005",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "IPL",
+      "source_schema_roi": "IPL",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.014118094844",
+      "fraction_of_top_abs_mass": "0.045580",
+      "self_schema": "true",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "IPL",
+      "source_schema_roi": "AG",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.012768512161",
+      "fraction_of_top_abs_mass": "0.041223",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "AG",
+      "source_schema_roi": "SMG",
+      "top_feature_count": 6,
+      "mean_abs_coef_mass": "0.095778077159",
+      "fraction_of_top_abs_mass": "0.360452",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "AG",
+      "source_schema_roi": "pSTS",
+      "top_feature_count": 5,
+      "mean_abs_coef_mass": "0.063374802492",
+      "fraction_of_top_abs_mass": "0.238505",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "AG",
+      "source_schema_roi": "IPL",
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.036127485529",
+      "fraction_of_top_abs_mass": "0.135963",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "AG",
+      "source_schema_roi": "VMPFC",
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.035859575487",
+      "fraction_of_top_abs_mass": "0.134954",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "AG",
+      "source_schema_roi": "AG",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.012766661498",
+      "fraction_of_top_abs_mass": "0.048046",
+      "self_schema": "true",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "AG",
+      "source_schema_roi": "FFA",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.010943812238",
+      "fraction_of_top_abs_mass": "0.041186",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "AG",
+      "source_schema_roi": "ACC",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.010865928644",
+      "fraction_of_top_abs_mass": "0.040893",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "TPJ",
+      "source_schema_roi": "SMG",
+      "top_feature_count": 6,
+      "mean_abs_coef_mass": "0.099052494430",
+      "fraction_of_top_abs_mass": "0.372675",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "TPJ",
+      "source_schema_roi": "pSTS",
+      "top_feature_count": 8,
+      "mean_abs_coef_mass": "0.098709782331",
+      "fraction_of_top_abs_mass": "0.371385",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "TPJ",
+      "source_schema_roi": "VMPFC",
+      "top_feature_count": 4,
+      "mean_abs_coef_mass": "0.045261446312",
+      "fraction_of_top_abs_mass": "0.170292",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "TPJ",
+      "source_schema_roi": "IPL",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.012399675169",
+      "fraction_of_top_abs_mass": "0.046653",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "TPJ",
+      "source_schema_roi": "AG",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.010364579562",
+      "fraction_of_top_abs_mass": "0.038996",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "FFA",
+      "source_schema_roi": "SMG",
+      "top_feature_count": 9,
+      "mean_abs_coef_mass": "0.118398502473",
+      "fraction_of_top_abs_mass": "0.419023",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "FFA",
+      "source_schema_roi": "DLPFC",
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.045732413342",
+      "fraction_of_top_abs_mass": "0.161851",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "FFA",
+      "source_schema_roi": "FFA",
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.043630047475",
+      "fraction_of_top_abs_mass": "0.154411",
+      "self_schema": "true",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "FFA",
+      "source_schema_roi": "AG",
+      "top_feature_count": 2,
+      "mean_abs_coef_mass": "0.031135862962",
+      "fraction_of_top_abs_mass": "0.110193",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "FFA",
+      "source_schema_roi": "OFC",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.016215607668",
+      "fraction_of_top_abs_mass": "0.057389",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "FFA",
+      "source_schema_roi": "IPL",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.015205108123",
+      "fraction_of_top_abs_mass": "0.053812",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "FFA",
+      "source_schema_roi": "VMPFC",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.012240805275",
+      "fraction_of_top_abs_mass": "0.043321",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "PCC",
+      "source_schema_roi": "SMG",
+      "top_feature_count": 6,
+      "mean_abs_coef_mass": "0.085556467171",
+      "fraction_of_top_abs_mass": "0.319108",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "PCC",
+      "source_schema_roi": "VMPFC",
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.048009188266",
+      "fraction_of_top_abs_mass": "0.179065",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "PCC",
+      "source_schema_roi": "ACC",
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.037884324098",
+      "fraction_of_top_abs_mass": "0.141301",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "PCC",
+      "source_schema_roi": "AG",
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.034994870113",
+      "fraction_of_top_abs_mass": "0.130524",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "PCC",
+      "source_schema_roi": "pSTS",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.015218609156",
+      "fraction_of_top_abs_mass": "0.056762",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "PCC",
+      "source_schema_roi": "OFC",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.012148783579",
+      "fraction_of_top_abs_mass": "0.045312",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "PCC",
+      "source_schema_roi": "FFA",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.011537425147",
+      "fraction_of_top_abs_mass": "0.043032",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "PCC",
+      "source_schema_roi": "Precuneus",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.011435294596",
+      "fraction_of_top_abs_mass": "0.042651",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "PCC",
+      "source_schema_roi": "TPJ",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.011326174819",
+      "fraction_of_top_abs_mass": "0.042244",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "DLPFC",
+      "source_schema_roi": "SMG",
+      "top_feature_count": 6,
+      "mean_abs_coef_mass": "0.074503951181",
+      "fraction_of_top_abs_mass": "0.301148",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "DLPFC",
+      "source_schema_roi": "VMPFC",
+      "top_feature_count": 4,
+      "mean_abs_coef_mass": "0.065903656970",
+      "fraction_of_top_abs_mass": "0.266385",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "DLPFC",
+      "source_schema_roi": "AG",
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.032732208938",
+      "fraction_of_top_abs_mass": "0.132305",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "DLPFC",
+      "source_schema_roi": "PCC",
+      "top_feature_count": 2,
+      "mean_abs_coef_mass": "0.020721159021",
+      "fraction_of_top_abs_mass": "0.083756",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "DLPFC",
+      "source_schema_roi": "IPL",
+      "top_feature_count": 2,
+      "mean_abs_coef_mass": "0.020013129729",
+      "fraction_of_top_abs_mass": "0.080894",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "DLPFC",
+      "source_schema_roi": "pSTS",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.012390462609",
+      "fraction_of_top_abs_mass": "0.050083",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "DLPFC",
+      "source_schema_roi": "FFA",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.011439409480",
+      "fraction_of_top_abs_mass": "0.046239",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "DLPFC",
+      "source_schema_roi": "Temporal_Pole",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.009695889502",
+      "fraction_of_top_abs_mass": "0.039191",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "source_schema_roi": "VMPFC",
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.047584920740",
+      "fraction_of_top_abs_mass": "0.186103",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "source_schema_roi": "AG",
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.041004063643",
+      "fraction_of_top_abs_mass": "0.160365",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "source_schema_roi": "SMG",
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.036681504632",
+      "fraction_of_top_abs_mass": "0.143460",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "source_schema_roi": "Temporal_Pole",
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.033608484274",
+      "fraction_of_top_abs_mass": "0.131441",
+      "self_schema": "true",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "source_schema_roi": "IPL",
+      "top_feature_count": 2,
+      "mean_abs_coef_mass": "0.022724125171",
+      "fraction_of_top_abs_mass": "0.088873",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "source_schema_roi": "pSTS",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.016355196512",
+      "fraction_of_top_abs_mass": "0.063965",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "source_schema_roi": "ACC",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.012463621215",
+      "fraction_of_top_abs_mass": "0.048745",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "source_schema_roi": "OFC",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.011591453808",
+      "fraction_of_top_abs_mass": "0.045334",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "source_schema_roi": "TPJ",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.011556119337",
+      "fraction_of_top_abs_mass": "0.045196",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "source_schema_roi": "FFA",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.011173665111",
+      "fraction_of_top_abs_mass": "0.043700",
+      "self_schema": "false",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "source_schema_roi": "Insula",
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.010948587211",
+      "fraction_of_top_abs_mass": "0.042819",
+      "self_schema": "false",
+      "top_n_features": 20
+    }
+  ],
+  "lag_distribution": [
+    {
+      "target_roi": "SMG",
+      "lag": 2,
+      "top_feature_count": 4,
+      "mean_abs_coef_mass": "0.067326125574",
+      "fraction_of_top_abs_mass": "0.185666",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "SMG",
+      "lag": 3,
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.068994985716",
+      "fraction_of_top_abs_mass": "0.190268",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "SMG",
+      "lag": 4,
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.070862742421",
+      "fraction_of_top_abs_mass": "0.195419",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "SMG",
+      "lag": 5,
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.057225286614",
+      "fraction_of_top_abs_mass": "0.157811",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "SMG",
+      "lag": 6,
+      "top_feature_count": 7,
+      "mean_abs_coef_mass": "0.098210399346",
+      "fraction_of_top_abs_mass": "0.270836",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "IPL",
+      "lag": 2,
+      "top_feature_count": 4,
+      "mean_abs_coef_mass": "0.056183937387",
+      "fraction_of_top_abs_mass": "0.181388",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "IPL",
+      "lag": 3,
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.056215275978",
+      "fraction_of_top_abs_mass": "0.181489",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "IPL",
+      "lag": 4,
+      "top_feature_count": 4,
+      "mean_abs_coef_mass": "0.069913918875",
+      "fraction_of_top_abs_mass": "0.225714",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "IPL",
+      "lag": 5,
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.048171026531",
+      "fraction_of_top_abs_mass": "0.155518",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "IPL",
+      "lag": 6,
+      "top_feature_count": 6,
+      "mean_abs_coef_mass": "0.079261127403",
+      "fraction_of_top_abs_mass": "0.255891",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "AG",
+      "lag": 2,
+      "top_feature_count": 5,
+      "mean_abs_coef_mass": "0.057277880707",
+      "fraction_of_top_abs_mass": "0.215560",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "AG",
+      "lag": 3,
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.043435566240",
+      "fraction_of_top_abs_mass": "0.163466",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "AG",
+      "lag": 4,
+      "top_feature_count": 4,
+      "mean_abs_coef_mass": "0.057567030805",
+      "fraction_of_top_abs_mass": "0.216648",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "AG",
+      "lag": 5,
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.019077655289",
+      "fraction_of_top_abs_mass": "0.071797",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "AG",
+      "lag": 6,
+      "top_feature_count": 7,
+      "mean_abs_coef_mass": "0.088358210006",
+      "fraction_of_top_abs_mass": "0.332528",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "TPJ",
+      "lag": 2,
+      "top_feature_count": 4,
+      "mean_abs_coef_mass": "0.049096987328",
+      "fraction_of_top_abs_mass": "0.184722",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "TPJ",
+      "lag": 3,
+      "top_feature_count": 4,
+      "mean_abs_coef_mass": "0.057017837222",
+      "fraction_of_top_abs_mass": "0.214524",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "TPJ",
+      "lag": 4,
+      "top_feature_count": 4,
+      "mean_abs_coef_mass": "0.059514474353",
+      "fraction_of_top_abs_mass": "0.223917",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "TPJ",
+      "lag": 5,
+      "top_feature_count": 2,
+      "mean_abs_coef_mass": "0.029643967385",
+      "fraction_of_top_abs_mass": "0.111532",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "TPJ",
+      "lag": 6,
+      "top_feature_count": 6,
+      "mean_abs_coef_mass": "0.070514711517",
+      "fraction_of_top_abs_mass": "0.265304",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "FFA",
+      "lag": 2,
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.043486265182",
+      "fraction_of_top_abs_mass": "0.153902",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "FFA",
+      "lag": 3,
+      "top_feature_count": 2,
+      "mean_abs_coef_mass": "0.025557962543",
+      "fraction_of_top_abs_mass": "0.090452",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "FFA",
+      "lag": 4,
+      "top_feature_count": 2,
+      "mean_abs_coef_mass": "0.026231345711",
+      "fraction_of_top_abs_mass": "0.092835",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "FFA",
+      "lag": 5,
+      "top_feature_count": 2,
+      "mean_abs_coef_mass": "0.025164685770",
+      "fraction_of_top_abs_mass": "0.089060",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "FFA",
+      "lag": 6,
+      "top_feature_count": 11,
+      "mean_abs_coef_mass": "0.162118088113",
+      "fraction_of_top_abs_mass": "0.573751",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "PCC",
+      "lag": 2,
+      "top_feature_count": 2,
+      "mean_abs_coef_mass": "0.022639303872",
+      "fraction_of_top_abs_mass": "0.084440",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "PCC",
+      "lag": 4,
+      "top_feature_count": 2,
+      "mean_abs_coef_mass": "0.026873708802",
+      "fraction_of_top_abs_mass": "0.100233",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "PCC",
+      "lag": 5,
+      "top_feature_count": 4,
+      "mean_abs_coef_mass": "0.054014893942",
+      "fraction_of_top_abs_mass": "0.201465",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "PCC",
+      "lag": 6,
+      "top_feature_count": 12,
+      "mean_abs_coef_mass": "0.164583230329",
+      "fraction_of_top_abs_mass": "0.613862",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "DLPFC",
+      "lag": 2,
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.034091499997",
+      "fraction_of_top_abs_mass": "0.137799",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "DLPFC",
+      "lag": 3,
+      "top_feature_count": 2,
+      "mean_abs_coef_mass": "0.024844684247",
+      "fraction_of_top_abs_mass": "0.100423",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "DLPFC",
+      "lag": 4,
+      "top_feature_count": 1,
+      "mean_abs_coef_mass": "0.020392494407",
+      "fraction_of_top_abs_mass": "0.082427",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "DLPFC",
+      "lag": 5,
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.039764711895",
+      "fraction_of_top_abs_mass": "0.160731",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "DLPFC",
+      "lag": 6,
+      "top_feature_count": 11,
+      "mean_abs_coef_mass": "0.128306476881",
+      "fraction_of_top_abs_mass": "0.518620",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "lag": 2,
+      "top_feature_count": 2,
+      "mean_abs_coef_mass": "0.022001853339",
+      "fraction_of_top_abs_mass": "0.086048",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "lag": 4,
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.034149694760",
+      "fraction_of_top_abs_mass": "0.133558",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "lag": 5,
+      "top_feature_count": 3,
+      "mean_abs_coef_mass": "0.040354957287",
+      "fraction_of_top_abs_mass": "0.157827",
+      "top_n_features": 20
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "lag": 6,
+      "top_feature_count": 12,
+      "mean_abs_coef_mass": "0.159185236269",
+      "fraction_of_top_abs_mass": "0.622567",
+      "top_n_features": 20
+    }
+  ],
+  "representative_test_examples": [
+    {
+      "target_roi": "SMG",
+      "direction": "positive",
+      "source_schema_roi": "SMG",
+      "dimension_id": "dialogue_density_and_tempo",
+      "domain": "verbal_phonological_tracking",
+      "lag": 4,
+      "episode_id": "s06e04a",
+      "sample_id": "sub-01_s06e04a",
+      "target_tr_index": 44,
+      "feature_tr_index": 40,
+      "feature_score": "3.758389",
+      "local_mean_abs_error": "1.669158",
+      "local_error_percentile": "0.02",
+      "tr_start_s": "59.60",
+      "tr_end_s": "61.09",
+      "source_description": "Ross points a finger toward Phoebe and says, \"I see what this is. You are in love with Rachel.\" Phoebe looks at him.",
+      "definition": "The density, speed, and overall tempo of spoken dialogue or narration in the scene."
+    },
+    {
+      "target_roi": "SMG",
+      "direction": "negative",
+      "source_schema_roi": "TPJ",
+      "dimension_id": "blame_and_intentionality_assessment",
+      "domain": "moral_and_normative_appraisal",
+      "lag": 2,
+      "episode_id": "s06e01a",
+      "sample_id": "sub-01_s06e01a",
+      "target_tr_index": 44,
+      "feature_tr_index": 42,
+      "feature_score": "2.154362",
+      "local_mean_abs_error": "2.809235",
+      "local_error_percentile": "0.11",
+      "tr_start_s": "62.58",
+      "tr_end_s": "64.07",
+      "source_description": "Phoebe turns her head back toward the woman at the desk and says, \"Well, maybe you wouldn't have if you could run in the chapel.\"",
+      "definition": "The degree to which the viewer must evaluate a character's level of blame, intentionality, or negligence behind a harmful outcome, distinguishing between accidents, negligence, and deliberate malice."
+    },
+    {
+      "target_roi": "SMG",
+      "direction": "absolute",
+      "source_schema_roi": "SMG",
+      "dimension_id": "dialogue_density_and_tempo",
+      "domain": "verbal_phonological_tracking",
+      "lag": 3,
+      "episode_id": "s06e05a",
+      "sample_id": "sub-01_s06e05a",
+      "target_tr_index": 279,
+      "feature_tr_index": 276,
+      "feature_score": "3.510067",
+      "local_mean_abs_error": "2.138081",
+      "local_error_percentile": "0.04",
+      "tr_start_s": "411.24",
+      "tr_end_s": "412.73",
+      "source_description": "Chandler continues, \"We have been playing these babies man to man. We\" as he gestures with the baby bottle in his right hand.",
+      "definition": "The density, speed, and overall tempo of spoken dialogue or narration in the scene."
+    },
+    {
+      "target_roi": "IPL",
+      "direction": "positive",
+      "source_schema_roi": "SMG",
+      "dimension_id": "dialogue_density_and_tempo",
+      "domain": "verbal_phonological_tracking",
+      "lag": 4,
+      "episode_id": "s06e06b",
+      "sample_id": "sub-01_s06e06b",
+      "target_tr_index": 60,
+      "feature_tr_index": 56,
+      "feature_score": "4.000000",
+      "local_mean_abs_error": "3.204658",
+      "local_error_percentile": "0.02",
+      "tr_start_s": "83.44",
+      "tr_end_s": "84.93",
+      "source_description": "Joey looks at his cards and says, \"A two and a five.\" Chandler responds, \"You win $50.\"",
+      "definition": "The density, speed, and overall tempo of spoken dialogue or narration in the scene."
+    },
+    {
+      "target_roi": "IPL",
+      "direction": "negative",
+      "source_schema_roi": "pSTS",
+      "dimension_id": "dialogue_interactivity_and_turn_taking",
+      "domain": "social_interaction_tracking",
+      "lag": 6,
+      "episode_id": "s06e06b",
+      "sample_id": "sub-01_s06e06b",
+      "target_tr_index": 60,
+      "feature_tr_index": 54,
+      "feature_score": "4.000000",
+      "local_mean_abs_error": "3.204658",
+      "local_error_percentile": "0.02",
+      "tr_start_s": "80.46",
+      "tr_end_s": "81.95",
+      "source_description": "Chandler looks at his own cards and says, \"I have two queens. What do you have?\"",
+      "definition": "The degree to which the scene features active, back-and-forth verbal communication and conversational turn-taking between characters."
+    },
+    {
+      "target_roi": "IPL",
+      "direction": "absolute",
+      "source_schema_roi": "SMG",
+      "dimension_id": "dialogue_density_and_tempo",
+      "domain": "verbal_phonological_tracking",
+      "lag": 3,
+      "episode_id": "s06e05a",
+      "sample_id": "sub-01_s06e05a",
+      "target_tr_index": 443,
+      "feature_tr_index": 440,
+      "feature_score": "4.000000",
+      "local_mean_abs_error": "3.572218",
+      "local_error_percentile": "0.04",
+      "tr_start_s": "655.60",
+      "tr_end_s": "657.09",
+      "source_description": "Chandler says, \"Well, I was trying to prove that I was right. And turns out I was wrong. And now it's lodged my throat.\" He gestures with his hand toward his neck.",
+      "definition": "The density, speed, and overall tempo of spoken dialogue or narration in the scene."
+    },
+    {
+      "target_roi": "AG",
+      "direction": "positive",
+      "source_schema_roi": "pSTS",
+      "dimension_id": "vocal_prosody_and_emotional_expression",
+      "domain": "audiovisual_speech_and_communication_integration",
+      "lag": 3,
+      "episode_id": "s06e05b",
+      "sample_id": "sub-01_s06e05b",
+      "target_tr_index": 235,
+      "feature_tr_index": 232,
+      "feature_score": "4.000000",
+      "local_mean_abs_error": "3.555707",
+      "local_error_percentile": "0.09",
+      "tr_start_s": "345.68",
+      "tr_end_s": "347.17",
+      "source_description": "Phoebe looks at the babies and says, \"We ain't taking care of you with no, huh? You guys feel safe, right? Okay, I'm gonna take that spitbubble.\" She uses a cloth to wipe a baby’s face.",
+      "definition": "The presence and intensity of emotional inflection, tone, pitch, and volume in spoken words (e.g., whispering in fear, shouting in anger, trembling voice)."
+    },
+    {
+      "target_roi": "AG",
+      "direction": "negative",
+      "source_schema_roi": "pSTS",
+      "dimension_id": "dialogue_interactivity_and_turn_taking",
+      "domain": "social_interaction_tracking",
+      "lag": 6,
+      "episode_id": "s06e03b",
+      "sample_id": "sub-01_s06e03b",
+      "target_tr_index": 83,
+      "feature_tr_index": 77,
+      "feature_score": "4.000000",
+      "local_mean_abs_error": "2.557436",
+      "local_error_percentile": "0.02",
+      "tr_start_s": "114.73",
+      "tr_end_s": "116.22",
+      "source_description": "Ross stands still, holding more books. \"What do you mean they're not moving in? They're still moving in, right?\" he asks, his volume lower than Rachel's.",
+      "definition": "The degree to which the scene features active, back-and-forth verbal communication and conversational turn-taking between characters."
+    },
+    {
+      "target_roi": "AG",
+      "direction": "absolute",
+      "source_schema_roi": "SMG",
+      "dimension_id": "dialogue_density_and_tempo",
+      "domain": "verbal_phonological_tracking",
+      "lag": 4,
+      "episode_id": "s06e03b",
+      "sample_id": "sub-01_s06e03b",
+      "target_tr_index": 82,
+      "feature_tr_index": 78,
+      "feature_score": "3.000000",
+      "local_mean_abs_error": "3.316897",
+      "local_error_percentile": "0.07",
+      "tr_start_s": "116.22",
+      "tr_end_s": "117.71",
+      "source_description": "Ross stands still, holding more books. \"What do you mean they're not moving in? They're still moving in, right?\" he asks, his volume lower than Rachel's.",
+      "definition": "The density, speed, and overall tempo of spoken dialogue or narration in the scene."
+    },
+    {
+      "target_roi": "TPJ",
+      "direction": "positive",
+      "source_schema_roi": "pSTS",
+      "dimension_id": "vocal_prosody_and_emotional_expression",
+      "domain": "audiovisual_speech_and_communication_integration",
+      "lag": 3,
+      "episode_id": "s06e06b",
+      "sample_id": "sub-01_s06e06b",
+      "target_tr_index": 285,
+      "feature_tr_index": 282,
+      "feature_score": "5.000000",
+      "local_mean_abs_error": "4.755027",
+      "local_error_percentile": "0.02",
+      "tr_start_s": "420.18",
+      "tr_end_s": "421.67",
+      "source_description": "Ross says, \"He's fine. Yeah, he's right oh, my God.\" He turns his head to the left toward a striped sweater stuffed with an object. Audience laughter is audible.",
+      "definition": "The presence and intensity of emotional inflection, tone, pitch, and volume in spoken words (e.g., whispering in fear, shouting in anger, trembling voice)."
+    },
+    {
+      "target_roi": "TPJ",
+      "direction": "negative",
+      "source_schema_roi": "pSTS",
+      "dimension_id": "dialogue_interactivity_and_turn_taking",
+      "domain": "social_interaction_tracking",
+      "lag": 6,
+      "episode_id": "s06e06b",
+      "sample_id": "sub-01_s06e06b",
+      "target_tr_index": 470,
+      "feature_tr_index": 464,
+      "feature_score": "3.000000",
+      "local_mean_abs_error": "5.519742",
+      "local_error_percentile": "0.04",
+      "tr_start_s": "691.36",
+      "tr_end_s": "692.85",
+      "source_description": "Chandler takes several cards and says, \"Okay? Now, I assume the saucer card came up when you played last,\" his gaze on the cards.",
+      "definition": "The degree to which the scene features active, back-and-forth verbal communication and conversational turn-taking between characters."
+    },
+    {
+      "target_roi": "TPJ",
+      "direction": "absolute",
+      "source_schema_roi": "SMG",
+      "dimension_id": "dialogue_density_and_tempo",
+      "domain": "verbal_phonological_tracking",
+      "lag": 4,
+      "episode_id": "s06e06b",
+      "sample_id": "sub-01_s06e06b",
+      "target_tr_index": 60,
+      "feature_tr_index": 56,
+      "feature_score": "4.000000",
+      "local_mean_abs_error": "5.911705",
+      "local_error_percentile": "0.16",
+      "tr_start_s": "83.44",
+      "tr_end_s": "84.93",
+      "source_description": "Joey looks at his cards and says, \"A two and a five.\" Chandler responds, \"You win $50.\"",
+      "definition": "The density, speed, and overall tempo of spoken dialogue or narration in the scene."
+    },
+    {
+      "target_roi": "FFA",
+      "direction": "positive",
+      "source_schema_roi": "DLPFC",
+      "dimension_id": "formal_rule_and_protocol_compliance",
+      "domain": "rule_and_normative_constraint_integration",
+      "lag": 6,
+      "episode_id": "s06e01a",
+      "sample_id": "sub-01_s06e01a",
+      "target_tr_index": 454,
+      "feature_tr_index": 448,
+      "feature_score": "4.000000",
+      "local_mean_abs_error": "2.188259",
+      "local_error_percentile": "0.09",
+      "tr_start_s": "667.52",
+      "tr_end_s": "669.01",
+      "source_description": "Monica continues, \"...a clear-cut, significant...\" as they reach the elevator.",
+      "definition": "The extent to which characters must navigate, comply with, or enforce explicit, formal rules, laws, regulations, or operational protocols."
+    },
+    {
+      "target_roi": "FFA",
+      "direction": "negative",
+      "source_schema_roi": "AG",
+      "dimension_id": "metaphorical_conceptual_processing",
+      "domain": "semantic_schema_and_anomaly_resolution",
+      "lag": 6,
+      "episode_id": "s06e05a",
+      "sample_id": "sub-01_s06e05a",
+      "target_tr_index": 362,
+      "feature_tr_index": 356,
+      "feature_score": "1.000000",
+      "local_mean_abs_error": "1.939726",
+      "local_error_percentile": "0.04",
+      "tr_start_s": "530.44",
+      "tr_end_s": "531.93",
+      "source_description": "The man asks, \"You got a place upstate?\" Joey nods and says, \"Sure.\" Joey has a wet spot on the chest of his gray shirt.",
+      "definition": "The processing of metaphorical language, highly symbolic dialogue, or abstract concepts that require the viewer to map one domain of knowledge onto another."
+    },
+    {
+      "target_roi": "FFA",
+      "direction": "absolute",
+      "source_schema_roi": "FFA",
+      "dimension_id": "micro_expression_and_subtle_reaction",
+      "domain": "facial_expression_and_gaze_decoding",
+      "lag": 2,
+      "episode_id": "s06e01b",
+      "sample_id": "sub-01_s06e01b",
+      "target_tr_index": 179,
+      "feature_tr_index": 177,
+      "feature_score": "3.000000",
+      "local_mean_abs_error": "0.947321",
+      "local_error_percentile": "0.02",
+      "tr_start_s": "263.73",
+      "tr_end_s": "265.22",
+      "source_description": "Joey says, \"Don't you think I asked him that before he got in?\" Phoebe looks back at Joey and says, \"You know what?\"",
+      "definition": "Subtle, fleeting, or micro-facial expressions that convey hidden emotions, deceit, or internal conflict."
+    },
+    {
+      "target_roi": "PCC",
+      "direction": "positive",
+      "source_schema_roi": "OFC",
+      "dimension_id": "politeness_and_normative_compliance",
+      "domain": "viewer_social_norm_appraisal",
+      "lag": 6,
+      "episode_id": "s06e03b",
+      "sample_id": "sub-01_s06e03b",
+      "target_tr_index": 299,
+      "feature_tr_index": 293,
+      "feature_score": "1.000000",
+      "local_mean_abs_error": "3.198373",
+      "local_error_percentile": "0.04",
+      "tr_start_s": "436.57",
+      "tr_end_s": "438.06",
+      "source_description": "Monica leads Chandler into the living room area toward a rug.",
+      "definition": "The explicit adherence to social etiquette, respect, politeness, or cultural rituals and norms."
+    },
+    {
+      "target_roi": "PCC",
+      "direction": "negative",
+      "source_schema_roi": "TPJ",
+      "dimension_id": "communicative_intent_and_dialogue_dynamics",
+      "domain": "social_interaction_appraisal",
+      "lag": 6,
+      "episode_id": "s06e05a",
+      "sample_id": "sub-01_s06e05a",
+      "target_tr_index": 358,
+      "feature_tr_index": 352,
+      "feature_score": "5.000000",
+      "local_mean_abs_error": "2.716437",
+      "local_error_percentile": "0.02",
+      "tr_start_s": "524.48",
+      "tr_end_s": "525.97",
+      "source_description": "Joey says, \"And that's just in the city. I get her up to 160 when I take her upstate.\" The man responds, \"Really?\"",
+      "definition": "The complexity of the communication between characters, focusing on subtext, non-verbal social cues, sarcasm, or reading between the lines of a conversation."
+    },
+    {
+      "target_roi": "PCC",
+      "direction": "absolute",
+      "source_schema_roi": "SMG",
+      "dimension_id": "tactile_and_somatic_contact",
+      "domain": "somatic_and_pain_resonance",
+      "lag": 6,
+      "episode_id": "s06e05a",
+      "sample_id": "sub-01_s06e05a",
+      "target_tr_index": 358,
+      "feature_tr_index": 352,
+      "feature_score": "4.000000",
+      "local_mean_abs_error": "2.716437",
+      "local_error_percentile": "0.02",
+      "tr_start_s": "524.48",
+      "tr_end_s": "525.97",
+      "source_description": "Joey says, \"And that's just in the city. I get her up to 160 when I take her upstate.\" The man responds, \"Really?\"",
+      "definition": "The focus on physical touch, textures, temperature extremes, skin-to-skin contact, or intense somatic sensations."
+    },
+    {
+      "target_roi": "DLPFC",
+      "direction": "positive",
+      "source_schema_roi": "VMPFC",
+      "dimension_id": "emotion_amusement",
+      "domain": "emotion_experience",
+      "lag": 5,
+      "episode_id": "s06e06b",
+      "sample_id": "sub-01_s06e06b",
+      "target_tr_index": 465,
+      "feature_tr_index": 460,
+      "feature_score": "4.000000",
+      "local_mean_abs_error": "4.263415",
+      "local_error_percentile": "0.04",
+      "tr_start_s": "685.40",
+      "tr_end_s": "686.89",
+      "source_description": "Ross says, \"But I should warn you, I am,\" as he reaches into his pocket.",
+      "definition": "Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements."
+    },
+    {
+      "target_roi": "DLPFC",
+      "direction": "negative",
+      "source_schema_roi": "AG",
+      "dimension_id": "social_relationship_dynamics",
+      "domain": "social_mentalizing",
+      "lag": 6,
+      "episode_id": "s06e01a",
+      "sample_id": "sub-01_s06e01a",
+      "target_tr_index": 353,
+      "feature_tr_index": 347,
+      "feature_score": "5.000000",
+      "local_mean_abs_error": "4.616270",
+      "local_error_percentile": "0.11",
+      "tr_start_s": "517.03",
+      "tr_end_s": "518.52",
+      "source_description": "Joey continues, \"Ross, I don't think surgery is the answer,\" holding his hand up with his palm facing Ross.",
+      "definition": "Tracking the unstated tension, power struggles, alliances, or shifting emotional bonds between characters."
+    },
+    {
+      "target_roi": "DLPFC",
+      "direction": "absolute",
+      "source_schema_roi": "VMPFC",
+      "dimension_id": "emotion_amusement",
+      "domain": "emotion_experience",
+      "lag": 4,
+      "episode_id": "s06e06b",
+      "sample_id": "sub-01_s06e06b",
+      "target_tr_index": 285,
+      "feature_tr_index": 281,
+      "feature_score": "4.167785",
+      "local_mean_abs_error": "4.222491",
+      "local_error_percentile": "0.02",
+      "tr_start_s": "418.69",
+      "tr_end_s": "420.18",
+      "source_description": "Ross says, \"He's fine. Yeah, he's right oh, my God.\" He turns his head to the left toward a striped sweater stuffed with an object. Audience laughter is audible.",
+      "definition": "Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements."
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "direction": "positive",
+      "source_schema_roi": "AG",
+      "dimension_id": "causal_plot_linking",
+      "domain": "narrative_coherence_integration",
+      "lag": 5,
+      "episode_id": "s06e06b",
+      "sample_id": "sub-01_s06e06b",
+      "target_tr_index": 74,
+      "feature_tr_index": 69,
+      "feature_score": "5.000000",
+      "local_mean_abs_error": "1.233939",
+      "local_error_percentile": "0.02",
+      "tr_start_s": "102.81",
+      "tr_end_s": "104.30",
+      "source_description": "Joey looks down at the counter and says, \"Damn, I am good at cups.\"",
+      "definition": "The degree to which the current scene requires the viewer to connect ongoing events to prior plot points, tracking causal chains across the narrative."
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "direction": "negative",
+      "source_schema_roi": "AG",
+      "dimension_id": "social_relationship_dynamics",
+      "domain": "social_mentalizing",
+      "lag": 6,
+      "episode_id": "s06e06b",
+      "sample_id": "sub-01_s06e06b",
+      "target_tr_index": 74,
+      "feature_tr_index": 68,
+      "feature_score": "5.000000",
+      "local_mean_abs_error": "1.233939",
+      "local_error_percentile": "0.02",
+      "tr_start_s": "101.32",
+      "tr_end_s": "102.81",
+      "source_description": "Joey looks at the cards in Chandler's hand. Audience laughter is audible.",
+      "definition": "Tracking the unstated tension, power struggles, alliances, or shifting emotional bonds between characters."
+    },
+    {
+      "target_roi": "Temporal_Pole",
+      "direction": "absolute",
+      "source_schema_roi": "VMPFC",
+      "dimension_id": "emotion_amusement",
+      "domain": "emotion_experience",
+      "lag": 6,
+      "episode_id": "s06e06b",
+      "sample_id": "sub-01_s06e06b",
+      "target_tr_index": 74,
+      "feature_tr_index": 68,
+      "feature_score": "6.000000",
+      "local_mean_abs_error": "1.233939",
+      "local_error_percentile": "0.02",
+      "tr_start_s": "101.32",
+      "tr_end_s": "102.81",
+      "source_description": "Joey looks at the cards in Chandler's hand. Audience laughter is audible.",
+      "definition": "Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements."
+    }
+  ],
+  "heatmap_features": [
+    {
+      "feature_index": 471,
+      "expanded_feature_name": "SMG::dialogue_density_and_tempo_lag4",
+      "source_schema_roi": "SMG",
+      "dimension_id": "dialogue_density_and_tempo",
+      "lag": 4,
+      "domain": "verbal_phonological_tracking"
+    },
+    {
+      "feature_index": 283,
+      "expanded_feature_name": "SMG::dialogue_density_and_tempo_lag3",
+      "source_schema_roi": "SMG",
+      "dimension_id": "dialogue_density_and_tempo",
+      "lag": 3,
+      "domain": "verbal_phonological_tracking"
+    },
+    {
+      "feature_index": 659,
+      "expanded_feature_name": "SMG::dialogue_density_and_tempo_lag5",
+      "source_schema_roi": "SMG",
+      "dimension_id": "dialogue_density_and_tempo",
+      "lag": 5,
+      "domain": "verbal_phonological_tracking"
+    },
+    {
+      "feature_index": 863,
+      "expanded_feature_name": "AG::metaphorical_conceptual_processing_lag6",
+      "source_schema_roi": "AG",
+      "dimension_id": "metaphorical_conceptual_processing",
+      "lag": 6,
+      "domain": "semantic_schema_and_anomaly_resolution"
+    },
+    {
+      "feature_index": 758,
+      "expanded_feature_name": "DLPFC::formal_rule_and_protocol_compliance_lag6",
+      "source_schema_roi": "DLPFC",
+      "dimension_id": "formal_rule_and_protocol_compliance",
+      "lag": 6,
+      "domain": "rule_and_normative_constraint_integration"
+    },
+    {
+      "feature_index": 153,
+      "expanded_feature_name": "FFA::micro_expression_and_subtle_reaction_lag2",
+      "source_schema_roi": "FFA",
+      "dimension_id": "micro_expression_and_subtle_reaction",
+      "lag": 2,
+      "domain": "facial_expression_and_gaze_decoding"
+    },
+    {
+      "feature_index": 854,
+      "expanded_feature_name": "SMG::tactile_and_somatic_contact_lag6",
+      "source_schema_roi": "SMG",
+      "dimension_id": "tactile_and_somatic_contact",
+      "lag": 6,
+      "domain": "somatic_and_pain_resonance"
+    },
+    {
+      "feature_index": 577,
+      "expanded_feature_name": "VMPFC::emotion_amusement_lag5",
+      "source_schema_roi": "VMPFC",
+      "dimension_id": "emotion_amusement",
+      "lag": 5,
+      "domain": "emotion_experience"
+    },
+    {
+      "feature_index": 849,
+      "expanded_feature_name": "SMG::verbal_working_memory_load_lag6",
+      "source_schema_roi": "SMG",
+      "dimension_id": "verbal_working_memory_load",
+      "lag": 6,
+      "domain": "verbal_phonological_tracking"
+    },
+    {
+      "feature_index": 389,
+      "expanded_feature_name": "VMPFC::emotion_amusement_lag4",
+      "source_schema_roi": "VMPFC",
+      "dimension_id": "emotion_amusement",
+      "lag": 4,
+      "domain": "emotion_experience"
+    },
+    {
+      "feature_index": 765,
+      "expanded_feature_name": "VMPFC::emotion_amusement_lag6",
+      "source_schema_roi": "VMPFC",
+      "dimension_id": "emotion_amusement",
+      "lag": 6,
+      "domain": "emotion_experience"
+    },
+    {
+      "feature_index": 888,
+      "expanded_feature_name": "pSTS::locomotion_and_gait_dynamics_lag6",
+      "source_schema_roi": "pSTS",
+      "dimension_id": "locomotion_and_gait_dynamics",
+      "lag": 6,
+      "domain": "biological_motion_and_action_intent_appraisal"
+    }
+  ],
+  "notes": [
+    "Exploratory report for non-final round8 encoding.",
+    "Ridge coefficients are standardized linear prediction weights, not causal effects.",
+    "Cross-schema contribution refers to feature schema source, not neural causal influence."
+  ]
+}

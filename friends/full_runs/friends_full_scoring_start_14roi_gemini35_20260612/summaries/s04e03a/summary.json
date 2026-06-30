@@ -1,0 +1,50 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:52",
+    "batch_summary": "Joey furnishes his and Chandler's apartment with rusty patio furniture from the basement, adding to their bizarre living room setup which already includes a canoe, a duck, and a chick. Meanwhile, Monica reluctantly agrees to cater a party for her mother due to financial desperation. Later, Rachel is shocked to discover her boss, Joanna, wearing only a towel in Chandler's apartment, exposing Chandler's lie about turning down Joanna's invitation for a drink.",
+    "cumulative_summary": "In Chandler and Joey's apartment, Joey brings in rusty patio furniture and bubble wrap from the basement to accompany Chandler's indoor canoe, prompting Chandler to joke about their increasingly \"white trash\" living situation alongside their pet duck and chick. Meanwhile, Monica reveals to Rachel and Ross that she has reluctantly agreed to cater a party for her mother out of desperate financial need, despite fearing it will cost her the last of her self-respect. The drama intensifies when Rachel visits Chandler and Joey's apartment looking for juice. Chandler mentions bumping into Rachel's boss, Joanna, and initially denies going out with her. However, Rachel is left speechless when Joanna suddenly emerges from the bedroom hallway wearing nothing but a towel, forcing Chandler to admit that he did indeed take Joanna up on her offer."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:52 - 00:04:05",
+    "batch_summary": "Rachel demands Chandler end his relationship with her boss, Joanna, fearing for her job. Chandler reluctantly promises to break things off. Meanwhile, Monica and Phoebe begin catering Judy's party. Despite Judy's typical passive-aggressive remarks about Monica's nail polish and love life, she reveals she hired Monica because of her excellent culinary reputation. Monica is overjoyed to realize her mother genuinely respects her talent, rather than hiring her out of pity. Back at the apartment, Joey works on his patio furniture.",
+    "cumulative_summary": "In Chandler and Joey's apartment, the roommates embrace a \"white trash\" lifestyle with rusty patio furniture and a canoe. The living situation gets more complicated when Rachel discovers Chandler is sleeping with her boss, Joanna. Fearing for her job, Rachel demands Chandler end the fling immediately, and he reluctantly promises to do so. Meanwhile, Monica takes a catering job for her mother, Judy, out of financial desperation, dreading the inevitable criticism. However, while preparing food with Phoebe, Monica is thrilled to learn that Judy hired her based on glowing recommendations of her culinary skills rather than out of pity. This revelation gives Monica a rare boost of confidence, even as Judy continues to make passive-aggressive remarks. Back at the apartment, Joey continues refurbishing his found furniture when an unexpected knock at the door interrupts him."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:04:05 - 00:05:55",
+    "batch_summary": "Joey is visited by an encyclopedia salesman who asks if he ever feels left out of his friends' intellectual conversations. After flashing back to several moments of blankly nodding along, Joey realizes the salesman is right and invites him in. Meanwhile, Monica's catering gig takes a disastrous turn when she and Phoebe realize one of her fake fingernails has fallen into a quiche. As she panics over the culinary mishap, her mother Judy walks in, warning her not to bite her nails.",
+    "cumulative_summary": "In Chandler and Joey's apartment, the roommates embrace a \"white trash\" lifestyle. The living situation gets more complicated when Rachel discovers Chandler is sleeping with her boss, Joanna, and demands he end it. Meanwhile, Monica takes a catering job for her mother, Judy, out of financial desperation. Though initially thrilled to learn Judy hired her based on glowing recommendations, Monica's confidence is shattered when she and Phoebe discover one of her fake fingernails has fallen into a quiche. As they panic over the culinary disaster, Judy walks in, criticizing Monica's nail-biting. Back at the apartment, Joey's interruption at the door turns out to be an encyclopedia salesman. The salesman pitches his product by asking Joey if he ever nods along to conversations he doesn't understand. After flashing back to several instances of doing exactly that with his friends, a self-conscious Joey invites the salesman inside to hear more."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:55 - 00:07:40",
+    "batch_summary": "Monica confesses to her mother, Judy, about the lost fingernail in the quiche. Instead of reacting with anger, Judy reveals she anticipated a disaster and bought backup frozen lasagnas, winning a bet with Monica's father. Monica is devastated by her mother's lack of faith and her hurtful use of the phrase \"pull a Monica.\" Meanwhile, Chandler attempts to break up with Rachel's boss, Joanna, in her office, but she passionately resists the split and continues to seduce him.",
+    "cumulative_summary": "In Chandler and Joey's apartment, the roommates embrace a \"white trash\" lifestyle, while Joey gets pitched by an encyclopedia salesman. Meanwhile, Rachel demands Chandler end his secret relationship with her boss, Joanna. When Chandler attempts to break things off in Joanna's office, she resists and passionately seduces him instead. Elsewhere, Monica takes a catering job for her mother, Judy, out of financial desperation. After Monica and Phoebe realize a fake fingernail is lost in the quiche, Monica confesses the mistake to Judy. Instead of being angry, Judy reveals she bet Monica would fail—coining it \"pulling a Monica\"—and bought backup frozen lasagnas. Monica is left devastated by her mother's complete lack of faith in her culinary abilities."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:40 - 00:09:15",
+    "batch_summary": "In Joanna's office, Joanna is called away by her boss. Before leaving, she playfully handcuffs a half-dressed Chandler to her office chair and promises to return shortly, leaving him completely helpless. Meanwhile, Rachel finds Joanna's office door locked. Believing Joanna is inside working on the Christmas bonus list, Rachel reveals to a coworker that she has a secret spare key to the office, setting up an awkward confrontation.",
+    "cumulative_summary": "In Chandler and Joey's apartment, the roommates embrace a \"white trash\" lifestyle, while Joey gets pitched by an encyclopedia salesman. Meanwhile, Rachel demands Chandler end his secret relationship with her boss, Joanna. When Chandler attempts to break things off in Joanna's office, she resists and passionately seduces him instead. Elsewhere, Monica takes a catering job for her mother, Judy, out of financial desperation. After Monica and Phoebe realize a fake fingernail is lost in the quiche, Monica confesses the mistake to Judy. Instead of being angry, Judy reveals she bet Monica would fail—coining it \"pulling a Monica\"—and bought backup frozen lasagnas. Monica is left devastated by her mother's complete lack of faith in her culinary abilities. Back at the office, Joanna is suddenly called away by her boss. Before departing, she playfully handcuffs a half-dressed Chandler to her office chair, leaving him trapped. Outside, Rachel finds Joanna's locked door and, suspecting her boss is hiding the Christmas bonus list, decides to use a secret spare key to gain entry, unaware of Chandler's embarrassing predicament."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 235,
+    "timestamp_range": "00:09:15 - 00:11:02",
+    "batch_summary": "Rachel unlocks Joanna's office and is shocked to find a half-dressed Chandler handcuffed to the chair. She immediately retreats. Left alone, Chandler struggles to answer a phone call from Joanna, who reveals she will be delayed for hours before the call cuts out. Desperate, Chandler calls Rachel back into the office and politely asks her to use the keys on the back of the door to unlock him, but Rachel hesitates, leaving him in his awkward predicament.",
+    "cumulative_summary": "In Chandler and Joey's apartment, the roommates embrace a \"white trash\" lifestyle, while Joey gets pitched by an encyclopedia salesman. Meanwhile, Rachel demands Chandler end his secret relationship with her boss, Joanna. When Chandler attempts to break things off, Joanna passionately seduces him instead. Elsewhere, Monica takes a catering job for her mother, Judy, but is devastated when Judy reveals she expected Monica to fail. Back at the office, Joanna playfully handcuffs a half-dressed Chandler to her office chair before being called away. Rachel uses a spare key to enter the office and is shocked to discover Chandler's embarrassing predicament. After she retreats, Chandler receives a call from Joanna, who reveals she will be delayed for hours. Desperate, Chandler calls Rachel back into the office and begs her to use the keys on the back of the door to unlock him, but Rachel hesitates, leaving him trapped."
+  }
+]

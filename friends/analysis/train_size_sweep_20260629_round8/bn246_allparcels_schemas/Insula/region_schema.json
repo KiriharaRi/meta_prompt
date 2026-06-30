@@ -1,0 +1,883 @@
+{
+  "version": "region_schema_v1",
+  "target_region": "Insula",
+  "functional_hypothesis": "The insula is a highly integrative cortical structure that plays a critical role in interoception, emotional processing, and salience detection. By mapping dense movie descriptions to dimensions of somatic/visceral resonance, sudden narrative disruptions, socio-emotional conflict, and empathic distress, we can model the functional activity of different insular subregions. Specifically, posterior and mid-insular regions (dIg, vId/vIg) process somatic and visceral states, while the anterior insula (dIa, vIa) is a key hub of the salience network, responding to sudden environmental shifts, interpersonal conflict, and empathy for others' suffering.",
+  "scoring_instruction": "Rate each dimension on a scale from 0 to 10 based on the evidence provided in the dense movie description. A score of 0 indicates complete absence of the feature. Scores should be calibrated based on the intensity, explicitness, and duration of the depicted events or character states. Read the scoreability and exclusion notes carefully for each dimension to avoid cross-contamination between related concepts. Always score from the perspective of a typical viewer experiencing the narrative flow.",
+  "selection_rules": [
+    {
+      "networks": [],
+      "sub_regions": [],
+      "hemispheres": [],
+      "label_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "domain_id": "somatic_and_visceral_resonance",
+      "definition": "The viewer's vicarious simulation or appraisal of physical sensations, bodily states, pain, disgust, or intense physical exertion depicted on screen, capturing the somatic and visceral resonance evoked by the narrative action.",
+      "region_relevance": "The insula (specifically posterior and mid-insular subregions like dIg and vId/vIg) is the primary cortical hub for interoception, processing visceral sensations, pain, and somatic states, and is activated during both direct experience and vicarious observation of somatic states.",
+      "scoreability_note": "Highly scoreable from text descriptions detailing physical impacts, injuries, visceral disgust, extreme temperatures, or heavy physical exertion experienced by characters.",
+      "source_domain_ids": [
+        "run_1_somatic_resonance",
+        "run_2_vicarious_somatic_resonance",
+        "run_3_visceral_resonance",
+        "run_4_vicarious_somatic_resonance",
+        "run_5_somatic_resonance"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Consolidated the highly recurrent somatic and visceral resonance domains across all five runs into a single robust domain. This domain captures the posterior and mid-insula's role in interoceptive simulation of bodily states, pain, and disgust from a viewer-centric perspective."
+    },
+    {
+      "domain_id": "salience_and_narrative_disruption",
+      "definition": "The viewer's appraisal of sudden, high-stakes, or unexpected narrative events, threats, or shifts that disrupt the established baseline of a scene, demanding immediate attention and cognitive reorientation.",
+      "region_relevance": "The anterior insula (e.g., dIa, vIa) is a core node of the salience network, crucial for detecting behaviorally important stimuli, coordinating autonomic arousal, and directing attention to significant environmental changes.",
+      "scoreability_note": "Scoreable by identifying sudden plot twists, unexpected threats, abrupt outbursts, or high-tension disruptions in the scene descriptions.",
+      "source_domain_ids": [
+        "run_1_salience_and_affective_arousal",
+        "run_2_salience_and_narrative_urgency",
+        "run_3_narrative_salience_detection",
+        "run_4_salience_and_novelty_detection",
+        "run_5_salience_and_tension"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Merged the highly recurrent salience, novelty, and narrative urgency domains across all runs. This captures the anterior insula's core network function of detecting unexpected, high-stakes narrative shifts that break the baseline."
+    },
+    {
+      "domain_id": "socio_emotional_conflict_and_tension",
+      "definition": "The viewer's tracking and appraisal of interpersonal friction, unspoken hostility, moral violations, or social conflict occurring within the narrative, generating a sense of psychological tension or moral disapproval.",
+      "region_relevance": "The anterior insula (dIa, vIa) is heavily involved in processing social-emotional conflict, tracking social norm violations (often linked to moral disgust), and representing interpersonal tension.",
+      "scoreability_note": "Scoreable by evaluating the level of interpersonal conflict, confrontation, betrayal, or moral violations described in the scene text.",
+      "source_domain_ids": [
+        "run_1_tension_and_conflict_monitoring",
+        "run_2_interpersonal_tension_appraisal",
+        "run_3_vicarious_affective_tension",
+        "run_4_affective_tension_appraisal",
+        "run_5_moral_indignation"
+      ],
+      "source_runs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "proposal_frequency": 5,
+      "consolidation_rationale": "Combines recurrent domains tracking interpersonal tension, conflict, and moral indignation. These share a common substrate in the anterior insula's response to social conflict, norm violations, and interpersonal friction."
+    },
+    {
+      "domain_id": "empathic_distress_appraisal",
+      "definition": "The viewer's cognitive and affective appraisal of a character's internal psychological suffering, vulnerability, grief, or social exclusion, representing the viewer's emotional resonance with the character's distress.",
+      "region_relevance": "The anterior insula is consistently implicated in the shared representation of affect, particularly empathy for both physical pain and social/emotional distress in others.",
+      "scoreability_note": "Scoreable by analyzing text descriptions for explicit or implicit cues of characters experiencing deep grief, humiliation, social rejection, or intense vulnerability.",
+      "source_domain_ids": [
+        "run_1_empathic_distress_appraisal",
+        "run_5_affective_empathy"
+      ],
+      "source_runs": [
+        1,
+        5
+      ],
+      "proposal_frequency": 2,
+      "consolidation_rationale": "Consolidates domains focused specifically on the viewer's empathic resonance with characters' psychological suffering and vulnerability, keeping it distinct from active interpersonal conflict."
+    }
+  ],
+  "active_domain_ids": [
+    "somatic_and_visceral_resonance",
+    "salience_and_narrative_disruption",
+    "socio_emotional_conflict_and_tension",
+    "empathic_distress_appraisal"
+  ],
+  "dimensions": [
+    {
+      "dimension_id": "physical_pain_and_injury_resonance",
+      "definition": "Vicarious simulation of acute physical pain, bodily injury, or physical trauma experienced by a character.",
+      "domain": "somatic_and_visceral_resonance",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character is cut, burned, or broken",
+        "Explicit description of blood or physical trauma",
+        "A character screaming or grimacing in physical agony",
+        "Impact of a physical blow or crash"
+      ],
+      "graded_anchors": {
+        "0": "No physical pain, injury, or bodily trauma is depicted or implied.",
+        "1": "A minor, painless physical contact or very slight discomfort (e.g., a light tap on the shoulder).",
+        "2": "A minor scrape, stubbed toe, or mild discomfort that is quickly dismissed.",
+        "3": "A noticeable but non-severe injury, like a small cut or a mild bruise, causing brief discomfort.",
+        "4": "Moderate pain, such as a hard slap, a sprained ankle, or a shallow cut requiring basic attention.",
+        "5": "Significant pain from a clear injury, like a deep cut, a hard punch to the face, or a burn, causing visible distress.",
+        "6": "Severe pain from a major injury, such as a broken bone, a deep stab wound, or a serious burn, with clear agony.",
+        "7": "Intense, agonizing pain from severe trauma, such as multiple fractures or a gunshot wound, causing screaming or writhing.",
+        "8": "Extreme, excruciating pain from life-threatening trauma, such as limb crushing or severe burning, with prolonged suffering.",
+        "9": "Unbearable, catastrophic physical torture or mutilation, where the character's body is severely compromised.",
+        "10": "The absolute maximum imaginable physical agony, prolonged torture, or catastrophic bodily destruction described in graphic detail."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character accidentally pricks their finger on a sewing needle, winces slightly, and continues working.",
+          "score": 3
+        },
+        {
+          "scene": "A character is struck by a speeding car, thrown onto the pavement, and lies writhing in agony with a visibly broken leg.",
+          "score": 7.5
+        },
+        {
+          "scene": "A character is subjected to systematic, graphic physical torture, screaming in unbearable agony as their fingernails are pulled out.",
+          "score": 9.5
+        }
+      ],
+      "scoreability_note": "Score based on the intensity and explicitness of physical trauma and the character's somatic reaction to pain described in the text.",
+      "exclusion_note": "Do not score purely emotional pain, grief, or psychological distress under this dimension."
+    },
+    {
+      "dimension_id": "visceral_disgust_and_nausea",
+      "definition": "Vicarious simulation of disgust, contamination, or exposure to noxious, revolting, or unhygienic stimuli.",
+      "domain": "somatic_and_visceral_resonance",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Exposure to rotting food, garbage, or sewage",
+        "Contact with bodily fluids like vomit, feces, or pus",
+        "Insects crawling on skin or food",
+        "A character gagging, vomiting, or expressing intense physical revulsion"
+      ],
+      "graded_anchors": {
+        "0": "No disgusting, contaminating, or noxious stimuli are present.",
+        "1": "Slight untidiness or dust, with no visceral reaction or unpleasantness.",
+        "2": "A mildly unpleasant smell or slightly dirty environment, causing minor avoidance.",
+        "3": "A moderately unpleasant stimulus, like sour milk or a messy trash can, causing a brief grimace.",
+        "4": "Clear contact with something dirty or mildly revolting, like stepping in mud or touching sticky garbage.",
+        "5": "Visibly disgusting stimuli, such as rotting food or a foul-smelling restroom, causing noticeable aversion.",
+        "6": "Strongly revolting stimuli, like encountering a pile of animal feces or a character gagging from a terrible odor.",
+        "7": "Intense disgust, such as a character vomiting or being covered in foul liquid, evoking strong vicarious nausea.",
+        "8": "Severe exposure to highly contaminating substances, like wading through raw sewage or touching decaying organic matter.",
+        "9": "Extremely graphic and overwhelming disgust, such as eating insects, encountering a decomposing corpse, or severe coprophilia.",
+        "10": "The ultimate visceral revulsion, involving prolonged, graphic exposure to multiple highly infectious, decomposing, or noxious substances."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character opens a refrigerator and sniffs a carton of milk, making a slight face before throwing it in the trash.",
+          "score": 3
+        },
+        {
+          "scene": "A character is forced to crawl through a narrow, dark pipe filled with raw sewage, gagging and choking on the overwhelming stench.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Score based on the presence of physically revolting substances and the characters' visceral reactions (gagging, vomiting, shuddering).",
+      "exclusion_note": "Do not score moral disgust or social disapproval unless accompanied by physical/visceral revulsion."
+    },
+    {
+      "dimension_id": "extreme_physical_exertion_and_exhaustion",
+      "definition": "Vicarious simulation of heavy physical labor, breathlessness, or extreme somatic fatigue.",
+      "domain": "somatic_and_visceral_resonance",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Sprinting or running for a prolonged period",
+        "Lifting or carrying extremely heavy loads",
+        "Gasping for air, hyperventilating, or choking",
+        "Collapsing from physical fatigue or heat exhaustion"
+      ],
+      "graded_anchors": {
+        "0": "No physical exertion or somatic fatigue is described; characters are at rest.",
+        "1": "Very light physical activity, such as walking slowly or standing up.",
+        "2": "Mild physical activity, like walking up a short flight of stairs or carrying light groceries.",
+        "3": "Moderate activity, such as jogging briefly or lifting a moderately heavy box, with slight breathing changes.",
+        "4": "Continuous physical effort, like climbing a steep hill or moving furniture, causing noticeable sweat.",
+        "5": "Heavy exertion, such as running a fast sprint or engaging in a physical fight, causing heavy breathing.",
+        "6": "Intense physical labor or athletic performance, with characters gasping for breath and muscles burning.",
+        "7": "Extreme exertion, such as running for miles to escape danger, with the character's body visibly trembling from fatigue.",
+        "8": "Severe somatic exhaustion, where a character is gasping, hyperventilating, and barely able to stand.",
+        "9": "Near-collapse from physical exhaustion, dehydration, or oxygen deprivation, where the body is failing.",
+        "10": "Complete physical collapse, where the character passes out from absolute somatic exhaustion or asphyxiation."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character jogs up a flight of stairs to catch a bus, breathing slightly heavily but recovering quickly.",
+          "score": 3
+        },
+        {
+          "scene": "After sprinting through the desert for hours to escape captors, the character collapses onto the sand, gasping hoarsely for air, their muscles seizing up.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Score based on the intensity of physical effort, breathing patterns, and signs of somatic fatigue or exhaustion described.",
+      "exclusion_note": "Do not score mental fatigue, boredom, or emotional burnout unless accompanied by clear physical/somatic exhaustion."
+    },
+    {
+      "dimension_id": "sudden_threat_or_shock",
+      "definition": "Sudden, unexpected occurrence of a threat, jump scare, or shocking event that disrupts the scene and demands immediate attention.",
+      "domain": "salience_and_narrative_disruption",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A sudden loud noise or jump scare",
+        "An unexpected attack or ambush",
+        "A sudden, shocking revelation of danger",
+        "An abrupt, violent event occurring without warning"
+      ],
+      "graded_anchors": {
+        "0": "The scene is completely calm, predictable, and free of sudden threats or shocks.",
+        "1": "A very minor, expected sound or movement that slightly draws attention.",
+        "2": "A mild surprise, such as a phone ringing unexpectedly in a quiet room.",
+        "3": "A noticeable startle, like a door slamming shut or a sudden shout.",
+        "4": "A moderate shock, such as a character suddenly appearing from behind a corner, causing a brief startle.",
+        "5": "A significant sudden threat, like a gunshot firing unexpectedly or a sudden car crash nearby.",
+        "6": "A highly shocking event, such as an unexpected explosion or a sudden violent attack on a character.",
+        "7": "An intense jump scare or sudden life-threatening ambush that completely disrupts the narrative flow.",
+        "8": "A massive, terrifying shock, such as a sudden building collapse or a devastating surprise attack.",
+        "9": "An overwhelming, catastrophic shock that completely shatters the scene's context and induces extreme panic.",
+        "10": "The absolute peak of sudden, shocking threat, completely upending the entire narrative environment in an instant."
+      },
+      "calibration_examples": [
+        {
+          "scene": "While walking down a quiet hallway, a character is startled when a colleague suddenly steps out of an office to say hello.",
+          "score": 3.5
+        },
+        {
+          "scene": "As a family sits peacefully at the dinner table, the front door is suddenly blown off its hinges by an explosive blast, and armed men storm in.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Score based on the suddenness, unexpectedness, and intensity of the threat or shock described.",
+      "exclusion_note": "Do not score slow-building, suspenseful threats or predictable dangers that do not involve a sudden shock."
+    },
+    {
+      "dimension_id": "abrupt_environmental_or_situational_shift",
+      "definition": "Sudden, unexpected changes in the physical environment or situational context that disrupt the baseline of a scene.",
+      "domain": "salience_and_narrative_disruption",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Sudden power outage or blackout",
+        "Abrupt change in weather or natural disaster",
+        "Sudden mechanical failure or crash",
+        "An abrupt transition to a completely different, chaotic setting"
+      ],
+      "graded_anchors": {
+        "0": "The environment and situation remain completely stable and continuous.",
+        "1": "A tiny, barely noticeable environmental change, like a flickering light bulb.",
+        "2": "A minor shift, such as a light drizzle starting or a slight change in background noise.",
+        "3": "A noticeable change, like a sudden gust of wind blowing papers off a desk.",
+        "4": "A moderate environmental shift, such as the lights suddenly going out in a room, forcing characters to react.",
+        "5": "A significant situational shift, like a sudden fire alarm sounding and strobe lights flashing.",
+        "6": "A major environmental disruption, such as a sudden earthquake tremor shaking the room and breaking glass.",
+        "7": "An intense, abrupt shift, like a sudden flash flood rushing into a building or a vehicle suddenly losing control.",
+        "8": "A severe, chaotic environmental transformation, such as a sudden volcanic eruption or a massive structural collapse.",
+        "9": "An overwhelming, catastrophic environmental shift that completely destroys the physical setting in seconds.",
+        "10": "The most extreme, instantaneous environmental disruption imaginable, completely obliterating the physical context."
+      },
+      "calibration_examples": [
+        {
+          "scene": "During a business meeting, the power suddenly cuts out, plunging the entire office building into complete darkness.",
+          "score": 4.5
+        },
+        {
+          "scene": "As the airplane cruises smoothly, it is suddenly struck by severe turbulence, causing oxygen masks to drop and luggage compartments to burst open.",
+          "score": 7.5
+        }
+      ],
+      "scoreability_note": "Score based on how abruptly and drastically the physical environment or situational context changes.",
+      "exclusion_note": "Do not score gradual environmental changes (e.g., slow sunset, gradual onset of rain) or purely social shifts."
+    },
+    {
+      "dimension_id": "high_stakes_narrative_twist",
+      "definition": "Sudden revelation or plot twist that completely upends the characters' understanding and demands immediate cognitive reorientation.",
+      "domain": "salience_and_narrative_disruption",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Sudden betrayal by a trusted ally",
+        "Unexpected revelation of a character's true identity",
+        "A shocking discovery that changes the entire context of the mission",
+        "An abrupt, high-stakes turn of events"
+      ],
+      "graded_anchors": {
+        "0": "The narrative proceeds exactly as expected, with no twists or sudden revelations.",
+        "1": "A very minor, inconsequential piece of new information is revealed.",
+        "2": "A small, predictable turn of events that slightly alters the immediate plan.",
+        "3": "A noticeable revelation, like learning a minor character lied about their whereabouts.",
+        "4": "A moderate twist, such as discovering a key clue that redirects the investigation.",
+        "5": "A significant narrative twist, like discovering that a supposed ally has been keeping a major secret.",
+        "6": "A major revelation, such as learning that the main objective of their mission was a setup.",
+        "7": "An intense, high-stakes twist, like a trusted mentor suddenly revealing themselves to be the antagonist.",
+        "8": "A profound narrative shock, where a core truth of the story is revealed to be a lie, completely recontextualizing everything.",
+        "9": "An overwhelming, mind-bending twist that completely shatters the characters' reality and the viewer's expectations.",
+        "10": "The ultimate narrative disruption, a catastrophic twist that completely upends the entire premise of the story in an instant."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A detective finds a receipt showing that the suspect was actually in another city during the crime, forcing them to find a new lead.",
+          "score": 4
+        },
+        {
+          "scene": "Just as they are about to escape, the protagonist's closest friend locks the door from the outside, smiles coldly, and reveals they have been working for the enemy all along.",
+          "score": 8
+        }
+      ],
+      "scoreability_note": "Score based on the magnitude of the narrative shift and how drastically it alters the characters' understanding of their situation.",
+      "exclusion_note": "Do not score physical shocks or environmental changes under this dimension; focus on cognitive/narrative twists."
+    },
+    {
+      "dimension_id": "interpersonal_hostility_and_confrontation",
+      "definition": "Direct, active verbal or physical confrontation, arguments, or overt hostility between characters.",
+      "domain": "socio_emotional_conflict_and_tension",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Characters shouting or screaming at each other",
+        "Overt insults, threats, or aggressive gestures",
+        "A heated argument or verbal dispute",
+        "Physical confrontation or posturing"
+      ],
+      "graded_anchors": {
+        "0": "Interactions are completely harmonious, friendly, or neutral.",
+        "1": "A very minor, polite disagreement or slight difference of opinion.",
+        "2": "A brief, mild tension, like a sarcastic remark or a cold tone of voice.",
+        "3": "A noticeable disagreement, with characters speaking sharply or showing annoyance.",
+        "4": "A moderate argument, with raised voices and clear expressions of anger or frustration.",
+        "5": "A heated verbal confrontation, with characters actively arguing and exchanging harsh words.",
+        "6": "Intense hostility, involving shouting, direct insults, and aggressive posturing.",
+        "7": "A severe, explosive argument with extreme anger, screaming, and threats of violence.",
+        "8": "A highly volatile confrontation, where characters are on the verge of physical violence, screaming face-to-face.",
+        "9": "An overwhelming, violent verbal and physical clash, filled with raw rage and destructive behavior.",
+        "10": "The absolute peak of interpersonal hostility, a catastrophic, explosive confrontation involving extreme rage and mutual destruction."
+      },
+      "calibration_examples": [
+        {
+          "scene": "Two coworkers argue over who gets credit for a project, raising their voices slightly before the manager intervenes.",
+          "score": 4
+        },
+        {
+          "scene": "A husband and wife scream at each other in the kitchen, throwing plates and shouting vicious personal insults as their children listen.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Score based on the overtness, volume, and intensity of the verbal or physical confrontation between characters.",
+      "exclusion_note": "Do not score silent, unspoken tension or internal conflict under this dimension."
+    },
+    {
+      "dimension_id": "unspoken_social_tension_and_suspicion",
+      "definition": "Latent, unspoken friction, distrust, or psychological tension in a social interaction.",
+      "domain": "socio_emotional_conflict_and_tension",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "Awkward silences or tense pauses in conversation",
+        "Suspicious glances or evasive body language",
+        "Unspoken distrust or hidden agendas between characters",
+        "A highly uncomfortable social atmosphere"
+      ],
+      "graded_anchors": {
+        "0": "Social interactions are completely relaxed, open, and trusting.",
+        "1": "A very brief, minor awkwardness, like a slightly delayed response.",
+        "2": "A mild, passing discomfort or a slightly evasive answer.",
+        "3": "A noticeable undercurrent of tension, with characters being unusually polite or guarded.",
+        "4": "Clear social discomfort, with awkward silences and characters carefully choosing their words.",
+        "5": "Significant unspoken tension, where characters clearly distrust each other but maintain a polite facade.",
+        "6": "Intense psychological friction, with heavy silences, suspicious stares, and palpable unease.",
+        "7": "A highly charged, uncomfortable atmosphere where everyone is waiting for someone to snap.",
+        "8": "Severe, suffocating social tension, where the distrust is so thick it dominates the entire scene.",
+        "9": "An overwhelming, paranoid atmosphere of suspicion and unspoken threat, where any word could trigger a disaster.",
+        "10": "The absolute maximum of unspoken psychological tension, a completely unbearable, suffocating social standoff."
+      },
+      "calibration_examples": [
+        {
+          "scene": "During a formal dinner, an unexpected guest arrives, causing a long, awkward silence as everyone exchanges uneasy glances.",
+          "score": 5
+        },
+        {
+          "scene": "Two rival mob bosses sit across from each other in a quiet room, smiling politely while their bodyguards watch each other's hands, the air thick with lethal suspicion.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Score based on the presence of subtext, awkward silences, suspicious behavior, and the overall psychological discomfort of the interaction.",
+      "exclusion_note": "Do not score overt shouting, physical fighting, or loud arguments under this dimension."
+    },
+    {
+      "dimension_id": "moral_violation_and_indignation",
+      "definition": "Depiction of a severe moral transgression, betrayal, or unfairness that evokes moral outrage, indignation, or disgust.",
+      "domain": "socio_emotional_conflict_and_tension",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character betraying a close friend or family member",
+        "Cruelty, exploitation, or abuse of power",
+        "A severe violation of social norms or ethical standards",
+        "Characters expressing intense moral outrage or indignation"
+      ],
+      "graded_anchors": {
+        "0": "No moral violations or ethical transgressions occur; actions are fair and just.",
+        "1": "A very minor, harmless lie or slight breach of etiquette.",
+        "2": "A small selfish act, like taking the last slice of cake without asking.",
+        "3": "A noticeable moral lapse, such as a character lying to cover up a minor mistake.",
+        "4": "A moderate transgression, like cheating on a test or breaking a minor promise.",
+        "5": "A significant moral violation, such as stealing from a colleague or a clear act of unfairness.",
+        "6": "A major ethical breach, like a character exploiting someone's vulnerability for personal gain.",
+        "7": "A severe moral transgression, such as a deep betrayal of trust or an act of cruelty toward an innocent.",
+        "8": "An egregious moral violation, like systemic abuse of power, corruption, or severe neglect.",
+        "9": "An overwhelming, heinous act of cruelty or betrayal that evokes profound moral outrage and disgust.",
+        "10": "The absolute peak of moral depravity, a catastrophic violation of human rights or ultimate betrayal that is deeply shocking."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A student copies their classmate's homework and lies to the teacher when questioned, letting the classmate take the blame.",
+          "score": 4
+        },
+        {
+          "scene": "A corrupt politician knowingly signs a bill that poisons a local town's water supply to secure a massive bribe from a chemical company.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Score based on the severity of the ethical violation and the degree of moral outrage or indignation it naturally evokes.",
+      "exclusion_note": "Do not score physical violence or accidents unless they represent a deliberate moral violation or betrayal."
+    },
+    {
+      "dimension_id": "grief_and_profound_sadness",
+      "definition": "Appraisal of a character's deep emotional suffering, mourning, or profound sadness, evoking emotional resonance.",
+      "domain": "empathic_distress_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character weeping, sobbing, or crying uncontrollably",
+        "Mourning the death of a loved one",
+        "Expressions of deep despair, hopelessness, or heartbreak",
+        "A character staring blankly in profound, silent grief"
+      ],
+      "graded_anchors": {
+        "0": "No sadness, grief, or emotional suffering is depicted.",
+        "1": "A very minor, fleeting disappointment or slight frown.",
+        "2": "A mild sadness, like feeling a bit down or shedding a single, brief tear.",
+        "3": "A noticeable sadness, with a character looking visibly upset or speaking in a somber tone.",
+        "4": "Moderate emotional distress, such as quiet crying or expressing feelings of loneliness.",
+        "5": "Significant grief, like a character crying openly over a painful loss or breakup.",
+        "6": "Deep emotional suffering, with heavy sobbing and expressions of profound heartbreak.",
+        "7": "Intense, overwhelming grief, such as a parent weeping over the loss of a child, showing raw emotional agony.",
+        "8": "Severe, devastating despair, where a character is completely consumed by grief and unable to function.",
+        "9": "An overwhelming, catastrophic emotional collapse, where a character is completely broken by sorrow and hopelessness.",
+        "10": "The absolute peak of profound grief and existential despair, representing the deepest possible emotional suffering."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character sits quietly in their room, looking at an old photograph of a deceased pet and wiping away a tear.",
+          "score": 3.5
+        },
+        {
+          "scene": "At a funeral, a mother clings to her child's casket, sobbing uncontrollably and screaming in raw, agonizing grief.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Score based on the depth, visibility, and intensity of the character's emotional suffering and grief.",
+      "exclusion_note": "Do not score physical pain or anger unless it is a direct expression of profound grief and sadness."
+    },
+    {
+      "dimension_id": "social_exclusion_and_humiliation",
+      "definition": "Appraisal of a character experiencing rejection, ostracization, public embarrassment, or humiliation.",
+      "domain": "empathic_distress_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character being publicly mocked, laughed at, or ridiculed",
+        "Being explicitly rejected or excluded from a group",
+        "Experiencing deep embarrassment or shame in front of others",
+        "A character feeling completely isolated and unwanted"
+      ],
+      "graded_anchors": {
+        "0": "No social exclusion, rejection, or humiliation is present.",
+        "1": "A very minor, polite refusal or slight social awkwardness.",
+        "2": "A mild rejection, like not being invited to a casual lunch.",
+        "3": "A noticeable embarrassment, such as tripping in public and having a few people look.",
+        "4": "Moderate social exclusion, like being ignored by peers during a group activity.",
+        "5": "Significant humiliation, such as being publicly corrected or criticized by a superior in front of colleagues.",
+        "6": "Deep social rejection, like a character being explicitly ostracized by their friend group.",
+        "7": "Intense public humiliation, such as being laughed at by a large crowd or having a deeply personal secret exposed.",
+        "8": "Severe, crushing social exclusion, where a character is completely isolated, mocked, and treated as an outcast.",
+        "9": "An overwhelming, devastating public degradation that completely destroys a character's dignity and self-worth.",
+        "10": "The absolute peak of social humiliation and total ostracization, leaving the character completely broken and isolated."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character gives a presentation and stumbles over a few words, noticing a colleague smirking in the back row.",
+          "score": 3.5
+        },
+        {
+          "scene": "During a school assembly, a student's private diary is read aloud over the microphone, causing the entire school to point and laugh as the student runs out in tears.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Score based on the scale of the audience, the explicitness of the rejection, and the character's visible shame or distress.",
+      "exclusion_note": "Do not score physical injury or general sadness unless it stems directly from social exclusion or humiliation."
+    },
+    {
+      "dimension_id": "vulnerability_and_helplessness",
+      "definition": "Appraisal of a character in a state of extreme vulnerability, terror, or helplessness, evoking strong protective empathy.",
+      "domain": "empathic_distress_appraisal",
+      "score_min": 0.0,
+      "score_max": 10.0,
+      "trigger_list": [
+        "A character cowering, trembling, or begging for mercy",
+        "Being completely trapped, cornered, or powerless",
+        "A child or vulnerable person in extreme danger",
+        "Expressions of absolute terror and helplessness"
+      ],
+      "graded_anchors": {
+        "0": "Characters are confident, secure, and in control of their situation.",
+        "1": "A very minor, temporary uncertainty or slight hesitation.",
+        "2": "A mild vulnerability, like feeling slightly out of one's depth in a new situation.",
+        "3": "A noticeable lack of control, such as a character being lost in an unfamiliar city.",
+        "4": "Moderate helplessness, like being unable to solve a pressing problem despite trying.",
+        "5": "Significant vulnerability, such as a character being cornered by an aggressive individual and looking scared.",
+        "6": "Deep helplessness, where a character is trapped in a dangerous situation with no obvious way out.",
+        "7": "Intense terror and vulnerability, such as a character begging an armed captor for their life.",
+        "8": "Severe, paralyzing helplessness, where a character is completely at the mercy of a cruel force, trembling in terror.",
+        "9": "An overwhelming, catastrophic state of vulnerability, such as a defenseless child trapped in a burning room, screaming for help.",
+        "10": "The absolute peak of terrifying helplessness, where a completely defenseless character faces imminent, unavoidable destruction."
+      },
+      "calibration_examples": [
+        {
+          "scene": "A character realizes they locked their keys in the car late at night in a quiet neighborhood, looking around anxiously.",
+          "score": 3.5
+        },
+        {
+          "scene": "Bound to a chair in a dark basement, the terrified character trembles and weeps, begging their captor not to hurt them as a weapon is raised.",
+          "score": 8.5
+        }
+      ],
+      "scoreability_note": "Score based on the character's lack of agency, their level of fear, and how defenseless they are in the face of threat.",
+      "exclusion_note": "Do not score active, aggressive self-defense or anger; the focus must be on vulnerability and helplessness."
+    }
+  ],
+  "metadata": {
+    "domain_pool": {
+      "source_path": "/Users/kiriharari/codex_paper/meta_prompt/friends/demo/multi_roi_pilot_vertex_gemini35_7roi_20260605/rois/Insula/domain_pool_auto_confirmed.json",
+      "content_sha256": "4dafbbe2898a6e67fee31ebc3bacc9b01501016715cd8af09ef953591cd11e2f",
+      "version": "domain_pool_v2",
+      "target_region": "Insula",
+      "curation_status": "confirmed",
+      "proposal_runs": 5,
+      "curated_domain_ids": [
+        "somatic_and_visceral_resonance",
+        "salience_and_narrative_disruption",
+        "socio_emotional_conflict_and_tension",
+        "empathic_distress_appraisal"
+      ]
+    },
+    "source_provider": "gemini",
+    "source_model": "gemini-3.5-flash",
+    "fixed_roi_definition": {
+      "roi_id": "Insula",
+      "display_name": "insula",
+      "theoretical_role": "Interoception, emotion awareness, risk decision-making, and pain empathy.",
+      "selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174
+          ]
+        }
+      ]
+    },
+    "bn246_allparcels_override": {
+      "source_schema": "/Users/kiriharari/codex_paper/meta_prompt/friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/rois/Insula/region_schema.json",
+      "source_selection_rules": [
+        {
+          "networks": [],
+          "sub_regions": [],
+          "hemispheres": [],
+          "label_ids": [
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174
+          ]
+        }
+      ],
+      "label_ids": "1..246",
+      "purpose": "Use existing 14-ROI features to evaluate all Brainnetome 246 target parcels without modifying production ROI schemas."
+    }
+  }
+}

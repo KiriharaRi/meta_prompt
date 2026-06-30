@@ -1,0 +1,80 @@
+{
+  "round": "round9_next10_155train",
+  "selected_episode_ids": [
+    "s04e11a",
+    "s04e11b",
+    "s04e12a",
+    "s04e12b",
+    "s04e13a",
+    "s04e13b",
+    "s04e14a",
+    "s04e14b",
+    "s04e15a",
+    "s04e15b"
+  ],
+  "missing": [],
+  "provider_mismatches": [],
+  "rows": [
+    {
+      "episode_id": "s04e11a",
+      "summary_rows": 7,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s04e11b",
+      "summary_rows": 8,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s04e12a",
+      "summary_rows": 7,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s04e12b",
+      "summary_rows": 7,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s04e13a",
+      "summary_rows": 7,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s04e13b",
+      "summary_rows": 7,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s04e14a",
+      "summary_rows": 7,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s04e14b",
+      "summary_rows": 7,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s04e15a",
+      "summary_rows": 6,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    },
+    {
+      "episode_id": "s04e15b",
+      "summary_rows": 7,
+      "provider": "aihubmix",
+      "model": "gemini-3.5-flash"
+    }
+  ],
+  "status": "passed"
+}

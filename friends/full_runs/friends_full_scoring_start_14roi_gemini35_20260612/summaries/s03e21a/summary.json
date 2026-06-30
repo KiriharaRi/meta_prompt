@@ -1,0 +1,58 @@
+[
+  {
+    "batch_idx": 0,
+    "segment_start": 0,
+    "segment_end": 39,
+    "timestamp_range": "00:00:00 - 00:01:47",
+    "batch_summary": "Outside the diner, Monica struggles on roller skates—an idea Phoebe secretly suggested—and ends up crashing into Rachel. Later, in their apartment, Chandler tries to cheer up a moping Joey, who is upset about a TV show. Ross arrives with exciting news that he will appear on the Discovery Channel to discuss fossils, though his friends tease him. After Chandler and Ross leave, Joey watches a depressing news segment about the poor survival rate of Easter chicks, prompting him to take action with a phone book.",
+    "cumulative_summary": "Outside a cafe, Monica reluctantly navigates the sidewalk on roller skates, only to discover that Phoebe was the \"idiot customer\" who suggested the skating gimmick. Monica's attempt to skate ends in disaster when she collides with Rachel, sending both of them crashing to the ground. Meanwhile, back at the apartment, Chandler attempts to cheer up a gloomy Joey, who claims he is crying over a television show rather than his ex, Kate. Ross soon joins them, excitedly announcing that he will be featured on the Discovery Channel for a panel about Peruvian fossils, though Chandler and Joey quickly tease him about the show's appeal. After Ross and Chandler head out, Joey's attention is captured by a somber news report about the tragic fate of Easter chicks due to improper care. Deeply moved and concerned, Joey grabs a phone book and a telephone, seemingly determined to rescue or help the chicks."
+  },
+  {
+    "batch_idx": 1,
+    "segment_start": 40,
+    "segment_end": 79,
+    "timestamp_range": "00:01:47 - 00:03:37",
+    "batch_summary": "Joey calls to inquire about adopting baby chicks after seeing a commercial. Meanwhile, Pete returns from Japan and visits Monica at the diner, where he surprises her by offering her the head chef position at a restaurant he just bought. Back at the apartment, Monica excitedly discusses the dream offer with Rachel but hesitates to accept because she isn't attracted to Pete and knows he has a crush on her. Rachel, still sore from their earlier skating collision, tries to advise her.",
+    "cumulative_summary": "Following a disastrous roller-skating collision between Monica and Rachel, and Ross's teased announcement about appearing on the Discovery Channel, Joey is moved by a news report about mistreated Easter chicks and calls to inquire about adopting some. Meanwhile, Pete returns from Japan and visits Monica at the diner, where he shocks her by offering her the head chef position at a restaurant he just bought. Although this is Monica's ultimate dream, she confides in Rachel that she feels she must decline because Pete has a crush on her, and she still does not reciprocate his feelings. As they discuss the dilemma, Rachel suddenly winces in pain, suffering from the lingering effects of their earlier skating crash."
+  },
+  {
+    "batch_idx": 2,
+    "segment_start": 80,
+    "segment_end": 119,
+    "timestamp_range": "00:03:37 - 00:05:16",
+    "batch_summary": "Rachel continues to feel pain from her roller-skating accident with Monica. Meanwhile, Ross arrives wearing a ridiculous white suit and red bow tie, prompting relentless teasing from Monica and Rachel, which drives him away in frustration. Later, Joey returns home with a shoebox containing a live baby chick he adopted, much to Phoebe's delight and Chandler's immediate skepticism about their ability to care for it.",
+    "cumulative_summary": "Following a disastrous roller-skating collision, Rachel continues to suffer from lingering pain while Monica wrestles with Pete's offer to make her head chef at his new restaurant. Their discussion is interrupted when Ross arrives wearing a ridiculous white suit and red bow tie. After Monica and Rachel relentlessly tease him, comparing him to Colonel Sanders, an offended Ross storms out. Meanwhile, Joey's plan to rescue mistreated Easter chicks comes to fruition when he proudly brings home a live baby chick in a shoebox. While Phoebe finds the chick adorable, Chandler is immediately skeptical about their ability to care for it, highlighting their complete lack of knowledge about raising poultry."
+  },
+  {
+    "batch_idx": 3,
+    "segment_start": 120,
+    "segment_end": 159,
+    "timestamp_range": "00:05:16 - 00:07:13",
+    "batch_summary": "Phoebe warns Joey about the immense responsibility of raising the baby chick, which Joey immediately smothers with affection. Meanwhile, Monica tries to decline Pete's job offer due to his feelings for her, but Pete claims he met a new woman, Anne, in Japan. Overjoyed and relieved, Monica accepts the head chef position and rolls off to quit her job, crashing off-screen. However, Phoebe quickly confronts Pete, astutely guessing that \"Anne\" is entirely made up so Monica would work for him.",
+    "cumulative_summary": "Following a roller-skating collision, Rachel suffers from lingering pain while Monica wrestles with Pete's offer to make her head chef at his new restaurant. After teasing Ross for wearing a ridiculous white suit, the group focuses on Joey's new rescue chick. While Chandler is skeptical, Phoebe warns Joey about the immense responsibility, though Joey showers the chick with affection. Later, Monica meets Pete to decline his job offer due to his romantic feelings for her. Pete claims he met a new woman named Anne on his trip, relieving Monica's worries. Thrilled, Monica accepts the head chef position and rolls off on her skates to quit her current job, crashing off-screen. However, Phoebe remains skeptical and confronts Pete, accusing him of inventing \"Anne\" just to get Monica to work for him because he is still in love with her."
+  },
+  {
+    "batch_idx": 4,
+    "segment_start": 160,
+    "segment_end": 199,
+    "timestamp_range": "00:07:13 - 00:08:56",
+    "batch_summary": "Phoebe successfully gets Pete to admit he invented \"Anne\" to stay close to Monica, though she immediately forgets his secret due to her poor memory. Meanwhile, Chandler and Joey fall into a hilariously domestic argument over their new chick. After Chandler stays home from work to care for the bird, he angrily confronts Joey for neglecting his parental duties to go out drinking with friends, highlighting the absurdly parental dynamic they have developed.",
+    "cumulative_summary": "Following a roller-skating collision, Rachel suffers from lingering pain while Monica wrestles with Pete's offer to make her head chef at his new restaurant. After teasing Ross for wearing a ridiculous white suit, the group focuses on Joey's new rescue chick. While Chandler is skeptical, Phoebe warns Joey about the immense responsibility, though Joey showers the chick with affection. Later, Monica meets Pete to decline his job offer due to his romantic feelings for her. Pete claims he met a new woman named Anne on his trip, relieving Monica's worries. Thrilled, Monica accepts the head chef position and rolls off on her skates to quit her current job, crashing off-screen. However, Phoebe remains skeptical and confronts Pete, who admits he invented \"Anne\" to stay close to Monica. He begs Phoebe to keep his secret, which she easily does due to her terrible memory. Meanwhile, Chandler and Joey quickly fall into a hilariously domestic, parental dynamic over their new chick. Chandler, having stayed home from work to care for the bird, angrily confronts Joey for neglecting his \"parental\" duties to go out drinking with friends."
+  },
+  {
+    "batch_idx": 5,
+    "segment_start": 200,
+    "segment_end": 239,
+    "timestamp_range": "00:08:56 - 00:10:50",
+    "batch_summary": "Joey and Chandler realize that caring for the chick has caused too much friction between them, leading Joey to decide to return the bird. Meanwhile, Ross seeks fashion advice from them for an upcoming television appearance. Later, Ross visits Rachel and finds her in severe, debilitating pain from her earlier roller-skating fall. Despite her insistence on attending an important dinner at her boss's house, Ross urges her to see a doctor as she can barely stand.",
+    "cumulative_summary": "Following a roller-skating collision, Rachel suffers from lingering pain while Monica accepts Pete's head chef offer, unaware he lied about moving on from her. Meanwhile, Chandler and Joey's domestic bickering over their new chick peaks. Realizing they are not ready for the responsibility of parenthood, Joey decides to return the bird. After getting fashion advice from Chandler and Joey for an upcoming television appearance, Ross visits Rachel. He finds her in severe, debilitating pain from her earlier fall. Despite her insistence on attending an important dinner at her boss's house to impress her colleagues, Ross urges her to see a doctor as she can barely stand."
+  },
+  {
+    "batch_idx": 6,
+    "segment_start": 240,
+    "segment_end": 254,
+    "timestamp_range": "00:10:50 - 00:11:25",
+    "batch_summary": "Ross warns Rachel she might have a broken rib, but she insists on going to her dinner and asks for his help getting ready. Despite his upcoming television appearance, a reluctant Ross checks his watch and agrees to stay. Just as they begin, Chandler bursts into the apartment in a panic, frantically asking how to rescue their pet chick, which has somehow gotten stuck inside their VCR.",
+    "cumulative_summary": "Following a roller-skating collision, Rachel suffers from lingering pain while Monica accepts Pete's head chef offer, unaware he lied about moving on from her. Meanwhile, Chandler and Joey's domestic bickering over their new chick peaks. Realizing they are not ready for parenthood, Joey decides to return the bird. After getting fashion advice from Chandler and Joey for an upcoming television appearance, Ross visits Rachel. He finds her in severe pain from her earlier fall. Despite her insistence on attending an important dinner to impress her colleagues, Ross urges her to see a doctor, suspecting a broken rib. Rachel refuses to go to the hospital until the next day and asks Ross to help her get dressed. Prioritizing Rachel's well-being over his own career opportunity, Ross reluctantly agrees to stay and help. However, their plans are interrupted when Chandler bursts in frantically, needing help to rescue their pet chick, which has managed to get stuck inside their VCR."
+  }
+]

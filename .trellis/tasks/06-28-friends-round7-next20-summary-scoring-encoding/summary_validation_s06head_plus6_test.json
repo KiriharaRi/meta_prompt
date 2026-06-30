@@ -1,0 +1,129 @@
+{
+  "all_ok": true,
+  "issue_count": 0,
+  "issues": [],
+  "selected_episodes": [
+    "s06e02a",
+    "s06e04a",
+    "s06e05a",
+    "s06e05b",
+    "s06e06a",
+    "s06e06b"
+  ],
+  "rows": [
+    {
+      "episode": "s06e02a",
+      "summary_exists": true,
+      "metadata_exists": true,
+      "summary_rows": 7,
+      "metadata_keys": [
+        "command",
+        "descriptions",
+        "generated_at",
+        "metadata_file",
+        "model",
+        "n_batches",
+        "n_segments",
+        "prompt_contract",
+        "provider",
+        "summary_batch_size",
+        "summary_file"
+      ]
+    },
+    {
+      "episode": "s06e04a",
+      "summary_exists": true,
+      "metadata_exists": true,
+      "summary_rows": 6,
+      "metadata_keys": [
+        "command",
+        "descriptions",
+        "generated_at",
+        "metadata_file",
+        "model",
+        "n_batches",
+        "n_segments",
+        "prompt_contract",
+        "provider",
+        "summary_batch_size",
+        "summary_file"
+      ]
+    },
+    {
+      "episode": "s06e05a",
+      "summary_exists": true,
+      "metadata_exists": true,
+      "summary_rows": 6,
+      "metadata_keys": [
+        "command",
+        "descriptions",
+        "generated_at",
+        "metadata_file",
+        "model",
+        "n_batches",
+        "n_segments",
+        "prompt_contract",
+        "provider",
+        "summary_batch_size",
+        "summary_file"
+      ]
+    },
+    {
+      "episode": "s06e05b",
+      "summary_exists": true,
+      "metadata_exists": true,
+      "summary_rows": 7,
+      "metadata_keys": [
+        "command",
+        "descriptions",
+        "generated_at",
+        "metadata_file",
+        "model",
+        "n_batches",
+        "n_segments",
+        "prompt_contract",
+        "provider",
+        "summary_batch_size",
+        "summary_file"
+      ]
+    },
+    {
+      "episode": "s06e06a",
+      "summary_exists": true,
+      "metadata_exists": true,
+      "summary_rows": 7,
+      "metadata_keys": [
+        "command",
+        "descriptions",
+        "generated_at",
+        "metadata_file",
+        "model",
+        "n_batches",
+        "n_segments",
+        "prompt_contract",
+        "provider",
+        "summary_batch_size",
+        "summary_file"
+      ]
+    },
+    {
+      "episode": "s06e06b",
+      "summary_exists": true,
+      "metadata_exists": true,
+      "summary_rows": 7,
+      "metadata_keys": [
+        "command",
+        "descriptions",
+        "generated_at",
+        "metadata_file",
+        "model",
+        "n_batches",
+        "n_segments",
+        "prompt_contract",
+        "provider",
+        "summary_batch_size",
+        "summary_file"
+      ]
+    }
+  ]
+}
