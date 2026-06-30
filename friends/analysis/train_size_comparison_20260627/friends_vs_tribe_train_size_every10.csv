@@ -1,13 +1,19 @@
 series,train_size,mean_test_pearson,median_test_pearson,best_alpha,n_retained_parcels,n_test_trs,source,source_note
-Friends,5,0.15950467955984263,0.1372907073268566,10000.0,86,1812,friends/analysis/train_size_sweep_20260622_fresh/summary_plus45.csv,frozen summary_plus45.csv row
-Friends,15,0.1776555189820112,0.16473955558561643,10000.0,86,1812,friends/analysis/train_size_sweep_20260622_fresh/summary_plus45.csv,frozen summary_plus45.csv row
-Friends,25,0.19128536020967288,0.18619635252795882,10000.0,86,1812,friends/analysis/train_size_sweep_20260622_fresh/summary_plus45.csv,frozen summary_plus45.csv row
-Friends,35,0.19581513507019482,0.19172457333767776,10000.0,86,1812,friends/analysis/train_size_sweep_20260622_fresh/summary_plus45.csv,frozen summary_plus45.csv row
-Friends,45,0.20148189948675485,0.19568416614896555,10000.0,86,1812,friends/analysis/train_size_sweep_20260622_fresh/summary_plus45.csv,frozen summary_plus45.csv row
-Friends,55,0.20813553012023459,0.20164551144613801,10000.0,86,1812,friends/analysis/train_size_sweep_20260625_round3/encoding_55train_snapshot/group_summary.json,round2/55train encoding snapshot
-Friends,65,0.21207336267220675,0.2048392383408515,10000.0,86,1812,git:ee1821e:friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/group_summary.json,round3/65train committed encoding output
-Friends,75,0.21350091686877692,0.2105933619844561,10000.0,86,1812,friends/analysis/train_size_sweep_20260626_round4/encoding_75train_snapshot/group_summary.json,round4/75train migrated encoding snapshot
-Friends,85,0.2155106262476474,0.2090388691191204,10000.0,86,1812,friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612/encoding/group_summary.json,round5/85train current encoding output
+Friends,5,0.16520964461686435,0.1449120681104255,10000.0,86,4467,friends/analysis/train_size_sweep_20260630_every10_10test_rerun/encoding_5train_10test_snapshot/group_summary.json,round8 prefix/5train expanded 10-test rerun snapshot
+Friends,15,0.1851559817707863,0.17019807847334067,10000.0,86,4467,friends/analysis/train_size_sweep_20260630_every10_10test_rerun/encoding_15train_10test_snapshot/group_summary.json,round8 prefix/15train expanded 10-test rerun snapshot
+Friends,25,0.19489876748697402,0.18765866932857608,10000.0,86,4467,friends/analysis/train_size_sweep_20260630_every10_10test_rerun/encoding_25train_10test_snapshot/group_summary.json,round8 prefix/25train expanded 10-test rerun snapshot
+Friends,35,0.20067237600203958,0.19126337220339718,10000.0,86,4467,friends/analysis/train_size_sweep_20260630_every10_10test_rerun/encoding_35train_10test_snapshot/group_summary.json,round8 prefix/35train expanded 10-test rerun snapshot
+Friends,45,0.20583500814042568,0.19467882987702528,10000.0,86,4467,friends/analysis/train_size_sweep_20260630_every10_10test_rerun/encoding_45train_10test_snapshot/group_summary.json,round8 prefix/45train expanded 10-test rerun snapshot
+Friends,55,0.21049133056155095,0.196509923464001,10000.0,86,4467,friends/analysis/train_size_sweep_20260630_every10_10test_rerun/encoding_55train_10test_snapshot/group_summary.json,round8 prefix/55train expanded 10-test rerun snapshot
+Friends,65,0.21345091949289968,0.20291165821579288,10000.0,86,4467,friends/analysis/train_size_sweep_20260630_every10_10test_rerun/encoding_65train_10test_snapshot/group_summary.json,round8 prefix/65train expanded 10-test rerun snapshot
+Friends,75,0.2153373844274489,0.20670698061085824,10000.0,86,4467,friends/analysis/train_size_sweep_20260630_every10_10test_rerun/encoding_75train_10test_snapshot/group_summary.json,round8 prefix/75train expanded 10-test rerun snapshot
+Friends,85,0.21759544015341303,0.20619660886446706,10000.0,86,4467,friends/analysis/train_size_sweep_20260630_every10_10test_rerun/encoding_85train_10test_snapshot/group_summary.json,round8 prefix/85train expanded 10-test rerun snapshot
+Friends,95,0.22063837555178412,0.20676334810089306,10000.0,86,4467,friends/analysis/train_size_sweep_20260630_every10_10test_rerun/encoding_95train_10test_snapshot/group_summary.json,round8 prefix/95train expanded 10-test rerun snapshot
+Friends,105,0.22107467413716247,0.20997491439814048,10000.0,86,4467,friends/analysis/train_size_sweep_20260630_every10_10test_rerun/encoding_105train_10test_snapshot/group_summary.json,round8 prefix/105train expanded 10-test rerun snapshot
+Friends,115,0.22223919585476926,0.2118128860771404,10000.0,86,4467,friends/analysis/train_size_sweep_20260630_every10_10test_rerun/encoding_115train_10test_snapshot/group_summary.json,round8 prefix/115train expanded 10-test rerun snapshot
+Friends,125,0.2234199280142032,0.21548405535315668,10000.0,86,4467,friends/analysis/train_size_sweep_20260630_every10_10test_rerun/encoding_125train_10test_snapshot/group_summary.json,round8 prefix/125train expanded 10-test rerun snapshot
+Friends,135,0.22508806444457624,0.2149456894866953,10000.0,86,4467,friends/analysis/train_size_sweep_20260630_every10_10test_rerun/encoding_135train_10test_snapshot/group_summary.json,round8 prefix/135train expanded 10-test rerun snapshot
+Friends,145,0.22569421197201892,0.2169218306504591,10000.0,86,4467,friends/analysis/train_size_sweep_20260630_every10_10test_rerun/encoding_145train_10test_snapshot/group_summary.json,round8 prefix/145train expanded 10-test rerun snapshot
 Tribe,20,0.11892333128719788,0.11277022962766899,10000.0,86,1852,friends/tribe/tribe_train_size_test_performance.csv,tribe train-size CSV row
 Tribe,40,0.14671588984278108,0.14406445157967968,10000.0,86,1852,friends/tribe/tribe_train_size_test_performance.csv,tribe train-size CSV row
 Tribe,60,0.1466308955267963,0.1389069121650816,10000.0,86,1852,friends/tribe/tribe_train_size_test_performance.csv,tribe train-size CSV row
