@@ -1604,3 +1604,38 @@ Selected and scored 10 new Friends episodes, validated zero-warning 14-ROI outpu
 ### Next Steps
 
 - None - task complete
+
+
+## Session 47: Friends round7-round9 scoring encoding
+
+**Date**: 2026-06-30
+**Task**: Friends round7-round9 scoring encoding
+**Branch**: `main`
+
+### Summary
+
+Completed Friends round7 through round9 summary, scoring, manifest, encoding runs; validated 155-train/10-test snapshot and committed experiment outputs, train-size curve artifacts, and ROI helper scripts.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `ba0cd707` | (see git log) |
+| `3ac0cbf6` | (see git log) |
+| `60024223` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
