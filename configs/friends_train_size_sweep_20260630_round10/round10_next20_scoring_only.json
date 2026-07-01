@@ -1,0 +1,190 @@
+{
+  "version": "friends_round10_next20_scoring_only_20260630",
+  "roi_definitions": "../roi_definitions_brainnetome246_yeo.json",
+  "atlas_labels": "../../atlas/subregion_func_network_Yeo_updated.csv",
+  "h5_file": "../../friends/BN/sub-01/BN_246.h5",
+  "output_root": "../../friends/full_runs/friends_full_scoring_start_14roi_gemini35_20260612",
+  "subject_id": "sub-01",
+  "generation_provider": "aihubmix",
+  "generation_model": "gemini-3.5-flash",
+  "proposal_runs": 5,
+  "tr_s": 1.49,
+  "scoring_batch_size": 40,
+  "local_buffer_size": 10,
+  "encoding_trim": {
+    "fmri_trim_start_tr": 5,
+    "fmri_trim_end_tr": 5
+  },
+  "lags": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "alphas": [
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1,
+    3,
+    10,
+    30,
+    100,
+    300,
+    1000,
+    3000,
+    10000
+  ],
+  "rois": [
+    "DLPFC",
+    "VMPFC",
+    "OFC",
+    "ACC",
+    "PCC",
+    "Precuneus",
+    "IPL",
+    "SMG",
+    "AG",
+    "TPJ",
+    "pSTS",
+    "FFA",
+    "Insula",
+    "Temporal_Pole"
+  ],
+  "episodes": [
+    {
+      "episode_id": "s04e16b",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s04e16b/descriptions/refined_description.md",
+      "h5_dataset": "ses-031_task-s04e16b"
+    },
+    {
+      "episode_id": "s04e17a",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s04e17a/descriptions/refined_description.md",
+      "h5_dataset": "ses-031_task-s04e17a"
+    },
+    {
+      "episode_id": "s04e17b",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s04e17b/descriptions/refined_description.md",
+      "h5_dataset": "ses-031_task-s04e17b"
+    },
+    {
+      "episode_id": "s04e18a",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s04e18a/descriptions/refined_description.md",
+      "h5_dataset": "ses-032_task-s04e18a"
+    },
+    {
+      "episode_id": "s04e18b",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s04e18b/descriptions/refined_description.md",
+      "h5_dataset": "ses-032_task-s04e18b"
+    },
+    {
+      "episode_id": "s04e19a",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s04e19a/descriptions/refined_description.md",
+      "h5_dataset": "ses-032_task-s04e19a"
+    },
+    {
+      "episode_id": "s04e19b",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s04e19b/descriptions/refined_description.md",
+      "h5_dataset": "ses-032_task-s04e19b"
+    },
+    {
+      "episode_id": "s04e20a",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s04e20a/descriptions/refined_description.md",
+      "h5_dataset": "ses-033_task-s04e20a"
+    },
+    {
+      "episode_id": "s04e20b",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s04e20b/descriptions/refined_description.md",
+      "h5_dataset": "ses-033_task-s04e20b"
+    },
+    {
+      "episode_id": "s04e21a",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s04e21a/descriptions/refined_description.md",
+      "h5_dataset": "ses-034_task-s04e21a"
+    },
+    {
+      "episode_id": "s04e21b",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s04e21b/descriptions/refined_description.md",
+      "h5_dataset": "ses-034_task-s04e21b"
+    },
+    {
+      "episode_id": "s04e22a",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s04e22a/descriptions/refined_description.md",
+      "h5_dataset": "ses-034_task-s04e22a"
+    },
+    {
+      "episode_id": "s04e22b",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s04e22b/descriptions/refined_description.md",
+      "h5_dataset": "ses-034_task-s04e22b"
+    },
+    {
+      "episode_id": "s04e23a",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s04e23a/descriptions/refined_description.md",
+      "h5_dataset": "ses-035_task-s04e23a"
+    },
+    {
+      "episode_id": "s04e23b",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s04e23b/descriptions/refined_description.md",
+      "h5_dataset": "ses-035_task-s04e23b"
+    },
+    {
+      "episode_id": "s05e01a",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s05e01a/descriptions/refined_description.md",
+      "h5_dataset": "ses-036_task-s05e01a"
+    },
+    {
+      "episode_id": "s05e01b",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s05e01b/descriptions/refined_description.md",
+      "h5_dataset": "ses-036_task-s05e01b"
+    },
+    {
+      "episode_id": "s05e02a",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s05e02a/descriptions/refined_description.md",
+      "h5_dataset": "ses-036_task-s05e02a"
+    },
+    {
+      "episode_id": "s05e02b",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s05e02b/descriptions/refined_description.md",
+      "h5_dataset": "ses-036_task-s05e02b"
+    },
+    {
+      "episode_id": "s05e03a",
+      "split": "train",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s05e03a/descriptions/refined_description.md",
+      "h5_dataset": "ses-037_task-s05e03a"
+    },
+    {
+      "episode_id": "s02e01a",
+      "split": "val",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s02e01a/descriptions/refined_description.md",
+      "h5_dataset": "ses-010_task-s02e01a"
+    },
+    {
+      "episode_id": "s06e01a",
+      "split": "test",
+      "descriptions": "../../friends/description/downloaded_refine_descriptions/mv_friends_s06e01a/descriptions/refined_description.md",
+      "h5_dataset": "ses-052_task-s06e01a"
+    }
+  ]
+}
