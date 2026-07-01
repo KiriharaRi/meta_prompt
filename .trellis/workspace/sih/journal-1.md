@@ -1639,3 +1639,39 @@ Completed Friends round7 through round9 summary, scoring, manifest, encoding run
 ### Next Steps
 
 - None - task complete
+
+
+## Session 48: Friends round10 and round11 train expansion
+
+**Date**: 2026-07-01
+**Task**: Friends round10 and round11 train expansion
+**Branch**: `main`
+
+### Summary
+
+Committed round8 interpretability report updates, round10 175-train artifacts, round11 195-train artifacts, and Friends scoring progress snapshots; archived the active Trellis task after validation.
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `4e61568d` | (see git log) |
+| `db424e54` | (see git log) |
+| `8b5067ae` | (see git log) |
+| `84a281e7` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
