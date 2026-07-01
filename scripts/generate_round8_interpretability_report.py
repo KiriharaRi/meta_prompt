@@ -11,6 +11,7 @@ from __future__ import annotations
 import csv
 import json
 import math
+import sys
 import textwrap
 from argparse import ArgumentParser, Namespace
 from collections import Counter, defaultdict
@@ -23,11 +24,28 @@ import matplotlib
 import numpy as np
 from numpy.typing import NDArray
 
+REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
+from brain_region_pipeline.atlas.labels import parse_atlas_labels
+from brain_region_pipeline.core.config import RidgeEncodingConfig
+from brain_region_pipeline.encoding.features import expanded_feature_names
+from brain_region_pipeline.encoding.manifest import RoiEncodingManifestEntry
+from brain_region_pipeline.encoding.ridge import MatrixStandardizer
+from brain_region_pipeline.encoding.runner import (
+    _concat_samples,
+    _concat_test_provenance,
+    _load_lagged_sample,
+    _load_roi_schemas,
+    _selected_parcel_metadata,
+    _split_subject_entries,
+)
+
 matplotlib.use("Agg")
 from matplotlib import pyplot as plt  # noqa: E402
 
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_ENCODING_DIR = (
     REPO_ROOT
     / "friends"
@@ -54,6 +72,7 @@ TOP_FEATURE_ROWS = 10
 CONTRIBUTION_TOP_FEATURES = 20
 HEATMAP_FEATURES_PER_ROI = 3
 EXAMPLES_PER_ROI = 3
+PREDICTION_REBUILD_TOLERANCE = 1e-3
 
 
 @dataclass(frozen=True)
@@ -118,6 +137,31 @@ class WeightRow:
     negative_fraction: float
     sign_consistency: float
     n_target_parcels: int
+    definition: str
+    trigger_list: tuple[str, ...]
+    scoreability_note: str
+    exclusion_note: str
+
+
+@dataclass(frozen=True)
+class VarianceRow:
+    """One feature's contribution to a target ROI prediction-variance budget."""
+
+    target_roi: str
+    rank: int
+    feature_index: int
+    expanded_feature_name: str
+    source_schema_roi: str
+    dimension_id: str
+    domain: str
+    lag: int
+    signed_variance_share: float
+    absolute_variance_share: float
+    cumulative_signed_share: float
+    mean_coef: float
+    mean_abs_coef: float
+    n_target_parcels: int
+    target_prediction_variance: float
     definition: str
     trigger_list: tuple[str, ...]
     scoreability_note: str
@@ -455,6 +499,215 @@ def _contribution_rows(
     return source_rows, lag_rows
 
 
+def _metadata_sample_to_entry(row: dict[str, Any]) -> RoiEncodingManifestEntry:
+    """Convert encoding snapshot metadata back into a manifest entry.
+
+    The live full-run manifest can be refreshed by later rounds. The snapshot
+    metadata is therefore the authoritative sample list for reconstructing the
+    exact round8 design matrix used by the saved Ridge coefficients.
+    """
+
+    return RoiEncodingManifestEntry(
+        sample_id=str(row["sample_id"]),
+        subject_id=str(row["subject_id"]),
+        feature_set_name=str(row["feature_set_name"]),
+        split=str(row["split"]),
+        roi_features={
+            str(roi_id): _repo_path(raw_path)
+            for roi_id, raw_path in row["roi_features"].items()
+        },
+        h5_file=_repo_path(row["h5_file"]),
+        h5_dataset=str(row["h5_dataset"]),
+        feature_trim_start_tr=int(row.get("feature_trim_start_tr", 0)),
+        feature_trim_end_tr=int(row.get("feature_trim_end_tr", 0)),
+        fmri_trim_start_tr=int(row.get("fmri_trim_start_tr", 0)),
+        fmri_trim_end_tr=int(row.get("fmri_trim_end_tr", 0)),
+        line_number=int(row.get("line_number", 0)),
+    )
+
+
+def _rebuild_standardized_test_features(
+    *,
+    encoding_dir: Path,
+    full_run_encoding_dir: Path,
+    coefficient_data: Any,
+    prediction_data: dict[str, NDArray[Any]],
+) -> tuple[NDArray[np.float64], NDArray[np.float64]]:
+    """Rebuild the standardized round8 test design matrix from snapshot metadata."""
+
+    metadata = _read_json(encoding_dir / "encoding_metadata.json")
+    samples = metadata.get("samples")
+    if not isinstance(samples, list) or not samples:
+        raise ValueError(f"{encoding_dir / 'encoding_metadata.json'} has no samples.")
+    entries = [_metadata_sample_to_entry(row) for row in samples]
+    subjects = sorted({entry.subject_id for entry in entries})
+    if len(subjects) != 1:
+        raise ValueError(f"Expected one subject in snapshot metadata, got {subjects}.")
+
+    roi_order, schemas, _ = _load_roi_schemas(full_run_encoding_dir / "roi_schemas.json")
+    parcels = parse_atlas_labels(_repo_path(metadata["atlas_labels"]))
+    selected_parcels = _selected_parcel_metadata(
+        roi_order=roi_order,
+        schemas=schemas,
+        parcels=parcels,
+    )
+    cfg = RidgeEncodingConfig(
+        lags=tuple(int(value) for value in metadata.get("lags", [])),
+        alphas=tuple(float(value) for value in metadata.get("alphas", [])),
+    )
+
+    lagged_by_split = {split: [] for split in ("train", "val", "test")}
+    base_feature_names: list[str] | None = None
+    for split, split_entries in _split_subject_entries(entries)[subjects[0]].items():
+        for entry in split_entries:
+            sample, feature_names = _load_lagged_sample(
+                entry,
+                roi_order=roi_order,
+                schemas=schemas,
+                selected_parcels=selected_parcels,
+                atlas_parcel_count=len(parcels),
+                cfg=cfg,
+            )
+            if base_feature_names is None:
+                base_feature_names = feature_names
+            elif feature_names != base_feature_names:
+                raise ValueError(f"Sample {entry.sample_id!r}: ROI feature order changed.")
+            lagged_by_split[split].append(sample)
+    if base_feature_names is None:
+        raise ValueError("Snapshot metadata produced no lagged samples.")
+
+    feature_labels = expanded_feature_names(base_feature_names, cfg.lags)
+    x_train_raw, y_train_raw = _concat_samples(lagged_by_split["train"])
+    x_test_raw, _ = _concat_samples(lagged_by_split["test"])
+    x_standardizer = MatrixStandardizer.fit(x_train_raw)
+    y_standardizer = MatrixStandardizer.fit(y_train_raw)
+    kept_feature_names = [feature_labels[int(index)] for index in x_standardizer.keep_indices]
+    if kept_feature_names != [str(value) for value in coefficient_data["expanded_feature_names"]]:
+        raise ValueError("Rebuilt kept feature names do not match ridge_coefficients.npz.")
+
+    retained_parcel_indices = [
+        int(selected_parcels[int(index)]["idx_0based"])
+        for index in y_standardizer.keep_indices
+    ]
+    if retained_parcel_indices != [int(value) for value in coefficient_data["parcel_indices"]]:
+        raise ValueError("Rebuilt retained parcels do not match ridge_coefficients.npz.")
+
+    sample_ids, feature_tr_indices, fmri_tr_indices = _concat_test_provenance(
+        lagged_by_split["test"],
+    )
+    if not np.array_equal(sample_ids, prediction_data["sample_ids"]):
+        raise ValueError("Rebuilt test sample IDs do not match test_predictions.npz.")
+    if not np.array_equal(feature_tr_indices, prediction_data["feature_tr_indices"]):
+        raise ValueError("Rebuilt feature TR indices do not match test_predictions.npz.")
+    if not np.array_equal(fmri_tr_indices, prediction_data["fmri_tr_indices"]):
+        raise ValueError("Rebuilt fMRI TR indices do not match test_predictions.npz.")
+
+    x_test_z = x_standardizer.transform(x_test_raw)
+    y_pred_z = x_test_z @ coefficient_data["coef"].astype(np.float64).T
+    y_pred_z = y_pred_z + coefficient_data["intercept"].astype(np.float64)
+    saved_y_pred_z = (
+        prediction_data["y_pred"].astype(np.float64)
+        - y_standardizer.mean[y_standardizer.keep_indices]
+    ) / y_standardizer.scale[y_standardizer.keep_indices]
+    max_abs_diff = float(np.max(np.abs(y_pred_z - saved_y_pred_z)))
+    if max_abs_diff > PREDICTION_REBUILD_TOLERANCE:
+        raise ValueError(
+            "Rebuilt standardized predictions differ from the saved snapshot "
+            f"(max_abs_diff={max_abs_diff:.3g})."
+        )
+    return x_test_z, y_pred_z
+
+
+def _variance_rows(
+    *,
+    target_rois: Sequence[str],
+    x_test_z: NDArray[np.float64],
+    y_pred_z: NDArray[np.float64],
+    coef: NDArray[np.float64],
+    memberships: NDArray[Any],
+    feature_infos: Sequence[FeatureInfo],
+) -> list[VarianceRow]:
+    """Decompose each target ROI's standardized prediction variance by feature."""
+
+    x_centered = x_test_z - x_test_z.mean(axis=0, keepdims=True)
+    rows: list[VarianceRow] = []
+    for target_roi in target_rois:
+        mask = _membership_mask(memberships, target_roi)
+        roi_coef = coef[mask, :]
+        roi_pred = y_pred_z[:, mask]
+        pred_centered = roi_pred - roi_pred.mean(axis=0, keepdims=True)
+        pred_var = np.mean(pred_centered ** 2, axis=0)
+        valid_parcels = pred_var > 0
+        if not valid_parcels.any():
+            raise ValueError(f"ROI {target_roi!r} has zero prediction variance.")
+
+        # For each feature j and parcel k:
+        # Cov(X_j * beta_jk, yhat_k) = beta_jk * Cov(X_j, yhat_k).
+        # Averaging covariance over retained parcels and dividing by average
+        # prediction variance gives signed shares that sum to 1.0 per ROI.
+        x_pred_cov = (x_centered.T @ pred_centered[:, valid_parcels]) / x_centered.shape[0]
+        feature_cov = x_pred_cov * roi_coef[valid_parcels, :].T
+        mean_feature_cov = feature_cov.mean(axis=1)
+        target_prediction_variance = float(pred_var[valid_parcels].mean())
+        signed_share = mean_feature_cov / target_prediction_variance
+        mean_coef = roi_coef[valid_parcels, :].mean(axis=0)
+        mean_abs_coef = np.abs(roi_coef[valid_parcels, :]).mean(axis=0)
+
+        cumulative_signed = 0.0
+        for rank, feature_idx in enumerate(np.argsort(-np.abs(signed_share)), start=1):
+            feature_index = int(feature_idx)
+            info = feature_infos[feature_index]
+            cumulative_signed += float(signed_share[feature_index])
+            rows.append(
+                VarianceRow(
+                    target_roi=target_roi,
+                    rank=rank,
+                    feature_index=feature_index,
+                    expanded_feature_name=info.expanded_feature_name,
+                    source_schema_roi=info.source_schema_roi,
+                    dimension_id=info.dimension_id,
+                    domain=info.domain,
+                    lag=info.lag,
+                    signed_variance_share=float(signed_share[feature_index]),
+                    absolute_variance_share=float(abs(signed_share[feature_index])),
+                    cumulative_signed_share=float(cumulative_signed),
+                    mean_coef=float(mean_coef[feature_index]),
+                    mean_abs_coef=float(mean_abs_coef[feature_index]),
+                    n_target_parcels=int(valid_parcels.sum()),
+                    target_prediction_variance=target_prediction_variance,
+                    definition=info.definition,
+                    trigger_list=info.trigger_list,
+                    scoreability_note=info.scoreability_note,
+                    exclusion_note=info.exclusion_note,
+                )
+            )
+    return rows
+
+
+def _variance_row_to_dict(row: VarianceRow) -> dict[str, Any]:
+    return {
+        "target_roi": row.target_roi,
+        "rank": row.rank,
+        "feature_index": row.feature_index,
+        "expanded_feature_name": row.expanded_feature_name,
+        "source_schema_roi": row.source_schema_roi,
+        "dimension_id": row.dimension_id,
+        "domain": row.domain,
+        "lag": row.lag,
+        "signed_variance_share": f"{row.signed_variance_share:.12f}",
+        "absolute_variance_share": f"{row.absolute_variance_share:.12f}",
+        "cumulative_signed_share": f"{row.cumulative_signed_share:.12f}",
+        "mean_coef": f"{row.mean_coef:.12f}",
+        "mean_abs_coef": f"{row.mean_abs_coef:.12f}",
+        "n_target_parcels": row.n_target_parcels,
+        "target_prediction_variance": f"{row.target_prediction_variance:.12f}",
+        "definition": row.definition,
+        "trigger_list": "; ".join(row.trigger_list),
+        "scoreability_note": row.scoreability_note,
+        "exclusion_note": row.exclusion_note,
+    }
+
+
 def _load_manifest_by_sample(manifest_path: Path, prediction_sample_ids: set[str]) -> dict[str, dict[str, Any]]:
     """Load manifest rows for prediction sample IDs only."""
 
@@ -769,6 +1022,51 @@ def _plot_stacked_bar(
     plt.close(fig)
 
 
+def _plot_variance_decomposition(
+    path: Path,
+    *,
+    rows: Sequence[VarianceRow],
+    target_rois: Sequence[str],
+    top_n: int = 5,
+) -> None:
+    """Plot top signed prediction-variance shares for each target ROI."""
+
+    plot_rows = [
+        row
+        for target_roi in reversed(target_rois)
+        for row in rows
+        if row.target_roi == target_roi and row.rank <= top_n
+    ]
+    labels = [
+        f"{row.target_roi} | {row.source_schema_roi}::{row.dimension_id}_L{row.lag}"
+        for row in plot_rows
+    ]
+    values = [row.signed_variance_share for row in plot_rows]
+    colors = ["#2563eb" if value >= 0 else "#dc2626" for value in values]
+
+    height = max(7.0, len(plot_rows) * 0.28)
+    fig, ax = plt.subplots(figsize=(12.6, height))
+    fig.patch.set_facecolor("white")
+    y_pos = np.arange(len(plot_rows), dtype=np.float64)
+    ax.barh(y_pos, values, color=colors, height=0.68)
+    ax.axvline(0, color="#334155", linewidth=0.9)
+    ax.set_title("Top Feature Contributions to Prediction Variance", fontsize=15, weight="bold")
+    ax.set_xlabel("Signed share of ROI prediction variance")
+    ax.set_yticks(y_pos)
+    ax.set_yticklabels(labels, fontsize=7)
+    ax.grid(axis="x", alpha=0.18)
+    if values:
+        limit = max(abs(float(value)) for value in values)
+        ax.set_xlim(-limit * 1.28, limit * 1.28)
+    for y_idx, value in enumerate(values):
+        offset = 0.004 if value >= 0 else -0.004
+        ha = "left" if value >= 0 else "right"
+        ax.text(value + offset, y_idx, f"{value:.1%}", va="center", ha=ha, fontsize=7)
+    fig.tight_layout()
+    fig.savefig(path, dpi=220)
+    plt.close(fig)
+
+
 def _markdown_table(headers: Sequence[str], rows: Sequence[Sequence[Any]]) -> str:
     escaped_headers = [_escape_md(str(header)) for header in headers]
     lines = [
@@ -811,6 +1109,7 @@ def _report_lines(
     performance_rows: Sequence[RoiPerformance],
     top_rois: Sequence[str],
     weights_by_direction: dict[str, dict[str, list[WeightRow]]],
+    variance_rows: Sequence[VarianceRow],
     source_rows: Sequence[dict[str, Any]],
     lag_rows: Sequence[dict[str, Any]],
     examples: Sequence[ExampleRow],
@@ -841,6 +1140,9 @@ def _report_lines(
         "- 对每个 target ROI，只聚合该 ROI retained parcels 的 Ridge 系数。",
         "- Positive ranking 使用 `mean(coef)`，negative ranking 使用 `mean(coef)` 的最小值，"
         "absolute ranking 使用 `mean(abs(coef))`。",
+        "- 方差分解在标准化预测空间中计算：对每个 feature 的贡献序列 "
+        "`c_j = X_j beta_j`，使用 `Cov(c_j, yhat) / Var(yhat)` 得到 signed variance share；"
+        "同一 ROI 的全特征 signed share 加总约为 100%。",
         "- 每个 feature 都追溯到 `source schema ROI`、`domain`、`dimension_id`、`lag` 和 schema definition。",
         "- Test examples 只从 held-out test split 选择；对于 `lag L` 的 feature，示例文本来自 "
         "`target TR - L` 对应的 source ROI `tr_features.jsonl`。",
@@ -850,6 +1152,8 @@ def _report_lines(
         f"![Round8 ROI Encoding Performance]({_relative_link(figures['performance'], output_dir)})",
         "",
         f"![Top ROI-Averaged Ridge Weights]({_relative_link(figures['heatmap'], output_dir)})",
+        "",
+        f"![Top Feature Contributions to Prediction Variance]({_relative_link(figures['variance'], output_dir)})",
         "",
         f"![Source Schema Contribution]({_relative_link(figures['source'], output_dir)})",
         "",
@@ -873,13 +1177,35 @@ def _report_lines(
             ],
         )
     )
+    lines.append("")
+
+    variance_by_roi: dict[str, list[VarianceRow]] = defaultdict(list)
+    for row in variance_rows:
+        variance_by_roi[row.target_roi].append(row)
+
     lines.extend(
         [
+            "## Prediction variance decomposition",
             "",
-            "## Top 8 ROI interpretations",
+            "这里的方差分解回答的是：在当前 Ridge 模型的 held-out test predictions 中，"
+            "每个 schema feature 对 `yhat` 的变化贡献了多少 signed prediction variance。"
+            "它不是 drop-one unique variance，也不是对真实 fMRI 方差的因果解释。",
+            "",
+            "负值表示该 feature 的贡献序列与 ROI 预测值呈相反方向协方差，常见于共线特征或 suppressor-like 权重；"
+            "`absolute variance share` 只用于排序，不能加总为 100%。",
             "",
         ]
     )
+    lines.append(
+        _variance_rows_table(
+            [
+                row
+                for target_roi in top_rois
+                for row in variance_by_roi[target_roi][:3]
+            ]
+        )
+    )
+    lines.extend(["", "## Top 8 ROI interpretations", ""])
 
     examples_by_roi: dict[str, list[ExampleRow]] = defaultdict(list)
     for example in examples:
@@ -891,6 +1217,7 @@ def _report_lines(
         negative = weights_by_direction[target_roi]["negative"][:5]
         absolute = weights_by_direction[target_roi]["absolute"][:5]
         top_abs = absolute[0]
+        top_variance = variance_by_roi[target_roi][0]
         lines.extend(
             [
                 f"### {target_roi}",
@@ -902,6 +1229,10 @@ def _report_lines(
                 f"- Strongest absolute feature: `{top_abs.source_schema_roi}::{top_abs.dimension_id}` "
                 f"(lag {top_abs.lag}, domain `{top_abs.domain}`, "
                 f"mean |coef| = {top_abs.mean_abs_coef:.4f}).",
+                f"- Largest prediction-variance contributor: "
+                f"`{top_variance.source_schema_roi}::{top_variance.dimension_id}` "
+                f"(lag {top_variance.lag}, signed share = "
+                f"{top_variance.signed_variance_share:.1%}).",
                 "",
                 "候选解释：这一 ROI 的当前预测权重主要说明哪些 schema feature 在标准化线性模型中有较强预测贡献。"
                 "如果 top source schema 不是同名 ROI，应该理解为 cross-schema semantic feature contribution，"
@@ -916,6 +1247,8 @@ def _report_lines(
         lines.append(_feature_rows_table(negative))
         lines.extend(["", "**Top absolute features**", ""])
         lines.append(_feature_rows_table(absolute))
+        lines.extend(["", "**Top prediction-variance contributors**", ""])
+        lines.append(_variance_rows_table(variance_by_roi[target_roi][:5]))
         roi_examples = examples_by_roi.get(target_roi, [])
         if roi_examples:
             lines.extend(["", "**Representative test examples**", ""])
@@ -928,6 +1261,8 @@ def _report_lines(
             "",
             "- `source schema contribution` 图只统计每个 target ROI 的 top-20 absolute features；"
             "它适合看解释主导来源，不适合当作全特征空间的严格方差分解。",
+            "- `prediction variance decomposition` 是全特征空间上的 signed decomposition；"
+            "表中只展示每个 ROI 排名靠前的 contributor。",
             "- `lag distribution` 同样基于 top-20 absolute features；当前 lags 为 2-6 TR，"
             "对应约 3.0-8.9 秒的过去语义信息。",
             "- sign consistency 低的 feature 表示它在同一 ROI 的不同 parcels 上方向不一致；"
@@ -947,6 +1282,7 @@ def _report_lines(
             "- `tables/top_positive_weights.csv`",
             "- `tables/top_negative_weights.csv`",
             "- `tables/top_absolute_weights.csv`",
+            "- `tables/variance_decomposition.csv`",
             "- `tables/source_schema_contribution.csv`",
             "- `tables/lag_distribution.csv`",
             "- `tables/representative_test_examples.csv`",
@@ -969,6 +1305,38 @@ def _feature_rows_table(rows: Sequence[WeightRow]) -> str:
                 f"{row.mean_coef:.4f}",
                 f"{row.mean_abs_coef:.4f}",
                 f"{row.sign_consistency:.2f}",
+                _clip_text(row.definition, 130),
+            ]
+            for row in rows
+        ],
+    )
+
+
+def _variance_rows_table(rows: Sequence[VarianceRow]) -> str:
+    return _markdown_table(
+        [
+            "Rank",
+            "Target ROI",
+            "Source schema",
+            "Feature",
+            "Domain",
+            "Lag",
+            "Signed variance share",
+            "Abs share",
+            "Cumulative signed",
+            "Schema definition",
+        ],
+        [
+            [
+                row.rank,
+                row.target_roi,
+                row.source_schema_roi,
+                row.dimension_id,
+                row.domain,
+                row.lag,
+                f"{row.signed_variance_share:.1%}",
+                f"{row.absolute_variance_share:.1%}",
+                f"{row.cumulative_signed_share:.1%}",
                 _clip_text(row.definition, 130),
             ]
             for row in rows
@@ -1006,6 +1374,7 @@ def _summary_payload(
     output_dir: Path,
     performance_rows: Sequence[RoiPerformance],
     top_rois: Sequence[str],
+    variance_rows: Sequence[VarianceRow],
     source_rows: Sequence[dict[str, Any]],
     lag_rows: Sequence[dict[str, Any]],
     examples: Sequence[ExampleRow],
@@ -1020,6 +1389,7 @@ def _summary_payload(
         "top_roi_count": TOP_ROI_COUNT,
         "top_rois": list(top_rois),
         "performance": _performance_csv_rows(performance_rows),
+        "variance_decomposition": [_variance_row_to_dict(row) for row in variance_rows],
         "source_schema_contribution": list(source_rows),
         "lag_distribution": list(lag_rows),
         "representative_test_examples": [_example_to_dict(row) for row in examples],
@@ -1037,6 +1407,7 @@ def _summary_payload(
         "notes": [
             "Exploratory report for non-final round8 encoding.",
             "Ridge coefficients are standardized linear prediction weights, not causal effects.",
+            "Variance decomposition uses Cov(X_j beta_j, yhat) / Var(yhat) in standardized prediction space.",
             "Cross-schema contribution refers to feature schema source, not neural causal influence.",
         ],
     }
@@ -1093,6 +1464,23 @@ def _build_report(args: Namespace) -> None:
         prediction_data=prediction_data,
         memberships=memberships,
     )
+    x_test_z, y_pred_z = _rebuild_standardized_test_features(
+        encoding_dir=encoding_dir,
+        full_run_encoding_dir=full_run_encoding_dir,
+        coefficient_data=coefficient_data,
+        prediction_data=prediction_data,
+    )
+    variance_rows = _variance_rows(
+        target_rois=top_rois,
+        x_test_z=x_test_z,
+        y_pred_z=y_pred_z,
+        coef=coef,
+        memberships=memberships,
+        feature_infos=feature_infos,
+    )
+    summary_variance_rows = [
+        row for row in variance_rows if row.rank <= args.top_feature_rows
+    ]
 
     _write_csv(
         tables_dir / "roi_performance.csv",
@@ -1114,6 +1502,11 @@ def _build_report(args: Namespace) -> None:
             for row in weights_by_direction[roi][direction]
         ]
         _write_csv(tables_dir / f"top_{direction}_weights.csv", rows, weight_fields)
+    _write_csv(
+        tables_dir / "variance_decomposition.csv",
+        [_variance_row_to_dict(row) for row in variance_rows],
+        list(_variance_row_to_dict(variance_rows[0]).keys()),
+    )
     _write_csv(
         tables_dir / "source_schema_contribution.csv",
         list(source_rows),
@@ -1166,6 +1559,7 @@ def _build_report(args: Namespace) -> None:
     figures = {
         "performance": figures_dir / "roi_performance_bar.png",
         "heatmap": figures_dir / "top8_feature_weight_heatmap.png",
+        "variance": figures_dir / "variance_decomposition.png",
         "source": figures_dir / "source_schema_contribution.png",
         "lag": figures_dir / "lag_distribution.png",
     }
@@ -1176,6 +1570,11 @@ def _build_report(args: Namespace) -> None:
         coef=coef,
         memberships=memberships,
         feature_infos=feature_infos,
+    )
+    _plot_variance_decomposition(
+        figures["variance"],
+        rows=variance_rows,
+        target_rois=top_rois,
     )
     _plot_stacked_bar(
         figures["source"],
@@ -1204,6 +1603,7 @@ def _build_report(args: Namespace) -> None:
         performance_rows=performance_rows,
         top_rois=top_rois,
         weights_by_direction=weights_by_direction,
+        variance_rows=variance_rows,
         source_rows=source_rows,
         lag_rows=lag_rows,
         examples=examples,
@@ -1220,6 +1620,7 @@ def _build_report(args: Namespace) -> None:
             output_dir=output_dir,
             performance_rows=performance_rows,
             top_rois=top_rois,
+            variance_rows=summary_variance_rows,
             source_rows=source_rows,
             lag_rows=lag_rows,
             examples=examples,

@@ -16,6 +16,7 @@
 - ROI ranking 使用 `group_summary.json` 中的 `mean_subject_mean_test_pearson`。
 - 对每个 target ROI，只聚合该 ROI retained parcels 的 Ridge 系数。
 - Positive ranking 使用 `mean(coef)`，negative ranking 使用 `mean(coef)` 的最小值，absolute ranking 使用 `mean(abs(coef))`。
+- 方差分解在标准化预测空间中计算：对每个 feature 的贡献序列 `c_j = X_j beta_j`，使用 `Cov(c_j, yhat) / Var(yhat)` 得到 signed variance share；同一 ROI 的全特征 signed share 加总约为 100%。
 - 每个 feature 都追溯到 `source schema ROI`、`domain`、`dimension_id`、`lag` 和 schema definition。
 - Test examples 只从 held-out test split 选择；对于 `lag L` 的 feature，示例文本来自 `target TR - L` 对应的 source ROI `tr_features.jsonl`。
 
@@ -24,6 +25,8 @@
 ![Round8 ROI Encoding Performance](figures/roi_performance_bar.png)
 
 ![Top ROI-Averaged Ridge Weights](figures/top8_feature_weight_heatmap.png)
+
+![Top Feature Contributions to Prediction Variance](figures/variance_decomposition.png)
 
 ![Source Schema Contribution](figures/source_schema_contribution.png)
 
@@ -48,6 +51,39 @@
 | 13 | ACC | 0.195 | 0.186 | 8 |
 | 14 | Precuneus | 0.178 | 0.142 | 8 |
 
+## Prediction variance decomposition
+
+这里的方差分解回答的是：在当前 Ridge 模型的 held-out test predictions 中，每个 schema feature 对 `yhat` 的变化贡献了多少 signed prediction variance。它不是 drop-one unique variance，也不是对真实 fMRI 方差的因果解释。
+
+负值表示该 feature 的贡献序列与 ROI 预测值呈相反方向协方差，常见于共线特征或 suppressor-like 权重；`absolute variance share` 只用于排序，不能加总为 100%。
+
+| Rank | Target ROI | Source schema | Feature | Domain | Lag | Signed variance share | Abs share | Cumulative signed | Schema definition |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | SMG | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 4 | 6.5% | 6.5% | 6.5% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 2 | SMG | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 3 | 5.7% | 5.7% | 12.3% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 3 | SMG | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 5 | 5.0% | 5.0% | 17.3% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 1 | IPL | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 4 | 5.9% | 5.9% | 5.9% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 2 | IPL | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 3 | 5.1% | 5.1% | 11.1% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 3 | IPL | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 5 | 4.7% | 4.7% | 15.8% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 1 | AG | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 4 | 5.2% | 5.2% | 5.2% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 2 | AG | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 5 | 4.3% | 4.3% | 9.5% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 3 | AG | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 3 | 4.3% | 4.3% | 13.8% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 1 | TPJ | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 4 | 4.9% | 4.9% | 4.9% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 2 | TPJ | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 3 | 4.3% | 4.3% | 9.1% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 3 | TPJ | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 5 | 3.8% | 3.8% | 13.0% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 1 | FFA | FFA | recurring_character_recognition | character_identity_tracking | 6 | 2.1% | 2.1% | 2.1% | The re-entry of an established character after an absence, requiring the viewer to retrieve and match their facial identity. |
+| 2 | FFA | PCC | egocentric_spatial_navigation | spatial_environmental_anchoring | 4 | 1.9% | 1.9% | 4.0% | The tracking of characters' physical movements, orientation, and navigation relative to their immediate environment. |
+| 3 | FFA | DLPFC | formal_rule_and_protocol_compliance | rule_and_normative_constraint_integration | 6 | 1.9% | 1.9% | 5.9% | The extent to which characters must navigate, comply with, or enforce explicit, formal rules, laws, regulations, or operational p… |
+| 1 | PCC | VMPFC | emotion_amusement | emotion_experience | 5 | 2.2% | 2.2% | 2.2% | Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements. |
+| 2 | PCC | VMPFC | emotion_amusement | emotion_experience | 4 | 2.1% | 2.1% | 4.3% | Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements. |
+| 3 | PCC | pSTS | locomotion_and_gait_dynamics | biological_motion_and_action_intent_appraisal | 6 | 1.8% | 1.8% | 6.1% | The physical manner of walking, running, or moving through space, conveying intent, urgency, or physical state (e.g., sneaking, s… |
+| 1 | DLPFC | VMPFC | emotion_amusement | emotion_experience | 4 | 3.1% | 3.1% | 3.1% | Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements. |
+| 2 | DLPFC | VMPFC | emotion_amusement | emotion_experience | 5 | 3.0% | 3.0% | 6.1% | Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements. |
+| 3 | DLPFC | VMPFC | emotion_amusement | emotion_experience | 3 | 2.0% | 2.0% | 8.1% | Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements. |
+| 1 | Temporal_Pole | AG | causal_plot_linking | narrative_coherence_integration | 5 | 2.8% | 2.8% | 2.8% | The degree to which the current scene requires the viewer to connect ongoing events to prior plot points, tracking causal chains… |
+| 2 | Temporal_Pole | AG | causal_plot_linking | narrative_coherence_integration | 6 | 2.5% | 2.5% | 5.3% | The degree to which the current scene requires the viewer to connect ongoing events to prior plot points, tracking causal chains… |
+| 3 | Temporal_Pole | AG | causal_plot_linking | narrative_coherence_integration | 4 | 2.2% | 2.2% | 7.4% | The degree to which the current scene requires the viewer to connect ongoing events to prior plot points, tracking causal chains… |
+
 ## Top 8 ROI interpretations
 
 ### SMG
@@ -55,6 +91,7 @@
 - Performance: mean r = `0.296`, median r = `0.298`, retained parcels = `6`.
 - Top source schema: `pSTS` (48.6% of top-|coef| mass); self-schema mass: 33.2%.
 - Strongest absolute feature: `SMG::dialogue_density_and_tempo` (lag 4, domain `verbal_phonological_tracking`, mean |coef| = 0.0294).
+- Largest prediction-variance contributor: `SMG::dialogue_density_and_tempo` (lag 4, signed share = 6.5%).
 
 候选解释：这一 ROI 的当前预测权重主要说明哪些 schema feature 在标准化线性模型中有较强预测贡献。如果 top source schema 不是同名 ROI，应该理解为 cross-schema semantic feature contribution，而不是脑区间因果影响。
 
@@ -88,6 +125,16 @@
 | 4 | pSTS | vocal_prosody_and_emotional_expression | audiovisual_speech_and_communication_integration | 4 | 0.0180 | 0.0233 | 0.50 | The presence and intensity of emotional inflection, tone, pitch, and volume in spoken words (e.g., whispering in fear, shouting i… |
 | 5 | pSTS | vocal_prosody_and_emotional_expression | audiovisual_speech_and_communication_integration | 3 | 0.0168 | 0.0229 | 0.50 | The presence and intensity of emotional inflection, tone, pitch, and volume in spoken words (e.g., whispering in fear, shouting i… |
 
+**Top prediction-variance contributors**
+
+| Rank | Target ROI | Source schema | Feature | Domain | Lag | Signed variance share | Abs share | Cumulative signed | Schema definition |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | SMG | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 4 | 6.5% | 6.5% | 6.5% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 2 | SMG | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 3 | 5.7% | 5.7% | 12.3% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 3 | SMG | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 5 | 5.0% | 5.0% | 17.3% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 4 | SMG | pSTS | vocal_prosody_and_emotional_expression | audiovisual_speech_and_communication_integration | 4 | 4.2% | 4.2% | 21.4% | The presence and intensity of emotional inflection, tone, pitch, and volume in spoken words (e.g., whispering in fear, shouting i… |
+| 5 | SMG | pSTS | visible_speech_and_lip_movement | audiovisual_speech_and_communication_integration | 4 | 4.0% | 4.0% | 25.4% | The visual prominence of a character actively speaking, where their mouth movements, facial expressions, and lip shapes accompany… |
+
 **Representative test examples**
 
 | Direction | Episode | Feature | Lag | Score | Error pct | Time | Source description |
@@ -101,6 +148,7 @@
 - Performance: mean r = `0.283`, median r = `0.239`, retained parcels = `12`.
 - Top source schema: `pSTS` (46.5% of top-|coef| mass); self-schema mass: 4.6%.
 - Strongest absolute feature: `SMG::dialogue_density_and_tempo` (lag 4, domain `verbal_phonological_tracking`, mean |coef| = 0.0252).
+- Largest prediction-variance contributor: `SMG::dialogue_density_and_tempo` (lag 4, signed share = 5.9%).
 
 候选解释：这一 ROI 的当前预测权重主要说明哪些 schema feature 在标准化线性模型中有较强预测贡献。如果 top source schema 不是同名 ROI，应该理解为 cross-schema semantic feature contribution，而不是脑区间因果影响。
 
@@ -134,6 +182,16 @@
 | 4 | pSTS | vocal_prosody_and_emotional_expression | audiovisual_speech_and_communication_integration | 3 | 0.0142 | 0.0179 | 0.67 | The presence and intensity of emotional inflection, tone, pitch, and volume in spoken words (e.g., whispering in fear, shouting i… |
 | 5 | pSTS | vocal_prosody_and_emotional_expression | audiovisual_speech_and_communication_integration | 4 | 0.0140 | 0.0178 | 0.50 | The presence and intensity of emotional inflection, tone, pitch, and volume in spoken words (e.g., whispering in fear, shouting i… |
 
+**Top prediction-variance contributors**
+
+| Rank | Target ROI | Source schema | Feature | Domain | Lag | Signed variance share | Abs share | Cumulative signed | Schema definition |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | IPL | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 4 | 5.9% | 5.9% | 5.9% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 2 | IPL | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 3 | 5.1% | 5.1% | 11.1% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 3 | IPL | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 5 | 4.7% | 4.7% | 15.8% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 4 | IPL | pSTS | vocal_prosody_and_emotional_expression | audiovisual_speech_and_communication_integration | 4 | 3.8% | 3.8% | 19.6% | The presence and intensity of emotional inflection, tone, pitch, and volume in spoken words (e.g., whispering in fear, shouting i… |
+| 5 | IPL | pSTS | visible_speech_and_lip_movement | audiovisual_speech_and_communication_integration | 4 | 3.7% | 3.7% | 23.3% | The visual prominence of a character actively speaking, where their mouth movements, facial expressions, and lip shapes accompany… |
+
 **Representative test examples**
 
 | Direction | Episode | Feature | Lag | Score | Error pct | Time | Source description |
@@ -147,6 +205,7 @@
 - Performance: mean r = `0.270`, median r = `0.239`, retained parcels = `6`.
 - Top source schema: `SMG` (36.0% of top-|coef| mass); self-schema mass: 4.8%.
 - Strongest absolute feature: `SMG::dialogue_density_and_tempo` (lag 4, domain `verbal_phonological_tracking`, mean |coef| = 0.0210).
+- Largest prediction-variance contributor: `SMG::dialogue_density_and_tempo` (lag 4, signed share = 5.2%).
 
 候选解释：这一 ROI 的当前预测权重主要说明哪些 schema feature 在标准化线性模型中有较强预测贡献。如果 top source schema 不是同名 ROI，应该理解为 cross-schema semantic feature contribution，而不是脑区间因果影响。
 
@@ -180,6 +239,16 @@
 | 4 | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 6 | 0.0041 | 0.0151 | 0.50 | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
 | 5 | IPL | goal_directed_action_sequences | action_simulation_and_tool_tracking | 6 | 0.0083 | 0.0135 | 0.83 | Tracking a sequence of physical actions organized to achieve a specific, immediate physical goal. |
 
+**Top prediction-variance contributors**
+
+| Rank | Target ROI | Source schema | Feature | Domain | Lag | Signed variance share | Abs share | Cumulative signed | Schema definition |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | AG | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 4 | 5.2% | 5.2% | 5.2% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 2 | AG | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 5 | 4.3% | 4.3% | 9.5% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 3 | AG | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 3 | 4.3% | 4.3% | 13.8% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 4 | AG | pSTS | vocal_prosody_and_emotional_expression | audiovisual_speech_and_communication_integration | 4 | 3.4% | 3.4% | 17.2% | The presence and intensity of emotional inflection, tone, pitch, and volume in spoken words (e.g., whispering in fear, shouting i… |
+| 5 | AG | pSTS | visible_speech_and_lip_movement | audiovisual_speech_and_communication_integration | 4 | 3.3% | 3.3% | 20.5% | The visual prominence of a character actively speaking, where their mouth movements, facial expressions, and lip shapes accompany… |
+
 **Representative test examples**
 
 | Direction | Episode | Feature | Lag | Score | Error pct | Time | Source description |
@@ -193,6 +262,7 @@
 - Performance: mean r = `0.268`, median r = `0.229`, retained parcels = `20`.
 - Top source schema: `SMG` (37.3% of top-|coef| mass); self-schema mass: 0.0%.
 - Strongest absolute feature: `SMG::dialogue_density_and_tempo` (lag 4, domain `verbal_phonological_tracking`, mean |coef| = 0.0212).
+- Largest prediction-variance contributor: `SMG::dialogue_density_and_tempo` (lag 4, signed share = 4.9%).
 
 候选解释：这一 ROI 的当前预测权重主要说明哪些 schema feature 在标准化线性模型中有较强预测贡献。如果 top source schema 不是同名 ROI，应该理解为 cross-schema semantic feature contribution，而不是脑区间因果影响。
 
@@ -226,6 +296,16 @@
 | 4 | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 2 | 0.0046 | 0.0154 | 0.55 | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
 | 5 | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 6 | 0.0038 | 0.0140 | 0.60 | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
 
+**Top prediction-variance contributors**
+
+| Rank | Target ROI | Source schema | Feature | Domain | Lag | Signed variance share | Abs share | Cumulative signed | Schema definition |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | TPJ | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 4 | 4.9% | 4.9% | 4.9% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 2 | TPJ | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 3 | 4.3% | 4.3% | 9.1% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 3 | TPJ | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 5 | 3.8% | 3.8% | 13.0% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+| 4 | TPJ | pSTS | vocal_prosody_and_emotional_expression | audiovisual_speech_and_communication_integration | 4 | 3.0% | 3.0% | 16.0% | The presence and intensity of emotional inflection, tone, pitch, and volume in spoken words (e.g., whispering in fear, shouting i… |
+| 5 | TPJ | pSTS | visible_speech_and_lip_movement | audiovisual_speech_and_communication_integration | 4 | 2.9% | 2.9% | 18.8% | The visual prominence of a character actively speaking, where their mouth movements, facial expressions, and lip shapes accompany… |
+
 **Representative test examples**
 
 | Direction | Episode | Feature | Lag | Score | Error pct | Time | Source description |
@@ -239,6 +319,7 @@
 - Performance: mean r = `0.252`, median r = `0.276`, retained parcels = `4`.
 - Top source schema: `SMG` (41.9% of top-|coef| mass); self-schema mass: 15.4%.
 - Strongest absolute feature: `AG::metaphorical_conceptual_processing` (lag 6, domain `semantic_schema_and_anomaly_resolution`, mean |coef| = 0.0193).
+- Largest prediction-variance contributor: `FFA::recurring_character_recognition` (lag 6, signed share = 2.1%).
 
 候选解释：这一 ROI 的当前预测权重主要说明哪些 schema feature 在标准化线性模型中有较强预测贡献。如果 top source schema 不是同名 ROI，应该理解为 cross-schema semantic feature contribution，而不是脑区间因果影响。
 
@@ -272,6 +353,16 @@
 | 4 | OFC | strategic_uncertainty_and_suspense | viewer_risk_and_uncertainty_assessment | 6 | 0.0082 | 0.0162 | 0.75 | The unpredictability of outcomes, high-stakes decision-making under uncertainty, or intense suspense regarding what will happen n… |
 | 5 | DLPFC | goal_progress_monitoring | strategic_goal_and_plan_tracking | 6 | 0.0045 | 0.0155 | 0.75 | The viewer's active tracking of a character's progress, setbacks, or adjustments toward a long-term, established objective. |
 
+**Top prediction-variance contributors**
+
+| Rank | Target ROI | Source schema | Feature | Domain | Lag | Signed variance share | Abs share | Cumulative signed | Schema definition |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | FFA | FFA | recurring_character_recognition | character_identity_tracking | 6 | 2.1% | 2.1% | 2.1% | The re-entry of an established character after an absence, requiring the viewer to retrieve and match their facial identity. |
+| 2 | FFA | PCC | egocentric_spatial_navigation | spatial_environmental_anchoring | 4 | 1.9% | 1.9% | 4.0% | The tracking of characters' physical movements, orientation, and navigation relative to their immediate environment. |
+| 3 | FFA | DLPFC | formal_rule_and_protocol_compliance | rule_and_normative_constraint_integration | 6 | 1.9% | 1.9% | 5.9% | The extent to which characters must navigate, comply with, or enforce explicit, formal rules, laws, regulations, or operational p… |
+| 4 | FFA | TPJ | inferring_beliefs_and_knowledge | mental_state_attribution | 5 | 1.7% | 1.7% | 7.7% | The degree to which the viewer must infer what a character believes to be true, or what knowledge they possess or lack, especiall… |
+| 5 | FFA | AG | situational_schema_updating | spatial_temporal_situation_tracking | 6 | 1.7% | 1.7% | 9.4% | Updating the situational frame of reference during scene cuts, transitions, or sudden shifts in setting, environment, or context. |
+
 **Representative test examples**
 
 | Direction | Episode | Feature | Lag | Score | Error pct | Time | Source description |
@@ -285,6 +376,7 @@
 - Performance: mean r = `0.239`, median r = `0.231`, retained parcels = `6`.
 - Top source schema: `SMG` (31.9% of top-|coef| mass); self-schema mass: 0.0%.
 - Strongest absolute feature: `SMG::tactile_and_somatic_contact` (lag 6, domain `somatic_and_pain_resonance`, mean |coef| = 0.0176).
+- Largest prediction-variance contributor: `VMPFC::emotion_amusement` (lag 5, signed share = 2.2%).
 
 候选解释：这一 ROI 的当前预测权重主要说明哪些 schema feature 在标准化线性模型中有较强预测贡献。如果 top source schema 不是同名 ROI，应该理解为 cross-schema semantic feature contribution，而不是脑区间因果影响。
 
@@ -318,6 +410,16 @@
 | 4 | VMPFC | emotion_amusement | emotion_experience | 6 | -0.0006 | 0.0157 | 0.50 | Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements. |
 | 5 | VMPFC | emotion_amusement | emotion_experience | 4 | -0.0084 | 0.0153 | 0.50 | Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements. |
 
+**Top prediction-variance contributors**
+
+| Rank | Target ROI | Source schema | Feature | Domain | Lag | Signed variance share | Abs share | Cumulative signed | Schema definition |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | PCC | VMPFC | emotion_amusement | emotion_experience | 5 | 2.2% | 2.2% | 2.2% | Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements. |
+| 2 | PCC | VMPFC | emotion_amusement | emotion_experience | 4 | 2.1% | 2.1% | 4.3% | Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements. |
+| 3 | PCC | pSTS | locomotion_and_gait_dynamics | biological_motion_and_action_intent_appraisal | 6 | 1.8% | 1.8% | 6.1% | The physical manner of walking, running, or moving through space, conveying intent, urgency, or physical state (e.g., sneaking, s… |
+| 4 | PCC | SMG | tactile_and_somatic_contact | somatic_and_pain_resonance | 5 | 1.8% | 1.8% | 7.9% | The focus on physical touch, textures, temperature extremes, skin-to-skin contact, or intense somatic sensations. |
+| 5 | PCC | SMG | tactile_and_somatic_contact | somatic_and_pain_resonance | 4 | 1.6% | 1.6% | 9.5% | The focus on physical touch, textures, temperature extremes, skin-to-skin contact, or intense somatic sensations. |
+
 **Representative test examples**
 
 | Direction | Episode | Feature | Lag | Score | Error pct | Time | Source description |
@@ -331,6 +433,7 @@
 - Performance: mean r = `0.232`, median r = `0.208`, retained parcels = `10`.
 - Top source schema: `SMG` (30.1% of top-|coef| mass); self-schema mass: 0.0%.
 - Strongest absolute feature: `VMPFC::emotion_amusement` (lag 4, domain `emotion_experience`, mean |coef| = 0.0204).
+- Largest prediction-variance contributor: `VMPFC::emotion_amusement` (lag 4, signed share = 3.1%).
 
 候选解释：这一 ROI 的当前预测权重主要说明哪些 schema feature 在标准化线性模型中有较强预测贡献。如果 top source schema 不是同名 ROI，应该理解为 cross-schema semantic feature contribution，而不是脑区间因果影响。
 
@@ -364,6 +467,16 @@
 | 4 | VMPFC | emotion_amusement | emotion_experience | 3 | 0.0102 | 0.0152 | 0.70 | Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements. |
 | 5 | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 6 | 0.0133 | 0.0133 | 1.00 | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
 
+**Top prediction-variance contributors**
+
+| Rank | Target ROI | Source schema | Feature | Domain | Lag | Signed variance share | Abs share | Cumulative signed | Schema definition |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | DLPFC | VMPFC | emotion_amusement | emotion_experience | 4 | 3.1% | 3.1% | 3.1% | Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements. |
+| 2 | DLPFC | VMPFC | emotion_amusement | emotion_experience | 5 | 3.0% | 3.0% | 6.1% | Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements. |
+| 3 | DLPFC | VMPFC | emotion_amusement | emotion_experience | 3 | 2.0% | 2.0% | 8.1% | Inferred feeling of lighthearted humor, playfulness, or laughter triggered by funny, absurd, or witty narrative elements. |
+| 4 | DLPFC | SMG | verbal_working_memory_load | verbal_phonological_tracking | 6 | 2.0% | 2.0% | 10.1% | The cognitive complexity of the spoken language, requiring the listener (and viewer) to hold complex verbal information, technica… |
+| 5 | DLPFC | SMG | dialogue_density_and_tempo | verbal_phonological_tracking | 6 | 1.9% | 1.9% | 12.0% | The density, speed, and overall tempo of spoken dialogue or narration in the scene. |
+
 **Representative test examples**
 
 | Direction | Episode | Feature | Lag | Score | Error pct | Time | Source description |
@@ -377,6 +490,7 @@
 - Performance: mean r = `0.214`, median r = `0.215`, retained parcels = `4`.
 - Top source schema: `VMPFC` (18.6% of top-|coef| mass); self-schema mass: 13.1%.
 - Strongest absolute feature: `VMPFC::emotion_amusement` (lag 6, domain `emotion_experience`, mean |coef| = 0.0200).
+- Largest prediction-variance contributor: `AG::causal_plot_linking` (lag 5, signed share = 2.8%).
 
 候选解释：这一 ROI 的当前预测权重主要说明哪些 schema feature 在标准化线性模型中有较强预测贡献。如果 top source schema 不是同名 ROI，应该理解为 cross-schema semantic feature contribution，而不是脑区间因果影响。
 
@@ -410,6 +524,16 @@
 | 4 | AG | causal_plot_linking | narrative_coherence_integration | 6 | 0.0063 | 0.0151 | 0.50 | The degree to which the current scene requires the viewer to connect ongoing events to prior plot points, tracking causal chains… |
 | 5 | AG | causal_plot_linking | narrative_coherence_integration | 5 | 0.0098 | 0.0139 | 0.50 | The degree to which the current scene requires the viewer to connect ongoing events to prior plot points, tracking causal chains… |
 
+**Top prediction-variance contributors**
+
+| Rank | Target ROI | Source schema | Feature | Domain | Lag | Signed variance share | Abs share | Cumulative signed | Schema definition |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Temporal_Pole | AG | causal_plot_linking | narrative_coherence_integration | 5 | 2.8% | 2.8% | 2.8% | The degree to which the current scene requires the viewer to connect ongoing events to prior plot points, tracking causal chains… |
+| 2 | Temporal_Pole | AG | causal_plot_linking | narrative_coherence_integration | 6 | 2.5% | 2.5% | 5.3% | The degree to which the current scene requires the viewer to connect ongoing events to prior plot points, tracking causal chains… |
+| 3 | Temporal_Pole | AG | causal_plot_linking | narrative_coherence_integration | 4 | 2.2% | 2.2% | 7.4% | The degree to which the current scene requires the viewer to connect ongoing events to prior plot points, tracking causal chains… |
+| 4 | Temporal_Pole | IPL | cross_scene_causal_linking | narrative_causal_integration | 5 | 1.9% | 1.9% | 9.3% | Connecting current events to past occurrences or future consequences in the plot to maintain narrative coherence. |
+| 5 | Temporal_Pole | IPL | cross_scene_causal_linking | narrative_causal_integration | 6 | 1.8% | 1.8% | 11.1% | Connecting current events to past occurrences or future consequences in the plot to maintain narrative coherence. |
+
 **Representative test examples**
 
 | Direction | Episode | Feature | Lag | Score | Error pct | Time | Source description |
@@ -421,6 +545,7 @@
 ## Cross-ROI notes
 
 - `source schema contribution` 图只统计每个 target ROI 的 top-20 absolute features；它适合看解释主导来源，不适合当作全特征空间的严格方差分解。
+- `prediction variance decomposition` 是全特征空间上的 signed decomposition；表中只展示每个 ROI 排名靠前的 contributor。
 - `lag distribution` 同样基于 top-20 absolute features；当前 lags 为 2-6 TR，对应约 3.0-8.9 秒的过去语义信息。
 - sign consistency 低的 feature 表示它在同一 ROI 的不同 parcels 上方向不一致；这类 feature 可称为强但异质，不应写成统一的 ROI-level direction。
 
@@ -438,6 +563,7 @@
 - `tables/top_positive_weights.csv`
 - `tables/top_negative_weights.csv`
 - `tables/top_absolute_weights.csv`
+- `tables/variance_decomposition.csv`
 - `tables/source_schema_contribution.csv`
 - `tables/lag_distribution.csv`
 - `tables/representative_test_examples.csv`
